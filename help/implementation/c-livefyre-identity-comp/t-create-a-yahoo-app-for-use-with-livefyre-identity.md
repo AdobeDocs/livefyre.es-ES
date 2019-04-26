@@ -10,7 +10,7 @@ solution: Experience Manager
 title: Cree un Yahoo! Aplicación para su uso con identidad de Livefyre
 uuid: 6863 cd 2 e-eb 0 d -465 b-b 706-88 ecaccf 41 bc
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

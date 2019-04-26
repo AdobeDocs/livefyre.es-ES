@@ -4,7 +4,7 @@ seo-description: Últimas notas de la versión de Adobe Livefyre.
 seo-title: Últimas notas de la versión de Adobe Livefyre
 title: Últimas notas de la versión de Livefyre
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 5fce2796795e855504cfbaf18328704484d89fa6
 
 ---
 

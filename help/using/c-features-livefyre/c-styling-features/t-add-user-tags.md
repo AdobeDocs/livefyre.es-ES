@@ -7,7 +7,7 @@ seo-title: Agregar etiquetas de usuario a una cuenta
 title: Agregar etiquetas de usuario a una cuenta
 uuid: 737907 ff -4958-489 d-acef-fab 531 ebd 526
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

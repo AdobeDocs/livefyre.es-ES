@@ -10,7 +10,7 @@ solution: Experience Manager
 title: Crear una aplicación de Twitter para usarla con la identidad de Livefyre
 uuid: 841 cce 7 c -618 d -4154-85 a 3-1 de 96 d 04 bb 69
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

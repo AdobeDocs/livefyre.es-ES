@@ -8,7 +8,7 @@ solution: Experience Manager
 title: Funciones de blog en directo
 uuid: 5 a 9 fede 3-e 150-4655-b 5 e 1-3 ddaee 9 a 6 ba 1
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
