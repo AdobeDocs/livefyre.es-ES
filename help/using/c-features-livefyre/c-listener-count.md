@@ -1,8 +1,6 @@
 ---
-description: El recuento de oyentes es un contador que rastrea el número de visitantes
-  del sitio para una aplicación en una página y muestra este número.
-seo-description: El recuento de oyentes es un contador que rastrea el número de visitantes
-  del sitio para una aplicación en una página y muestra este número.
+description: El recuento de oyentes es un contador que rastrea el número de visitantes del sitio para una aplicación en una página y muestra este número.
+seo-description: El recuento de oyentes es un contador que rastrea el número de visitantes del sitio para una aplicación en una página y muestra este número.
 seo-title: Recuento de oyentes
 solution: Experience Manager
 title: Recuento de oyentes

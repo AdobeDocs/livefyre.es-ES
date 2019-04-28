@@ -1,8 +1,6 @@
 ---
-description: Este método devuelve la URL de esta colección. Debe ejecutar createorupdate
-  () antes de ejecutar este método.
-seo-description: Este método devuelve la URL de esta colección. Debe ejecutar createorupdate
-  () antes de ejecutar este método.
+description: Este método devuelve la URL de esta colección. Debe ejecutar createorupdate () antes de ejecutar este método.
+seo-description: Este método devuelve la URL de esta colección. Debe ejecutar createorupdate () antes de ejecutar este método.
 seo-title: Geturn Collection Method
 solution: Experience Manager
 title: Geturn Collection Method

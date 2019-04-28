@@ -1,8 +1,6 @@
 ---
-description: Puede seleccionar contenido para su función desde Studio en lugar de
-  desde una aplicación.
-seo-description: Puede seleccionar contenido para su función desde Studio en lugar
-  de desde una aplicación.
+description: Puede seleccionar contenido para su función desde Studio en lugar de desde una aplicación.
+seo-description: Puede seleccionar contenido para su función desde Studio en lugar de desde una aplicación.
 seo-title: Seleccionar contenido para la función desde Studio
 solution: Experience Manager
 title: Seleccionar contenido para la función desde Studio

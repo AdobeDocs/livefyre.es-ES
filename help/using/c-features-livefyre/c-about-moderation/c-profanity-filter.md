@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: Uso del filtro de profanidad
 solution: Experience Manager
 title: Uso del filtro de profanidad
@@ -29,13 +29,13 @@ Habilite y configure el filtro de profanidad tanto en la red como en el sitio. D
 
 >[!NOTE]
 >
->Todo el contenido que pasa por Livefyre está marcado como profanidad. Si se encuentra contenido que incluye palabras contenidas en la lista de profanidad SAFE predeterminada o en la lista de Profanity personalizada, se marcará como «Profanity. »» Para configurar Livefyre para que tome medidas automáticamente sobre estos elementos, vaya **[!UICONTROL Enable Profanity Checking]****[!UICONTROL ON]**a.
+>Todo el contenido que pasa por Livefyre está marcado como profanidad. Si se encuentra contenido que incluye palabras contenidas en la lista de profanidad SAFE predeterminada o en la lista de Profanity personalizada, se marcará como «Profanity. »» Para configurar Livefyre para que tome medidas automáticamente sobre estos elementos, vaya **[!UICONTROL Enable Profanity Checking]****[!UICONTROL ON]** a.
 
 ## Habilitar el filtro de profanidad para una red {#section_twd_ssk_f1b}
 
 1. Seleccione **[!UICONTROL Network]** en el menú desplegable de red.
-1. Vaya **[!UICONTROL Settings > Network Settings > Moderation]**a.
-1. Desplácese hacia abajo **[!UICONTROL Profanity List]**hasta **[!UICONTROL Enable Profanity Checking]****[!UICONTROL ON]**llegar a.
+1. Vaya **[!UICONTROL Settings > Network Settings > Moderation]** a.
+1. Desplácese hacia abajo **[!UICONTROL Profanity List]** hasta **[!UICONTROL Enable Profanity Checking]****[!UICONTROL ON]** llegar a.
 
 1. Utilice **[!UICONTROL Update Network Profanity List]** el campo para agregar palabras a la lista o haga clic en una palabra para quitarla de la lista.
 
@@ -46,7 +46,7 @@ Habilite y configure el filtro de profanidad tanto en la red como en el sitio. D
 ## Habilitar el filtro de profanidad para un sitio {#section_fld_wsk_f1b}
 
 1. Seleccione el sitio en el menú desplegable de red.
-1. Vaya **[!UICONTROL Settings > Site Settings > Moderation]**a.
+1. Vaya **[!UICONTROL Settings > Site Settings > Moderation]** a.
 1. Desplácese hasta el **[!UICONTROL Profanity List]** y defina **[!UICONTROL Enable Profanity Checking]** en **[!UICONTROL ON]**.
 
 1. Elija una de las siguientes opciones:
@@ -59,15 +59,15 @@ Habilite y configure el filtro de profanidad tanto en la red como en el sitio. D
       * To add a word, type the word into the **[!UICONTROL Add new word]** box and hit **[!UICONTROL Return]**.
 
       * Para ver si una palabra se incluye en la lista, escriba la palabra en **[!UICONTROL Test profanity filter]** el cuadro.
-   * Para volver a importar la lista de profanidad de red y aplicarla al sitio, haga clic **[!UICONTROL Restore Network List]**en.
-   * Para borrar todo el contenido de la lista y empezar desde cero, haga clic **[!UICONTROL Clear List]**en.
+   * Para volver a importar la lista de profanidad de red y aplicarla al sitio, haga clic **[!UICONTROL Restore Network List]** en.
+   * Para borrar todo el contenido de la lista y empezar desde cero, haga clic **[!UICONTROL Clear List]** en.
 
 
 ## Trabajar con contenido que contiene profanidad {#section_epy_dtk_f1b}
 
 Utilice la Lista de profanidad para filtrar las búsquedas de contenido y crear reglas de premoderación para modq.
 
-Para buscar contenido que contenga profanidad, vaya a **[!UICONTROL Library > App Content]**la **[!UICONTROL Filter by Flags]** casilla de verificación y marque la **[!UICONTROL Profanity]** casilla. Se mostrará todo el contenido que haya capturado el filtro de profanidad para el sitio o la red seleccionada. Esta lista incluirá contenido extraído en la aplicación con socialsync y Flujos.
+Para buscar contenido que contenga profanidad, vaya a **[!UICONTROL Library > App Content]** la **[!UICONTROL Filter by Flags]** casilla de verificación y marque la **[!UICONTROL Profanity]** casilla. Se mostrará todo el contenido que haya capturado el filtro de profanidad para el sitio o la red seleccionada. Esta lista incluirá contenido extraído en la aplicación con socialsync y Flujos.
 
 Para crear reglas de premoderación, seleccione Estudio **[!UICONTROL Settings > Network Settings > Moderation]**. Una vez habilitado el filtro de profanidad, aparecerá una nueva regla que le permitirá marcar o premoderar contenido que contenga profanidad. De forma predeterminada, esta regla habilita **[!UICONTROL Premoderate]** automáticamente el contenido profane, que puede cambiarse a **[!UICONTROL Trash it]** o **[!UICONTROL Bozo it]**.
 
@@ -77,7 +77,7 @@ Para crear reglas de premoderación, seleccione Estudio **[!UICONTROL Settings >
 
 ## Ver y actualizar la lista de profanidad de una red {#section_qdb_btk_f1b}
 
-1. Vaya **[!UICONTROL Settings > Network Settings > Moderation]**a.
+1. Vaya **[!UICONTROL Settings > Network Settings > Moderation]** a.
 1. Desplácese hacia abajo hasta **[!UICONTROL Profanity List]** la sección.
 1. Configúrelo para **[!UICONTROL Enable Profanity Checking]****[!UICONTROL On]** mostrar la lista habilitada para su red (predeterminada de Livefyre o la lista personalizada cargada) y edítela. Puede editar la lista de las siguientes maneras:
    * Para eliminar una palabra, haga clic en la palabra.

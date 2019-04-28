@@ -23,7 +23,7 @@ Este SDK de Livefyre Android se puede utilizar tanto en Eclipse como en Android 
 
 >[!NOTE]
 >
->Antes de instalar el SDK para Android Android, debe tener instalado [el SDK](https://developer.android.com/sdk/index.html) para Android en su entorno. También debe incluir algunos paquetes de SDK para Android adicionales, como se describe en los documentos de desarrollador de Android >.
+>Antes de instalar el SDK para Android Android, debe tener instalado [el SDK](https://developer.android.com/sdk/index.html) para Android en su entorno. También debe incluir algunos paquetes de SDK para Android adicionales, como se describe en los documentos de desarrollador de Android &gt;.
 >[Adición de paquetes de SDK](https://developer.android.com/sdk/installing/adding-packages.html)
 
 Utilice el SDK de Android (disponible desde la barra de herramientas de Android Studio o Eclipse) para instalar todos los paquetes recomendados. Asegúrese de incluir también el repositorio de soporte de Android.
@@ -34,7 +34,7 @@ Para agregar el SDK de Livefyre Android al proyecto en Eclipse:
 
 1. Obtenga la última [versión de streamhub-Android SDK](https://github.com/Livefyre/StreamHub-Android-SDK) desde github.
 1. Comience con un proyecto existente o cree uno nuevo.
-1. Para importar el SDK de streamhub-Android en su espacio de trabajo, vaya **[!UICONTROL File > Import > General > Existing Project into Workspace]**a.
+1. Para importar el SDK de streamhub-Android en su espacio de trabajo, vaya **[!UICONTROL File > Import > General > Existing Project into Workspace]** a.
 1. Examinar y seleccionar streamhub-Android-SDK; debería mostrarse en el explorador del paquete.
 1. Haga clic con el botón derecho en el proyecto y seleccione **[!UICONTROL Properties,]** la ficha Android.
 1. En la sección Biblioteca, seleccione **[!UICONTROL Add button,]** a continuación streamhub-Android-SDK desde la lista de bibliotecas.
@@ -54,13 +54,13 @@ Para agregar el SDK de Livefyre Android al proyecto en Android Studio:
 
 Android Studio puede solicitar que convierta el SDK a la versión de gradle; Si esto sucede, seleccione **[!UICONTROL next]** entonces **[!UICONTROL finish]**.
 
-Vaya a **la carpeta de proyecto > carpeta de la aplicación > build. gradle** , en dependencias para agregar la siguiente dependencia:
+Vaya a **la carpeta de proyecto &gt; carpeta de la aplicación &gt; build. gradle** , en dependencias para agregar la siguiente dependencia:
 
 ```
 dependencies {   compile project(':streamHubAndroidSDK') } 
 ```
 
-Asegúrese de que la línea siguiente se encuentra en el archivo de la carpeta **de proyecto > settings. grade** :
+Asegúrese de que la línea siguiente se encuentra en el archivo de la carpeta **de proyecto &gt; settings. grade** :
 
 ```
 include ':streamHubAndroidSDK' 

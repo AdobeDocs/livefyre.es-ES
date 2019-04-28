@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: Aplicación de un conjunto de traducción a un sitio
 solution: Experience Manager
 title: Aplicación de un conjunto de traducción a un sitio
@@ -19,5 +19,5 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 1. Seleccione un Sitio.
 1. Seleccione Configuración del sitio.
 1. Seleccione Configuración de aplicación.
-1. Vaya a Configuración predeterminada > Conjunto de traducción.
+1. Vaya a Configuración predeterminada &gt; Conjunto de traducción.
 1. Seleccione un conjunto de traducción en el menú desplegable.

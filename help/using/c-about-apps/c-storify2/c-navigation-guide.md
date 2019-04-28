@@ -1,8 +1,6 @@
 ---
-description: La Guía de navegación proporciona a la audiencia una manera de identificar
-  y localizar rápidamente información clave en Storify.
-seo-description: La Guía de navegación proporciona a la audiencia una manera de identificar
-  y localizar rápidamente información clave en Storify.
+description: La Guía de navegación proporciona a la audiencia una manera de identificar y localizar rápidamente información clave en Storify.
+seo-description: La Guía de navegación proporciona a la audiencia una manera de identificar y localizar rápidamente información clave en Storify.
 seo-title: Guía de navegación
 solution: Experience Manager
 title: Guía de navegación

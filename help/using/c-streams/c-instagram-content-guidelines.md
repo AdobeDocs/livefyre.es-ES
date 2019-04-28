@@ -1,8 +1,6 @@
 ---
-description: Al depurar contenido de Instagram, debe seguir sus directrices y prácticas
-  recomendadas.
-seo-description: Al depurar contenido de Instagram, debe seguir sus directrices y
-  prácticas recomendadas.
+description: Al depurar contenido de Instagram, debe seguir sus directrices y prácticas recomendadas.
+seo-description: Al depurar contenido de Instagram, debe seguir sus directrices y prácticas recomendadas.
 seo-title: Pautas de contenido de Instagram
 solution: Experience Manager
 title: Pautas de contenido de Instagram

@@ -1,7 +1,6 @@
 ---
 description: Cambie las opciones de tamaño, ancho e interacción de la aplicación Mosaic.
-seo-description: Cambie las opciones de tamaño, ancho e interacción de la aplicación
-  Mosaic.
+seo-description: Cambie las opciones de tamaño, ancho e interacción de la aplicación Mosaic.
 seo-title: Personalizaciones de mosaico
 solution: Experience Manager
 title: Personalizaciones de mosaico
@@ -16,7 +15,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Cambie las opciones de tamaño, ancho e interacción de la aplicación Mosaic.
 
-Todas las **[!UICONTROL Style]** aplicaciones usan **[!UICONTROL Config]** y opciones en **[!UICONTROL App Designer]**la. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en la **[!UICONTROL App Designer.]**
+Todas las **[!UICONTROL Style]** aplicaciones usan **[!UICONTROL Config]** y opciones en **[!UICONTROL App Designer]** la. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en la **[!UICONTROL App Designer.]**
 
 Puede personalizar Mosaic con las siguientes opciones adicionales en App Designer:
 
@@ -42,9 +41,9 @@ Puede personalizar Mosaic con las siguientes opciones adicionales en App Designe
    * **[!UICONTROL Show call-to-action in tile]**. Elija si desea mostrar el botón llamada a acción en un mosaico Tira de película en lugar de mostrar el botón de llamada a acción solo cuando el visitante del sitio haga clic en una tarjeta y abre el contenido en una ventana más grande.
    * **[!UICONTROL Call-to-action indication text]** Texto que se muestra para pedir al usuario que haga clic en la tarjeta para abrir el modal de llamada a acción.
 
-   * **[!UICONTROL Call-to-action header text]** Palabras que se mostrarán en el encabezado sobre el botón Llamada a acción en el modal. La redacción predeterminada es "Buy these products: ".
+   * **[!UICONTROL Call-to-action header text]** Palabras que se mostrarán en el encabezado sobre el botón Llamada a acción en el modal. La redacción predeterminada es &quot;Buy these products: &quot;.
 
-   * **[!UICONTROL Call-to-action button text]** Personalice el texto del botón Llamada a acción. El texto predeterminado es "Buy Now".
+   * **[!UICONTROL Call-to-action button text]** Personalice el texto del botón Llamada a acción. El texto predeterminado es &quot;Buy Now&quot;.
 
    * **[!UICONTROL Product display options]** Elija si desea mostrar el **[!UICONTROL Photo]** botón y el **[!UICONTROL Product name]** de llamada a acción.
 

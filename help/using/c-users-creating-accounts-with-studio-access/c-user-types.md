@@ -1,8 +1,6 @@
 ---
-description: Livefyre proporciona varios tipos de usuarios con distintos niveles de
-  permisos.
-seo-description: Livefyre proporciona varios tipos de usuarios con distintos niveles
-  de permisos.
+description: Livefyre proporciona varios tipos de usuarios con distintos niveles de permisos.
+seo-description: Livefyre proporciona varios tipos de usuarios con distintos niveles de permisos.
 seo-title: Funciones y permisos de usuario
 solution: Experience Manager
 title: Funciones y permisos de usuario

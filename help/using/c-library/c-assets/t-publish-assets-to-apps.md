@@ -1,8 +1,6 @@
 ---
-description: Publique recursos guardados en sus aplicaciones de Livefyre desde la
-  biblioteca.
-seo-description: Publique recursos guardados en sus aplicaciones de Livefyre desde
-  la biblioteca.
+description: Publique recursos guardados en sus aplicaciones de Livefyre desde la biblioteca.
+seo-description: Publique recursos guardados en sus aplicaciones de Livefyre desde la biblioteca.
 seo-title: Publicar recursos en aplicaciones
 solution: Experience Manager
 title: Publicar recursos en aplicaciones
@@ -25,6 +23,6 @@ Puede publicar elementos individuales o múltiples desde la ficha Búsqueda soci
 
 1. Busque Recursos dentro de la biblioteca.
 1. Seleccione los recursos que desee publicar en el sitio.
-1. Haga clic **[!UICONTROL Publish]**en.
+1. Haga clic **[!UICONTROL Publish]** en.
 
    Se abre **[!UICONTROL Publish to App]** el cuadro de diálogo .1. Seleccione la aplicación a la que desea publicar los recursos seleccionados.

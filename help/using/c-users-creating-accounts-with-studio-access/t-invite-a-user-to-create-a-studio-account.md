@@ -1,8 +1,6 @@
 ---
-description: Los administradores y administradores de studio pueden invitar a usuarios
-  nuevos o existentes a crear una cuenta de Studio.
-seo-description: Los administradores y administradores de studio pueden invitar a
-  usuarios nuevos o existentes a crear una cuenta de Studio.
+description: Los administradores y administradores de studio pueden invitar a usuarios nuevos o existentes a crear una cuenta de Studio.
+seo-description: Los administradores y administradores de studio pueden invitar a usuarios nuevos o existentes a crear una cuenta de Studio.
 seo-title: Invitar a un usuario a crear una cuenta de Studio
 solution: Experience Manager
 title: Invitar a un usuario a crear una cuenta de Studio
@@ -29,6 +27,6 @@ El administrador técnico de Livefyre para su red envía la primera invitación 
 
 1. Desde **[!UICONTROL Users]** la página, haga clic en **[!UICONTROL Invite to Studio.]**
 1. En **[!UICONTROL Invite user]** el cuadro de diálogo que se abre, seleccione **[!UICONTROL Existing User]** o **[!UICONTROL New User]**.
-1. Para invitar a un usuario existente, introduzca un **[!UICONTROL Username]**, **[!UICONTROL User ID]**o **[!UICONTROL Email Address]** en los campos provistos. Para invitar a un usuario nuevo, introduzca **[!UICONTROL Email address]**un.
+1. Para invitar a un usuario existente, introduzca un **[!UICONTROL Username]**, **[!UICONTROL User ID]** o **[!UICONTROL Email Address]** en los campos provistos. Para invitar a un usuario nuevo, introduzca **[!UICONTROL Email address]** un.
 1. Haga clic en **[!UICONTROL Add message]** para introducir una invitación personalizada, si lo desea.
 1. Seleccione el nivel de acceso para la nueva cuenta y haga clic **[!UICONTROL Invite]** en para enviar la invitación.

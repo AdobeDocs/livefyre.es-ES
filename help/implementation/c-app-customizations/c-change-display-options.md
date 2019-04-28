@@ -1,8 +1,6 @@
 ---
-description: Personalice las opciones de visualización de la aplicación para que coincidan
-  con su marca y estilo.
-seo-description: Personalice las opciones de visualización de la aplicación para que
-  coincidan con su marca y estilo.
+description: Personalice las opciones de visualización de la aplicación para que coincidan con su marca y estilo.
+seo-description: Personalice las opciones de visualización de la aplicación para que coincidan con su marca y estilo.
 seo-title: Cambiar opciones de visualización
 solution: Experience Manager
 title: Cambiar opciones de visualización

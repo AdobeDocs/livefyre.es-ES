@@ -1,10 +1,6 @@
 ---
-description: Devuelve un objeto de colección creado como tipo de clasificaciones.
-  Ejecute crear_ o_ update () desde el objeto Colección para completar el proceso
-  de creación.
-seo-description: Devuelve un objeto de colección creado como tipo de clasificaciones.
-  Ejecute crear_ o_ update () desde el objeto Colección para completar el proceso
-  de creación.
+description: Devuelve un objeto de colección creado como tipo de clasificaciones. Ejecute crear_ o_ update () desde el objeto Colección para completar el proceso de creación.
+seo-description: Devuelve un objeto de colección creado como tipo de clasificaciones. Ejecute crear_ o_ update () desde el objeto Colección para completar el proceso de creación.
 seo-title: Método del sitio de recopilación de buildratingscollection
 title: Método del sitio de recopilación de buildratingscollection
 uuid: 5 eea 2 ba 3-48 e 1-4 cd 2-aa 73-ea 81788 af 1 df

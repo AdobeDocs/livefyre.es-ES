@@ -1,8 +1,6 @@
 ---
-description: Livefyre. js es una pequeña biblioteca base que proporciona autenticación
-  para aplicaciones en el sitio.
-seo-description: Livefyre. js es una pequeña biblioteca base que proporciona autenticación
-  para aplicaciones en el sitio.
+description: Livefyre. js es una pequeña biblioteca base que proporciona autenticación para aplicaciones en el sitio.
+seo-description: Livefyre. js es una pequeña biblioteca base que proporciona autenticación para aplicaciones en el sitio.
 seo-title: Agregar Livefyre. js a la página
 title: Agregar Livefyre. js a la página
 uuid: fe 52446 e -4911-4160-a 68 c -7413 e 9 bc 6222

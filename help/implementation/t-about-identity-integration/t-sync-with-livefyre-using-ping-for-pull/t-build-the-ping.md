@@ -1,8 +1,6 @@
 ---
-description: Genere el ping para que sus pings de página sean Livefyre cuando los
-  usuarios actualicen su perfil.
-seo-description: Genere el ping para que sus pings de página sean Livefyre cuando
-  los usuarios actualicen su perfil.
+description: Genere el ping para que sus pings de página sean Livefyre cuando los usuarios actualicen su perfil.
+seo-description: Genere el ping para que sus pings de página sean Livefyre cuando los usuarios actualicen su perfil.
 seo-title: Generar el ping
 solution: Experience Manager
 title: Generar el ping

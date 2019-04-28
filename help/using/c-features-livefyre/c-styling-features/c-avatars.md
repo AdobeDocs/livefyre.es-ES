@@ -1,8 +1,6 @@
 ---
-description: Permita que los usuarios personalicen la imagen que se muestra con su
-  contenido.
-seo-description: Permita que los usuarios personalicen la imagen que se muestra con
-  su contenido.
+description: Permita que los usuarios personalicen la imagen que se muestra con su contenido.
+seo-description: Permita que los usuarios personalicen la imagen que se muestra con su contenido.
 seo-title: Avatars
 title: Avatars
 uuid: bf 20 f 3 bc -3 dcc -4 e 16-a 629-3380 d 1 a 7 a 3 f 2

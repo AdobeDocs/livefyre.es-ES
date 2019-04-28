@@ -1,8 +1,6 @@
 ---
-description: Utilice la búsqueda social para buscar contenido de Twitter que desee
-  incluir en la biblioteca de recursos o publicar en aplicaciones.
-seo-description: Utilice la búsqueda social para buscar contenido de Twitter que desee
-  incluir en la biblioteca de recursos o publicar en aplicaciones.
+description: Utilice la búsqueda social para buscar contenido de Twitter que desee incluir en la biblioteca de recursos o publicar en aplicaciones.
+seo-description: Utilice la búsqueda social para buscar contenido de Twitter que desee incluir en la biblioteca de recursos o publicar en aplicaciones.
 seo-title: Buscar contenido de Twitter
 title: Buscar contenido de Twitter
 uuid: 7 e 36 cc 1 f -7 dce -446 b -84 b 6-22939 e 8 dcaf 5
@@ -20,7 +18,7 @@ Puede guardar y reutilizar las búsquedas. Haga clic en la barra de búsqueda pa
 
 Al agregar recursos nuevos a la biblioteca, los recursos que ya se incluyen en la biblioteca se marcan con una marca de verificación.
 
-1. Vaya **[!UICONTROL Social Search]**a.
+1. Vaya **[!UICONTROL Social Search]** a.
 1. Seleccione **[!UICONTROL Twitter]** para buscar contenido de Twitter.
 1. Escriba una palabra clave, # hashtag o @ person. Puede seleccionar un tipo de búsqueda en el menú desplegable derecho de la barra de búsqueda para restringir la búsqueda.
 
@@ -30,7 +28,7 @@ Al agregar recursos nuevos a la biblioteca, los recursos que ya se incluyen en l
 
 1. Después de escribir los criterios de búsqueda, haga clic **[!UICONTROL Show Filter]** para restringir la búsqueda.
 
-   * **[!UICONTROL Sort By:]** le permite seleccionar si desea ordenar los resultados devueltos, **[!UICONTROL Recently Added]**o **[!UICONTROL Most Popular]**.
+   * **[!UICONTROL Sort By:]** le permite seleccionar si desea ordenar los resultados devueltos, **[!UICONTROL Recently Added]** o **[!UICONTROL Most Popular]**.
 
    * **[!UICONTROL Only Include:]** le permite limitar el contenido devuelto a solo aquello que incluye **[!UICONTROL Links]** o **[!UICONTROL Media]**.
 
@@ -44,4 +42,4 @@ Al agregar recursos nuevos a la biblioteca, los recursos que ya se incluyen en l
 
 >= Los resultados devueltos se enumerarán desde la más reciente a la menos.
 
-Los elementos que coincidan con la búsqueda se muestran en una vista de cuadrícula. Pase el ratón sobre un elemento, **[!UICONTROL View Details]**añádalo a su biblioteca de recursos o **[!UICONTROL Publish]** a una aplicación.
+Los elementos que coincidan con la búsqueda se muestran en una vista de cuadrícula. Pase el ratón sobre un elemento, **[!UICONTROL View Details]** añádalo a su biblioteca de recursos o **[!UICONTROL Publish]** a una aplicación.

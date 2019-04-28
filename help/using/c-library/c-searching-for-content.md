@@ -21,5 +21,5 @@ La información devuelta mostrará un resumen de la tarjeta de la página, inclu
 
 >[!NOTE]
 >
->Para las búsquedas de Instagram con el campo URL, el autor se devuelve como "Instagram".
+>Para las búsquedas de Instagram con el campo URL, el autor se devuelve como &quot;Instagram&quot;.
 

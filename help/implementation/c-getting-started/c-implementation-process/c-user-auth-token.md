@@ -1,10 +1,6 @@
 ---
-description: Esta sección describe cómo generar el objeto JSON userauth que crea el
-  testigo Autenticación de usuario necesario para registrar a los usuarios en sus
-  aplicaciones.
-seo-description: Esta sección describe cómo generar el objeto JSON userauth que crea
-  el testigo Autenticación de usuario necesario para registrar a los usuarios en sus
-  aplicaciones.
+description: Esta sección describe cómo generar el objeto JSON userauth que crea el testigo Autenticación de usuario necesario para registrar a los usuarios en sus aplicaciones.
+seo-description: Esta sección describe cómo generar el objeto JSON userauth que crea el testigo Autenticación de usuario necesario para registrar a los usuarios en sus aplicaciones.
 seo-title: Testigo de autenticación de usuario
 solution: Experience Manager
 title: Testigo de autenticación de usuario

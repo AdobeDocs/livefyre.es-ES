@@ -31,7 +31,7 @@ Notas de la versión de la versión del 9 de marzo de 2017.
 |---|---|---|
 | Error | Muro de medios | Se ha corregido un error que causaba que los muros de medios no se procesaran si se incluían caracteres extranjeros específicos. |
 | Error | Búsqueda social | Se ha corregido un error que impedía que los activos de Youtube guardados en la búsqueda social se publicaran. |
-| Error | Búsqueda social | Se ha corregido un error que hacía que el icono del ojo "Ocultar imágenes explícitas" de los recursos se desplazara fuera de un recurso al pasar el ratón por encima. |
+| Error | Búsqueda social | Se ha corregido un error que hacía que el icono del ojo &quot;Ocultar imágenes explícitas&quot; de los recursos se desplazara fuera de un recurso al pasar el ratón por encima. |
 | Mejora | Storify 2 | Se agregó una mejora para mostrar el mensaje «No se encontraron resultados» en la búsqueda de temas de Facebook cuando no se encuentra ningún resultado. |
 | Mejora | Flujos | Se agregaron reglas de resumen para reglas seguras a la parte inferior de una página de flujo de Twitter. |
 | Error | Flujos | Se agregó una mejora para deshabilitar visiblemente la casilla de verificación «usuario verificado» en Reglas de flujo de Twitter cuando se proporcionan autores excluidos. |

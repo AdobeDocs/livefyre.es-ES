@@ -1,8 +1,6 @@
 ---
-description: Establezca la cantidad de anuncios que los visitantes del sitio pueden
-  ver en la Guía de navegación.
-seo-description: Establezca la cantidad de anuncios que los visitantes del sitio pueden
-  ver en la Guía de navegación.
+description: Establezca la cantidad de anuncios que los visitantes del sitio pueden ver en la Guía de navegación.
+seo-description: Establezca la cantidad de anuncios que los visitantes del sitio pueden ver en la Guía de navegación.
 seo-title: Configurar el número de publicaciones en la Guía de navegación
 solution: Experience Manager
 title: Configurar el número de publicaciones en la Guía de navegación

@@ -1,8 +1,6 @@
 ---
-description: Anuncios para Livefyre y Livefyre Studio. Actual desde el 15 de noviembre
-  de 2018.
-seo-description: Anuncios para Livefyre y Livefyre Studio. Actual desde el 15 de noviembre
-  de 2018.
+description: Anuncios para Livefyre y Livefyre Studio. Actual desde el 15 de noviembre de 2018.
+seo-description: Anuncios para Livefyre y Livefyre Studio. Actual desde el 15 de noviembre de 2018.
 seo-title: Anuncios
 solution: Experience Manager
 title: Anuncios

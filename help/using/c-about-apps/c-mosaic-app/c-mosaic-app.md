@@ -1,8 +1,6 @@
 ---
-description: Añada un muro dinámico y animado de color, fotos y vídeos a su sitio
-  con una aplicación mosaica.
-seo-description: Añada un muro dinámico y animado de color, fotos y vídeos a su sitio
-  con una aplicación mosaica.
+description: Añada un muro dinámico y animado de color, fotos y vídeos a su sitio con una aplicación mosaica.
+seo-description: Añada un muro dinámico y animado de color, fotos y vídeos a su sitio con una aplicación mosaica.
 seo-title: Mosaico
 solution: Experience Manager
 title: Mosaico
@@ -88,7 +86,7 @@ Mosaico muestra el contenido en una cuadrícula perfecta. Si tiene 25 fragmentos
 
 Si la anchura del contenedor solo se ajusta cuatro para hacer una cuadrícula perfecta pero tiene 25 fragmentos de contenido, Mosaico clasifica el contenido adicional como una cantidad aparte y no la muestra en la aplicación. La parte más externa de contenido no rota porque técnicamente está en la aplicación, pero no se muestra. Si el ancho del contenedor se ajusta a siete, solo se mostrará 21, ya que cuatro son periféricos y no forman la cuadrícula perfecta.
 
-A veces, el contenido no se muestra porque se ha activado **[!UICONTROL Require rights]**. Si lo activa, debe tener derechos otorgados para todo el contenido de la aplicación. Si el estado de los derechos no se "concede" para un contenido, no se mostrará en la aplicación.
+A veces, el contenido no se muestra porque se ha activado **[!UICONTROL Require rights]**. Si lo activa, debe tener derechos otorgados para todo el contenido de la aplicación. Si el estado de los derechos no se &quot;concede&quot; para un contenido, no se mostrará en la aplicación.
 
 ## Crear mosaico con studio {#section_dwb_glj_yy}
 

@@ -1,8 +1,6 @@
 ---
-description: Comprueba si un token de Livefyre sigue siendo válido para esta red.
-  Devuelve un valor booleano.
-seo-description: Comprueba si un token de Livefyre sigue siendo válido para esta red.
-  Devuelve un valor booleano.
+description: Comprueba si un token de Livefyre sigue siendo válido para esta red. Devuelve un valor booleano.
+seo-description: Comprueba si un token de Livefyre sigue siendo válido para esta red. Devuelve un valor booleano.
 seo-title: Validatelivefyretoken Network Method
 solution: Experience Manager
 title: Validatelivefyretoken Network Method

@@ -1,8 +1,6 @@
 ---
-description: Cualquier usuario que haya iniciado sesión en el sistema de autenticación
-  del sitio puede publicar una revisión con este proceso.
-seo-description: Cualquier usuario que haya iniciado sesión en el sistema de autenticación
-  del sitio puede publicar una revisión con este proceso.
+description: Cualquier usuario que haya iniciado sesión en el sistema de autenticación del sitio puede publicar una revisión con este proceso.
+seo-description: Cualquier usuario que haya iniciado sesión en el sistema de autenticación del sitio puede publicar una revisión con este proceso.
 seo-title: Publicar una revisión
 solution: Experience Manager
 title: Publicar una revisión
@@ -19,7 +17,7 @@ Cualquier usuario que haya iniciado sesión en el sistema de autenticación del 
 
 Los usuarios pueden publicar hasta una revisión en Cada colección de revisiones. Solo los usuarios que inician sesión pueden publicar una revisión.
 
-1. Haga clic **[!UICONTROL Write review]**en. Se mostrará el editor de revisión.
+1. Haga clic **[!UICONTROL Write review]** en. Se mostrará el editor de revisión.
 1. Introduzca el **[!UICONTROL Review Title]**(máximo de 150 caracteres).
 1. Introduzca el **[!UICONTROL Review Body]** (aproximadamente 8000 caracteres). Al hacer clic en **[!UICONTROL Review Body]** el campo, todas las funciones disponibles aparecerán en la parte inferior del editor, por ejemplo, formato de texto enriquecido, menciones de amigos, compartir en redes sociales y publicar su revisión.
 1. Para seleccionar una, **[!UICONTROL Rating]** haga clic en las estrellas sobre el área de edición de la revisión.

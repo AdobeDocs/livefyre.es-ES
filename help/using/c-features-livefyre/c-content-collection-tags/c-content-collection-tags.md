@@ -1,8 +1,6 @@
 ---
-description: Agregue etiquetas de palabras clave a colecciones y contenido para categorizar
-  y organizar contenido para facilitar la recuperación.
-seo-description: Agregue etiquetas de palabras clave a colecciones y contenido para
-  categorizar y organizar contenido para facilitar la recuperación.
+description: Agregue etiquetas de palabras clave a colecciones y contenido para categorizar y organizar contenido para facilitar la recuperación.
+seo-description: Agregue etiquetas de palabras clave a colecciones y contenido para categorizar y organizar contenido para facilitar la recuperación.
 seo-title: Etiquetas de contenido y colección
 solution: Experience Manager
 title: Etiquetas de contenido y colección

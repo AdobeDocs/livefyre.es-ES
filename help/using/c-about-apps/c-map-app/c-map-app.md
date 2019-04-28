@@ -1,8 +1,6 @@
 ---
-description: Utilice Mapa para generar mapas interactivos del flujo de contenido en
-  la aplicación.
-seo-description: Utilice Mapa para generar mapas interactivos del flujo de contenido
-  en la aplicación.
+description: Utilice Mapa para generar mapas interactivos del flujo de contenido en la aplicación.
+seo-description: Utilice Mapa para generar mapas interactivos del flujo de contenido en la aplicación.
 seo-title: Mapa
 solution: Experience Manager
 title: Mapa

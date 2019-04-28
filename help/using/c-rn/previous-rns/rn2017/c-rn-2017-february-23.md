@@ -22,7 +22,7 @@ Notas de la versión de la versión del 23 de febrero de 2017.
 | Mejora | SDK de Android | El SDK de Android modificado ahora admite una versión mínima del SDK de 14 (inferior a 16). |
 | Error | Aplicaciones de conversación | Aplicaciones de conversación mejoradas para vincular siempre a perfiles de usuario, incluso sin una integración de autenticación completa. |
 | Error | Mosaico | Se ha corregido un error que ahora proporciona todas las imágenes de Twitter a través de HTTPS. |
-| Mejora | Buscar y flujos | Se ha agregado la capacidad de buscar por Instagram Places (check-in's) en las reglas de flujo de la biblioteca de Instagram e Instagram. |
+| Mejora | Buscar y flujos | Se ha agregado la capacidad de buscar por Instagram Places (check-in&#39;s) en las reglas de flujo de la biblioteca de Instagram e Instagram. |
 | Error | Configuración | Se ha corregido un error que impedía guardar cuentas de Twitter Social. |
 | Error | Búsqueda social | Se ha corregido un error que impedía que la opción «Ocultar imágenes explícitas» funcionara correctamente. |
 | Mejora | Storify 2 | Storify 2 mejorado para admitir los vínculos perinosos que abrieron un modal (anteriormente, la aplicación desplazaba hasta la ubicación de publicación en la página). En Designer de Storify 2, hemos añadido una configuración para alternar entre el comportamiento de desplazamiento y el comportamiento perink modal. El comportamiento del comportamiento perimetral modal será el comportamiento predeterminado. |
@@ -33,7 +33,7 @@ Notas de la versión de la versión del 23 de febrero de 2017.
 | Error | Flujos | Se ha corregido un error con las reglas de vapor de página Facebook y Facebook para extraer los anuncios con varios archivos adjuntos de medios correctamente. |
 | Mejora | Flujos | Se ha agregado una nueva función para permitir a los usuarios aplicar o deshabilitar reglas SEGURAS por regla de flujo. |
 | Mejora | Studio | Se ha corregido un error que hacía que el contenido no se publicara o guardara correctamente, si ya existía. |
-| Error | Studio | Se ha corregido un error que provocaba que varios & elementos se anexaran a la URL al utilizar filtros en Studio. |
+| Error | Studio | Se ha corregido un error que provocaba que varios &amp; elementos se anexaran a la URL al utilizar filtros en Studio. |
 | Error | Studio | Se ha corregido un error que impedía que se desactivaran ciertas casillas de verificación en filtros Studio. |
 
 ## Versión de UAT

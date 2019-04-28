@@ -1,10 +1,6 @@
 ---
-description: Utilice la ficha Moderación para definir reglas de premoderación para
-  el contenido entrante, incluidas listas de profanidad, reglas de indicador y direcciones
-  IP prohibidas.
-seo-description: Utilice la ficha Moderación para definir reglas de premoderación
-  para el contenido entrante, incluidas listas de profanidad, reglas de indicador
-  y direcciones IP prohibidas.
+description: Utilice la ficha Moderación para definir reglas de premoderación para el contenido entrante, incluidas listas de profanidad, reglas de indicador y direcciones IP prohibidas.
+seo-description: Utilice la ficha Moderación para definir reglas de premoderación para el contenido entrante, incluidas listas de profanidad, reglas de indicador y direcciones IP prohibidas.
 seo-title: Configuración de moderación
 solution: Experience Manager
 title: Configuración de moderación
@@ -103,7 +99,7 @@ Acciones disponibles:
 
 * ****[!UICONTROL Trash it:]envía el comentario marcado a la papelera.
 * **[!UICONTROL Bozo it:]** oculta el comentario marcado de todos los usuarios, excepto su redactor, a los que permanece visible.
-* **[!UICONTROL Pending:]** establece el contenido como pendiente. Si establece Premoderación en Activado, **[!UICONTROL Settings > ModQ]**entonces estará en modq. De lo contrario, solo estará en Contenido de la aplicación.
+* **[!UICONTROL Pending:]** establece el contenido como pendiente. Si establece Premoderación en Activado, **[!UICONTROL Settings > ModQ]** entonces estará en modq. De lo contrario, solo estará en Contenido de la aplicación.
 
 >[!NOTE]
 >

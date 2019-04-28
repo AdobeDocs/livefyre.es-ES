@@ -1,8 +1,6 @@
 ---
-description: Integre una aplicación Sidenotes siguiendo un proceso similar al de Aplicaciones
-  principales.
-seo-description: Integre una aplicación Sidenotes siguiendo un proceso similar al
-  de Aplicaciones principales.
+description: Integre una aplicación Sidenotes siguiendo un proceso similar al de Aplicaciones principales.
+seo-description: Integre una aplicación Sidenotes siguiendo un proceso similar al de Aplicaciones principales.
 seo-title: Integración de Sidenotes
 solution: Experience Manager
 title: Integración de Sidenotes

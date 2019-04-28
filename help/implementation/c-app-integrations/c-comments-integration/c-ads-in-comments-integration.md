@@ -81,16 +81,16 @@ Estos elementos se pasan a través del objeto convconfig en nuestro ejemplo y se
 
 El delegado devuelve un objeto que contiene:
 
-* **element:*****required* DOM element** - El elemento que contiene la publicidad que se va a insertar en la aplicación.
+* **element:*****required*DOM element** - El elemento que contiene la publicidad que se va a insertar en la aplicación.
 
 **Asincrónico**: El delegado devuelve un objeto que contiene: El delegado devuelve un objeto que contiene dos propiedades: elemento y rellamada:
 
-* **element:*****required* DOM element** - El elemento que contiene la publicidad que se va a insertar en la aplicación.
+* **element:*****required*DOM element** - El elemento que contiene la publicidad que se va a insertar en la aplicación.
 * **rellamada:*****función requerida*** : la rellamada que manejará la inserción de la publicidad en el elemento DOM anterior.
 
 Para `Conv` el objeto, puede pasar una cadena para denotar el título de la sección de publicidad:
 
-* **cadenas:****(opcional)** : se utiliza para personalizar el texto del encabezado de las publicidades. ' Patrocinado'de forma predeterminada.
+* **cadenas:****(opcional)** : se utiliza para personalizar el texto del encabezado de las publicidades. &#39; Patrocinado&#39;de forma predeterminada.
 
 ## Ejemplo sincrónico {#concept_E733E4431D9948638B8102ADE398735F}
 

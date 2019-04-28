@@ -1,8 +1,6 @@
 ---
-description: Utilice Storify 2 para crear artículos interactivos con abundante contenido
-  a partir de contenido en tiempo real.
-seo-description: Utilice Storify 2 para crear artículos interactivos con abundante
-  contenido a partir de contenido en tiempo real.
+description: Utilice Storify 2 para crear artículos interactivos con abundante contenido a partir de contenido en tiempo real.
+seo-description: Utilice Storify 2 para crear artículos interactivos con abundante contenido a partir de contenido en tiempo real.
 seo-title: Storify 2
 solution: Experience Manager
 title: Storify 2

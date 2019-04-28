@@ -1,8 +1,6 @@
 ---
-description: Los eventos disponibles para enlazar JavaScript para aplicaciones de
-  visualización (por ejemplo, su muro de redes sociales).
-seo-description: Los eventos disponibles para enlazar JavaScript para aplicaciones
-  de visualización (por ejemplo, su muro de redes sociales).
+description: Los eventos disponibles para enlazar JavaScript para aplicaciones de visualización (por ejemplo, su muro de redes sociales).
+seo-description: Los eventos disponibles para enlazar JavaScript para aplicaciones de visualización (por ejemplo, su muro de redes sociales).
 seo-title: Eventos de Javascript para aplicaciones de visualización
 solution: Experience Manager
 title: Eventos de Javascript para aplicaciones de visualización

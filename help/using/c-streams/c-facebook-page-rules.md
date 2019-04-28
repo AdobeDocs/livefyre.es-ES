@@ -1,7 +1,6 @@
 ---
 description: Puede crear reglas de flujo que extraigan contenido de Páginas de Facebook.
-seo-description: Puede crear reglas de flujo que extraigan contenido de Páginas de
-  Facebook.
+seo-description: Puede crear reglas de flujo que extraigan contenido de Páginas de Facebook.
 seo-title: Reglas de página de Facebook
 solution: Experience Manager
 title: Reglas de página de Facebook

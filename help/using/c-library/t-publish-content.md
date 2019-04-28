@@ -21,4 +21,4 @@ El contenido publicado directamente en una aplicación no se guardará en su bib
 1. **[!UICONTROL View Details]** para un recurso.
 1. Seleccione **[!UICONTROL Publish]** la casilla del cuadro de **[!UICONTROL Advanced Options]** diálogo.
 1. Seleccione la aplicación a la que debe publicarse el elemento.
-1. Haga clic **[!UICONTROL Let’s do it]**en.
+1. Haga clic **[!UICONTROL Let’s do it]** en.

@@ -1,9 +1,9 @@
 ---
 description: Analizar la actividad de usuario, contenido y moderador del sitio.
 seo-description: Analizar la actividad de usuario, contenido y moderador del sitio.
-seo-title: Analytics
+seo-title: 'Analytics  '
 solution: Experience Manager
-title: Analytics
+title: 'Analytics  '
 uuid: b 022 aa 77-59 b 9-422 a -8 d 9 f-fb 9 d 8 a 1 b 0478
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
@@ -67,14 +67,14 @@ Las actividades disponibles varían según el tipo de tablero y la exportación,
 
 * **Anuncios:** Muestra los datos de la medianoche del día actual, hasta la última hora completa antes de este momento.
 * **Respuestas:** Muestra los datos anteriores de 24 horas.
-* **Cantidad de "Me gusta":** Muestra los datos anteriores a 7 días, sin incluir hoy.
+* **Cantidad de &quot;Me gusta&quot;:** Muestra los datos anteriores a 7 días, sin incluir hoy.
 * **No me gusta:** Muestra los datos anteriores de 30 días, sin incluir hoy.
 * **Contiene medios:** Muestra los datos de la medianoche del último domingo, hasta la última hora completa antes de este momento.
 * **La publicación tiene una carga de foto:** Muestra los datos de la medianoche del primer día del mes actual, hasta la última hora completa antes de este momento.
 * **La publicación tiene un vínculo:** Muestra los datos de la semana pasada.
 * **La publicación tiene @ mentions:** Muestra los datos del mes pasado.
 * **Aprobado:** Muestra los datos del mes pasado.
-* **Bozo'd:** Muestra los datos del mes pasado.
+* **Bozo&#39;d:** Muestra los datos del mes pasado.
 * **Vaciado:** Muestra los datos del mes pasado.
 * **Total de moderación:** Muestra los datos del mes pasado.
 

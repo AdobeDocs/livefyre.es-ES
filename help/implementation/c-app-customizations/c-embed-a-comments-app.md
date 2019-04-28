@@ -1,8 +1,6 @@
 ---
-description: La incrustación de la aplicación de comentarios sigue el proceso para
-  incrustar una aplicación principal.
-seo-description: La incrustación de la aplicación de comentarios sigue el proceso
-  para incrustar una aplicación principal.
+description: La incrustación de la aplicación de comentarios sigue el proceso para incrustar una aplicación principal.
+seo-description: La incrustación de la aplicación de comentarios sigue el proceso para incrustar una aplicación principal.
 seo-title: Incrustar una aplicación de comentarios
 solution: Experience Manager
 title: Incrustar una aplicación de comentarios

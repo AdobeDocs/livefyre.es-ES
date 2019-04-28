@@ -1,7 +1,6 @@
 ---
 description: Conozca las convenciones de Livefyre y cómo organiza Livefyre el contenido.
-seo-description: Conozca las convenciones de Livefyre y cómo organiza Livefyre el
-  contenido.
+seo-description: Conozca las convenciones de Livefyre y cómo organiza Livefyre el contenido.
 seo-title: Arquitectura
 solution: Experience Manager
 title: Arquitectura

@@ -1,8 +1,6 @@
 ---
-description: Configure una cuenta social para solicitar derechos o buscar UGC en flujos
-  o búsquedas sociales.
-seo-description: Configure una cuenta social para solicitar derechos o buscar UGC
-  en flujos o búsquedas sociales.
+description: Configure una cuenta social para solicitar derechos o buscar UGC en flujos o búsquedas sociales.
+seo-description: Configure una cuenta social para solicitar derechos o buscar UGC en flujos o búsquedas sociales.
 seo-title: Agregar una cuenta social
 solution: Experience Manager
 title: Agregar una cuenta social
@@ -33,7 +31,7 @@ Para configurar una cuenta social:
 
    >[!NOTE]
    >
-   >Cuando configura una cuenta empresarial de Instagram, se le dirigirá a una pantalla de inicio de sesión de Facebook. Continúe con el inicio de sesión como normal. ![](assets/i_insta_biz_facebook_dialog.png) >
+   >Cuando configura una cuenta empresarial de Instagram, se le dirigirá a una pantalla de inicio de sesión de Facebook. Continúe con el inicio de sesión como normal. ![](assets/i_insta_biz_facebook_dialog.png) &gt;
 
 1. Haga clic para **[!UICONTROL Authorize App]** continuar.
-1. Agregue un **[!UICONTROL Display Name]** para la cuenta y haga clic **[!UICONTROL Save Settings.]**en. Haga clic en **[!UICONTROL Social Account]** el encabezado del cuadro de información de la cuenta para contraer la cuenta.
+1. Agregue un **[!UICONTROL Display Name]** para la cuenta y haga clic **[!UICONTROL Save Settings.]** en. Haga clic en **[!UICONTROL Social Account]** el encabezado del cuadro de información de la cuenta para contraer la cuenta.

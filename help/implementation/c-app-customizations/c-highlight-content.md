@@ -1,8 +1,6 @@
 ---
-description: Utilice estilos para destacar y promocionar contenido o grupos de usuarios
-  seleccionados.
-seo-description: Utilice estilos para destacar y promocionar contenido o grupos de
-  usuarios seleccionados.
+description: Utilice estilos para destacar y promocionar contenido o grupos de usuarios seleccionados.
+seo-description: Utilice estilos para destacar y promocionar contenido o grupos de usuarios seleccionados.
 seo-title: Resaltar contenido
 solution: Experience Manager
 title: Resaltar contenido

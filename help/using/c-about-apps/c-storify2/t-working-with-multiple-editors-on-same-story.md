@@ -1,8 +1,6 @@
 ---
-description: Storify gestiona varios editores simultáneos, lo que impide sobrescribir
-  accidentalmente o las ediciones perdidas.
-seo-description: Storify gestiona varios editores simultáneos, lo que impide sobrescribir
-  accidentalmente o las ediciones perdidas.
+description: Storify gestiona varios editores simultáneos, lo que impide sobrescribir accidentalmente o las ediciones perdidas.
+seo-description: Storify gestiona varios editores simultáneos, lo que impide sobrescribir accidentalmente o las ediciones perdidas.
 seo-title: Trabajar con varios editores en el mismo artículo
 solution: Experience Manager
 title: Trabajar con varios editores en el mismo artículo

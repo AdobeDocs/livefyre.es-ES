@@ -1,8 +1,6 @@
 ---
-description: El panel Resumen del usuario proporciona información de usuario para
-  facilitar la moderación.
-seo-description: El panel Resumen del usuario proporciona información de usuario para
-  facilitar la moderación.
+description: El panel Resumen del usuario proporciona información de usuario para facilitar la moderación.
+seo-description: El panel Resumen del usuario proporciona información de usuario para facilitar la moderación.
 seo-title: Moderar usuarios
 solution: Experience Manager
 title: Moderar usuarios
@@ -28,7 +26,7 @@ Se muestra la siguiente información (si está disponible) para cada uno de los 
 * **[!UICONTROL Username]**: su nombre de usuario para la red.
 * **[!UICONTROL Display name]**: su nombre para mostrar de la red.
 * **[!UICONTROL Avatar]**: su avatar para la red.
-* **[!UICONTROL Total number of posts]** el autor de la red: vínculos a una lista de contenido por ese usuario en Studio. El total se muestra por el número de partes Aprobado, Pendiente, Bozo'd o Papelera.
+* **[!UICONTROL Total number of posts]** el autor de la red: vínculos a una lista de contenido por ese usuario en Studio. El total se muestra por el número de partes Aprobado, Pendiente, Bozo&#39;d o Papelera.
 * **[!UICONTROL Total #Flags]**: el número total de indicadores aplicados a las publicaciones de este autor.
 * **[!UICONTROL Join date]**: la fecha que crearon una cuenta de usuario en la red.
 * **[!UICONTROL Email]**: su dirección de correo electrónico.

@@ -1,8 +1,6 @@
 ---
-description: Utilice CSS con etiquetas de usuario para crear distintivos de usuario
-  para miembros de su comunidad.
-seo-description: Utilice CSS con etiquetas de usuario para crear distintivos de usuario
-  para miembros de su comunidad.
+description: Utilice CSS con etiquetas de usuario para crear distintivos de usuario para miembros de su comunidad.
+seo-description: Utilice CSS con etiquetas de usuario para crear distintivos de usuario para miembros de su comunidad.
 seo-title: Distintivos de usuario
 title: Distintivos de usuario
 uuid: ff 1451 e 1-7 eb 3-45 dc -8 c 5 a -1 a 6 d 1313 e 344

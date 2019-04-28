@@ -1,8 +1,6 @@
 ---
-description: Devuelve un testigo de Livefyre válido cifrado que se puede utilizar
-  para interactuar con otra API de Livefyre para la red desde la que se llama.
-seo-description: Devuelve un testigo de Livefyre válido cifrado que se puede utilizar
-  para interactuar con otra API de Livefyre para la red desde la que se llama.
+description: Devuelve un testigo de Livefyre válido cifrado que se puede utilizar para interactuar con otra API de Livefyre para la red desde la que se llama.
+seo-description: Devuelve un testigo de Livefyre válido cifrado que se puede utilizar para interactuar con otra API de Livefyre para la red desde la que se llama.
 seo-title: Método de red de buildlivefyretoken
 solution: Experience Manager
 title: Método de red de buildlivefyretoken

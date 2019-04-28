@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: Adición de sidenotes a una página
 solution: Experience Manager
 title: Adición de sidenotes a una página
@@ -23,7 +23,7 @@ Livefyre proporciona varias opciones de configuración para colocar Sidenotes en
 
 ## Selectores {#section_wyj_4sv_sy}
 
-La opción Selectores permite a Sidenotes buscar contenido en la página. El valor de esta opción permite determinar dinámicamente los elementos que se utilizarán. Puede ser una cadena de selector (como ' # content p, # content img '), un objeto jquery (como `$(‘#content’)`), una matriz de elementos DOM o un objeto con dos propiedades: incluir y excluir. La aplicación Sidenotes utilizará, a continuación, los elementos especificados o los elementos coincidentes de la página. Si se utilizan propiedades de inclusión y exclusión, Sidenotes primero analizará la página para encontrar todos los elementos de la propiedad include y, a continuación, eliminará los elementos encontrados en la propiedad exclude.
+La opción Selectores permite a Sidenotes buscar contenido en la página. El valor de esta opción permite determinar dinámicamente los elementos que se utilizarán. Puede ser una cadena de selector (como &#39; # content p, # content img &#39;), un objeto jquery (como `$(‘#content’)`), una matriz de elementos DOM o un objeto con dos propiedades: incluir y excluir. La aplicación Sidenotes utilizará, a continuación, los elementos especificados o los elementos coincidentes de la página. Si se utilizan propiedades de inclusión y exclusión, Sidenotes primero analizará la página para encontrar todos los elementos de la propiedad include y, a continuación, eliminará los elementos encontrados en la propiedad exclude.
 
 ## Anclajes {#section_ehq_psv_sy}
 

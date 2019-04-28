@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: Botón Personalizar llamada a acción
 title: Botón Personalizar llamada a acción
 uuid: 8 c 653799-1602-4 e 38-a 2 bc -6 de 0 f 49 c 40 ff
@@ -27,15 +27,15 @@ Con CTAS personalizada puede:
 
 Contexto de tarea
 
-1. En Livefyre Studio, haga clic **[!UICONTROL Settings]**en.
-1. En el carril izquierdo, haga clic **[!UICONTROL CTAs]**en.
+1. En Livefyre Studio, haga clic **[!UICONTROL Settings]** en.
+1. En el carril izquierdo, haga clic **[!UICONTROL CTAs]** en.
 
-   Aparecerá la biblioteca de llamada a acción, donde se pueden crear y organizar CTAS dentro de carpetas. 1. Haga clic **[!UICONTROL Create CTA]**en.
+   Aparecerá la biblioteca de llamada a acción, donde se pueden crear y organizar CTAS dentro de carpetas. 1. Haga clic **[!UICONTROL Create CTA]** en.
 1. Rellene los campos con las personalizaciones deseadas y una vista previa de botón se mostrará en la parte inferior de la pantalla Crear llamada a acción.
 
    ![](assets/cta-button-create.png)
 
-1. Haga clic **[!UICONTROL Create]**en.
+1. Haga clic **[!UICONTROL Create]** en.
 
    El botón de llamada a acción ya está disponible para añadirse a cualquier recurso.
 
@@ -43,13 +43,13 @@ Contexto de tarea
 
 Agregue un botón de llamada a acción a cualquier contenido de Livefyre Studio.
 
-1. En el estudio de Livefyre, vaya **[!UICONTROL Library]** a > **[!UICONTROL All Assets]**.
+1. En el estudio de Livefyre, vaya **[!UICONTROL Library]** a &gt; **[!UICONTROL All Assets]**.
 1. Seleccione uno o varios recursos en los que desee agregar un botón de llamada a acción.
-1. Haga clic **[!UICONTROL CTAs]**en.
+1. Haga clic **[!UICONTROL CTAs]** en.
 
    ![](assets/cta-button-create2.png)
 
-1. Seleccione el botón de llamada a acción que desee en la lista y, a continuación, haga clic **[!UICONTROL Add]**en.
+1. Seleccione el botón de llamada a acción que desee en la lista y, a continuación, haga clic **[!UICONTROL Add]** en.
 
    El botón de llamada a acción aparecerá ahora en el recurso seleccionado.
 

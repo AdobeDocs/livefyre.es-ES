@@ -1,9 +1,6 @@
 ---
-description: Devuelve un objeto de colección creado como tipo de comentarios. Ejecute
-  createorupdate () desde el objeto Colección para completar el proceso de creación.
-seo-description: Devuelve un objeto de colección creado como tipo de comentarios.
-  Ejecute createorupdate () desde el objeto Colección para completar el proceso de
-  creación.
+description: Devuelve un objeto de colección creado como tipo de comentarios. Ejecute createorupdate () desde el objeto Colección para completar el proceso de creación.
+seo-description: Devuelve un objeto de colección creado como tipo de comentarios. Ejecute createorupdate () desde el objeto Colección para completar el proceso de creación.
 seo-title: Generocomentarios del sitio de recopilación
 solution: Experience Manager
 title: Generocomentarios del sitio de recopilación

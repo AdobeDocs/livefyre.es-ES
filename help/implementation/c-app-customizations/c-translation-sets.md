@@ -1,8 +1,6 @@
 ---
-description: Los conjuntos de traducción permiten especificar idioma alternativo para
-  aplicaciones.
-seo-description: Los conjuntos de traducción permiten especificar idioma alternativo
-  para aplicaciones.
+description: Los conjuntos de traducción permiten especificar idioma alternativo para aplicaciones.
+seo-description: Los conjuntos de traducción permiten especificar idioma alternativo para aplicaciones.
 seo-title: Conjuntos de traducción
 solution: Experience Manager
 title: Conjuntos de traducción
@@ -80,7 +78,7 @@ Cadenas disponibles para la interfaz de usuario de revisión y clasificación.
 |  | seguir | Estoy interesado |
 |  | Sharetext | Acabo de escribir una reseña. ¡Descárguelo! |
 | Información sobre herramientas de clasificación |  |  |
-|  | Ratingvalues | Una matriz. Predeterminado =[' Deficiente ',' Deficiente ',' Justo ',' Justo ',' Promedio ',' Promedio ',' Bueno ',' Buena ',' Excelente ',' Excelente ']; |
+|  | Ratingvalues | Una matriz. Predeterminado =[&#39; Deficiente &#39;,&#39; Deficiente &#39;,&#39; Justo &#39;,&#39; Justo &#39;,&#39; Promedio &#39;,&#39; Promedio &#39;,&#39; Bueno &#39;,&#39; Buena &#39;,&#39; Excelente &#39;,&#39; Excelente &#39;]; |
 |  |  | Nota: Los valores de la matriz deben duplicarse para asignar a la izquierda y a la derecha de cada estrella el mismo nombre. |
 | Subsecciones de clasificación |  |  |
 |  | Ratingsubpartplaceholders | Una matriz. Default =[] |
@@ -141,7 +139,7 @@ Cadenas disponibles para las acciones del usuario: marcar, compartir y marcar el
 |  | Wasreviewhelpfulmobile | ¿Resulta útil? |
 |  | Ownwasreviewhelpful | [Se ha encontrado una utilidad.](https://d.pr/i/Q0mA) |
 |  | Reviewwashelpful | [Sí](https://d.pr/i/Q0mA) |
-|  | Helpfuldivider | [& amp; vert;](https://d.pr/i/Q0mA) |
+|  | Helpfuldivider | [&amp; amp; vert;](https://d.pr/i/Q0mA) |
 |  | Reviewwasnothelpful | [No](https://d.pr/i/Q0mA) |
 | *Votar modal* |  |  |
 |  | Votetitle | ¿Es útil esta revisión? |
@@ -283,7 +281,7 @@ Listas disponibles para la información de contenido y de autor individual.
 |  | Commentvotecount | votos |
 |  | Commentvotecountsing | votar |
 |  | Datetimeminuteprefix | m |
-|  | Datetimemonths | * Una matriz. Predeterminado = *[ ' Enero ',' Febrero ',' Marzo ',' Abril ',' Mayo ',' Junio ',' Julio ',' Agosto ',' Septiembre ',' Octubre ',' Noviembre ',' Diciembre ',' Diciembre ',' Diciembre ',' Diciembre ', ] |
+|  | Datetimemonths | * Una matriz. Predeterminado = *[ &#39; Enero &#39;,&#39; Febrero &#39;,&#39; Marzo &#39;,&#39; Abril &#39;,&#39; Mayo &#39;,&#39; Junio &#39;,&#39; Julio &#39;,&#39; Agosto &#39;,&#39; Septiembre &#39;,&#39; Octubre &#39;,&#39; Noviembre &#39;,&#39; Diciembre &#39;,&#39; Diciembre &#39;,&#39; Diciembre &#39;,&#39; Diciembre &#39;, ] |
 |  | Explicación de preguntas | Ahora puede leer y escribir comentarios directamente sobre las frases, párrafos, imágenes y comillas. <br>Resalte el texto y haga clic en el icono o haga clic en el icono al final de cada párrafo. |
 |  | Questionmocktext | Lo que se conoce «familiarmente» no es conocido, simplemente por el motivo de que es «familiar». |
 |  | Questiontitle | ¿Qué es un Sidenote? |

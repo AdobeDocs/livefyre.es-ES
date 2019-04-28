@@ -30,7 +30,7 @@ Se han publicado las siguientes funciones nuevas en la versión de producción d
 
 * [Mejoras de etiquetas](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags) inteligentes
 
-   * Etiquetas inteligentes para archivos cargados: Hemos añadido la capacidad de etiquetas inteligentes cargadas en la biblioteca a través de la funcionalidad de carga en "Todos los recursos", como archivos de Google Drive, Menú desplegable, Flickr, etc.
+   * Etiquetas inteligentes para archivos cargados: Hemos añadido la capacidad de etiquetas inteligentes cargadas en la biblioteca a través de la funcionalidad de carga en &quot;Todos los recursos&quot;, como archivos de Google Drive, Menú desplegable, Flickr, etc.
    * Seguro para trabajar (SFW) y no seguro para las etiquetas inteligentes del trabajo (NSFW): Las imágenes depuradas a través de Livefyre ahora son etiquetadas por un sistema de detección de desnudez con tecnología AI y ofrecen la flexibilidad de filtrar automáticamente imágenes NSFW, mejorando la seguridad de los flujos y la biblioteca UGC.
 
       * Las imágenes depuradas mediante la búsqueda social o los flujos se clasifican mediante sistema de detección de desnudos al guardar.

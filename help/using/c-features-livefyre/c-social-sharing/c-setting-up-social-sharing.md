@@ -1,8 +1,6 @@
 ---
-description: El panel Compartir en redes sociales permite agregar las credenciales
-  de la aplicación de red social.
-seo-description: El panel Compartir en redes sociales permite agregar las credenciales
-  de la aplicación de red social.
+description: El panel Compartir en redes sociales permite agregar las credenciales de la aplicación de red social.
+seo-description: El panel Compartir en redes sociales permite agregar las credenciales de la aplicación de red social.
 seo-title: Configuración de Compartir en redes sociales
 title: Configuración de Compartir en redes sociales
 uuid: e 1940 e 30-9 fbb -41 e 8-b 5 bb -497 a 5 b 06643 f

@@ -1,8 +1,6 @@
 ---
-description: La aplicación de blog activo ofrece las siguientes funciones para su
-  sitio.
-seo-description: La aplicación de blog activo ofrece las siguientes funciones para
-  su sitio.
+description: La aplicación de blog activo ofrece las siguientes funciones para su sitio.
+seo-description: La aplicación de blog activo ofrece las siguientes funciones para su sitio.
 seo-title: Funciones de blog en directo
 solution: Experience Manager
 title: Funciones de blog en directo

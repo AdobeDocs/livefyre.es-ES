@@ -1,8 +1,6 @@
 ---
-description: Los eventos disponibles para enlazar JavaScript para aplicaciones de
-  conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
-seo-description: Los eventos disponibles para enlazar JavaScript para aplicaciones
-  de conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
+description: Los eventos disponibles para enlazar JavaScript para aplicaciones de conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
+seo-description: Los eventos disponibles para enlazar JavaScript para aplicaciones de conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
 seo-title: Eventos de Javascript para aplicaciones de conversación
 solution: Experience Manager
 title: Eventos de Javascript para aplicaciones de conversación

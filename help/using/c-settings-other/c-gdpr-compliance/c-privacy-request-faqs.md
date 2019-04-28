@@ -1,8 +1,6 @@
 ---
-description: Respuestas a preguntas más frecuentes sobre solicitudes de privacidad
-  para RDPD.
-seo-description: Respuestas a preguntas más frecuentes sobre solicitudes de privacidad
-  para RDPD.
+description: Respuestas a preguntas más frecuentes sobre solicitudes de privacidad para RDPD.
+seo-description: Respuestas a preguntas más frecuentes sobre solicitudes de privacidad para RDPD.
 seo-title: Preguntas frecuentes sobre solicitud de privacidad
 solution: Experience Manager
 title: Preguntas frecuentes sobre solicitud de privacidad

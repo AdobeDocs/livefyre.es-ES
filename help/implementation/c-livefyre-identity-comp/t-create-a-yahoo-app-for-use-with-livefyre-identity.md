@@ -1,10 +1,6 @@
 ---
-description: Puede utilizar la identidad de Livefyre con Yahoo! para permitir a los
-  usuarios utilizar su Yahoo! inicios de sesión para interactuar con Aplicaciones
-  en el sitio.
-seo-description: Puede utilizar la identidad de Livefyre con Yahoo! para permitir
-  a los usuarios utilizar su Yahoo! inicios de sesión para interactuar con Aplicaciones
-  en el sitio.
+description: Puede utilizar la identidad de Livefyre con Yahoo! para permitir a los usuarios utilizar su Yahoo! inicios de sesión para interactuar con Aplicaciones en el sitio.
+seo-description: Puede utilizar la identidad de Livefyre con Yahoo! para permitir a los usuarios utilizar su Yahoo! inicios de sesión para interactuar con Aplicaciones en el sitio.
 seo-title: Cree un Yahoo! Aplicación para su uso con identidad de Livefyre
 solution: Experience Manager
 title: Cree un Yahoo! Aplicación para su uso con identidad de Livefyre

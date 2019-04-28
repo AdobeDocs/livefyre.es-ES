@@ -1,8 +1,6 @@
 ---
-description: Cuando se invita a un usuario a acceder a Livefyre, el usuario utiliza
-  el vínculo del correo electrónico para crear su nombre de usuario y cuenta.
-seo-description: Cuando se invita a un usuario a acceder a Livefyre, el usuario utiliza
-  el vínculo del correo electrónico para crear su nombre de usuario y cuenta.
+description: Cuando se invita a un usuario a acceder a Livefyre, el usuario utiliza el vínculo del correo electrónico para crear su nombre de usuario y cuenta.
+seo-description: Cuando se invita a un usuario a acceder a Livefyre, el usuario utiliza el vínculo del correo electrónico para crear su nombre de usuario y cuenta.
 seo-title: Aceptar una invitación para crear una cuenta de Studio
 solution: Experience Manager
 title: Aceptar una invitación para crear una cuenta de Studio

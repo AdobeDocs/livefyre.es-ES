@@ -1,8 +1,6 @@
 ---
-description: Agregue una etiqueta de usuario a una cuenta para agregar un usuario
-  a un grupo.
-seo-description: Agregue una etiqueta de usuario a una cuenta para agregar un usuario
-  a un grupo.
+description: Agregue una etiqueta de usuario a una cuenta para agregar un usuario a un grupo.
+seo-description: Agregue una etiqueta de usuario a una cuenta para agregar un usuario a un grupo.
 seo-title: Adición de usuarios a grupos
 solution: Experience Manager
 title: Adición de usuarios a grupos
@@ -19,7 +17,7 @@ Agregue una etiqueta de usuario a una cuenta para agregar un usuario a un grupo.
 
 Las etiquetas de usuario pueden implementarse tanto para sistemas de perfil de propiedad como de empresas, y pueden agregarse a las cuentas por varios medios:
 
-* Crear propietarios y moderadores a través de Studio asigna la etiqueta de usuario'Moderador'a la cuenta.
+* Crear propietarios y moderadores a través de Studio asigna la etiqueta de usuario&#39;Moderador&#39;a la cuenta.
 * Crear grupos de usuarios y agregar usuarios a través de Studio, aplica automáticamente Etiquetas de usuario con el nombre del grupo a los usuarios seleccionados.
 * Las etiquetas de usuario también se pueden aplicar directamente a cuentas mediante [la llamada Agregar etiqueta de](https://api.livefyre.com/docs#add-user-tag) usuario HTTP o Ping para extraer.
 
@@ -46,7 +44,7 @@ curl -XPOST -d 'tag_name=tag&lftoken=eyJhbGciOiAiA_TOKENcGlyZXMiOiAxMzU3OTY3NTAx
 ```
 
 
-Para obtener más información, consulte Referencia de API > [Agregar etiqueta de usuario](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:author:tags:method=post).
+Para obtener más información, consulte Referencia de API &gt; [Agregar etiqueta de usuario](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:author:tags:method=post).
 
 ## Agregar un usuario a un grupo mediante Ping para extracción {#section_kyj_11w_xz}
 

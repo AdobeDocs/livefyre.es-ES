@@ -1,10 +1,6 @@
 ---
-description: Las fotos se pueden cargar directamente a cualquier aplicación desde
-  la biblioteca de fotos móvil de un usuario, disco duro del equipo o cuentas de redes
-  sociales.
-seo-description: Las fotos se pueden cargar directamente a cualquier aplicación desde
-  la biblioteca de fotos móvil de un usuario, disco duro del equipo o cuentas de redes
-  sociales.
+description: Las fotos se pueden cargar directamente a cualquier aplicación desde la biblioteca de fotos móvil de un usuario, disco duro del equipo o cuentas de redes sociales.
+seo-description: Las fotos se pueden cargar directamente a cualquier aplicación desde la biblioteca de fotos móvil de un usuario, disco duro del equipo o cuentas de redes sociales.
 seo-title: Cargar fotos
 solution: Experience Manager
 title: Cargar fotos

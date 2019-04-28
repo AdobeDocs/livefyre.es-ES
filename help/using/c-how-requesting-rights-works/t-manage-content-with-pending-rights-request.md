@@ -1,13 +1,9 @@
 ---
-description: Consulte y modifique los recursos en Livefyre con una solicitud de derechos
-  pendientes.
-seo-description: Consulte y modifique los recursos en Livefyre con una solicitud de
-  derechos pendientes.
-seo-title: Administrar contenido con solicitudes de derechos pendientes desde la biblioteca
-  de recursos
+description: Consulte y modifique los recursos en Livefyre con una solicitud de derechos pendientes.
+seo-description: Consulte y modifique los recursos en Livefyre con una solicitud de derechos pendientes.
+seo-title: Administrar contenido con solicitudes de derechos pendientes desde la biblioteca de recursos
 solution: Experience Manager
-title: Administrar contenido con solicitudes de derechos pendientes desde la biblioteca
-  de recursos
+title: Administrar contenido con solicitudes de derechos pendientes desde la biblioteca de recursos
 uuid: fab 285 af-de 09-4061-a 946-5 bede 91603 de
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869

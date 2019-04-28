@@ -1,7 +1,6 @@
 ---
 description: Elimine los componentes estándar de la aplicación Livefyre de su aplicación.
-seo-description: Elimine los componentes estándar de la aplicación Livefyre de su
-  aplicación.
+seo-description: Elimine los componentes estándar de la aplicación Livefyre de su aplicación.
 seo-title: Ocultar elementos de aplicación
 solution: Experience Manager
 title: Ocultar elementos de aplicación

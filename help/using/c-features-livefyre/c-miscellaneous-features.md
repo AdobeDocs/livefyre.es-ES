@@ -1,8 +1,6 @@
 ---
-description: Livefyre ofrece funciones adicionales para rastrear datos de los visitantes
-  del sitio y sincronizar con redes de medios sociales.
-seo-description: Livefyre ofrece funciones adicionales para rastrear datos de los
-  visitantes del sitio y sincronizar con redes de medios sociales.
+description: Livefyre ofrece funciones adicionales para rastrear datos de los visitantes del sitio y sincronizar con redes de medios sociales.
+seo-description: Livefyre ofrece funciones adicionales para rastrear datos de los visitantes del sitio y sincronizar con redes de medios sociales.
 seo-title: Funciones diversas
 solution: Experience Manager
 title: Funciones diversas

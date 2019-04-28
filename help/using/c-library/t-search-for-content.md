@@ -1,8 +1,6 @@
 ---
-description: Utilice la búsqueda social para buscar contenido de Instagram que desee
-  incluir en la biblioteca de recursos o publicar en aplicaciones.
-seo-description: Utilice la búsqueda social para buscar contenido de Instagram que
-  desee incluir en la biblioteca de recursos o publicar en aplicaciones.
+description: Utilice la búsqueda social para buscar contenido de Instagram que desee incluir en la biblioteca de recursos o publicar en aplicaciones.
+seo-description: Utilice la búsqueda social para buscar contenido de Instagram que desee incluir en la biblioteca de recursos o publicar en aplicaciones.
 seo-title: Buscar contenido de Instagram
 solution: Experience Manager
 title: Buscar contenido de Instagram
@@ -26,7 +24,7 @@ Puede guardar y reutilizar las búsquedas. Haga clic en la barra de búsqueda pa
 Al agregar recursos nuevos a la biblioteca, los recursos que ya se incluyen en la biblioteca se marcan con una marca de verificación.
 
 1. Configure una cuenta empresarial de Instagram.
-1. Vaya a **[!UICONTROL Library]** > **[!UICONTROL Social Search]**.
+1. Vaya a **[!UICONTROL Library]** &gt; **[!UICONTROL Social Search]**.
 1. Seleccione **[!UICONTROL Instagram]** para buscar contenido de Instagram.
 1. Introduzca los criterios de búsqueda, haga clic **[!UICONTROL Show Filter]** para restringir la búsqueda.
 
@@ -40,5 +38,5 @@ Al agregar recursos nuevos a la biblioteca, los recursos que ya se incluyen en l
 
    * **[!UICONTROL Recent Tags Search]**: Busque los anuncios más recientes con el hashtag.
 
->Los elementos se muestran que coinciden con la búsqueda. Pase el ratón sobre un elemento, **[!UICONTROL View Details]**añádalo a su biblioteca de recursos o **[!UICONTROL Publish]** a una aplicación.
+>Los elementos se muestran que coinciden con la búsqueda. Pase el ratón sobre un elemento, **[!UICONTROL View Details]** añádalo a su biblioteca de recursos o **[!UICONTROL Publish]** a una aplicación.
 

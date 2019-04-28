@@ -1,10 +1,6 @@
 ---
-description: Filtrar UGC por ID de producto le permite incrustar la misma aplicación
-  en varias páginas al mismo tiempo que se muestra un contenido UGC específico de
-  producto específico para cada página.
-seo-description: Filtrar UGC por ID de producto le permite incrustar la misma aplicación
-  en varias páginas al mismo tiempo que se muestra un contenido UGC específico de
-  producto específico para cada página.
+description: Filtrar UGC por ID de producto le permite incrustar la misma aplicación en varias páginas al mismo tiempo que se muestra un contenido UGC específico de producto específico para cada página.
+seo-description: Filtrar UGC por ID de producto le permite incrustar la misma aplicación en varias páginas al mismo tiempo que se muestra un contenido UGC específico de producto específico para cada página.
 seo-title: Filtrar UGC por ID de producto
 title: Filtrar UGC por ID de producto
 uuid: 98108 ddb -5710-4331-891 b -7 e 1 bbb 106059
@@ -36,13 +32,13 @@ Utilice CTRL/Comando + clic para seleccionar varias carpetas.
 1. Disable **[!UICONTROL Show related content]**.
 Cuando está activado, el contenido filtrado con `data-lf-attr-product` el atributo se mostrará primero, seguido de todos los demás contenidos de la aplicación.
 
-1. Haga clic **[!UICONTROL Publish]**en.
+1. Haga clic **[!UICONTROL Publish]** en.
 
 1. Inserte los ID de producto que desee filtrar en el código resultante.
 
 >[!NOTE]
 >
->Para localizar ID de productos, vaya **[!UICONTROL Settings > Products]**a. Busque el producto deseado y selecciónelo y se muestra el ID.
+>Para localizar ID de productos, vaya **[!UICONTROL Settings > Products]** a. Busque el producto deseado y selecciónelo y se muestra el ID.
 
 Por ejemplo, se genera el siguiente código para una aplicación de muro de medios:
 

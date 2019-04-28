@@ -1,15 +1,11 @@
 ---
-description: Puede solicitar el derecho de reutilizar un recurso de Instagram obtenido
-  de un hashtag, una URL o una búsqueda o flujo basado en ubicaciones mediante un
-  flujo de trabajo manual.
-seo-description: Puede solicitar el derecho de reutilizar un recurso de Instagram
-  obtenido de un hashtag, una URL o una búsqueda o flujo basado en ubicaciones mediante
-  un flujo de trabajo manual.
+description: Puede solicitar el derecho de reutilizar un recurso de Instagram obtenido de un hashtag, una URL o una búsqueda o flujo basado en ubicaciones mediante un flujo de trabajo manual.
+seo-description: Puede solicitar el derecho de reutilizar un recurso de Instagram obtenido de un hashtag, una URL o una búsqueda o flujo basado en ubicaciones mediante un flujo de trabajo manual.
 seo-title: Enviar solicitud de derechos de Instagram manualmente
 title: Enviar solicitud de derechos de Instagram manualmente
 uuid: c 07 b 3 f 6 f-c 14 c -4 e 62-b 18 b -25934 ebe 45 bf
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
 
 ---
 

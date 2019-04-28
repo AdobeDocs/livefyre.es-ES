@@ -45,35 +45,35 @@ El panel Contenido de la aplicación permite limitar la búsqueda utilizando dif
 
 ![](assets/PublishedState-1024x367.png)
 
-Utilice el **[!UICONTROL Quick Filters]** menú desplegable para reducir el contenido devuelto a **[!UICONTROL All Content]****[!UICONTROL All Sidenotes]****[!UICONTROL Approved]**, **[!UICONTROL Approved & Flagged]****[!UICONTROL Pending]**o **[!UICONTROL Rights Requests]** el estado. A continuación, seleccione una **[!UICONTROL Filter by]** opción y utilice las casillas de verificación o los campos de entrada disponibles para limitar la búsqueda.
+Utilice el **[!UICONTROL Quick Filters]** menú desplegable para reducir el contenido devuelto a **[!UICONTROL All Content]****[!UICONTROL All Sidenotes]****[!UICONTROL Approved]**, **[!UICONTROL Approved & Flagged]****[!UICONTROL Pending]** o **[!UICONTROL Rights Requests]** el estado. A continuación, seleccione una **[!UICONTROL Filter by]** opción y utilice las casillas de verificación o los campos de entrada disponibles para limitar la búsqueda.
 
-Utilice el menú desplegable para ordenar el contenido en la lista, **[!UICONTROL Newest]****[!UICONTROL Oldest]****[!UICONTROL Recently updated]****[!UICONTROL Most flags]** o **[!UICONTROL Most liked]**en.
+Utilice el menú desplegable para ordenar el contenido en la lista, **[!UICONTROL Newest]****[!UICONTROL Oldest]****[!UICONTROL Recently updated]****[!UICONTROL Most flags]** o **[!UICONTROL Most liked]** en.
 
 ## Filtrar por opciones {#section_aqn_xqm_zz}
 
 Utilice **[!UICONTROL Filter by]** la barra para filtrar por las siguientes opciones:
 
-* **Estado** Permite filtrar por el estado de moderación actual del contenido: ** [!UICONTROL All Content]** **[!UICONTROL Approved]**, **[!UICONTROL Pending]**o **[!UICONTROL Bozo]**.
+* **Estado** Permite filtrar por el estado de moderación actual del contenido: ** [!UICONTROL All Content]** **[!UICONTROL Approved]**, **[!UICONTROL Pending]** o **[!UICONTROL Bozo]**.
 
-* **Fuente** Permite filtrar por origen del contenido. Seleccione **[!UICONTROL Livefyre]** para enumerar el contenido generado por el usuario publicado directamente en el flujo. Seleccione **[!UICONTROL Facebook]**, **[!UICONTROL Twitter]**o **[!UICONTROL RSS]** para incluir contenido extraído en las aplicaciones de esas fuentes.
+* **Fuente** Permite filtrar por origen del contenido. Seleccione **[!UICONTROL Livefyre]** para enumerar el contenido generado por el usuario publicado directamente en el flujo. Seleccione **[!UICONTROL Facebook]**, **[!UICONTROL Twitter]** o **[!UICONTROL RSS]** para incluir contenido extraído en las aplicaciones de esas fuentes.
 
-* **Los indicadores** de selección de indicadores le permiten filtrar por **[!UICONTROL User Flags]** (correo no deseado, tema desactivado, ofensivo o rechazar), **[!UICONTROL System Flags]** aplicado por SAFE (Profanity, correo no deseado o mágico), o **[!UICONTROL Moderation Recommendations]**por. ![](assets/appcontentfilter.png)
+* **Los indicadores** de selección de indicadores le permiten filtrar por **[!UICONTROL User Flags]** (correo no deseado, tema desactivado, ofensivo o rechazar), **[!UICONTROL System Flags]** aplicado por SAFE (Profanity, correo no deseado o mágico), o **[!UICONTROL Moderation Recommendations]** por. ![](assets/appcontentfilter.png)
 
 * **Fecha y hora** Le permite utilizar el fiter cuando el contenido era originalmente **[!UICONTROL Created]** (o extraído en la aplicación a través de socialsync o un flujo) o último **[!UICONTROL Modified]** (editado, marcado o modificado).
 
 * **Autor** Permite filtrar por **[!UICONTROL IP]** la dirección del autor ( **[!UICONTROL Display Name]** se encuentra en el panel Usuarios o desde encima del contenido publicado por el autor) o **[!UICONTROL User ID]**(se encuentra en el panel Usuarios).
 
-* **Contiene** Le permite filtrar los 90 días de contenido más recientes **[!UICONTROL Keyword]** por o **[!UICONTROL Content Tag]**. Seleccione **[!UICONTROL Media]** la casilla de verificación para devolver solo contenido que contenga medios. (Para buscar todo el contenido, desplácese hacia abajo por todo el contenido de la lista y haga clic **[!UICONTROL Search full data]**en).
+* **Contiene** Le permite filtrar los 90 días de contenido más recientes **[!UICONTROL Keyword]** por o **[!UICONTROL Content Tag]**. Seleccione **[!UICONTROL Media]** la casilla de verificación para devolver solo contenido que contenga medios. (Para buscar todo el contenido, desplácese hacia abajo por todo el contenido de la lista y haga clic **[!UICONTROL Search full data]** en).
 
    **Nota:** No se admite la búsqueda de varias etiquetas de contenido y palabra clave. Si se ingresan varias palabras clave o etiquetas, se utilizará la última palabra para la búsqueda.
 
    Al buscar por Etiqueta de contenido, las etiquetas sugeridas se rellenarán automáticamente al escribir en el campo de búsqueda. Los resultados de búsqueda devolverán todo el contenido que nunca se haya asignado a la etiqueta. (Utilice este campo para buscar el contenido destacado o haga clic **[!UICONTROL Featured]** en la etiqueta de cualquier contenido destacado en Studio).
 
-   **Nota:** Utilice un signo menos (-) delante de un nombre de etiqueta para buscar contenido que no incluya esa etiqueta. Por ejemplo: Busque '-Miley'para buscar todo el contenido que no incluya la etiqueta'Miley '.
+   **Nota:** Utilice un signo menos (-) delante de un nombre de etiqueta para buscar contenido que no incluya esa etiqueta. Por ejemplo: Busque &#39;-Miley&#39;para buscar todo el contenido que no incluya la etiqueta&#39;Miley &#39;.
 
-* **Aplicación** Permite filtrar por **[!UICONTROL Collection ID]**, **[!UICONTROL App Tag]**o ID **principal**. Al filtrar por ID principal, se devuelve todo el contenido que es una respuesta al ID de contenido de entrada. (Filtre por varias etiquetas introduciendo etiquetas separadas por coma).
+* **Aplicación** Permite filtrar por **[!UICONTROL Collection ID]**, **[!UICONTROL App Tag]** o ID **principal**. Al filtrar por ID principal, se devuelve todo el contenido que es una respuesta al ID de contenido de entrada. (Filtre por varias etiquetas introduciendo etiquetas separadas por coma).
 
-* **Derechos** Permite filtrar por estado de solicitudes de derechos: ** [!UICONTROL Requested]** **[!UICONTROL Granted]**, **[!UICONTROL Replied]**o **[!UICONTROL Expired]**.
+* **Derechos** Permite filtrar por estado de solicitudes de derechos: ** [!UICONTROL Requested]** **[!UICONTROL Granted]**, **[!UICONTROL Replied]** o **[!UICONTROL Expired]**.
 
 ## Contenido de Bozo {#section_afl_vqm_zz}
 
@@ -135,7 +135,7 @@ Seleccione **[!UICONTROL Featured]** la etiqueta predeterminada para marcar el c
 
 * Para desactivar la característica, haga clic en **[!UICONTROL x]** la **[!UICONTROL Featured]** etiqueta mostrada en la parte del contenido.
 
-* Desde un comentario, una Live Blog o una aplicación de críticas, pase el ratón sobre el contenido que desea destacar y haga clic **[!UICONTROL Feature]**en. Para dejar de funcionar, simplemente pase el ratón sobre el contenido y haga clic **[!UICONTROL Unfeature]**en.
+* Desde un comentario, una Live Blog o una aplicación de críticas, pase el ratón sobre el contenido que desea destacar y haga clic **[!UICONTROL Feature]** en. Para dejar de funcionar, simplemente pase el ratón sobre el contenido y haga clic **[!UICONTROL Unfeature]** en.
 
 >[!NOTE]
 >

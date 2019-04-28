@@ -1,8 +1,6 @@
 ---
-description: Puede agregar sitios nuevos a la red para dominios y subdominios que
-  comparten los mismos perfiles de usuario.
-seo-description: Puede agregar sitios nuevos a la red para dominios y subdominios
-  que comparten los mismos perfiles de usuario.
+description: Puede agregar sitios nuevos a la red para dominios y subdominios que comparten los mismos perfiles de usuario.
+seo-description: Puede agregar sitios nuevos a la red para dominios y subdominios que comparten los mismos perfiles de usuario.
 seo-title: Agregar un sitio a una red
 solution: Experience Manager
 title: Agregar un sitio a una red
@@ -26,4 +24,4 @@ Para agregar un nuevo sitio a la red:
 
    Este panel enumera todos los sitios incluidos en la red seleccionada.
 
-1. Introduzca un **[!UICONTROL Name]** y **[!UICONTROL URL]** en los campos proporcionados y haga clic **[!UICONTROL Add Site]**en.
+1. Introduzca un **[!UICONTROL Name]** y **[!UICONTROL URL]** en los campos proporcionados y haga clic **[!UICONTROL Add Site]** en.

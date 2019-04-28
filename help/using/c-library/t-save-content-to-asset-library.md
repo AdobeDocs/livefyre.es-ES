@@ -1,8 +1,6 @@
 ---
-description: Guarde contenido de la ficha Búsqueda social para guardar contenido para
-  utilizarlo en Aplicaciones.
-seo-description: Guarde contenido de la ficha Búsqueda social para guardar contenido
-  para utilizarlo en Aplicaciones.
+description: Guarde contenido de la ficha Búsqueda social para guardar contenido para utilizarlo en Aplicaciones.
+seo-description: Guarde contenido de la ficha Búsqueda social para guardar contenido para utilizarlo en Aplicaciones.
 seo-title: Guardar contenido en la biblioteca de recursos
 title: Guardar contenido en la biblioteca de recursos
 uuid: 5 f 076 a 55-4358-4 ee 5-866 e -5 b 6 c 0199 b 580

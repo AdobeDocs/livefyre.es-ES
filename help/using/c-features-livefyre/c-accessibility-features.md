@@ -1,11 +1,6 @@
 ---
-description: La identidad y las aplicaciones de Livefyre contienen funciones de accesibilidad
-  para permitir que todos los visitantes del sitio interactúen con el contenido, incluidos
-  los que pueden utilizar lectores de pantalla y otros dispositivos de asistencia.
-seo-description: La identidad y las aplicaciones de Livefyre contienen funciones de
-  accesibilidad para permitir que todos los visitantes del sitio interactúen con el
-  contenido, incluidos los que pueden utilizar lectores de pantalla y otros dispositivos
-  de asistencia.
+description: La identidad y las aplicaciones de Livefyre contienen funciones de accesibilidad para permitir que todos los visitantes del sitio interactúen con el contenido, incluidos los que pueden utilizar lectores de pantalla y otros dispositivos de asistencia.
+seo-description: La identidad y las aplicaciones de Livefyre contienen funciones de accesibilidad para permitir que todos los visitantes del sitio interactúen con el contenido, incluidos los que pueden utilizar lectores de pantalla y otros dispositivos de asistencia.
 seo-title: Funciones de accesibilidad
 solution: Experience Manager
 title: Funciones de accesibilidad

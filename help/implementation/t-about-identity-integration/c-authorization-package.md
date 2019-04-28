@@ -1,8 +1,6 @@
 ---
-description: Instale el paquete de autenticación para habilitar la autenticación de
-  usuarios para que los usuarios puedan interactuar con sus aplicaciones.
-seo-description: Instale el paquete de autenticación para habilitar la autenticación
-  de usuarios para que los usuarios puedan interactuar con sus aplicaciones.
+description: Instale el paquete de autenticación para habilitar la autenticación de usuarios para que los usuarios puedan interactuar con sus aplicaciones.
+seo-description: Instale el paquete de autenticación para habilitar la autenticación de usuarios para que los usuarios puedan interactuar con sus aplicaciones.
 seo-title: Paquete de autenticación
 solution: Experience Manager
 title: Paquete de autenticación

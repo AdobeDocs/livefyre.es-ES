@@ -1,8 +1,6 @@
 ---
-description: Elija hacer que la guía de navegación se mantenga en un área específica
-  de la pantalla.
-seo-description: Elija hacer que la guía de navegación se mantenga en un área específica
-  de la pantalla.
+description: Elija hacer que la guía de navegación se mantenga en un área específica de la pantalla.
+seo-description: Elija hacer que la guía de navegación se mantenga en un área específica de la pantalla.
 seo-title: Hacer fijo la guía de navegación
 solution: Experience Manager
 title: Hacer fijo la guía de navegación

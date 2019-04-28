@@ -1,8 +1,6 @@
 ---
-description: Devuelve un objeto de colección creado como tipo de chat. Ejecute crear_
-  o_ update () desde el objeto Colección para completar el proceso de creación.
-seo-description: Devuelve un objeto de colección creado como tipo de chat. Ejecute
-  crear_ o_ update () desde el objeto Colección para completar el proceso de creación.
+description: Devuelve un objeto de colección creado como tipo de chat. Ejecute crear_ o_ update () desde el objeto Colección para completar el proceso de creación.
+seo-description: Devuelve un objeto de colección creado como tipo de chat. Ejecute crear_ o_ update () desde el objeto Colección para completar el proceso de creación.
 seo-title: Método del sitio de buildchatcollection
 solution: Experience Manager
 title: Método del sitio de buildchatcollection

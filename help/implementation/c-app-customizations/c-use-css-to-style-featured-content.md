@@ -1,8 +1,6 @@
 ---
-description: Utilice clases CSS disponibles para aplicar estilo al contenido destacado
-  de forma diferente a otro contenido de la aplicación.
-seo-description: Utilice clases CSS disponibles para aplicar estilo al contenido destacado
-  de forma diferente a otro contenido de la aplicación.
+description: Utilice clases CSS disponibles para aplicar estilo al contenido destacado de forma diferente a otro contenido de la aplicación.
+seo-description: Utilice clases CSS disponibles para aplicar estilo al contenido destacado de forma diferente a otro contenido de la aplicación.
 seo-title: Usar CSS para el contenido destacado
 solution: Experience Manager
 title: Usar CSS para el contenido destacado

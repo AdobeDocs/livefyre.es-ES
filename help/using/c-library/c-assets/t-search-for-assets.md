@@ -1,8 +1,6 @@
 ---
-description: Busque recursos por diferentes opciones y filtros para encontrar el contenido
-  correcto para una aplicación.
-seo-description: Busque recursos por diferentes opciones y filtros para encontrar
-  el contenido correcto para una aplicación.
+description: Busque recursos por diferentes opciones y filtros para encontrar el contenido correcto para una aplicación.
+seo-description: Busque recursos por diferentes opciones y filtros para encontrar el contenido correcto para una aplicación.
 seo-title: Buscar recursos guardados en la biblioteca
 solution: Experience Manager
 title: Buscar recursos guardados en la biblioteca
@@ -25,12 +23,12 @@ Las siguientes opciones están disponibles en la biblioteca para ayudarle a enco
 * **[!UICONTROL Rights:]** seleccione el estado de solicitud de derechos para filtrar por estado de solicitud de derechos.
 * **[!UICONTROL Source:]** seleccione la fuente desde la que debe aparecer el contenido. **[!UICONTROL Uploaded]** enumera los recursos añadidos desde el equipo local, Flickr, Dropbox o cualquiera de las demás opciones de Filepicker disponibles. **[!UICONTROL Livefyre]** muestra el contenido generado por el usuario publicado directamente en el flujo.
 
-* **[!UICONTROL Sort By:]** utilice estas opciones para ordenar el contenido devuelto por **[!UICONTROL Date Added]** (a su biblioteca), **[!UICONTROL Date Created]**o **[!UICONTROL Relevance]**.
+* **[!UICONTROL Sort By:]** utilice estas opciones para ordenar el contenido devuelto por **[!UICONTROL Date Added]** (a su biblioteca), **[!UICONTROL Date Created]** o **[!UICONTROL Relevance]**.
 
 * **[!UICONTROL Stars:]** seleccione el número de estrellas que debe agregarse al recurso para que se devuelva.
 * **[!UICONTROL Tags:]** escriba etiquetas para buscar por.
 
 1. Vaya a **[!UICONTROL All Assets]** la página para ver todos los recursos.
 1. Ingrese los términos de búsqueda en **[!UICONTROL Search folder]** el campo (palabra clave o nombre del autor o etiqueta).
-1. Haga clic **[!UICONTROL Show Filter]**en.
+1. Haga clic **[!UICONTROL Show Filter]** en.
 1. Utilice los filtros proporcionados para limitar la búsqueda dentro de la biblioteca.

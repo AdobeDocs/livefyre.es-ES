@@ -1,10 +1,6 @@
 ---
-description: Puede solicitar el derecho de reutilizar un recurso de Instagram que
-  obtuvo de una búsqueda o un flujo por autor (cuenta comercial) con un flujo de trabajo
-  parcialmente automatizado.
-seo-description: Puede solicitar el derecho de reutilizar un recurso de Instagram
-  que obtuvo de una búsqueda o un flujo por autor (cuenta comercial) con un flujo
-  de trabajo parcialmente automatizado.
+description: Puede solicitar el derecho de reutilizar un recurso de Instagram que obtuvo de una búsqueda o un flujo por autor (cuenta comercial) con un flujo de trabajo parcialmente automatizado.
+seo-description: Puede solicitar el derecho de reutilizar un recurso de Instagram que obtuvo de una búsqueda o un flujo por autor (cuenta comercial) con un flujo de trabajo parcialmente automatizado.
 seo-title: Envío de una solicitud de derechos de Instagram parcialmente automatizada
 solution: Experience Manager
 title: Envío de una solicitud de derechos de Instagram parcialmente automatizada

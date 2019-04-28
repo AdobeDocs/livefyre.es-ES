@@ -18,7 +18,7 @@ Notas de la versión del 10 de agosto de 2017.
 
 | **Tipo de problema** | **Componente** | **Versión de la versión** |
 |---|---|---|
-| Error | Biblioteca | Se ha corregido un error que impedía que se mostrara el contenido del botón "Más información" en la Biblioteca. |
+| Error | Biblioteca | Se ha corregido un error que impedía que se mostrara el contenido del botón &quot;Más información&quot; en la Biblioteca. |
 | Error | Biblioteca | Se ha corregido un problema con los productos que se mostraban incorrectamente después de eliminar y volver a añadir un producto a un recurso de la biblioteca. |
 
 ## Versión de UAT

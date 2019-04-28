@@ -1,8 +1,6 @@
 ---
-description: Studio guardará automáticamente todos los cambios realizados por todos
-  los editores y generará una nueva versión para cada cambio que pueda ver.
-seo-description: Studio guardará automáticamente todos los cambios realizados por
-  todos los editores y generará una nueva versión para cada cambio que pueda ver.
+description: Studio guardará automáticamente todos los cambios realizados por todos los editores y generará una nueva versión para cada cambio que pueda ver.
+seo-description: Studio guardará automáticamente todos los cambios realizados por todos los editores y generará una nueva versión para cada cambio que pueda ver.
 seo-title: Historial de revisiones
 solution: Experience Manager
 title: Historial de revisiones

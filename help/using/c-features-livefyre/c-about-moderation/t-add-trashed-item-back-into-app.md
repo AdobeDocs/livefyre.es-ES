@@ -1,8 +1,6 @@
 ---
-description: Si papelera un elemento en modq, puede volver a agregarlo a la aplicación
-  utilizando una Búsqueda social.
-seo-description: Si papelera un elemento en modq, puede volver a agregarlo a la aplicación
-  utilizando una Búsqueda social.
+description: Si papelera un elemento en modq, puede volver a agregarlo a la aplicación utilizando una Búsqueda social.
+seo-description: Si papelera un elemento en modq, puede volver a agregarlo a la aplicación utilizando una Búsqueda social.
 seo-title: Agregar un elemento traslúcido a una aplicación
 title: Agregar un elemento traslúcido a una aplicación
 uuid: 96 c 5 db 19-999 f -476 f-a 96 c-ad 101028 d 484
@@ -16,7 +14,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Si papelera un elemento en modq, puede volver a agregarlo a la aplicación utilizando una Búsqueda social.
 
-1. Vaya a **[!UICONTROL Library]**la.
+1. Vaya a **[!UICONTROL Library]** la.
 1. Seleccione **[!UICONTROL Social Search]**.
 1. Seleccione un **[!UICONTROL Social Source]** (por ejemplo, Twitter o Instagram).
 1. Introduzca un hashtag.

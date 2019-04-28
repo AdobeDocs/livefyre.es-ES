@@ -1,8 +1,6 @@
 ---
-description: Estas opciones se aplican a cualquier regla de flujo de todas las redes
-  sociales o métodos de publicación.
-seo-description: Estas opciones se aplican a cualquier regla de flujo de todas las
-  redes sociales o métodos de publicación.
+description: Estas opciones se aplican a cualquier regla de flujo de todas las redes sociales o métodos de publicación.
+seo-description: Estas opciones se aplican a cualquier regla de flujo de todas las redes sociales o métodos de publicación.
 seo-title: Opciones de regla de flujo para todas las reglas de flujo
 solution: Experience Manager
 title: Opciones de regla de flujo para todas las reglas de flujo
@@ -21,7 +19,7 @@ Funciones de búsqueda para campos de texto y palabra clave:
 
 * Cuando se escriben palabras clave, Livefyre utiliza automáticamente el operador booleano **OR** cuando se para palabras individuales. Por ejemplo, para buscar anuncios con la *palabra ta* o *la fórmula*, escriba *cake*y, a continuación, introduzca *la fórmula* en **[!UICONTROL keyword]** el campo.
 
-* Puede buscar frases exactas rodeando el texto exacto de frase entre comillas. Por ejemplo, para buscar la fórmula exacta *de la frase de frase*, escriba *"fórmula de pastel"* en **[!UICONTROL keyword]** el campo.
+* Puede buscar frases exactas rodeando el texto exacto de frase entre comillas. Por ejemplo, para buscar la fórmula exacta *de la frase de frase*, escriba *&quot;fórmula de pastel&quot;* en **[!UICONTROL keyword]** el campo.
 
 * Puede combinar las búsquedas booleanas y exactas en una regla de flujo. Por ejemplo, puede buscar *los pasteles*, *las fórmulas*y *la «fórmula de pastel»* introduciendo cada frase de uno en uno.
 

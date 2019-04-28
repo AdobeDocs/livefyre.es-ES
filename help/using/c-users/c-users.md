@@ -1,8 +1,6 @@
 ---
-description: Agregue y administre usuarios y visitantes del sitio con la red Studio
-  y Livefyre.
-seo-description: Agregue y administre usuarios y visitantes del sitio con la red Studio
-  y Livefyre.
+description: Agregue y administre usuarios y visitantes del sitio con la red Studio y Livefyre.
+seo-description: Agregue y administre usuarios y visitantes del sitio con la red Studio y Livefyre.
 seo-title: Usuarios que administran usuarios y usuarios de red de Livefyre
 solution: Experience Manager
 title: Usuarios que administran usuarios y usuarios de red de Livefyre

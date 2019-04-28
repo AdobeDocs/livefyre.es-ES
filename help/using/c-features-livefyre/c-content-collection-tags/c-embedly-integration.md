@@ -1,8 +1,6 @@
 ---
-description: Use embed.ly para mostrar varios formatos multimedia directamente en
-  la aplicación.
-seo-description: Use embed.ly para mostrar varios formatos multimedia directamente
-  en la aplicación.
+description: Use embed.ly para mostrar varios formatos multimedia directamente en la aplicación.
+seo-description: Use embed.ly para mostrar varios formatos multimedia directamente en la aplicación.
 seo-title: Integración con Embedly
 solution: Experience Manager
 title: Integración con Embedly

@@ -1,8 +1,6 @@
 ---
-description: Configure credenciales que permitan a los usuarios compartir contenido
-  en varias redes sociales.
-seo-description: Configure credenciales que permitan a los usuarios compartir contenido
-  en varias redes sociales.
+description: Configure credenciales que permitan a los usuarios compartir contenido en varias redes sociales.
+seo-description: Configure credenciales que permitan a los usuarios compartir contenido en varias redes sociales.
 seo-title: Activación de Compartir en redes sociales
 solution: Experience Manager
 title: Activación de Compartir en redes sociales

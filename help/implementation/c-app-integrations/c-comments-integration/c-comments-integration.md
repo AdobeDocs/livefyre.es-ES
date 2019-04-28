@@ -17,7 +17,7 @@ Habilite comentarios en directo en su página. Los comentarios le permiten reemp
 
 ## de CRM{#concept_4093E8BAA96A464BA74D263DA031C0B0}
 
-La incrustación de la aplicación de comentarios sigue el proceso de incrustación de una aplicación principal descrita en Introducción > Incrustación de una aplicación.
+La incrustación de la aplicación de comentarios sigue el proceso de incrustación de una aplicación principal descrita en Introducción &gt; Incrustación de una aplicación.
 
 ### Ejemplo
 

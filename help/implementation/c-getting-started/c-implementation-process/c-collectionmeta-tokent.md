@@ -1,8 +1,6 @@
 ---
-description: Cree un distintivo único en el servidor que identifica cada colección
-  que cree.
-seo-description: Cree un distintivo único en el servidor que identifica cada colección
-  que cree.
+description: Cree un distintivo único en el servidor que identifica cada colección que cree.
+seo-description: Cree un distintivo único en el servidor que identifica cada colección que cree.
 seo-title: Collectionmeta Token
 solution: Experience Manager
 title: Collectionmeta Token
@@ -23,10 +21,10 @@ Livefyre asigna un identificador único a cada colección que cree. Livefyre asi
 
 | Parámetro | Tipo | Descripción |
 |--- |--- |--- |
-| Networkname | Cadena (opcional) | El nombre de la red de Livefyre (disponible desde {! UICONTROL Studio > Settings > Integration Settings > Credentials]). Es opcional al utilizar la biblioteca para crear un token collectionmeta. |
-| Networkkey | Cadena (opcional) | Clave secreta de la red específica (disponible desde Studio > Configuración > Ajustes de integración > Credenciales). Es opcional al utilizar la biblioteca para crear un token collectionmeta. |
+| Networkname | Cadena (opcional) | El nombre de la red de Livefyre (disponible desde {! UICONTROL Studio &gt; Settings &gt; Integration Settings &gt; Credentials]). Es opcional al utilizar la biblioteca para crear un token collectionmeta. |
+| Networkkey | Cadena (opcional) | Clave secreta de la red específica (disponible desde Studio &gt; Configuración &gt; Ajustes de integración &gt; Credenciales). Es opcional al utilizar la biblioteca para crear un token collectionmeta. |
 | Siteid | Cadena (opcional) | ID del sitio (disponible desde [!UICONTROL Studio > Settings > Integration Settings > Credentials] ). Opcional al utilizar la biblioteca para crear un token collectionmeta. |
-| Sitekey | Cadena (opcional) | La clave secreta del sitio (disponible desde {! UICONTROL Studio > Settings > Integration Settings > Credentials]). |
+| Sitekey | Cadena (opcional) | La clave secreta del sitio (disponible desde {! UICONTROL Studio &gt; Settings &gt; Integration Settings &gt; Credentials]). |
 | Articleid | Cadena (opcional) | ID único de la colección. |
 | title | Cadena (opcional) | Título que desea aplicar a la colección. Normalmente, esto corresponde al título de la página que muestra la aplicación. <br>Por ejemplo: «La integración es tan divertida! »» <br>Nota: La longitud máxima de caracteres para el título es de 255 caracteres. El campo de título no admite entidades HTML. Codifique caracteres especiales con UTF -8. |
 | url | Cadena (opcional) | Dirección URL canónica que desea adjuntar a esta colección. Esta URL se utilizará para generar vínculos de vuelta a la aplicación desde contenido compartido en Facebook y Twitter, notificaciones por correo electrónico y Livefyre Studio. <br>Nota: Si realiza pruebas localmente, utilice un dominio de URL base válido (por ejemplo: válido: `https://customer.com`; invalid: `https://localhost:5995`). |
@@ -99,7 +97,7 @@ collection.data.tags = 'tags'
 collection_meta_token = collection.build_collection_meta_token 
 ```
 
->[!NOTE] {important = "high"}
+>[!NOTE] {important = &quot;high&quot;}
 >
 >Livefyre recibe el token collectionmeta que genera y determina la exclusividad combinando siteid (proporcionado por Livefyre) y articleid (cliente especificado).
 

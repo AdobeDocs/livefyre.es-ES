@@ -30,7 +30,7 @@ Socialsync para Twitter forma parte de nuestra funcionalidad básica durante var
 | Mejora | Storify 2 | Storify 2 mejorado para admitir la búsqueda de contenido gratuito de texto. Copywrite Free searches across Flickr, Noun Project, Kuler, Pixabay and Unsplash for copywrite free images. |
 | Error | Flujos | Se ha corregido un error que impedía guardar las reglas de flujo Tumblr. |
 | Error | Flujos | Se ha corregido un error que generaba ID de generator incorrectos en la colección JSON para fuentes RSS. |
-| Mejora | Flujos | Se ha realizado un ajuste a la configuración de la opción "Cuentas verificadas solo" que se deshabilitará de forma predeterminada. |
+| Mejora | Flujos | Se ha realizado un ajuste a la configuración de la opción &quot;Cuentas verificadas solo&quot; que se deshabilitará de forma predeterminada. |
 | Mejora | Flujos | Se ha agregado una nueva función para permitir que las categorías de contenido (a través de una regla de flujo) estén en la lista de direcciones permitidas y evitar la moderación. |
 | Error | Flujos | Se ha corregido un error que provocaba que los ajustes de «Premoderar» y «Premoderado de medios» pasaran a una regla de flujo recién creada. |
 
@@ -40,13 +40,13 @@ Socialsync para Twitter forma parte de nuestra funcionalidad básica durante var
 |--- |--- |--- |
 | Error | Aplicaciones de conversación | Aplicaciones de conversación mejoradas para vincular siempre a perfiles de usuario, incluso sin una integración de autenticación completa. |
 | Error | Mosaico | Se ha corregido un error que ahora proporciona todas las imágenes de Twitter a través de HTTPS. |
-| Error | Búsqueda social | Se ha corregido un error que hacía que la marca de verificación "guardada" verde no apareciese al guardar recursos en la búsqueda social y ver recursos en la biblioteca. |
-| Error | Búsqueda social | Se ha corregido un error que impedía que la opción "Ocultar imágenes explícitas" funcionara correctamente. |
+| Error | Búsqueda social | Se ha corregido un error que hacía que la marca de verificación &quot;guardada&quot; verde no apareciese al guardar recursos en la búsqueda social y ver recursos en la biblioteca. |
+| Error | Búsqueda social | Se ha corregido un error que impedía que la opción &quot;Ocultar imágenes explícitas&quot; funcionara correctamente. |
 | Mejora | Storify 2 | Storify 2 mejorado para admitir los vínculos perinosos que abrieron un modal (anteriormente, la aplicación desplazaba hasta la ubicación de publicación en la página). En Designer de Storify 2, hemos añadido una configuración para alternar entre el comportamiento de desplazamiento y el comportamiento perink modal. El comportamiento del comportamiento perimetral modal será el comportamiento predeterminado. |
 | Mejora | Storify 2 | Se mejoró la integración de Google AMP con Storify 2 para producir un archivo CSS más pequeño. |
 | Error | Flujos | Se ha mejorado el contenido (imágenes y vídeos) de las reglas de flujo de correo electrónico a través de HTTPS. |
 | Error | Flujos | Se agregó una etiqueta para el valor de radio de millas en mapas en reglas de flujo de Twitter. |
 | Error | Flujos | Se ha corregido un error con las reglas de vapor de página Facebook y Facebook para extraer los anuncios con varios archivos adjuntos de medios correctamente. |
-| Error | Studio | Se ha corregido un error que provocaba que varios & elementos se anexaran a la URL al usar filtros en Studio. |
+| Error | Studio | Se ha corregido un error que provocaba que varios &amp; elementos se anexaran a la URL al usar filtros en Studio. |
 | Error | Studio | Se ha corregido un error que impedía que se desactivaran ciertas casillas de verificación en filtros Studio. |
 

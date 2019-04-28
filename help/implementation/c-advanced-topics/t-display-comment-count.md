@@ -1,8 +1,6 @@
 ---
-description: Tome los recuentos de publicaciones y comentarios para que determinadas
-  colecciones se muestren en las páginas de índice.
-seo-description: Tome los recuentos de publicaciones y comentarios para que determinadas
-  colecciones se muestren en las páginas de índice.
+description: Tome los recuentos de publicaciones y comentarios para que determinadas colecciones se muestren en las páginas de índice.
+seo-description: Tome los recuentos de publicaciones y comentarios para que determinadas colecciones se muestren en las páginas de índice.
 seo-title: Mostrar recuento de comentarios
 solution: Experience Manager
 title: Mostrar recuento de comentarios
@@ -43,7 +41,7 @@ Livefyre le `CommentCount.js` permite recuperar los recuentos de contenido de la
    </span>
    ```
 
-   >[!NOTE] {important = "high"}
+   >[!NOTE] {important = &quot;high&quot;}
    >
    >`CommentCount.js` El código comprueba si hay un valor numérico que actualizar con el recuento real. Asegúrese de incluir un valor numérico entre las etiquetas.
 

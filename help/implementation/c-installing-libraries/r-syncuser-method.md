@@ -1,8 +1,6 @@
 ---
-description: Informa a Livefyre de que extrae información de usuario de una URL de
-  sincronización de usuarios establecida anteriormente. Devuelve un valor booleano.
-seo-description: Informa a Livefyre de que extrae información de usuario de una URL
-  de sincronización de usuarios establecida anteriormente. Devuelve un valor booleano.
+description: Informa a Livefyre de que extrae información de usuario de una URL de sincronización de usuarios establecida anteriormente. Devuelve un valor booleano.
+seo-description: Informa a Livefyre de que extrae información de usuario de una URL de sincronización de usuarios establecida anteriormente. Devuelve un valor booleano.
 seo-title: Método de red syncuser
 solution: Experience Manager
 title: Método de red syncuser

@@ -1,7 +1,6 @@
 ---
 description: Cambie las opciones de tamaño, ancho e interacción de la aplicación Encuestas.
-seo-description: Cambie las opciones de tamaño, ancho e interacción de la aplicación
-  Encuestas.
+seo-description: Cambie las opciones de tamaño, ancho e interacción de la aplicación Encuestas.
 seo-title: Personalizaciones de encuestas
 solution: Experience Manager
 title: Personalizaciones de encuestas
@@ -56,7 +55,7 @@ Cambie las opciones de tamaño, ancho e interacción de la aplicación Encuestas
 
 Puede personalizar encuestas utilizando:
 
-* **[!UICONTROL Style]** y **[!UICONTROL Config]** opciones para todas las aplicaciones del **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en **[!UICONTROL App Designer]**la.
+* **[!UICONTROL Style]** y **[!UICONTROL Config]** opciones para todas las aplicaciones del **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en **[!UICONTROL App Designer]** la.
 
 * Herramientas de integración. Consulte Encuestas para obtener más información sobre cómo personalizar aplicaciones mediante herramientas de integración.
 

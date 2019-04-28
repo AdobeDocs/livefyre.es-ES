@@ -1,10 +1,6 @@
 ---
-description: Puede utilizar la identidad de Livefyre con Twitter para permitir que
-  los usuarios utilicen sus inicios de sesión de Twitter para interactuar con aplicaciones
-  en el sitio.
-seo-description: Puede utilizar la identidad de Livefyre con Twitter para permitir
-  que los usuarios utilicen sus inicios de sesión de Twitter para interactuar con
-  aplicaciones en el sitio.
+description: Puede utilizar la identidad de Livefyre con Twitter para permitir que los usuarios utilicen sus inicios de sesión de Twitter para interactuar con aplicaciones en el sitio.
+seo-description: Puede utilizar la identidad de Livefyre con Twitter para permitir que los usuarios utilicen sus inicios de sesión de Twitter para interactuar con aplicaciones en el sitio.
 seo-title: Crear una aplicación de Twitter para usarla con la identidad de Livefyre
 solution: Experience Manager
 title: Crear una aplicación de Twitter para usarla con la identidad de Livefyre
@@ -35,4 +31,4 @@ Para crear una aplicación de Twitter para utilizarla con la identidad de Livefy
 
 1. En la **[!UICONTROL Permissions]** ficha, seleccione **[!UICONTROL Access: Read only]**.
 
-Cuando se complete, la página Administración de aplicaciones de Twitter > Claves y Autentificadores de acceso mostrará la clave de consumidores (clave de API) y el secreto del consumidor de la aplicación para su uso en la página Ajustes de integración de Studio.
+Cuando se complete, la página Administración de aplicaciones de Twitter &gt; Claves y Autentificadores de acceso mostrará la clave de consumidores (clave de API) y el secreto del consumidor de la aplicación para su uso en la página Ajustes de integración de Studio.

@@ -1,7 +1,6 @@
 ---
 description: Use el abreviador de URL de bit. ly para personalizar el contenido perintinos.
-seo-description: Use el abreviador de URL de bit. ly para personalizar el contenido
-  perintinos.
+seo-description: Use el abreviador de URL de bit. ly para personalizar el contenido perintinos.
 seo-title: Permalinks
 solution: Experience Manager
 title: Permalinks
@@ -28,7 +27,7 @@ Si los usuarios hacen clic en un vínculo permanente de una red social a una apl
 
 Si desea crear vínculos permanentes personalizados para comentarios al compartir conversaciones, puede utilizar su cuenta de Bitly, en lugar de la URL abreviada de Livefyre estándar (fyre. it). El uso de su cuenta de Bitly le ayudará a recordar a los usuarios que visitarán el contenido del sitio al hacer clic en un vínculo perdemik.
 
-Para implementar esta función, vaya e **[!UICONTROL Studio > Settings > Integration Settings > Social Sharing]**introduzca su clave de API y nombre de usuario Bitly.
+Para implementar esta función, vaya e **[!UICONTROL Studio > Settings > Integration Settings > Social Sharing]** introduzca su clave de API y nombre de usuario Bitly.
 
 >[!NOTE]
 >

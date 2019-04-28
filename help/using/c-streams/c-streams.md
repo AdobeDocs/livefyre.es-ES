@@ -1,8 +1,6 @@
 ---
-description: Seleccione el contenido seleccionado en las aplicaciones de Livefyre
-  o en la biblioteca de Studio.
-seo-description: Seleccione el contenido seleccionado en las aplicaciones de Livefyre
-  o en la biblioteca de Studio.
+description: Seleccione el contenido seleccionado en las aplicaciones de Livefyre o en la biblioteca de Studio.
+seo-description: Seleccione el contenido seleccionado en las aplicaciones de Livefyre o en la biblioteca de Studio.
 seo-title: Flujos
 solution: Experience Manager
 title: Flujos

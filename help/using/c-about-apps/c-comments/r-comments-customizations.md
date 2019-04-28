@@ -1,8 +1,6 @@
 ---
-description: Personalice comentarios para incrustar conversaciones en tiempo real
-  en el sitio.
-seo-description: Personalice comentarios para incrustar conversaciones en tiempo real
-  en el sitio.
+description: Personalice comentarios para incrustar conversaciones en tiempo real en el sitio.
+seo-description: Personalice comentarios para incrustar conversaciones en tiempo real en el sitio.
 seo-title: Personalizaciones de comentarios
 solution: Experience Manager
 title: Personalizaciones de comentarios
@@ -59,7 +57,7 @@ Utilice las opciones disponibles para permitir a los usuarios compartir contenid
 
 * **[!UICONTROL Users may share posts]**
 
-   Si los usuarios habilitados pueden compartir publicaciones. Si se habilita, los usuarios pueden compartir contenido publicado en Twitter, Facebook o linkedin. Para obtener más información sobre cómo activar el uso compartido, consulte Configuración > Ajustes de integración > Compartir en redes sociales.
+   Si los usuarios habilitados pueden compartir publicaciones. Si se habilita, los usuarios pueden compartir contenido publicado en Twitter, Facebook o linkedin. Para obtener más información sobre cómo activar el uso compartido, consulte Configuración &gt; Ajustes de integración &gt; Compartir en redes sociales.
 
 * **[!UICONTROL Featured content at top of stream]**
 
@@ -75,7 +73,7 @@ Utilice las opciones disponibles para permitir a los usuarios compartir contenid
 
 Puede personalizar comentarios utilizando:
 
-* **[!UICONTROL Style]** y **[!UICONTROL Config]** opciones para todas las aplicaciones del **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en **[!UICONTROL App Designer]**la.
+* **[!UICONTROL Style]** y **[!UICONTROL Config]** opciones para todas las aplicaciones del **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en **[!UICONTROL App Designer]** la.
 
 * **[!UICONTROL Integration tools]**. Consulte Comentarios para obtener más información sobre cómo personalizar comentarios mediante las herramientas de integración.
 

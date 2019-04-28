@@ -1,8 +1,6 @@
 ---
-description: App Designer permite obtener una vista previa de la aplicación en varios
-  formatos de entrega y con sus propios datos de ejemplo o muestra.
-seo-description: App Designer permite obtener una vista previa de la aplicación en
-  varios formatos de entrega y con sus propios datos de ejemplo o muestra.
+description: App Designer permite obtener una vista previa de la aplicación en varios formatos de entrega y con sus propios datos de ejemplo o muestra.
+seo-description: App Designer permite obtener una vista previa de la aplicación en varios formatos de entrega y con sus propios datos de ejemplo o muestra.
 seo-title: Vista preliminar de un artículo
 solution: Experience Manager
 title: Vista preliminar de un artículo

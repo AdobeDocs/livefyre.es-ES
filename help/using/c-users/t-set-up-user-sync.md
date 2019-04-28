@@ -1,8 +1,6 @@
 ---
-description: Sincronización de usuarios permite introducir el punto final utilizado
-  para recuperar datos de perfil de usuario del sistema de administración de usuarios.
-seo-description: Sincronización de usuarios permite introducir el punto final utilizado
-  para recuperar datos de perfil de usuario del sistema de administración de usuarios.
+description: Sincronización de usuarios permite introducir el punto final utilizado para recuperar datos de perfil de usuario del sistema de administración de usuarios.
+seo-description: Sincronización de usuarios permite introducir el punto final utilizado para recuperar datos de perfil de usuario del sistema de administración de usuarios.
 seo-title: Sincronización del usuario
 solution: Experience Manager
 title: Sincronización del usuario

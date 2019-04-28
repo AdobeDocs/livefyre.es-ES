@@ -1,8 +1,6 @@
 ---
-description: Lista de exploradores y dispositivos admitidos por el grupo de aplicaciones
-  de Livefyre.
-seo-description: Lista de exploradores y dispositivos admitidos por el grupo de aplicaciones
-  de Livefyre.
+description: Lista de exploradores y dispositivos admitidos por el grupo de aplicaciones de Livefyre.
+seo-description: Lista de exploradores y dispositivos admitidos por el grupo de aplicaciones de Livefyre.
 seo-title: Compatibilidad con dispositivos y navegadores
 title: Compatibilidad con dispositivos y navegadores
 uuid: 338 f 78 b 2-051 d -4831-a 0 b 9-e 987 f 92660 ce

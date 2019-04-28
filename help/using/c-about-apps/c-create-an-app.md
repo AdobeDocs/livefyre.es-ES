@@ -1,8 +1,6 @@
 ---
-description: Para agregar una aplicación a su sitio, primero debe crear una aplicación
-  en Livefyre Studio.
-seo-description: Para agregar una aplicación a su sitio, primero debe crear una aplicación
-  en Livefyre Studio.
+description: Para agregar una aplicación a su sitio, primero debe crear una aplicación en Livefyre Studio.
+seo-description: Para agregar una aplicación a su sitio, primero debe crear una aplicación en Livefyre Studio.
 seo-title: Crear una aplicación
 solution: Experience Manager
 title: Crear una aplicación
@@ -20,7 +18,7 @@ Para agregar una aplicación a su sitio, primero debe crear una aplicación en L
 Para crear una aplicación nueva:
 
 1. Haga clic **[!UICONTROL +New App]** en la página Aplicaciones y seleccione un tipo de aplicación en el menú desplegable.
-1. Aparecerá el cuadro de **[!UICONTROL New App]** diálogo. Introduzca un **[!UICONTROL App Title]**, seleccione un **[!UICONTROL Site]**y haga clic **[!UICONTROL Create]** para abrir la página Información general de la aplicación.
+1. Aparecerá el cuadro de **[!UICONTROL New App]** diálogo. Introduzca un **[!UICONTROL App Title]**, seleccione un **[!UICONTROL Site]** y haga clic **[!UICONTROL Create]** para abrir la página Información general de la aplicación.
 
 La página Resumen de la aplicación proporciona 4 fichas:
 
@@ -92,7 +90,7 @@ El modo de vista previa ofrece las opciones siguientes:
 
 >[!NOTE]
 >
->Si se anula la selección **[!UICONTROL Sample Data]**y no se activa Flujo para la aplicación, no se muestra ningún contenido en el modo de vista previa.
+>Si se anula la selección **[!UICONTROL Sample Data]** y no se activa Flujo para la aplicación, no se muestra ningún contenido en el modo de vista previa.
 
 * **[!UICONTROL Share]**: Abre la aplicación en una nueva pestaña explorador y genera una URL que puede utilizarse para permitir que los amigos, compañeros o usuarios que no sean de Survey revisen su aplicación y la prueben en distintos exploradores y dispositivos.
 
@@ -143,7 +141,7 @@ La ficha Resumen de la aplicación permite:
 
    >[!NOTE]
    >
-   >Utilice este código incrustado para agregar encuestas a sus comentarios o a la aplicación de blog en directo. Para obtener más información, consulte Interacciones personalizadas > HTML personalizado.
+   >Utilice este código incrustado para agregar encuestas a sus comentarios o a la aplicación de blog en directo. Para obtener más información, consulte Interacciones personalizadas &gt; HTML personalizado.
 
 * **[!UICONTROL View Content]**: Abre la página Contenido, que enumera todo el contenido publicado en la aplicación.
 * **[!UICONTROL Moderate]**: Abre modq y enumera todo el contenido que espera moderación de la aplicación.
@@ -170,7 +168,7 @@ Puede eliminar una aplicación desde la lista Aplicaciones en Livefyre Studio. C
 
 Para eliminar una aplicación:
 
-1. Haga clic **[!UICONTROL Apps]**en.
+1. Haga clic **[!UICONTROL Apps]** en.
 1. Haga clic en la elipsis a la derecha del nombre de la aplicación que desee eliminar.
 1. Haga clic para **[!UICONTROL Delete App]** eliminar la aplicación.
 

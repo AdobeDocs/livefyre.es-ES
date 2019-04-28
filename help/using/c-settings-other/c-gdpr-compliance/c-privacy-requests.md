@@ -18,7 +18,7 @@ Elimine todos los datos de un usuario, genere un informe de todos los datos para
 
 Para buscar y buscar un usuario y generar un informe de su contenido:
 
-1. Vaya a **[!UICONTROL Settings > Privacy]**y, a continuación, haga clic **[!UICONTROL Create Request]**en.
+1. Vaya a **[!UICONTROL Settings > Privacy]** y, a continuación, haga clic **[!UICONTROL Create Request]** en.
 
    ![](assets/privacypage1.png)
 
@@ -29,7 +29,7 @@ Para buscar y buscar un usuario y generar un informe de su contenido:
 
       * **Acceso**. Recopila todos los datos disponibles asociados a la cuenta. Los detalles confidenciales, por ejemplo, contraseñas o credenciales sociales, se confunden o se omiten.
 
-      * **Eliminar**. Cancela o muestra toda la información asociada a la cuenta. **Si elige esta opción y hace clic en Enviar, no puede revertir ni cancelar esta acción, *ni puede recuperar los datos eliminados.*** Si la cuenta pertenece a un usuario de Livefyre Studio, se conservarán algunos datos para mantener la integridad de los registros comerciales.
+      * **Eliminar**. Cancela o muestra toda la información asociada a la cuenta. **Si elige esta opción y hace clic en Enviar, no puede revertir ni cancelar esta acción,*ni puede recuperar los datos eliminados.*** Si la cuenta pertenece a un usuario de Livefyre Studio, se conservarán algunos datos para mantener la integridad de los registros comerciales.
 
          >[!IMPORTANT]
          >
@@ -64,7 +64,7 @@ Para buscar y buscar un usuario y generar un informe de su contenido:
          * Valores permitidos: 5-16 caracteres numéricos
       * **[!UICONTROL Generic Author]**
 
-         * Identifica una cuenta por ID de autor de Livefyre (JID). Utilice esta opción para crear contenido mediante RSS, Tumblr o URL. Para encontrar este ID, busque contenido atribuido al Autor en **la biblioteca de** **contenido o contenido de la aplicación**y, a continuación, seleccione un elemento. El ID está disponible en Contenido **de la aplicación** en **Información** o en la Biblioteca **de recursos** , dentro **de Autor** en **la** sección Detalles.
+         * Identifica una cuenta por ID de autor de Livefyre (JID). Utilice esta opción para crear contenido mediante RSS, Tumblr o URL. Para encontrar este ID, busque contenido atribuido al Autor en **la biblioteca de** **contenido o contenido de la aplicación** y, a continuación, seleccione un elemento. El ID está disponible en Contenido **de la aplicación** en **Información** o en la Biblioteca **de recursos** , dentro **de Autor** en **la** sección Detalles.
 
          * Valores permitidos: Cadena alfanumérica de hasta 255 caracteres
          ![](assets/privacypage3.png)
@@ -76,7 +76,7 @@ Para buscar y buscar un usuario y generar un informe de su contenido:
 
 
 
-1. Haga clic **[!UICONTROL Finish]**en.
+1. Haga clic **[!UICONTROL Finish]** en.
 
    ![](assets/privacypage4.png)
 

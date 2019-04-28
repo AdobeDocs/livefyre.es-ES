@@ -28,8 +28,8 @@ Cuando caduca un token, Livefyre lo notifica de las siguientes maneras:
 * Al buscar contenido de Instagram, aparece una ventana en el lado inferior izquierdo que indica que el testigo de Instagram ha caducado. Si configura otras cuentas de Instagram, Livefyre búsquedas automáticamente Instagram usando la siguiente cuenta de Instagram en su lista.
 * Cuando solicite derechos con una cuenta de Instagram concreta caducada, se muestra un error y debe seleccionar otra cuenta de Instagram o actualizar el token de la cuenta caducada y hacer clic en los derechos de solicitud nuevamente.
 * Los flujos con una cuenta caducada de Instagram no funcionarán.
-* Las cuentas con tokens caducados en **[!UICONTROL Network Settings]** > **[!UICONTROL Social Accounts]** muestran un icono de advertencia de error ( ![](assets/warningError.png)
+* Las cuentas con tokens caducados en **[!UICONTROL Network Settings]** &gt; **[!UICONTROL Social Accounts]** muestran un icono de advertencia de error ( ![](assets/warningError.png)
 
    ).
 
-Para actualizar el token, haga clic en Actualizar token junto a la cuenta en **[!UICONTROL Network Settings]** > **[!UICONTROL Social Accounts]** > **[!UICONTROL Instagram Accounts]**.
+Para actualizar el token, haga clic en Actualizar token junto a la cuenta en **[!UICONTROL Network Settings]** &gt; **[!UICONTROL Social Accounts]** &gt; **[!UICONTROL Instagram Accounts]**.

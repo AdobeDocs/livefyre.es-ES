@@ -1,8 +1,6 @@
 ---
-description: Convierta cada parte de cada página del sitio en un lienzo interactivo
-  y colaborativo.
-seo-description: Convierta cada parte de cada página del sitio en un lienzo interactivo
-  y colaborativo.
+description: Convierta cada parte de cada página del sitio en un lienzo interactivo y colaborativo.
+seo-description: Convierta cada parte de cada página del sitio en un lienzo interactivo y colaborativo.
 seo-title: Prácticas recomendadas para Sidenotes
 solution: Experience Manager
 title: Prácticas recomendadas para Sidenotes

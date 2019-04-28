@@ -1,8 +1,6 @@
 ---
-description: Agregue una etiqueta de usuario a la cuenta para aplicar distintivos
-  de usuario.
-seo-description: Agregue una etiqueta de usuario a la cuenta para aplicar distintivos
-  de usuario.
+description: Agregue una etiqueta de usuario a la cuenta para aplicar distintivos de usuario.
+seo-description: Agregue una etiqueta de usuario a la cuenta para aplicar distintivos de usuario.
 seo-title: Agregar etiquetas de usuario a una cuenta
 title: Agregar etiquetas de usuario a una cuenta
 uuid: 737907 ff -4958-489 d-acef-fab 531 ebd 526

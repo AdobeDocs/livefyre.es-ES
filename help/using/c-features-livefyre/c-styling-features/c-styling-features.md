@@ -1,10 +1,6 @@
 ---
-description: Puede aplicar estilo a las aplicaciones de Livefyre para comportarse
-  de diversas formas o cambiarlas de modo que se muestren y se sientan como el resto
-  de la campaña de marca.
-seo-description: Puede aplicar estilo a las aplicaciones de Livefyre para comportarse
-  de diversas formas o cambiarlas de modo que se muestren y se sientan como el resto
-  de la campaña de marca.
+description: Puede aplicar estilo a las aplicaciones de Livefyre para comportarse de diversas formas o cambiarlas de modo que se muestren y se sientan como el resto de la campaña de marca.
+seo-description: Puede aplicar estilo a las aplicaciones de Livefyre para comportarse de diversas formas o cambiarlas de modo que se muestren y se sientan como el resto de la campaña de marca.
 seo-title: Características de estilo
 title: Características de estilo
 uuid: 72 a 3843 d -692 a -43 ff-b 72 b -6 bd 840 de 87 d 6

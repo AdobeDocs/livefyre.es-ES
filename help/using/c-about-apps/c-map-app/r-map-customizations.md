@@ -1,7 +1,6 @@
 ---
 description: Cambie las opciones de tamaño, ancho e interacción de la aplicación Mapa.
-seo-description: Cambie las opciones de tamaño, ancho e interacción de la aplicación
-  Mapa.
+seo-description: Cambie las opciones de tamaño, ancho e interacción de la aplicación Mapa.
 seo-title: Asignación de personalizaciones
 solution: Experience Manager
 title: Asignación de personalizaciones
@@ -54,7 +53,7 @@ Las siguientes opciones están disponibles en la aplicación Mapa:
 
 Puede personalizar la aplicación Mapa utilizando:
 
-* **[!UICONTROL Style]** y **[!UICONTROL Config]** opciones para todas las aplicaciones del **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en **[!UICONTROL App Designer]**la.
+* **[!UICONTROL Style]** y **[!UICONTROL Config]** opciones para todas las aplicaciones del **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en **[!UICONTROL App Designer]** la.
 
 * Herramientas de integración. Consulte Mapa para obtener más información sobre cómo personalizar aplicaciones mediante herramientas de integración.
 

@@ -1,8 +1,6 @@
 ---
-description: Puede registrar a un usuario a través de la consola durante la integración
-  y pruebas para depurar la autorización.
-seo-description: Puede registrar a un usuario a través de la consola durante la integración
-  y pruebas para depurar la autorización.
+description: Puede registrar a un usuario a través de la consola durante la integración y pruebas para depurar la autorización.
+seo-description: Puede registrar a un usuario a través de la consola durante la integración y pruebas para depurar la autorización.
 seo-title: Delegado de autenticación de depuración
 solution: Experience Manager
 title: Delegado de autenticación de depuración

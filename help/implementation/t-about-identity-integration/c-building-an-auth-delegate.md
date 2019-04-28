@@ -1,10 +1,6 @@
 ---
-description: El objeto authdelegate implementa el comportamiento deseado para realizar
-  acciones de autenticación y eventos, a fin de personalizar la integración con el
-  sistema de autenticación existente del sitio.
-seo-description: El objeto authdelegate implementa el comportamiento deseado para
-  realizar acciones de autenticación y eventos, a fin de personalizar la integración
-  con el sistema de autenticación existente del sitio.
+description: El objeto authdelegate implementa el comportamiento deseado para realizar acciones de autenticación y eventos, a fin de personalizar la integración con el sistema de autenticación existente del sitio.
+seo-description: El objeto authdelegate implementa el comportamiento deseado para realizar acciones de autenticación y eventos, a fin de personalizar la integración con el sistema de autenticación existente del sitio.
 seo-title: Objeto authdelegate
 solution: Experience Manager
 title: Objeto authdelegate

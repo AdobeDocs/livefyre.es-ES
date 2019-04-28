@@ -1,8 +1,6 @@
 ---
-description: La integración de Livefyre con Adobe Target le permite compartir aplicaciones
-  de Livefyre directamente en la biblioteca de ofertas de Target.
-seo-description: La integración de Livefyre con Adobe Target le permite compartir
-  aplicaciones de Livefyre directamente en la biblioteca de ofertas de Target.
+description: La integración de Livefyre con Adobe Target le permite compartir aplicaciones de Livefyre directamente en la biblioteca de ofertas de Target.
+seo-description: La integración de Livefyre con Adobe Target le permite compartir aplicaciones de Livefyre directamente en la biblioteca de ofertas de Target.
 seo-title: Uso de Adobe Experience Manager Livefyre con Adobe Target
 title: Uso de Adobe Experience Manager Livefyre con Adobe Target
 uuid: 98108 ddb -5710-4331-891 b -7 e 1 bbb 106059
@@ -23,7 +21,7 @@ Conecte una instancia de Livefyre con Adobe Target vinculando su cuenta de Adobe
 
 1. Seleccione la cuenta de usuario que desea conectar con Target a través de la integración de cuentas de IMS.
 
-1. Haga clic **[!UICONTROL Connect]**en.
+1. Haga clic **[!UICONTROL Connect]** en.
 
 1. Introduzca sus credenciales IMS.
 
@@ -41,7 +39,7 @@ Comparta una aplicación creada en Livefyre Studio directamente con Adobe Target
 
 1. Seleccione la aplicación que desee compartir en Adobe Target.
 
-1. Haga clic **[!UICONTROL Publish]**en.
+1. Haga clic **[!UICONTROL Publish]** en.
 
 1. En Configuración de publicación, haga clic en el conmutador Adobe Target.
 
@@ -51,6 +49,6 @@ Aparece una lista de instancias de Target.
 
 ![](assets/livefyre-target-publish.png)
 
-1. Haga clic **[!UICONTROL Publish]**en.
+1. Haga clic **[!UICONTROL Publish]** en.
 
 La aplicación de Livefyre ya está disponible para su uso en la biblioteca de ofertas de Target. Para obtener más información sobre la publicación de aplicaciones, consulte [Publicación de contenido](/help/using/c-library/t-publish-content.md) y [ofertas](https://marketing.adobe.com/resources/help/en_US/target/target/c_manage_content.html) en la documentación de Target.

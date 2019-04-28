@@ -1,8 +1,6 @@
 ---
-description: Agregue una guía de navegación a la aplicación Storify 2 para crear una
-  lista de publicaciones perdecidas en una ubicación destacada junto a su artículo.
-seo-description: Agregue una guía de navegación a la aplicación Storify 2 para crear
-  una lista de publicaciones perdecidas en una ubicación destacada junto a su artículo.
+description: Agregue una guía de navegación a la aplicación Storify 2 para crear una lista de publicaciones perdecidas en una ubicación destacada junto a su artículo.
+seo-description: Agregue una guía de navegación a la aplicación Storify 2 para crear una lista de publicaciones perdecidas en una ubicación destacada junto a su artículo.
 seo-title: Agregar una guía de navegación a un Storify 2
 solution: Experience Manager
 title: Agregar una guía de navegación a un Storify 2

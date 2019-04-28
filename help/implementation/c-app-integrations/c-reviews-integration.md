@@ -93,7 +93,7 @@ Si ya ha completado la sección Introducción, debe estar familiarizado con el o
    >[!NOTE]
    >Debe definir etiquetas para cada subparte.
 
-* **Matriz** *opcional* ratingsubpartsids: Permite definir un ID para cada subsección de la colección Clasificaciones, que puede utilizarse para dirigir estos elementos de subsección en CSS y JavaScript. Cuando los usuarios publican revisiones, cada una `ratingSubpart` tendrá el atributo " `data-lf-subpart-id`", rellenado con este ID.
+* **Matriz** *opcional* ratingsubpartsids: Permite definir un ID para cada subsección de la colección Clasificaciones, que puede utilizarse para dirigir estos elementos de subsección en CSS y JavaScript. Cuando los usuarios publican revisiones, cada una `ratingSubpart` tendrá el atributo &quot; `data-lf-subpart-id`&quot;, rellenado con este ID.
 
 >[!NOTE]
 >

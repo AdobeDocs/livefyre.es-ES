@@ -22,7 +22,7 @@ Notas de la versión de la versión del 7 de septiembre de 2017.
 | Error | Búsqueda de biblioteca | Se ha corregido un error que impedía que se devolvieran resultados al usar la búsqueda de etiqueta y clasificación en la biblioteca. |
 | Error | Búsqueda de biblioteca | Se ha corregido un error que provocaba que las consultas de Búsqueda social no devolvieran nada si la lista de resultados incluía URL mal formadas. |
 | Mejora | SAFE | Se agregó una nueva función para prohibir los comentarios por parte de los visitantes del sitio en una determinada región IP. Comuníquese con el administrador de cuentas para configurar la red de Livefyre. |
-| Error | Flujos | Se ha corregido un error que permitía guardar las reglas de flujo de Instagram que contenían una entrada en el campo "No se publica por ninguno de estos autores". |
+| Error | Flujos | Se ha corregido un error que permitía guardar las reglas de flujo de Instagram que contenían una entrada en el campo &quot;No se publica por ninguno de estos autores&quot;. |
 | Error | Studio | Se ha corregido un error para habilitar la clasificación por «la mayoría de los participantes» y «la mayoría de los elementos». |
 | Error | Studio | Se ha corregido un error que provocaba que las marcas de hora de la aplicación mostraran una fecha de creación incorrecta en la tabla. |
 | Error | Studio | Se ha corregido un error de orden de clasificación con los filtros Recientes y Más antiguos en el Administrador de aplicaciones. |
@@ -34,7 +34,7 @@ Notas de la versión de la versión del 7 de septiembre de 2017.
 |---|---|---|
 | Mejora | Comentarios | Ahora los clientes pueden establecer la longitud máxima de los comentarios como parte de la configuración de red. |
 | Mejora | Tira de película | Tira de película es una aplicación de visualización completamente nueva, diseñada principalmente para exhibir UGC en escenarios de comercio electrónico, como páginas de productos o sitios web transaccionales. La tira de película alinea horizontalmente el UGC para que se muestre como carrete de cámara, una pieza en el momento. Los usuarios finales pueden navegar por la tira de película haciendo clic en las flechas laterales para desplazarse por el contenido disponible. |
-| Mejora | Tira de película | Cuando un cliente implementa una aplicación de tira de película, el nuevo UGC transmitido por flujo continuo tendrá una etiqueta "nueva" junto a ella para identificarlos rápidamente. |
+| Mejora | Tira de película | Cuando un cliente implementa una aplicación de tira de película, el nuevo UGC transmitido por flujo continuo tendrá una etiqueta &quot;nueva&quot; junto a ella para identificarlos rápidamente. |
 | Error | Biblioteca | Se ha corregido un problema con los productos que se mostraban incorrectamente después de eliminar y volver a añadir un producto a un recurso de la biblioteca. |
 | Error | Dispositivo móvil | Este error corrige un problema en el modo en que las respuestas anidadas procesadas en Mobile cuando estaban deshabilitadas se desactivaban, pero esta corrección la corrige. |
 | Mejora | Mosaico | Esta es una nueva configuración que permite a los clientes especificar el número de tarjetas que se mostrarán en la aplicación de visualización Mosaic. |

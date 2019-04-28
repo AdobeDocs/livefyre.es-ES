@@ -1,8 +1,6 @@
 ---
-description: Elija cómo interactúan los visitantes del sitio con las aplicaciones
-  y de qué manera pueden interactuar con él.
-seo-description: Elija cómo interactúan los visitantes del sitio con las aplicaciones
-  y de qué manera pueden interactuar con él.
+description: Elija cómo interactúan los visitantes del sitio con las aplicaciones y de qué manera pueden interactuar con él.
+seo-description: Elija cómo interactúan los visitantes del sitio con las aplicaciones y de qué manera pueden interactuar con él.
 seo-title: Funciones de contribución en el sitio
 solution: Experience Manager
 title: Funciones de contribución en el sitio

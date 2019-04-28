@@ -1,10 +1,6 @@
 ---
-description: Una vez que su cuenta de red está conectada a su cuenta de Studio, puede
-  acceder a Studio a través de los vínculos marcados o desde cualquier aplicación
-  de Livefyre.
-seo-description: Una vez que su cuenta de red está conectada a su cuenta de Studio,
-  puede acceder a Studio a través de los vínculos marcados o desde cualquier aplicación
-  de Livefyre.
+description: Una vez que su cuenta de red está conectada a su cuenta de Studio, puede acceder a Studio a través de los vínculos marcados o desde cualquier aplicación de Livefyre.
+seo-description: Una vez que su cuenta de red está conectada a su cuenta de Studio, puede acceder a Studio a través de los vínculos marcados o desde cualquier aplicación de Livefyre.
 seo-title: Iniciar sesión en Studio
 solution: Experience Manager
 title: Iniciar sesión en Studio

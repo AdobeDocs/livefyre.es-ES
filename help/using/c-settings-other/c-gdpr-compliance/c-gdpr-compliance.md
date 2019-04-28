@@ -1,12 +1,6 @@
 ---
-description: Obtenga información sobre el Reglamento General de Protección de Datos
-  (RGPD) y cómo completar las solicitudes de acceso y eliminación permitidas en el
-  RGPD, para los datos recopilados en el uso de Livefyre, así como otros controles
-  de privacidad relacionados.
-seo-description: Obtenga información sobre el Reglamento General de Protección de
-  Datos (RGPD) y cómo completar las solicitudes de acceso y eliminación permitidas
-  en el RGPD, para los datos recopilados en el uso de Livefyre, así como otros controles
-  de privacidad relacionados.
+description: Obtenga información sobre el Reglamento General de Protección de Datos (RGPD) y cómo completar las solicitudes de acceso y eliminación permitidas en el RGPD, para los datos recopilados en el uso de Livefyre, así como otros controles de privacidad relacionados.
+seo-description: Obtenga información sobre el Reglamento General de Protección de Datos (RGPD) y cómo completar las solicitudes de acceso y eliminación permitidas en el RGPD, para los datos recopilados en el uso de Livefyre, así como otros controles de privacidad relacionados.
 seo-title: Solicitudes de privacidad (preparado para RGPD)
 solution: Experience Manager
 title: Solicitudes de privacidad (preparado para RGPD)

@@ -1,7 +1,6 @@
 ---
 description: El botón Upload Button permite a los visitantes del sitio cargar contenido.
-seo-description: El botón Upload Button permite a los visitantes del sitio cargar
-  contenido.
+seo-description: El botón Upload Button permite a los visitantes del sitio cargar contenido.
 seo-title: Upload Button
 solution: Experience Manager
 title: Upload Button

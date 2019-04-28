@@ -1,8 +1,6 @@
 ---
-description: Cree un nuevo flujo en Livefyre para añadir contenido a una aplicación
-  o carpeta.
-seo-description: Cree un nuevo flujo en Livefyre para añadir contenido a una aplicación
-  o carpeta.
+description: Cree un nuevo flujo en Livefyre para añadir contenido a una aplicación o carpeta.
+seo-description: Cree un nuevo flujo en Livefyre para añadir contenido a una aplicación o carpeta.
 seo-title: Crear un nuevo flujo
 solution: Experience Manager
 title: Crear un nuevo flujo
@@ -18,7 +16,7 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 Cree un nuevo flujo en Livefyre para añadir contenido a una aplicación o carpeta.
 
 1. Para crear un nuevo flujo, haga clic en **[!UICONTROL Streams > Create Stream.]**
-1. Introduzca **[!UICONTROL Stream Name]**un.
+1. Introduzca **[!UICONTROL Stream Name]** un.
 1. Seleccione un **[!UICONTROL Stream Destination]**: **[!UICONTROL App]** o **[!UICONTROL Folder]** para seleccionar un destino para el flujo.
 
    * Seleccione una aplicación para insertar todo el contenido incluido en Flujo a la aplicación seleccionada cuando haga clic en Publicar.

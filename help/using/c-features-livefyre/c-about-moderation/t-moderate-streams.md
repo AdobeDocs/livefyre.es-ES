@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: Restringir el contenido de los usuarios de Twitter
 solution: Experience Manager
 title: Restringir el contenido de los usuarios de Twitter
@@ -13,7 +13,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Restringir el contenido de los usuarios de Twitter{#restrict-content-from-twitter-users}
 
-Puede impedir que los usuarios de Twitter se coloquen en sus aplicaciones. La **[!UICONTROL Network Settings > Streams]** ficha permite prohibir a los usuarios de los flujos, introducir su nombre de usuario de Twitter en el campo proporcionado y hacer clic **[!UICONTROL Add]**en.
+Puede impedir que los usuarios de Twitter se coloquen en sus aplicaciones. La **[!UICONTROL Network Settings > Streams]** ficha permite prohibir a los usuarios de los flujos, introducir su nombre de usuario de Twitter en el campo proporcionado y hacer clic **[!UICONTROL Add]** en.
 
 Si lo desea, utilice la casilla de verificación para borrar todo el contenido existente del usuario.
 

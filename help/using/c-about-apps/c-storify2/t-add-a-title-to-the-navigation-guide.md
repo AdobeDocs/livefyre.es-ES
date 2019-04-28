@@ -1,8 +1,6 @@
 ---
-description: Asigne un título a su Guía de navegación para que el contenido sea claro
-  para los visitantes del sitio.
-seo-description: Asigne un título a su Guía de navegación para que el contenido sea
-  claro para los visitantes del sitio.
+description: Asigne un título a su Guía de navegación para que el contenido sea claro para los visitantes del sitio.
+seo-description: Asigne un título a su Guía de navegación para que el contenido sea claro para los visitantes del sitio.
 seo-title: Agregar un título a la Guía de navegación
 solution: Experience Manager
 title: Agregar un título a la Guía de navegación

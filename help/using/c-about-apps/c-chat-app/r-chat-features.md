@@ -24,7 +24,7 @@ Para estimular un diálogo rápido y atractivo, Chat difiere de otras aplicacion
 * Los usuarios no ofrecen la opción de seguir Chats y el Notificador de comentarios está deshabilitado.
 * Las notificaciones por correo electrónico se muestran automáticamente como DESACTIVADAS.
 * Los avatares del usuario son menores que los utilizados con Comentarios.
-* El botón "Me gusta" solo aparece al pasar el ratón por encima de un comentario.
-* Los "Me gusta" en un comentario aparecen sin avatares, solo el número de "Me gusta".
+* El botón &quot;Me gusta&quot; solo aparece al pasar el ratón por encima de un comentario.
+* Los &quot;Me gusta&quot; en un comentario aparecen sin avatares, solo el número de &quot;Me gusta&quot;.
 * El ancho del flujo puede reducirse a 250 píxeles.
 

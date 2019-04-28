@@ -1,8 +1,6 @@
 ---
-description: Cambie las opciones de tamaño, ancho e interacción de la aplicación de
-  Muro de medios.
-seo-description: Cambie las opciones de tamaño, ancho e interacción de la aplicación
-  de Muro de medios.
+description: Cambie las opciones de tamaño, ancho e interacción de la aplicación de Muro de medios.
+seo-description: Cambie las opciones de tamaño, ancho e interacción de la aplicación de Muro de medios.
 seo-title: Personalizaciones de muro de medios
 solution: Experience Manager
 title: Personalizaciones de muro de medios
@@ -38,7 +36,7 @@ Si se habilita, los usuarios pueden publicar texto, imágenes o vídeo directame
 
    Permite que los usuarios hagan clic en una fotografía del flujo para abrirla en una ventana emergente superpuesta.
 
-* **[!UICONTROL Require rights]**. Active esta opción para mostrar solo el contenido con un estado de solicitud de derechos de "Concedido".
+* **[!UICONTROL Require rights]**. Active esta opción para mostrar solo el contenido con un estado de solicitud de derechos de &quot;Concedido&quot;.
 * **[!UICONTROL Hide social branding when rights granted]** Cambie esto para eliminar el logotipo de la red de medios sociales originada (Twitter o Instagram) cuando se otorgan derechos para un fragmento de contenido.
 
 * **[!UICONTROL Upload Button]**
@@ -47,9 +45,9 @@ Si se habilita, los usuarios pueden publicar texto, imágenes o vídeo directame
    * **[!UICONTROL Require Media]**. Active la opción para solicitar a los usuarios que carguen solo contenido de vídeo o foto mediante el botón Cargar.
    * Puede editar el texto predeterminado para los siguientes campos de botón de carga:
 
-      * **[!UICONTROL Upload Button Text]**. Texto para el botón de carga. El texto predeterminado es "¿Qué hay en mente?"
-      * **[!UICONTROL Comment Modal Title]**. Título del sitio modal que utilizan los visitantes para publicar contenido. El texto predeterminado es "Publicar comentario".
-      * **[!UICONTROL Comment Modal Button]**. El texto de los visitantes del sitio del sitio hace clic para anunciar contenido. El texto predeterminado es "Publicar comentario".
+      * **[!UICONTROL Upload Button Text]**. Texto para el botón de carga. El texto predeterminado es &quot;¿Qué hay en mente?&quot;
+      * **[!UICONTROL Comment Modal Title]**. Título del sitio modal que utilizan los visitantes para publicar contenido. El texto predeterminado es &quot;Publicar comentario&quot;.
+      * **[!UICONTROL Comment Modal Button]**. El texto de los visitantes del sitio del sitio hace clic para anunciar contenido. El texto predeterminado es &quot;Publicar comentario&quot;.
 
 * **[!UICONTROL Call-to-action button]** Puede utilizar el botón Llamada a acción con un catálogo de productos para dirigir a los usuarios a un producto o a su sitio para que realicen más acciones.
 
@@ -60,8 +58,8 @@ Si se habilita, los usuarios pueden publicar texto, imágenes o vídeo directame
       >
       >El contenido se muestra incluso si no se conceden derechos para el contenido, pero el botón de llamada a acción no se mostrará con el contenido, a menos que se otorguen derechos para el contenido.
 
-   * **[!UICONTROL Call-to-action header text]** Palabras que se mostrarán en el encabezado sobre el botón Llamada a acción en el modal. La redacción predeterminada es "Buy these products: ".
-   * **[!UICONTROL Call-to-action button text]** Palabras que se mostrarán en el botón de llamada a acción del modal. El texto predeterminado es "Buy Now: ".
+   * **[!UICONTROL Call-to-action header text]** Palabras que se mostrarán en el encabezado sobre el botón Llamada a acción en el modal. La redacción predeterminada es &quot;Buy these products: &quot;.
+   * **[!UICONTROL Call-to-action button text]** Palabras que se mostrarán en el botón de llamada a acción del modal. El texto predeterminado es &quot;Buy Now: &quot;.
    * **[!UICONTROL Product display options]** Elija si desea mostrar el nombre de la foto y del producto con el botón Llamada a acción.
 
       >[!NOTE]
@@ -78,7 +76,7 @@ Si se habilita, los usuarios pueden publicar texto, imágenes o vídeo directame
 
 Puede personalizar el muro de medios mediante:
 
-* **[!UICONTROL Style]** y **[!UICONTROL Config]** opciones para todas las aplicaciones del **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en **[!UICONTROL App Designer]**la.
+* **[!UICONTROL Style]** y **[!UICONTROL Config]** opciones para todas las aplicaciones del **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en **[!UICONTROL App Designer]** la.
 
 * Herramientas de integración. Consulte [Integración de muro de medios](/help/implementation/c-app-integrations/c-media-wall-integration.md) para obtener más información sobre cómo personalizar un muro de medios mediante Herramientas de integración.
 

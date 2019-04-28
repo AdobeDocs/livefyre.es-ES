@@ -32,7 +32,7 @@ Los problemas de las tablas siguientes se resolvieron en la versión de producci
 | Error | Comentarios | Se corrigió un problema en el cual los comentarios no funcionaban según lo esperado en un navegador móvil. |
 | Error | Muro de medios | Se ha corregido un problema por el que las imágenes y el texto no se publicaban según lo esperado en un muro de medios mediante un hashtag de flujo. |
 | Error | Muro de medios | Se ha corregido un problema que hacía que el vídeo cargado no se pudiera reproducir en un muro de medios, aunque se podía reproducir en la biblioteca de recursos. |
-| Error | Storify | Se ha corregido un problema por el que la cantidad de "Me gusta" de Storify no funcionaba en dominios seguros. |
+| Error | Storify | Se ha corregido un problema por el que la cantidad de &quot;Me gusta&quot; de Storify no funcionaba en dominios seguros. |
 | Error | Flujos | Se ha corregido un problema por el que no se añadían filtros NSFW predeterminados cuando la función de filtro NSFW estaba deshabilitada y se añadían los filtros NSFW predeterminados al habilitar la función NSFW. |
 | Artículo | Flujos | Se han realizado las siguientes actualizaciones para flujos de página de Facebook: </br><ul><li>Se ha aumentado el tiempo de suspensión de las aplicaciones cuando se alcanza el límite de la tasa de API de un minuto a una hora. </li><li>Se ha aumentado el tiempo que las páginas y los anuncios se envían para su procesamiento desde 10 minutos hasta una hora.</li></ul> |
 

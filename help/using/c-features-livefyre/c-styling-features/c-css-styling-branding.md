@@ -1,8 +1,6 @@
 ---
-description: Use CSS para estilo de elementos de una aplicación de Livefyre para ajustarse
-  a su marca.
-seo-description: Use CSS para estilo de elementos de una aplicación de Livefyre para
-  ajustarse a su marca.
+description: Use CSS para estilo de elementos de una aplicación de Livefyre para ajustarse a su marca.
+seo-description: Use CSS para estilo de elementos de una aplicación de Livefyre para ajustarse a su marca.
 seo-title: Estilo CSS y marca
 title: Estilo CSS y marca
 uuid: 729 a 2780-f 757-4 c 54-b 446-ff 832 cecf 620

@@ -1,8 +1,6 @@
 ---
-description: Permitir que los usuarios seleccionen su frecuencia de notificación y
-  contenido.
-seo-description: Permitir que los usuarios seleccionen su frecuencia de notificación
-  y contenido.
+description: Permitir que los usuarios seleccionen su frecuencia de notificación y contenido.
+seo-description: Permitir que los usuarios seleccionen su frecuencia de notificación y contenido.
 seo-title: Notificaciones por correo electrónico
 solution: Experience Manager
 title: Notificaciones por correo electrónico
@@ -29,7 +27,7 @@ Los usuarios y moderadores pueden activar o desactivar la notificación por corr
 * Sincronización de datos con Livefyre: mantener sincronización con Livefyre.
 * Personalización de correos electrónicos: personalizaciones de correo electrónico disponibles.
 
-Use las opciones **Configuración > Configuración de integración > Configuración** de notificaciones por correo electrónico para personalizar las notificaciones por correo electrónico de su red.
+Use las opciones **Configuración &gt; Configuración de integración &gt; Configuración** de notificaciones por correo electrónico para personalizar las notificaciones por correo electrónico de su red.
 
 >[!NOTE]
 >
@@ -67,7 +65,7 @@ Los correos electrónicos enviados inmediatamente muestran el texto del anuncio,
 
 **Compendio por hora**
 
-Los mensajes de correo electrónico enviados en un resumen por hora muestran todo el contenido, las respuestas al contenido y "Me gusta" en el contenido de la última hora (o so) por aplicación que el usuario sigue. Si el usuario sigue varias aplicaciones en la red, recibirá un correo electrónico de compendio por cada aplicación.
+Los mensajes de correo electrónico enviados en un resumen por hora muestran todo el contenido, las respuestas al contenido y &quot;Me gusta&quot; en el contenido de la última hora (o so) por aplicación que el usuario sigue. Si el usuario sigue varias aplicaciones en la red, recibirá un correo electrónico de compendio por cada aplicación.
 
 >[!NOTE]
 >
@@ -77,7 +75,7 @@ Los mensajes de correo electrónico enviados en un resumen por hora muestran tod
 
 Los moderadores pueden optar por recibir correos electrónicos para el contenido publicado en una aplicación que siguen, y para comentarios marcados como Correo no deseado o Ofensiva en una aplicación moderando. **Nota:** No se enviarán correos electrónicos cuando los usuarios marquen un comentario con Rechazar o Desactivar tema, ya que estas categorías no se consideran importantes para la notificación del moderador.
 
-Los campos moderator_ comments y moderator_ indicadores deben agregarse también al esquema de la base de datos de la página de ajustes del perfil de moderador para permitir que los moderadores actualicen la frecuencia de sus notificaciones por correo electrónico y desactivar si desean. Livefyre recomienda que configure los dos campos de notificación de correo electrónico de moderador como **nunca**. Las opciones incluyen **nunca** (predeterminado) **, inmediatamente**y **con frecuencia**.
+Los campos moderator_ comments y moderator_ indicadores deben agregarse también al esquema de la base de datos de la página de ajustes del perfil de moderador para permitir que los moderadores actualicen la frecuencia de sus notificaciones por correo electrónico y desactivar si desean. Livefyre recomienda que configure los dos campos de notificación de correo electrónico de moderador como **nunca**. Las opciones incluyen **nunca** (predeterminado) **, inmediatamente** y **con frecuencia**.
 
 **Correo electrónico del moderador (contenido marcado):**
 
@@ -93,7 +91,7 @@ Varios campos de las plantillas de notificación por correo electrónico pueden 
 
 * **[!UICONTROL From Email Address]**
 
-   La «dirección de correo electrónico» de todas las notificaciones por correo electrónico puede personalizarse para ser coherente con su marca. Livefyre recomienda **noreply@customerdomain.com**, reemplazando **customerdomainwith**su nombre de dominio. (El valor predeterminado es **noreply@livefyre.com**.) Pase el «desde la dirección de correo electrónico» que prefiera al administrador de integración técnica para su configuración en la base de datos de Livefyre para su red.
+   La «dirección de correo electrónico» de todas las notificaciones por correo electrónico puede personalizarse para ser coherente con su marca. Livefyre recomienda **noreply@customerdomain.com**, reemplazando **customerdomainwith** su nombre de dominio. (El valor predeterminado es **noreply@livefyre.com**.) Pase el «desde la dirección de correo electrónico» que prefiera al administrador de integración técnica para su configuración en la base de datos de Livefyre para su red.
 
    >[!NOTE]
    >

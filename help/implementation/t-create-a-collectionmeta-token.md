@@ -1,8 +1,6 @@
 ---
-description: Cree una colección nueva creando un distintivo collectionmeta que se
-  pase a Livefyre.
-seo-description: Cree una colección nueva creando un distintivo collectionmeta que
-  se pase a Livefyre.
+description: Cree una colección nueva creando un distintivo collectionmeta que se pase a Livefyre.
+seo-description: Cree una colección nueva creando un distintivo collectionmeta que se pase a Livefyre.
 seo-title: Crear una colección con collectionmeta Token
 solution: Experience Manager
 title: Crear una colección con collectionmeta Token

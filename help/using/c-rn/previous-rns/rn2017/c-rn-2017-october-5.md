@@ -26,7 +26,7 @@ Notas de la versión del 5 de octubre de 2017.
 
 | **Tipo de problema** | **Componente** | **Versión de la versión** |
 |---|---|---|
-| Mejora | Tira de película | Cuando un cliente implementa una aplicación de tira de película, el nuevo UGC transmitido por flujo continuo tendrá una etiqueta "nueva" junto a ella para identificarlos rápidamente. |
+| Mejora | Tira de película | Cuando un cliente implementa una aplicación de tira de película, el nuevo UGC transmitido por flujo continuo tendrá una etiqueta &quot;nueva&quot; junto a ella para identificarlos rápidamente. |
 | Mejora | Tira de película | Tira de película es una aplicación de visualización completamente nueva, diseñada principalmente para exhibir UGC en escenarios de comercio electrónico, como páginas de productos o sitios web transaccionales. La tira de película alinea horizontalmente el UGC para que se muestre como carrete de cámara, una pieza en el momento. Los usuarios finales pueden navegar por la tira de película haciendo clic en las flechas laterales para desplazarse por el contenido disponible. |
 | Mejora | Biblioteca | Los archivos cargados a la biblioteca por un cliente se conceden automáticamente. Ésta es una función útil cuando los usuarios han activado el filtro «Requerir derechos concedidos» en sus aplicaciones. |
 | Mejora | Identidad de Livefyre | Ahora los clientes pueden utilizar sus credenciales de Github para iniciar sesión en la identidad de livefyre y participar en nuestras aplicaciones de comentarios. |

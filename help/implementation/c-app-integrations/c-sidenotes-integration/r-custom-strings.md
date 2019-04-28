@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: Sidenotes Custom Strings
 title: Sidenotes Custom Strings
 uuid: 73745273-d 3 fb -4569-8910-d 149 fb 37 a 7 b 4
@@ -81,7 +81,7 @@ new Livefyre.Sidenotes({
 | Notificationmarcado | Marcado |
 | Permalinkbackbtn | Todos |
 | Permalinktitle | Permalink |
-| Explicación de preguntas | Ahora puede leer y escribir comentarios directamente sobre las frases, párrafos, imágenes y comillas.<br><br>Resalte el texto y haga clic en el icono "fycon-write" o haga clic en el icono "fycon-action-view" al final de cada párrafo. |
+| Explicación de preguntas | Ahora puede leer y escribir comentarios directamente sobre las frases, párrafos, imágenes y comillas.<br><br>Resalte el texto y haga clic en el icono &quot;fycon-write&quot; o haga clic en el icono &quot;fycon-action-view&quot; al final de cada párrafo. |
 | Questionmocktext | Lo que se conoce «familiarmente» no es conocido, simplemente por el motivo de que es «familiar». |
 | Questiontitle | ¿Qué es un Sidenote? |
 | Queuedcommentsplural | {número} Nuevo sidenotes |

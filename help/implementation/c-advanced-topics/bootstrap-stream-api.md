@@ -27,7 +27,7 @@ La solicitud de ejemplo anterior carga la `init` página que contiene Configurac
 
 Solicitud: `https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/{b64articleId}/N.json`
 
-Por ejemplo, una aplicación de ejemplo tiene 120 unidades de contenido. El contenido "1" es la parte más antigua de contenido y el contenido "70" es la parte más reciente de contenido.
+Por ejemplo, una aplicación de ejemplo tiene 120 unidades de contenido. El contenido &quot;1&quot; es la parte más antigua de contenido y el contenido &quot;70&quot; es la parte más reciente de contenido.
 
 * `Init` cargarán ~ 120-70 fragmentos de contenido en orden descendente: [https://data.livefyre.com/bs3/v3.1/dharam.fyre.co/384931/NTU1NQ==/init](https://data.livefyre.com/bs3/v3.1/dharam.fyre.co/384931/NTU1NQ==/init)
 
@@ -44,7 +44,7 @@ Por ejemplo, una aplicación de ejemplo tiene 120 unidades de contenido. El cont
 ¿Qué es la API de flujo?
 El flujo es una encuesta larga que por diseño está pensada para permanecer abierta durante 30 segundos aproximadamente. Aquí puede encontrar la descripción sobre la técnica de sondeo largo: [https://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet](https://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet)
 
-Este extremo de sondeo largo transmite contenido nuevo (p. ej., un usuario publica un comentario), cambios en el estado del contenido (p. ej., elimina su comentario, cantidad de "Me gusta") y cambios de moderación en contenido (p. ej., aprobador aprueba un fragmento de contenido) a una aplicación de Livefyre.
+Este extremo de sondeo largo transmite contenido nuevo (p. ej., un usuario publica un comentario), cambios en el estado del contenido (p. ej., elimina su comentario, cantidad de &quot;Me gusta&quot;) y cambios de moderación en contenido (p. ej., aprobador aprueba un fragmento de contenido) a una aplicación de Livefyre.
 
 La solicitud de API de flujo debe ser de ~ 30 segundos (sondeo largo) con el tiempo de espera esperado después de 30 segundos cuando no hay flujos de contenido nuevos en.
 
@@ -58,16 +58,16 @@ Nota: La `maxEventId` respuesta de una API de flujo es el ID de evento más alto
 
 El ejemplo siguiente se basa en una aplicación de comentarios:
 
-El comentario "Primer comentario" se publicó primero. Se publicó "Segundo comentario" después.
+El comentario &quot;Primer comentario&quot; se publicó primero. Se publicó &quot;Segundo comentario&quot; después.
 
 Respuesta de la API de flujo de comentarios del primer comentario:
 
 `{"timeout":true,"parked":true,"h":"ct239.dsr.livefyre.com"}`
 
-El `maxEventId` en la respuesta es "1520289700953369", que se utilizará para `lastEventId` sondear el punto final para obtener actualizaciones (p. ej. Segundo comentario) que se produce después de todas las actualizaciones de esta respuesta.
+El `maxEventId` en la respuesta es &quot;1520289700953369&quot;, que se utilizará para `lastEventId` sondear el punto final para obtener actualizaciones (p. ej. Segundo comentario) que se produce después de todas las actualizaciones de esta respuesta.
 
 Respuesta de la segunda API de flujo de comentarios:
 
 `{"timeout":true,"parked":true,"h":"ct239.dsr.livefyre.com"}`
 
-El `maxEventID` "1520289700953369" de la respuesta debe usarse a su vez como `lastEventID` para crear la respuesta de la API de flujo para la siguiente actualización.
+El `maxEventID` &quot;1520289700953369&quot; de la respuesta debe usarse a su vez como `lastEventID` para crear la respuesta de la API de flujo para la siguiente actualización.

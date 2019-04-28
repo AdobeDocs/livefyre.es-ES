@@ -1,8 +1,6 @@
 ---
-description: Comparta contenido o contenido de otro usuario a Facebook, Twitter o
-  linkedin.
-seo-description: Comparta contenido o contenido de otro usuario a Facebook, Twitter
-  o linkedin.
+description: Comparta contenido o contenido de otro usuario a Facebook, Twitter o linkedin.
+seo-description: Comparta contenido o contenido de otro usuario a Facebook, Twitter o linkedin.
 seo-title: Compartir en redes sociales
 solution: Experience Manager
 title: Compartir en redes sociales
@@ -21,13 +19,13 @@ Compartir en redes sociales permite a su comunidad compartir sus ideas de su apl
 
 ## Compartir contenido con redes sociales {#section_t1q_mz2_wy}
 
-Puede configurar su red para permitir que los usuarios compartan en Twitter, Facebook o linkedin al publicar contenido en sus aplicaciones de Livefyre. El valor predeterminado de Livefyre **[!UICONTROL Share Modal]** incluye vínculos a los tres sitios. Puede personalizar este modal usando la opción Publicar en API para anular el valor predeterminado de Livefyre e implementar su propio. Para obtener más información, consulte Temas avanzados > Activación de Compartir en redes sociales.
+Puede configurar su red para permitir que los usuarios compartan en Twitter, Facebook o linkedin al publicar contenido en sus aplicaciones de Livefyre. El valor predeterminado de Livefyre **[!UICONTROL Share Modal]** incluye vínculos a los tres sitios. Puede personalizar este modal usando la opción Publicar en API para anular el valor predeterminado de Livefyre e implementar su propio. Para obtener más información, consulte Temas avanzados &gt; Activación de Compartir en redes sociales.
 
 Cuando los usuarios hacen clic **[!UICONTROL Share]** para publicar su comentario en las redes sociales (Facebook, Twitter o linkedin), se les pedirá que inicien sesión en la aplicación social. (Puede personalizar la lista de opciones de Compartir disponibles. De forma predeterminada, las casillas de verificación de Facebook y Twitter se muestran en todas las aplicaciones. Para las redes personalizadas, las aplicaciones sociales deberían configurarse como aplicaciones sociales. Como parte del proceso de integración, agregue las credenciales de la aplicación a través de la página Ajustes de integración en Studio.
 
 >[!NOTE]
 >
->Linkedin se incluye de forma predeterminada en Comentarios de la comunidad de Livefyre. Las redes personalizadas deben pasar el valor'li'al incrustar la aplicación para habilitar el botón linkedin en la barra de herramientas de comentarios. (Para obtener más información, consulte Habilitación de Compartir en redes sociales en los documentos de desarrollador).
+>Linkedin se incluye de forma predeterminada en Comentarios de la comunidad de Livefyre. Las redes personalizadas deben pasar el valor&#39;li&#39;al incrustar la aplicación para habilitar el botón linkedin en la barra de herramientas de comentarios. (Para obtener más información, consulte Habilitación de Compartir en redes sociales en los documentos de desarrollador).
 
 ## Uso compartido del contenido de otros usuarios a redes sociales {#section_blw_vy2_wy}
 

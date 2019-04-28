@@ -1,8 +1,6 @@
 ---
-description: Studio proporciona fácil acceso a sus aplicaciones, lo que le permite
-  buscar, editar y administrar aplicaciones personalizadas desde una sola página.
-seo-description: Studio proporciona fácil acceso a sus aplicaciones, lo que le permite
-  buscar, editar y administrar aplicaciones personalizadas desde una sola página.
+description: Studio proporciona fácil acceso a sus aplicaciones, lo que le permite buscar, editar y administrar aplicaciones personalizadas desde una sola página.
+seo-description: Studio proporciona fácil acceso a sus aplicaciones, lo que le permite buscar, editar y administrar aplicaciones personalizadas desde una sola página.
 seo-title: Aplicaciones
 solution: Experience Manager
 title: Aplicaciones

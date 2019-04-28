@@ -1,8 +1,6 @@
 ---
-description: Cree el extremo de extracción para recibir y responder a las solicitudes
-  de acceso a su sistema de identidad de usuario.
-seo-description: Cree el extremo de extracción para recibir y responder a las solicitudes
-  de acceso a su sistema de identidad de usuario.
+description: Cree el extremo de extracción para recibir y responder a las solicitudes de acceso a su sistema de identidad de usuario.
+seo-description: Cree el extremo de extracción para recibir y responder a las solicitudes de acceso a su sistema de identidad de usuario.
 seo-title: Generar el extremo de extracción
 solution: Experience Manager
 title: Generar el extremo de extracción

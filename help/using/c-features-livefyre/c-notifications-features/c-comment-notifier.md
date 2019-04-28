@@ -1,8 +1,6 @@
 ---
-description: Permite habilitar una pequeña ventana emergente en la página para notificar
-  a los usuarios cuando se haya agregado un comentario.
-seo-description: Permite habilitar una pequeña ventana emergente en la página para
-  notificar a los usuarios cuando se haya agregado un comentario.
+description: Permite habilitar una pequeña ventana emergente en la página para notificar a los usuarios cuando se haya agregado un comentario.
+seo-description: Permite habilitar una pequeña ventana emergente en la página para notificar a los usuarios cuando se haya agregado un comentario.
 seo-title: Notificador de comentarios
 solution: Experience Manager
 title: Notificador de comentarios

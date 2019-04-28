@@ -1,10 +1,6 @@
 ---
-description: Aprenda a empezar creando una aplicación de Livefyre totalmente operativa.
-  Genere esa aplicación para gestionar la autenticación básica, el uso compartido
-  en redes sociales y el seguimiento de eventos.
-seo-description: Aprenda a empezar creando una aplicación de Livefyre totalmente operativa.
-  Genere esa aplicación para gestionar la autenticación básica, el uso compartido
-  en redes sociales y el seguimiento de eventos.
+description: Aprenda a empezar creando una aplicación de Livefyre totalmente operativa. Genere esa aplicación para gestionar la autenticación básica, el uso compartido en redes sociales y el seguimiento de eventos.
+seo-description: Aprenda a empezar creando una aplicación de Livefyre totalmente operativa. Genere esa aplicación para gestionar la autenticación básica, el uso compartido en redes sociales y el seguimiento de eventos.
 seo-title: Introducción a la integración de Livefyre
 solution: Experience Manager
 title: Introducción a la integración de Livefyre

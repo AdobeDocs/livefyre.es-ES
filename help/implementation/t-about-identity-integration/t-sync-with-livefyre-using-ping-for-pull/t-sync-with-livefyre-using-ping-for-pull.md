@@ -1,8 +1,6 @@
 ---
-description: Utilice Ping para extraer para mantener Livefyre en sincronización con
-  su sistema de administración de usuarios.
-seo-description: Utilice Ping para extraer para mantener Livefyre en sincronización
-  con su sistema de administración de usuarios.
+description: Utilice Ping para extraer para mantener Livefyre en sincronización con su sistema de administración de usuarios.
+seo-description: Utilice Ping para extraer para mantener Livefyre en sincronización con su sistema de administración de usuarios.
 seo-title: Sincronizar con Livefyre usando Ping para extracción
 solution: Experience Manager
 title: Sincronizar con Livefyre usando Ping para extracción
@@ -31,7 +29,7 @@ Ping para secuencia de extracción:
 1. El cliente recibe la respuesta Extraer y se valida.
 1. Livefyre actualiza perfiles remotos con la información de perfil externa incluida en el extremo de extracción.
 
-Ping Livefyre siempre que un usuario actualice la información de su perfil. Mientras que Ping para el tiempo de finalización de extracción puede variar según la carga de la red, se actualizará la información de usuario entre 1 y 10 minutos. Los cambios de perfil actualizados se mostrarán primero en Livefyre Studio > Usuarios.
+Ping Livefyre siempre que un usuario actualice la información de su perfil. Mientras que Ping para el tiempo de finalización de extracción puede variar según la carga de la red, se actualizará la información de usuario entre 1 y 10 minutos. Los cambios de perfil actualizados se mostrarán primero en Livefyre Studio &gt; Usuarios.
 
 La información de perfil actualizada aparecerá en las aplicaciones de Livefyre después de dos eventos:
 

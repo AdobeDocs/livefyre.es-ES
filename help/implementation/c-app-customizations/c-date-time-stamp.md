@@ -119,14 +119,14 @@ Las funciones de formato de datetime siguen la especificación de patrón defini
   ''       single quote            (Literal)           'o''clock'
 ```
 
-Los elementos marcados con ' *' aún no son compatibles.
+Los elementos marcados con &#39; *&#39; aún no son compatibles.
 
-Los elementos marcados con ' #' funcionan de forma diferente a Java.
+Los elementos marcados con &#39; #&#39; funcionan de forma diferente a Java.
 
 El recuento de las letras patrón determina el formato.
 
 * **Texto:** 4 o más, utilice el formulario completo. Si hay menos de 4, utilice un formulario abreviado o abreviado si existe. (Por ejemplo: «EEEE» produce «Lunes», «EEE» produce «Mon».)
-* **Número:** el número mínimo de dígitos. Los números más cortos se rellena con cero a esta cantidad (por ejemplo: Si «m» produce «6», «mm» produce «06».) Año se administra especialmente; es decir, si el recuento de'y'es 2, el año se truncará a 2 dígitos. (Por ejemplo: si «aaaa» produce «1997», «aa» produce «97».) A diferencia de otros campos, los segundos fraccionarios se rellenan a la derecha con cero.
+* **Número:** el número mínimo de dígitos. Los números más cortos se rellena con cero a esta cantidad (por ejemplo: Si «m» produce «6», «mm» produce «06».) Año se administra especialmente; es decir, si el recuento de&#39;y&#39;es 2, el año se truncará a 2 dígitos. (Por ejemplo: si «aaaa» produce «1997», «aa» produce «97».) A diferencia de otros campos, los segundos fraccionarios se rellenan a la derecha con cero.
 * **Texto y número:** 3 o sobre, utilice texto. Menor que 3, utilice número. (Por ejemplo: «M» produce «1», «MM» produce «01», «MMM» produce «Jan» y «MMMM» produce «Enero».)
 
-Cualquier carácter del patrón que no esté en los rangos de ['a '. ''z'] y ['A '. ''Z'] se tratará como texto citado. Por ejemplo, caracteres como ': ','. ','',' #' y ' @' aparecerán en el texto de hora resultante incluso aunque no estén incluidos dentro de comillas simples.
+Cualquier carácter del patrón que no esté en los rangos de [&#39;a &#39;. &#39;&#39;z&#39;] y [&#39;A &#39;. &#39;&#39;Z&#39;] se tratará como texto citado. Por ejemplo, caracteres como &#39;: &#39;,&#39;. &#39;,&#39;&#39;,&#39; #&#39; y &#39; @&#39; aparecerán en el texto de hora resultante incluso aunque no estén incluidos dentro de comillas simples.

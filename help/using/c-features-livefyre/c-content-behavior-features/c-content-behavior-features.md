@@ -1,8 +1,6 @@
 ---
-description: Livefyre ofrece funciones en Aplicaciones que permiten elegir cómo los
-  visitantes del sitio ven el contenido de la aplicación.
-seo-description: Livefyre ofrece funciones en Aplicaciones que permiten elegir cómo
-  los visitantes del sitio ven el contenido de la aplicación.
+description: Livefyre ofrece funciones en Aplicaciones que permiten elegir cómo los visitantes del sitio ven el contenido de la aplicación.
+seo-description: Livefyre ofrece funciones en Aplicaciones que permiten elegir cómo los visitantes del sitio ven el contenido de la aplicación.
 seo-title: Funciones de comportamiento de contenido
 solution: Experience Manager
 title: Funciones de comportamiento de contenido
@@ -35,7 +33,7 @@ Aplicaciones que utilizan esta función:
 
 ## Paginación {#section_mb5_lzl_d1b}
 
-Selección del número de fragmentos que se mostrarán en la aplicación. Para algunas aplicaciones, puede elegir si utilizar un botón "mostrar más" o permitir desplazamiento continuo a través del contenido.
+Selección del número de fragmentos que se mostrarán en la aplicación. Para algunas aplicaciones, puede elegir si utilizar un botón &quot;mostrar más&quot; o permitir desplazamiento continuo a través del contenido.
 
 Aplicaciones que utilizan esta función:
 

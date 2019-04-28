@@ -1,8 +1,6 @@
 ---
-description: Personalice el estilo y la manera en que se muestran los comentarios
-  en el blog activo.
-seo-description: Personalice el estilo y la manera en que se muestran los comentarios
-  en el blog activo.
+description: Personalice el estilo y la manera en que se muestran los comentarios en el blog activo.
+seo-description: Personalice el estilo y la manera en que se muestran los comentarios en el blog activo.
 seo-title: Personalizaciones de blog en directo
 solution: Experience Manager
 title: Personalizaciones de blog en directo
@@ -59,11 +57,11 @@ Utilice Live Blog para publicar actualizaciones en tiempo real de los artículos
 
 * **[!UICONTROL Users may share comments]**
 
-   Si se habilita, los usuarios pueden compartir contenido publicado en Twitter, Facebook o linkedin. Para obtener más información sobre cómo activar el uso compartido, consulte Configuración > Ajustes de integración > Compartir en redes sociales.
+   Si se habilita, los usuarios pueden compartir contenido publicado en Twitter, Facebook o linkedin. Para obtener más información sobre cómo activar el uso compartido, consulte Configuración &gt; Ajustes de integración &gt; Compartir en redes sociales.
 
 Puede personalizar el blog en vivo utilizando:
 
-* **[!UICONTROL Style]** y **[!UICONTROL Config]** opciones para todas las aplicaciones del **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en **[!UICONTROL App Designer]**la.
+* **[!UICONTROL Style]** y **[!UICONTROL Config]** opciones para todas las aplicaciones del **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en **[!UICONTROL App Designer]** la.
 
 * Herramientas de integración. Consulte Blog activo para obtener más información sobre cómo personalizar aplicaciones mediante herramientas de integración.
 

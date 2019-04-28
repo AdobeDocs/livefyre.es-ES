@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: Método del sitio de compildcollection
 solution: Experience Manager
 title: Método del sitio de compildcollection

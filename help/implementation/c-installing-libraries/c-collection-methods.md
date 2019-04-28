@@ -1,8 +1,6 @@
 ---
-description: Para actualizar los datos de la colección, modifique el contenido de
-  los métodos de objeto de clase Collection.
-seo-description: Para actualizar los datos de la colección, modifique el contenido
-  de los métodos de objeto de clase Collection.
+description: Para actualizar los datos de la colección, modifique el contenido de los métodos de objeto de clase Collection.
+seo-description: Para actualizar los datos de la colección, modifique el contenido de los métodos de objeto de clase Collection.
 seo-title: Métodos de la clase Collection
 solution: Experience Manager
 title: Métodos de la clase Collection

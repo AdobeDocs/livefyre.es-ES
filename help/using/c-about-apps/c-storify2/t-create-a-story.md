@@ -15,8 +15,8 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Cree un nuevo artículo de Storify 2.
 
-1. Haga clic **[!UICONTROL New App]**en.
-1. Haga clic **[!UICONTROL Storify 2]**en.
-1. Introduzca **[!UICONTROL App Title]**un.
+1. Haga clic **[!UICONTROL New App]** en.
+1. Haga clic **[!UICONTROL Storify 2]** en.
+1. Introduzca **[!UICONTROL App Title]** un.
 1. Seleccione un **[!UICONTROL Site]**.
-1. Haga clic **[!UICONTROL Create]**en.
+1. Haga clic **[!UICONTROL Create]** en.

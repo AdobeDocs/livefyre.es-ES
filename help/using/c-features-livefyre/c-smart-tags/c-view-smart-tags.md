@@ -1,8 +1,6 @@
 ---
-description: Ver etiquetas agregadas automáticamente a las imágenes por software de
-  reconocimiento de imágenes basado en Sensei.
-seo-description: Ver etiquetas agregadas automáticamente a las imágenes por software
-  de reconocimiento de imágenes basado en Sensei.
+description: Ver etiquetas agregadas automáticamente a las imágenes por software de reconocimiento de imágenes basado en Sensei.
+seo-description: Ver etiquetas agregadas automáticamente a las imágenes por software de reconocimiento de imágenes basado en Sensei.
 seo-title: Ver etiquetas inteligentes
 title: Ver etiquetas inteligentes
 uuid: 787 c 7 d 86-2 c 68-4 c 4 c-b 687-cf 2390 bcf 233

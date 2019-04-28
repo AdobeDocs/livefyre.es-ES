@@ -1,8 +1,6 @@
 ---
-description: Utilice Livefyre. js para agregar autenticación en toda la página de
-  sus aplicaciones de Livefyre.
-seo-description: Utilice Livefyre. js para agregar autenticación en toda la página
-  de sus aplicaciones de Livefyre.
+description: Utilice Livefyre. js para agregar autenticación en toda la página de sus aplicaciones de Livefyre.
+seo-description: Utilice Livefyre. js para agregar autenticación en toda la página de sus aplicaciones de Livefyre.
 seo-title: Agregar autenticación a una aplicación con Livefyre. js
 solution: Experience Manager
 title: Agregar autenticación a una aplicación con Livefyre. js
@@ -23,7 +21,7 @@ Utilice Livefyre. js para agregar autenticación en toda la página de sus aplic
 
 Utilice `Livefyre.js` para habilitar la autenticación para una página a fin de permitir que los usuarios inicien sesión e interactúen con Aplicaciones usando el sistema de autenticación existente.
 
-1. Para habilitar la autenticación en una página, agregue `Livefyre.js` al elemento *< head >* de su página web o plantilla de sitio web.
+1. Para habilitar la autenticación en una página, agregue `Livefyre.js` al elemento *&lt; head &gt;* de su página web o plantilla de sitio web.
 
    ```
    <script src="//cdn.livefyre.com/Livefyre.js"></script>

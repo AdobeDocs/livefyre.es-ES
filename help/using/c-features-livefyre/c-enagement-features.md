@@ -1,8 +1,6 @@
 ---
-description: Atraiga a los visitantes del sitio con funciones que vuelven a su sitio
-  cuando descubren su contenido.
-seo-description: Atraiga a los visitantes del sitio con funciones que vuelven a su
-  sitio cuando descubren su contenido.
+description: Atraiga a los visitantes del sitio con funciones que vuelven a su sitio cuando descubren su contenido.
+seo-description: Atraiga a los visitantes del sitio con funciones que vuelven a su sitio cuando descubren su contenido.
 seo-title: Funciones de depuración
 solution: Experience Manager
 title: Funciones de depuración
@@ -31,7 +29,7 @@ Aplicaciones que utilizan esta función:
 
 ## Me gusta {#section_q4j_ycm_d1b}
 
-Agregue la capacidad de "me gusta" a un comentario o respuesta.
+Agregue la capacidad de &quot;me gusta&quot; a un comentario o respuesta.
 
 Aplicaciones que utilizan esta función:
 

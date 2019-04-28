@@ -1,10 +1,6 @@
 ---
-description: Aprenda a utilizar Experience Manager Livefyre con Hootsuite, permitiéndole
-  depurar, administrar y compartir contenido generado por usuarios directamente desde
-  el panel de Hootsuite.
-seo-description: Aprenda a utilizar Experience Manager Livefyre con Hootsuite, permitiéndole
-  depurar, administrar y compartir contenido generado por usuarios directamente desde
-  el panel de Hootsuite.
+description: Aprenda a utilizar Experience Manager Livefyre con Hootsuite, permitiéndole depurar, administrar y compartir contenido generado por usuarios directamente desde el panel de Hootsuite.
+seo-description: Aprenda a utilizar Experience Manager Livefyre con Hootsuite, permitiéndole depurar, administrar y compartir contenido generado por usuarios directamente desde el panel de Hootsuite.
 seo-title: Uso de Adobe Experience Manager Livefyre con Hootsuite
 title: Uso de Adobe Experience Manager Livefyre con Hootsuite
 uuid: ebf 2 ba 17-1622-4 bbe-a 374-fb 325357 ef 9 f
@@ -108,7 +104,7 @@ Además de mostrar las bibliotecas de recursos en un flujo de Hootsuite, tambié
 
    ![](assets/hootsuite-save.png)
 
-1. Haga clic **en Guardar en la biblioteca**y el elemento se guardará en las bibliotecas seleccionadas.
+1. Haga clic **en Guardar en la biblioteca** y el elemento se guardará en las bibliotecas seleccionadas.
 
 ## Componente de la biblioteca de medios de Experience Manager Livefyre {#task_9CA2D5D49F8E463F9EF475BC09C8ACC9}
 

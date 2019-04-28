@@ -36,7 +36,7 @@ En esta versión se resolvieron los problemas de las tablas siguientes.
 
 | Tipo de problema | Componente | Versión de la versión |
 |--- |--- |--- |
-| Mejora | Tira de película | Se han actualizado las siguientes funciones de accesibilidad para Tira de película: <br><ul><li>Flechas izquierda/derecha corregidas desde < div > a < botón > </li><li>La vista previa del elemento de imagen cambió de una etiqueta ARIA menos descriptiva, "Abrir foto adjunta", a una etiqueta que lee el nombre de la plataforma y el texto de la publicación.</li></ul> |
+| Mejora | Tira de película | Se han actualizado las siguientes funciones de accesibilidad para Tira de película: <br><ul><li>Flechas izquierda/derecha corregidas desde &lt; div &gt; a &lt; botón &gt; </li><li>La vista previa del elemento de imagen cambió de una etiqueta ARIA menos descriptiva, &quot;Abrir foto adjunta&quot;, a una etiqueta que lee el nombre de la plataforma y el texto de la publicación.</li></ul> |
 | Error | Muro de medios | Se ha corregido un problema en Wall Wall por el que las etiquetas no se podían hacer clic cuando se añadía un anuncio de Instagram desde una regla de flujo. |
 | Mejora | Muro de medios | Se mejoró la accesibilidad del muro de medios de las siguientes maneras: <br><ul><li>Los modales de apertura y cierre a través de los comandos de teclado ya no cambiarán de enfoque en la parte superior de la página. El enfoque se mantiene en el último elemento centrado antes de la ventana emergente modal.</li><li>El botón Cargar más se puede tabular y activar con la tecla Intro del teclado.</li></ul> |
 | Error | Rights Management | Se corrigió un error en el cual no se podía ver el modal de solicitud de derechos después de otorgar derechos para un recurso de Instagram. |

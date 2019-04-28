@@ -1,8 +1,6 @@
 ---
-description: Cambie el tamaño, la anchura y las opciones de interacción del botón
-  Upload Button.
-seo-description: Cambie el tamaño, la anchura y las opciones de interacción del botón
-  Upload Button.
+description: Cambie el tamaño, la anchura y las opciones de interacción del botón Upload Button.
+seo-description: Cambie el tamaño, la anchura y las opciones de interacción del botón Upload Button.
 seo-title: Personalización de personalizaciones de botones
 solution: Experience Manager
 title: Personalización de personalizaciones de botones

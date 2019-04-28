@@ -1,10 +1,6 @@
 ---
-description: Para autenticar a un usuario con Livefyre a través de un flujo no activado
-  por una aplicación de Livefyre, Livefyre recomienda implementar el método foreachauthentication
-  en el objeto authdelegate.
-seo-description: Para autenticar a un usuario con Livefyre a través de un flujo no
-  activado por una aplicación de Livefyre, Livefyre recomienda implementar el método
-  foreachauthentication en el objeto authdelegate.
+description: Para autenticar a un usuario con Livefyre a través de un flujo no activado por una aplicación de Livefyre, Livefyre recomienda implementar el método foreachauthentication en el objeto authdelegate.
+seo-description: Para autenticar a un usuario con Livefyre a través de un flujo no activado por una aplicación de Livefyre, Livefyre recomienda implementar el método foreachauthentication en el objeto authdelegate.
 seo-title: Implementación de SSO
 solution: Experience Manager
 title: Implementación de SSO

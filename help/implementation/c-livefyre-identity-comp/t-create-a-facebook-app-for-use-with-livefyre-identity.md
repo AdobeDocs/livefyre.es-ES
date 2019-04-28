@@ -1,10 +1,6 @@
 ---
-description: Puede utilizar la identidad de Livefyre con Facebook para permitir a
-  los usuarios utilizar sus inicios de sesión de Facebook para interactuar con Aplicaciones
-  en el sitio.
-seo-description: Puede utilizar la identidad de Livefyre con Facebook para permitir
-  a los usuarios utilizar sus inicios de sesión de Facebook para interactuar con Aplicaciones
-  en el sitio.
+description: Puede utilizar la identidad de Livefyre con Facebook para permitir a los usuarios utilizar sus inicios de sesión de Facebook para interactuar con Aplicaciones en el sitio.
+seo-description: Puede utilizar la identidad de Livefyre con Facebook para permitir a los usuarios utilizar sus inicios de sesión de Facebook para interactuar con Aplicaciones en el sitio.
 seo-title: Crear una aplicación de Facebook para su uso con la identidad de Livefyre
 solution: Experience Manager
 title: Crear una aplicación de Facebook para su uso con la identidad de Livefyre
@@ -29,8 +25,8 @@ Para crear una aplicación de Facebook para utilizarla con la identidad de Livef
 1. Vaya a [https://developers.facebook.com/apps](https://developers.facebook.com/apps).
 1. Inicie sesión en su cuenta de desarrollador de Facebook.
 1. Haga clic **[!UICONTROL Add New App]** o seleccione una aplicación existente para usarla con la identidad de Livefyre.
-1. Haga clic **[!UICONTROL Settings]**en y **[!UICONTROL Basic]**luego. Introduzca **[!UICONTROL Contact Email]** una dirección **[!UICONTROL Display Name]****[!UICONTROL Privacy Policy URL]**, y **[!UICONTROL Terms of Service URL]**.
-1. Haga clic en el signo más ( **[!UICONTROL +]**) al lado **[!UICONTROL Products]**de.
+1. Haga clic **[!UICONTROL Settings]** en y **[!UICONTROL Basic]** luego. Introduzca **[!UICONTROL Contact Email]** una dirección **[!UICONTROL Display Name]****[!UICONTROL Privacy Policy URL]**, y **[!UICONTROL Terms of Service URL]**.
+1. Haga clic en el signo más ( **[!UICONTROL +]**) al lado **[!UICONTROL Products]** de.
 1. Click on **[!UICONTROL Set Up]** under **[!UICONTROL Facebook Login]**.
 1. Haga clic y **[!UICONTROL Settings]** configure lo siguiente:
 

@@ -1,8 +1,6 @@
 ---
-description: Permita que los usuarios hagan clic en las colecciones desde un diseño
-  de página único y URL.
-seo-description: Permita que los usuarios hagan clic en las colecciones desde un diseño
-  de página único y URL.
+description: Permita que los usuarios hagan clic en las colecciones desde un diseño de página único y URL.
+seo-description: Permita que los usuarios hagan clic en las colecciones desde un diseño de página único y URL.
 seo-title: Cambiar colección
 solution: Experience Manager
 title: Cambiar colección

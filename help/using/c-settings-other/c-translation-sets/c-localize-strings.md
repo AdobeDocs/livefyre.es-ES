@@ -112,7 +112,7 @@ Permite utilizar para ordenar el contenido devuelto por edad o popularidad.
 |  | Sorthotthreads | Hilos interactivos |
 |  | Sortseparator |  |  |
 |  | Streamsorting | Cargando |
-|  | Topcommentscontentnotfoundmsg | Aún no hay suficiente cantidad de "Me gusta". |
+|  | Topcommentscontentnotfoundmsg | Aún no hay suficiente cantidad de &quot;Me gusta&quot;. |
 |  | Hotthreadscontentnotfoundmsg | Aún no hay suficientes subprocesos. |
 |  | Streamrefreshmsg | Consulte las novedades. |
 | Opciones de Pie de página | Archiveheadertitle | Desde el archivo |
@@ -139,7 +139,7 @@ Enumera la información del anuncio: nombre de usuario, cualquier etiqueta de us
 |  | Timehoursagoplural | horas atrás |
 |  | Timedaysago | día anterior |
 |  | Timedaysagoplural | días antes |
-|  | Likesplural | Cantidad de "Me gusta" |
+|  | Likesplural | Cantidad de &quot;Me gusta&quot; |
 |  | Likessingular | Me gusta |
 |  | Moderatoredittimestamp | Editado por un moderador |
 |  | Commenttombstone | Se eliminó este comentario |
@@ -273,7 +273,7 @@ A menos que se indique lo contrario, disponible para todos los usuarios que inic
 | Clave | Texto predeterminado |  |
 |---|---|---|
 | Editar modal | Disponible para administradores de estudio, responsables de usuario o moderadores |  |
-| @ (@ mention.) | </> (Abre la ventana HTML personalizada.) |  |
+| @ (@ mention.) | &lt;/&gt; (Abre la ventana HTML personalizada.) |  |
 |  | Customhtmldialogtitle (aparece como el encabezado del modal). | Agregar HTML personalizado |
 
 ![](assets/strings_moderatoreditmodal-150x49.png)
@@ -477,7 +477,7 @@ Cadenas disponibles para la identidad de Livefyre.
 | Labelconfirmnewpassword | Confirmar nueva contraseña |
 | Labelconfirmpassword | Confirmar contraseña |
 | Labelemail | Dirección de correo electrónico |
-| Labelme | Cantidad de "Me gusta" |
+| Labelme | Cantidad de &quot;Me gusta&quot; |
 | Labelloading | Cargando |
 | Labelnewpassword | Nueva contraseña |
 | Labelnotification | Notificaciones |

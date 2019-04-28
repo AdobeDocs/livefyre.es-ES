@@ -1,8 +1,6 @@
 ---
-description: La plataforma de profundidad social líder con las herramientas necesarias
-  para atraer audiencias con las voces que confía en mayor medida.
-seo-description: La plataforma de profundidad social líder con las herramientas necesarias
-  para atraer audiencias con las voces que confía en mayor medida.
+description: La plataforma de profundidad social líder con las herramientas necesarias para atraer audiencias con las voces que confía en mayor medida.
+seo-description: La plataforma de profundidad social líder con las herramientas necesarias para atraer audiencias con las voces que confía en mayor medida.
 seo-title: Acerca de Livefyre
 solution: Experience Manager
 title: Acerca de Livefyre

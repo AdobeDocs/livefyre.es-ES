@@ -1,8 +1,6 @@
 ---
-description: Muchas funciones vienen con la aplicación de comentarios para incrustar
-  conversaciones en tiempo real en el sitio.
-seo-description: Muchas funciones vienen con la aplicación de comentarios para incrustar
-  conversaciones en tiempo real en el sitio.
+description: Muchas funciones vienen con la aplicación de comentarios para incrustar conversaciones en tiempo real en el sitio.
+seo-description: Muchas funciones vienen con la aplicación de comentarios para incrustar conversaciones en tiempo real en el sitio.
 seo-title: Funciones de comentarios
 solution: Experience Manager
 title: Funciones de comentarios

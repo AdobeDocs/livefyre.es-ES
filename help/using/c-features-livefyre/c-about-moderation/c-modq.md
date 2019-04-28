@@ -76,7 +76,7 @@ La siguiente información aparece cuando selecciona un elemento:
    * Indicadores de usuario: Correo no deseado, Desactivado, Ofensivo y Rechazar.
 
 * **[!UICONTROL Flag origin:]** la fuente del indicador de la lista. Puede ser SAFE, un nombre de usuario o Livefyre.
-* **[!UICONTROL More info:]** enumera los detalles del contenido, incluido el número de "Me gusta", Indicadores de usuario, Respuestas y cualquier etiqueta aplicada al contenido. Al hacer clic en el sitio, se abre la página de nivel superior del sitio en el que se encuentra el contenido. Al hacer clic en la marca de tiempo, se abre una vista de subprocesos del contenido en contexto en la página.
+* **[!UICONTROL More info:]** enumera los detalles del contenido, incluido el número de &quot;Me gusta&quot;, Indicadores de usuario, Respuestas y cualquier etiqueta aplicada al contenido. Al hacer clic en el sitio, se abre la página de nivel superior del sitio en el que se encuentra el contenido. Al hacer clic en la marca de tiempo, se abre una vista de subprocesos del contenido en contexto en la página.
 
 ## Opciones de filtro en modq {#section_r2c_qc2_yy}
 
@@ -136,7 +136,7 @@ Si el contenido ya está en el estado deseado, si elige Papelera, Bozo o Aprobar
 
 >[!NOTE]
 >
->El contenido del flujo puede no ser Bozo'd. El contenido de flujo de procesamiento la eliminará del flujo de forma permanente y no se puede deshacer.
+>El contenido del flujo puede no ser Bozo&#39;d. El contenido de flujo de procesamiento la eliminará del flujo de forma permanente y no se puede deshacer.
 
 Una vez moderado el contenido, se eliminará del modq del moderador y su autor ya no podrá editarlo desde dentro del flujo. Si un moderador cierra un elemento o si un usuario elimina su comentario, aparecerá atenuado en otras colas de moderadores en tiempo real. Cuando el contenido se ha atenuado, el **[!UICONTROL Clear Moderated]** botón se muestra en la página, permitiendo a los moderadores quitarlo de sus listas y mantener su lugar en la página, independientemente de la otra actividad del moderador.
 
@@ -144,11 +144,11 @@ Una vez moderado el contenido, se eliminará del modq del moderador y su autor y
 
 Utilice la sección de configuración para seleccionar las opciones disponibles cuando el contenido se marca como Papelera.
 
-* ****[!UICONTROL Confirm Trash]**** Active esta opción para exigir que Moderadores confirme su acción al configurar contenido en Papelera. Cuando está activada, la selección **[!UICONTROL Trash]** de contenido mostrará un cuadro de diálogo que solicita a **[!UICONTROL Reason for Moderation]**y ofrece un campo en el que se **[!UICONTROL Note]** puede introducir una.
+* ****[!UICONTROL Confirm Trash]**** Active esta opción para exigir que Moderadores confirme su acción al configurar contenido en Papelera. Cuando está activada, la selección **[!UICONTROL Trash]** de contenido mostrará un cuadro de diálogo que solicita a **[!UICONTROL Reason for Moderation]** y ofrece un campo en el que se **[!UICONTROL Note]** puede introducir una.
 
    (Esta opción está disponible **[!UICONTROL only]** en el nivel de red y se aplicará a todos los sitios de la red).
 
-* ****[!UICONTROL Hide Replies]**** Active esta opción para vaciar automáticamente las respuestas cuando un comentario principal se haya liberado o Bozo'd.
+* ****[!UICONTROL Hide Replies]**** Active esta opción para vaciar automáticamente las respuestas cuando un comentario principal se haya liberado o Bozo&#39;d.
 
 ## Cambiar estado de usuario en modq {#section_tmw_lg1_z1b}
 

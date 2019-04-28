@@ -1,8 +1,6 @@
 ---
-description: Live Blog permite que sus redactores y editores anuncien actualizaciones
-  en tiempo real y transformen su sitio en una atractiva fuente de noticias activa.
-seo-description: Live Blog permite que sus redactores y editores anuncien actualizaciones
-  en tiempo real y transformen su sitio en una atractiva fuente de noticias activa.
+description: Live Blog permite que sus redactores y editores anuncien actualizaciones en tiempo real y transformen su sitio en una atractiva fuente de noticias activa.
+seo-description: Live Blog permite que sus redactores y editores anuncien actualizaciones en tiempo real y transformen su sitio en una atractiva fuente de noticias activa.
 seo-title: Blog activo
 solution: Experience Manager
 title: Blog activo

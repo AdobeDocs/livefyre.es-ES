@@ -1,8 +1,6 @@
 ---
-description: Personalice las cadenas de texto de la aplicación para la internacionalización
-  o la marca.
-seo-description: Personalice las cadenas de texto de la aplicación para la internacionalización
-  o la marca.
+description: Personalice las cadenas de texto de la aplicación para la internacionalización o la marca.
+seo-description: Personalice las cadenas de texto de la aplicación para la internacionalización o la marca.
 seo-title: Cadenas de texto personalizado y de traducción
 solution: Experience Manager
 title: Cadenas de texto personalizado y de traducción
@@ -17,7 +15,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Personalice las cadenas de texto de la aplicación para la internacionalización o la marca.
 
-Para mejorar la experiencia de su comunidad, puede personalizar la cadena de texto de cualquier etiqueta de texto que coincida con el idioma o la marca del sitio. Por ejemplo, puede cambiar "Me gusta" a "Recomendar" o "Eliminar" a "Borrar. »»
+Para mejorar la experiencia de su comunidad, puede personalizar la cadena de texto de cualquier etiqueta de texto que coincida con el idioma o la marca del sitio. Por ejemplo, puede cambiar &quot;Me gusta&quot; a &quot;Recomendar&quot; o &quot;Eliminar&quot; a &quot;Borrar. »»
 
 Para obtener más información, consulte [](../c-settings-other/c-translation-sets/c-translation-sets.md#c_translation_sets).
 

@@ -1,12 +1,6 @@
 ---
-description: Los clientes que utilizan Janrain Capture y Backplane pueden utilizar
-  la autenticación de Livefyre para el inicio de sesión único (SSO), lo que permite
-  a los usuarios interactuar inmediatamente con las aplicaciones de Livefyre cuando
-  inicien sesión en el sitio.
-seo-description: Los clientes que utilizan Janrain Capture y Backplane pueden utilizar
-  la autenticación de Livefyre para el inicio de sesión único (SSO), lo que permite
-  a los usuarios interactuar inmediatamente con las aplicaciones de Livefyre cuando
-  inicien sesión en el sitio.
+description: Los clientes que utilizan Janrain Capture y Backplane pueden utilizar la autenticación de Livefyre para el inicio de sesión único (SSO), lo que permite a los usuarios interactuar inmediatamente con las aplicaciones de Livefyre cuando inicien sesión en el sitio.
+seo-description: Los clientes que utilizan Janrain Capture y Backplane pueden utilizar la autenticación de Livefyre para el inicio de sesión único (SSO), lo que permite a los usuarios interactuar inmediatamente con las aplicaciones de Livefyre cuando inicien sesión en el sitio.
 seo-title: Janrain Capture/Backplane
 solution: Experience Manager
 title: Janrain Capture/Backplane

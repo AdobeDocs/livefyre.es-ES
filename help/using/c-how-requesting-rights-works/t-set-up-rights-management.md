@@ -1,8 +1,6 @@
 ---
-description: Defina la configuración para solicitar derechos para anuncios de Instagram
-  y Twitter.
-seo-description: Defina la configuración para solicitar derechos para anuncios de
-  Instagram y Twitter.
+description: Defina la configuración para solicitar derechos para anuncios de Instagram y Twitter.
+seo-description: Defina la configuración para solicitar derechos para anuncios de Instagram y Twitter.
 seo-title: Configuración de Rights Management
 solution: Experience Manager
 title: Configuración de Rights Management
@@ -23,7 +21,7 @@ Antes de definir la Configuración de solicitudes de derechos, debe configurar u
 >
 >Solo puede configurar la administración de derechos en el nivel de red. No se puede configurar la administración de derechos específicos del sitio.
 
-1. En Livefyre Studio, vaya **[!UICONTROL Network]****[!UICONTROL Settings > Rights Management]**a.
+1. En Livefyre Studio, vaya **[!UICONTROL Network]****[!UICONTROL Settings > Rights Management]** a.
 
    >[!NOTE]
    >

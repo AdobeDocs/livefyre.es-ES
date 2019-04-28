@@ -1,8 +1,6 @@
 ---
-description: Cambie el icono mostrado para los usuarios de Livefyre en el menú desplegable
-  @mention.
-seo-description: Cambie el icono mostrado para los usuarios de Livefyre en el menú
-  desplegable @mention.
+description: Cambie el icono mostrado para los usuarios de Livefyre en el menú desplegable @mention.
+seo-description: Cambie el icono mostrado para los usuarios de Livefyre en el menú desplegable @mention.
 seo-title: Cambiar el icono @mention
 solution: Experience Manager
 title: Cambiar el icono @mention
@@ -21,7 +19,7 @@ Cambie el icono de Livefyre utilizado en el menú `@mention` desplegable por un 
 
 ## Ejemplo
 
-Para cambiar este icono, agregue la siguiente CSS a su hoja de estilo. Sustituya <*su recurso*> url por la URL de la imagen seleccionada para reemplazar la insignia predeterminada Livefyre.
+Para cambiar este icono, agregue la siguiente CSS a su hoja de estilo. Sustituya &lt;*su recurso*&gt; url por la URL de la imagen seleccionada para reemplazar la insignia predeterminada Livefyre.
 
 ```
 .fyre-editor-container .fyre-editor-toolbar > .fyre-mention-menu .fyre-mention-item .fyre-mention-item-livefyre { 

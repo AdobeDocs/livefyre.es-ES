@@ -1,10 +1,6 @@
 ---
-description: Las cuentas de estudio permiten acceder a todos los componentes de Studio
-  para los que tiene permisos, incluida la creación de aplicaciones, la moderación
-  de contenido y la administración de usuarios.
-seo-description: Las cuentas de estudio permiten acceder a todos los componentes de
-  Studio para los que tiene permisos, incluida la creación de aplicaciones, la moderación
-  de contenido y la administración de usuarios.
+description: Las cuentas de estudio permiten acceder a todos los componentes de Studio para los que tiene permisos, incluida la creación de aplicaciones, la moderación de contenido y la administración de usuarios.
+seo-description: Las cuentas de estudio permiten acceder a todos los componentes de Studio para los que tiene permisos, incluida la creación de aplicaciones, la moderación de contenido y la administración de usuarios.
 seo-title: Usuarios que crean cuentas de usuario
 solution: Experience Manager
 title: Usuarios que crean cuentas de usuario

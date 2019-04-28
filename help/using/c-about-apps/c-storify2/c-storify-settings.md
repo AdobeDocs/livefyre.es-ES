@@ -1,8 +1,6 @@
 ---
-description: Ajuste la configuración de los artículos Storify 2, como etiquetas, moderación
-  y contenido permitido.
-seo-description: Ajuste la configuración de los artículos Storify 2, como etiquetas,
-  moderación y contenido permitido.
+description: Ajuste la configuración de los artículos Storify 2, como etiquetas, moderación y contenido permitido.
+seo-description: Ajuste la configuración de los artículos Storify 2, como etiquetas, moderación y contenido permitido.
 seo-title: Configuración de Storify
 solution: Experience Manager
 title: Configuración de Storify

@@ -1,7 +1,6 @@
 ---
 description: Cambie las opciones de tamaño, ancho e interacción de la aplicación Carrusel.
-seo-description: Cambie las opciones de tamaño, ancho e interacción de la aplicación
-  Carrusel.
+seo-description: Cambie las opciones de tamaño, ancho e interacción de la aplicación Carrusel.
 seo-title: Personalizar un carrusel con Studio
 solution: Experience Manager
 title: Personalizar un carrusel con Studio
@@ -16,7 +15,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Cambie las opciones de tamaño, ancho e interacción de la aplicación Carrusel.
 
-Todas las **[!UICONTROL Style]** aplicaciones usan **[!UICONTROL Config]** y opciones en **[!UICONTROL App Designer]**la. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en **[!UICONTROL App Designer]**la.
+Todas las **[!UICONTROL Style]** aplicaciones usan **[!UICONTROL Config]** y opciones en **[!UICONTROL App Designer]** la. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en **[!UICONTROL App Designer]** la.
 
 Puede personalizar un carrusel con las siguientes opciones adicionales en App Designer:
 
@@ -42,8 +41,8 @@ Puede personalizar un carrusel con las siguientes opciones adicionales en App De
 
    * **[!UICONTROL Show call-to-action in tile]**. Elija si se mostrará el botón llamada a acción en un mosaico en lugar de mostrar el botón de llamada a acción solo cuando el visitante del sitio haga clic en una tarjeta y abre el contenido en una ventana más grande.
    * **[!UICONTROL Call-to-action indication text]** Texto que se muestra para pedir al usuario que haga clic en la tarjeta para abrir el modal de llamada a acción.
-   * **[!UICONTROL Call-to-action header text]** Palabras que se mostrarán en el encabezado sobre el botón Llamada a acción en el modal. El texto predeterminado es "Buy these products: ".
-   * **[!UICONTROL Call-to-action button text]** Palabras que se mostrarán en el botón de llamada a acción del modal. El texto predeterminado es "Buy Now: ".
+   * **[!UICONTROL Call-to-action header text]** Palabras que se mostrarán en el encabezado sobre el botón Llamada a acción en el modal. El texto predeterminado es &quot;Buy these products: &quot;.
+   * **[!UICONTROL Call-to-action button text]** Palabras que se mostrarán en el botón de llamada a acción del modal. El texto predeterminado es &quot;Buy Now: &quot;.
    * **[!UICONTROL Product display options]** Elija si desea mostrar el **[!UICONTROL Photo]** botón y el **[!UICONTROL Product name]** de llamada a acción.
    >[!NOTE]
    >

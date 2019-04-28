@@ -1,8 +1,6 @@
 ---
-description: Utilice las clases CSS disponibles para personalizar la visualización
-  de sus aplicaciones.
-seo-description: Utilice las clases CSS disponibles para personalizar la visualización
-  de sus aplicaciones.
+description: Utilice las clases CSS disponibles para personalizar la visualización de sus aplicaciones.
+seo-description: Utilice las clases CSS disponibles para personalizar la visualización de sus aplicaciones.
 seo-title: Clases CSS
 solution: Experience Manager
 title: Clases CSS
@@ -79,7 +77,7 @@ Estructura HTML:
 </div>
 ```
 
-Ocultar el|' separar las opciones de clasificación.
+Ocultar el|&#39; separar las opciones de clasificación.
 
 ```
 .fyre-stream-sort .fyre-stream-sort-bar { 
@@ -101,7 +99,7 @@ Ocultar el|' separar las opciones de clasificación.
 | . fyre-comment-date | Etiqueta adjunta al elemento «hora desde que se publicó». |
 | . fyre-comment-media | Cuadro delimitador alrededor del contenido multimedia. |
 | . fyre-comment-actions | Cuadro delimitador alrededor de las acciones disponibles para realizar en un comentario. |
-| . fyre-comment | Cuadro delimitador alrededor del vínculo "Me gusta". |
+| . fyre-comment | Cuadro delimitador alrededor del vínculo &quot;Me gusta&quot;. |
 | . fyre-comment-answer | Cuadro delimitador alrededor del vínculo «Responder». |
 
 ## CSS de comentarios destacados {#section_m2v_mrh_xz}
@@ -146,7 +144,7 @@ Estas clases permiten personalizar el Notificador de comentarios de Livefyre.
 | . fyre-notificfier-base | Contenedor de la parte de información del Notificador, que indica el número de nuevos comentarios, el rótulo del Notificador y el botón de cierre. |
 | . fyre-notificfier-base-close | El div contenedor del botón de cierre (x) para el notificador. |
 | . fyre-notificfier-base-shadow | Sombreado de la base de notificación. |
-| . fyre-notificfier-caption | Texto mostrado para el notificador. ' Nuevos comentarios'de forma predeterminada. |
+| . fyre-notificfier-caption | Texto mostrado para el notificador. &#39; Nuevos comentarios&#39;de forma predeterminada. |
 | . fyre-notificfier-close | Botón que cierra el notificador. |
 | . fyre-notificfier-container | El contenedor del Notificador incluye tanto la pancarta como la base. |
 | . fyre-notificfier-counter | El contenedor del número enumerado en el Notificador. |

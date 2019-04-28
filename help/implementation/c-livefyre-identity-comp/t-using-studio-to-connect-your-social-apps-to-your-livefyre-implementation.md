@@ -1,14 +1,8 @@
 ---
-description: Para habilitar un inicio de sesión social, utilice Studio para agregar
-  las credenciales de sus aplicaciones sociales a la integración de Livefyre y personalice
-  el modal de inicio de sesión.
-seo-description: Para habilitar un inicio de sesión social, utilice Studio para agregar
-  las credenciales de sus aplicaciones sociales a la integración de Livefyre y personalice
-  el modal de inicio de sesión.
-seo-title: Uso de Studio para conectar sus aplicaciones sociales con la implementación
-  de Livefyre
-title: Uso de Studio para conectar sus aplicaciones sociales con la implementación
-  de Livefyre
+description: Para habilitar un inicio de sesión social, utilice Studio para agregar las credenciales de sus aplicaciones sociales a la integración de Livefyre y personalice el modal de inicio de sesión.
+seo-description: Para habilitar un inicio de sesión social, utilice Studio para agregar las credenciales de sus aplicaciones sociales a la integración de Livefyre y personalice el modal de inicio de sesión.
+seo-title: Uso de Studio para conectar sus aplicaciones sociales con la implementación de Livefyre
+title: Uso de Studio para conectar sus aplicaciones sociales con la implementación de Livefyre
 uuid: be 14869 c-e 0 df -48 cd-a 1 f 3-99 eb 953 dd 9 ce
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
@@ -68,7 +62,7 @@ Para habilitar el inicio de sesión con una cuenta de Google +:
 
 1. Agregue las aplicaciones de Google **[!UICONTROL Client ID]** y **[!UICONTROL Client secret]**.
 
-   Estos valores se enumeran en la interfaz de proyecto de la plataforma de Google Cloud, disponible en [https://console.cloud.google.com/](https://console.cloud.google.com/apis/library). Para recuperar esta información, vaya a **[!UICONTROL API Manager > Credentials]**y haga clic en el nombre del proyecto.
+   Estos valores se enumeran en la interfaz de proyecto de la plataforma de Google Cloud, disponible en [https://console.cloud.google.com/](https://console.cloud.google.com/apis/library). Para recuperar esta información, vaya a **[!UICONTROL API Manager > Credentials]** y haga clic en el nombre del proyecto.
 
 ## Habilitar un inicio de sesión con una cuenta de Twitter {#section_iyz_wb5_bbb}
 
@@ -104,7 +98,7 @@ Para habilitar el inicio de sesión con una cuenta de ID Live de Microsoft:
 
 1. Introduzca el **[!UICONTROL Microsoft Live Client ID (Private Key)]** y **[!UICONTROL Microsoft Live Client Secret (Password)]**.
 
-1. Haga clic **[!UICONTROL Save Settings]**en.
+1. Haga clic **[!UICONTROL Save Settings]** en.
 
    Los **[!UICONTROL Microsoft Live Client ID (Private Key)]** valores y los **[!UICONTROL Microsoft Live Client Secret (Password)]** valores se enumeran en la página de detalles de la aplicación de ID de Microsoft Live.
 
@@ -113,6 +107,6 @@ Para habilitar el inicio de sesión con una cuenta de ID Live de Microsoft:
 Permite a los usuarios utilizar la implementación de identidad de Livefyre para aplicaciones en el sitio.
 
 1. Crear una aplicación.
-1. Vaya a **[!UICONTROL Studio]** > **[!UICONTROL Settings]** > **[!UICONTROL Integration Settings]**> **[!UICONTROL Livefyre Identity]**.
+1. Vaya a **[!UICONTROL Studio]** &gt; **[!UICONTROL Settings]** &gt; **[!UICONTROL Integration Settings]**&gt; **[!UICONTROL Livefyre Identity]**.
 
 1. Introduzca las credenciales de la aplicación requeridas para la aplicación que ha creado.

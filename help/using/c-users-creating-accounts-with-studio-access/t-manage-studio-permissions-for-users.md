@@ -1,8 +1,6 @@
 ---
-description: Cambiar el permiso de varios niveles de usuarios, incluidos administradores,
-  moderadores y visitantes del sitio.
-seo-description: Cambiar el permiso de varios niveles de usuarios, incluidos administradores,
-  moderadores y visitantes del sitio.
+description: Cambiar el permiso de varios niveles de usuarios, incluidos administradores, moderadores y visitantes del sitio.
+seo-description: Cambiar el permiso de varios niveles de usuarios, incluidos administradores, moderadores y visitantes del sitio.
 seo-title: Administrar permisos de estudio para usuarios
 solution: Experience Manager
 title: Administrar permisos de estudio para usuarios

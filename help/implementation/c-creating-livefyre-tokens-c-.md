@@ -1,9 +1,9 @@
 ---
-description: Aprenda a generar tokens de Livefyre con el lenguaje'C
-seo-description: Aprenda a generar tokens de Livefyre con el lenguaje'C
-seo-title: Creando tokens de Livefyre'C
+description: 'Aprenda a generar tokens de Livefyre con el lenguaje''C #''.'
+seo-description: 'Aprenda a generar tokens de Livefyre con el lenguaje''C #''.'
+seo-title: 'Creando tokens de Livefyre''C #'''
 solution: Experience Manager
-title: Creando tokens de Livefyre'C
+title: 'Creando tokens de Livefyre''C #'''
 uuid: c 5 e 05625-8550-4 b 51-9211-134600 e 20 ec 7
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241

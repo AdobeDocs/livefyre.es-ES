@@ -1,8 +1,6 @@
 ---
-description: Fije una publicación para centrar la atención en contenido específico
-  cuando aterrice en una página con Storify 2 incrustada.
-seo-description: Fije una publicación para centrar la atención en contenido específico
-  cuando aterrice en una página con Storify 2 incrustada.
+description: Fije una publicación para centrar la atención en contenido específico cuando aterrice en una página con Storify 2 incrustada.
+seo-description: Fije una publicación para centrar la atención en contenido específico cuando aterrice en una página con Storify 2 incrustada.
 seo-title: Fijar un anuncio en Storify 2
 solution: Experience Manager
 title: Fijar un anuncio en Storify 2

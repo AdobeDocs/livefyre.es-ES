@@ -43,7 +43,7 @@ En esta versión se resolvieron los problemas de las tablas siguientes.
 
 | Tipo de problema | Componente | Versión de la versión |
 |--- |--- |--- |
-| Problema | Appservice: Identidad de Livefyre | Se ha corregido un problema en el cual hacer clic [en UICONTROL Restablecer a predeterminado] no restablecía el logotipo en Login Modal en Studio > Settings Settings > Livefyre Identity con la imagen predeterminada. |
+| Problema | Appservice: Identidad de Livefyre | Se ha corregido un problema en el cual hacer clic [en UICONTROL Restablecer a predeterminado] no restablecía el logotipo en Login Modal en Studio &gt; Settings Settings &gt; Livefyre Identity con la imagen predeterminada. |
 | Problema | Biblioteca | Se ha corregido un problema por el que un vídeo cargado a la biblioteca y luego visto en detalle de recurso no se mostraba correctamente. |
 | Problema | Flujos | Se ha corregido un problema que impedía que los productos se mostraran en una regla de flujo. |
 | Problema | Flujos | Se corrigió un problema en el cual las etiquetas de productos no estaban disponibles para una regla de flujo. |

@@ -1,8 +1,6 @@
 ---
-description: Elimine un conjunto de traducción en cualquier momento haciendo clic
-  en el icono de la papelera junto al conjunto de traducción que desee eliminar.
-seo-description: Elimine un conjunto de traducción en cualquier momento haciendo clic
-  en el icono de la papelera junto al conjunto de traducción que desee eliminar.
+description: Elimine un conjunto de traducción en cualquier momento haciendo clic en el icono de la papelera junto al conjunto de traducción que desee eliminar.
+seo-description: Elimine un conjunto de traducción en cualquier momento haciendo clic en el icono de la papelera junto al conjunto de traducción que desee eliminar.
 seo-title: Eliminar un conjunto de traducción
 solution: Experience Manager
 title: Eliminar un conjunto de traducción

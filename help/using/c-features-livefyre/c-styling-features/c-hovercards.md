@@ -14,7 +14,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Habilitar o deshabilitar las tarjetas de usuario en el sitio.
 
-Livefyre Hovercard es una ventana emergente que muestra una instantánea rápida de la información del usuario, incluido el nombre para mostrar, la biografía, las redes sociales, la cantidad de "Me gusta" de los usuarios, la URL de la página de perfil y un vínculo para ver su perfil completo. Los Hovercards están disponibles para todos los flujos de Livefyre, incluidos los comentarios, Live Blog y chat.
+Livefyre Hovercard es una ventana emergente que muestra una instantánea rápida de la información del usuario, incluido el nombre para mostrar, la biografía, las redes sociales, la cantidad de &quot;Me gusta&quot; de los usuarios, la URL de la página de perfil y un vínculo para ver su perfil completo. Los Hovercards están disponibles para todos los flujos de Livefyre, incluidos los comentarios, Live Blog y chat.
 
 >[!NOTE]
 >

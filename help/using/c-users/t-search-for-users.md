@@ -1,10 +1,6 @@
 ---
-description: Utilice el campo Buscar en la parte superior de la página para buscar
-  visitantes del sitio por nombre para mostrar, ID de usuario, dirección de correo
-  electrónico o la fecha en que se conectaron a la red de Livefyre.
-seo-description: Utilice el campo Buscar en la parte superior de la página para buscar
-  visitantes del sitio por nombre para mostrar, ID de usuario, dirección de correo
-  electrónico o la fecha en que se conectaron a la red de Livefyre.
+description: Utilice el campo Buscar en la parte superior de la página para buscar visitantes del sitio por nombre para mostrar, ID de usuario, dirección de correo electrónico o la fecha en que se conectaron a la red de Livefyre.
+seo-description: Utilice el campo Buscar en la parte superior de la página para buscar visitantes del sitio por nombre para mostrar, ID de usuario, dirección de correo electrónico o la fecha en que se conectaron a la red de Livefyre.
 seo-title: Buscar usuarios
 solution: Experience Manager
 title: Buscar usuarios

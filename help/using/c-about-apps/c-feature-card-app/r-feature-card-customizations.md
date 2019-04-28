@@ -1,7 +1,6 @@
 ---
 description: Cambie las opciones de tamaño, ancho e interacción de la aplicación Mapa.
-seo-description: Cambie las opciones de tamaño, ancho e interacción de la aplicación
-  Mapa.
+seo-description: Cambie las opciones de tamaño, ancho e interacción de la aplicación Mapa.
 seo-title: Personalizaciones de la tarjeta de funciones
 solution: Experience Manager
 title: Personalizaciones de la tarjeta de funciones
@@ -24,7 +23,7 @@ Las aplicaciones de tarjeta de funciones incluyen solo personalizaciones estánd
 
 Puede personalizar tarjetas de funciones utilizando:
 
-* **[!UICONTROL Style]** y **[!UICONTROL Config]** opciones para todas las aplicaciones del **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en **[!UICONTROL App Designer]**la.
+* **[!UICONTROL Style]** y **[!UICONTROL Config]** opciones para todas las aplicaciones del **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en **[!UICONTROL App Designer]** la.
 
 * Herramientas de integración. Consulte Integraciones de aplicación para obtener más información sobre cómo personalizar aplicaciones mediante herramientas de integración.
 * **[!UICONTROL Call-to-action button]** Puede utilizar el botón Llamada a acción con un catálogo de productos para dirigir a los usuarios a un producto o a su sitio para que realicen más acciones.
@@ -36,8 +35,8 @@ Puede personalizar tarjetas de funciones utilizando:
       >
       >El contenido se muestra incluso si no se conceden derechos para el contenido, pero el botón de llamada a acción no se mostrará con el contenido, a menos que se otorguen derechos para el contenido.
 
-   * **[!UICONTROL Call-to-action header text]** Palabras que se mostrarán en el encabezado sobre el botón Llamada a acción en el modal. La redacción predeterminada es "Buy these products: ".
-   * **[!UICONTROL Call-to-action button text]** Personalice el texto del botón Llamada a acción. El texto predeterminado es "Buy Now".
+   * **[!UICONTROL Call-to-action header text]** Palabras que se mostrarán en el encabezado sobre el botón Llamada a acción en el modal. La redacción predeterminada es &quot;Buy these products: &quot;.
+   * **[!UICONTROL Call-to-action button text]** Personalice el texto del botón Llamada a acción. El texto predeterminado es &quot;Buy Now&quot;.
    * **[!UICONTROL Product display options]** Elija si desea mostrar el **[!UICONTROL Photo]** botón y el **[!UICONTROL Product name]** de llamada a acción.
    * **[!UICONTROL Product URL referral tracking]** Cambie el conmutador a para rastrear las referencias de esta aplicación a la página del producto asociada.
    * **[!UICONTROL Referral tracking key-value pairs]** Agregue parámetros para especificar el seguimiento de referencia desde el contenido de la aplicación a la página del producto asociada.

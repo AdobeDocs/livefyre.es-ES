@@ -21,7 +21,7 @@ Versión actual: Usos de chat `fyre.conv v3.0.0.`
 
 ## de CRM{#concept_0A99792A7E89403F95D082D52D600F17}
 
-La incrustación de la aplicación de chat sigue el proceso de incrustación de una aplicación principal descrita en Introducción > [Incrustación de una aplicación](../c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md#using-livefyre-js-create-customize-apps).
+La incrustación de la aplicación de chat sigue el proceso de incrustación de una aplicación principal descrita en Introducción &gt; [Incrustación de una aplicación](../c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md#using-livefyre-js-create-customize-apps).
 
 Ejemplo:
 
@@ -96,7 +96,7 @@ Como se indica en la sección [collectionmeta Token](../c-getting-started/c-impl
 
 | Parámetro | Tipo | Descripción |
 |--- |--- |--- |
-| Articleid | *required* string | Identifica exclusivamente una colección dentro del sitio. Normalmente, esto corresponde a una clave principal de base de datos o a ID de anuncio dentro del CMS. Por ejemplo: «post -42». Límite de 255 caracteres. Nota: Si utiliza la URL del artículo como artículo de artículo, asegúrese de que la cadena sea MD 5 o SHA -1 codificado. |
+| Articleid | *cadena* requerida | Identifica exclusivamente una colección dentro del sitio. Normalmente, esto corresponde a una clave principal de base de datos o a ID de anuncio dentro del CMS. Por ejemplo: «post -42». Límite de 255 caracteres. Nota: Si utiliza la URL del artículo como artículo de artículo, asegúrese de que la cadena sea MD 5 o SHA -1 codificado. |
 | Collectionmeta | *required* string | Metadatos codificados JWT sobre la colección. Consulte [collectionmeta Object](../c-getting-started/c-implementation-process/c-collectionmeta-tokent.md#collectionmeta-tokent) para obtener más información. |
 | el | *required* string | El ID de un elemento DOM al que se procesará el flujo de contenido. |
 | Siteid | *required* string | ID de Livefyre para el sitio Web o la aplicación a la que pertenece la colección. Por ejemplo: «303617». |

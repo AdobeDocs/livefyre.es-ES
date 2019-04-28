@@ -1,8 +1,6 @@
 ---
-description: Elija las opciones de configuración Estilo, Visualización y Participación
-  del usuario para Storify 2 desde Livefyre Studio.
-seo-description: Elija las opciones de configuración Estilo, Visualización y Participación
-  del usuario para Storify 2 desde Livefyre Studio.
+description: Elija las opciones de configuración Estilo, Visualización y Participación del usuario para Storify 2 desde Livefyre Studio.
+seo-description: Elija las opciones de configuración Estilo, Visualización y Participación del usuario para Storify 2 desde Livefyre Studio.
 seo-title: Opciones de configuración
 solution: Experience Manager
 title: Opciones de configuración
@@ -69,7 +67,7 @@ Elija las opciones de configuración Estilo, Visualización y Participación del
 
 * **[!UICONTROL Users may share posts]**
 
-   Si se habilita, los usuarios pueden compartir su artículo a Twitter o Facebook. Para obtener más información sobre cómo activar el uso compartido, consulte Configuración > Ajustes de integración > Compartir en redes sociales.
+   Si se habilita, los usuarios pueden compartir su artículo a Twitter o Facebook. Para obtener más información sobre cómo activar el uso compartido, consulte Configuración &gt; Ajustes de integración &gt; Compartir en redes sociales.
 
 * **[!UICONTROL Users may add sidenotes]**
 

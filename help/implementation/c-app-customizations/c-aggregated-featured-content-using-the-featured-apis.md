@@ -1,12 +1,6 @@
 ---
-description: Livefyre proporciona cuatro API destacadas que le permiten recuperar
-  los 50 elementos de contenido destacado más recientes para la red de entrada, el
-  sitio o la colección, o bien los dos fragmentos de contenido destacados en la parte
-  superior de una colección de entrada.
-seo-description: Livefyre proporciona cuatro API destacadas que le permiten recuperar
-  los 50 elementos de contenido destacado más recientes para la red de entrada, el
-  sitio o la colección, o bien los dos fragmentos de contenido destacados en la parte
-  superior de una colección de entrada.
+description: Livefyre proporciona cuatro API destacadas que le permiten recuperar los 50 elementos de contenido destacado más recientes para la red de entrada, el sitio o la colección, o bien los dos fragmentos de contenido destacados en la parte superior de una colección de entrada.
+seo-description: Livefyre proporciona cuatro API destacadas que le permiten recuperar los 50 elementos de contenido destacado más recientes para la red de entrada, el sitio o la colección, o bien los dos fragmentos de contenido destacados en la parte superior de una colección de entrada.
 seo-title: Contenido destacado sumado mediante las API destacadas
 solution: Experience Manager
 title: Contenido destacado sumado mediante las API destacadas

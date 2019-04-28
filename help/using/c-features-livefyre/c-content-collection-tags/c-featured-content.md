@@ -1,8 +1,6 @@
 ---
-description: Resalte contenido importante para los usuarios mediante la CSS con el
-  estilo personalizado de contenido destacado.
-seo-description: Resalte contenido importante para los usuarios mediante la CSS con
-  el estilo personalizado de contenido destacado.
+description: Resalte contenido importante para los usuarios mediante la CSS con el estilo personalizado de contenido destacado.
+seo-description: Resalte contenido importante para los usuarios mediante la CSS con el estilo personalizado de contenido destacado.
 seo-title: Contenido destacado
 solution: Experience Manager
 title: Contenido destacado

@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: Eventos de Analytics de Livefyre
 solution: Experience Manager
 title: Eventos de Analytics de Livefyre
@@ -72,12 +72,12 @@ Los siguientes eventos de Livefyre para asignar a eventos personalizados que se 
 | Flagofensiva | Cuando un usuario marca el contenido como ofensivo |
 | Flagofftopic | Cuando un usuario marca el contenido como sin tema |
 | Flagcancel | Cada vez que un usuario hace clic en X o «cancelar» al enviar un indicador |
-| Followcollection | Cada vez que sigue una conversación ("Estoy interesado" en Revisiones) |
+| Followcollection | Cada vez que sigue una conversación (&quot;Estoy interesado&quot; en Revisiones) |
 | Unfollowcollection | Cuando una conversación no sigue |
 | Requestmore | Cada vez que un usuario cargó más contenido en una aplicación (debe ser también para velocity alta) |
 | Modalview | Cada vez que un usuario hace clic para ver el contenido en un modal |
 | Twitterretweetclick | Donde se compartió el contenido con: Retweet |
-| Postbuttonclick | Cuando un usuario hace clic en la publicación ("¿Qué opina? ") button |
+| Postbuttonclick | Cuando un usuario hace clic en la publicación (&quot;¿Qué opina? &quot;) button |
 | Inicio de sesión | Cada vez que un usuario inició sesión |
 | Cerrar sesión | Cada vez que un usuario ha cerrado sesión |
 

@@ -1,8 +1,6 @@
 ---
-description: Cree aplicaciones de Livefyre desde cero para crear experiencias personalizadas
-  y visualizaciones de datos.
-seo-description: Cree aplicaciones de Livefyre desde cero para crear experiencias
-  personalizadas y visualizaciones de datos.
+description: Cree aplicaciones de Livefyre desde cero para crear experiencias personalizadas y visualizaciones de datos.
+seo-description: Cree aplicaciones de Livefyre desde cero para crear experiencias personalizadas y visualizaciones de datos.
 seo-title: Integrar Livefyre con integración de terceros
 solution: Experience Manager
 title: Integrar Livefyre en un CMS

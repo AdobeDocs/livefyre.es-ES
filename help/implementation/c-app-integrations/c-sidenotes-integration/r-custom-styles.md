@@ -1,8 +1,6 @@
 ---
-description: Los estilos personalizados se aplican a través de un objeto insertado
-  en el constructor Sidenotes.
-seo-description: Los estilos personalizados se aplican a través de un objeto insertado
-  en el constructor Sidenotes.
+description: Los estilos personalizados se aplican a través de un objeto insertado en el constructor Sidenotes.
+seo-description: Los estilos personalizados se aplican a través de un objeto insertado en el constructor Sidenotes.
 seo-title: Estilos personalizados de Sidenotes
 title: Estilos personalizados de Sidenotes
 uuid: 0 f 6 d 7 ad 6-1 f 6 a -4 ed 2-b 86 a -0 d 03782 e 591 e
@@ -33,27 +31,27 @@ new Livefyre.Sidenotes({
 
 | **Clave** | **Propiedades** | Descripción |
 |---|---|---|
-| `anonymousAvatar` | ' height ',' width ' | Imagen de avatar anónima, a la izquierda del editor de área de texto. |
-| `blockBtn` | ' Fontcolor ',' fontsize ',' left ',' position ',' right ',' top ' | El «icono del Iniciador» situado junto a los elementos especificados como «sidenote». |
-| `blockBtnActive` | ' Fontcolor ',' fontsize ',' left ',' position ',' right ',' top ' | Icono Iniciador cuando se encuentra en estado activo. |
-| `commentAvatar` | ' height ',' width ' | Imagen avatar a la izquierda de las notas de nivel superior. |
-| `commentBody` | ' Fontcolor ',' fontfamily ',' fontsize ',' fontweight ',' lineheight ' | Cuerpo de texto de notas de subproceso. |
-| `commentDisplayName` | ' Fontcolor ',' fontfamily ',' fontsize ',' fontweight ',' lineheight ' | Nombre para mostrar del usuario que ha dejado una nota. |
-| `commentDownvote` | ' Fontcolor ',' fontsize ' | Botón de voto en una nota. |
-| `commentReplyExpand` | ' Backgroundcolor ',' bordercolor ',' borderwidth ',' fontcolor ',' fontfamily ',' fontsize ',' fontweight ',' lineheight ' | Botón para expandir los hilos con un gran número de respuestas. |
-| `commentTags` | ' Fontcolor ',' fontfamily ',' fontsize ',' fontweight ',' lineheight ' | Etiquetas sobre un usuario en una nota. |
-| `commentUpvote` | ' Fontcolor ',' fontsize ' | Botón Ortovotación en una nota. |
-| `editorTextarea` | ' height ',' width ',' fontcolor ',' fontfamily ',' fontsize ',' fontweight ',' lineheight ' | Cuadro de entrada de texto para dejar notas. |
-| `mediaBlockBtn` | ' Fontcolor ',' fontsize ',' left ',' position ',' right ',' top ' | Icono del iniciador multimedia cuando se encuentra encima de un elemento de medios (img, vídeo). |
-| `mediaBlockBtnActive` | ' Fontcolor ',' fontsize ',' left ',' position ',' right ',' top ' | Icono del iniciador de medios en estado activo. |
-| `numSidenotes` | ' Fontcolor ',' fontfamily ',' fontsize ',' fontweight ',' lineheight ',' backgroundcolor ',' bordercolor ',' borderwidth ',' height ',' width ' | Botón en el que se puede hacer clic que muestra el número de Sidenotes en la colección. |
-| `numSidenotesPopover` | ' Fontcolor ',' fontfamily ',' fontsize ',' fontweight ',' lineheight ',' backgroundcolor ',' bordercolor ',' borderwidth ',' height ',' width ' | Ventana emergente con una breve explicación de Sidenotes para el usuario. |
-| `popover` | ' Backgroundcolor ' | Ventana emergente que se abre cuando se invoca el icono del iniciador. |
-| `popoverArrowLeft` | ' Backgroundimage ',' height ',' left ',' right ',' top ',' width ' | Elemento de flecha izquierda en la ventana emergente que apunta al elemento DOM que contiene un icono de iniciador. |
-| `popoverArrorRight` | ' Backgroundimage ',' height ',' left ',' right ',' top ',' width ' | Elemento de flecha derecha en la ventana emergente que apunta al elemento DOM que contiene un icono de iniciador. |
-| `popoverArrowTop` | ' Backgroundimage ',' height ',' left ',' right ',' top ',' width ' | Elemento de flecha superior de la ventana emergente que apunta al elemento DOM que contiene un icono de iniciador. |
-| `replyAvatar` | ' height ',' width ' | Imagen avatar a la izquierda de las notas del nivel de respuesta. |
-| `streamPoweredBy` | ' Backgroundcolor ',' bordercolor ',' lineheight ' | " Equipado con "pie de página en la ventana emergente. |
-| `streamQueueButton` | ' Backgroundcolor ',' bordercolor ',' borderwidth ',' fontcolor ',' fontfamily ',' fontsize ',' fontweight ',' lineheight ' | Botón que indica cuándo hay nuevo flujo de notas en una ventana emergente abierta. |
-| `userAvatar` | ' height ',' width ' | Imagen del avatar del usuario autenticado, a la izquierda del editor de área de texto. |
+| `anonymousAvatar` | &#39; height &#39;,&#39; width &#39; | Imagen de avatar anónima, a la izquierda del editor de área de texto. |
+| `blockBtn` | &#39; Fontcolor &#39;,&#39; fontsize &#39;,&#39; left &#39;,&#39; position &#39;,&#39; right &#39;,&#39; top &#39; | El «icono del Iniciador» situado junto a los elementos especificados como «sidenote». |
+| `blockBtnActive` | &#39; Fontcolor &#39;,&#39; fontsize &#39;,&#39; left &#39;,&#39; position &#39;,&#39; right &#39;,&#39; top &#39; | Icono Iniciador cuando se encuentra en estado activo. |
+| `commentAvatar` | &#39; height &#39;,&#39; width &#39; | Imagen avatar a la izquierda de las notas de nivel superior. |
+| `commentBody` | &#39; Fontcolor &#39;,&#39; fontfamily &#39;,&#39; fontsize &#39;,&#39; fontweight &#39;,&#39; lineheight &#39; | Cuerpo de texto de notas de subproceso. |
+| `commentDisplayName` | &#39; Fontcolor &#39;,&#39; fontfamily &#39;,&#39; fontsize &#39;,&#39; fontweight &#39;,&#39; lineheight &#39; | Nombre para mostrar del usuario que ha dejado una nota. |
+| `commentDownvote` | &#39; Fontcolor &#39;,&#39; fontsize &#39; | Botón de voto en una nota. |
+| `commentReplyExpand` | &#39; Backgroundcolor &#39;,&#39; bordercolor &#39;,&#39; borderwidth &#39;,&#39; fontcolor &#39;,&#39; fontfamily &#39;,&#39; fontsize &#39;,&#39; fontweight &#39;,&#39; lineheight &#39; | Botón para expandir los hilos con un gran número de respuestas. |
+| `commentTags` | &#39; Fontcolor &#39;,&#39; fontfamily &#39;,&#39; fontsize &#39;,&#39; fontweight &#39;,&#39; lineheight &#39; | Etiquetas sobre un usuario en una nota. |
+| `commentUpvote` | &#39; Fontcolor &#39;,&#39; fontsize &#39; | Botón Ortovotación en una nota. |
+| `editorTextarea` | &#39; height &#39;,&#39; width &#39;,&#39; fontcolor &#39;,&#39; fontfamily &#39;,&#39; fontsize &#39;,&#39; fontweight &#39;,&#39; lineheight &#39; | Cuadro de entrada de texto para dejar notas. |
+| `mediaBlockBtn` | &#39; Fontcolor &#39;,&#39; fontsize &#39;,&#39; left &#39;,&#39; position &#39;,&#39; right &#39;,&#39; top &#39; | Icono del iniciador multimedia cuando se encuentra encima de un elemento de medios (img, vídeo). |
+| `mediaBlockBtnActive` | &#39; Fontcolor &#39;,&#39; fontsize &#39;,&#39; left &#39;,&#39; position &#39;,&#39; right &#39;,&#39; top &#39; | Icono del iniciador de medios en estado activo. |
+| `numSidenotes` | &#39; Fontcolor &#39;,&#39; fontfamily &#39;,&#39; fontsize &#39;,&#39; fontweight &#39;,&#39; lineheight &#39;,&#39; backgroundcolor &#39;,&#39; bordercolor &#39;,&#39; borderwidth &#39;,&#39; height &#39;,&#39; width &#39; | Botón en el que se puede hacer clic que muestra el número de Sidenotes en la colección. |
+| `numSidenotesPopover` | &#39; Fontcolor &#39;,&#39; fontfamily &#39;,&#39; fontsize &#39;,&#39; fontweight &#39;,&#39; lineheight &#39;,&#39; backgroundcolor &#39;,&#39; bordercolor &#39;,&#39; borderwidth &#39;,&#39; height &#39;,&#39; width &#39; | Ventana emergente con una breve explicación de Sidenotes para el usuario. |
+| `popover` | &#39; Backgroundcolor &#39; | Ventana emergente que se abre cuando se invoca el icono del iniciador. |
+| `popoverArrowLeft` | &#39; Backgroundimage &#39;,&#39; height &#39;,&#39; left &#39;,&#39; right &#39;,&#39; top &#39;,&#39; width &#39; | Elemento de flecha izquierda en la ventana emergente que apunta al elemento DOM que contiene un icono de iniciador. |
+| `popoverArrorRight` | &#39; Backgroundimage &#39;,&#39; height &#39;,&#39; left &#39;,&#39; right &#39;,&#39; top &#39;,&#39; width &#39; | Elemento de flecha derecha en la ventana emergente que apunta al elemento DOM que contiene un icono de iniciador. |
+| `popoverArrowTop` | &#39; Backgroundimage &#39;,&#39; height &#39;,&#39; left &#39;,&#39; right &#39;,&#39; top &#39;,&#39; width &#39; | Elemento de flecha superior de la ventana emergente que apunta al elemento DOM que contiene un icono de iniciador. |
+| `replyAvatar` | &#39; height &#39;,&#39; width &#39; | Imagen avatar a la izquierda de las notas del nivel de respuesta. |
+| `streamPoweredBy` | &#39; Backgroundcolor &#39;,&#39; bordercolor &#39;,&#39; lineheight &#39; | &quot; Equipado con &quot;pie de página en la ventana emergente. |
+| `streamQueueButton` | &#39; Backgroundcolor &#39;,&#39; bordercolor &#39;,&#39; borderwidth &#39;,&#39; fontcolor &#39;,&#39; fontfamily &#39;,&#39; fontsize &#39;,&#39; fontweight &#39;,&#39; lineheight &#39; | Botón que indica cuándo hay nuevo flujo de notas en una ventana emergente abierta. |
+| `userAvatar` | &#39; height &#39;,&#39; width &#39; | Imagen del avatar del usuario autenticado, a la izquierda del editor de área de texto. |
 

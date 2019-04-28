@@ -1,8 +1,6 @@
 ---
-description: Livefyre. require proporciona un complemento que permite escuchar el
-  bus de Janrain Backplane.
-seo-description: Livefyre. require proporciona un complemento que permite escuchar
-  el bus de Janrain Backplane.
+description: Livefyre. require proporciona un complemento que permite escuchar el bus de Janrain Backplane.
+seo-description: Livefyre. require proporciona un complemento que permite escuchar el bus de Janrain Backplane.
 seo-title: Conexión de Janrain a Livefyre mediante authdelegate
 title: Conexión de Janrain a Livefyre mediante authdelegate
 uuid: 9 d 56 e 3 f 4-960 a -4108-aab 5-2795 b 0 e 71 c 88

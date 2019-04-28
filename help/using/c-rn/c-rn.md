@@ -24,4 +24,4 @@ source-git-commit: 5fce2796795e855504cfbaf18328704484d89fa6
 
 ## Correcciones de errores
 
-* Se ha corregido un problema por el que las publicaciones "No definidas" de Instagram en modq no se podían eliminar.
+* Se ha corregido un problema por el que las publicaciones &quot;No definidas&quot; de Instagram en modq no se podían eliminar.

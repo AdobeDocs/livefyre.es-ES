@@ -102,7 +102,7 @@ Cadenas disponibles para las acciones del usuario: marcar, compartir y marcar el
 |  | Wasreviewhelpfulmobile | ¿Resulta útil? |
 |  | Ownwasreviewhelpful | [Se ha encontrado una utilidad.](https://d.pr/i/Q0mA) |
 |  | Reviewwashelpful | [Sí](https://d.pr/i/Q0mA) |
-|  | Helpfuldivider | [& amp; vert;](https://d.pr/i/Q0mA) |
+|  | Helpfuldivider | [&amp; amp; vert;](https://d.pr/i/Q0mA) |
 |  | Reviewwasnothelpful | [No](https://d.pr/i/Q0mA) |
 | Votar modal | Votetitle | ¿Es útil esta revisión? |
 |  | Votedownvote | No |

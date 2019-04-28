@@ -1,8 +1,6 @@
 ---
-description: Puede crear reglas de flujo que extraigan contenido de las reglas de
-  YouTube.
-seo-description: Puede crear reglas de flujo que extraigan contenido de las reglas
-  de YouTube.
+description: Puede crear reglas de flujo que extraigan contenido de las reglas de YouTube.
+seo-description: Puede crear reglas de flujo que extraigan contenido de las reglas de YouTube.
 seo-title: Reglas de YouTube
 solution: Experience Manager
 title: Reglas de YouTube

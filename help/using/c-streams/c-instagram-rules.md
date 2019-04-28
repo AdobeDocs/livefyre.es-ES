@@ -52,6 +52,6 @@ Para crear reglas de Instagram para extraer contenido de fuentes de Instagram en
 
 * **[!UICONTROL Additional Filters]**
 
-   * Seleccione si desea incluir **[!UICONTROL All Content]**o **[!UICONTROL Videos Only]****[!UICONTROL Photos Only]** en el flujo.
+   * Seleccione si desea incluir **[!UICONTROL All Content]** o **[!UICONTROL Videos Only]****[!UICONTROL Photos Only]** en el flujo.
 
 Para obtener más opciones de reglas de flujo para todas las reglas de flujo, consulte [Opciones de regla de flujo para todas las reglas de flujo](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).

@@ -24,14 +24,14 @@ Notas de la versión de la versión del 13 de abril de 2017.
 | Error | Mapas | Se ha corregido un error en Mapas para admitir un gran número de contenido en clústeres en dispositivos iOS. |
 | Mejora | Modq | Se ha corregido un error para permitir que las nuevas tareas de Instagram fluyeran de forma eficaz en modq. |
 | Error | Mosaico | Se ha corregido un error que permitía a los usuarios realizar cambios en las aplicaciones de Mosaico en Designer. |
-| Mejora | Solicitud de derechos | Se ha agregado un nuevo estado de solicitud de derechos llamado "Error de solicitud" para resaltar cuando los mensajes de solicitud de derechos no se pueden enviar. |
+| Mejora | Solicitud de derechos | Se ha agregado un nuevo estado de solicitud de derechos llamado &quot;Error de solicitud&quot; para resaltar cuando los mensajes de solicitud de derechos no se pueden enviar. |
 | Error | Configuración de S 1 | Se ha corregido un error que deshabilitaba la capacidad de invitar a nuevos propietarios y moderadores que no tenían una cuenta de comentarios existente. |
 | Mejora | Configuración | Se ha agregado la capacidad de los clientes para crear reglas de moderación no deseadas en Ajustes. |
 | Mejora | Búsqueda social | Se ha corregido un error que impedía que las publicaciones VK.com se mostraran a través de Búsquedas de URL de URL. |
 | Error | Storify 2 | Se ha añadido una mejora de uso para que las publicaciones anidadas de Storify 2 no procesen el pin superpuesto y cierren los iconos al utilizar la opción «Mostrar permalinks en modal». |
 | Error | Flujos | Se ha corregido un error que provocaba que una «aplicación no acepta contenido nuevo» banner se mostrara erróneamente en la parte superior de las páginas de reglas de flujo. |
 | Mejora | Flujos | Se modificó el valor predeterminado de las reglas de flujo creadas recientemente para aplicar reglas seguras cuando se aplica. |
-| Mejora | Flujos (anteriormente Reglas de depuración) | Se eliminó la opción "Vines" solo de las reglas de flujo/procesamiento de Twitter, ya que ahora se muestran Vines como vídeos de Twitter. |
+| Mejora | Flujos (anteriormente Reglas de depuración) | Se eliminó la opción &quot;Vines&quot; solo de las reglas de flujo/procesamiento de Twitter, ya que ahora se muestran Vines como vídeos de Twitter. |
 
 ## Versión de UAT
 

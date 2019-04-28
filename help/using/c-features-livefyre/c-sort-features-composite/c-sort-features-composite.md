@@ -1,8 +1,6 @@
 ---
-description: Puede elegir varias opciones de clasificación en función de la aplicación
-  y lo que desee que puedan hacer los visitantes del sitio.
-seo-description: Puede elegir varias opciones de clasificación en función de la aplicación
-  y lo que desee que puedan hacer los visitantes del sitio.
+description: Puede elegir varias opciones de clasificación en función de la aplicación y lo que desee que puedan hacer los visitantes del sitio.
+seo-description: Puede elegir varias opciones de clasificación en función de la aplicación y lo que desee que puedan hacer los visitantes del sitio.
 seo-title: Ordenar funciones
 solution: Experience Manager
 title: Ordenar funciones

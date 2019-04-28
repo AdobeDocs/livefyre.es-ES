@@ -1,8 +1,6 @@
 ---
-description: Críticas ofrece una amplia gama de personalizaciones que le permiten
-  crear una aplicación de revisión que coincida con sus necesidades y con la marca.
-seo-description: Críticas ofrece una amplia gama de personalizaciones que le permiten
-  crear una aplicación de revisión que coincida con sus necesidades y con la marca.
+description: Críticas ofrece una amplia gama de personalizaciones que le permiten crear una aplicación de revisión que coincida con sus necesidades y con la marca.
+seo-description: Críticas ofrece una amplia gama de personalizaciones que le permiten crear una aplicación de revisión que coincida con sus necesidades y con la marca.
 seo-title: Creación de una aplicación de revisiones
 solution: Experience Manager
 title: Creación de una aplicación de revisiones

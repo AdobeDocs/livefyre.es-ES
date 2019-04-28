@@ -34,7 +34,7 @@ En esta versión se resolvieron los problemas de las tablas siguientes.
 | Mejora | Comentarios | Se corrigió un problema en el cual tres etiquetas de perfil apuntaban a un perfil de usuario, pero no se identificaban como apuntar al mismo perfil. |
 | Error | Tarjeta de función | Se ha corregido un problema por el que la aplicación de la tarjeta de funciones no se mostraba en el explorador Microsoft Edge. |
 | Error | Tira de película | Se ha corregido un problema por el que las fuentes de Tira de película mostraban un error. |
-| Error | Tira de película | Se ha corregido un problema en Tira de película en el que se podía hacer clic en el botón "Siguiente", aunque no hubiera más contenido para cargar. |
+| Error | Tira de película | Se ha corregido un problema en Tira de película en el que se podía hacer clic en el botón &quot;Siguiente&quot;, aunque no hubiera más contenido para cargar. |
 | Error | Tira de película | Se ha corregido un problema por el que los tweets sin imágenes no se mostraban en la vista predeterminada de tira de película. |
 | Mejora | Tira de película | Se han corregido algunos problemas para hacer que Tira de película sea más accesible. |
 | Mejora | Biblioteca, aplicaciones | Se ha corregido un problema por el que los vídeos de Instagram anteriores a tres meses no se representaban correctamente en la biblioteca y en las aplicaciones. |
@@ -54,6 +54,6 @@ En esta versión se resolvieron los problemas de las tablas siguientes.
 
 | **Tipo de problema** | **Componente** | **Versión de la versión** |
 |---|---|---|
-| Mejora | UGC | Se ha corregido un problema por el cual el indicador de Comercio UGC se establecía en "off" de forma predeterminada, en lugar de "activado". |
+| Mejora | UGC | Se ha corregido un problema por el cual el indicador de Comercio UGC se establecía en &quot;off&quot; de forma predeterminada, en lugar de &quot;activado&quot;. |
 | Mejora | Flujos |  |
 

@@ -1,8 +1,6 @@
 ---
-description: Recopile, organice y mantenga el contenido seleccionado para usarlo en
-  sus aplicaciones de Livefyre.
-seo-description: Recopile, organice y mantenga el contenido seleccionado para usarlo
-  en sus aplicaciones de Livefyre.
+description: Recopile, organice y mantenga el contenido seleccionado para usarlo en sus aplicaciones de Livefyre.
+seo-description: Recopile, organice y mantenga el contenido seleccionado para usarlo en sus aplicaciones de Livefyre.
 seo-title: Assets
 solution: Experience Manager
 title: Assets

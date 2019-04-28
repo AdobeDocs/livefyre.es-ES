@@ -1,8 +1,6 @@
 ---
-description: Hacer que el contenido de la comunidad esté disponible para los rastreadores
-  de motores de búsqueda.
-seo-description: Hacer que el contenido de la comunidad esté disponible para los rastreadores
-  de motores de búsqueda.
+description: Hacer que el contenido de la comunidad esté disponible para los rastreadores de motores de búsqueda.
+seo-description: Hacer que el contenido de la comunidad esté disponible para los rastreadores de motores de búsqueda.
 seo-title: HTML de Bootstrap
 solution: Experience Manager
 title: HTML de Bootstrap

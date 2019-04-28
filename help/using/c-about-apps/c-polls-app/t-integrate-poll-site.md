@@ -1,8 +1,6 @@
 ---
-description: Utilice la función HTML personalizada de Livefyre para agregar encuestas
-  a sus comentarios o aplicaciones de blog activo.
-seo-description: Utilice la función HTML personalizada de Livefyre para agregar encuestas
-  a sus comentarios o aplicaciones de blog activo.
+description: Utilice la función HTML personalizada de Livefyre para agregar encuestas a sus comentarios o aplicaciones de blog activo.
+seo-description: Utilice la función HTML personalizada de Livefyre para agregar encuestas a sus comentarios o aplicaciones de blog activo.
 seo-title: Agregar una encuesta a un comentario o una aplicación de blog activo
 solution: Experience Manager
 title: Agregar una encuesta a un comentario o una aplicación de blog activo

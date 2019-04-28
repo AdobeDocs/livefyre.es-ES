@@ -1,8 +1,6 @@
 ---
-description: Describe las opciones para agregar autenticación de usuario a aplicaciones
-  de Livefyre, incluida la captura de Janrain o su propio servicio de identidad.
-seo-description: Describe las opciones para agregar autenticación de usuario a aplicaciones
-  de Livefyre, incluida la captura de Janrain o su propio servicio de identidad.
+description: Describe las opciones para agregar autenticación de usuario a aplicaciones de Livefyre, incluida la captura de Janrain o su propio servicio de identidad.
+seo-description: Describe las opciones para agregar autenticación de usuario a aplicaciones de Livefyre, incluida la captura de Janrain o su propio servicio de identidad.
 seo-title: Integración de identidad
 solution: Experience Manager
 title: Integración de identidad

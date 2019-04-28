@@ -1,8 +1,6 @@
 ---
-description: Crear paredes de medios con imágenes, chat, vídeo y otro contenido de
-  flujo continuo.
-seo-description: Crear paredes de medios con imágenes, chat, vídeo y otro contenido
-  de flujo continuo.
+description: Crear paredes de medios con imágenes, chat, vídeo y otro contenido de flujo continuo.
+seo-description: Crear paredes de medios con imágenes, chat, vídeo y otro contenido de flujo continuo.
 seo-title: Muro de medios
 solution: Experience Manager
 title: Muro de medios

@@ -1,8 +1,6 @@
 ---
-description: Utilice Sidenotes para permitir que sus lectores comenten directamente
-  con el contenido.
-seo-description: Utilice Sidenotes para permitir que sus lectores comenten directamente
-  con el contenido.
+description: Utilice Sidenotes para permitir que sus lectores comenten directamente con el contenido.
+seo-description: Utilice Sidenotes para permitir que sus lectores comenten directamente con el contenido.
 seo-title: Sidenotes
 solution: Experience Manager
 title: Sidenotes

@@ -1,8 +1,6 @@
 ---
-description: Live Blog le permite destacar actualizaciones en tiempo real e imágenes
-  de editores de su sitio al cubrir un evento en directo.
-seo-description: Live Blog le permite destacar actualizaciones en tiempo real e imágenes
-  de editores de su sitio al cubrir un evento en directo.
+description: Live Blog le permite destacar actualizaciones en tiempo real e imágenes de editores de su sitio al cubrir un evento en directo.
+seo-description: Live Blog le permite destacar actualizaciones en tiempo real e imágenes de editores de su sitio al cubrir un evento en directo.
 seo-title: Blog activo
 solution: Experience Manager
 title: Blog activo
@@ -122,7 +120,7 @@ Collectionmeta es un objeto JSON codificado. En el ejemplo anterior, el objeto J
 | Disableavatars | *optional* boolean | Evita que se procesen avatares en el flujo de la aplicación y, por lo tanto, reduce el número de elementos cargados en el navegador. El valor predeterminado es false. |
 | disableIE8Shim | *optional* boolean | Desactiva el shiv predeterminado utilizado por Livefyre para polyfill Internet Explorer 8 para que se admitan elementos HTML 5. Livefyre usa el siguiente proyecto: [https://github.com/aFarkas/html5shiv](https://github.com/aFarkas/html5shiv) . El valor predeterminado es false. Nota: Si este valor es false, el polígono de cierta ordenación debe usarse antes de que se invoque el chat de Livefyre para la compatibilidad con Internet Explorer 8. |
 | **Disablethirdpartyanalytics** | *optional* boolean | Desactiva los sistemas de análisis de terceros (Quantserve y Google Analytics) que Livefyre puede utilizar para mediciones internas. El valor predeterminado es false. |
-| **Editorcss** | *optional* object | Se utiliza para personalizar el estilo del editor de comentarios. Puede aplicar estilo al color de fondo del campo del editor como así también al color de fuente, el tamaño y la familia del texto que aparece dentro del editor. Por ejemplo: {fondo: ' # ccc ', color: ' red ', font: ' 30 px «Helvetica Neue», Helvetica, Arial, Geneva, sans-serif '} |
+| **Editorcss** | *optional* object | Se utiliza para personalizar el estilo del editor de comentarios. Puede aplicar estilo al color de fondo del campo del editor como así también al color de fuente, el tamaño y la familia del texto que aparece dentro del editor. Por ejemplo: {fondo: &#39; # ccc &#39;, color: &#39; red &#39;, font: &#39; 30 px «Helvetica Neue», Helvetica, Arial, Geneva, sans-serif &#39;} |
 | **Initialnumvisible** | *optional* integer | Permite establecer el número predeterminado de comentarios visibles en la aplicación después de cargar. Puede ser un número entero de 1 a 50. |
 | **Initialnumvisiblelegacy** | *optional* integer | Permite establecer el número predeterminado de elementos de contenido heredados visibles en la aplicación después de cargar. Puede ser un número entero de 1 a 50. Si no se especifica este parámetro, el valor predeterminado es initialnumvisible. Por ejemplo: Si la colección incluye 100 comentarios activos y 100 comentarios preexistentes, establezca initalnumvisible: 10, e initialnumvisiblelegacy: 5, para mostrar 10 comentarios activos (con el botón Mostrar más) + 5 comentarios del archivado (con el botón Mostrar más). |
 | **Maxvisible** | *optional* integer | Define el número máximo de partes visibles de contenido de nivel superior en la aplicación de chat. Si hay nuevas partes de flujo de contenido en, el contenido en la parte inferior del flujo se eliminará de la página. Si se hace clic en el botón Mostrar más…, se omite el parámetro y el usuario es gratuito para mostrar el contenido que desee. (Utilice este parámetro para controlar el número de elementos que aparecen en la página en flujos de velocidad alta). |
@@ -150,7 +148,7 @@ Collectionmeta es un objeto JSON codificado. En el ejemplo anterior, el objeto J
 | Parámetro | Tipo | Descripción |
 |--- |--- |--- |
 | **Articleid** | *required* string | ID único de la colección. |
-| **title** | *cadena* requerida | Título que desea aplicar a la colección. Esto suele corresponder al título de la página que muestra la aplicación. Por ejemplo: «La integración es tan divertida! »» Nota: La longitud máxima de caracteres para el título es de 255 caracteres. El campo de título no admite entidades HTML. Codifique caracteres especiales con UTF -8. |
+| **title** | *required* string | Título que desea aplicar a la colección. Esto suele corresponder al título de la página que muestra la aplicación. Por ejemplo: «La integración es tan divertida! »» Nota: La longitud máxima de caracteres para el título es de 255 caracteres. El campo de título no admite entidades HTML. Codifique caracteres especiales con UTF -8. |
 | **url** | *required* string | Dirección URL canónica que desea adjuntar a esta colección. Esta URL se utilizará para generar vínculos de vuelta a la aplicación desde contenido compartido en Facebook y Twitter, notificaciones por correo electrónico y Livefyre Studio. Nota: Livefyre requiere el uso de un nombre de dominio completo; No es necesario el número de puerto o una rellamada para resolver la configuración local. Si realiza pruebas localmente, asegúrese de utilizar un dominio de URL base válido. (Por ejemplo: `https://customer.com` es válido, no `https://localhost:5995` es válido.) Una vez configurado el servidor web local para aceptar un nombre de dominio completo, no se necesitan rellamadas ni resoluciones, y el desarrollo local puede continuar según lo previsto. |
 | **type** | *required* String | Tipo de colección. Debe estar en directo. |
 

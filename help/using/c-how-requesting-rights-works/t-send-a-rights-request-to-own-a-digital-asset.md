@@ -1,8 +1,6 @@
 ---
-description: Puede solicitar el derecho a reutilizar el elemento con fines comerciales
-  desde la biblioteca, el contenido de la aplicación o modq.
-seo-description: Puede solicitar el derecho a reutilizar el elemento con fines comerciales
-  desde la biblioteca, el contenido de la aplicación o modq.
+description: Puede solicitar el derecho a reutilizar el elemento con fines comerciales desde la biblioteca, el contenido de la aplicación o modq.
+seo-description: Puede solicitar el derecho a reutilizar el elemento con fines comerciales desde la biblioteca, el contenido de la aplicación o modq.
 seo-title: Enviar una solicitud de derechos de Twitter
 solution: Experience Manager
 title: Enviar una solicitud de derechos de Twitter

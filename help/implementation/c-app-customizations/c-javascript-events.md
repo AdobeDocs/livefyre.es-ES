@@ -1,8 +1,6 @@
 ---
-description: Los eventos disponibles para enlazar JavaScript para aplicaciones de
-  conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
-seo-description: Los eventos disponibles para enlazar JavaScript para aplicaciones
-  de conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
+description: Los eventos disponibles para enlazar JavaScript para aplicaciones de conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
+seo-description: Los eventos disponibles para enlazar JavaScript para aplicaciones de conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
 seo-title: Definiciones y ejemplos de eventos JavaScript
 solution: Experience Manager
 title: Definiciones y ejemplos de eventos JavaScript
@@ -17,7 +15,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Los eventos disponibles para enlazar JavaScript para aplicaciones de conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
 
-Livefyre proporciona eventos de JavaScript para rastrear la actividad de los usuarios en sus aplicaciones de Livefyre. Por ejemplo, puede que desee actualizar la página cuando los usuarios hagan "Me gusta" o compartir contenido en Twitter o Facebook, o cuando se publique contenido nuevo.
+Livefyre proporciona eventos de JavaScript para rastrear la actividad de los usuarios en sus aplicaciones de Livefyre. Por ejemplo, puede que desee actualizar la página cuando los usuarios hagan &quot;Me gusta&quot; o compartir contenido en Twitter o Facebook, o cuando se publique contenido nuevo.
 
 Livefyre también le permite añadir eventos a integraciones de análisis de terceros (JS de Adobe Analytics, Google Analytics, Administración dinámica de etiquetas, etc.) para realizar un seguimiento de los eventos de aplicación. Para obtener más información, trabaje con su administrador de integración de terceros para proporcionar los eventos correctos.
 

@@ -1,14 +1,12 @@
 ---
-description: La biblioteca principal de Livefyre utilizada para poder completar Livefyre
-  en su sitio.
-seo-description: La biblioteca principal de Livefyre utilizada para poder completar
-  Livefyre en su sitio.
+description: La biblioteca principal de Livefyre utilizada para poder completar Livefyre en su sitio.
+seo-description: La biblioteca principal de Livefyre utilizada para poder completar Livefyre en su sitio.
 seo-title: Método updateanchors
 solution: Experience Manager
 title: Livefyre. js
 uuid: null
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
 
 ---
 

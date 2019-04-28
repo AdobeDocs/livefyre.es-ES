@@ -1,8 +1,6 @@
 ---
-description: La biblioteca permite agregar información al contenido guardado para
-  que pueda organizar los recursos en función de su estrategia de marca.
-seo-description: La biblioteca permite agregar información al contenido guardado para
-  que pueda organizar los recursos en función de su estrategia de marca.
+description: La biblioteca permite agregar información al contenido guardado para que pueda organizar los recursos en función de su estrategia de marca.
+seo-description: La biblioteca permite agregar información al contenido guardado para que pueda organizar los recursos en función de su estrategia de marca.
 seo-title: Ver detalles de recursos
 solution: Experience Manager
 title: Ver detalles de recursos

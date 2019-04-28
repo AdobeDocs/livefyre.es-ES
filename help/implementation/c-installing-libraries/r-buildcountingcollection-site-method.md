@@ -1,8 +1,6 @@
 ---
-description: Devuelve un objeto de colección creado como tipo de recuento. Ejecute
-  crear_ o_ update () desde el objeto Colección para completar el proceso de creación.
-seo-description: Devuelve un objeto de colección creado como tipo de recuento. Ejecute
-  crear_ o_ update () desde el objeto Colección para completar el proceso de creación.
+description: Devuelve un objeto de colección creado como tipo de recuento. Ejecute crear_ o_ update () desde el objeto Colección para completar el proceso de creación.
+seo-description: Devuelve un objeto de colección creado como tipo de recuento. Ejecute crear_ o_ update () desde el objeto Colección para completar el proceso de creación.
 seo-title: Método del sitio de buildcountingcollection
 title: Método del sitio de buildcountingcollection
 uuid: e 293 d 66 a -0025-4230-997 e -295 ce 4625713

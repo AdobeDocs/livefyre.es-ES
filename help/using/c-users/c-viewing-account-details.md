@@ -43,7 +43,7 @@ En la sección Estado, se enumeran las prohibiciones o listas blancas asociadas 
 
 Si un usuario publica comentarios incorrectos o no deseados en un artículo o en un sitio, puede elegir prohibir al usuario de su red. Una vez prohibido, todo el contenido publicado por el usuario se establecerá automáticamente en el estado ***Bozo*** y solo será visible para el usuario de publicación. Los usuarios prohibidos pueden iniciar sesión en el flujo, publicar comentarios y ver su contenido en la aplicación. Los usuarios prohibidos pensarán que siguen formando parte de la conversación. Sin embargo, ningún otro usuario del sitio podrá ver este contenido.
 
-Dado que ahora su contenido es Bozo'd, los usuarios prohibidos pueden seguir publicando contenido inadecuado, pero ya no serán visibles para el resto de su comunidad.
+Dado que ahora su contenido es Bozo&#39;d, los usuarios prohibidos pueden seguir publicando contenido inadecuado, pero ya no serán visibles para el resto de su comunidad.
 
 Para obtener más información, consulte **[!UICONTROL Studio > App Content > Bozo Content]**.
 

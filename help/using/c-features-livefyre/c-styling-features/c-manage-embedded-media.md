@@ -1,8 +1,6 @@
 ---
-description: Defina las fuentes desde las cuales los usuarios pueden publicar medios,
-  y aquéllos desde los cuales se prohibirán las publicaciones de medios.
-seo-description: Defina las fuentes desde las cuales los usuarios pueden publicar
-  medios, y aquéllos desde los cuales se prohibirán las publicaciones de medios.
+description: Defina las fuentes desde las cuales los usuarios pueden publicar medios, y aquéllos desde los cuales se prohibirán las publicaciones de medios.
+seo-description: Defina las fuentes desde las cuales los usuarios pueden publicar medios, y aquéllos desde los cuales se prohibirán las publicaciones de medios.
 seo-title: Administrar medios incrustados
 title: Administrar medios incrustados
 uuid: d 8621 be 1-dcfb -429 f -954 e-b 21 fdcf 02715

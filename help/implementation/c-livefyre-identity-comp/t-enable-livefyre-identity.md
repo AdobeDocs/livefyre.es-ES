@@ -1,10 +1,6 @@
 ---
-description: Habilite el paquete de identidad de Livefyre para permitir que sus usuarios
-  inicien sesión en sus aplicaciones de Livefyre mediante un correo electrónico, Twitter,
-  Facebook, Yahoo! o inicio de sesión de Google.
-seo-description: Habilite el paquete de identidad de Livefyre para permitir que sus
-  usuarios inicien sesión en sus aplicaciones de Livefyre mediante un correo electrónico,
-  Twitter, Facebook, Yahoo! o inicio de sesión de Google.
+description: Habilite el paquete de identidad de Livefyre para permitir que sus usuarios inicien sesión en sus aplicaciones de Livefyre mediante un correo electrónico, Twitter, Facebook, Yahoo! o inicio de sesión de Google.
+seo-description: Habilite el paquete de identidad de Livefyre para permitir que sus usuarios inicien sesión en sus aplicaciones de Livefyre mediante un correo electrónico, Twitter, Facebook, Yahoo! o inicio de sesión de Google.
 seo-title: Activar identidad de Livefyre
 solution: Experience Manager
 title: Activar identidad de Livefyre

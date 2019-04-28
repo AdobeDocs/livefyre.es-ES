@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: Localizar un carrusel
 solution: Experience Manager
 title: Localizar un carrusel

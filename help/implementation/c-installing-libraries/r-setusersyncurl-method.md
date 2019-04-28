@@ -1,8 +1,6 @@
 ---
-description: Informa a Livefyre de que actualice la URL de sincronización de usuario
-  de la red con la proporcionada. Devuelve un valor booleano.
-seo-description: Informa a Livefyre de que actualice la URL de sincronización de usuario
-  de la red con la proporcionada. Devuelve un valor booleano.
+description: Informa a Livefyre de que actualice la URL de sincronización de usuario de la red con la proporcionada. Devuelve un valor booleano.
+seo-description: Informa a Livefyre de que actualice la URL de sincronización de usuario de la red con la proporcionada. Devuelve un valor booleano.
 seo-title: Método de red setusersyncurl
 solution: Experience Manager
 title: Método de red setusersyncurl

@@ -1,10 +1,6 @@
 ---
-description: Entregue UGC específico de productos en puntos específicos del viaje
-  del cliente para aumentar la intención de compra y la conversión mediante la función
-  Comercio UGC.
-seo-description: Entregue UGC específico de productos en puntos específicos del viaje
-  del cliente para aumentar la intención de compra y la conversión mediante la función
-  Comercio UGC.
+description: Entregue UGC específico de productos en puntos específicos del viaje del cliente para aumentar la intención de compra y la conversión mediante la función Comercio UGC.
+seo-description: Entregue UGC específico de productos en puntos específicos del viaje del cliente para aumentar la intención de compra y la conversión mediante la función Comercio UGC.
 seo-title: Comercio UGC
 solution: Experience Manager
 title: Comercio UGC
@@ -97,7 +93,7 @@ Cargue productos para utilizarlos con su botón de llamada a acción para agrega
 | Isfolder | Booleano | Si es verdadera, el producto se trata como una carpeta (por ejemplo, hombre, mujer, etc.). |
 | Parentid | Cadena | Define la carpeta en la que se encuentra el producto. |
 | description | Cadena | Descripción del producto. |
-| price | Cadena | Valor del producto en dólares. Por ejemplo,' 23.36 '. |
+| price | Cadena | Valor del producto en dólares. Por ejemplo,&#39; 23.36 &#39;. |
 | sku | Cadena | Unidad de mantenimiento (SKU) del producto. |
 | url | Cadena | Vínculo a la página del producto. |
 | habilitado | Booleano | Un valor de True significa que el producto está activo. |

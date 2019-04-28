@@ -30,7 +30,7 @@ En esta versión se resolvieron los problemas de las tablas siguientes.
 | Error | Contenido de la aplicación | Se ha corregido un problema que impedía a los administradores y administradores de contenido editar contenido en Contenido de la aplicación. |
 | Mejora | Aplicaciones | Las redes sociales han realizado cambios de privacidad que significan que las menciones sociales ya no serán compatibles con Facebook o Twitter. |
 | Mejora | Aplicaciones | Las redes sociales han realizado cambios de privacidad. La función «Publicar en» que publica automáticamente contenido a redes sociales (Facebook, linkedin, Twitter) se ha eliminado. |
-| Mejora | RGPD | Se ha eliminado el modo de detalles de la página Detalles de la solicitud en Configuración > Privacidad. Para obtener acceso al modo de detalles, agregue /dbg al final de la URL. |
+| Mejora | RGPD | Se ha eliminado el modo de detalles de la página Detalles de la solicitud en Configuración &gt; Privacidad. Para obtener acceso al modo de detalles, agregue /dbg al final de la URL. |
 | Error | Integración: AEM | Se ha corregido un problema que hacía que, al arrastrar y soltar aplicaciones de Livefyre en AEM, apareciera varias aplicaciones. |
 | Error | Biblioteca | Se ha corregido un problema por el que un recurso no se guardaba correctamente en la biblioteca. |
 | Error | Identidad de Livefyre | Se ha corregido un problema con la identidad LF que provocaba errores 403 al iniciar sesión. |

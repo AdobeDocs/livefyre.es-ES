@@ -26,7 +26,7 @@ Notas de la versión de la versión del 15 de junio de 2017.
 | Error | Modq | Se ha corregido un problema de ralentización en la ficha modq Streams Premod cuando se extraía contenido de Instagram. |
 | Error | Sidenotes | Se mejoraron las notas de Sitecatalyst para admitir la moderación del front-end. Esto significa que los moderadores que iniciaron sesión en la aplicación en el front-end podrán aprobar o eliminar contenido. |
 | Error | Búsqueda social | Se ha corregido un error que impedía que las ubicaciones de asignaciones se guardaran al realizar búsquedas de Twitter Social. |
-| Mejora | Storify 2 | Se ha corregido un error en Storify 2 que provocaba que la página saltara si un usuario ordenaba por "Más antiguo a más reciente" o "Más reciente a Más antiguo". |
+| Mejora | Storify 2 | Se ha corregido un error en Storify 2 que provocaba que la página saltara si un usuario ordenaba por &quot;Más antiguo a más reciente&quot; o &quot;Más reciente a Más antiguo&quot;. |
 | Mejora | Reglas de flujo | Se ha agregado la capacidad de filtrar Tweets por idioma en reglas de flujo. |
 | Mejora | Reglas de flujo | Se ha agregado la capacidad de filtrar varias ubicaciones de mapas en las reglas de flujo de Twitter e Instagram. |
 | Mejora | Reglas de flujo | Se han añadido mejoras de validación al guardar reglas de flujo de Twitter. |

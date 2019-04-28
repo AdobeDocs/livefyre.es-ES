@@ -1,8 +1,6 @@
 ---
-description: Utilice Livefyre para depurar y mostrar UGC usando una visualización
-  personalizada.
-seo-description: Utilice Livefyre para depurar y mostrar UGC usando una visualización
-  personalizada.
+description: Utilice Livefyre para depurar y mostrar UGC usando una visualización personalizada.
+seo-description: Utilice Livefyre para depurar y mostrar UGC usando una visualización personalizada.
 seo-title: Depurar y mostrar UGC
 solution: Experience Manager
 title: Depurar y mostrar UGC

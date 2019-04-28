@@ -1,8 +1,6 @@
 ---
-description: Aprenda cómo monitorear y almacenar el contenido generado por el usuario
-  a través del sistema de Livefyre.
-seo-description: Aprenda cómo monitorear y almacenar el contenido generado por el
-  usuario a través del sistema de Livefyre.
+description: Aprenda cómo monitorear y almacenar el contenido generado por el usuario a través del sistema de Livefyre.
+seo-description: Aprenda cómo monitorear y almacenar el contenido generado por el usuario a través del sistema de Livefyre.
 seo-title: Flujo de actividad
 solution: Experience Manager
 title: Flujo de actividad

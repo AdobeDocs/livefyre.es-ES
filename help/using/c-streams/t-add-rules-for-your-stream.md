@@ -1,8 +1,6 @@
 ---
-description: Agregue reglas en Flujos para permitir que el contenido rellene automáticamente
-  una aplicación o carpeta basada en estas reglas.
-seo-description: Agregue reglas en Flujos para permitir que el contenido rellene automáticamente
-  una aplicación o carpeta basada en estas reglas.
+description: Agregue reglas en Flujos para permitir que el contenido rellene automáticamente una aplicación o carpeta basada en estas reglas.
+seo-description: Agregue reglas en Flujos para permitir que el contenido rellene automáticamente una aplicación o carpeta basada en estas reglas.
 seo-title: Agregar reglas para el flujo
 solution: Experience Manager
 title: Agregar reglas para el flujo

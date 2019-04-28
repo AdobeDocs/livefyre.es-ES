@@ -1,8 +1,6 @@
 ---
-description: Devuelve un testigo autenticado autenticado de usuario para la red desde
-  la que se llama.
-seo-description: Devuelve un testigo autenticado autenticado de usuario para la red
-  desde la que se llama.
+description: Devuelve un testigo autenticado autenticado de usuario para la red desde la que se llama.
+seo-description: Devuelve un testigo autenticado autenticado de usuario para la red desde la que se llama.
 seo-title: Método de red de builduserauthtoken
 solution: Experience Manager
 title: Método de red de builduserauthtoken

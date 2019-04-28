@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: Personalizaciones de tira de película
 solution: Experience Manager
 title: Personalizaciones de tira de película
@@ -13,14 +13,14 @@ source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
 
 # Personalizaciones de tira de película{#filmstrip-customizations}
 
-Todas las **[!UICONTROL Style]** aplicaciones usan **[!UICONTROL Config]** y opciones en **[!UICONTROL App Designer]**la. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en la **[!UICONTROL App Designer.]**
+Todas las **[!UICONTROL Style]** aplicaciones usan **[!UICONTROL Config]** y opciones en **[!UICONTROL App Designer]** la. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en la **[!UICONTROL App Designer.]**
 
 Puede personalizar Tira de película con las siguientes opciones adicionales en App Designer:
 
 * **[!UICONTROL Content fit]**. Elija **[!UICONTROL crop]** recortar el contenido para rellenar la tarjeta o **[!UICONTROL Aspect Ratio]** para mostrar una imagen entera en la tarjeta, si llena toda la tarjeta o no.
 * **[!UICONTROL Tile Size]**. Introduzca el tamaño de los mosaicos en píxeles.
 * **[!UICONTROL Show Notifications]**. Elija si desea mostrar una notificación para el nuevo contenido a medida que se transmite en la aplicación Tira de película.
-* **[!UICONTROL Require rights]**. Active esta opción para mostrar solo el contenido con un estado de solicitud de derechos de "Concedido".
+* **[!UICONTROL Require rights]**. Active esta opción para mostrar solo el contenido con un estado de solicitud de derechos de &quot;Concedido&quot;.
 * **[!UICONTROL Hide social branding when rights granted]** Cambie esto para eliminar el logotipo de la red de medios sociales originada (Twitter o Instagram) cuando se otorgan derechos para un fragmento de contenido.
 * **[!UICONTROL Call-to-action button]** Puede utilizar el botón llamada a acción con un catálogo de productos para dirigir a los usuarios a un producto o a su sitio para que realicen otras acciones.
 
@@ -33,8 +33,8 @@ Puede personalizar Tira de película con las siguientes opciones adicionales en 
 
    * **[!UICONTROL Show call-to-action in tile]**. Elija si desea mostrar el botón llamada a acción en un mosaico Tira de película en lugar de mostrar el botón de llamada a acción solo cuando el visitante del sitio haga clic en una tarjeta y abre el contenido en una ventana más grande.
    * **[!UICONTROL Call-to-action indication text]** Texto que se muestra para pedir al usuario que haga clic en la tarjeta para abrir el modal de llamada a acción.
-   * **[!UICONTROL Call-to-action header text]** Las palabras que se mostrarán en el encabezado sobre el botón llamada a acción en el modal de contenido. El texto predeterminado es "Buy these products: ".
-   * **[!UICONTROL Call-to-action button text]** Palabras que se mostrarán en el botón de llamada a acción del modal. El texto predeterminado es "Buy Now: ".
+   * **[!UICONTROL Call-to-action header text]** Las palabras que se mostrarán en el encabezado sobre el botón llamada a acción en el modal de contenido. El texto predeterminado es &quot;Buy these products: &quot;.
+   * **[!UICONTROL Call-to-action button text]** Palabras que se mostrarán en el botón de llamada a acción del modal. El texto predeterminado es &quot;Buy Now: &quot;.
    * **[!UICONTROL Product display options]** Elija si desea mostrar el **[!UICONTROL Photo]** botón y el **[!UICONTROL Product name]** con el botón de llamada a acción.
 
       >[!NOTE]

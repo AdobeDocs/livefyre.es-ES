@@ -1,12 +1,6 @@
 ---
-description: Instagram ha cambiado el número de solicitudes que cualquier empresa
-  que utilice la API de Instagram, incluido Livefyre, puede crear desde 5.000 solicitudes
-  por hora por testigo a 200 solicitudes una hora por testigo. Esto se conoce como
-  limitación de tasa.
-seo-description: Instagram ha cambiado el número de solicitudes que cualquier empresa
-  que utilice la API de Instagram, incluido Livefyre, puede crear desde 5.000 solicitudes
-  por hora por testigo a 200 solicitudes una hora por testigo. Esto se conoce como
-  limitación de tasa.
+description: Instagram ha cambiado el número de solicitudes que cualquier empresa que utilice la API de Instagram, incluido Livefyre, puede crear desde 5.000 solicitudes por hora por testigo a 200 solicitudes una hora por testigo. Esto se conoce como limitación de tasa.
+seo-description: Instagram ha cambiado el número de solicitudes que cualquier empresa que utilice la API de Instagram, incluido Livefyre, puede crear desde 5.000 solicitudes por hora por testigo a 200 solicitudes una hora por testigo. Esto se conoce como limitación de tasa.
 seo-title: Límite de tasa de Instagram
 title: Límite de tasa de Instagram
 uuid: 98108 ddb -5710-4331-891 b -7 e 1 bbb 106059

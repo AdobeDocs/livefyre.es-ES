@@ -19,7 +19,7 @@ De forma predeterminada, todos los archivos adjuntos de medios se pueden incrust
 
 >[!NOTE]
 >
->Socios de Livefyre con la integración de medios. Para obtener más información, consulte Integración de contenido > Integración encadenada. Póngase en contacto con su administrador de cuentas técnico para obtener preguntas sobre la expansión o las fuentes de vínculos.
+>Socios de Livefyre con la integración de medios. Para obtener más información, consulte Integración de contenido &gt; Integración encadenada. Póngase en contacto con su administrador de cuentas técnico para obtener preguntas sobre la expansión o las fuentes de vínculos.
 
 Este ejemplo bloquea YouTube y Vimeo se incrusta en el flujo de comentarios:
 

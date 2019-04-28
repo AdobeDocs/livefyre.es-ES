@@ -33,5 +33,5 @@ Notas de la versión del 3 de agosto de 2017.
 
 | **Tipo de problema** | **Componente** | **Versión de la versión** |
 |---|---|---|
-| Error | Biblioteca | Se ha corregido un error que impedía que se mostrara el contenido del botón "Más información" en la Biblioteca. |
+| Error | Biblioteca | Se ha corregido un error que impedía que se mostrara el contenido del botón &quot;Más información&quot; en la Biblioteca. |
 

@@ -1,8 +1,6 @@
 ---
-description: Puede elegir si los visitantes del sitio y cómo inician sesión en sus
-  aplicaciones.
-seo-description: Puede elegir si los visitantes del sitio y cómo inician sesión en
-  sus aplicaciones.
+description: Puede elegir si los visitantes del sitio y cómo inician sesión en sus aplicaciones.
+seo-description: Puede elegir si los visitantes del sitio y cómo inician sesión en sus aplicaciones.
 seo-title: Funciones de autenticación
 solution: Experience Manager
 title: Funciones de autenticación

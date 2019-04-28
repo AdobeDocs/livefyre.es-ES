@@ -1,10 +1,6 @@
 ---
-description: El motor de filtrado de correo no deseado y correo no deseado (SAFE)
-  de Livefyre es un proceso en segundo plano que analiza todo el contenido entrante
-  y está habilitado para todos los clientes de Livefyre.
-seo-description: El motor de filtrado de correo no deseado y correo no deseado (SAFE)
-  de Livefyre es un proceso en segundo plano que analiza todo el contenido entrante
-  y está habilitado para todos los clientes de Livefyre.
+description: El motor de filtrado de correo no deseado y correo no deseado (SAFE) de Livefyre es un proceso en segundo plano que analiza todo el contenido entrante y está habilitado para todos los clientes de Livefyre.
+seo-description: El motor de filtrado de correo no deseado y correo no deseado (SAFE) de Livefyre es un proceso en segundo plano que analiza todo el contenido entrante y está habilitado para todos los clientes de Livefyre.
 seo-title: Reglas SEGURAS
 title: Reglas SEGURAS
 uuid: 2 f 91 d 0 d 4-dffe -4651-88 af -79 bbb 96 c 1 b 5 c
@@ -32,9 +28,9 @@ Los indicadores aplicados por SAFE pueden utilizarse con los siguientes componen
 
 * Reglas
 
-   Puede definir reglas SEGURAS para marcar el contenido de forma automática y definir cómo se debe gestionar el contenido marcado en **[!UICONTROL Network Settings]**la.
+   Puede definir reglas SEGURAS para marcar el contenido de forma automática y definir cómo se debe gestionar el contenido marcado en **[!UICONTROL Network Settings]** la.
 
-   Por ejemplo, un sitio puede establecer una tolerancia muy baja para Profanity y definir reglas SEGURAS que concuerden con todo el contenido marcado como Profane como Bozo'd. Otros sitios pueden definir reglas que definan el contenido Profane para que se modere previamente antes de entrar en el flujo.
+   Por ejemplo, un sitio puede establecer una tolerancia muy baja para Profanity y definir reglas SEGURAS que concuerden con todo el contenido marcado como Profane como Bozo&#39;d. Otros sitios pueden definir reglas que definan el contenido Profane para que se modere previamente antes de entrar en el flujo.
 
 * Modq
 

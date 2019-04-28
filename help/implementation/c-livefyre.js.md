@@ -1,8 +1,6 @@
 ---
-description: La biblioteca principal de Livefyre utilizada para poder completar Livefyre
-  en su sitio.
-seo-description: La biblioteca principal de Livefyre utilizada para poder completar
-  Livefyre en su sitio.
+description: La biblioteca principal de Livefyre utilizada para poder completar Livefyre en su sitio.
+seo-description: La biblioteca principal de Livefyre utilizada para poder completar Livefyre en su sitio.
 seo-title: Livefyre. js
 solution: Experience Manager
 title: Livefyre. js

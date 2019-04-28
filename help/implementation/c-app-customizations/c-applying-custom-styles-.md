@@ -1,10 +1,6 @@
 ---
-description: En el caso de contenido de estilo personalizado para grupos de usuarios,
-  primero debe agregar una etiqueta de usuario a la cuenta y, a continuación, aplicar
-  estilo al contenido mediante CSS.
-seo-description: En el caso de contenido de estilo personalizado para grupos de usuarios,
-  primero debe agregar una etiqueta de usuario a la cuenta y, a continuación, aplicar
-  estilo al contenido mediante CSS.
+description: En el caso de contenido de estilo personalizado para grupos de usuarios, primero debe agregar una etiqueta de usuario a la cuenta y, a continuación, aplicar estilo al contenido mediante CSS.
+seo-description: En el caso de contenido de estilo personalizado para grupos de usuarios, primero debe agregar una etiqueta de usuario a la cuenta y, a continuación, aplicar estilo al contenido mediante CSS.
 seo-title: Aplicación de estilos personalizados
 solution: Experience Manager
 title: Aplicación de estilos personalizados
@@ -23,10 +19,10 @@ Para cada etiqueta de usuario agregada a través de Studio o Ping para Extract, 
 
 Al convertir etiquetas de usuario en clases CSS:
 
-* Livefyre crea dos clases: fyre-author-tag-*** < your_ group >*** y fyre-tag-author-*** < your_ group >***. Ambos pueden utilizarse para aplicar estilo al contenido.
+* Livefyre crea dos clases: fyre-author-tag-*** &lt; your_ group &gt;*** y fyre-tag-author-*** &lt; your_ group &gt;***. Ambos pueden utilizarse para aplicar estilo al contenido.
 
-* Todos los espacios incluidos en la etiqueta se convertirán en guiones bajos. Por ejemplo: ' Usuario favorito'se convertirá en favorito_ user.
-* Los caracteres Unicode incluidos en los nombres de grupo no se convertirán y aparecerán como Unicode en los nombres de clase. Por ejemplo: El grupo de usuarios'modérateur'se convertirá en fyre-comment-author-tag-modérateur.
+* Todos los espacios incluidos en la etiqueta se convertirán en guiones bajos. Por ejemplo: &#39; Usuario favorito&#39;se convertirá en favorito_ user.
+* Los caracteres Unicode incluidos en los nombres de grupo no se convertirán y aparecerán como Unicode en los nombres de clase. Por ejemplo: El grupo de usuarios&#39;modérateur&#39;se convertirá en fyre-comment-author-tag-modérateur.
 
 Una vez que se hayan creado los grupos de usuarios, utilice las clases CSS de Livefyre para aplicar estilo personalizado al contenido.
 
@@ -72,7 +68,7 @@ Cree una regla CSS para mostrar o aplicar estilo a un distintivo para el Grupo:
 }
 ```
 
-Utilice la clase CSS fyre-author-tag-*** < your_ group >*** o fyre-tag-author-*** < your_ group >*** para aplicar estilo a la fuente y al fondo de cada elemento publicado desde una cuenta asociada a la etiqueta seleccionada.
+Utilice la clase CSS fyre-author-tag-*** &lt; your_ group &gt;*** o fyre-tag-author-*** &lt; your_ group &gt;*** para aplicar estilo a la fuente y al fondo de cada elemento publicado desde una cuenta asociada a la etiqueta seleccionada.
 
 ```
 .fyre-comment-author-tag-<your_group> .fyre-comment-author-tag { 

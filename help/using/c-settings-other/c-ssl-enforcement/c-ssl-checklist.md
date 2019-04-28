@@ -1,8 +1,6 @@
 ---
-description: Siga los pasos de la lista de comprobación para asegurarse de que se
-  convertirá correctamente de HTTP a HTTPS.
-seo-description: Siga los pasos de la lista de comprobación para asegurarse de que
-  se convertirá correctamente de HTTP a HTTPS.
+description: Siga los pasos de la lista de comprobación para asegurarse de que se convertirá correctamente de HTTP a HTTPS.
+seo-description: Siga los pasos de la lista de comprobación para asegurarse de que se convertirá correctamente de HTTP a HTTPS.
 seo-title: Lista de comprobación SSL
 title: Lista de comprobación SSL
 uuid: 2 b 176 c 73-8 a 6 a -4835-88 b 3-047 c 6661 cba 9

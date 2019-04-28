@@ -30,7 +30,7 @@ Los problemas de las tablas siguientes se resolvieron en la versión de producci
 | **Tipo de problema** | **Componente** | **Versión de la versión** |
 |---|---|---|
 | Error | AEM | Se ha corregido un problema por el que los tweets importados en Recursos AEM a través de Livefyre tenían vínculos dañados. |
-| Mejora | API | Se ha añadido la etiqueta "audio" para archivos de audio guardados en una colección. |
+| Mejora | API | Se ha añadido la etiqueta &quot;audio&quot; para archivos de audio guardados en una colección. |
 | Error | Biblioteca/Búsqueda | Se corrigió un problema en el cual los recursos de Twitter no se guardaban en una carpeta específica al arrastrarlos y soltarlos desde la búsqueda social. |
 | Error | Biblioteca/Búsqueda | Se ha corregido un problema por el que una imagen no aparecía al utilizar cuentas comerciales de IG válidas para Detalles del recurso, la Biblioteca y en Aplicaciones publicadas. |
 | Error | Flujos | Se ha corregido un problema que impedía guardar reglas de flujo de YouTube. |

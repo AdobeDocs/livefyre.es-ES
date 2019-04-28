@@ -28,7 +28,7 @@ Sitúe el cursor sobre el espacio de comentarios y visualice las siguientes opci
    >
    >Esta opción es específica del sitio y no prohibirá al usuario desde su red completa. Para Sidenotes, los usuarios solo pueden estar prohibidos desde Studio, y no desde el flujo.
 
-* **[!UICONTROL Bozo:]** Botis El autor del contenido. Para Sidenotes, los usuarios pueden ser Bozo'd solo desde Studio, y no desde dentro del flujo.
+* **[!UICONTROL Bozo:]** Botis El autor del contenido. Para Sidenotes, los usuarios pueden ser Bozo&#39;d solo desde Studio, y no desde dentro del flujo.
 * **[!UICONTROL Delete:]** Elimina el contenido del hilo.
 * **[!UICONTROL Flag:]** Abre un modal de marca, que permite seleccionar un indicador para el contenido (correo no deseado, ofensivo, desacuerdo o desactivado), introducir una dirección de correo electrónico para asociarla al indicador, si lo desea y agregar una nota.
 * **[!UICONTROL Share:]** Abre un modal Compartir, que le permite compartir en Facebook o Twitter, editar el texto e incluir una permalink al contenido mismo.

@@ -1,8 +1,6 @@
 ---
-description: La ficha Contenido de la aplicación de su biblioteca permite moderar
-  el contenido publicado en las aplicaciones.
-seo-description: La ficha Contenido de la aplicación de su biblioteca permite moderar
-  el contenido publicado en las aplicaciones.
+description: La ficha Contenido de la aplicación de su biblioteca permite moderar el contenido publicado en las aplicaciones.
+seo-description: La ficha Contenido de la aplicación de su biblioteca permite moderar el contenido publicado en las aplicaciones.
 seo-title: Moderar contenido con contenido de la aplicación
 title: Moderar contenido con contenido de la aplicación
 uuid: 1 c 648128-e 7 ef -4836-afe 5-eff 52 de 30 e 7 e
@@ -62,6 +60,6 @@ La moderación de contenido Sidenotes permite tanto cambios masivos como cambios
 
 ## Moderar usuarios de Livefyre {#section_grw_mqm_zz}
 
-Pase el cursor sobre el nombre de usuario de un usuario de Livefyre para abrir un menú desplegable, permitiéndole **[!UICONTROL Ban the User]**obtener, obtener **[!UICONTROL More Info]**o ver una lista de **[!UICONTROL Comments]**sus elementos. Al hacer clic en este menú, se abrirá la tarjeta de información del usuario en **[!UICONTROL Users]** la página de Studio.
+Pase el cursor sobre el nombre de usuario de un usuario de Livefyre para abrir un menú desplegable, permitiéndole **[!UICONTROL Ban the User]** obtener, obtener **[!UICONTROL More Info]** o ver una lista de **[!UICONTROL Comments]** sus elementos. Al hacer clic en este menú, se abrirá la tarjeta de información del usuario en **[!UICONTROL Users]** la página de Studio.
 
 Para obtener más información sobre cómo moderar usuarios en **[!UICONTROL Users]** la página, consulte [Moderar modq de moderadores](/help/using/c-features-livefyre/c-about-moderation/t-moderate-users-modq.md#t_moderate_users_modq).

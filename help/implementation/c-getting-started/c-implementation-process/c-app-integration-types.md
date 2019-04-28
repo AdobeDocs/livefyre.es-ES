@@ -1,10 +1,6 @@
 ---
-description: Al implementar aplicaciones de Livefyre, el estilo de implementación
-  depende del caso de uso. Esta página explica las funciones de las tres maneras de
-  crear una aplicación.
-seo-description: Al implementar aplicaciones de Livefyre, el estilo de implementación
-  depende del caso de uso. Esta página explica las funciones de las tres maneras de
-  crear una aplicación.
+description: Al implementar aplicaciones de Livefyre, el estilo de implementación depende del caso de uso. Esta página explica las funciones de las tres maneras de crear una aplicación.
+seo-description: Al implementar aplicaciones de Livefyre, el estilo de implementación depende del caso de uso. Esta página explica las funciones de las tres maneras de crear una aplicación.
 seo-title: Integraciones de aplicaciones CMS
 solution: Experience Manager
 title: Integraciones de aplicaciones CMS

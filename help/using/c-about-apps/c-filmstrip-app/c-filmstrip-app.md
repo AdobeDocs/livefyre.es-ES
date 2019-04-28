@@ -1,10 +1,6 @@
 ---
-description: Tira de película es una aplicación de visualización que muestra contenido
-  generado por usuarios en una única tira dinámica de fotos, similar a una tira de
-  película de una cámara.
-seo-description: Tira de película es una aplicación de visualización que muestra contenido
-  generado por usuarios en una única tira dinámica de fotos, similar a una tira de
-  película de una cámara.
+description: Tira de película es una aplicación de visualización que muestra contenido generado por usuarios en una única tira dinámica de fotos, similar a una tira de película de una cámara.
+seo-description: Tira de película es una aplicación de visualización que muestra contenido generado por usuarios en una única tira dinámica de fotos, similar a una tira de película de una cámara.
 seo-title: Tira de película
 solution: Experience Manager
 title: Tira de película
@@ -47,7 +43,7 @@ No puede publicar contenido que contenga texto solo en una tira de película. So
 
 ## ¿Cómo ve un visitante del sitio contenido en una tira de película? {#section_w5c_plj_yy}
 
-Un visitante del sitio ve el contenido rellenado en una tira de película desde Studio desde un flujo de estudio, una biblioteca o una búsqueda social. Si se publica contenido nuevo en la aplicación mientras un visitante del sitio está en la página, el nuevo contenido se muestra a la izquierda e inserta el contenido antiguo a la derecha en tiempo real sin que el visitante del sitio tenga que actualizar su página. Si decide notificar al visitante del sitio sobre nuevo contenido, el visitante del sitio verá una notificación que dice "nuevo" y una flecha que apunta hacia la izquierda para indicar que necesitan desplazarse a la izquierda para ver el nuevo contenido.
+Un visitante del sitio ve el contenido rellenado en una tira de película desde Studio desde un flujo de estudio, una biblioteca o una búsqueda social. Si se publica contenido nuevo en la aplicación mientras un visitante del sitio está en la página, el nuevo contenido se muestra a la izquierda e inserta el contenido antiguo a la derecha en tiempo real sin que el visitante del sitio tenga que actualizar su página. Si decide notificar al visitante del sitio sobre nuevo contenido, el visitante del sitio verá una notificación que dice &quot;nuevo&quot; y una flecha que apunta hacia la izquierda para indicar que necesitan desplazarse a la izquierda para ver el nuevo contenido.
 
 ## ¿Qué sucede cuando un visitante del sitio hace clic en un elemento de una tira de película? {#section_cvz_nlj_yy}
 
@@ -66,7 +62,7 @@ Agregar contenido a una tira de película por:
 * Publicación manual de la biblioteca, el contenido de la aplicación o modq.
 * Configuración de un flujo para publicar automáticamente.
 
-El nuevo contenido transforma automáticamente en la aplicación de tira de película a la izquierda e inserta el contenido antiguo a la derecha en tiempo real sin que el visitante tenga que actualizar su página. Si decide notificar al visitante del sitio sobre nuevo contenido, el visitante del sitio verá una notificación que dice "nuevo" y una flecha que apunta hacia la izquierda para indicar que, si desea ver el nuevo contenido, necesita desplazarse a la izquierda para ver el nuevo contenido.
+El nuevo contenido transforma automáticamente en la aplicación de tira de película a la izquierda e inserta el contenido antiguo a la derecha en tiempo real sin que el visitante tenga que actualizar su página. Si decide notificar al visitante del sitio sobre nuevo contenido, el visitante del sitio verá una notificación que dice &quot;nuevo&quot; y una flecha que apunta hacia la izquierda para indicar que, si desea ver el nuevo contenido, necesita desplazarse a la izquierda para ver el nuevo contenido.
 
 ## ¿Cómo se muestra el contenido de solo texto en la aplicación? {#section_h31_klj_yy}
 
@@ -76,7 +72,7 @@ Tira de película no muestra contenido de solo texto. Tira de película solo mue
 
 Tira de película muestra el contenido en una tira horizontal de cinco de forma predeterminada. El número de mosaicos depende del tamaño del contenedor en el que se muestra la aplicación y del tamaño de mosaico que elija en App Designer. Livefyre recomienda que agregue por lo menos cinco o diez fragmentos de contenido en la aplicación de tira de película para proporcionar un número adecuado de mosaicos con contenido y permitir a los usuarios desplazarse para encontrar más.
 
-A veces, el contenido no se muestra porque se ha activado **[!UICONTROL Require rights]**. Si lo activa, debe tener derechos otorgados para todo el contenido de la aplicación. Si el estado de los derechos no se "concede" para un contenido, no se mostrará en la aplicación.
+A veces, el contenido no se muestra porque se ha activado **[!UICONTROL Require rights]**. Si lo activa, debe tener derechos otorgados para todo el contenido de la aplicación. Si el estado de los derechos no se &quot;concede&quot; para un contenido, no se mostrará en la aplicación.
 
 ## ¿Cómo sabe un visitante del sitio cuándo se agrega un nuevo producto? {#section_ttt_xps_mbb}
 

@@ -16,12 +16,12 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 Siga estos pasos para incrustar HTML personalizado en el sitio.
 
 Para incrustar HTML personalizado:
-1. Haga clic en el botón incrustado HTML (</>) en el cuadro Editor de comentarios para iniciar el cuadro de editor HTML.
+1. Haga clic en el botón incrustado HTML (&lt;/&gt;) en el cuadro Editor de comentarios para iniciar el cuadro de editor HTML.
 
    >[!NOTE]
    >
    >Este botón solo está visible para moderadores y propietarios.
 
-1. Pegue el código HTML en el editor y haga clic **[!UICONTROL OK]**en. (Se mostrará un mensaje para cualquier error de validación HTML).
+1. Pegue el código HTML en el editor y haga clic **[!UICONTROL OK]** en. (Se mostrará un mensaje para cualquier error de validación HTML).
 1. Se muestra una vista previa del resultado debajo del editor de comentarios.
 1. Haga clic en **[!UICONTROL Post Comment]** para mostrar el resultado en el flujo.
