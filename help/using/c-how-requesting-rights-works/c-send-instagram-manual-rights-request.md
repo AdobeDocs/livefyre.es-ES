@@ -5,7 +5,7 @@ seo-title: Enviar solicitud de derechos de Instagram manualmente
 title: Enviar solicitud de derechos de Instagram manualmente
 uuid: c 07 b 3 f 6 f-c 14 c -4 e 62-b 18 b -25934 ebe 45 bf
 translation-type: tm+mt
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
 
 ---
 
@@ -18,7 +18,7 @@ Antes de enviar una solicitud de derechos, debe:
 
 * Agregue una cuenta social de Instagram. Para obtener más información sobre cómo configurar una cuenta social, consulte [Agregar una cuenta social](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram). Para enviar una solicitud de derechos manual o automatizada, debe configurar una cuenta empresarial de Instagram. Para obtener más información acerca de las cuentas de Instagram, consulte [Acerca de las cuentas de Instagram.](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)
 
-* Configure Rights Management. Para obtener más información sobre cómo configurar la administración de derechos, consulte [Solicitar derechos](../c-how-requesting-rights-works/c-how-requesting-rights-works.md#c_how_requesting_rights_works).
+* Configure Rights Management. Para obtener más información sobre cómo configurar la administración de derechos, consulte [Solicitar derechos](../c-how-requesting-rights-works/c-how-requesting-rights-works.md).
 
 Para enviar una solicitud de derechos manual para contenido de Instagram:
 
