@@ -1,11 +1,12 @@
 ---
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: 9bcc55b92463eb9d71076f2349d5756ba94fad13
 translation-type: tm+mt
 
 ---
 # Artículo sobre colaboración
 
-Agradecemos las contribuciones de nuestra comunidad, así como de los empleados de Adobe de fuera de los equipos de documentación.
+Agradecemos las contribuciones de nuestra comunidad, así como de los empleados de Adobe que no forman parte de los equipos de documentación.
+
 
 ## Código de conducta de Adobe Open Source
 
@@ -17,15 +18,15 @@ Consulte la [Guía del colaborador de Adobe Docs](https://docs.adobe.com/content
 
 La manera en que contribuye depende de quién es usted y del tipo de cambios con los que desee contribuir:
 
-### Pequeños cambios
+### Cambios menores
 
-Si va a contribuir con actualizaciones menores de su corazón, visite el artículo y haga clic en el **vínculo Editar** del artículo que va al origen de github para el artículo. A continuación, utilice la interfaz de usuario de github para realizar las actualizaciones. Consulte la Guía general [del colaborador de documentos de Adobe](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) para obtener más información.
+Si desea contribuir de buena fe con actualizaciones menores, visite el artículo y haga clic en el vínculo **Editar** que le redirige a la fuente del artículo GitHub. A continuación, utilice la interfaz de usuario de GitHub para realizar las actualizaciones. Consulte la Guía general [del colaborador de documentos de Adobe](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) para obtener más información.
 
 Las correcciones o aclaraciones menores que envía para la documentación y los ejemplos de código de este repositorio están incluidos en las condiciones de uso de Adobe.
 
 ### Cambios importantes o nuevos artículos de miembros de la comunidad
 
-Si forma parte de la comunidad de Adobe y desea crear un artículo nuevo o enviar cambios importantes, utilice la ficha Problemas del repositorio Git para enviar un problema para iniciar una conversación con el equipo de documentación. Una vez que haya aceptado un plan, tendrá que trabajar con un empleado para ayudar a traer ese nuevo contenido a través de una combinación de trabajo en los repositorios públicos y privados.
+Si forma parte de la comunidad de Adobe y desea crear un artículo nuevo o enviar cambios importantes, utilice la pestaña Problemas del repositorio Git para enviar un problema e iniciar una conversación con el equipo de documentación. Una vez que haya establecido un plan, tendrá que trabajar con un empleado para ayudar a incorporar ese nuevo contenido a través de una combinación de trabajo en los repositorios públicos y privados.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
