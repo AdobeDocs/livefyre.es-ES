@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Cumplimiento de SSL
 uuid: e 64 af 8 c 2-3 ab 6-4034-b 385-0 e 552 d 828 c 6 e
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
 
 ---
 
@@ -19,7 +19,7 @@ Para garantizar que sus datos sigan siendo seguros, estamos desaprobando HTTP en
 
 Esto podría afectar a los clientes de Livefyre que tengan:
 
-* Llamadas servidor a servidor desde su CRM, CMS, Wordpress u otro cliente.
+* Llamadas servidor a servidor desde sus CRM, CMS, WordPress u otro cliente.
 * Integraciones móviles (aplicaciones Android e iOS)
 * Aplicaciones personalizadas o código personalizado
 
@@ -27,7 +27,7 @@ Esto podría afectar a los clientes de Livefyre que tengan:
 
 1. Todos los clientes de Livefyre deben comunicarse con todas las API a través de HTTPS para todo el tráfico, incluso:
 
-   * Server to Server Integrations (CRM, CMS, Wordpress, etc.)
+   * Server to Server Integrations (CRM, CMS, WordPress, etc.)
    * Integraciones móviles (aplicaciones Android e iOS)
    * Aplicaciones personalizadas (SDK de Streamhub o codificadas directamente).
 
