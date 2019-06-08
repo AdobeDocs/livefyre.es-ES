@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Anuncios
 uuid: c 05963 db -4 d 96-494 e-bdb 3-da 3570 a 14 dfe
 translation-type: tm+mt
-source-git-commit: 8624bacfaf584f305e6bbfc444653d179fdd34dc
+source-git-commit: 1319d79718960b112f7c711b5afabfa04dc2a5c0
 
 ---
 
@@ -14,6 +14,18 @@ source-git-commit: 8624bacfaf584f305e6bbfc444653d179fdd34dc
 # Anuncios{#announcements}
 
 Anuncios para Livefyre y Livefyre Studio. Actual desde el 5 de junio de 2019.
+
+## 7 de junio de 2019
+
+Estamos encantados de informar que los flujos y la búsqueda de Instagram se han restaurado en Livefyre. Puede reanudar el uso de la búsqueda social para contenido de Instagram y reanudar el flujo continuo de contenido de Instagram en carpetas y aplicaciones. Para volver a iniciar el contenido de flujo continuo, deberá seguir estos pasos:
+* Iniciar sesión en Livefyre
+* Configuración de visitas para volver a autorizar y actualizar los tokens de acceso asociados a su cuenta comercial de Instagram
+* Espere una a dos horas para que el contenido vuelva a empezar de nuevo
+* Póngase en contacto con la asistencia técnica si tiene algún problema
+
+Todavía no se han restaurado los flujos de Facebook, pero seguimos trabajando activamente con Facebook para volver a instaurar esta capacidad y lo actualizaremos tan pronto como más información.
+
+Gracias por su constante paciencia con esta interrupción inesperada en el servicio.
 
 ## 5 de junio de 2019
 
