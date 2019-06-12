@@ -6,14 +6,18 @@ solution: Experience Manager
 title: Anuncios
 uuid: c 05963 db -4 d 96-494 e-bdb 3-da 3570 a 14 dfe
 translation-type: tm+mt
-source-git-commit: 1319d79718960b112f7c711b5afabfa04dc2a5c0
+source-git-commit: 087a40bf77c3b630acb661b58ffa8cfdedc0aec0
 
 ---
 
 
 # Anuncios{#announcements}
 
-Anuncios para Livefyre y Livefyre Studio. Actual desde el 5 de junio de 2019.
+## 11 de junio de 2019
+
+Estamos encantados de informarle que el contenido de Facebook Fanpage ha reanudado el flujo en carpetas y aplicaciones dentro de Livefyre. No existen acciones necesarias para habilitar el flujo de este contenido.
+
+Apreciamos enormemente su paciencia durante esta interrupción inesperada.
 
 ## 7 de junio de 2019
 
