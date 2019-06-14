@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Estructura de solicitud de extracción
 uuid: bf 6 b 9 e 45-d 08 a -48 e 6-acc 6-e 4 fa 56428 d 25
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: cf447db2cb3498fcb01b511848faeee4d1e48481
 
 ---
 
@@ -40,4 +40,3 @@ donde `lftoken` es un token web JSON firmado con la clave de red y **[!UICONTROL
    * Si `lftoken` no está presente, o si falla la validación, no permita que el punto final responda con la información de perfil. En su lugar, responda con un código de estado 403 (prohibido) y sin cuerpo de respuesta.
 
 1. `userAuthToken` la genera el `buildUserAuthToken` método Livefyre para el usuario, con el ID de usuario «sistema». Este usuario es el primer usuario creado para cada nueva red.
-1. Para probar la página, utilice [el tester Ping para extraer](https://livefyre-p4p-wizard.herokuapp.com/home) para confirmar que todo funciona correctamente.
