@@ -3,7 +3,7 @@ product: livefyre
 audience: usuario final
 user-guide-title: Guía de implementación de Experience Manager Livefyre
 translation-type: tm+mt
-source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
+source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
 
 ---
 
@@ -47,7 +47,6 @@ source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
    + Usar aplicaciones sociales con identidad de Livefyre {#use-social-apps-with-livefyre-identity}
       + [Crear aplicaciones sociales](c-livefyre-identity-comp/t-create-your-social-apps.md)
       + [Crear una aplicación de Facebook para su uso con la identidad de Livefyre](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
-      + [Creación de un proyecto de Google para su uso con la identidad de Livefyre](c-livefyre-identity-comp/t-create-a-google-project-for-use-with-livefyre-identity.md)
       + [Crear una aplicación de Twitter para usarla con la identidad de Livefyre](c-livefyre-identity-comp/t-create-a-twitter-app-for-use-with-livefyre-identity.md)
       + [Cree un Yahoo! Aplicación para su uso con identidad de Livefyre](c-livefyre-identity-comp/t-create-a-yahoo-app-for-use-with-livefyre-identity.md)
       + [Creación de una aplicación de identidad de Microsoft Live para su uso con la identidad de Livefyre](c-livefyre-identity-comp/t-create-a-microsoft-live-id-app-for-use-with-livefyre-identity.md)
@@ -90,8 +89,8 @@ source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
       + [Método del sitio de compildcollection](c-installing-libraries/r-buildcollection-site-method.md)
       + [Método del sitio geturn](c-installing-libraries/r-geturn-site-method.md)
       + [Ejemplos](c-installing-libraries/c-libraries-examples.md)
-   + SDK para móviles {#mobile-sdks}
-      + [SDK para móviles](c-mobile-sdks/c-mobile-sdks.md)
+   + SDK para móvil {#mobile-sdks}
+      + [SDK para móvil](c-mobile-sdks/c-mobile-sdks.md)
       + [SDK de Livefyre iOS](c-mobile-sdks/c-livefyre-ios-sdk.md)
       + [SDK de Android](c-mobile-sdks/c-android-sdk.md)
 + [Livefyre. js](c-livefyre.js.md)
@@ -152,8 +151,8 @@ source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
    + [Compatibilidad con dispositivos y navegadores](c-app-customizations/c-device-and-browser-support.md)
    + [Requisitos de visualización de Twitter](c-app-customizations/c-twitter-display-requirements.md)
 + [Política de prueba de estrés](c-stress-test-policy.md)
-+ Analytics  {#analytics}
-   + [Analytics  ](livefyre-analytics/livefyre-analytics.md)
++ Analytics {#analytics}
+   + [Analytics](livefyre-analytics/livefyre-analytics.md)
    + [Utilizar Livefyre con Adobe Analytics y Administrador dinámico de etiquetas (DTM)](livefyre-analytics/c-use-livefyre-with-adobe-analytics.md)
    + [Utilizar Livefyre con otras herramientas de Analytics](livefyre-analytics/c-livefyre-analytics.md)
    + [Eventos de Analytics de Livefyre](livefyre-analytics/c-livefyre-analytics-events.md)
