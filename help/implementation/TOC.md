@@ -3,7 +3,7 @@ product: livefyre
 audience: usuario final
 user-guide-title: Guía de implementación de Experience Manager Livefyre
 translation-type: tm+mt
-source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
+source-git-commit: d2a3bad7f0009d04be0e17802d17409f16c1b779
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
 # Guía de implementación de Experience Manager Livefyre {#implementation}
 
 + [Guía de implementación de Livefyre](home.md)
-+ Primeros pasos {#getting-started}
++ Introducción {#getting-started}
    + [Introducción a la integración de Livefyre](c-getting-started/c-getting-started.md)
    + Proceso de implementación {#implementation-process}
       + [Proceso de implementación](c-getting-started/c-implementation-process/c-implementation-process.md)
@@ -92,14 +92,13 @@ source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
    + SDK para móvil {#mobile-sdks}
       + [SDK para móvil](c-mobile-sdks/c-mobile-sdks.md)
       + [SDK de Livefyre iOS](c-mobile-sdks/c-livefyre-ios-sdk.md)
-      + [SDK de Android](c-mobile-sdks/c-android-sdk.md)
+      + [Android SDK](c-mobile-sdks/c-android-sdk.md)
 + [Livefyre. js](c-livefyre.js.md)
 + [Creación de tokens de Livefyre C #](c-creating-livefyre-tokens-c-.md)
 + Integraciones de aplicaciones {#app-integrations}
-   + [Chat](c-app-integrations/c-app-integratios-chat.md)
+   + [Conversación](c-app-integrations/c-app-integratios-chat.md)
    + Comentarios {#comments}
       + [Comentarios](c-app-integrations/c-comments-integration/c-comments-integration.md)
-      + [Publicidades en comentarios](c-app-integrations/c-comments-integration/c-ads-in-comments-integration.md)
    + [Blog activo](c-app-integrations/c-live-blog-integration.md)
    + [Críticas](c-app-integrations/c-reviews-integration.md)
    + Sidenotes {#sidenotes}
