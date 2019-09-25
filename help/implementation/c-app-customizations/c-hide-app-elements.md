@@ -1,23 +1,23 @@
 ---
-description: Elimine los componentes estándar de la aplicación Livefyre de su aplicación.
-seo-description: Elimine los componentes estándar de la aplicación Livefyre de su aplicación.
-seo-title: Ocultar elementos de aplicación
+description: Elimine los componentes estándar de la aplicación Livefyre.
+seo-description: Elimine los componentes estándar de la aplicación Livefyre.
+seo-title: Ocultar elementos de la aplicación
 solution: Experience Manager
-title: Ocultar elementos de aplicación
-uuid: ea 090 b 6 e -99 f 5-4 bd 7-aa 9 e-d 39 a 4 dff 1543
+title: Ocultar elementos de la aplicación
+uuid: ea090b6e-99f5-4bd7-aa9e-d39a4dff1543
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Ocultar elementos de aplicación{#hide-app-elements}
+# Ocultar elementos de la aplicación{#hide-app-elements}
 
-Elimine los componentes estándar de la aplicación Livefyre de su aplicación.
+Elimine los componentes estándar de la aplicación Livefyre.
 
-Utilice CSS para ocultar elementos predeterminados de la aplicación Livefyre de su página, lo que le permite personalizar la experiencia del usuario para adaptarla a sus necesidades.
+Utilice CSS para ocultar los elementos predeterminados de la aplicación Livefyre de la página, lo que le permite personalizar la experiencia del usuario para adaptarla a sus necesidades.
 
-Para ocultar elementos de la aplicación, simplemente establezca la pantalla en ninguno.
+Para ocultar elementos de la aplicación, simplemente configure display en none.
 
 Ejemplos:
 
