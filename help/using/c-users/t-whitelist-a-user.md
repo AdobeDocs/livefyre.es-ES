@@ -1,22 +1,22 @@
 ---
-description: Incluya a un usuario para que les permita anunciar directamente en Aplicaciones sin tener que moderar.
-seo-description: Incluya a un usuario para que les permita anunciar directamente en Aplicaciones sin tener que moderar.
-seo-title: Lista de usuarios permitidos
+description: Incluya en la lista blanca a un usuario para permitirle publicar directamente en las aplicaciones sin tener que moderar la acción.
+seo-description: Incluya en la lista blanca a un usuario para permitirle publicar directamente en las aplicaciones sin tener que moderar la acción.
+seo-title: Optimización de un usuario
 solution: Experience Manager
-title: Lista de usuarios permitidos
-uuid: c 58 f 7279-5 fde -419 a-a 833-3 c 639 d 469421
+title: Optimización de un usuario
+uuid: c58f7279-5fde-419a-a833-3c639d469421
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 ---
 
 
-# Lista de usuarios permitidos{#whitelist-a-user}
+# Optimización de un usuario{#whitelist-a-user}
 
-Incluya a un usuario para que les permita anunciar directamente en Aplicaciones sin tener que moderar.
+Incluya en la lista blanca a un usuario para permitirle publicar directamente en las aplicaciones sin tener que moderar la acción.
 
-La lista de usuarios permitidos permite anunciar directamente en sus aplicaciones. El contenido publicado por usuarios de la lista de direcciones permitidas no pasará por los filtros seguros, de profanidad o de premoderación de Livefyre, y se aprobarán automáticamente y se agregarán a la aplicación.
+La lista de usuarios permitidos les permite anunciar directamente en sus aplicaciones. El contenido publicado por los usuarios de la lista blanca no pasará por los filtros SAFE, profanidad o premoderación de Livefyre, y se aprobará automáticamente y se agregará a la aplicación.
 
-1. Haga clic **[!UICONTROL +Add]****[!UICONTROL Whitelists]** para.
-1. Aparecerá una ventana emergente que le permitirá incluir al usuario en toda la red o en un sitio específico. (Utilice la tecla CTR o Comando para seleccionar varios sitios).
-1. Haga clic en **[!UICONTROL Whitelist]** para completar el proceso.
+1. Haga clic **[!UICONTROL +Add]** para **[!UICONTROL Whitelists]**.
+1. Aparecerá una ventana emergente que le permitirá incluir al usuario en la lista de direcciones permitidas para toda la red o para un sitio específico. (Utilice la tecla CTR o Comando para seleccionar varios sitios).
+1. Haga clic **[!UICONTROL Whitelist]** para completar el proceso.
