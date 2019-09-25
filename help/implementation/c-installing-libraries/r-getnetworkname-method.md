@@ -1,19 +1,19 @@
 ---
-description: Este método devuelve el nombre de la red sin el valor de fyre. co.
-seo-description: Este método devuelve el nombre de la red sin el valor de fyre. co.
-seo-title: Método de red getnetworkname
+description: Este método devuelve el nombre de la red sin el archivo fyre.co.
+seo-description: Este método devuelve el nombre de la red sin el archivo fyre.co.
+seo-title: getNetworkName (método de red)
 solution: Experience Manager
-title: Método de red getnetworkname
-uuid: 3523 e 5 a 4-11 f 4-458 d -91 e 7-a 149 d 3 afe 5 e 9
+title: getNetworkName (método de red)
+uuid: 3523e5a4-11f4-458d-91e7-a149d3afe5e9
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Método de red getnetworkname{#getnetworkname-network-method}
+# getNetworkName (método de red){#getnetworkname-network-method}
 
-Este método devuelve el nombre de la red sin el valor de fyre. co.
+Este método devuelve el nombre de la red sin el archivo fyre.co.
 
 ## Ejemplo de Java {#section_nyl_ycs_rz}
 
@@ -27,7 +27,7 @@ Salida de muestra:
 "example" 
 ```
 
-## Ejemplo de nodejs {#section_xkd_gds_rz}
+## Ejemplo de NodeJS {#section_xkd_gds_rz}
 
 ```
 network.getNetworkName();
@@ -57,13 +57,13 @@ Salida de muestra:
 network.network_name; 
 ```
 
-Salida de muestra:
+Sample output:
 
 ```
 "example" 
 ```
 
-## Ejemplo Ruby {#section_enh_gds_rz}
+## Ejemplo de Ruby {#section_enh_gds_rz}
 
 ```
 network.network_name; 
