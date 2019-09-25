@@ -1,10 +1,10 @@
 ---
-description: Personalice las opciones de visualización de la aplicación para que coincidan con su marca y estilo y agregue funcionalidad personalizada.
-seo-description: Personalice las opciones de visualización de la aplicación para que coincidan con su marca y estilo y agregue funcionalidad personalizada.
+description: Personalice las opciones de visualización de la aplicación para que coincidan con la marca y el estilo y agregue funcionalidad personalizada.
+seo-description: Personalice las opciones de visualización de la aplicación para que coincidan con la marca y el estilo y agregue funcionalidad personalizada.
 seo-title: Personalizaciones de la aplicación
 solution: Experience Manager
 title: Personalizaciones de la aplicación
-uuid: 6 f 27654 d-c 2 b 4-45 b 5-aae 7-6 fbf 312 fb 829
+uuid: 6f27654d-c2b4-45b5-ae7-6fbf312fb829
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,27 +13,27 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Personalizaciones de la aplicación{#app-customizations}
 
-Personalice las opciones de visualización de la aplicación para que coincidan con su marca y estilo y agregue funcionalidad personalizada.
+Personalice las opciones de visualización de la aplicación para que coincidan con la marca y el estilo y agregue funcionalidad personalizada.
 
-Disponible para chat, comentarios, blogs en directo, revisiones y Sidenotes.
+Disponible para chat, comentarios, Live Blog, críticas y notas de identidad.
 
-Livefyre ofrece varios medios por los cuales puede cambiar la interacción y las opciones de visualización de sus aplicaciones para adaptarse al estilo y comprometer a la audiencia.
+Livefyre ofrece varios medios mediante los cuales puede cambiar la interacción de las aplicaciones y las opciones de visualización para adaptarse a su estilo y captar a su audiencia.
 
 >[!NOTE]
 >
->Estas personalizaciones solo están disponibles para aquellas aplicaciones que dependen de anuncios de usuarios y que estén configuradas con un objeto convconfig: Chat, Comentarios, Blog directo, Revisiones y Sidenotes.
+>Estas personalizaciones solo están disponibles para aquellas aplicaciones que dependen de las publicaciones del usuario y que están configuradas con un objeto ConvConfig: Chat, Comentarios, Live Blog, Reseñas y Notas de identidad.
 
 * **Cambiar opciones de visualización**
 
-   Cambie las opciones de visualización de las aplicaciones mediante clases CSS, cadenas de texto localizadas y restricciones de elemento de aplicación y de medios.
+   Cambie las opciones de visualización de las aplicaciones mediante clases CSS, cadenas de texto localizadas y restricciones de elementos de aplicación y medios.
 
 * **Resaltar contenido**
 
-   Utilice estilos para destacar y promocionar contenido o grupos de usuarios seleccionados.
+   Utilice el estilo para destacar y promocionar contenido seleccionado o grupos de usuarios.
 
 * **Agregar botones personalizados**
 
-   Active acciones personalizadas cuando los usuarios interactúen con su aplicación de Livefyre.
+   Activar acciones personalizadas cuando los usuarios interactúan con la aplicación Livefyre.
 
 * **Escuchar eventos de aplicación**
 
