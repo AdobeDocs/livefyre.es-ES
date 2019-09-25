@@ -1,20 +1,20 @@
 ---
-description: Crear paredes de medios con imágenes, chat, vídeo y otro contenido de flujo continuo.
-seo-description: Crear paredes de medios con imágenes, chat, vídeo y otro contenido de flujo continuo.
-seo-title: Muro de medios
+description: Create Media Walls with images, chat, video, and other streaming content.
+seo-description: Create Media Walls with images, chat, video, and other streaming content.
+seo-title: Media Wall
 solution: Experience Manager
-title: Muro de medios
-uuid: 54 f 4 fb 0 b-e 427-4 b 73-bb 96-31325805 b 081
+title: Media Wall
+uuid: 54f4fb0b-e427-4b73-bb96-31325805b081
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Muro de medios{#media-wall}
+# Media Wall{#media-wall}
 
-Crear paredes de medios con imágenes, chat, vídeo y otro contenido de flujo continuo.
+Create Media Walls with images, chat, video, and other streaming content.
 
-El muro de medios es una aplicación creada en el SDK de JavaScript de Livefyre que transmite imágenes en directo y otro contenido, sumado desde Instagram, Twitter, Dell y otras redes sociales, en un muro social en tiempo real, visualizando toda la actividad que rodea a un evento. Incluso los que siguen el evento se sienten como si estuvieran allí. Puede mostrar aplicaciones de muro de medios en pantallas grandes en eventos en directo, o agregarlas a su sitio web para asegurarse de que el sitio es el destino de la cobertura de eventos. Esto aumenta la participación durante los eventos, como conciertos, conferencias, lanzamientos de productos, paquetes de premios, eventos deportivos y más.
+Media Wall is an App built on the Livefyre JavaScript SDK that streams live images and other content, aggregated from Instagram, Twitter, Vine and other social networks, into a real-time social wall, visualizing all activity surrounding an event. Incluso los que siguen el evento remotamente sienten que están ahí. You can display Media Wall Apps on large screens at live events, or add them to your website to ensure that your site is the go-to destination for event coverage. This increases engagement during events such as concerts, conferences, product releases, awards shows, sporting events and more.
 
-Utilice Studio para crear aplicaciones de muro de medios, que pueden estar incrustadas en su página web. Utilice el SDK de muro de medios para crear más experiencias personalizadas de muro de medios para su audiencia.
+Use Studio to create Media Wall Apps, which may be embedded onto your web page. Utilice el SDK de Media Wall para crear experiencias de Media Wall más personalizadas para su audiencia.
