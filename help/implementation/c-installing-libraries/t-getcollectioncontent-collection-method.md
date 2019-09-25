@@ -1,19 +1,19 @@
 ---
-description: Recupera la información de la colección desde Livefyre como jsonobject.
-seo-description: Recupera la información de la colección desde Livefyre como jsonobject.
-seo-title: Getcollectioncontent Collection Method
+description: Recupera la información de la colección de Livefyre como un objeto JSONObject.
+seo-description: Recupera la información de la colección de Livefyre como un objeto JSONObject.
+seo-title: getCollectionContent (método de recopilación)
 solution: Experience Manager
-title: Getcollectioncontent Collection Method
-uuid: 270 dcea 5-4 de 5-4 d 3 b-a 751-79 e 6 b 9 c 4 fd 93
+title: getCollectionContent (método de recopilación)
+uuid: 270dcea5-4de5-4d3b-a751-79e6b9c4fd93
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Getcollectioncontent Collection Method{#getcollectioncontent-collection-method}
+# getCollectionContent (método de recopilación){#getcollectioncontent-collection-method}
 
-Recupera la información de la colección desde Livefyre como jsonobject.
+Recupera la información de la colección de Livefyre como un objeto JSONObject.
 
 ## Ejemplo de Java {#section_nyl_ycs_rz}
 
@@ -21,7 +21,7 @@ Recupera la información de la colección desde Livefyre como jsonobject.
 collection.getCollectionContent(); 
 ```
 
-## Ejemplo de nodejs {#section_xkd_gds_rz}
+## Ejemplo de NodeJS {#section_xkd_gds_rz}
 
 ```
 collection.getCollectionContent(callback); 
@@ -39,7 +39,7 @@ $collection->getCollectionContent();
 collection.get_collection_content() 
 ```
 
-## Ejemplo Ruby {#section_enh_gds_rz}
+## Ejemplo de Ruby {#section_enh_gds_rz}
 
 ```
 collection.get_collection_content 
