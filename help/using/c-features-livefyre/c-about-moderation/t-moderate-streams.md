@@ -1,23 +1,23 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Restringir el contenido de los usuarios de Twitter
+seo-title: Restringir contenido de usuarios de Twitter
 solution: Experience Manager
-title: Restringir el contenido de los usuarios de Twitter
-uuid: 692 dd 9 c 0-487 d -4 ea 8-b 87 e -58 bea 22522 db
+title: Restringir contenido de usuarios de Twitter
+uuid: 692dd9c0-487d-4ea8-b87e-58bea22522db
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Restringir el contenido de los usuarios de Twitter{#restrict-content-from-twitter-users}
+# Restringir contenido de usuarios de Twitter{#restrict-content-from-twitter-users}
 
-Puede impedir que los usuarios de Twitter se coloquen en sus aplicaciones. La **[!UICONTROL Network Settings > Streams]** ficha permite prohibir a los usuarios de los flujos, introducir su nombre de usuario de Twitter en el campo proporcionado y hacer clic **[!UICONTROL Add]** en.
+Puede prohibir que los usuarios de Twitter se utilicen en sus aplicaciones. La **[!UICONTROL Network Settings > Streams]** ficha le permite prohibir usuarios en sus flujos, introducir su nombre de usuario de Twitter en el campo proporcionado y hacer clic en **[!UICONTROL Add]**.
 
-Si lo desea, utilice la casilla de verificación para borrar todo el contenido existente del usuario.
+Utilice la casilla de verificación para papelera todo el contenido existente del usuario de la lista, si lo desea.
 
 >[!NOTE]
 >
->La desfase del contenido existente no se puede deshacer.
+>No se puede deshacer el seguimiento del contenido existente.
 
