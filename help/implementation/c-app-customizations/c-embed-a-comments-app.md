@@ -1,10 +1,10 @@
 ---
-description: La incrustación de la aplicación de comentarios sigue el proceso para incrustar una aplicación principal.
-seo-description: La incrustación de la aplicación de comentarios sigue el proceso para incrustar una aplicación principal.
+description: Incrustar la aplicación de comentarios sigue el proceso de incrustación de una aplicación principal.
+seo-description: Incrustar la aplicación de comentarios sigue el proceso de incrustación de una aplicación principal.
 seo-title: Incrustar una aplicación de comentarios
 solution: Experience Manager
 title: Incrustar una aplicación de comentarios
-uuid: e 4982 ad 3-cab 1-4805-a 55 c -594 cca 3 b 7203
+uuid: e4982ad3-cab1-4805-a55c-594cca3b7203
 translation-type: tm+mt
 source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
 
@@ -13,9 +13,9 @@ source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
 
 # Incrustar una aplicación de comentarios{#embed-a-comments-app}
 
-La incrustación de la aplicación de comentarios sigue el proceso para incrustar una aplicación principal.
+Incrustar la aplicación de comentarios sigue el proceso de incrustación de una aplicación principal.
 
-Incrustar la aplicación de comentarios sigue el proceso para incrustar una aplicación principal descrita en [Incrustar una aplicación](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+Incrustación de la aplicación de comentarios sigue el proceso de incrustación de una aplicación básica descrito en [Incrustar una aplicación](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
 
 ## Ejemplo
 
@@ -54,7 +54,7 @@ Incrustar la aplicación de comentarios sigue el proceso para incrustar una apli
 </html>
 ```
 
-Como se indica en la sección Compilar collectionmeta, collectionmeta es un objeto JSON codificado. En el ejemplo anterior, el objeto JSON toma el siguiente formato antes de codificar JWT:
+Como se indica en la sección Building CollectionMeta, CollectionMeta es un objeto JSON codificado. En el ejemplo anterior, el objeto JSON adopta el siguiente formato antes de codificarse en JWT:
 
 ```
 { 
