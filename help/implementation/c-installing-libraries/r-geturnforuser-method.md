@@ -1,23 +1,23 @@
 ---
-description: Este método devuelve la URN para el usuario de esta red.
-seo-description: Este método devuelve la URN para el usuario de esta red.
-seo-title: Geturnforuser Network Method
+description: Este método devuelve el URN del usuario de esta red.
+seo-description: Este método devuelve el URN del usuario de esta red.
+seo-title: getUrnForUser (método de red)
 solution: Experience Manager
-title: Geturnforuser Network Method
-uuid: b 70 b 8 b 0 f -2 b 3 a -4 a 1 d -90 d 0-93 a 97 a 137 ad 4
+title: getUrnForUser (método de red)
+uuid: b70b8b0f-2b3a-4a1d-90d0-93a97a137ad4
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Geturnforuser Network Method{#geturnforuser-network-method}
+# getUrnForUser (método de red){#geturnforuser-network-method}
 
-Este método devuelve la URN para el usuario de esta red.
+Este método devuelve el URN del usuario de esta red.
 
 | Variable | Tipo | Descripción |
 |--- |--- |--- |
-| Userid | Cadena | Userid que se usará en la URN. |
+| userID | Cadena | UserId que se usará en la URN. |
 
 ## Ejemplo de Java {#section_nyl_ycs_rz}
 
@@ -31,7 +31,7 @@ Salida de muestra:
 "urn:livefyre:network=`example.fyre.co`:user=tester" 
 ```
 
-## Ejemplo de nodejs {#section_xkd_gds_rz}
+## Ejemplo de NodeJS {#section_xkd_gds_rz}
 
 ```
 network.getUrnForUser(userId);
@@ -67,7 +67,7 @@ Salida de muestra:
 "urn:livefyre:network=`example.fyre.co`:user=tester" 
 ```
 
-## Ejemplo Ruby {#section_enh_gds_rz}
+## Ejemplo de Ruby {#section_enh_gds_rz}
 
 ```
 network.get_urn_for_user(userId) 
