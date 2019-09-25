@@ -1,10 +1,10 @@
 ---
-description: Incruste encuestas en el flujo de blogs o en el blog activo.
-seo-description: Incruste encuestas en el flujo de blogs o en el blog activo.
+description: Incrustar encuestas en el flujo de comentarios o de blogs en directo.
+seo-description: Incrustar encuestas en el flujo de comentarios o de blogs en directo.
 seo-title: Incrustar encuestas en comentarios
 solution: Experience Manager
 title: Incrustar encuestas en comentarios
-uuid: 56 f 83743-352 a -4 ade -9 a 62-aeb 46004 b 5 db
+uuid: 56f83743-352a-4ade-9a62-aeb46004b5db
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,7 +13,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Incrustar encuestas en comentarios{#embed-polls-in-comments}
 
-Incruste encuestas en el flujo de blogs o en el blog activo.
+Incrustar encuestas en el flujo de comentarios o de blogs en directo.
 
-1. Desde la página Administrador de aplicaciones de Studio, haga clic en el **[!UICONTROL </>]** botón (incrustar) para generar un código incrustado para la encuesta.
-1. Copie y pegue el código incrustado en **[!UICONTROL Add Custom HTML]** el campo de la aplicación.
+1. En la página Administrador de aplicaciones de Studio, haga clic en el botón **[!UICONTROL </>]** (incrustar) para generar un código incrustado para la encuesta.
+1. Copie y pegue el código incrustado en el **[!UICONTROL Add Custom HTML]** campo de la aplicación.
