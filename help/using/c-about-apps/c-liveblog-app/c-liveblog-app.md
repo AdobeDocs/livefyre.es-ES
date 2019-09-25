@@ -1,31 +1,31 @@
 ---
-description: Live Blog permite que sus redactores y editores anuncien actualizaciones en tiempo real y transformen su sitio en una atractiva fuente de noticias activa.
-seo-description: Live Blog permite que sus redactores y editores anuncien actualizaciones en tiempo real y transformen su sitio en una atractiva fuente de noticias activa.
-seo-title: Blog activo
+description: Live Blog permite a sus escritores y editores publicar actualizaciones en tiempo real, transformando su sitio en una atractiva fuente de noticias en vivo.
+seo-description: Live Blog permite a sus escritores y editores publicar actualizaciones en tiempo real, transformando su sitio en una atractiva fuente de noticias en vivo.
+seo-title: Blog en vivo
 solution: Experience Manager
-title: Blog activo
-uuid: 40 ae 3120-c 630-440 e-b 224-49 cd 99677 dc 2
+title: Blog en vivo
+uuid: 40ae3120-c630-440e-b224-49cd9677dc2
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Blog activo{#live-blog}
+# Blog en vivo{#live-blog}
 
-Live Blog permite que sus redactores y editores anuncien actualizaciones en tiempo real y transformen su sitio en una atractiva fuente de noticias activa.
+Live Blog permite a sus escritores y editores publicar actualizaciones en tiempo real, transformando su sitio en una atractiva fuente de noticias en vivo.
 
-Las publicaciones de su equipo, enriquecidas con imágenes, vídeos, audio y contenido incrustado, se convierten en la fuente de conversaciones y hilos nuevos. Live Blog es perfecto cuando se implementa para mostrar productos, programas de premios y eventos deportivos.
+Las publicaciones de su equipo, enriquecidas con imágenes, vídeo, audio y contenido incrustado, se convierten en la fuente de nuevas conversaciones y conversaciones. Live Blog es perfecto cuando se implementa para revelaciones de productos, programas de premios y eventos deportivos.
 
 Live Blog es diferente de Comentarios de las siguientes maneras:
 
-* Solo los propietarios y moderadores pueden ver el cuadro de comentarios y crear anuncios de nivel superior.
-* Las respuestas del usuario pueden desactivarse para crear una experiencia solo de bloggers.
-* Los usuarios pueden escribir, cargar fotos o publicar vínculos incrustables desde sus equipos o dispositivos móviles.
-* La fuente de comentario es más grande y avatares son más pequeñas para resaltar el contenido.
-* Si lo desea, se pueden deshabilitar Avatars.
+* Solo los propietarios y los moderadores pueden ver el cuadro de comentarios y crear publicaciones de nivel superior.
+* Las respuestas de los usuarios pueden desactivarse para crear una experiencia de solo blogueros.
+* Los usuarios pueden escribir, cargar fotos o publicar vínculos incrustables desde su ordenador o dispositivo móvil.
+* La fuente de comentarios es más grande y los avatares son más pequeños para resaltar el contenido.
+* Los avatares pueden deshabilitarse si se desea.
 
-Con otra tormenta de nieve, Slate quería proporcionar a los lectores actualizaciones instantáneas sobre las muestras del clima comodín en la costa este. Con un blog activo, los editores Slate pudieron compartir instantáneamente actualizaciones sobre la tormenta, incluidas sus propias fotos, tweets de usuario e información sobre la nevada. El blog activo era tan útil que realizó la página principal del sitio de Slate.
+Con la llegada de otra tormenta de nieve, Slate quería proporcionar a los lectores actualizaciones instantáneas sobre los salvajes cambios climáticos en la costa este. Con un blog en vivo, los editores de Slate pudieron compartir instantáneamente actualizaciones sobre la tormenta, incluyendo sus propias fotos, tuits de usuarios e información sobre la nevada. El Live Blog fue tan útil que llegó a la primera página del sitio de Slate.
 
 ![](assets/LiveBlogSlate_example.png)
 
