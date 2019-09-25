@@ -1,10 +1,10 @@
 ---
-description: La aplicación Mapa ofrece estas funciones para su sitio.
-seo-description: La aplicación Mapa ofrece estas funciones para su sitio.
+description: La aplicación Map ofrece estas funciones para su sitio.
+seo-description: La aplicación Map ofrece estas funciones para su sitio.
 seo-title: Funciones de mapa
 solution: Experience Manager
 title: Funciones de mapa
-uuid: fdad 5 f 0 c -8292-4 f 59-bac 1-c 96 c 01 e 96 ff 5
+uuid: fdad5f0c-8292-4f59-bac1-c96c01e96ff5
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,11 +13,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Funciones de mapa{#map-features}
 
-La aplicación Mapa ofrece estas funciones para su sitio.
+La aplicación Map ofrece estas funciones para su sitio.
 
 
 
-* El contenido introduce el mapa en tiempo real.
-* El contenido del mismo área se agrupa y se puede ver en un modal de galería.
-* Acercar Mapa para centrarse en el contenido de áreas específicas.
+* El contenido entra en el mapa en tiempo real.
+* El contenido de la misma área se agrupa y se puede ver en un modo de galería.
+* Acerque el mapa para centrarse en el contenido de áreas específicas.
 
