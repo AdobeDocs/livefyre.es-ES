@@ -1,25 +1,25 @@
 ---
-description: Utilice Sidenotes para permitir que sus lectores comenten directamente con el contenido.
-seo-description: Utilice Sidenotes para permitir que sus lectores comenten directamente con el contenido.
-seo-title: Sidenotes
+description: Utilice Sidenotes para permitir que los lectores comenten directamente en línea con el contenido.
+seo-description: Utilice Sidenotes para permitir que los lectores comenten directamente en línea con el contenido.
+seo-title: Notas de identidad
 solution: Experience Manager
-title: Sidenotes
-uuid: 306294 e 9-1 b 4 e -44 cb-b 619-a 97840609 f 6 b b
+title: Notas de identidad
+uuid: 306294e9-1b4e-44cb-b619-a97840609f6b
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Sidenotes{#sidenotes}
+# Notas de identidad{#sidenotes}
 
-Utilice Sidenotes para permitir que sus lectores comenten directamente con el contenido.
+Utilice Sidenotes para permitir que los lectores comenten directamente en línea con el contenido.
 
-Los sidenos permiten a los usuarios resaltar y anotar pasajes directamente en línea con el contenido, creando un debate colaborativo y colaborativo dirigido a su sitio. Los lectores pueden relacionar cualquier parte de un artículo, de palabras individuales, a párrafos e imágenes. Sidenotes se puede compartir en Twitter y Facebook como un medio para atraer amigos, seguidores y expertos a la conversación. Los usuarios también pueden votar a Sidenotes para colocar el contenido más útil en la parte superior de la lista. (Sidenotes ordena contenido por votos del usuario, presentando notas con los votos más altos menos los totales en la parte superior de la lista).
+Las notas al pie de página permiten a los usuarios resaltar y anotar pasajes, directamente en línea con el contenido, creando una discusión atractiva y colaborativa dirigida a su sitio. Los lectores pueden notar cualquier parte de un artículo, desde palabras individuales hasta párrafos e imágenes. Las notas de identidad se pueden compartir en Twitter y Facebook como medio para llevar a amigos, seguidores y expertos a la conversación. Los usuarios también pueden aprobar Sidenotes, para colocar el contenido más útil en la parte superior de la lista. (Sidenotes ordena el contenido por votos de los usuarios, presentando las notas con la mayor cantidad de votos positivos menos el total de votos negativos en la parte superior de la lista).
 
-Para sidenote, haga clic en el icono que aparece al final de párrafos e imágenes, o resalte cualquier parte de un párrafo y haga clic en el icono «lápiz» que aparece. Al resaltar una sección del artículo, también puede compartirla en Facebook y Twitter.
+Para crear una nota secundaria, haga clic en el icono que aparece al final de los párrafos y las imágenes, o resalte cualquier parte de un párrafo y haga clic en el icono "lápiz" que aparece. Cuando se resalta una sección del artículo, también se puede compartir en Facebook y Twitter.
 
 >[!NOTE]
 >
->En dispositivos móviles, el modo horizontal no es compatible y los Sidenotes solo se pueden escribir en párrafos, y no en fragmentos de texto individuales.
+>En los dispositivos móviles, el modo horizontal no es compatible y las notas de identidad solo se pueden escribir para párrafos y no para fragmentos de texto individuales.
 
