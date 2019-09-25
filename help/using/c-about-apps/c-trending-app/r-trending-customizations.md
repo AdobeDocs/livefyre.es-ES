@@ -1,32 +1,32 @@
 ---
-description: Cambie las opciones de tamaño, ancho e interacción de la aplicación Mapa.
-seo-description: Cambie las opciones de tamaño, ancho e interacción de la aplicación Mapa.
-seo-title: Tendencias de personalización
+description: Cambie el tamaño, el ancho y las opciones de interacción de la aplicación de mapa.
+seo-description: Cambie el tamaño, el ancho y las opciones de interacción de la aplicación de mapa.
+seo-title: Tendencias de personalizaciones
 solution: Experience Manager
-title: Tendencias de personalización
-uuid: 4 dc 58 d 90-8924-4 c 89-8 f 2 a -650 ac 6 e 0538 a
+title: Tendencias de personalizaciones
+uuid: 4dc58d90-8924-4c89-8f2a-650ac6e0538a
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Tendencias de personalización{#trending-customizations}
+# Tendencias de personalizaciones{#trending-customizations}
 
-Cambie las opciones de tamaño, ancho e interacción de la aplicación Mapa.
+Cambie el tamaño, el ancho y las opciones de interacción de la aplicación de mapa.
 
-| Sitio | Ingrese el sitio desde el cual se seleccionarán las aplicaciones de tendencias. |
+| Sitio | Escriba el sitio desde el cual se seleccionarán las aplicaciones de tendencias. |
 |---|---|
-| Filtrar por etiqueta de aplicación | Introduzca un **[!UICONTROL App Tag]** valor por el cual se filtrarán las tendencias, si lo desea. Utilice Etiquetas de aplicación para definir aplicaciones específicas que desee incluir en Tendencias. Solo puede introducir una etiqueta en este campo. |
-| Recuento de aplicaciones | Introduzca el número de aplicaciones (más activas) que se mostrarán. |
-| Incluir gráfico de barras | Si está activada, la aplicación mostrará los gráficos de barras con la lista Aplicaciones. |
-| Permalinks de aplicación | Si se habilita, al hacer clic en el título de una aplicación se abrirá en una ficha nueva. |
+| Filtrar por etiqueta de aplicación | Especifique un **[!UICONTROL App Tag]** filtro según el cual se filtrarán las tendencias, si lo desea. Utilice las etiquetas de la aplicación para definir las aplicaciones específicas que desee incluir en las tendencias. En este campo solo puede introducir una etiqueta. |
+| Recuento de aplicaciones | Introduzca el número de aplicaciones (más activas) que se van a mostrar. |
+| Incluir gráfico de barras | Si está activada, la aplicación mostrará gráficos de barras con la lista Aplicaciones. |
+| Vínculos permanentes de la aplicación | Si está activada, al hacer clic en el título de una aplicación se abrirá en una nueva ficha. |
 
-Las aplicaciones de tendencias permiten exhibir las aplicaciones más activas en un sitio determinado mostrando las principales aplicaciones de la mayoría a menos activas, con un gráfico de barras que muestra la popularidad relativa de cada aplicación mostrada.
+Las aplicaciones de tendencias permiten mostrar las aplicaciones más activas de un sitio determinado mostrando las principales aplicaciones de la mayoría a la menos activas, con un gráfico de barras que muestra la popularidad relativa de cada aplicación.
 
-Puede personalizar comentarios utilizando:
+Puede personalizar los comentarios mediante:
 
-* **[!UICONTROL Style]** y **[!UICONTROL Config]** opciones para todas las aplicaciones del **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en **[!UICONTROL App Designer]** la.
+* **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de la **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de la **[!UICONTROL App Designer]**.
 
-* Herramientas de integración. Consulte Tendencias para obtener más información sobre cómo personalizar aplicaciones mediante herramientas de integración.
+* Herramientas de integración. Consulte Tendencias para obtener más información sobre cómo personalizar aplicaciones mediante las herramientas de integración.
 
