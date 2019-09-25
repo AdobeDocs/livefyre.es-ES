@@ -1,23 +1,23 @@
 ---
-description: Utilice eventos de Javascript para detectar eventos que ocurren en un muro de medios y enviarlos a la herramienta de análisis que elija.
-seo-description: Utilice eventos de Javascript para detectar eventos que ocurren en un muro de medios y enviarlos a la herramienta de análisis que elija.
-seo-title: Eventos de javascript para muro de medios
+description: Utilice eventos de Javascript para detectar eventos que se produzcan en un muro multimedia y enviarlos a la herramienta de análisis que desee.
+seo-description: Utilice eventos de Javascript para detectar eventos que se produzcan en un muro multimedia y enviarlos a la herramienta de análisis que desee.
+seo-title: Eventos de Javascript para Media Wall
 solution: Experience Manager
-title: Eventos de javascript para muro de medios
-uuid: 8 afc 0529-4640-476 a-b 207-91 b 2 c 70101 f 0
+title: Eventos de Javascript para Media Wall
+uuid: 8afc0529-4640-476a-b207-91b2c70101f0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Eventos de javascript para muro de medios{#javascript-events-for-media-wall}
+# Eventos de Javascript para Media Wall{#javascript-events-for-media-wall}
 
-Utilice eventos de Javascript para detectar eventos que ocurren en un muro de medios y enviarlos a la herramienta de análisis que elija.
+Utilice eventos de Javascript para detectar eventos que se produzcan en un muro multimedia y enviarlos a la herramienta de análisis que desee.
 
-Livefyre proporciona eventos de JavaScript para rastrear la actividad de los usuarios en sus aplicaciones de Livefyre. Por ejemplo, puede que desee actualizar la página cuando los usuarios hagan &quot;Me gusta&quot; o compartir contenido en Twitter o Facebook, o cuando se publique contenido nuevo.
+Livefyre proporciona eventos de JavaScript para rastrear la actividad de los usuarios en sus aplicaciones de Livefyre. Por ejemplo, puede que desee actualizar la página cuando los usuarios quieran o compartan contenido en Twitter o Facebook, o cuando se publique nuevo contenido.
 
-Este es un ejemplo de cómo recibir los eventos. Sustituya `console.log` por su código para asignar y enviar el evento a su integración de Analytics (Administración dinámica de etiquetas, JS de Adobe Analytics, Google Analytics, etc.):
+Este es un ejemplo de cómo recibir los eventos. Reemplace `console.log` con su código para asignar y enviar el evento a su integración de análisis (Administración dinámica de etiquetas, Adobe Analytics JS, Google Analytics, etc.):
 
 ```
 document.body.addEventListener('insights', function (data) { 
@@ -25,22 +25,22 @@ document.body.addEventListener('insights', function (data) {
 });
 ```
 
-Lista de eventos de muro de medios admitidos:
+Lista de eventos de Media Wall admitidos:
 
 ## Eventos de muro de medios
 
 | Evento | Definición |
 |---|---|
 | `Init` | Cuando se incluye un muro de medios en una página. |
-| `Load` | Cuando se cargó el muro de medios en una página, independientemente de su posición. |
-| `PostButtonClick` | Cuando un usuario hace clic en un botón de carga en un muro de medios. |
-| `RequestMore` | Cuando el usuario carga más contenido en un muro de medios. |
+| `Load` | Cuando se cargó el Muro de medios en una página independientemente de su posición. |
+| `PostButtonClick` | Cuando un usuario hace clic en un botón de carga en un muro multimedia. |
+| `RequestMore` | Cuando el usuario carga más contenido en un muro multimedia. |
 | `TwitterReplyClick` | Cuando un usuario hace clic en el botón Respuesta de Twitter desde el Muro de medios. |
 | `TwitterRetweetClick` | Cuando un usuario hace clic en el botón Retweet de Twitter desde el Muro de medios. |
-| `TwitterLikeClick` | Cuando un usuario hace clic en el botón &quot;Me gusta&quot;/&quot;Me gusta&quot; de Twitter desde el muro de medios. |
-| `ModalView` | Cuando el usuario hace clic para ver el contenido de Muro de medios en una ventana modal más grande. |
-| `Like` | Cuando un usuario hace clic en el botón &quot;Me gusta&quot; desde el Muro de medios. |
-| `ShareButtonClick` | Cada vez que un usuario hace clic en el botón Compartir en una tarjeta de muro de medios. |
-| `ShareURL` | Cuando el área de texto Compartir con URL está seleccionada o copiada desde el Muro de medios. |
-| `ShareFacebook` | Cuando se hace clic en Compartir en Facebook desde el Muro de medios. |
-| `ShareTwitter` | Cuando se hace clic en Compartir en Twitter, se hace clic en el muro de medios. |
+| `TwitterLikeClick` | Cuando un usuario hace clic en el botón Me gusta/Favorito de Twitter desde el Muro de medios. |
+| `ModalView` | Cuando el usuario hace clic para ver el contenido de Media Wall en una ventana modal más grande. |
+| `Like` | Cuando un usuario hace clic en el botón "Me gusta" desde el Muro de medios. |
+| `ShareButtonClick` | Cada vez que un usuario hace clic en el botón Compartir de una tarjeta de Media Wall. |
+| `ShareURL` | Cuando se selecciona o copia el área de texto Compartir con URL desde el Muro de medios. |
+| `ShareFacebook` | Cuando se hace clic en Compartir en Facebook desde el muro de medios. |
+| `ShareTwitter` | Cuando se hace clic en Compartir en Twitter desde el muro de medios. |
