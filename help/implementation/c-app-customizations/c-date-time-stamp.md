@@ -1,39 +1,39 @@
 ---
-description: Personalice las marcas de fecha y hora usando Livefyre. js.
-seo-description: Personalice las marcas de fecha y hora usando Livefyre. js.
-seo-title: Personalizar la marca de fecha y hora
+description: Personalice las marcas de fecha y hora con Livefyre.js.
+seo-description: Personalice las marcas de fecha y hora con Livefyre.js.
+seo-title: Personalización de la marca de fecha y hora
 solution: Experience Manager
-title: Personalizar la marca de fecha y hora
-uuid: 632 ea 405-56 b 7-4664-8 d 2 b -0 dd 0 a 7611 bd 8
+title: Personalización de la marca de fecha y hora
+uuid: 632ea405-56b7-4664-8d2b-0dd0a7611bd8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Personalizar la marca de fecha y hora{#customize-the-date-and-time-stamp}
+# Personalización de la marca de fecha y hora{#customize-the-date-and-time-stamp}
 
-Personalice las marcas de fecha y hora usando Livefyre. js.
+Personalice las marcas de fecha y hora con Livefyre.js.
 
-Las aplicaciones de Livefyre proporcionan el parámetro de opción datetimeformat para especificar el formato de fecha como se describe a continuación.
+Las aplicaciones de Livefyre proporcionan el parámetro de opción, datetimeFormat, para especificar el formato de fecha como se describe a continuación.
 
 * [Terminología](#c_date_time_stamp/section_xsk_jn4_xz)
 * [Formato](#c_date_time_stamp/section_ynx_gn4_xz)
-* [Designación de símbolos](#c_date_time_stamp/section_inq_2n4_xz)
+* [Designación de símbolo](#c_date_time_stamp/section_inq_2n4_xz)
 
 ## Terminología {#section_xsk_jn4_xz}
 
-* **Las marcas de hora absolutas** se definen como horas exactas y específicas (p. ej., 1 de enero de 2012 a las 12:00)
-* **Las marcas de hora relativas** se definen como tiempos generales y menos precisos (por ejemplo, hace 25 segundos, hace 14 minutos, hace 1 día, 1 año atrás, etc.)
+* **Las Marcas de hora** absolutas se definen como horas exactas y específicas (por ejemplo: 1 de enero de 2012 a las 12:00 p.m.)
+* **Las marcas de hora** relativas se definen como horas generales y menos precisas (por ejemplo, hace 25 segundos, hace 14 minutos, hace un día, hace un año, etc.)
 
 ## Formato {#section_ynx_gn4_xz}
 
-El parámetro datetimeformat tiene el siguiente comportamiento predeterminado cuando no se proporciona ningún argumento:
+El parámetro datetimeFormat tiene el siguiente comportamiento predeterminado cuando no se proporciona ningún argumento:
 
-* Formato de fecha de envío de: MMMM d aaaa (para el 8 de enero de 2012)
-* 20160 minutos (14 días) hasta un tiempo absoluto (14 días hasta que las marcas de hora relativas pasan a ser marcas de hora absolutas)
+* Formato de fecha y hora de: MMMM d aaaa (para el 8 de enero de 2012)
+* 20160 minutos (14 días) hasta el tiempo absoluto (14 días hasta que las marcas de hora relativas se conviertan en marcas de hora absolutas)
 
-El parámetro datetimeformat acepta tres posibles tipos de argumento: datetime, format y string.
+El parámetro datetimeFormat acepta tres tipos de argumento posibles: datetime, format y string.
 
 ```
 // Example 1 (Datetime format string)  
@@ -48,7 +48,7 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-Objeto que especifica absoluteformat y/o minutesuntilabsolutetime. A minutesuntilabsolutetime con un valor de -1 hará que el tiempo absoluto sea inmediato.
+Objeto que especifica AbsoluteFormat y/o minutesUntilAbsoluteTime. Un valor de minutosHastaAbsoluteTime con un valor de -1 hará que el tiempo sea absoluto de forma inmediata.
 
 ```
 // Example 2 (Object)  
@@ -66,7 +66,7 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-Una función que toma como argumento un objeto Date y devuelve una cadena de fecha y hora que se mostrará
+Una función que toma como argumento un objeto Date y devuelve una cadena datetime para que se muestre
 
 ```
 // Example 3 (Function accepting a Date object, returning a datetime string to display) 
@@ -83,9 +83,9 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-## Designación de símbolos {#section_inq_2n4_xz}
+## Designación de símbolo {#section_inq_2n4_xz}
 
-Las funciones de formato de datetime siguen la especificación de patrón definida en JDK, ICU y CLDR, con una modificación menor para el uso habitual en JS. Para obtener más información, consulte la Documentación de la biblioteca de cierres [de Google](https://developers.google.com/closure/library/docs/overview).
+Funciones de formato de fecha y hora siguiendo la especificación de patrón definida en JDK, ICU y CLDR, con pequeñas modificaciones para uso típico en JS. Para obtener más información, consulte la documentación [de la biblioteca de cierre de](https://developers.google.com/closure/library/docs/overview)Google.
 
 ```
   Symbol Meaning Presentation        Example 
@@ -119,14 +119,14 @@ Las funciones de formato de datetime siguen la especificación de patrón defini
   ''       single quote            (Literal)           'o''clock'
 ```
 
-Los elementos marcados con &#39; *&#39; aún no son compatibles.
+Los elementos marcados con ‘*’ todavía no son compatibles.
 
-Los elementos marcados con &#39; #&#39; funcionan de forma diferente a Java.
+Los elementos marcados con ‘#’ funcionan de forma distinta a Java.
 
-El recuento de las letras patrón determina el formato.
+El recuento de letras de patrón determina el formato.
 
-* **Texto:** 4 o más, utilice el formulario completo. Si hay menos de 4, utilice un formulario abreviado o abreviado si existe. (Por ejemplo: «EEEE» produce «Lunes», «EEE» produce «Mon».)
-* **Número:** el número mínimo de dígitos. Los números más cortos se rellena con cero a esta cantidad (por ejemplo: Si «m» produce «6», «mm» produce «06».) Año se administra especialmente; es decir, si el recuento de&#39;y&#39;es 2, el año se truncará a 2 dígitos. (Por ejemplo: si «aaaa» produce «1997», «aa» produce «97».) A diferencia de otros campos, los segundos fraccionarios se rellenan a la derecha con cero.
-* **Texto y número:** 3 o sobre, utilice texto. Menor que 3, utilice número. (Por ejemplo: «M» produce «1», «MM» produce «01», «MMM» produce «Jan» y «MMMM» produce «Enero».)
+* **** Texto: 4 o más, utilice el formulario completo. Menos de 4, utilice un formato corto o abreviado si existe. (Por ejemplo: "EEEE" produce "lunes", "EEE" produce "Mon").
+* **** Número: el número mínimo de dígitos. Los números más cortos se rellenan con cero a esta cantidad (por ejemplo: Si "m" produce "6", "mm" produce "06".). El año se manipula especialmente; es decir, si el recuento de ‘y’ es 2, el año se truncará a 2 dígitos. (Por ejemplo: si "aaaa" produce "1997", "yy" produce "97".) A diferencia de otros campos, los segundos de fracción se rellenan a la derecha con cero.
+* **** Texto y número: 3 o superior, utilice texto. Número de uso inferior a 3. (Por ejemplo: "M" produce "1", "MM" produce "01", "MMM" produce "Jan" y "MMMM" produce "January".)
 
-Cualquier carácter del patrón que no esté en los rangos de [&#39;a &#39;. &#39;&#39;z&#39;] y [&#39;A &#39;. &#39;&#39;Z&#39;] se tratará como texto citado. Por ejemplo, caracteres como &#39;: &#39;,&#39;. &#39;,&#39;&#39;,&#39; #&#39; y &#39; @&#39; aparecerán en el texto de hora resultante incluso aunque no estén incluidos dentro de comillas simples.
+Cualquier carácter del patrón que no esté en los rangos de ["a"...".z’] y ["A".."Z’] se tratará como texto entre comillas. Por ejemplo, caracteres como ‘:’, ‘.’, ‘, ‘#’ y ‘@’ aparecerán en el texto de tiempo resultante aunque no se acepten entre comillas simples.
