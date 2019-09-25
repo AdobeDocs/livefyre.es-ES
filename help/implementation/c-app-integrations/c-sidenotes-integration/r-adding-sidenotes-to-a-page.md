@@ -1,76 +1,76 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Adición de sidenotes a una página
+seo-title: Adición de notas a una página
 solution: Experience Manager
-title: Adición de sidenotes a una página
-uuid: 6499 c 45 a -3773-4 adb-a 6 c 7-22 a 628309 afd
+title: Adición de notas a una página
+uuid: 6499c45a-3773-4adb-a6c7-22a628309afd
 translation-type: tm+mt
 source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
 
 ---
 
 
-# Adición de sidenotes a una página {#adding-sidenotes-to-a-page}
+# Adición de notas a una página {#adding-sidenotes-to-a-page}
 
 Livefyre proporciona varias opciones de configuración para colocar Sidenotes en la página:
 
-* La opción Selectores define los elementos en los que debe aparecer Sidenotes.
-* Los anclajes representan elementos que se pueden transferir.
-* El contenedor de subprocesos personalizado permite definir dónde se ubicará el subproceso Sidenotes en relación con el contenido que se ha cambiado.
-* La opción de recuento Sidenotes permite mostrar el número de Sidenotes agregados en la ubicación dada.
-* Utilice varios `ConvConfig` objetos para agregar Sidenotes a varios artículos en una sola página.
+* La opción Selectores define los elementos en los que deben aparecer las notas de identidad.
+* Los delimitadores representan elementos que se pueden colocar en el lateral.
+* El contenedor de subprocesos personalizado permite definir dónde se ubicará el subproceso Sidenotes en relación con el contenido especificado por el usuario.
+* La opción Recuento de Sidenotes permite mostrar el número de Sidenotes agregados en una ubicación determinada.
+* Utilice varios `ConvConfig` objetos para añadir notas de identidad a varios artículos de una sola página.
 
 ## Selectores {#section_wyj_4sv_sy}
 
-La opción Selectores permite a Sidenotes buscar contenido en la página. El valor de esta opción permite determinar dinámicamente los elementos que se utilizarán. Puede ser una cadena de selector (como &#39; # content p, # content img &#39;), un objeto jquery (como `$(‘#content’)`), una matriz de elementos DOM o un objeto con dos propiedades: incluir y excluir. La aplicación Sidenotes utilizará, a continuación, los elementos especificados o los elementos coincidentes de la página. Si se utilizan propiedades de inclusión y exclusión, Sidenotes primero analizará la página para encontrar todos los elementos de la propiedad include y, a continuación, eliminará los elementos encontrados en la propiedad exclude.
+La opción de selectores permite que las notas de identidad encuentren contenido en la página. El valor de esta opción le permite determinar dinámicamente los elementos que se utilizarán. Puede ser una cadena de selector (como ‘#content p, #content img’), un objeto jQuery (como `$(‘#content’)`), una matriz de elementos DOM o un objeto con dos propiedades: incluir y excluir. La aplicación Sidenotes utilizará los elementos especificados o los elementos coincidentes de la página. Si se utilizan las propiedades de inclusión y exclusión, Sidenotes analizará primero la página para buscar todos los elementos de la propiedad de inclusión y, a continuación, eliminará los elementos encontrados en la propiedad de exclusión.
 
 ## Anclajes {#section_ehq_psv_sy}
 
-Los anclajes representan un elemento cuyo contenido se puede transferir. Un elemento delimitador puede contener texto o una imagen. La opción de selectores que se pasa durante la construcción de la aplicación determinará los elementos delimitadores.
+Los delimitadores representan un elemento cuyo contenido se puede colocar en la ubicación remota. Un elemento de anclaje puede contener texto o una imagen. La opción de selectores que se pasa durante la construcción de la aplicación determinará los elementos de anclaje.
 
-## ID de anclaje {#section_rsb_rsv_sy}
+## ID de delimitador {#section_rsb_rsv_sy}
 
-Los anclajes de la página se identifican usando `data-lf-anchor-id`un.
+Los delimitadores de la página se identifican mediante un `data-lf-anchor-id`.
 
-Para configurar el ID de un anclaje usted mismo, agregue el atributo `data-lf-custom-anchor-id` al elemento que desee asignar a un anclaje. Esto resulta útil en casos en los que la detección automática de los anclajes podría fallar.
+Para configurar el ID de un anclaje usted mismo, agregue el atributo `data-lf-custom-anchor-id` al elemento que desea asignar a un anclaje. Esto resulta útil en casos en los que la detección automática de anclajes podría fallar.
 
-Por ejemplo, si planea utilizar una URL diferente para las versiones de escritorio y móviles de una imagen, dos URL diferentes pueden asignarse a diferentes delimitadores. Si, en su lugar, el HTML proporciona una `data-lf-custom-anchor-id` misma función tanto en dispositivos móviles como en escritorio, el elemento de imagen se tratará como un anclaje único.
+Por ejemplo, si planea utilizar una dirección URL diferente para las versiones de escritorio y móvil de una imagen, es posible que se asignen dos direcciones URL diferentes a distintos anclajes. Si, en su lugar, el HTML proporciona un elemento `data-lf-custom-anchor-id` que es el mismo tanto en dispositivos móviles como de escritorio, el elemento de imagen se tratará como un solo anclaje.
 
-Los anclajes tienen un tipo determinado dinámicamente, pero también se pueden establecer explícitamente con `data-lf-custom-anchor-type` el atributo.
+Los delimitadores tienen un tipo que se determina dinámicamente, pero también se puede establecer explícitamente mediante el `data-lf-custom-anchor-type` atributo .
 
 >[!NOTE]
 >
->Se debe utilizar el valor de número de enumeración.
+>Se debe utilizar el valor del número de enumeración.
 
 Los tipos disponibles son:
 
-* **Texto:** 1
-* **Imagen:** 2
-* **Medios:** 3
-* **Rich:** 4
+* **** Texto: 1
+* **** Imagen: 2
+* **** Medios: 3
+* **** Enriquecido: 4
 
-Consulte [Método updateanchors](/help/implementation/c-app-integrations/c-sidenotes-integration/update-anchors-method.md) para obtener más información sobre cómo utilizar `updateAnchors` el método para añadir contenido Sidenote a la página dinámicamente.
+Consulte [el método](/help/implementation/c-app-integrations/c-sidenotes-integration/update-anchors-method.md) updateAnchors para obtener más información sobre cómo utilizar el `updateAnchors` método para añadir contenido de Sidenote a la página de forma dinámica.
 
-## Contenedor de subprocesos personalizados {#section_jdh_btv_sy}
+## Contenedor de subproceso personalizado {#section_jdh_btv_sy}
 
-Utilice `threadContainerEl` la opción para especificar una ubicación para un subproceso Sidenotes, aparte de la posición predeterminada. De forma predeterminada, cuando se activa un anclaje, los Sidenotes aparecerán junto o debajo del contenido relevante. Para cambiar este valor predeterminado, utilice `threadContainerEl` para especificar el elemento donde debería aparecer el hilo.
+Utilice la `threadContainerEl` opción para especificar una ubicación para un subproceso Sidenotes, que no sea la posición predeterminada. De forma predeterminada, cuando se activa un anclaje, las Notas de identidad aparecerán junto o debajo del contenido relevante. Para cambiar este valor predeterminado, utilice `threadContainerEl` para especificar el elemento en el que debe aparecer el subproceso.
 
-Este valor de esta opción funciona igual que la opción selectores, excepto que se utilizará sólo el primer elemento válido.
+Este valor para esta opción funciona igual que la opción de selectores, excepto que solo se utilizará el primer elemento válido.
 
-## Recuento de Sidenotes {#section_pld_ntv_sy}
+## Recuento de similitudes {#section_pld_ntv_sy}
 
-Utilice `numSidenotesEl` la opción para incrustar un widget de recuento Sidenotes opcional en la página. Esta opción acepta la misma entrada que la opción selectores pero solo utilizará el primer elemento válido en la matriz de entrada.
+Utilice la `numSidenotesEl` opción para incrustar un widget de recuento de Sidenotes opcional en la página. Esta opción acepta la misma entrada que la opción de selectores, pero solo usará el primer elemento válido en la matriz de entrada.
 
-La utilidad decorará el elemento proporcionado o coincidente, e incluirá el icono de entrada Sidenotes, el número de Sidenotes ingresado en esta posición y un icono de ayuda.
+La utilidad decorará el elemento proporcionado o coincidente e incluirá el icono de entrada Notas de identidad, el número de Notas de identidad introducidas en esta posición y un icono de ayuda.
 
 Al hacer clic en la utilidad se mostrará una ventana emergente con una breve explicación de Sidenotes y cómo utilizarlos.
 
-Tanto la explicación como el texto de ejemplo se pueden configurar usando cadenas personalizadas ( `questionExplanation` y `questionMockText`, respectivamente). La apariencia del widget de recuento y la ventana emergente también se pueden configurar usando estilos personalizados ( `numSidenotes` y `numSidenotesPopover`, respectivamente).
+Tanto la explicación como el texto de ejemplo se pueden configurar mediante cadenas personalizadas ( `questionExplanation` y `questionMockText`, respectivamente). El aspecto del widget de recuento y la ventana emergente también se pueden configurar con estilos personalizados ( `numSidenotes` y, `numSidenotesPopover`, respectivamente).
 
-## Adición de colecciones múltiples a una sola página {#section_pjl_ptv_sy}
+## Adición de varias colecciones de segmentos a una sola página {#section_pjl_ptv_sy}
 
-Livefyre le permite añadir varias colecciones Sidenotes a una sola página. Por ejemplo, si la página incluye tres artículos de noticias, es posible que desee incluir tres repeticiones independientes de la aplicación Sidenotes. Para ello, debe definir un objeto independiente `ConvConfig` para cada instancia de Sidenotes que desee crear. Por ejemplo:
+Livefyre permite agregar varias colecciones Sidenotes a una sola página. Por ejemplo: si la página incluye tres artículos de noticias, es posible que desee incluir tres iteraciones distintas de la aplicación Sidenotes. Para ello, debe definir un `ConvConfig` objeto independiente para cada instancia de Sidenotes que desee crear. Por ejemplo:
 
 ```
 <html> 
