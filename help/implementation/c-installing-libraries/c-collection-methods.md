@@ -1,32 +1,32 @@
 ---
-description: Para actualizar los datos de la colección, modifique el contenido de los métodos de objeto de clase Collection.
-seo-description: Para actualizar los datos de la colección, modifique el contenido de los métodos de objeto de clase Collection.
-seo-title: Métodos de la clase Collection
+description: Para actualizar los datos de la colección, modifique el contenido de los métodos del objeto de clase Collection.
+seo-description: Para actualizar los datos de la colección, modifique el contenido de los métodos del objeto de clase Collection.
+seo-title: Métodos de clase de colección
 solution: Experience Manager
-title: Métodos de la clase Collection
-uuid: fd 3163 c 6-981 f -44 b 3-a 7 ba -6 b 4 e 85 b 0830 d
+title: Métodos de clase de colección
+uuid: fd3163c6-981f-44b3-a7ba-6b4e85b0830d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Métodos de la clase Collection{#collection-class-methods}
+# Métodos de clase de colección{#collection-class-methods}
 
-Para actualizar los datos de la colección, modifique el contenido de los métodos de objeto de clase Collection.
+Para actualizar los datos de la colección, modifique el contenido de los métodos del objeto de clase Collection.
 
-Consulte los métodos de clase Site para obtener instrucciones sobre cómo crear un objeto Collection. El resto de la página asumirá que tiene un objeto Collection creado en la sesión.
+Consulte los métodos de la clase Site para obtener instrucciones sobre cómo crear un objeto Collection. El resto de la página supondrá que tiene un objeto Collection creado mediante una instancia en la sesión.
 
-* [Createorupdate Collection Method](#r_createorupdate_collection_method)
-* [Generdcollectionmetatoken Collection Method](#r_buildcollectionmetatoken_collection_method)
-* [Método de colección buildchecksum](#r_buildchecksum_collection_method)
-* [Getcollectioncontent Collection Method](#t_getcollectioncontent_collection_method)
-* [Geturn Collection Method](#r_geturn_collection_method)
+* [createOrUpdate (método de recopilación)](#r_createorupdate_collection_method)
+* [buildCollectionMetaToken (método de recopilación)](#r_buildcollectionmetatoken_collection_method)
+* [buildChecksum (método de recopilación)](#r_buildchecksum_collection_method)
+* [getCollectionContent (método de recopilación)](#t_getcollectioncontent_collection_method)
+* [getUrn (método de recopilación)](#r_geturn_collection_method)
 
 Cada uno de estos métodos está disponible para los siguientes tipos de código:
 
 * Java
-* Nodejs
+* NodeJS
 * PHP
 * Python
 * Ruby
