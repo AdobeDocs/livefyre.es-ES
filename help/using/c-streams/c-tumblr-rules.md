@@ -1,33 +1,33 @@
 ---
 description: Puede crear reglas de flujo que extraigan contenido de Tumblr.
 seo-description: Puede crear reglas de flujo que extraigan contenido de Tumblr.
-seo-title: Reglas Tumblr
+seo-title: Reglas de Tumblr
 solution: Experience Manager
-title: Reglas Tumblr
-uuid: fe 9601 ab-aa 5 e -48 c 6-a 5 bf -5543 c 179 cb 90
+title: Reglas de Tumblr
+uuid: fe9601ab-aa5e-48c6-a5bf-5543c179cb90
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Reglas Tumblr{#tumblr-rules}
+# Reglas de Tumblr{#tumblr-rules}
 
 Puede crear reglas de flujo que extraigan contenido de Tumblr.
 
-Cree reglas Tumblr basadas en un blog Tumblr y filtre por etiqueta. Los flujos Tumblr se actualizan cada 5 minutos, buscando contenido que no existe en Livefyre desde los primeros 20 elementos de la fuente. Livefyre ignora todos los primeros 20 elementos de la fuente.
+Cree reglas de Tumblr basadas en un blog de Tumblr y filtradas por etiqueta. Los flujos de Tumblr se actualizan cada 5 minutos, buscando contenido que no existe en Livefyre desde los primeros 20 elementos de la fuente. Livefyre ignora todo lo que haya pasado de los primeros 20 elementos de la fuente.
 
-Para crear reglas Tumblr para extraer contenido de Tumblr a su aplicación o carpeta, puede filtrar por:
+Para crear reglas de Tumblr para extraer contenido de Tumblr a su aplicación o carpeta, puede filtrar por:
 
 * **[!UICONTROL Blog]**
 
-   * Introduzca el **[!UICONTROL Blog Name]** para el blog Tumblr. Introduzca la dirección URL (*staff.tumblr.com*) o el nombre del blog (*personal*).
+   * Entre en el **[!UICONTROL Blog Name]** para el blog de Tumblr. Introduzca la dirección URL (*staff.tumblr.com*) o el nombre del blog (*staff*).
 
-   * Incluya hasta uno **[!UICONTROL Tag]** para filtrar los resultados por anuncios que incluyan una etiqueta determinada.
+   * Incluya hasta uno **[!UICONTROL Tag]** para filtrar los resultados por anuncios, incluida una etiqueta determinada.
 
 * **[!UICONTROL Include recent items.]** Si se establece en:
 
-   * **[!UICONTROL Enabled]**, Livefyre agrega los primeros 20 elementos de contenido de la fuente al flujo, independientemente de la fecha de publicación.
-   * **[!UICONTROL Disabled]**, Livefyre agrega los primeros 20 elementos de contenido de la fuente al flujo con una fecha de publicación que es la misma que la fecha de creación de regla de flujo o posterior.
+   * **[!UICONTROL Enabled]**, Livefyre agrega los 20 primeros elementos de contenido de la fuente al flujo, independientemente de la fecha de publicación.
+   * **[!UICONTROL Disabled]**, Livefyre agrega los 20 primeros elementos de contenido de la fuente al flujo con una fecha de publicación que coincide con la fecha de creación de la regla de flujo o posterior.
 
-Para obtener más opciones de reglas de flujo para todas las reglas de flujo, consulte [Opciones de regla de flujo para todas las reglas de flujo](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
+Para obtener opciones de regla de flujo adicionales para todas las reglas de flujo, consulte Opciones de regla [de flujo para todas las reglas](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)de flujo.
