@@ -1,29 +1,29 @@
 ---
 description: Vea los detalles del contenido para recopilar más información sobre un fragmento de contenido antes de publicarlo.
 seo-description: Vea los detalles del contenido para recopilar más información sobre un fragmento de contenido antes de publicarlo.
-seo-title: Ver detalles de contenido
-title: Ver detalles de contenido
-uuid: bca 8 dcb 7-31 d 6-475 c -9898-1 b 6436 d 2457 d
+seo-title: Ver detalles del contenido
+title: Ver detalles del contenido
+uuid: bca8dcb7-31d6-475c-9898-1b6436d2457d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Ver detalles de contenido{#view-content-details}
+# Ver detalles del contenido{#view-content-details}
 
 Vea los detalles del contenido para recopilar más información sobre un fragmento de contenido antes de publicarlo.
 
-Pase el ratón sobre un fragmento de contenido devuelto y, a continuación, seleccione **[!UICONTROL View Details]** para ver más información para un recurso.
+Pase el ratón sobre un fragmento de contenido devuelto y, a continuación, seleccione **[!UICONTROL View Details]** para ver más información sobre un recurso.
 
-**[!UICONTROL Tweets]** mostrar:
+**[!UICONTROL Tweets]** display:
 
-* **[!UICONTROL Author information]**, incluyendo el nombre y el nombre de usuario del autor, su número de Publicaciones, Siguiente y Seguidores, su ubicación y sitio web (si están disponibles), la fecha en la que se creó la cuenta de Twitter y un vínculo al perfil de Twitter.
-* **[!UICONTROL Content information]**, incluido el origen, la fecha creada, el número de retweets y &quot;Me gusta&quot;.
+* **[!UICONTROL Author information]**, incluido el nombre y el nombre de usuario del autor, el número de publicaciones, seguimientos y seguidores, su ubicación y sitio web (si está disponible), la fecha en que se creó la cuenta de Twitter y un vínculo al perfil de Twitter.
+* **[!UICONTROL Content information]**, incluido el origen, la fecha de creación, el número de retweets y "Me gusta".
 
-**[!UICONTROL Instagram posts]** mostrar:
+**[!UICONTROL Instagram posts]** display:
 
-* **[!UICONTROL Author information]** incluyendo el nombre y el nombre de usuario del autor, su número de Publicaciones, Seguidores y Seguidores, su sitio web (si está disponible) y un vínculo para ver su perfil de Instagram.
-* **[!UICONTROL Content information]** incluyendo la fuente, la fecha creada, el número de &quot;Me gusta&quot; y Comentarios y el tamaño de la imagen.
+* **[!UICONTROL Author information]** incluido el nombre y el nombre de usuario del autor, el número de publicaciones, seguimientos y seguidores, su sitio web (si está disponible) y un vínculo para ver su perfil de Instagram.
+* **[!UICONTROL Content information]** incluido el origen, la fecha de creación, el número de "Me gusta" y comentarios y el tamaño de la imagen.
 
-El contenido ya guardado en la biblioteca de recursos muestra su ubicación dentro de la biblioteca y cualquier etiqueta o estrella que añada.
+El contenido ya guardado en la biblioteca de recursos muestra su ubicación dentro de la biblioteca y las etiquetas o estrellas que agregue.
