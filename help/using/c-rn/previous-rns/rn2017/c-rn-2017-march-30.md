@@ -3,44 +3,44 @@ description: Notas de la versión de la versión del 30 de marzo de 2017.
 seo-description: Notas de la versión de la versión del 30 de marzo de 2017.
 seo-title: 30 de marzo de 2017
 title: 30 de marzo de 2017
-uuid: 2 adf 04 a 9-6 c 52-4 fa 1-a 0 c 9-b 2 d 3886305 e 9
+uuid: 2adf04a9-6c52-4fa1-a0c9-b2d3886305e9
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
 ---
 
 
-# 30 de marzo de 2017{#march}
+# March 30, 2017{#march}
 
 Notas de la versión de la versión del 30 de marzo de 2017.
 
 ## Versión de producción
 
-| Tipo de problema | Componente | Versión de la versión |
+| Tipo de incidencia | Componente | Nota de versión |
 |---|---|---|
-| Error | Búsqueda social | Se ha corregido un error que impedía que los activos de Youtube guardados en la búsqueda social se publicaran. |
-| Mejora | Sincronización social | Sincronización social en desuso. |
-| Mejora | Storify 2 | Se agregó una mejora para mostrar el mensaje &quot;No se encontraron resultados&quot; en la búsqueda de temas de Facebook cuando no se encuentra ningún resultado. |
-| Mejora | Flujos | Se agregaron reglas de resumen para reglas seguras a la parte inferior de una página de flujo de Twitter. |
-| Error | Flujos | Se agregó una mejora para deshabilitar visiblemente la casilla de verificación «usuario verificado» en Reglas de flujo de Twitter cuando se proporcionan autores excluidos. |
-| Error | Flujos | Se ha corregido un error que permitía el uso de palabras clave de Anding y un filtro Location en una regla de Twitter. |
-| Error | Studio | Se ha corregido un error que impedía que la &quot;Etiqueta de función&quot; se guarde correctamente al aplicarse. |
+| Error, | Búsqueda social | Se ha corregido un error que impedía publicar los recursos guardados de YouTube en la búsqueda social. |
+| Mejora | Sincronización social | Sincronización social de Twitter obsoleta. |
+| Mejora | Storify 2 | Se agregó una mejora para mostrar el mensaje "No se encontraron resultados" en la búsqueda por temas de Facebook cuando no se encontraron resultados. |
+| Mejora | Flujos | Se agregaron reglas de resumen para reglas SAFE a la parte inferior de una página de flujo de Twitter. |
+| Error, | Flujos | Se ha añadido una mejora para deshabilitar de forma visible la casilla "Usuario verificado" en las reglas de flujo de Twitter cuando se proporcionan autores excluidos. |
+| Error, | Flujos | Se ha corregido un error que permitía el uso de palabras clave ANDing y un filtro de ubicación en una regla de Twitter. |
+| Error, | Studio | Se ha corregido un error que impedía que la "etiqueta de función" se guardara correctamente al aplicarla. |
 
 ## Versión de UAT
 
-| Tipo de problema | Componente | Versión de la versión |
+| Tipo de incidencia | Componente | Nota de versión |
 |---|---|---|
-| Error | Contenido de la aplicación | Se ha cambiado el comportamiento de &quot;Más información&quot; de modo que si hay varios eventos de indicador anónimo en un fragmento determinado, siempre se muestra el evento más temprano. |
-| Error | Biblioteca | Se ha corregido un error que provocaba que las búsquedas de Biblioteca con hashtags fallaran de forma intermitente. |
-| Error | Mapas | Se ha corregido un error en Mapas para admitir un gran número de contenido en clústeres en dispositivos iOS. |
-| Mejora | Mosaico | Se ha agregado la posibilidad de configurar las aplicaciones de mosaico para que hagan clic en cualquier parte de una tarjeta de contenido para abrir el modal por tipo `none` de animación en designer y `cardAnimation: 'off'`, si se crean instancias, en el SDK. |
-| Error | Mosaico | Se ha corregido un error que permitía a los usuarios realizar cambios en las aplicaciones de Mosaico en Designer. |
-| Mejora | Solicitud de derechos | Se ha agregado un nuevo estado de solicitud de derechos llamado &quot;Error de solicitud&quot; para resaltar cuando los mensajes de solicitud de derechos no se pueden enviar. |
-| Mejora | Configuración | Se ha agregado la capacidad de los clientes para crear reglas de moderación no deseadas en Ajustes. |
-| Mejora | Búsqueda social | Se ha corregido un error que impedía que las publicaciones VK.com se mostraran a través de Búsquedas de URL de URL. |
-| Mejora | Búsqueda social | Al buscar contenido de Instagram desde Studio, si la búsqueda se debe a un Token de API caducado caducado, el mensaje de error ahora se indica como tal. |
-| Error | Flujos | Se ha corregido un error que provocaba que una «aplicación no acepta contenido nuevo» banner se mostrara erróneamente en la parte superior de las páginas de reglas de flujo. |
-| Mejora | Flujos | Se modificó el valor predeterminado de las reglas de flujo creadas recientemente para aplicar reglas seguras cuando se aplica. |
-| Mejora | Flujos (anteriormente Reglas de depuración) | Se eliminó la opción &quot;Vines&quot; solo de las reglas de flujo/procesamiento de Twitter, ya que ahora se muestran Vines como vídeos de Twitter. |
-| Error | Shell de estudio | Se ha corregido un error para que Livefyre Studio se cargara si https:// se anteponía explícitamente a la URL. |
+| Error, | Contenido de la aplicación | Se ha cambiado el comportamiento de "Más información" de modo que, si hay varios eventos de indicador Anónimo en un determinado contenido, siempre se muestra el primer evento. |
+| Error, | Biblioteca | Se ha corregido un error que provocaba que las búsquedas de biblioteca con hashtags fallaran de forma intermitente. |
+| Error, | Mapas | Se ha corregido un error en los mapas para admitir un gran número de contenido en clústeres en dispositivos iOS. |
+| Mejora | Mosaico | Se ha agregado la capacidad de configurar aplicaciones de mosaico para que hagan clic en cualquier lugar de una tarjeta de contenido y así abrir el modal por tipo de animación `none` en designer y, `cardAnimation: 'off'`si se crean instancias de ellas a través del SDK. |
+| Error, | Mosaico | Se ha corregido un error que permitía a los usuarios realizar cambios correctamente en las aplicaciones de mosaico en Designer. |
+| Mejora | Solicitud de derechos | Se ha agregado un nuevo estado de solicitud de derechos denominado "Error de solicitud" para resaltar cuando no se pueden enviar los mensajes de solicitud de derechos. |
+| Mejora | Configuración | Se ha agregado la capacidad para que los clientes creen reglas de moderación de correo no deseado en Configuración. |
+| Mejora | Búsqueda social | Se ha corregido un error que impedía que las publicaciones de VK.com se mostraran a través de las búsquedas sociales de URL. |
+| Mejora | Búsqueda social | Al buscar contenido de Instagram desde Studio, si la búsqueda se debe a un testigo de la API de Instagram caducado, el mensaje de error se indicará como tal. |
+| Error, | Flujos | Se ha corregido un error que provocaba que se mostrara falsamente una pancarta "La aplicación no acepta contenido nuevo" en la parte superior de las páginas de reglas de flujo. |
+| Mejora | Flujos | Se ha modificado el valor predeterminado de las reglas de flujo recién creadas para aplicar reglas SAFE cuando corresponda. |
+| Mejora | Flujos (anteriormente, Reglas de depuración) | Se ha eliminado la opción "Viñetas" únicamente de las reglas de flujo/depuración de Twitter, ya que las vides ahora se muestran como vídeos de Twitter. |
+| Error, | Studio Shell | Se ha corregido un error por el que Livefyre Studio se cargaba si https:// se añadía explícitamente a la URL. |
 
