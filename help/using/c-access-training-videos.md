@@ -1,24 +1,24 @@
 ---
-seo-title: Acceso a vídeos de formación
+seo-title: Acceder a vídeos de capacitación
 solution: Experience Manager
-title: Acceso a vídeos de formación
-uuid: 64438 e 2 f-dd 51-4 c 10-98 ff-e 1 b 62 db 1 b 0 ca
+title: Acceder a vídeos de capacitación
+uuid: 64438e2f-dd51-4c10-98ff-e1b62db1b0ca
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Acceso a vídeos de formación{#access-training-videos}
+# Acceder a vídeos de capacitación{#access-training-videos}
 
-Para acceder a los vídeos de capacitación de Livefyre:
+Para acceder a los vídeos de formación de Livefyre:
 
-1. Acceda a tutoriales de [Adobe Experience Manager](https://helpx.adobe.com/experience-manager/tutorials.html).
-1. Desplácese hacia abajo por la página hasta que vea las tres categorías de tutorial de Livefyre:
+1. Acceda a los tutoriales [de Adobe Experience Manager](https://helpx.adobe.com/experience-manager/tutorials.html).
+1. Desplácese hacia abajo por la página hasta que vea las tres categorías del tutorial de Livefyre:
 
-   * Crear, administrar y navegar por cuentas de Studio en Adobe Experience Manager Livefyre
-   * Crear flujos de contenido automático y buscar contenido social en Adobe Experience Manager Livefyre
-   * Trabajar con recursos en Adobe Experience Manager Livefyre
+   * Create, Manage, and Navigate Studio Accounts in Adobe Experience Manager Livefyre
+   * Create Automatic Content Streams and Search social content in Adobe Experience Manager Livefyre
+   * Work with Assets in Adobe Experience Manager Livefyre
 
-1. Haga clic en el vídeo que desee para acceder al tutorial.
+1. Click the desired video to access the tutorial.
 
