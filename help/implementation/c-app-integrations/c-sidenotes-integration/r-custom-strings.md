@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Sidenotes Custom Strings
-title: Sidenotes Custom Strings
-uuid: 73745273-d 3 fb -4569-8910-d 149 fb 37 a 7 b 4
+seo-title: Identifica cadenas personalizadas
+title: Identifica cadenas personalizadas
+uuid: 73745273-d3fb-4569-8910-d149fb37a7b4
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
 ---
 
 
-# Sidenotes Custom Strings{#sidenotes-custom-strings}
+# Identifica cadenas personalizadas{#sidenotes-custom-strings}
 
-Las cadenas personalizadas se aplican a través de un objeto insertado en el constructor Sidenotes y anulan las cadenas predeterminadas utilizadas a través de la aplicación. Pueden utilizarse para personalizar cualquier parte del idioma que se ajuste a las especificaciones de estilo o idioma. Las cadenas se combinarán automáticamente con valores predeterminados.
+Las cadenas personalizadas se aplican a través de un objeto insertado en el constructor Sidenotes y anulan las cadenas predeterminadas utilizadas en la aplicación. Estos pueden utilizarse para personalizar cualquier parte del idioma de acuerdo con las especificaciones del estilo o idioma. Las cadenas se combinarán automáticamente con valores predeterminados.
 
 ```
 var customStrings = { 
@@ -23,78 +23,78 @@ new Livefyre.Sidenotes({
 });
 ```
 
-| Clave | Predeterminado |
+| Clave | Valor predeterminado |
 |---|---|
-| Appname | Sidenotes |
-| Commentatortag commentModeratorTag | Mod |
-| Commentpendingtag | Pendiente |
-| Commentreadmorelink | Más información |
-| Commentreplylink | Consulte {número} respuestas |
-| Commentreplylinksing | Consulte respuesta |
-| Commentvotecount | votos |
-| Commentvotecountsing | votar |
-| Editorplaceholder | ¿Qué piensa? |
-| Editorpostbtn | Post Sidenote |
-| Editorpostbtnmobile | Anuncio |
-| Editorpost | Publicando… |
-| Editorreplybtn | Publicar respuesta |
-| Editorreplytitle | Escribir respuesta |
-| Editortitle | Escribir nota |
-| Emptyimageblocktxt | ¿Qué piensa? |
-| Emptytextblocktxt | + |
-| Errorconnection | Uh-oh. Parece que no tiene una buena conexión. |
-| Errorduplicate | También nos gusta su nota, pero no puede anunciarla dos veces. |
-| Errorgeneral | Se ha producido un error. Inténtelo de nuevo. |
-| Errorserver | Algo salió mal con nuestro servidor. ¿Inténtelo de nuevo? |
-| Facebooksharecaption | Sidenotes en «{title}» |
-| Menuauthsignedemplsg | Debe iniciar sesión en {action} |
-| Menuauthsigninbtn | Iniciar sesión |
-| Menubackbtn | Atrás |
-| Menuconfirmaccept | Sí, {action} |
-| Menuconfirmcancel | Cancelar |
-| Menuconfirmtitle | ¿Está seguro? |
-| Menuetcoptionapprove | Aprobar |
-| Menuetcoptiondelete | Eliminar |
-| Menuetcoptionedit | Editar |
-| Menuetcoptionflag | Indicador |
-| Menuetcoptionshare | Compartir |
-| Menuetcpostedat | Publicado el {date} |
-| Menuetctitle | Más |
-| Menuflagoptiondisagree | Rechazar |
-| Menuflagoptionoffensive | Ofensiva |
-| Menuflagoptionofftopic | Tema desactivado |
-| Menuflagoptionspam | Correo no deseado |
-| Menuflagtitle | Marcar como… |
-| Menuinfocopyright | © Livefyre, Inc. 2014 |
-| Menuinfohelp | Ayuda |
-| Menuinfolivefyrelink | Visite Livefyre.com |
-| Menurepliesviewreply | Responder a la conversación |
-| Menurepliesviewtitle | Detalles |
-| Menushareoptionfacebook | Facebook |
-| Menushareoptionlink | Copiar permalink |
-| Menushareoptionlinkcomplete | Copiado |
-| Menushareoptionlinkfailed | Error al copiar |
-| Menushareoptiontwitter | Twitter |
-| Menusharetitle | Compartir |
-| Notificationapproved | Aprobado |
-| Notificationdeleted | Eliminado |
-| Notificationmarcado | Marcado |
-| Permalinkbackbtn | Todos |
-| Permalinktitle | Permalink |
-| Explicación de preguntas | Ahora puede leer y escribir comentarios directamente sobre las frases, párrafos, imágenes y comillas.<br><br>Resalte el texto y haga clic en el icono &quot;fycon-write&quot; o haga clic en el icono &quot;fycon-action-view&quot; al final de cada párrafo. |
-| Questionmocktext | Lo que se conoce «familiarmente» no es conocido, simplemente por el motivo de que es «familiar». |
-| Questiontitle | ¿Qué es un Sidenote? |
-| Queuedcommentsplural | {número} Nuevo sidenotes |
-| Queuedcommentsunique | 1 Nuevo Sidenote |
-| Queuedrepliesplural | {número} Nuevas respuestas |
-| Queuedrepliesunique | 1 Nueva respuesta |
-| Replybtn | Responder |
-| Signintopost | Iniciar sesión para escribir un sidenote |
-| Slidercommenttally | de |
-| Sliderinviteread | Leer |
-| Sliderinvitewrite | Escribir |
-| Sliderwritetext | ¿Qué piensa? Tocar para escribir |
-| Threadcollapsebtn | Contraer |
-| Threadexpandbtnplural | Expandir {número} respuestas |
-| Threadexpandbtnsingular | Expandir 1 respuesta |
-| Threadreplybtn | Responder a la conversación |
+| appName | Notas de identidad |
+| commentModeratorTag | Mod |
+| commentpendingTag | Pendiente |
+| commentReadMoreLink | Más información... |
+| commentReplyLink | Ver {número} respuestas |
+| commentReplyLinkSing | Consulte la respuesta |
+| commentVoteCount | votes |
+| commentVoteCountSing | voto |
+| editorMarcadorDePosición | ¿Qué piensas? |
+| editorPostBtn | Publicar Sidenote |
+| editorPostBtnMobile | Anuncio |
+| editorPosting | Colocar un anuncio… |
+| editorResponderBtn | Anunciar respuesta |
+| editorReplyTitle | Escribir respuesta |
+| editorTítulo | Escribir nota |
+| emptyImageBlockTxt | ¿Qué piensas? |
+| emptyTextBlockTxt | + |
+| errorConnection | Oh-oh. No parece que tenga una buena conexión. |
+| errorDuplicate | También nos gusta tu nota, pero no puedes publicarla dos veces. |
+| errorGeneral | Se ha producido un error. Inténtelo de nuevo. |
+| errorServer | Algo salió mal con nuestro servidor. ¿Intenta eso otra vez? |
+| facebookShareCaption | Notas al margen de "{title}" |
+| menuAuthSignedInMsg | Debe iniciar sesión en {action} |
+| menuAuthSignInBtn | Iniciar sesión |
+| menuBackBtn | Atrás |
+| menuConfirmAccept | Sí, {action} |
+| menuConfirmCancel | Cancelar |
+| menuConfirmTitle | ¿Está seguro? |
+| menuEtcOptionApprove | Aprobar |
+| menuEtcOptionDelete | Eliminar |
+| menuEtcOptionEdit | Editar  |
+| menuEtcOptionFlag | Marcar |
+| menuEtcOptionShare | Compartir |
+| menuEtcPostedAt | Publicado el {date} |
+| menuEtcTitle | Más |
+| menuFlagOptionDisact | Rechazar |
+| menuFlagOptionOffensive | Ofensivo |
+| menuFlagOptionOffTopic | Desactivar tema |
+| menuFlagOptionSpam | Correo no deseado |
+| menuFlagTitle | Marcar como... |
+| menuInfoCopyright | © Livefyre, Inc. 2014 |
+| menuInfoHelp | Ayuda |
+| menuInfoLivefyreLink | Visite Livefyre.com |
+| menuReplyViewReply | Responder a conversación |
+| menuReplyViewTitle | Detalles |
+| menuShareOptionFacebook | Facebook |
+| menuShareOptionLink | Copiar vínculo permanente |
+| menuShareOptionLinkComplete | Copiado |
+| menuShareOptionLinkFailed | Error al copiar |
+| menuShareOptionTwitter | Twitter |
+| menuShareTitle | Compartir |
+| notificationApproved | Aprobado |
+| notificationDeleted | Eliminado |
+| notificationFlagged | Marcado |
+| permalinkBackBtn | Todas |
+| permalinkTitle | Permalink |
+| questionExplanation | Ahora puede leer y escribir comentarios directamente sobre oraciones, párrafos, imágenes y comillas.<br><br>Resalte el texto y haga clic en el icono "Fycon-write" o en el icono "Fycon-action-view" al final de cada párrafo. |
+| questionMockText | Lo que es "conocido familiar" no se conoce correctamente, sólo por la razón de que es "familiar". |
+| questionTitle | ¿Qué es un Sidenote? |
+| queuedCommentsPlural | {number} nuevas notas |
+| queuedCommentsSingular | 1 Nuevo Sidenote |
+| queuedReplyPlural | {number} nuevas respuestas |
+| queuedReplySingular | 1 Nueva respuesta |
+| responseBtn | Responder |
+| signInToPost | Iniciar sesión para escribir una nota de opinión |
+| sliderCommentTally | of |
+| sliderInviteRead | Leído |
+| sliderInviteWrite | Escritura |
+| sliderWriteText | ¿Qué piensas? Toque para escribir |
+| threadCollapseBtn | Contraer |
+| threadExpandBtnPlural | Expandir {número} respuestas |
+| threadExpandBtnSingular | Expandir 1 respuesta |
+| threadReplyBtn | Responder a conversación |
