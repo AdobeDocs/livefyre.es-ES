@@ -1,10 +1,10 @@
 ---
-description: Contabilice el número de elementos sociales seleccionados.
-seo-description: Contabilice el número de elementos sociales seleccionados.
+description: Cuenta el número de elementos sociales seleccionados.
+seo-description: Cuenta el número de elementos sociales seleccionados.
 seo-title: Contador social
 solution: Experience Manager
 title: Contador social
-uuid: fa 9 aa 1 a 8-6 a 04-4 bc 1-9 bfe-e 42 c 1250 fd 48
+uuid: fa9aa1a8-6a04-4bc1-9bfe-e42c1250fd48
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,9 +13,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Contador social{#social-counter}
 
-Contabilice el número de elementos sociales seleccionados. Para obtener una lista completa de los puntos finales disponibles, consulte la sección Referencia [de la API](https://api.livefyre.com/docs) de Livefyre.
+Cuenta el número de elementos sociales seleccionados. Para obtener una lista completa de los extremos disponibles, consulte la sección Referencia [de la](https://api.livefyre.com/docs) API de Livefyre.
 
-La API de contador social devuelve recuentos para reglas de depuración coincidentes en una colección determinada para intervalos durante un período de tiempo.
+La API de contador social devuelve recuentos de reglas de depuración coincidentes en una colección determinada para intervalos a lo largo de un período de tiempo.
 
 >[!NOTE]
 >
@@ -33,18 +33,18 @@ API de contador social:
 GET https://{networkName}.bootstrap.fyre.co/api/v3.0/stats.collections.curate/{query}.json
 ```
 
-* **Networkname:** Su Livefyre ha proporcionado el nombre de la red. Por ejemplo: *labs* in `labs.fyre.co`.
-* **query:** El hash codificado de la base 64 de todo el sitio, ID del artículo, tuples de tipo regla para los que se debe recuperar información de recuento (precodificado)
+* **** networkName:El nombre de red proporcionado por Livefyre. Por ejemplo: *laboratorios* en `labs.fyre.co`.
+* **** consulta: El hash codificado de base64 seguro para url de todo el sitio, ID del artículo, tuplas de tipo de regla para las que se debe recuperar información de recuento (precodificado)
 
    ```
    {site ID}:{article ID};{rule-type},  {article ID};{rule-type}|{site ID}:{article ID};{rule-type}
    ```
 
    >[!NOTE]
-   >La consulta está limitada a 10 sitios, ID de artículo y tuples de regla. (El ejemplo anterior contiene 3 tonos).
+   >La consulta está limitada a 10 tutoriales de tipo regla, ID de artículo, sitio y sitio. (El ejemplo anterior contendría 3 tuplas).
 
-* **from** `(optional)` especifica the relative or absolute time period to graph; from especifica the start and defaults to 24 hours, if omused.
-* **hasta** `(optional)` que especifica el período de tiempo relativo o absoluto al gráfico; hasta que especifica el comienzo y el valor predeterminado del tiempo actual (ahora), si se omite.
+* **from** `(optional)` especifica el período de tiempo relativo o absoluto para el gráfico; from especifica el comienzo y el valor predeterminado es 24 horas atrás, si se omite.
+* **hasta** que `(optional)` especifique el período de tiempo relativo o absoluto para el gráfico; hasta especifica el principio y el valor predeterminado es la hora actual (ahora), si se omite.
 
 ### Tiempo relativo
 
@@ -54,7 +54,7 @@ GET https://{networkName}.bootstrap.fyre.co/api/v3.0/stats.collections.curate/{q
 | min | Minutos |
 | h | Horas |
 | d | Días |
-| w | Semanas |
+| w | semanas |
 | mon | 30 días (mes) |
 | y | 365 días (año) |
 
@@ -64,13 +64,13 @@ Ejemplo:
 https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2OnNvbWUtYXJ0aWNsZS1pZDsy.json&from=-7d&until=-6d
 ```
 
-## Tiempo absoluto {#section_xqr_jgc_11b}
+## Hora absoluta {#section_xqr_jgc_11b}
 
-FORMATO: HH: MM_ AAAAMMDD
+FORMATO: HH:MM_YYYMMDD
 
 | Abreviación | Significado |
 |---|---|
-| HH | Horas (en formato de reloj de 24 h) |
+| HH | Horas (en formato de reloj de 24 horas) |
 | MM | Minutos |
 | YYYY | Año de 4 dígitos |
 | MM | Mes |
@@ -90,7 +90,7 @@ https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2On
 
 Ejemplo:
 
-Para obtener recuentos en el último momento del sitio `123456` y del ID de artículo `some-article-id` y de artículo `2`, por ejemplo: `123456:some-article-id;2:`
+Para obtener recuentos a lo largo del último minuto para la ID del sitio `123456` y del artículo `some-article-id` y el tipo de regla `2`, por ejemplo: `123456:some-article-id;2:`
 
 ```
 curl -XGET "https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2OnNvbWUtYXJ0aWNsZS1pZDsy.json&from=-1min" 
