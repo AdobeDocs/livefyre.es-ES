@@ -1,25 +1,25 @@
 ---
-description: Devuelve un objeto de colección creado como tipo de críticas. Ejecute crear_ o_ update () desde el objeto Colección para completar el proceso de creación.
-seo-description: Devuelve un objeto de colección creado como tipo de críticas. Ejecute crear_ o_ update () desde el objeto Colección para completar el proceso de creación.
-seo-title: Método del sitio de recopilación de DPS
+description: Devuelve un objeto Collection creado como un tipo de revisión. Ejecute create_or_update() desde el objeto Collection para completar el proceso de compilación.
+seo-description: Devuelve un objeto Collection creado como un tipo de revisión. Ejecute create_or_update() desde el objeto Collection para completar el proceso de compilación.
+seo-title: buildReviewsCollection (método de sitio)
 solution: Experience Manager
-title: Método del sitio de recopilación de DPS
-uuid: 88 af 4 c 68-57 de -4 ae 9-9394-550 c 94 ede 48 f
+title: buildReviewsCollection (método de sitio)
+uuid: 88af4c68-57de-4ae9-9394-550c94ede48f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Método del sitio de recopilación de DPS{#buildreviewscollection-site-method}
+# buildReviewsCollection (método de sitio){#buildreviewscollection-site-method}
 
-Devuelve un objeto de colección creado como tipo de críticas. Ejecute crear_ o_ update () desde el objeto Colección para completar el proceso de creación.
+Devuelve un objeto Collection creado como un tipo de revisión. Ejecute create_or_update() desde el objeto Collection para completar el proceso de compilación.
 
 | Variable | Tipo | Descripción |
 |--- |--- |--- |
 | title | Cadena | Título de la colección. |
-| Articleid | Cadena | ID de artículo único que eligió identificar una colección dentro del sitio. |
-| url | Cadena | La URL canónica canónica de esta colección. |
+| articleId | Cadena | ID única del artículo que eligió para identificar una colección dentro del sitio. |
+| url | Cadena | Dirección URL absoluta canónica de esta colección. |
 
 
 ## Ejemplo de Java {#section_nyl_ycs_rz}
@@ -28,7 +28,7 @@ Devuelve un objeto de colección creado como tipo de críticas. Ejecute crear_ o
 Collection collection = site.buildReviewsCollection(title, articleId, url); 
 ```
 
-## Ejemplo de nodejs {#section_xkd_gds_rz}
+## Ejemplo de NodeJS {#section_xkd_gds_rz}
 
 ```
 var collection = site.buildReviewsCollection(title, articleId, url); 
@@ -46,7 +46,7 @@ $collection = site->buildReviewsCollection(title, articleId, url);
 collection = site.build_reviews_collection(title, articleId, url) 
 ```
 
-## Ejemplo Ruby {#section_enh_gds_rz}
+## Ejemplo de Ruby {#section_enh_gds_rz}
 
 ```
 collection = site.build_reviews_collection(title, articleId, url) 
