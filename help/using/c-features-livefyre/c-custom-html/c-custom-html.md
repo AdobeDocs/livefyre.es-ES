@@ -1,23 +1,23 @@
 ---
-description: Permita que los moderadores, propietarios y blogueros agreguen archivos adjuntos HTML personalizados al contenido publicado mediante Comentarios o Blog activo.
-seo-description: Permita que los moderadores, propietarios y blogueros agreguen archivos adjuntos HTML personalizados al contenido publicado mediante Comentarios o Blog activo.
-seo-title: HTML personalizado
+description: Permite que los moderadores, propietarios y blogueros agreguen archivos HTML personalizados al contenido publicado mediante Comentarios o Live Blog.
+seo-description: Permite que los moderadores, propietarios y blogueros agreguen archivos HTML personalizados al contenido publicado mediante Comentarios o Live Blog.
+seo-title: HTML personalizada
 solution: Experience Manager
-title: HTML personalizado
-uuid: 1 d 0041 bc-f 45 f -4 f 36-a 377-e 3 bcff 3 f 2 eb 4
+title: HTML personalizada
+uuid: 1d0041bc-f45f-4f36-a377-e3bcff3f2eb4
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# HTML personalizado{#custom-html}
+# HTML personalizada{#custom-html}
 
-Permita que los moderadores, propietarios y blogueros agreguen archivos adjuntos HTML personalizados al contenido publicado mediante Comentarios o Blog activo.
+Permite que los moderadores, propietarios y blogueros agreguen archivos HTML personalizados al contenido publicado mediante Comentarios o Live Blog.
 
-La función Personalizada HTML Incrustar permite a los moderadores, propietarios y blogueros agregar archivos adjuntos HTML personalizados al contenido que publican mediante Comentarios o Blog activo. Esta función puede utilizarse para adjuntar cualquier contenido a sus publicaciones, incluidos los reproductores de vídeo propiedad o los widgets de encuestas, además de las imágenes estándar, reproductores de vídeo y otras incrustaciones que se expanden automáticamente en aplicaciones de Livefyre.
+La función Incrustar HTML personalizado permite a los moderadores, propietarios y blogueros agregar archivos adjuntos HTML personalizados al contenido que publican mediante Comentarios o Live Blog. Esta función se puede usar para adjuntar cualquier contenido a sus publicaciones, incluidos los reproductores de vídeo propietarios o las utilidades de sondeo, además de las imágenes estándar, los reproductores de vídeo y otras incrustar que Livefyre Apps amplía automáticamente.
 
-Trabaje con el administrador de cuentas para habilitar esta función para su red o sitio.
+Trabaje con el administrador de cuentas para habilitar esta función en la red o en el sitio.
 
 Aplicaciones que utilizan esta función:
 
