@@ -1,19 +1,19 @@
 ---
-description: Intenta crear o actualizar esta colección con Livefyre. Devuelve este objeto de colección.
-seo-description: Intenta crear o actualizar esta colección con Livefyre. Devuelve este objeto de colección.
-seo-title: Createorupdate Collection Method
+description: Intenta crear o actualizar esta colección con Livefyre. Devuelve este objeto Collection.
+seo-description: Intenta crear o actualizar esta colección con Livefyre. Devuelve este objeto Collection.
+seo-title: createOrUpdate (método de recopilación)
 solution: Experience Manager
-title: Createorupdate Collection Method
-uuid: 1 fff 82 d 3-4 b 05-46 a 0-95 ca -3 eb 4 a 6256 cf 8
+title: createOrUpdate (método de recopilación)
+uuid: 1fff82d3-4b05-46a0-95ca-3eb4a6256cf8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Createorupdate Collection Method{#createorupdate-collection-method}
+# createOrUpdate (método de recopilación){#createorupdate-collection-method}
 
-Intenta crear o actualizar esta colección con Livefyre. Devuelve este objeto de colección.
+Intenta crear o actualizar esta colección con Livefyre. Devuelve este objeto Collection.
 
 ## Ejemplo de Java {#section_nyl_ycs_rz}
 
@@ -21,7 +21,7 @@ Intenta crear o actualizar esta colección con Livefyre. Devuelve este objeto de
 collection.createOrUpdate(); 
 ```
 
-## Ejemplo de nodejs {#section_xkd_gds_rz}
+## Ejemplo de NodeJS {#section_xkd_gds_rz}
 
 ```
 collection.createOrUpdate(callback); 
@@ -39,7 +39,7 @@ $collection->createOrUpdate();
 collection.create_or_update() 
 ```
 
-## Ejemplo Ruby {#section_enh_gds_rz}
+## Ejemplo de Ruby {#section_enh_gds_rz}
 
 ```
 collection.create_or_update 
