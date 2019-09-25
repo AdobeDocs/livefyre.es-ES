@@ -1,10 +1,10 @@
 ---
-description: Puede registrar a un usuario a través de la consola durante la integración y pruebas para depurar la autorización.
-seo-description: Puede registrar a un usuario a través de la consola durante la integración y pruebas para depurar la autorización.
+description: Puede iniciar sesión a través de la consola durante la integración y la prueba para depurar la autorización.
+seo-description: Puede iniciar sesión a través de la consola durante la integración y la prueba para depurar la autorización.
 seo-title: Delegado de autenticación de depuración
 solution: Experience Manager
 title: Delegado de autenticación de depuración
-uuid: fb 0 c 7396-190 e -4 dc 9-bf 26-23 dde 9 efd 45 d
+uuid: fb0c7396-190e-4dc9-bf26-23dde9efd45d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,11 +13,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Delegado de autenticación de depuración{#debugging-auth-delegate}
 
-Puede registrar a un usuario a través de la consola durante la integración y pruebas para depurar la autorización.
+Puede iniciar sesión a través de la consola durante la integración y la prueba para depurar la autorización.
 
-Inicie sesión en la consola mediante la consola siguiente `auth.authenticate` (token) y pase un testigo de usuario de Livefyre para autenticar a los usuarios de la página.
+Inicie sesión en la consola con el siguiente `auth.authenticate` (token) y pase un token de usuario de Livefyre para autenticar a los usuarios de la página.
 
-También puede modificar el ejemplo que se muestra arriba y agregar el siguiente fragmento en línea en JavaScript para registrar rápidamente un usuario en Livefyre (requiere una referencia a la autenticación).
+También puede modificar el ejemplo que se muestra arriba y agregar el siguiente fragmento en línea en su JavaScript para iniciar sesión rápidamente en Livefyre (requiere una referencia a auth).
 
 ```
 window.addEventListener('userAuthenticated', function(data) { 
