@@ -1,10 +1,10 @@
 ---
-description: Seleccione el contenido seleccionado en las aplicaciones de Livefyre o en la biblioteca de Studio.
-seo-description: Seleccione el contenido seleccionado en las aplicaciones de Livefyre o en la biblioteca de Studio.
+description: Cree una tubería con el contenido seleccionado en las aplicaciones de Livefyre o en la biblioteca de estudios.
+seo-description: Cree una tubería con el contenido seleccionado en las aplicaciones de Livefyre o en la biblioteca de estudios.
 seo-title: Flujos
 solution: Experience Manager
 title: Flujos
-uuid: 01 ea 5 d 33-5 ec 1-46 f 4-b 724-8431 cda 443 a 1
+uuid: 01ea5d33-5ec1-46f4-b724-8431cda443a1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,21 +13,21 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Flujos{#streams}
 
-Seleccione el contenido seleccionado en las aplicaciones de Livefyre o en la biblioteca de Studio.
+Cree una tubería con el contenido seleccionado en las aplicaciones de Livefyre o en la biblioteca de estudios.
 
-Los flujos permiten crear reglas para extraer contenido de sitios web de medios sociales e impulsar dicho contenido a la biblioteca de recursos o a una aplicación de Livefyre seleccionada.
+Los flujos le permiten crear reglas para extraer contenido de los sitios web de medios sociales e insertarlo en la biblioteca de recursos o en una aplicación de Livefyre seleccionada.
 
-(Las opciones de regla varían según el tipo de fuente).
+(Las opciones de regla varían según el tipo de origen).
 
 Los flujos definidos con destinos de carpeta guardarán el contenido como recursos en la biblioteca de recursos.
 
-Se pueden insertar varios flujos en un solo destino (carpeta o aplicación).
+Se pueden insertar varios flujos en un único destino (carpeta o aplicación).
 
-Los flujos definidos con destinos de aplicación insertarán contenido directamente en su aplicación y estarán disponibles en la ficha Publicado de la biblioteca.
+Los flujos definidos con destinos de la aplicación insertarán contenido directamente en la aplicación y estarán disponibles en la ficha Publicados de la biblioteca.
 
-Utilice la interfaz Flujos para definir las reglas por las que Survey barra el contenido seleccionado en las aplicaciones de Livefyre o en la biblioteca de recursos.
+Utilice la interfaz Streams para definir las reglas mediante las cuales Studio canalizará el contenido seleccionado a las aplicaciones de Livefyre o a la biblioteca de recursos.
 
 >[!NOTE]
 >
->El contenido creado mientras el flujo está activo aparecerá en las aplicaciones. El contenido creado antes de definir las reglas y el flujo está activo, o después de haber deshabilitado un flujo, no se mostrará en las aplicaciones.
+>El contenido creado mientras el flujo está activo aparecerá en las aplicaciones. El contenido creado antes de que se definan las reglas y el flujo esté activo, o después de que se haya deshabilitado un flujo, no se mostrará en las aplicaciones.
 
