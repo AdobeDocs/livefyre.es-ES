@@ -1,19 +1,19 @@
 ---
-description: Este método devuelve la dirección URN para este sitio.
-seo-description: Este método devuelve la dirección URN para este sitio.
-seo-title: Método del sitio geturn
+description: Este método devuelve la URL de este sitio.
+seo-description: Este método devuelve la URL de este sitio.
+seo-title: getUrn Site (método)
 solution: Experience Manager
-title: Método del sitio geturn
-uuid: 231 c 915 c -6288-43 e 6-86 e 0-b 8 d 09 a 08 c 4 d 3
+title: getUrn Site (método)
+uuid: 231c915c-6288-43e6-86e0-b8d09a08c4d3
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Método del sitio geturn{#geturn-site-method}
+# getUrn Site (método){#geturn-site-method}
 
-Este método devuelve la dirección URN para este sitio.
+Este método devuelve la URL de este sitio.
 
 ## Ejemplo de Java {#section_nyl_ycs_rz}
 
@@ -29,7 +29,7 @@ Salida de muestra:
 "urn:livefyre:network=`example.fyre.co`:site=1" 
 ```
 
-## Ejemplo de nodejs {#section_xkd_gds_rz}
+## Ejemplo de NodeJS {#section_xkd_gds_rz}
 
 ```
 site.getUrn(); 
@@ -65,7 +65,7 @@ Salida de muestra:
 "urn:livefyre:network=`example.fyre.co`:site=1" 
 ```
 
-## Ejemplo Ruby {#section_enh_gds_rz}
+## Ejemplo de Ruby {#section_enh_gds_rz}
 
 ```
 site.urn 
