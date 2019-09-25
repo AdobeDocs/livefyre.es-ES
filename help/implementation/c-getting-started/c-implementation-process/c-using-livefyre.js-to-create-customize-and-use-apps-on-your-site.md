@@ -2,7 +2,7 @@
 seo-title: Incrustar una aplicación
 solution: Experience Manager
 title: Incrustar una aplicación
-uuid: e 75 caf 0 e -04 ea -4 b 04-89 ed-fea 1183 ecf 63
+uuid: e75caf0e-04ea-4b04-89ed-fea1183ecf63
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -11,15 +11,15 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Incrustar una aplicación{#embed-an-app}
 
-Agregue aplicaciones de Livefyre a sus páginas web utilizando la estructura de código incrustado de Livefyre. js.
+Agregue aplicaciones de Livefyre a sus páginas web mediante la estructura de código incrustado de Livefyre.js.
 
-Esta documentación está destinada a una audiencia técnica. Para obtener [información no técnica sobre Aplicaciones](/help/using/c-about-apps/c-about-apps.md).
+Esta documentación está dirigida a un público técnico. Para obtener información [no técnica sobre las aplicaciones](/help/using/c-about-apps/c-about-apps.md).
 
-Esta sección describe la estructura de código que deberá incluir en la plantilla de página para incrustar aplicaciones de Livefyre en su sitio.
+Esta sección describe la estructura de código que deberá incluir en la plantilla de página para incrustar las aplicaciones de Livefyre en el sitio.
 
-1. Cree un archivo.html con un marcador de posición de Livefyre.
+1. Cree un archivo .html con un marcador de posición de Livefyre.
 
-   Cree un nuevo archivo.html en el editor de texto que elija. Cree un elemento de marcador de posición Livefyre `<div>` en el que se integrará la aplicación.
+   Cree un nuevo archivo .html en el editor de texto que desee. Cree un `<div>` elemento Livefyre de marcador de posición en el que se incruste la aplicación.
 
    ```
    <html> 
@@ -30,9 +30,9 @@ Esta sección describe la estructura de código que deberá incluir en la planti
    </html>
    ```
 
-1. Incluya la biblioteca de Livefyre. js.
+1. Incluya la biblioteca Livefyre.js.
 
-   A continuación, incluya la biblioteca JS de Livefyre. Coloque la siguiente referencia en un `<script>` elemento del `<head>` elemento. A continuación, abra la página en un navegador y utilice el inspector web del explorador para confirmar que se ha cargado Livefyre.
+   A continuación, incluya la biblioteca Livefyre JS. Coloque la siguiente referencia en un `<script>` elemento del `<head>` elemento. A continuación, abra la página en un navegador y utilice el inspector web del navegador para confirmar que Livefyre está cargado.
 
    ```
    <head> 
@@ -40,13 +40,13 @@ Esta sección describe la estructura de código que deberá incluir en la planti
    </head> 
    ```
 
-1. Construya la aplicación de Livefyre.
+1. Construya la aplicación Livefyre.
 
-   Utilice `Livefyre.require` para construir aplicaciones principales y de SDK pasando los paquetes de Livefyre que planea utilizar.
+   Utilícelo `Livefyre.require` para crear aplicaciones principales y de SDK pasando los paquetes de Livefyre que va a utilizar.
 
-   1. Compile una aplicación principal.
+   1. Cree una aplicación principal.
 
-      Para generar una aplicación principal (comentarios, blog directo o chat), utilice la siguiente estructura:
+      Para crear una aplicación principal (Comentarios, Blog en directo o Chat), utilice la siguiente estructura:
 
       ```
       Livefyre.require(['fyre.conv#@{fyre_conv_version_prod}'], function(Conv) { 
@@ -54,9 +54,9 @@ Esta sección describe la estructura de código que deberá incluir en la planti
       });  
       ```
 
-   1. Compile una aplicación SDK.
+   1. Creación de una aplicación de SDK.
 
-      Para compilar una aplicación SDK como Muro de medios o Fuente, utilice la siguiente estructura:
+      Para crear una aplicación de SDK como Media Wall o Feed, utilice la siguiente estructura:
 
       ```
              Livefyre.require(['app#{version_number}'], 
@@ -74,6 +74,6 @@ Esta sección describe la estructura de código que deberá incluir en la planti
       }); 
       ```
 
-      Consulte [más información sobre aplicaciones específicas](/help/using/c-about-apps/c-about-apps.md). Se recomienda fijar la última versión importante del paquete (que se puede encontrar a través [de Livefyre. requerir](https://cdn.livefyre.com/packages.html)), para evitar integraciones dañadas inesperadas.
+      Consulte [más información sobre aplicaciones](/help/using/c-about-apps/c-about-apps.md)específicas. Se recomienda fijar a la última versión principal del paquete (que se puede encontrar en [Livefyre.required](https://cdn.livefyre.com/packages.html)) para evitar integraciones inesperadas dañadas.
 
-Siguiente: Agregue autenticación al sitio para permitir que los usuarios anuncien comentarios.
+Siguiente: Agregue autenticación a su sitio para permitir que los usuarios publiquen comentarios.
