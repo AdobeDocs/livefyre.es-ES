@@ -4,7 +4,7 @@ seo-description: 'null'
 seo-title: Correos electrónicos para la identidad de Livefyre
 solution: Experience Manager
 title: Correos electrónicos para la identidad de Livefyre
-uuid: 4 e 807803-687 e -4 df 0-94 d 1-b 18 a 48 d 024 e 8
+uuid: 4e807803-687e-4df0-94d1-b18a48d024e8
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
@@ -13,102 +13,102 @@ source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
 # Correos electrónicos para la identidad de Livefyre{#emails-for-livefyre-identity}
 
-La identidad de Livefyre envía los siguientes correos electrónicos:
+Livefyre Identity envía los siguientes correos electrónicos:
 
-* [Contraseña restablecida por correo electrónico](#c_emails_for_livefyre_identity/section_nd1_whs_p1b)
+* [Correo electrónico de restablecimiento de contraseña](#c_emails_for_livefyre_identity/section_nd1_whs_p1b)
 * [Correo electrónico de verificación](#c_emails_for_livefyre_identity/section_ak5_xhs_p1b)
    * [Enviar verificación de correo electrónico para usuarios](#c_emails_for_livefyre_identity/section_vyv_yhs_p1b)
 
-* [Correo electrónico de bienvenida](#c_emails_for_livefyre_identity/section_z2v_zhs_p1b)
+* [Mensaje de correo electrónico de bienvenida](#c_emails_for_livefyre_identity/section_z2v_zhs_p1b)
    * [Enviar correo electrónico de bienvenida a los usuarios](#c_emails_for_livefyre_identity/section_kjp_c3s_p1b)
 
-Puede personalizar el aspecto y la presentación de todos los correos electrónicos de identidad de Livefyre **[!UICONTROL Integration Settings > Email Notifications.]**
+Puede personalizar el aspecto de todos los correos electrónicos de identidad de Livefyre en **[!UICONTROL Integration Settings > Email Notifications.]**
 
-## Contraseña restablecida por correo electrónico {#section_nd1_whs_p1b}
+## Correo electrónico de restablecimiento de contraseña {#section_nd1_whs_p1b}
 
 Livefyre envía automáticamente un correo electrónico de restablecimiento de contraseña cuando un usuario intenta restablecer su contraseña.
 
 El correo electrónico de restablecimiento de contraseña tiene este aspecto:
 
-**Asunto:** Restablecer contraseña
+**** Asunto: Restablecer contraseña
 
 **Cuerpo:**
 
-Hola there *&lt; username &gt;*,
+Hey ahí *&lt;username&gt;*,
 
-Se ha producido una solicitud para cambiar la contraseña del perfil en *&lt; nombre de red &gt;*.
+Se ha solicitado cambiar la contraseña de su perfil en *&lt;nombre de red&gt;*.
 
-Si lo ha solicitado, haga clic en el vínculo siguiente para elegir una nueva contraseña: *&lt; URL de restablecimiento de contraseña &gt;*.
+Si lo ha solicitado, haga clic en el siguiente vínculo para elegir una nueva contraseña: *&lt;URL de restablecimiento de contraseña&gt;*.
 
-*&lt; Nombre de usuario &gt;*, *&lt; nombre de red &gt;*y *&lt; URL de restablecimiento de contraseña &gt;* se generan de forma dinámica en función del visitante del sitio y de la red.
+*&lt;Nombre de usuario&gt;*, *&lt;nombre de red&gt;* y *&lt;URL de restablecimiento de contraseña&gt;* se generan de forma dinámica según el visitante del sitio y la red.
 
 ## Correo electrónico de verificación {#section_ak5_xhs_p1b}
 
-Puede enviar un correo electrónico verificación de la dirección de correo electrónico de un usuario. Para enviar correos electrónicos de verificación, debe activar la opción en Ajustes **de integración &gt; Identidad de Livefyre**.
+Puede enviar un correo electrónico para comprobar la dirección de correo electrónico de un usuario. Para enviar correos electrónicos de verificación, debe activar la opción en Configuración de **integración &gt; Identidad** de Livefyre.
 
 El correo electrónico de verificación tiene este aspecto:
 
-**Asunto:** Verificación de correo electrónico
+**** Asunto: Verificación de correo electrónico
 
 **Cuerpo:**
 
-Hola *&lt; nombre de usuario &gt;*,
+Hola *&lt;username&gt;*,
 
-Haga clic en el vínculo siguiente (o pegue el navegador) para verificar su cuenta: *&lt; URL de verificación &gt;*.
+Haga clic en el siguiente vínculo (o pegue en el explorador) para verificar su cuenta: *&lt;URL de verificación&gt;*.
 
 Este vínculo caducará en 24 horas.
 
 Gracias,
 
-El *&lt; nombre del cliente &gt;* Equipo
+El *&lt;nombre del cliente&gt;* equipo
 
-*&lt; Nombre de usuario &gt;*, *&lt; nombre de red &gt;*y *&lt; URL de verificación &gt;* se generan de forma dinámica en función del visitante del sitio y de la red.
+*&lt;Nombre de usuario&gt;*, *&lt;nombre de red&gt;* y *&lt;URL de verificación&gt;* se generan de forma dinámica en función del visitante del sitio y de la red.
 
 ## Envío de una verificación de correo electrónico a los usuarios {#section_vyv_yhs_p1b}
 
-Puede enviar un correo electrónico a un usuario para verificar la dirección de correo electrónico que utilizan para registrarse en una cuenta. Para enviar un correo electrónico de verificación:
+Puede enviar un correo electrónico a un usuario para verificar la dirección de correo electrónico que utiliza para registrarse en una cuenta. Para enviar un correo electrónico de verificación:
 
-1. En Studio, haga clic en el icono de engranaje para modificar los ajustes de red.
-1. Haga clic **en Ajustes de integración &gt; Identidad de Livefyre.**
+1. En Studio, haga clic en el icono de engranaje para modificar la configuración de red.
+1. Haga clic en Configuración **de integración &gt; Identidad de Livefyre.**
 
 1. Vaya a Tipos **de inicio de sesión**.
-1. Haga clic **en Requerir verificación de correo electrónico** para enviar un correo electrónico a los usuarios que verifican la dirección de correo electrónico que utilizan para registrarse en una cuenta.
-1. Vaya a Correo electrónico **de red** para configurar **el logotipo de correo electrónico**, la dirección de correo electrónico que se utilizará como dirección de la dirección (**Correo electrónico desde**) y el nombre para mostrar que se utilizará en la dirección de correo electrónico (**Nombre para mostrar por correo electrónico**).
+1. Haga clic en **Requerir verificación** de correo electrónico para enviar un correo electrónico a los usuarios que verifique la dirección de correo electrónico que utilizan para registrarse en una cuenta.
+1. Vaya a Correo electrónico **de** red para configurar el **logotipo de correo electrónico**, la dirección de correo electrónico que se va a utilizar como dirección de correo electrónico (**correo electrónico de**) y el nombre para mostrar que se va a utilizar para la dirección de correo electrónico de origen (nombre para mostrar **correo electrónico**).
 
-## Correo electrónico de bienvenida {#section_z2v_zhs_p1b}
+## Mensaje de correo electrónico de bienvenida {#section_z2v_zhs_p1b}
 
-Puede enviar un correo electrónico de bienvenida a los usuarios. Para enviar correos electrónicos de bienvenida, debe activar la opción Ajustes **de integración** &gt; **Identidad de Livefyre**.
+Puede enviar un correo electrónico de bienvenida a los usuarios. Para enviar correos electrónicos de bienvenida, debe activar la opción en Configuración **de** integración &gt; Identidad de **Livefyre**.
 
 El correo electrónico de bienvenida tiene este aspecto:
 
-**Asunto:** Bienvenido a *&lt; nombre del cliente &gt;*
+**** Asunto: Bienvenido a *&lt;nombre del cliente&gt;*
 
 **Cuerpo:**
 
-Hola *&lt; nombre de usuario &gt;*,
+Hola *&lt;username&gt;*,
 
-Se creó una cuenta en *&lt; nombre del cliente &gt;*.
+Se ha creado una cuenta para usted en *&lt;nombre del cliente&gt;*.
 
-Esta cuenta se creó en *&lt; URL de referencia &gt;* desde dirección IP *&lt; dirección IP &gt;*.
+Esta cuenta se creó en *&lt;URL de referencia&gt;* desde la dirección IP *&lt;dirección IP&gt;*.
 
-Si lo hizo, puede ignorar este mensaje de correo electrónico de forma segura.
+Si lo has hecho, puedes ignorar este correo electrónico.
 
-Si no lo hizo, comuníquese con `support@livefyre.com`
+Si no lo hizo, póngase en contacto con `support@livefyre.com`
 
 Gracias
 
-The *&quot;customer name&quot;* Team
+El equipo de *"nombre del cliente"*
 
-*&quot; Nombre de usuario &quot;,&quot; nombre del cliente &quot;,&quot; URL de referencia &quot;y* &quot; Dirección IP &quot;se generan de forma dinámica en función del visitante del sitio y de la red.
+*"Nombre de usuario", "nombre de cliente",* "dirección URL de referencia" y "dirección IP" se generan de forma dinámica en función del visitante del sitio y de la red.
 
 ## Envío de un correo electrónico de bienvenida a un usuario {#section_kjp_c3s_p1b}
 
-Puede enviar un correo electrónico de bienvenida a un usuario después de registrarse para una cuenta. Studio envía este mensaje de correo electrónico después de enviar un correo electrónico de verificación, si se configura un correo electrónico de verificación. Para enviar un mensaje de correo electrónico de bienvenida:
+Puede enviar un correo electrónico de bienvenida a un usuario después de que se registre en una cuenta. Studio envía este correo electrónico después de enviar un correo electrónico de verificación, si se configura un correo electrónico de verificación. Para enviar un correo electrónico de bienvenida:
 
-1. En Studio, haga clic en el icono de engranaje para modificar los ajustes de red.
-1. Haga clic **[!UICONTROL Integration Settings > Livefyre Identity]**
+1. En Studio, haga clic en el icono de engranaje para modificar la configuración de red.
+1. Haga clic en **[!UICONTROL Integration Settings > Livefyre Identity]**
 
-1. Vaya **[!UICONTROL Email Settings]** a.
+1. Vaya a **[!UICONTROL Email Settings]**.
 
-1. Haga clic en **[!UICONTROL Send Welcome Emails To New Users]** para habilitar el envío de correos electrónicos.
-1. Navegue hasta **[!UICONTROL Network Email]** Configurar *el logotipo de correo electrónico*, la dirección de correo electrónico que se utilizará como dirección de la dirección (**Correo electrónico desde**) y el nombre que se mostrará para la dirección de correo electrónico (**Nombre para mostrar por correo electrónico**).
+1. Haga clic **[!UICONTROL Send Welcome Emails To New Users]** para habilitar el envío de correos electrónicos.
+1. Vaya a **[!UICONTROL Network Email]** para configurar el *logotipo para correo electrónico*, la dirección de correo electrónico que se va a utilizar como dirección de correo electrónico (**Correo electrónico desde**) y el nombre para mostrar que se va a utilizar para la dirección de correo electrónico de origen (Nombre para mostrar **correo electrónico**).
