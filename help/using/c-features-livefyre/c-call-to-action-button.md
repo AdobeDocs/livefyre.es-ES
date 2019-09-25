@@ -3,7 +3,7 @@ description: 'null'
 seo-description: 'null'
 seo-title: Botón Personalizar llamada a acción
 title: Botón Personalizar llamada a acción
-uuid: 8 c 653799-1602-4 e 38-a 2 bc -6 de 0 f 49 c 40 ff
+uuid: 8c653799-1602-4e38-a2bc-6de0f99c40ff
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -14,47 +14,47 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ## Botón Personalizar llamada a acción {#topic_EBE23A0F827645E0A0C619DCF3872EE5}
 
-Los botones de llamada a acción personalizada (llamada a acción) son botones que pueden agregarse a cualquier recurso de Livefyre Studio para que el contenido pueda procesarse. Pueden remitir a un usuario final a cualquier URL personalizada, como una página de medios sociales o un carro de compras. Los botones de llamada a acción se pueden crear en varias ubicaciones en Livefyre, pero se administran en la **[!UICONTROL Settings]** sección de Livefyre Studio.
+Los botones Llamada a acción personalizada (CTA) son botones que se pueden agregar a cualquier recurso de Livefyre Studio para que el contenido pueda procesarse. Pueden remitir al usuario final a cualquier dirección URL personalizada, como una página de medios sociales o un carro de compras. Los botones de llamada a acción se pueden crear en varias ubicaciones de Livefyre, pero se administran en la **[!UICONTROL Settings]** sección de Livefyre Studio.
 
-Con CTAS personalizada puede:
+Con los CTA personalizados, puede:
 
-* Agregue botones de llamada a acción personalizados a cualquier parte de UGC en sus paredes, mosaicos, carruseles, películas y tarjetas de funciones individuales de Livefyre.
-* Controle el mensaje, los iconos, los colores, los vínculos y el número de botones de cada parte de UGC.
-* Cree, administre y reemplace botones de llamada a acción personalizados desde Configuración y Biblioteca.
-* Use Adobe Analytics para medir las tasas de pulsaciones.
+* Agregue botones personalizados de llamada a acción a cualquier parte de UGC en las paredes de medios de Livefyre, mosaicos, carruseles, tiras de película y en tarjetas de presentación individuales.
+* Controle el mensaje, los iconos, los colores, los vínculos y el número de botones en cada parte de UGC.
+* Cree, administre y reutilice botones personalizados de llamada a acción desde Configuración y la Biblioteca.
+* Utilice Adobe Analytics para medir las tasas de pulsaciones.
 
-## Crear un botón Personalizado de llamada a acción {#task_C61B4A8E66F24AC19C833612E596B736}
+## Crear un botón personalizado de llamada a acción {#task_C61B4A8E66F24AC19C833612E596B736}
 
 Contexto de tarea
 
-1. En Livefyre Studio, haga clic **[!UICONTROL Settings]** en.
-1. En el carril izquierdo, haga clic **[!UICONTROL CTAs]** en.
+1. En Livefyre Studio, haga clic en **[!UICONTROL Settings]**.
+1. In the left rail, click **[!UICONTROL CTAs]**.
 
-   Aparecerá la biblioteca de llamada a acción, donde se pueden crear y organizar CTAS dentro de carpetas. 1. Haga clic **[!UICONTROL Create CTA]** en.
-1. Rellene los campos con las personalizaciones deseadas y una vista previa de botón se mostrará en la parte inferior de la pantalla Crear llamada a acción.
+   Aparecerá la biblioteca de llamada a acción, en la que se pueden crear y organizar las llamadas a acción en carpetas. 1. Click **[!UICONTROL Create CTA]**.
+1. Rellene los campos con las personalizaciones deseadas y se mostrará una vista previa de botón en la parte inferior de la pantalla Crear llamada a acción.
 
    ![](assets/cta-button-create.png)
 
-1. Haga clic **[!UICONTROL Create]** en.
+1. Haga clic en **[!UICONTROL Create]**.
 
-   El botón de llamada a acción ya está disponible para añadirse a cualquier recurso.
+   El botón CTA ahora está disponible para agregarse a cualquier recurso.
 
-## Agregar un botón Personalizado de llamada a acción a un recurso {#task_36190DD1C8204C7793CB7EEA379C2155}
+## Agregar un botón de llamada a acción personalizado a un recurso {#task_36190DD1C8204C7793CB7EEA379C2155}
 
 Agregue un botón de llamada a acción a cualquier contenido de Livefyre Studio.
 
-1. En el estudio de Livefyre, vaya **[!UICONTROL Library]** a &gt; **[!UICONTROL All Assets]**.
+1. En el estudio de Livefyre, vaya a **[!UICONTROL Library]** &gt; **[!UICONTROL All Assets]**.
 1. Seleccione uno o varios recursos en los que desee agregar un botón de llamada a acción.
-1. Haga clic **[!UICONTROL CTAs]** en.
+1. Haga clic en **[!UICONTROL CTAs]**.
 
    ![](assets/cta-button-create2.png)
 
-1. Seleccione el botón de llamada a acción que desee en la lista y, a continuación, haga clic **[!UICONTROL Add]** en.
+1. Seleccione el botón de llamada a acción que desee en la lista y haga clic en **[!UICONTROL Add]**.
 
-   El botón de llamada a acción aparecerá ahora en el recurso seleccionado.
+   El botón Llamada a acción aparecerá ahora en el recurso seleccionado.
 
    >[!NOTE]
    >
-   >Para que los CTAS personalizados que se asocien con cada recurso se muestren en una aplicación, debe activar los botones de llamada a acción en la configuración de la aplicación:
+   >Para que los CTA personalizados que asocie con cada recurso se muestren en una aplicación, debe activar los botones CTA en la configuración de la aplicación:
    >
    >![](assets/cta-button-enable.png)
