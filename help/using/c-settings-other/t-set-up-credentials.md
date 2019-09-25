@@ -1,28 +1,28 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Configuración de credenciales
+seo-title: Configurar credenciales
 solution: Experience Manager
-title: Configuración de credenciales
-uuid: 688 af 27 e -97 ba -4 bff -8 edd -6 be 82 f 48 e 6 c 7
+title: Configurar credenciales
+uuid: 688af27e-97ba-4bff-8edd-6be82f48e6c7
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 ---
 
 
-# Configuración de credenciales{#set-up-credentials}
+# Configurar credenciales{#set-up-credentials}
 
-**Credenciales** El panel Credenciales muestra la red de Livefyre y las credenciales del sitio. Estos campos se rellenarán con Livefyre durante el proceso de integración y están disponibles aquí para su referencia. También se incluirán en esta página los nuevos sitios agregados a través de Studio. Estos valores son de solo lectura.
-**Nota de las credenciales** **de red:** La clave de red solo se usa **para** generar tokens userauth y no se utiliza para ninguna otra llamada de API. Al construir collectionmeta tokens, se utiliza la clave del sitio. Para obtener más información, consulte [Desarrolladores &gt; Introducción &gt; Creación de un testigo de autenticación de usuario](https://answers.livefyre.com/developers/getting-started/tokens/auth/).
+**Credenciales** El panel Credenciales muestra la red Livefyre y las credenciales del sitio. Estos campos serán rellenados por Livefyre durante el proceso de integración y están disponibles aquí para su referencia. Los nuevos sitios agregados a través de Studio también se incluirán en esta página. Estos valores son de sólo lectura.
+**** Credenciales **de red** Nota: La clave de red **solo** se utiliza para generar tokens userAuth y no para otras llamadas de API. Al construir los tokens collectionMeta, se utiliza la clave del sitio. Para obtener más información, consulte [Desarrolladores &gt; Introducción &gt; Creación de un autentificador](https://answers.livefyre.com/developers/getting-started/tokens/auth/)de autenticación de usuario.
 
 * Dominio de red
 * Clave de red
 
-**Credenciales del sitio (por sitio)**: Ingrese el sitio en el campo Buscar para rellenar estos campos.
+**Credenciales del sitio (por sitio)**: Introduzca el sitio en el campo Buscar para rellenar estos campos.
 
 * Nombre del sitio
-* URL del sitio
+* Dirección URL del sitio
 * ID del sitio
 * Clave del sitio
 
