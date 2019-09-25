@@ -1,24 +1,24 @@
 ---
 description: Agregue Livefyre a sus aplicaciones móviles nativas.
 seo-description: Agregue Livefyre a sus aplicaciones móviles nativas.
-seo-title: SDK para móviles
+seo-title: SDK para móvil
 solution: Experience Manager
-title: SDK para móviles
-uuid: 84 c 7 ca 1 c -3401-492 a-bfa 5-62 b 996947 a 44
+title: SDK para móvil
+uuid: 84c7ca1c-3401-492a-bfa5-62b996947a44
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# SDK para móviles{#mobile-sdks}
+# SDK para móvil{#mobile-sdks}
 
 Agregue Livefyre a sus aplicaciones móviles nativas.
 
-Existen varias opciones disponibles para implementaciones móviles, según el alcance de la personalización que tenga pensado realizar:
+Existen varias opciones disponibles para implementaciones móviles, según el grado de personalización que tenga pensado realizar:
 
 * Aplicaciones web móviles
-* SDK de Livefyre o iOS para iOS
+* SDK para Android o iOS de Livefyre
 * API HTTP
 
 ## Aplicaciones web móviles {#section_t2k_vpb_11b}
@@ -27,40 +27,40 @@ Los clientes que abren una página web en un dispositivo móvil obtienen automá
 
 >[!NOTE]
 >
->Al utilizar una aplicación de Livefyre en Android webview, el parámetro [Websettings. setdomstorageenabled de Android](https://developer.android.com/reference/android/webkit/WebSettings.html) debe definirse como true. Si localstorage no está habilitado, Livefyre no podrá iniciar sesión en la aplicación de Livefyre.
+>Al utilizar una aplicación Livefyre en una vista web de Android, el parámetro [WebSettings.setDomStorageEnabled](https://developer.android.com/reference/android/webkit/WebSettings.html) de Android debe establecerse en true. Si localStorage no está habilitado, Livefyre no podrá iniciar sesión en la aplicación Livefyre.
 
-Para optimizar para dispositivos móviles, Livefyre limita las funciones de los comentarios, el blog directo y la aplicación de chat para incluir:
+Para optimizar para dispositivos móviles, Livefyre limita el conjunto de funciones Comentarios, Blogs en vivo y Aplicación de chat para incluir:
 
 * Anuncio
-* Editar
-* Indicador
+* Editar 
+* Marcar
 * Me gusta
 * Responder
-* Recuento de oyentes
+* Recuento de escucha
 * Recuento de comentarios
 * Moderación pendiente en línea
 * Hovercards
 * Comentarios principales
-* Hilos interactivos
-* Comentarios en cola
+* Subprocesos en caliente
+* Comentarios de cola
 
-En aplicaciones web móviles, al hacer clic en el nombre de un autor se abre información de la tarjeta en una página nueva.
+En Aplicaciones web móviles, al hacer clic en el nombre de un autor se abre la información de la tarjeta de visita en una página nueva.
 
-## SDK de Android Android o SDK para iOS {#section_zdz_spb_11b}
+## Livefyre Android SDK o iOS SDK {#section_zdz_spb_11b}
 
-Livefyre también proporciona dos SDK para móviles: un SDK para iOS y un SDK para Android. Estos SDK son contenedores alrededor de nuestros terminales HTTP, creados con el fin de proporcionar un método más sencillo para enviar y recibir datos. No se proporciona ninguna interfaz con estos SDK, lo que permite una mayor flexibilidad en la forma en que se muestra y se utiliza el contenido dentro de la aplicación móvil.
+Livefyre también proporciona dos SDK para móviles: un SDK para iOS y un SDK para Android. Estos SDK son envolventes alrededor de nuestros extremos HTTP, creados para proporcionar un método más sencillo de enviar y recibir datos. No se proporciona ninguna interfaz con estos SDK, lo que permite una mayor flexibilidad en la forma en que se muestra y se utiliza el contenido en la aplicación móvil.
 
-Los SDK de Android y iOS admiten las siguientes funciones para Comentarios, Blog directo y Chat:
+Los SDK para Android e iOS admiten las siguientes funciones para Comentarios, Blog en directo y Chat:
 
 | Funciones de iOS: | Funciones de Android: |
 |--- |--- |
-| <ul><li> Anuncio </li><li>Editar </li><li>Indicador </li><li>Me gusta </li><li>Responder </li><li>Hilos interactivos</li></ul> | <ul><li>Anuncio </li><li>Editar </li><li>Me gusta </li><li>Responder </li><li>Hilos interactivos</li></ul> |
+| <ul><li> Anuncio </li><li>Editar  </li><li>Marcar </li><li>Me gusta </li><li>Responder </li><li>Subprocesos en caliente</li></ul> | <ul><li>Anuncio </li><li>Editar  </li><li>Me gusta </li><li>Responder </li><li>Subprocesos en caliente</li></ul> |
 
 ## API HTTP {#section_yqb_qpb_11b}
 
-Las API de HTTP son el grupo de puntos finales que le permite crear conversaciones y contenido en la plataforma de Livefyre. También alimenta todos los flujos de Livefyre. Aunque esta solución requiere más tiempo de desarrollo de su equipo de ingeniería, proporciona mayor flexibilidad al utilizar el grupo de productos de Livefyre y permite una integración móvil nativa.
+Las API HTTP son el grupo de extremos que le permite crear conversaciones y contenido en la plataforma Livefyre. También alimenta a todos los Livefyre de los flujos de caja. Aunque esta solución requiere más tiempo de desarrollo por parte de su equipo de ingeniería, proporciona mayor flexibilidad al utilizar el grupo de productos Livefyre y permite la integración nativa con dispositivos móviles.
 
 >[!IMPORTANT]
 >
->**No** cree tokens de autenticación de usuario dentro del cliente móvil, ya que esto requiere que exponga su clave de red secreta de Livefyre en una aplicación no segura. Para obtener una solución más segura y segura, consulte la sección Autentificadores de autenticación de usuarios.
+>**No cree** tokens de autenticación de usuarios en el cliente móvil, ya que esto requeriría que exponga la clave de red secreta de Livefyre en una aplicación no segura. Para obtener una solución más sólida y segura, consulte la sección Tokens de autenticación de usuario.
 
