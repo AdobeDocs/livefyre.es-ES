@@ -1,49 +1,49 @@
 ---
-description: Agregue el indicador userprivacyoptout a la página para permitir que un visitante del sitio desactive este seguimiento.
-seo-description: Agregue el indicador userprivacyoptout a la página para permitir que un visitante del sitio desactive este seguimiento.
-seo-title: Userprivacyoptout
-title: Userprivacyoptout
-uuid: a 043 c 50 e -0 a 02-4 c 83-bbce -54 b 9 b 51316 a 5
+description: Agregue el indicador userPrivacyOptOut a la página para permitir que un visitante del sitio pueda desactivar este seguimiento.
+seo-description: Agregue el indicador userPrivacyOptOut a la página para permitir que un visitante del sitio pueda desactivar este seguimiento.
+seo-title: userPrivacyOptOut
+title: userPrivacyOptOut
+uuid: a043c50e-0a02-4c83-bbce-54b9b51316a5
 translation-type: tm+mt
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: 9e01dd4515c01154e3566a39b367b8efa4ec082a
 
 ---
 
 
-# Userprivacyoptout{#userprivacyoptout}
+# userPrivacyOptOut{#userprivacyoptout}
 
-Agregue `userPrivacyOptOut` el indicador a la página para permitir que un visitante del sitio desactive este seguimiento.
+Agregue el `userPrivacyOptOut` indicador a la página para permitir a un visitante del sitio desactivar este seguimiento.
 
 Livefyre proporciona eventos de JavaScript para rastrear la actividad de los usuarios en sus aplicaciones de Livefyre.
 
-Si incrusta aplicaciones de Livefyre y un visitante no aprueba el seguimiento, puede configurar de forma dinámica Livefyre para deshabilitar la funcionalidad a fin de garantizar la privacidad del visitante.
+Si incrusta las aplicaciones de Livefyre y un visitante no consiente en realizar el seguimiento, puede configurar de forma dinámica Livefyre para deshabilitar la funcionalidad y garantizar la privacidad del visitante.
 
-Cuando se configure, Livefyre:
+Cuando se configura, Livefyre:
 
-* Deshabilitar la compatibilidad de autenticación en Aplicaciones.
-* Deshabilitar la generación de Livecount y eventos
+* Deshabilite la compatibilidad con la autenticación en las aplicaciones.
+* Deshabilitar Livecount y generación de eventos
 * Eliminar las cookies existentes creadas por cualquier aplicación que se encuentre en la página
-* Medios proxy con imágenes de dominios de terceros para impedir que terceros creen cookies
-* Habilitar la pulsación de máscara de vídeo para vídeos de terceros que requieran un clic adicional para ver
+* Medios proxy con imágenes de dominios de terceros para evitar que terceros creen cookies
+* Activar pulsaciones de máscara de vídeo para vídeos de terceros que requieran un clic adicional para ver
 
 ## Configurar una página para la exclusión
 
-Las integraciones que incorporan aplicaciones de Livefyre pueden configurar Livefyre cuando un visitante del sitio no ha concedido el consentimiento mediante una sola variable JavaScript.
+Las integraciones que incrustan aplicaciones de Livefyre pueden configurar Livefyre cuando un visitante del sitio no ha concedido el consentimiento mediante una sola variable de JavaScript.
 
 Instrucciones:
 
-1. Agregue `userPrivacyOptOut` el indicador a la página antes del `Livefyre.js` JavaScript:
+1. Agregue el `userPrivacyOptOut` indicador a la página antes del `Livefyre.js` JavaScript:
 
    ```
    window.Livefyre = {userPrivacyOptOut: true};
    ```
 
-1. Add `Livefyre.js` to the page anywhere after `userPrivacyOptOut`.
+1. Agregue `Livefyre.js` a la página en cualquier lugar después de `userPrivacyOptOut`.
 
-   Las aplicaciones de Livefyre crean una instancia con la configuración de privacidad elevada.
+   Las aplicaciones de Livefyre crean instancias con la configuración de privacidad elevada.
 
    >[!NOTE]
    >
-   >No cambie el valor de `userPrivacyOptOut` una vez que se hayan cargado las aplicaciones de Livefyre.
+   >No cambie el valor de una `userPrivacyOptOut` vez cargadas las aplicaciones de Livefyre.
 
-Asegúrese de que el flujo de trabajo de consentimiento establezca el `userPrivacyOptOut` valor true si un visitante del sitio elige desactivar la opción.
+Asegúrese de que el flujo de trabajo de consentimiento establezca el valor `userPrivacyOptOut` en true si un visitante del sitio decide desactivar la opción.
