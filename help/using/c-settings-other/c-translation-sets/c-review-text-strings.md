@@ -1,10 +1,10 @@
 ---
-description: Personalización de cadenas de texto para revisiones de Livefyre.
-seo-description: Personalización de cadenas de texto para revisiones de Livefyre.
+description: Personalización de las cadenas de texto para Livefyre Reviews.
+seo-description: Personalización de las cadenas de texto para Livefyre Reviews.
 seo-title: Revisar cadenas de texto
 solution: Experience Manager
 title: Revisar cadenas de texto
-uuid: 86251 e 49-bc 73-4 eec -9 f 9 b-b 4 b 0 a 5 b 42099
+uuid: 86251e49-bc73-4eec-9f9b-b4b0a5b42099
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
@@ -13,19 +13,15 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 # Revisar cadenas de texto{#review-text-strings}
 
-Personalización de cadenas de texto para revisiones de Livefyre.
+Personalización de las cadenas de texto para Livefyre Reviews.
 
-Esta página enumera y describe las cadenas disponibles para la personalización en Aplicaciones de revisión. Las cadenas enumeradas aquí son además de las cadenas predeterminadas de las aplicaciones principales de Livefyre, enumeradas en Personalizaciones de cadenas. Cuando se enumeran duplicados, las cadenas enumeradas en estas tablas son el valor predeterminado para las aplicaciones de revisión.
+Esta página enumera y describe las cadenas disponibles para la personalización en las aplicaciones de revisión. Las cadenas que se muestran aquí se suman a las cadenas predeterminadas de las aplicaciones principales de Livefyre y se anulan, enumeradas en Personalizaciones de cadenas. En los casos en que se muestran duplicados, las cadenas que aparecen en estas tablas son las predeterminadas para las aplicaciones de críticas.
 
-Errores de autor de la información
-del flujo de la interfaz
-de clasificación/revisión de implementación/Información
-del contenido Acciones
-de post Post
+ImplementaciónRevisar / Interfaz de clasificaciónInformación de flujoAutor / Información de contenido Acciones de usuario Funciones de anuncioErrores
 
 ## Implementación {#section-vsy-1k4-xz}
 
-Para implementar esta función, pase una asignación de objeto 1-1 de las cadenas que desee sobrescribir al objeto de configuración Javascript. Si no se proporciona un campo, se utilizará el texto predeterminado.
+Para implementar esta función, pase una asignación de objetos 1-1 de las cadenas que desee reemplazar al objeto de configuración de Javascript. Si no se proporciona un campo, se utilizará el texto predeterminado.
 
 Ejemplo:
 
@@ -40,80 +36,80 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## Interfaz de revisión/clasificación {#section_iyv_zj4_xz}
+## Interfaz de revisión y clasificación {#section_iyv_zj4_xz}
 
-Cadenas disponibles para la interfaz de usuario de revisión y clasificación.
+Cadenas disponibles para la interfaz de usuario Revisar y clasificar.
 
 | Elemento | Clave | Texto predeterminado |
 |--- |--- |--- |
-| Botones | Editreviewbtn | Editar revisión |
-|  | Reviewbtn | [Escribir revisión](https://d.pr/i/QscA) |
-|  | Reviewsclosed | [Revisiones cerradas](https://d.pr/i/zr7M) |
-|  | Showreviewbtn | [Mostrar revisión](https://d.pr/i/onxU) |
-|  | seguir | Estoy interesado |
-|  | Sharetext | Acabo de escribir una reseña. ¡Descárguelo! |
-| Información sobre herramientas de clasificación | Ratingvalues | Una matriz. Default = `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`; <br>Nota: Los valores de la matriz deben duplicarse para asignar a la izquierda y a la derecha de cada estrella el mismo nombre. |
-| Subsecciones de clasificación | Ratingsubpartplaceholders | Una matriz. Default = `[]` |
-|  | Ratingsubparttitles | Una matriz. Default = `[]` |
-|  | Reviewstreamtitle | En blanco de forma predeterminada. Título de la sección resumen de la revisión. |
-| Misc | Averagerating | [Clasificación promedio de usuario](https://d.pr/i/QscA) |
-|  | Breakdownheader | [Desglose de clasificación](https://d.pr/i/QscA) |
-|  | serviciales | Se encontraron % s de % s útiles |
-|  | Helpfulplural | Se encontraron % s de % s útiles |
-|  | Outof | / |
-|  | Ratingtype | estrella |
+| Botones | editReviewBtn | Editar revisión |
+|  | reviewBtn | [Escribir revisión](https://d.pr/i/QscA) |
+|  | reseñasCerradas | [Reseñas cerradas](https://d.pr/i/zr7M) |
+|  | showReviewBtn | [Mostrar revisión](https://d.pr/i/onxU) |
+|  | seguir | Me interesa |
+|  | shareText | Acabo de escribir una reseña. ¡Echa un vistazo! |
+| Sugerencias de herramientas de clasificación | ratingValues | Una matriz. Predeterminado = `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`; <br>Nota: Los valores de la matriz deben duplicarse para asignar el mismo nombre a la mitad izquierda y a la derecha de cada estrella. |
+| Subpartes de clasificación | ratingSubpartPlaceholder | Una matriz. Valor predeterminado = `[]` |
+|  | ratingSubpartTitles | Una matriz. Valor predeterminado = `[]` |
+|  | reviewStreamTitle | En blanco de forma predeterminada. Título de la sección de resumen del examen. |
+| Misc | averageRating | [Clasificación promedio de usuarios](https://d.pr/i/QscA) |
+|  | breakHeader | [Desglose de clasificación](https://d.pr/i/QscA) |
+|  | útil | %s de %s encontró útil |
+|  | helpPlural | %s de %s encontró útil |
+|  | outOf | / |
+|  | ratingType | star |
 
-## Información del flujo {#section_wmv_yj4_xz}
+## Información de flujo {#section_wmv_yj4_xz}
 
-Cadenas disponibles para la información de flujo de contenido y visualización.
+Cadenas disponibles para la información y visualización del flujo de contenido.
 
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
-| Ordenar | Sortby | En blanco de forma predeterminada. |
-|  | Sorthighestrated | [Clasificación más alta](https://d.pr/i/huTd) |
-|  | Sortlowestrated | [Clasificación más baja](https://d.pr/i/huTd) |
-|  | Sortmosthelpful | [Más serviciales](https://d.pr/i/huTd) |
-| Stream misc. | Showmore | Mostrar más |
-| Velocidad alta de flujo | Newcomment | Nueva revisión |
-|  | Newcomments | Nuevas revisiones |
-| Recuento de detectores | Listenercount | persona que escucha |
-|  | Listenercountplural | personas que escucha |
-| Recuento de comentarios | Commentcountlabel | Livereviews<strong> | </strong>% s |
-|  | Commentcountlabelplural | Livereviews<strong> | </strong>% s |
-| Recuento de notificadores de comentarios | Commentnotificfier | Nueva revisión |
-|  | Commentnotificfierplural | Nuevas revisiones |
+| Clasificación |  sortBy | En blanco de forma predeterminada. |
+|  | sortHighestRated | [Clasificación más alta](https://d.pr/i/huTd) |
+|  | sortLowestRated | [Clasificación más baja](https://d.pr/i/huTd) |
+|  | sortMostHelpful | [Más útil](https://d.pr/i/huTd) |
+| Misc de flujo. | showMore | Mostrar más |
+| Velocidad de flujo alta | newComment | Nueva revisión |
+|  | newComments | Nuevas revisiones |
+| Recuentos de escucha | listenerCount | persona que escucha |
+|  | listenerCountPlural | personas escuchando |
+| Recuentos de comentarios | commentCountLabel | LiveReviews<strong> | </strong>%s |
+|  | commentCountLabelPlural | LiveReviews<strong> | </strong>%s |
+| Recuentos de notificaciones de comentarios | commentNotifier | Nueva revisión |
+|  | commentNotifierPlural | Nuevas revisiones |
 
 ## Información de autor/contenido {#section_osx_xj4_xz}
 
-Listas disponibles para la información de contenido y de autor individual.
+Las cadenas están disponibles para la información de contenido individual y de autor.
 
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
-| Grupo de trabajo de debate | Reviewscontentnotfoundmsg | [Esta revisión ya no está visible](https://d.pr/i/svXs) |
-|  | Backtocomments | Regresar a Críticas |
+| Grupo de trabajo de subprocesos | reviewContentNotFoundMsg | [Esta revisión ya no está visible](https://d.pr/i/svXs) |
+|  | backToComments | Volver a las revisiones |
 
 ## Acciones del usuario {#section_tlx_wj4_xz}
 
-Cadenas disponibles para las acciones del usuario: marcar, compartir y marcar el contenido existente como útil.
+Cadenas disponibles para acciones de usuario: marcar, compartir y marcar el contenido existente como útil.
 
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
-| Pie de página de comentario | Wasreviewhelpful | [¿Resulta útil?](https://d.pr/i/Q0mA) |
-|  | Wasreviewhelpfulmobile | ¿Resulta útil? |
-|  | Ownwasreviewhelpful | [Se ha encontrado una utilidad.](https://d.pr/i/Q0mA) |
-|  | Reviewwashelpful | [Sí](https://d.pr/i/Q0mA) |
-|  | Helpfuldivider | [&amp; amp; vert;](https://d.pr/i/Q0mA) |
-|  | Reviewwasnothelpful | [No](https://d.pr/i/Q0mA) |
-| Votar modal | Votetitle | ¿Es útil esta revisión? |
-|  | Votedownvote | No |
-|  | Votereplytitle | ¿Es útil esta respuesta? |
-|  | Votetitle | ¿Es útil este comentario? |
-|  | Voteupvote | Sí |
-| Modal, modal | Flagtitle | Revisión del indicador % s |
-|  | Flagsuccessmsg | Se marcó la revisión. |
-| Marcar móvil | Flagconfirmationmessage | ¿Marcar la revisión % s como % s? |
-| Menciones modales | Mentiondefaulttext | ¡Lo mencioné en una revisión de Livefyre! |
-| Compartir modal | Sharetitle | Compartir revisión |
+| Pie de comentario | wasReviewHelpful | [¿Útil?](https://d.pr/i/Q0mA) |
+|  | wasReviewHelpfulMobile | ¿Útil? |
+|  | ownWasReviewHelpful | [Encontrado útil.](https://d.pr/i/Q0mA) |
+|  | reviewWasHelpful | [Sí](https://d.pr/i/Q0mA) |
+|  | helpDivider | [&amp;vert;](https://d.pr/i/Q0mA) |
+|  | reviewWasNotHelpful | [No ](https://d.pr/i/Q0mA) |
+| Modo de voto | voteTitle | ¿Fue útil esta revisión? |
+|  | voteDownvote | No |
+|  | voteReplyTitle | ¿Fue útil esta respuesta? |
+|  | voteTitle | ¿Este comentario fue útil? |
+|  | voteUpvote | Sí |
+| Indicador modal | flagTitle | Marcar la revisión de %s |
+|  | flagSuccessMsg | Se ha marcado la revisión. |
+| Marcar móvil | flagConfirmationMessage | ¿Marcar la revisión de %s como %s? |
+| Mención modal | sayDefaultText | ¡Te mencioné en una reseña de Livefyre! |
+| Compartir modal | shareTitle | Compartir revisión |
 
 ## Funciones de anuncio {#section_yl1_wj4_xz}
 
@@ -121,15 +117,15 @@ Cadenas disponibles para los usuarios que publican revisiones.
 
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
-| Editor | Bodyplaceholder | Escribir revisión… |
-|  | Posteditbutton | Editar |
-|  | Posteditcancelbutton | Cancelar |
-|  | Postasbutton | Publicar revisión como… |
-|  | Postbutton | Revisión posterior |
-|  | Postreplyasbutton | Anunciar como… |
-|  | Postreplybutton | Anuncio |
-|  | Sharebutton | Compartir |
-|  | Titleplaceholder | Título… |
+| Editor | bodyPlaceholder | Escribir revisión... |
+|  | postEditButton | Editar  |
+|  | postEditCancelButton | Cancelar |
+|  | postAsButton | Anunciar revisión como... |
+|  | postButton | Revisión posterior |
+|  | postReplyAsButton | Publicar como... |
+|  | postReplyButton | Anuncio |
+|  | shareButton | Compartir |
+|  | titlePlaceholder | Título… |
 
 ## Errores {#section_jbc_vj4_xz}
 
@@ -137,25 +133,25 @@ Cadenas disponibles para mensajes de error generales.
 
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
-| Errores | Erroralreadyposted | Solo puede publicar una revisión. |
-|  | Errorautherror | No está autorizado a publicar una revisión en esta conversación |
-|  | Errorcommentsnotallowed | Las revisiones no se pueden publicar en este momento |
-|  | Errordisputowncomment | No puede disgustar su propia revisión |
-|  | Errorduplicate | Al igual que le gusta la revisión, no tiene permiso para anunciarla dos veces. |
-|  | Erroreditduplicate | Debe cambiar el cuerpo de la revisión cuando lo edite. |
-|  | Erroreditnotallowed | No está autorizado a editar las revisiones de esta conversación. |
-|  | Erroredittimeexceeded | Lo lamentamos, el período de edición de la revisión ha caducado. |
-|  | Errorempty | Parece que está intentando publicar una revisión vacía. |
-|  | Erroremptytitle | Parece que está intentando anunciar un título vacío |
-|  | Errorfieldrating | clasificación de estrella |
-|  | Errorfieldreview | revisar |
-|  | Errorfieldtitle | title |
-|  | Errormaxchars | La reseña es demasiado larga. Edite e inténtelo de nuevo. |
-|  | Errormissingfields | Escriba un |
-|  | Errorratingempty | No se puede enviar una clasificación vacía |
-|  | Errorratingnotset | Se deben configurar todas las clasificaciones |
-|  | Errorratingnotvalid | La clasificación debe ser un objeto |
-|  | Errorshowmore | Se produjo un error al cargar más críticas. |
-|  | Errortitlemaxchars | Su título es demasiado largo. Edite e inténtelo de nuevo. |
-|  | Errorvoteowncomment | No puede votar por su propia revisión |
+| Errores | errorAlreadyPosted | Solo puede publicar una revisión. |
+|  | errorAuthError | No está autorizado para publicar una revisión de esta conversación |
+|  | errorCommentsNotAllowed | Las revisiones no se pueden publicar en este momento |
+|  | errorDislikeOwnComment | No puede desagradar su propia revisión |
+|  | errorDuplicate | Por mucho que le guste la revisión, no se le permite publicarla dos veces. |
+|  | errorEditDuplicate | Debe cambiar el cuerpo de la revisión cuando la edite. |
+|  | errorEditNotAllowed | No tiene permiso para editar reseñas de esta conversación. |
+|  | errorEditTimeExceeded | El período de edición de la revisión ha caducado. |
+|  | errorEmpty | Parece que está intentando publicar una revisión vacía. |
+|  | errorEmptyTitle | Parece que está intentando publicar un título vacío |
+|  | errorFieldRating | clasificación por estrellas |
+|  | errorFieldReview | revisión |
+|  | errorFieldTitle | title |
+|  | errorMaxChars | Lo sentimos, tu revisión es demasiado larga. Edite e inténtelo nuevamente. |
+|  | errorMissingFields | Escriba un |
+|  | errorRatingEmpty | No se puede enviar una clasificación vacía |
+|  | errorRatingNotSet | Todas las clasificaciones deben configurarse |
+|  | errorRatingNotvalid | La clasificación debe ser un objeto |
+|  | errorShowMore | Error al cargar más revisiones. |
+|  | errorTitleMaxChars | Lo siento, tu título es demasiado largo. Edite e inténtelo nuevamente. |
+|  | errorVoteOwnComment | No puede votar por su propia revisión |
 
