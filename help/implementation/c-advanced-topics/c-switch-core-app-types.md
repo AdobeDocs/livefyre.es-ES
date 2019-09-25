@@ -1,10 +1,10 @@
 ---
-description: Aprenda a cambiar de un tipo de aplicación de conversación a otro.
-seo-description: Aprenda a cambiar de un tipo de aplicación de conversación a otro.
+description: Obtenga información sobre cómo cambiar de una conversación a otro tipo de aplicación.
+seo-description: Obtenga información sobre cómo cambiar de una conversación a otro tipo de aplicación.
 seo-title: Cambiar tipos de aplicaciones principales
 solution: Experience Manager
 title: Cambiar tipos de aplicaciones principales
-uuid: 442 a 517 c -3809-46 c 5-bb 5 f -8668 a 29 dc 3 e 8
+uuid: 442a517c-3809-46c5-bb5f-8668a29dc3e8
 translation-type: tm+mt
 source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
 
@@ -13,13 +13,13 @@ source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
 
 # Cambiar tipos de aplicaciones principales{#switch-core-app-types}
 
-Aprenda a cambiar de un tipo de aplicación de conversación a otro.
+Obtenga información sobre cómo cambiar de una conversación a otro tipo de aplicación.
 
-Lifefyre le permite cambiar las colecciones de un tipo de aplicación principal de Livefyre a otro (Comentarios, Blog activo o Chat) simplemente cambiando algunos de los ajustes de `collectionMeta` sus datos.
+Lifefyre le permite cambiar las colecciones de un tipo de aplicación principal de Livefyre a otro (Comentarios, Blog en vivo o Chat) simplemente cambiando algunos ajustes de los `collectionMeta` datos.
 
-Para implementar un tipo específico de aplicación, agregue un campo nuevo al `collectionMeta` objeto. Los comentarios son el valor predeterminado, por lo que no tendrá que realizar estas actualizaciones si ésa es la aplicación que desee. Para cambiar a otra aplicación después de crear una colección, pase un valor de suma de comprobación durante la inicialización de la aplicación. Obtenga más información sobre la creación de un valor de suma de comprobación en la documentación `collectionMeta` de tokens.
+Para implementar un tipo específico de aplicación, agregue un nuevo campo al `collectionMeta` objeto. Comentarios es el valor predeterminado, por lo que no tendrá que realizar estas actualizaciones si es su aplicación deseada. Para cambiar a una aplicación diferente después de crear una colección, pase un valor de suma de comprobación durante la inicialización de la aplicación. Obtenga más información sobre la creación de un valor de suma de comprobación en nuestra documentación `collectionMeta` del token.
 
-## Blog activo {#section_kvj_3jj_11b}
+## Blog en vivo {#section_kvj_3jj_11b}
 
 ### Ejemplo de PHP
 
@@ -81,7 +81,7 @@ conv_config = dict(
 )
 ```
 
-### Ejemplo Ruby
+### Ejemplo de Ruby
 
 ```
 require 'livefyre'  
@@ -110,7 +110,7 @@ conv_config = {
 }
 ```
 
-## Blog activo {#section_bqt_cjj_11b}
+## Blog en vivo {#section_bqt_cjj_11b}
 
 ### Ejemplo de PHP
 
@@ -172,7 +172,7 @@ conv_config = dict(
 )
 ```
 
-### Ejemplo Ruby
+### Ejemplo de Ruby
 
 ```
 require 'livefyre' 
@@ -202,7 +202,7 @@ conv_config = {
 }
 ```
 
-## Chat {#section_dqm_w3j_11b}
+## Conversación {#section_dqm_w3j_11b}
 
 ### PHP
 
@@ -263,7 +263,7 @@ conv_config = dict( "el" = "targetElement",
 )
 ```
 
-### Ejemplo Ruby
+### Ejemplo de Ruby
 
 ```
 require 'livefyre' 
