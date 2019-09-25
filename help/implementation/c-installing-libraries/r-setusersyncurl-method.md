@@ -1,23 +1,23 @@
 ---
-description: Informa a Livefyre de que actualice la URL de sincronización de usuario de la red con la proporcionada. Devuelve un valor booleano.
-seo-description: Informa a Livefyre de que actualice la URL de sincronización de usuario de la red con la proporcionada. Devuelve un valor booleano.
-seo-title: Método de red setusersyncurl
+description: Informa a Livefyre de que actualice la URL de sincronización de usuarios de la red a la proporcionada. Devuelve un valor Boolean.
+seo-description: Informa a Livefyre de que actualice la URL de sincronización de usuarios de la red a la proporcionada. Devuelve un valor Boolean.
+seo-title: setUserSyncUrl, método de red
 solution: Experience Manager
-title: Método de red setusersyncurl
-uuid: cd 067 e 90-a 2 da -4 e 3 d -8 e 60-7 eabfd 86 fc 7 f
+title: setUserSyncUrl, método de red
+uuid: da067e90-a2da-4e3d-8e60-7eabfd86fc7f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Método de red setusersyncurl{#setusersyncurl-network-method}
+# setUserSyncUrl, método de red{#setusersyncurl-network-method}
 
-Informa a Livefyre de que actualice la URL de sincronización de usuario de la red con la proporcionada. Devuelve un valor booleano.
+Informa a Livefyre de que actualice la URL de sincronización de usuarios de la red a la proporcionada. Devuelve un valor Boolean.
 
 | Variable | Tipo | Descripción |
 |--- |--- |--- |
-| Urltemplate | Cadena | La URL para registrarse en Livefyre para sincronizar los ID de usuario. Requiere que «`{id}`» forme parte de la cadena URL proporcionada. |
+| urlTemplate | Cadena | La URL para registrarse en Livefyre y sincronizar los ID de usuario. Requiere que "`{id}`" forme parte de la cadena URL proporcionada. |
 
 ## Ejemplo de Java {#section_nyl_ycs_rz}
 
@@ -31,7 +31,7 @@ Salida de muestra:
 true
 ```
 
-## Ejemplo de nodejs {#section_xkd_gds_rz}
+## Ejemplo de NodeJS {#section_xkd_gds_rz}
 
 ```
 network.setUserSyncUrl(urlTemplate); 
@@ -67,7 +67,7 @@ Salida de muestra:
 True
 ```
 
-## Ejemplo Ruby {#section_enh_gds_rz}
+## Ejemplo de Ruby {#section_enh_gds_rz}
 
 ```
 network.set_user_sync_url(urlTemplate) 
