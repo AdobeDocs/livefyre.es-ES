@@ -1,10 +1,10 @@
 ---
-description: Exhiba las colecciones más activas del sitio o de la red.
-seo-description: Exhiba las colecciones más activas del sitio o de la red.
+description: Muestre las colecciones más activas del sitio o de la red.
+seo-description: Muestre las colecciones más activas del sitio o de la red.
 seo-title: Tendencias
 solution: Experience Manager
 title: Tendencias
-uuid: 3031523 d-b 487-4 eea-bba 6-5 d 8 f 9971874 f
+uuid: 3031523d-b487-4eea-bba6-5d8f9971874f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,21 +13,21 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Tendencias{#trending}
 
-Exhiba las colecciones más activas del sitio o de la red.
+Muestre las colecciones más activas del sitio o de la red.
 
-Utilice Tendencias para exhibir las colecciones con la actividad más reciente del sitio o de la red.
+Utilice las tendencias para mostrar las colecciones con la actividad más reciente del sitio o la red.
 
-## de CRM{#section_wtz_whb_c1b}
+## de CRM {#section_wtz_whb_c1b}
 
-La manera más rápida de integrar Tendencias es utilizar la versión compilada alojada en CDN de Livefyre.
+La forma más rápida de integrarse con Trending es utilizar la versión compilada alojada en la CDN de Livefyre.
 
-En primer lugar, agregue [Livefyre. js](https://github.com/Livefyre/Livefyre.js) a su página.
+Primero, agregue [Livefyre.js](https://github.com/Livefyre/Livefyre.js) a su página.
 
 ```
 <script src="//cdn.livefyre.com/Livefyre.js"></script> 
 ```
 
-A continuación, posicione el elemento en el que aparecerá la aplicación.
+A continuación, coloque el elemento en el que aparecerá la aplicación.
 
 ```
 <div id="trending"></div>
@@ -49,13 +49,13 @@ Livefyre.require([
 </script>
 ```
 
-Ahora tiene una aplicación de tendencias. Ver todo en acción en [este ejemplo](https://codepen.io/gobengo/pen/GijEy).
+Ahora tiene una aplicación de tendencias. Vea todo esto en acción en [este ejemplo](https://codepen.io/gobengo/pen/GijEy).
 
 ## Configuración {#section_k5k_qhb_c1b}
 
 `network`
 
-La red desde la que se extraerán las colecciones. (Obligatorio.)
+Red de la que se extraerán las colecciones. (Requerido.)
 
 ```
 var trending = new Trending({ 
@@ -66,7 +66,7 @@ var trending = new Trending({
 
 `siteId`
 
-Proporcione el ID del sitio para mostrar las colecciones solo desde un sitio único dentro de la red. (Opcional).
+Proporcione la ID del sitio para mostrar las colecciones solamente desde un solo sitio dentro de la red. (Opcional.)
 
 ```
 var trending = new Trending({ 
@@ -78,7 +78,7 @@ var trending = new Trending({
 
 `tag`
 
-Proporcione una sola etiqueta Colección para mostrar solo Colecciones con esa etiqueta. (Opcional).
+Proporcione una única etiqueta de colección para mostrar solo las colecciones con esa etiqueta. (Opcional.)
 
 ```
 var trending = new Trending({ 
