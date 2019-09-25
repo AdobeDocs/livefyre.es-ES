@@ -1,10 +1,10 @@
 ---
-description: Tome los recuentos de publicaciones y comentarios para que determinadas colecciones se muestren en las páginas de índice.
-seo-description: Tome los recuentos de publicaciones y comentarios para que determinadas colecciones se muestren en las páginas de índice.
+description: Tome los recuentos de anuncios y comentarios de determinadas colecciones para mostrarlos en las páginas de índice.
+seo-description: Tome los recuentos de anuncios y comentarios de determinadas colecciones para mostrarlos en las páginas de índice.
 seo-title: Mostrar recuento de comentarios
 solution: Experience Manager
 title: Mostrar recuento de comentarios
-uuid: 0 f 39 b 25 e -11 e 0-4945-be 71-55 fb 4798 b 6 c 7
+uuid: 0f39b25e-11e0-4945-be71-55fb4798b6c7
 translation-type: tm+mt
 source-git-commit: c287e7a880f956f0444af746adee682571fe5a72
 
@@ -13,13 +13,13 @@ source-git-commit: c287e7a880f956f0444af746adee682571fe5a72
 
 # Mostrar recuento de comentarios{#display-comment-count}
 
-Tome los recuentos de publicaciones y comentarios para que determinadas colecciones se muestren en las páginas de índice.
+Tome los recuentos de anuncios y comentarios de determinadas colecciones para mostrarlos en las páginas de índice.
 
-Livefyre le `CommentCount.js` permite recuperar los recuentos de contenido de las colecciones del sitio. Aunque las aplicaciones mostrarán el recuento de comentarios de la colección actual, tener estos recuentos sindicados en el sitio puede resultar útil. Esta función es especialmente útil si no persiste en su base de datos (o si la base de datos CMS no se sincroniza con Livefyre).
+Livefyre `CommentCount.js` permite recuperar los recuentos de contenido de las colecciones de su sitio. Aunque las aplicaciones mostrarán el recuento de comentarios de la colección actual, puede resultar útil tener estos recuentos sindicados en el sitio. Esta función resulta especialmente útil si no se mantiene el contenido en la base de datos (o si la base de datos CMS no está sincronizada con Livefyre).
 
 1. Cargue el JavaScript.
 
-   Para usarlo `CommentCount.js`, primero incruste el archivo JavaScript en `<head>` la sección de la página o plantilla donde desee utilizarla.
+   Para utilizarlo `CommentCount.js`, primero incruste el archivo JavaScript en la `<head>` sección de la página o plantilla donde desee utilizarlo.
 
    ```
    <script 
@@ -31,9 +31,9 @@ Livefyre le `CommentCount.js` permite recuperar los recuentos de contenido de la
 
 1. Enlace el elemento HTML.
 
-   Una vez cargada la secuencia de comandos, intentará encontrar otros elementos en la página con un nombre de clase de `livefyre-commentcount`. Para cada uno de estos elementos, la secuencia de comandos buscará `data-lf-site-id` y los atributos `data-lf-article-id` HTML, y usarán estos elementos para recuperar contenido de Livefyre y actualizar cada elemento con el valor más reciente.
+   Una vez cargada la secuencia de comandos, intentará encontrar otros elementos en la página con un nombre de clase de `livefyre-commentcount`. Para cada uno de estos elementos, la secuencia de comandos buscará atributos `data-lf-site-id` y `data-lf-article-id` HTML, y los usará para recuperar contenido de Livefyre y actualizar cada elemento con el valor más reciente.
 
-   Por ejemplo, se actualizará el siguiente elemento:
+   Por ejemplo, se actualizaría el siguiente elemento:
 
    ```
    <span class="livefyre-commentcount" data-lf-site-id="{site_id}" data-lf-article-id="{article_id}"> 
@@ -41,9 +41,9 @@ Livefyre le `CommentCount.js` permite recuperar los recuentos de contenido de la
    </span>
    ```
 
-   >[!NOTE] {important = &quot;high&quot;}
+   >[!NOTE] {important="high"}
    >
-   >`CommentCount.js` El código comprueba si hay un valor numérico que actualizar con el recuento real. Asegúrese de incluir un valor numérico entre las etiquetas.
+   >El `CommentCount.js` código comprueba si hay un valor numérico que actualizar con el recuento real. Asegúrese de incluir un valor numérico entre las etiquetas.
 
    **Ejemplo 1** (Uso de la URL como ID del artículo):
 
@@ -61,20 +61,20 @@ Livefyre le `CommentCount.js` permite recuperar los recuentos de contenido de la
 
 1. Configurar opciones.
 
-   Para obtener más control sobre cómo se reemplazan los recuentos de contenido, realice una llamada `LF.CommentCount()` y pase un objeto que contenga las opciones de configuración. Asegúrese de llamar a la función después de que todos los elementos que deban reemplazarse estén en DOM. El mejor lugar para llamar a este método es en el pie de página, por lo que se produce cuando se carga el DOM, pero antes de los eventos ready de documento y ventana.
+   Para obtener más control sobre cómo se reemplazan los recuentos de contenido, llame `LF.CommentCount()` y pase un objeto que contenga las opciones de configuración. Asegúrese de llamar a la función después de que todos los elementos que deben reemplazarse estén en el DOM. El mejor lugar para llamar a este método es en el pie de página, por lo que sucede cuando se carga el DOM, pero antes de los eventos preparados para documentos y ventanas.
 
    Se permiten las siguientes opciones de configuración:
 
-* **replacer:** Función o Regex utilizada para reemplazar el texto de cada recuento de contenido.
+* **** replacer: Función o Regex utilizados para reemplazar el texto de cada recuento de contenido.
 
-* **function:** Se utiliza para hacer el reemplazo en cada elemento. Los argumentos de la función son:
+* **** function: Se utiliza para reemplazar cada elemento. Los argumentos de la función son:
 
-   **element:** Elemento HTML que se está actualizando.
-   **count:** Recuento de contenido de este elemento.
+   **** element: Elemento HTML que se está actualizando.
+   **** count: Recuento de contenido para este elemento.
 
-* **regex:** Se utiliza para determinar qué parte del texto del elemento debe reemplazarse por el recuento.
+* **** regex: Se utiliza para determinar qué parte del texto del elemento debe reemplazarse por el recuento.
 
-   **Ejemplo**:
+   **Ejemplo:**
 
    ```
       <script type="text/javascript"> LF.CommentCount({ 
@@ -87,4 +87,4 @@ Livefyre le `CommentCount.js` permite recuperar los recuentos de contenido de la
 
    >[!NOTE]
    >
-   >Utilice el replacer para personalizar o internacionalizar el mensaje de recuento de comentarios.
+   >Use el sustituto para personalizar o internacionalizar el mensaje de recuento de comentarios.
