@@ -1,21 +1,21 @@
 ---
-description: Los sidenotes se pueden cargar en (casi) cualquier página existente.
-seo-description: Los sidenotes se pueden cargar en (casi) cualquier página existente.
-seo-title: Bookmarklet Sidenotes
-title: Bookmarklet Sidenotes
-uuid: b 6 f 6263 e -85 b 1-4 e 49-ba 3 c -7 f 12746 a 4 f 59
+description: Las notas de identidad se pueden cargar en (casi) cualquier página existente.
+seo-description: Las notas de identidad se pueden cargar en (casi) cualquier página existente.
+seo-title: Sidenotes Bookmarklet
+title: Sidenotes Bookmarklet
+uuid: b6f6263e-85b1-4e49-ba3c-7f12746a4f59
 translation-type: tm+mt
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Bookmarklet Sidenotes{#sidenotes-bookmarklet}
+# Sidenotes Bookmarklet{#sidenotes-bookmarklet}
 
-Los sidenotes se pueden cargar en (casi) cualquier página existente.
+Las notas de identidad se pueden cargar en (casi) cualquier página existente.
 
-Para demo Sidenotes, utilice el bookmarklet siguiente:
+Para realizar una demostración de Sidenotes, utilice el bookmarklet siguiente:
 
-Bookmarklet Sidenotes
+Sidenotes Bookmarklet
 
-Simplemente copie el bookmarklet en los marcadores y, a continuación, haga clic en el vínculo para cargar Sidenotes. Se le pedirá que introduzca selectores que se utilizarán para decorar Sidenotes en la página actual.
+Simplemente copie el bookmarklet en los marcadores y luego haga clic en el vínculo para cargar Sidenotes. Se le solicitará que introduzca selectores que se utilizarán para decorar Sidenotes en la página actual.
