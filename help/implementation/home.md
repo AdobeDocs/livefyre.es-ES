@@ -2,7 +2,7 @@
 seo-title: Ayuda de Livefyre
 solution: Experience Manager
 title: Ayuda de implementación de Livefyre
-uuid: ccdede 9 b -88 d 3-4 e 6 e -9105-662 e 984002 d 5
+uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
 translation-type: tm+mt
 source-git-commit: bf49abcfe0d29a1fa332161179d37ea14e7efb09
 
@@ -11,7 +11,7 @@ source-git-commit: bf49abcfe0d29a1fa332161179d37ea14e7efb09
 
 # Guía de implementación de Experience Manager Livefyre {#livefyre-help}
 
-Implemente Livefyre Studio y Livefyre Apps en su sitio web con herramientas para desarrolladores personalizar su experiencia.
+Implemente Livefyre Studio y Livefyre Apps en su sitio web con herramientas de desarrollador para personalizar su experiencia.
 
 Para obtener información sobre cómo utilizar Livefyre Studio y Livefyre Apps dentro de Livefyre Studio, consulte la Guía del usuario de Livefyre de [*Adobe Experience Manager*](/help/using/home.md).
 
@@ -21,13 +21,13 @@ Para obtener información sobre cómo utilizar Livefyre Studio y Livefyre Apps d
 
 * [Uso de aplicaciones de Livefyre con Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
 
-* [SDK para Android para dispositivos móviles](c-mobile-sdks/c-android-sdk.md)
+* [Android SDK for Mobile](c-mobile-sdks/c-android-sdk.md)
 
-* [Integración de comentarios mediante herramientas para desarrolladores](/help/implementation/c-app-integrations/c-comments-integration/c-comments-integration.md)
+* [Integración de comentarios mediante las herramientas para desarrolladores](/help/implementation/c-app-integrations/c-comments-integration/c-comments-integration.md)
 
-* [Integración de aplicaciones con herramientas para desarrolladores](/help/implementation/c-getting-started/c-implementation-process/c-implementation-process.md)
+* [Integración de aplicaciones mediante herramientas de desarrollador](/help/implementation/c-getting-started/c-implementation-process/c-implementation-process.md)
 
-* [Uso de Livefyre con herramientas de Analytics](/help/implementation/livefyre-analytics/livefyre-analytics.md)
+* [Uso de Livefyre con las herramientas de Analytics](/help/implementation/livefyre-analytics/livefyre-analytics.md)
 
 * [Documentación de API](https://api.livefyre.com)
 
