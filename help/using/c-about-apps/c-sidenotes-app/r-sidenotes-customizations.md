@@ -1,10 +1,10 @@
 ---
-description: Cambie las opciones de tamaño, ancho e interacción de la aplicación Sidenotes.
-seo-description: Cambie las opciones de tamaño, ancho e interacción de la aplicación Sidenotes.
+description: Cambie el tamaño, el ancho y las opciones de interacción de la aplicación Sidenotes.
+seo-description: Cambie el tamaño, el ancho y las opciones de interacción de la aplicación Sidenotes.
 seo-title: Personalizaciones de Sidenotes
 solution: Experience Manager
 title: Personalizaciones de Sidenotes
-uuid: fb 50285 a -3 b 2 d -497 d-bfda -7 e 89 c 485 b 65 c
+uuid: fb50285a-3b2d-497d-bfda-7e89c485b65c
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,11 +13,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Personalizaciones de Sidenotes{#sidenotes-customizations}
 
-Cambie las opciones de tamaño, ancho e interacción de la aplicación Sidenotes.
+Cambie el tamaño, el ancho y las opciones de interacción de la aplicación Sidenotes.
 
-Puede personalizar Sidenotes usando:
+Puede personalizar las notas de identidad mediante:
 
-* **[!UICONTROL Style]** y **[!UICONTROL Config]** opciones para todas las aplicaciones del **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más detalles sobre el estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en **[!UICONTROL App Designer]** la.
+* **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de la **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de la **[!UICONTROL App Designer]**.
 
-* Herramientas de integración. Consulte Encuestas para obtener más información sobre cómo personalizar aplicaciones mediante herramientas de integración.
+* Herramientas de integración. Consulte Encuestas para obtener más información sobre cómo personalizar aplicaciones mediante las herramientas de integración.
 
