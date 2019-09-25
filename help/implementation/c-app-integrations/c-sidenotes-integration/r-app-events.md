@@ -1,21 +1,21 @@
 ---
 description: Puede escuchar eventos en una instancia de Sidenotes.
 seo-description: Puede escuchar eventos en una instancia de Sidenotes.
-seo-title: Eventos de aplicación Sidenotes
+seo-title: Identifica eventos de aplicación
 solution: Experience Manager
-title: Eventos de aplicación Sidenotes
-uuid: afca 4 b 03-c 370-41 ca-aa 12-45 bc 357517 ca
+title: Identifica eventos de aplicación
+uuid: afca4b03-c370-41ca-aa12-45bc357517ca
 translation-type: tm+mt
 source-git-commit: 987e682f9c7cd94543fd269f386fd2a971ee9934
 
 ---
 
 
-# Eventos de aplicación Sidenotes {#sidenotes-app-events}
+# Identifica eventos de aplicación {#sidenotes-app-events}
 
 Puede escuchar eventos en una instancia de Sidenotes.
 
-Las llamadas de retorno se pueden registrar `onmethod` con `removeListener` el método y sin registrarse. Si la llamada de retorno debe llamarse una sola vez y, a continuación, no se registra, hay `once` un método disponible.
+Las llamadas de retorno se pueden registrar con el método `onmethod` y no se pueden registrar con el `removeListener` método . Existe un `once` método de conveniencia para que la llamada de retorno se llame sólo una vez y, a continuación, se cancele la inscripción.
 
 ```
 var app = Livefyre.Sidenotes(convConfig); 
@@ -28,10 +28,10 @@ Para obtener más información sobre los eventos de Livefyre, consulte la págin
 
 | Clave | Descripción |
 |--- |--- |
-| sidenotes. initialized | Se activa cuando se crea una instancia de la aplicación, tiene datos y se encuentra en la página. |
-| sidenotes. commentflag COMMENTFLAGGED | Se activa cuando se marca un comentario. Los datos contienen: <br><ul><li>`targetId`: id del comentario marcado</li><li>`type`: cadena de tipo de indicador `(offensive, off-topic, spam, disagree)`</li></ul> |
-| `sidenotes.commentPosted` | Se activa cuando se publica un comentario. Los datos contienen: <br><ul><li> `authorId`: id del autor del comentario </li><li>`bodyHtml`: cuerpo del comentario </li><li> `parent`: id del comentario principal del comentario o nulo</li></ul> |
-| `sidenotes.commentShared` | Se activa cuando se comparte un comentario. Los datos contienen: <br><ul><li>`targetId`: id del comentario que se compartió </li><li> `sharedToFacebook`: si el comentario se compartió con Facebook </li><li>`sharedToTwitter`: si el comentario se compartió con Twitter</li></ul> |
-| `sidenotes.commentVoted` | Se activa cuando se votó un comentario. Los datos contienen: <br><ul><li>`targetId`: id del comentario que se votó en </li><li> `targetAuthorId`: id del autor cuyo comentario se votó en</li><li> `type`: tipo de voto numérico: 0: &#39; clear &#39;, 1: &#39; upvote&#39;o 2: &#39; downvote &#39;</li></ul> |
-| `sidenotes.userLoggedIn` | Se activa cuando un usuario inicia sesión. Los datos contienen: <br><ul><li>`avatar`: URL de avatar para el usuario </li><li>`displayName`: nombre para mostrar del usuario</li><li>`id`: id del usuario</li><li> `isModerator`: si el usuario es moderador de la colección actual</li></ul> |
-| `sidenotes.userLoggedOut` | Se activa cuando un usuario cierra sesión |
+| sidenotes.initialize | Se activa cuando se crea una instancia de la aplicación, tiene datos y está en la página. |
+| sidenotes.commentFlagged | Se activa cuando se marca un comentario. Los datos contienen: <br><ul><li>`targetId`:: ID del comentario marcado</li><li>`type`:: cadena de tipo de indicador `(offensive, off-topic, spam, disagree)`</li></ul> |
+| `sidenotes.commentPosted` | Se activa cuando se publica un comentario. Los datos contienen: <br><ul><li> `authorId`:: ID del autor del comentario </li><li>`bodyHtml`:: cuerpo del comentario </li><li> `parent`:: id del elemento principal del comentario o nulo</li></ul> |
+| `sidenotes.commentShared` | Se activa cuando se comparte un comentario. Los datos contienen: <br><ul><li>`targetId`:: ID del comentario que se compartió </li><li> `sharedToFacebook`:: si el comentario se compartió en Facebook </li><li>`sharedToTwitter`:: si el comentario se compartió en Twitter</li></ul> |
+| `sidenotes.commentVoted` | Se activa cuando se ha votado un comentario. Los datos contienen: <br><ul><li>`targetId`:: ID del comentario sobre el que se votó </li><li> `targetAuthorId`:: ID del autor sobre el que se votó su comentario</li><li> `type`:: tipo de voto numérico:0: "clear", 1: "voto en favor" o 2: ‘voto negativo’</li></ul> |
+| `sidenotes.userLoggedIn` | Se activa cuando un usuario inicia sesión. Los datos contienen: <br><ul><li>`avatar`:: dirección URL de avatar del usuario </li><li>`displayName`:: nombre para mostrar del usuario</li><li>`id`:: id del usuario</li><li> `isModerator`:: si el usuario es un moderador de la colección actual</li></ul> |
+| `sidenotes.userLoggedOut` | Se activa cuando un usuario cierra la sesión |
