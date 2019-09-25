@@ -1,25 +1,25 @@
 ---
-description: Devuelve un objeto de colección creado como tipo Sidenotes. Ejecute crear_ o_ update () desde el objeto Colección para completar el proceso de creación.
-seo-description: Devuelve un objeto de colección creado como tipo Sidenotes. Ejecute crear_ o_ update () desde el objeto Colección para completar el proceso de creación.
-seo-title: Método del sitio de buildsitenotescollection
+description: Devuelve un objeto Collection creado como un tipo Sidenotes. Ejecute create_or_update() desde el objeto Collection para completar el proceso de compilación.
+seo-description: Devuelve un objeto Collection creado como un tipo Sidenotes. Ejecute create_or_update() desde el objeto Collection para completar el proceso de compilación.
+seo-title: buildSitenotesCollection (método de sitio)
 solution: Experience Manager
-title: Método del sitio de buildsitenotescollection
-uuid: 2 bfbc 032-4 c 0 c -48 d 2-8 ce 6-02460 b 38 bd 6 c
+title: buildSitenotesCollection (método de sitio)
+uuid: 2bfbc032-4c0c-48d2-8ce6-02460b38bd6c
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Método del sitio de buildsitenotescollection{#buildsitenotescollection-site-method}
+# buildSitenotesCollection (método de sitio){#buildsitenotescollection-site-method}
 
-Devuelve un objeto de colección creado como tipo Sidenotes. Ejecute crear_ o_ update () desde el objeto Colección para completar el proceso de creación.
+Devuelve un objeto Collection creado como un tipo Sidenotes. Ejecute create_or_update() desde el objeto Collection para completar el proceso de compilación.
 
 | Variable | Tipo | Descripción |
 |--- |--- |--- |
 | title | Cadena | Título de la colección. |
-| Articleid | Cadena | ID de artículo único que eligió identificar una colección dentro del sitio. |
-| url | Cadena | La URL canónica canónica de esta colección. |
+| articleId | Cadena | ID única del artículo que eligió para identificar una colección dentro del sitio. |
+| url | Cadena | Dirección URL absoluta canónica de esta colección. |
 
 ## Ejemplo de Java {#section_nyl_ycs_rz}
 
@@ -27,7 +27,7 @@ Devuelve un objeto de colección creado como tipo Sidenotes. Ejecute crear_ o_ u
 Collection collection = site.buildSidenotesCollection(title, articleId, url); 
 ```
 
-## Ejemplo de nodejs {#section_xkd_gds_rz}
+## Ejemplo de NodeJS {#section_xkd_gds_rz}
 
 ```
 var collection = site.buildSidenotesCollection(title, articleId, url); 
@@ -45,7 +45,7 @@ $collection = site->buildSidenotesCollection(title, articleId, url);
 collection = site.build_sidenotes_collection(title, articleId, url) 
 ```
 
-## Ejemplo Ruby {#section_enh_gds_rz}
+## Ejemplo de Ruby {#section_enh_gds_rz}
 
 ```
 collection = site.build_sidenotes_collection(title, articleId, url) 
