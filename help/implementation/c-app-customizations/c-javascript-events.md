@@ -1,25 +1,25 @@
 ---
 description: Los eventos disponibles para enlazar JavaScript para aplicaciones de conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
 seo-description: Los eventos disponibles para enlazar JavaScript para aplicaciones de conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
-seo-title: Definiciones y ejemplos de eventos JavaScript
+seo-title: Definiciones y ejemplos de eventos de JavaScript
 solution: Experience Manager
-title: Definiciones y ejemplos de eventos JavaScript
-uuid: 61 da 2 e 2 e -8 fcd -482 d -93 df-c 946 f 0475277
+title: Definiciones y ejemplos de eventos de JavaScript
+uuid: 61da2e2e-8fcd-482d-93df-c946f0475277
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Definiciones y ejemplos de eventos JavaScript{#javascript-events-definitions-and-examples}
+# Definiciones y ejemplos de eventos de JavaScript{#javascript-events-definitions-and-examples}
 
 Los eventos disponibles para enlazar JavaScript para aplicaciones de conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
 
-Livefyre proporciona eventos de JavaScript para rastrear la actividad de los usuarios en sus aplicaciones de Livefyre. Por ejemplo, puede que desee actualizar la página cuando los usuarios hagan &quot;Me gusta&quot; o compartir contenido en Twitter o Facebook, o cuando se publique contenido nuevo.
+Livefyre proporciona eventos de JavaScript para rastrear la actividad de los usuarios en sus aplicaciones de Livefyre. Por ejemplo, puede que desee actualizar la página cuando los usuarios quieran o compartan contenido en Twitter o Facebook, o cuando se publique nuevo contenido.
 
-Livefyre también le permite añadir eventos a integraciones de análisis de terceros (JS de Adobe Analytics, Google Analytics, Administración dinámica de etiquetas, etc.) para realizar un seguimiento de los eventos de aplicación. Para obtener más información, trabaje con su administrador de integración de terceros para proporcionar los eventos correctos.
+Livefyre también le permite agregar eventos a integraciones de análisis de terceros (JS de Adobe Analytics, Google Analytics, administración dinámica de etiquetas, etc.) para rastrear eventos de aplicación. Para obtener más información, colabore con el administrador de integración de terceros para proporcionar los eventos correctos.
 
-Para enlazar a estos eventos, agregue el siguiente código a la página al instanciar la aplicación en una página. Reemplazar el nombre del evento para `{eventName}`:
+Para enlazar a estos eventos, agregue el siguiente código a la página cuando cree una instancia de la aplicación en una página. Sustituya el nombre del evento por `{eventName}`:
 
 ```
 Livefyre.require(['fyre.conv#3'], function(Conv) { 
@@ -33,14 +33,14 @@ Livefyre.require(['fyre.conv#3'], function(Conv) {
 
 >[!NOTE]
 >
->Se proporcionan objetos de datos para todos los controladores de eventos. Los objetos de datos de ejemplo siguen cada evento.
+>Los objetos de datos se proporcionan para todos los controladores de eventos. Los objetos de datos de ejemplo siguen cada evento.
 
-## Comentarios publicados {#section_qfr_51p_xz}
+## commentPosted {#section_qfr_51p_xz}
 
-Un usuario ha publicado un comentario.
+Un usuario publicó un comentario.
 
-* Un elemento principal de null es un nuevo comentario.
-* Un elemento principal de Ninguno es un comentario que se ha editado.
+* Un elemento principal de null es un comentario nuevo.
+* El elemento principal Ninguno es un comentario que se ha editado.
 * Un número para parent es el ID principal de la respuesta.
 
 ```
@@ -56,7 +56,7 @@ data = {
 } 
 ```
 
-## Comentarios marcados {#section_szy_s1p_xz}
+## commentFlagged {#section_szy_s1p_xz}
 
 Un usuario marcó un comentario.
 
@@ -68,7 +68,7 @@ data = {
 }
 ```
 
-## Comentarios commentLiked {#section_vc1_r1p_xz}
+## commentLiked {#section_vc1_r1p_xz}
 
 A un usuario le gustó un comentario.
 
@@ -80,9 +80,9 @@ data = {
 } 
 ```
 
-## Comentarios compartidos {#section_nqb_31p_xz}
+## commentShared {#section_nqb_31p_xz}
 
-Un usuario compartió un comentario del flujo. (Este suceso no se activa cuando los usuarios comparten desde el editor de comentarios). Este evento se activa cuando se hace clic en el botón Compartir.
+Un usuario compartió un comentario del flujo. (Este evento no se activa cuando los usuarios comparten desde el editor de comentarios). Este evento se activa cuando se hace clic en el botón Compartir.
 
 ```
 data = { 
@@ -92,7 +92,7 @@ data = {
 }
 ```
 
-## Commentcountupdated {#section_qdq_f1p_xz}
+## commentCountUpdated {#section_qdq_f1p_xz}
 
 El número total de comentarios visibles en esta conversación ha cambiado (ya sea incrementado o disminuido).
 
@@ -100,7 +100,7 @@ El número total de comentarios visibles en esta conversación ha cambiado (ya s
 data: 34 // The total number of visible comments in the conversation (integer). 
 ```
 
-## Userloggedin {#section_yjt_vz4_xz}
+## userLoggedIn {#section_yjt_vz4_xz}
 
 Un usuario ha iniciado sesión.
 
@@ -114,15 +114,15 @@ data = {
 }
 ```
 
-## Userloggedout {#section_tsg_5z4_xz}
+## userLoggedOut {#section_tsg_5z4_xz}
 
 Un usuario ha cerrado la sesión.
 
-los datos son undefined.
+data is undefined.
 
-## Socialmentions {#section_a1w_tz4_xz}
+## socialMention {#section_a1w_tz4_xz}
 
-Un usuario incluye una @ mention en un comentario. Devuelve una matriz de lo siguiente:
+Un usuario incluyó un comentario de @uncia. Devuelve una matriz de lo siguiente:
 
 ```
 data = { 
@@ -134,9 +134,9 @@ data = {
 } 
 ```
 
-## Comentarios destacados
+## commentFeatured
 
-Un usuario del moderador presentó un comentario. Devuelve una matriz de lo siguiente:
+Un usuario moderador presentó un comentario. Devuelve una matriz de lo siguiente:
 
 ```
 data = { 
@@ -146,21 +146,21 @@ data = {
 }
 ```
 
-## Initialrendercomplete {#section_odc_4z4_xz}
+## initialRenderComplete {#section_odc_4z4_xz}
 
-El flujo de comentarios se ha cargado y el conjunto inicial de contenido se ha recogido del servidor y se ha mostrado al usuario.
+El flujo de comentarios se ha cargado y el conjunto inicial de contenido se ha recuperado del servidor y se ha mostrado al usuario.
 
-los datos son undefined.
+data is undefined.
 
-## Showmore {#section_pqg_nz4_xz}
+## showMore {#section_pqg_nz4_xz}
 
-Un usuario hizo clic en **[!UICONTROL Show More]** el botón.
+Un usuario hizo clic en el **[!UICONTROL Show More]** botón.
 
-los datos son undefined.
+data is undefined.
 
-## Userfollowed {#section_xxw_jz4_xz}
+## userFollowed {#section_xxw_jz4_xz}
 
-Devuelve verdadero cuando un usuario hace clic en **[!UICONTROL Follow]** el botón y false cuando se publica contenido en el flujo.
+Devuelve true cuando un usuario hace clic en el **[!UICONTROL Follow]** botón y false cuando el contenido se anuncia en el flujo.
 
 ```
 data = { 
@@ -169,9 +169,9 @@ data = {
 }
 ```
 
-## Userunfollowed {#section_wm1_gz4_xz}
+## userUnFollow {#section_wm1_gz4_xz}
 
-Devuelve verdadero cuando un usuario hace clic en **el botón Dejar de seguir** y false cuando se publica contenido en el flujo.
+Devuelve true cuando un usuario hace clic en el botón **No seguir** y false cuando se anuncia contenido en la secuencia.
 
 ```
 data = { 
