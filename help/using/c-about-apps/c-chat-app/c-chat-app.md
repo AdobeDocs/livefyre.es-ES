@@ -1,23 +1,23 @@
 ---
-description: Habilite chat en tiempo real en sus sitios.
-seo-description: Habilite chat en tiempo real en sus sitios.
-seo-title: Chat
+description: Habilite el chat en tiempo real en sus sitios.
+seo-description: Habilite el chat en tiempo real en sus sitios.
+seo-title: Conversación
 solution: Experience Manager
-title: Chat
-uuid: 1 da 65 e 9 a -736 c -46 d 3-87 e 1-371 b 77 f 94661
+title: Conversación
+uuid: 1da65e9a-736c-46d3-87e1-371b77f94661
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Chat{#chat}
+# Conversación{#chat}
 
-Habilite chat en tiempo real en sus sitios.
+Habilite el chat en tiempo real en sus sitios.
 
-Chat permite a las audiencias participar en una conversación en tiempo real sobre eventos en directo, anuncios o muestra. El contenido aparece como flujo continuo de chat sin subprocesos para facilitar la participación y vigorizar la actividad en la página.
+La conversación por chat permite al público participar en conversaciones en tiempo real sobre eventos, anuncios o programas en directo. El contenido aparece como un flujo continuo de chat sin subprocesos para facilitar una rápida participación y vigorizar la actividad en la página.
 
-Fox News utilizó chat para capturar la opinión y el reflejo de la audiencia en torno a la elección del Papa Bergoglio. Al saber que se produjo un aumento de la participación relevante y activa, Fox News lanzó un chat en cuestión de minutos después del anuncio para crear una conversación inmediata.
+Fox News utilizó Chat para captar la opinión del público y la reflexión en torno a la elección del Papa Bergoglio. Sabiendo que habría una oleada de participación activa y relevante, Fox News lanzó un chat pocos minutos después del anuncio para crear una conversación inmediata.
 
 ![](assets/chat_example.png)
 
