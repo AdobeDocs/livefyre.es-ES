@@ -1,10 +1,10 @@
 ---
-description: Agregue un solo fragmento de contenido destacado a la página.
-seo-description: Agregue un solo fragmento de contenido destacado a la página.
+description: Agregue fragmentos únicos de contenido destacado a la página.
+seo-description: Agregue fragmentos únicos de contenido destacado a la página.
 seo-title: Tarjeta de función
 solution: Experience Manager
 title: Tarjeta de función
-uuid: 8 c 44 age-d 8 a 5-452 e -952 c -5 d 6818 e 5 c 0 b 0
+uuid: 8c44edad-d8a5-452e-952c-5d6818e5c0b0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,10 +13,10 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Tarjeta de función{#feature-card}
 
-Agregue un solo fragmento de contenido destacado a la página.
+Agregue fragmentos únicos de contenido destacado a la página.
 
-Utilice la tarjeta de funciones para resaltar fragmentos individuales de contenido en una sola tarjeta. La aplicación prioriza el contenido destacado más recientemente y recorre los artículos más recientes para garantizar una visualización nueva y relevante.
+Utilice la tarjeta de función para resaltar fragmentos individuales de contenido en una sola pantalla de tarjeta. La aplicación prioriza el contenido destacado más reciente y recorre los elementos más recientes para garantizar una visualización nueva y relevante.
 
-Tarjeta de funciones mostrará el elemento destacado más reciente (no necesariamente el último elemento publicado), lo que le permitirá seleccionar el mejor contenido para una presentación oportuna en la página.
+La tarjeta de características mostrará el último elemento destacado (no necesariamente el último elemento publicado), permitiéndole seleccionar el mejor contenido para una presentación oportuna en la página.
 
-Utilice la tarjeta de funciones para resaltar fragmentos individuales de contenido en una sola tarjeta. La aplicación prioriza el contenido destacado más recientemente y recorre los artículos más recientes para garantizar una visualización nueva y relevante.
+Utilice la tarjeta de función para resaltar fragmentos individuales de contenido en una sola pantalla de tarjeta. La aplicación prioriza el contenido destacado más reciente y recorre los elementos más recientes para garantizar una visualización nueva y relevante.
