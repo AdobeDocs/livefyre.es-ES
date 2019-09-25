@@ -1,10 +1,10 @@
 ---
-description: Puede crear reglas de flujo que extraigan contenido de Correo electrónico.
-seo-description: Puede crear reglas de flujo que extraigan contenido de Correo electrónico.
+description: Puede crear reglas de flujo que extraigan contenido del correo electrónico.
+seo-description: Puede crear reglas de flujo que extraigan contenido del correo electrónico.
 seo-title: Reglas de correo electrónico
 solution: Experience Manager
 title: Reglas de correo electrónico
-uuid: 3 cd 27 d 28-b 7 c 0-4 cbc-bae 3-e 2 ef 7 beacba 9
+uuid: 3cd27d28-b7c0-4cbc-bae3-e2ef7beacba9
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
@@ -13,19 +13,19 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 # Reglas de correo electrónico{#email-rules}
 
-Puede crear reglas de flujo que extraigan contenido de Correo electrónico.
+Puede crear reglas de flujo que extraigan contenido del correo electrónico.
 
-Creación de flujos basados en correo electrónico permite publicar contenido directamente en una aplicación o carpeta por correo electrónico.
+La creación de flujos basados en correo electrónico le permite anunciar contenido directamente en una aplicación o carpeta por correo electrónico.
 
-Utilice esta función para permitir que los colaboradores anuncien directamente en sus aplicaciones o en la biblioteca de recursos desde sus equipos o dispositivos móviles.
+Utilice esta función para permitir que sus colaboradores publiquen directamente en sus aplicaciones o en la biblioteca de recursos desde su ordenador o dispositivo móvil.
 
-Una vez creada la regla, cualquier mensaje de correo electrónico que contenga una imagen o un archivo de vídeo enviado a la dirección de correo electrónico enumerada se publicará directamente en la biblioteca de recursos o aplicaciones, según se especifica. Los correos electrónicos enviados con varios archivos adjuntos anunciarán todos los archivos en la ubicación adecuada. Los correos electrónicos enviados a la dirección que contenga sólo texto no harán nada.
+Una vez creada la regla, cualquier correo electrónico que contenga una imagen o un archivo de vídeo enviado a la dirección de correo electrónico de la lista se publicará directamente en la aplicación o biblioteca de recursos, según se especifique. Los correos electrónicos enviados con varios archivos adjuntos anunciarán todos los archivos en la ubicación adecuada. Los mensajes de correo electrónico enviados a la dirección de la lista que contiene solo texto no harán nada.
 
-Una vez enviados, los campos del mensaje de correo electrónico se utilizarán para rellenar los siguientes elementos para el fragmento de contenido:
+Una vez enviados, los campos del correo electrónico se utilizarán para rellenar los siguientes elementos para el contenido:
 
-* **[!UICONTROL From:]** Se utiliza como autor del contenido, si existe la cuenta de usuario. Si no existe ninguna cuenta para el remitente, el autor aparece como anónimo.
+* **[!UICONTROL From:]** Se utiliza como autor del contenido, si existe la cuenta de usuario. Si no existe ninguna cuenta para el remitente, el autor se muestra como anónimo.
 * **[!UICONTROL Subject:]** Se utiliza para el título del contenido.
-* **[!UICONTROL Body:]** Se utiliza para rellenar los detalles del contenido en Studio.
-* **[!UICONTROL Attachments:]** Los archivos multimedia deben adjuntarse o se ignorará el correo electrónico. Entre los tipos de archivos compatibles se incluyen 3 GP, ASF, AVI, DV, GIF, JPG, MOV, MP 4, MPEG, MPG, PNG, QT y WMV. El total de todos los archivos adjuntos debe tener por debajo de 25 MB.
+* **[!UICONTROL Body:]** Se utiliza para rellenar los detalles de contenido en Studio.
+* **[!UICONTROL Attachments:]** Los archivos multimedia deben adjuntarse o se omitirá el correo electrónico. Los tipos de archivo admitidos son 3GP, ASF, AVI, DV, GIF, JPG, MOV, MP4, MPEG, MPG, PNG, QT y WMV. El total de todos los archivos adjuntos debe ser inferior a 25 MB.
 
-Para obtener más opciones de reglas de flujo para todas las reglas de flujo, consulte [Opciones de regla de flujo para todas las reglas de flujo](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
+Para obtener opciones de regla de flujo adicionales para todas las reglas de flujo, consulte Opciones de regla [de flujo para todas las reglas](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)de flujo.
