@@ -1,10 +1,10 @@
 ---
-description: Incruste comentarios en tiempo real en su aplicación.
-seo-description: Incruste comentarios en tiempo real en su aplicación.
+description: Incruste comentarios en tiempo real en la aplicación.
+seo-description: Incruste comentarios en tiempo real en la aplicación.
 seo-title: Comentarios
 solution: Experience Manager
 title: Comentarios
-uuid: f 409 d 04 a -2 ecc -42 fd -9 d 45-c 723 aafad 116
+uuid: f409d04a-2ecc-42fd-9d45-c723aafad116
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,11 +13,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Comentarios{#comments}
 
-Incruste comentarios en tiempo real en su aplicación.
+Incruste comentarios en tiempo real en la aplicación.
 
-Los comentarios reemplaza los comentarios predeterminados con conversaciones en tiempo real. Las funciones de integración social facilitan la captura de todas las conversaciones que se realizan sobre sus anuncios en Twitter y Facebook, y la captación de amigos de usuarios en la conversación.
+Los comentarios sustituyen los comentarios predeterminados por conversaciones en tiempo real. Nuestras funciones de integración social facilitan la captación de todas las conversaciones que tienen lugar sobre sus publicaciones a través de Twitter y Facebook, así como la participación de los amigos de los usuarios en la conversación.
 
-Mashable utiliza Comentarios para aumentar la participación de los usuarios en sus debates. Funciones que incluyen la carga de medios enriquecidos, el uso compartido en redes sociales, el recuento de oyentes y la ayuda de inicio de sesión único para facilitar y divertir la contribución a la conversación.
+Mashable utiliza Comentarios para aumentar la participación del usuario en sus discusiones. Las funciones, como la carga de medios enriquecidos, el uso compartido en redes sociales, el recuento de oyentes y el inicio de sesión único, ayudan a que la contribución a la conversación sea fácil y divertida.
 
 ![](assets/CommentsMashable.png)
 
