@@ -1,10 +1,10 @@
 ---
-description: Cree la estructura de solicitud de extracción para recibir y responder a las solicitudes de acceso a su sistema de identidad de usuario.
-seo-description: Cree la estructura de solicitud de extracción para recibir y responder a las solicitudes de acceso a su sistema de identidad de usuario.
+description: Cree la estructura de solicitud de extracción para recibir y responder a las solicitudes de acceso al sistema de identidad de usuario.
+seo-description: Cree la estructura de solicitud de extracción para recibir y responder a las solicitudes de acceso al sistema de identidad de usuario.
 seo-title: Estructura de solicitud de extracción
 solution: Experience Manager
 title: Estructura de solicitud de extracción
-uuid: bf 6 b 9 e 45-d 08 a -48 e 6-acc 6-e 4 fa 56428 d 25
+uuid: bf6b9e45-d08a-48e6-acc6-e4fa56428d25
 translation-type: tm+mt
 source-git-commit: cf447db2cb3498fcb01b511848faeee4d1e48481
 
@@ -13,30 +13,30 @@ source-git-commit: cf447db2cb3498fcb01b511848faeee4d1e48481
 
 # Estructura de solicitud de extracción{#pull-request-structure}
 
-Cree la estructura de solicitud de extracción para recibir y responder a las solicitudes de acceso a su sistema de identidad de usuario.
+Cree la estructura de solicitud de extracción para recibir y responder a las solicitudes de acceso al sistema de identidad de usuario.
 
-Livefyre emite una solicitud de extracción a la URL de extremo.
+Livefyre envía una solicitud de extracción a la dirección URL del extremo.
 
-Por ejemplo, si la URL de extremo de extracción es:
+Por ejemplo, si la dirección URL del extremo de extracción es:
 
 ```
 https://example.yoursite.com/some_path/?id={id}
 ```
 
-La solicitud de salto de Livefyre a este punto final será:
+la solicitud de extracción de Livefyre a este extremo será:
 
 ```
 https://example.yoursite.com/some_path/?id={id}&lftoken={UserAuthToken}
 ```
 
-donde `lftoken` es un token web JSON firmado con la clave de red y **[!UICONTROL {userAuthToken}]** es el autentificador de usuario generado por Livefyre.
+donde `lftoken` es un token web JSON firmado con la clave de red y **[!UICONTROL {userAuthToken}]** es el autentificador del usuario generado por Livefyre.
 
-1. Se utiliza `lftoken` para validar que Livefyre envió las solicitudes al ping para obtener URL de extracción y no un agente malicioso.
+1. Utilice `lftoken` para validar que las solicitudes a la URL de extracción de Ping las envió Livefyre y no un agente malicioso.
 1. Para todas las solicitudes entrantes:
 
-   * Asegúrese de que la cadena `lftoken` de consulta está presente en la solicitud.
-   * Utilice `validateLivefyreToken` el método de las bibliotecas de Livefyre para asegurarse de `lftoken` que se firma con su clave de red.
+   * Asegúrese de que la cadena de `lftoken` consulta está presente en la solicitud.
+   * Utilice el `validateLivefyreToken` método de las bibliotecas de Livefyre para asegurarse de que `lftoken` se ha firmado con la clave de red.
 
-   * Si `lftoken` no está presente, o si falla la validación, no permita que el punto final responda con la información de perfil. En su lugar, responda con un código de estado 403 (prohibido) y sin cuerpo de respuesta.
+   * Si no `lftoken` está presente o no se supera la validación, no permita que el punto final responda con la información del perfil. En su lugar, responda con un código de estado 403 (prohibido) y sin cuerpo de respuesta.
 
-1. `userAuthToken` la genera el `buildUserAuthToken` método Livefyre para el usuario, con el ID de usuario «sistema». Este usuario es el primer usuario creado para cada nueva red.
+1. `userAuthToken` se genera mediante el `buildUserAuthToken` método Livefyre para el usuario, con el identificador de usuario "system". Este usuario es el primer usuario creado para cada nueva red.
