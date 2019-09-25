@@ -1,10 +1,10 @@
 ---
-description: Permita que los usuarios hagan clic en las colecciones desde un diseño de página único y URL.
-seo-description: Permita que los usuarios hagan clic en las colecciones desde un diseño de página único y URL.
+description: Permite a los usuarios hacer clic en Colecciones desde una única dirección URL y un diseño de página.
+seo-description: Permite a los usuarios hacer clic en Colecciones desde una única dirección URL y un diseño de página.
 seo-title: Cambiar colección
 solution: Experience Manager
 title: Cambiar colección
-uuid: 81 c 8 a 554-375 f -4659-9 e 25-5 b 3618824633
+uuid: 81c8a554-375f-4659-9e25-5b3618824633
 translation-type: tm+mt
 source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
 
@@ -13,13 +13,13 @@ source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
 
 # Cambiar colección {#change-collection}
 
-Permita que los usuarios hagan clic en las colecciones desde un diseño de página único y URL.
+Permite a los usuarios hacer clic en Colecciones desde una única dirección URL y un diseño de página.
 
-Use el delegado de cambio de colección para cambiar la colección mostrada en una página, sin cambiar la URL, mientras que una aplicación de Livefyre ya se ha cargado. Utilice esta función para mostrar galerías de vídeo o de vídeo u otras aplicaciones en las que la colección que se muestra debería cambiar después de una acción del usuario.
+Utilice el Delegado de la colección de cambios para cambiar la colección que se muestra en una página, sin cambiar la URL, mientras que una aplicación de Livefyre ya está cargada. Utilice esta función para mostrar las galerías de fotos o vídeos, u otras aplicaciones en las que la colección mostrada debería cambiar tras una acción del usuario.
 
-Por ejemplo, si hace clic en un vídeo o una foto en una galería, se cargará una colección específica para esa selección, mientras que la dirección URL de la página no cambiará.
+Por ejemplo, al hacer clic en un vídeo o una fotografía de una galería se cargará una colección específica de esa selección, mientras que la dirección URL de la página no cambiará.
 
-[Para cargar una de tres colecciones desde una sola página](../c-advanced-topics/t-display-comment-count.md#t_display_comment_count):
+Para [cargar una de las tres colecciones desde una sola página](../c-advanced-topics/t-display-comment-count.md#t_display_comment_count):
 
 ```
 <html> 
