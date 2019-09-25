@@ -4,7 +4,7 @@ seo-description: Cree un nuevo artículo de Storify 2.
 seo-title: Crear un artículo
 solution: Experience Manager
 title: Crear un artículo
-uuid: ab 1 d 9 b 9 a -9081-4 ca 0-8 df 4-1 cc 6 d 9 c 9 fd 81
+uuid: ab1d9b9a-9081-4ca0-8df4-1cc6d9c9fd81
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -15,8 +15,8 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Cree un nuevo artículo de Storify 2.
 
-1. Haga clic **[!UICONTROL New App]** en.
-1. Haga clic **[!UICONTROL Storify 2]** en.
-1. Introduzca **[!UICONTROL App Title]** un.
-1. Seleccione un **[!UICONTROL Site]**.
-1. Haga clic **[!UICONTROL Create]** en.
+1. Haga clic en **[!UICONTROL New App]**.
+1. Haga clic en **[!UICONTROL Storify 2]**.
+1. Introduzca un **[!UICONTROL App Title]**.
+1. Seleccione una **[!UICONTROL Site]**.
+1. Haga clic en **[!UICONTROL Create]**.
