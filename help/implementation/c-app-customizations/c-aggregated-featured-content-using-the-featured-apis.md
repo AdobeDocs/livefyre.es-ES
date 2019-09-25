@@ -1,23 +1,23 @@
 ---
-description: Livefyre proporciona cuatro API destacadas que le permiten recuperar los 50 elementos de contenido destacado más recientes para la red de entrada, el sitio o la colección, o bien los dos fragmentos de contenido destacados en la parte superior de una colección de entrada.
-seo-description: Livefyre proporciona cuatro API destacadas que le permiten recuperar los 50 elementos de contenido destacado más recientes para la red de entrada, el sitio o la colección, o bien los dos fragmentos de contenido destacados en la parte superior de una colección de entrada.
-seo-title: Contenido destacado sumado mediante las API destacadas
+description: Livefyre proporciona cuatro API de características, lo que le permite recuperar los 50 elementos de contenido con funciones más recientes para la red de entrada, el sitio o la colección, o los dos elementos de contenido destacados en la parte superior de una colección de entrada.
+seo-description: Livefyre proporciona cuatro API de características, lo que le permite recuperar los 50 elementos de contenido con funciones más recientes para la red de entrada, el sitio o la colección, o los dos elementos de contenido destacados en la parte superior de una colección de entrada.
+seo-title: Contenido destacado agregado mediante las API destacadas
 solution: Experience Manager
-title: Contenido destacado sumado mediante las API destacadas
-uuid: e 9 c 9 ff 26-37 b 6-4328-af 85-aa 550 e 7 ffdfd
+title: Contenido destacado agregado mediante las API destacadas
+uuid: e9c9ff26-37b6-4328-af85-aa550e7ffdfd
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Contenido destacado sumado mediante las API destacadas{#aggregated-featured-content-using-the-featured-apis}
+# Contenido destacado agregado mediante las API destacadas{#aggregated-featured-content-using-the-featured-apis}
 
-Livefyre proporciona cuatro API destacadas que le permiten recuperar los 50 elementos de contenido destacado más recientes para la red de entrada, el sitio o la colección, o bien los dos fragmentos de contenido destacados en la parte superior de una colección de entrada.
+Livefyre proporciona cuatro API de características, lo que le permite recuperar los 50 elementos de contenido con funciones más recientes para la red de entrada, el sitio o la colección, o los dos elementos de contenido destacados en la parte superior de una colección de entrada.
 
 ## Destacado (red) {#section_cgm_1nw_xz}
 
-Recupera las 50 unidades más recientes de contenido destacado (y sus autores) para la red de entrada. (Utilice la página para devolver todo el contenido, en lugar de solo los 50 últimos).
+Recupera los 50 fragmentos más recientes de contenido destacado (y sus autores) para la red de entrada. (Utilice la paginación para devolver todo el contenido, en lugar de solo los 50 más recientes).
 
 **Recurso**
 
@@ -151,9 +151,9 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/featured
 }
 ```
 
-## Destacado (sitio) {#section_lq5_ymw_xz}
+## Destacados (sitio) {#section_lq5_ymw_xz}
 
-Devuelve las 50 unidades más recientes de contenido destacado (y sus autores) para el sitio de entrada. (Utilice la página para devolver todo el contenido, en lugar de solo los 50 últimos).
+Devuelve los 50 fragmentos más recientes de contenido destacado (y sus autores) para el sitio de entrada. (Utilice la paginación para devolver todo el contenido, en lugar de solo los 50 más recientes).
 
 **Recurso**
 
@@ -253,9 +253,9 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/featured
 }
 ```
 
-## Destacado (colección) {#section_kgc_xmw_xz}
+## Destacada (colección) {#section_kgc_xmw_xz}
 
-Devuelve las 50 unidades más recientes de contenido destacado (y sus autores) para la colección de entrada. (Utilice la página para devolver todo el contenido, en lugar de solo los 50 últimos).
+Devuelve los 50 fragmentos más recientes de contenido destacado (y sus autores) para la colección de entrada. (Utilice la paginación para devolver todo el contenido, en lugar de solo los 50 más recientes).
 
 **Recurso**
 
@@ -355,9 +355,9 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/{b64arti
 }
 ```
 
-## Destacada (Head) {#section_n4b_lmw_xz}
+## Destacado (Head) {#section_n4b_lmw_xz}
 
-Devuelve los dos últimos fragmentos destacados de contenido de la colección de entrada.
+Devuelve los dos últimos fragmentos de contenido destacados para la colección de entrada.
 
 **Recurso**
 
