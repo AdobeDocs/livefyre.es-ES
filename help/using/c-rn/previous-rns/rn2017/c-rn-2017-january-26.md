@@ -1,42 +1,42 @@
 ---
-description: Notas de la versión del 26 de enero de 2017.
-seo-description: Notas de la versión del 26 de enero de 2017.
+description: Notas de la versión de la versión del 26 de enero de 2017.
+seo-description: Notas de la versión de la versión del 26 de enero de 2017.
 seo-title: 26 de enero de 2017
 title: 26 de enero de 2017
-uuid: 5 a 04 d 31 d-a 26 d -4369-8 deb-adc 3 e 28 dfece
+uuid: 5a04d31d-a26d-4369-8deb-adc3e28dfece
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
 ---
 
 
-# 26 de enero de 2017{#january}
+# January 26, 2017{#january}
 
-Notas de la versión del 26 de enero de 2017.
+Notas de la versión de la versión del 26 de enero de 2017.
 
 ## Versión de producción {#section_r24_1m2_wy}
 
-| Tipo de problema | Componente | Versión de la versión |
+| Tipo de incidencia | Componente | Nota de versión |
 |--- |--- |--- |
-| Mejora | Comentarios, Sidenotes | Los botones y avatares predeterminados de Comentarios y Sidenotes ahora aumentarán el contraste de color para cumplir los estándares de accesibilidad. |
-| Mejora | Identidad de Livefyre | Identidad de Livefyre mejorada para admitir la navegación de teclado para cumplir los estándares de accesibilidad. |
-| Mejora | Storify 2 | Storify 2 mejorado para incluir abreviaturas de huso horario en anuncios para que los clientes puedan comprender claramente cuándo se publican los anuncios. |
-| Error | Storify 2 | Se ha corregido un error que impedía que los resultados de búsqueda de Google se devolvieran en Storify 2. |
-| Error | Flujos | Se mejoraron las reglas de página de Facebook para ingestar imágenes de Facebook de alta calidad donde antes de ingestar solo las miniaturas. |
-| Mejora | Flujos | Se ha agregado un botón claro para borrar ubicaciones definidas por el usuario en reglas de flujo admitidas. |
-| Error | Studio | Se ha mejorado la búsqueda de recursos de biblioteca para admitir caracteres japoneses. |
+| Mejora | Comentarios, Notas de identidad | Los avatares y botones predeterminados Comentarios y Notas de búsqueda ahora tendrán un mayor contraste de color para cumplir con los estándares de accesibilidad. |
+| Mejora | Identidad de Livefyre | Se mejoró la Identidad de Livefyre para admitir la navegación mediante el teclado y cumplir con los estándares de accesibilidad. |
+| Mejora | Storify 2 | Se ha mejorado Storify 2 para incluir abreviaciones de zona horaria en los anuncios, de modo que los clientes puedan comprender claramente cuándo se publican los anuncios. |
+| Error, | Storify 2 | Se ha corregido un error que impedía que los resultados de búsqueda de Google volvieran a Storify 2. |
+| Error, | Flujos | Reglas de página de Facebook mejoradas para ingerir imágenes de Facebook de alta calidad donde antes de ingerir solo las miniaturas. |
+| Mejora | Flujos | Se ha añadido un botón de borrado para borrar las ubicaciones definidas por el usuario en las reglas de flujo admitidas. |
+| Error, | Studio | Búsqueda mejorada de recursos de biblioteca para admitir caracteres japoneses. |
 
 
 ## Versión de UAT {#section_dyx_yl2_wy}
 
-| Tipo de problema | Componente | Versión de la versión |
+| Tipo de incidencia | Componente | Nota de versión |
 |--- |--- |--- |
-| Error | Modq | Se ha corregido un error que impedía que los Sujetos de correo electrónico se mostraran en Contenido de flujo de correo electrónico. |
-| Error | Mosaico | Se agregó compatibilidad adicional de accesibilidad a Mosaico para permitir que los usuarios cambien la ficha entre las tarjetas de contenido. |
-| Error | Críticas | Se ha corregido un error que impedía que aparecieran correctamente las modificaciones de clasificación. |
-| Error | Búsqueda social | Se ha corregido un error que provocaba que el botón Mostrar más se corte en los resultados de Búsqueda de lista de Twitter. |
-| Error | Flujos | Se ha mejorado el contenido (imágenes y vídeos) de las reglas de flujo de correo electrónico a través de HTTPS. |
-| Mejora | Flujos | Se ha realizado un ajuste a la configuración de la opción «Cuentas verificadas solo» que se deshabilitará de forma predeterminada. |
-| Error | Flujos | Se ha corregido un error que provocaba que los ajustes de «Premoderar» y «Premoderado de medios» pasaran a una regla de flujo recién creada. |
-| Mejora | Flujos | Se ha agregado una nueva función para permitir que las categorías de contenido (a través de una regla de flujo) estén en la lista de direcciones permitidas y evitar la moderación. |
+| Error, | ModQ | Se ha corregido un error que impedía que los sujetos de correo electrónico no se mostraran en el contenido del flujo de correo electrónico. |
+| Error, | Mosaico | Se ha agregado compatibilidad de accesibilidad adicional a Mosaic para permitir a los usuarios cambiar la ficha entre las tarjetas de contenido. |
+| Error, | Reseñas | Se ha corregido un error que impedía que las ediciones de clasificación aparecieran correctamente. |
+| Error, | Búsqueda social | Se corrigió un error que ocasionaba que el botón Mostrar más se cortara en los resultados de Búsqueda de lista de Twitter. |
+| Error, | Flujos | Se ha mejorado el contenido (imágenes y vídeos) de las reglas de flujo de correo electrónico para que esté disponible mediante HTTPS. |
+| Mejora | Flujos | Se ha realizado un ajuste en la configuración de la opción "Solo cuentas verificadas" para deshabilitarla de forma predeterminada. |
+| Error, | Flujos | Se ha corregido un error que provocaba que la configuración "Premoderado" y "Media Premoderado" se transfiriera a una regla de flujo recién creada. |
+| Mejora | Flujos | Se ha agregado una nueva función para permitir que las categorías de contenido (a través de una regla de flujo) se incluyan en la lista blanca y se evite la moderación. |
 
