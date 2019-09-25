@@ -1,10 +1,10 @@
 ---
-description: Una vez que su cuenta de red está conectada a su cuenta de Studio, puede acceder a Studio a través de los vínculos marcados o desde cualquier aplicación de Livefyre.
-seo-description: Una vez que su cuenta de red está conectada a su cuenta de Studio, puede acceder a Studio a través de los vínculos marcados o desde cualquier aplicación de Livefyre.
+description: Una vez que su cuenta de red esté conectada a su cuenta de Studio, puede acceder a Studio a través de los vínculos con marcador o a través de cualquier aplicación de Livefyre.
+seo-description: Una vez que su cuenta de red esté conectada a su cuenta de Studio, puede acceder a Studio a través de los vínculos con marcador o a través de cualquier aplicación de Livefyre.
 seo-title: Iniciar sesión en Studio
 solution: Experience Manager
 title: Iniciar sesión en Studio
-uuid: b 2 e 565 c 0-895 e -402 d-a 9 dd-d 407571 d 18 c 9
+uuid: b2e565c0-895e-402d-a9dd-d407571d18c9
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,7 +13,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Iniciar sesión en Studio{#log-into-studio}
 
-Una vez que su cuenta de red está conectada a su cuenta de Studio, puede acceder a Studio a través de los vínculos marcados o desde cualquier aplicación de Livefyre.
+Una vez que su cuenta de red esté conectada a su cuenta de Studio, puede acceder a Studio a través de los vínculos con marcador o a través de cualquier aplicación de Livefyre.
 
-1. Desde una aplicación, seleccione **[!UICONTROL Studio]** una de **[!UICONTROL Account]** las opciones de extracción.
-1. Livefyre le redirige a la página de inicio de sesión de Studio o a Survey si caduca la sesión.
+1. En una aplicación, seleccione **[!UICONTROL Studio]** en el **[!UICONTROL Account]** menú desplegable.
+1. Livefyre le redirige a la página de inicio de sesión de Studio o a Studio si la sesión ha caducado.
