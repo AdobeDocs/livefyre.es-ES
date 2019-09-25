@@ -4,7 +4,7 @@ seo-description: Estas opciones se aplican a cualquier regla de flujo de todas l
 seo-title: Opciones de regla de flujo para todas las reglas de flujo
 solution: Experience Manager
 title: Opciones de regla de flujo para todas las reglas de flujo
-uuid: 4072 ee 83-31 e 7-4 de 6-918 c -134 b 8 b 8032 e 1
+uuid: 4072ee83-31e7-4de6-918c-134b8b8032e1
 translation-type: tm+mt
 source-git-commit: 8bdb537b38d78dba033d6671b710c2a61934d6b2
 
@@ -15,37 +15,37 @@ source-git-commit: 8bdb537b38d78dba033d6671b710c2a61934d6b2
 
 Estas opciones se aplican a cualquier regla de flujo de todas las redes sociales o métodos de publicación.
 
-Funciones de búsqueda para campos de texto y palabra clave:
+Buscar funciones para campos de texto y palabras clave:
 
-* Cuando se escriben palabras clave, Livefyre utiliza automáticamente el operador booleano **OR** cuando se para palabras individuales. Por ejemplo, para buscar anuncios con la *palabra ta* o *la fórmula*, escriba *cake*y, a continuación, introduzca *la fórmula* en **[!UICONTROL keyword]** el campo.
+* Al introducir palabras clave, Livefyre utiliza automáticamente el operador booleano **OR** cuando se trata de palabras individuales. Por ejemplo, para buscar publicaciones con la palabra *tarta* o *fórmula*, escriba *tarta* y, a continuación, escriba *fórmula* en el **[!UICONTROL keyword]** campo.
 
-* Puede buscar frases exactas rodeando el texto exacto de frase entre comillas. Por ejemplo, para buscar la fórmula exacta *de la frase de frase*, escriba *&quot;fórmula de pastel&quot;* en **[!UICONTROL keyword]** el campo.
+* Puede buscar frases exactas rodeando el texto exacto de la frase entre comillas. Por ejemplo, para buscar la frase exacta *fórmula* de tarta, escriba *"fórmula de tarta"* en el **[!UICONTROL keyword]** campo.
 
-* Puede combinar las búsquedas booleanas y exactas en una regla de flujo. Por ejemplo, puede buscar *los pasteles*, *las fórmulas*y *la «fórmula de pastel»* introduciendo cada frase de uno en uno.
+* Puede combinar las búsquedas de palabras booleanas y exactas en una regla de flujo. Por ejemplo, puede buscar *tarta*, *fórmula* y *"fórmula de tarta"* introduciendo cada frase de una en una.
 
 **[!UICONTROL Additional Filters]**:
 
 * **[!UICONTROL Media]**. Seleccione una de las siguientes opciones:
 
    * **[!UICONTROL All Content.]** Permitir cualquier contenido.
-   * **[!UICONTROL Media Required.]** Permitir solo contenido con imágenes y vídeos. (Para contenido de Instagram y Facebook, puede especificar **[!UICONTROL Photos]** o **[!UICONTROL Videos]** solamente).
+   * **[!UICONTROL Media Required.]** Permitir solo contenido con imágenes y vídeos. (Para el contenido de Instagram y Facebook, puede especificar **[!UICONTROL Photos]** o **[!UICONTROL Videos]** solamente).
 
-* **[!UICONTROL Language]**. Elija el idioma en el que buscar. El inglés es el idioma predeterminado.
-* **[!UICONTROL Smart Tags]**. Elija las etiquetas que se utilizarán para identificar el contenido. Livefyre utiliza la tecnología de la percepción del equipo para identificar fotos y vídeos con etiquetas inteligentes específicas para que esta búsqueda sea más precisa. Use **[!UICONTROL ANY]** el modificador para filtrar contenido en el flujo utilizando cualquier etiqueta o **[!UICONTROL ALL]** modificador para filtrar contenido en el flujo que utiliza todas las etiquetas. Utilice **[!UICONTROL Image contains none of these smart tags]** el campo para introducir etiquetas para fotografías que contengan contenido que no desee en el flujo. Esta opción no funciona para el contenido de texto.
+* **[!UICONTROL Language]**. Elija el idioma en el que desea buscar. El inglés es el idioma predeterminado.
+* **[!UICONTROL Smart Tags]**. Elija las etiquetas que se utilizarán para identificar el contenido. Livefyre utiliza la tecnología de la visión informática para identificar fotos y vídeos con etiquetas inteligentes específicas para que esta búsqueda sea más precisa. Utilice el **[!UICONTROL ANY]** modificador para filtrar el contenido en el flujo mediante cualquier etiqueta o **[!UICONTROL ALL]** modificador para filtrar el contenido en el flujo que utiliza todas las etiquetas. Utilice el **[!UICONTROL Image contains none of these smart tags]** campo para introducir etiquetas para las fotografías que contengan contenido que no desee en el flujo. Esta opción no funciona para el contenido de texto.
 
-* **[!UICONTROL Products]**. Agregue etiquetas de producto para que coincidan con la regla de flujo con productos del catálogo de productos.
+* **[!UICONTROL Products]**. Agregue etiquetas de producto para hacer coincidir la regla de flujo con los productos del catálogo de productos.
 * **[!UICONTROL Premoderate]**. Seleccione una de las siguientes opciones:
 
-   * **[!UICONTROL On]**. Premoderar todo el contenido de la regla entrante. Puede ver contenido premoderado desde la sección Flujos de modq. **[!UICONTROL On]** anula la configuración en Configuración de aplicación.
+   * **[!UICONTROL On]**. Premoderar todo el contenido de reglas entrantes. Puede ver el contenido premoderado desde la sección Flujos de ModQ. **[!UICONTROL On]** anula la configuración en Configuración de aplicación.
    * **[!UICONTROL Off]**. No premodere ningún contenido de regla entrante. **[!UICONTROL Off]** anula la configuración en Configuración de aplicación.
    * **[!UICONTROL Inherited (Off)]**. Utilice la configuración premoderada del sitio (en **[!UICONTROL Site Settings]**).
 
 * **[!UICONTROL SAFE Rules]**. Seleccione una de las siguientes opciones:
-   * **[!UICONTROL Apply SAFE Rules]**. Aplique todas las reglas SAFE a este flujo.
-   * **[!UICONTROL Apply SAFE Rules for:]** Seleccione una o varias de las opciones para aplicar reglas SEGURAS para esta regla de flujo.
-   * **[!UICONTROL Disable SAFE Rules]**. No aplique ninguna regla SAFE a este flujo.
+   * **[!UICONTROL Apply SAFE Rules]**. Aplicar todas las reglas SAFE a este flujo.
+   * **[!UICONTROL Apply SAFE Rules for:]** Seleccione una o varias de las opciones para aplicar reglas SAFE a esta regla de flujo.
+   * **[!UICONTROL Disable SAFE Rules]**. No aplique ninguna regla SAFE a esta secuencia.
 
-Para opciones de reglas de flujo específicas de una red social o un tipo de contenido, consulte la siguiente documentación para el tipo de contenido o red social correspondiente:
+Para obtener información sobre las opciones de regla de flujo específicas de una red social o un tipo de contenido, consulte la siguiente documentación sobre el tipo de contenido o red social correspondiente:
 
 * [Páginas de Facebook](../c-streams/c-facebook-page-rules.md#c_facebook_page_rules)
 * [Correo electrónico](../c-streams/c-email-rules.md#c_email_rules)
