@@ -1,10 +1,10 @@
 ---
-description: Cambiar la posición del logotipo de Livefyre en la página.
-seo-description: Cambiar la posición del logotipo de Livefyre en la página.
+description: Vuelva a colocar el logotipo de Livefyre en la página.
+seo-description: Vuelva a colocar el logotipo de Livefyre en la página.
 seo-title: Mover el logotipo de Livefyre
 solution: Experience Manager
 title: Mover el logotipo de Livefyre
-uuid: 807304 ae -6070-4505-87 db -169 a 925 f 714 c
+uuid: 807304ae-6070-4505-87db-169a925f714c
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,11 +13,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Mover el logotipo de Livefyre{#move-the-livefyre-logo}
 
-Cambiar la posición del logotipo de Livefyre en la página.
+Vuelva a colocar el logotipo de Livefyre en la página.
 
-Si su acuerdo con Livefyre permite, puede mover el logotipo de Livefyre desde la parte superior del flujo de contenido hasta la parte inferior.
+Si su acuerdo con Livefyre lo permite, puede mover el logotipo de Livefyre de la parte superior del flujo de contenido a la parte inferior.
 
-Por ejemplo, agregue el siguiente HTML a la página inmediatamente después del elemento que contiene la aplicación de Livefyre:
+Por ejemplo, agregue el siguiente HTML a la página inmediatamente después del elemento que contiene la aplicación Livefyre:
 
 ```
 <div id="powered_by_livefyre_new"><a href="https://livefyre.com" target="_blank">Powered by Livefyre</a></div>
