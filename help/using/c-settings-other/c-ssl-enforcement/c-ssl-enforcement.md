@@ -1,87 +1,87 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Cumplimiento de SSL
+seo-title: Aplicación de SSL
 solution: Experience Manager
-title: Cumplimiento de SSL
-uuid: e 64 af 8 c 2-3 ab 6-4034-b 385-0 e 552 d 828 c 6 e
+title: Aplicación de SSL
+uuid: e64af8c2-3ab6-4034-b385-0e552d828c6e
 translation-type: tm+mt
 source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
 
 ---
 
 
-# Cumplimiento de SSL{#ssl-enforcement}
+# Aplicación de SSL{#ssl-enforcement}
 
-Para garantizar que sus datos sigan siendo seguros, estamos desaprobando HTTP en favor de HTTPS. Adobe Livefyre deshabilitará todos los ciphers SSL/TLS no seguros para finales de agosto de 2018. Adobe Standard se ha diseñado para proteger su privacidad y sus usuarios.
+Para garantizar que los datos permanezcan seguros, se está descartando HTTP en favor de HTTPS. Adobe Livefyre desactivará por completo todos los cifrados HTTP y SSL/TLS inseguros a finales de agosto de 2018. Es un estándar de Adobe diseñado para proteger la privacidad de usted y de sus usuarios.
 
-## ¿Quién ve esto? {#section_jf2_4yz_kcb}
+## ¿Quién se ve afectado? {#section_jf2_4yz_kcb}
 
-Esto podría afectar a los clientes de Livefyre que tengan:
+Esto podría afectar a los clientes de Livefyre que:
 
-* Llamadas servidor a servidor desde sus CRM, CMS, WordPress u otro cliente.
-* Integraciones móviles (aplicaciones Android e iOS)
+* Llamadas de servidor a servidor desde su CRM, CMS, WordPress u otro cliente.
+* Integraciones móviles (aplicaciones de Android e iOS)
 * Aplicaciones personalizadas o código personalizado
 
-## ¿Qué debo hacer? {#section_unv_dc5_kcb}
+## ¿Qué es necesario hacer?{#section_unv_dc5_kcb}
 
-1. Todos los clientes de Livefyre deben comunicarse con todas las API a través de HTTPS para todo el tráfico, incluso:
+1. Todos los clientes de Livefyre deben comunicarse con todas las API mediante HTTPS para todo el tráfico, incluidos:
 
-   * Server to Server Integrations (CRM, CMS, WordPress, etc.)
-   * Integraciones móviles (aplicaciones Android e iOS)
-   * Aplicaciones personalizadas (SDK de Streamhub o codificadas directamente).
+   * Integraciones de servidor a servidor (CRM, CMS, WordPress, etc.)
+   * Integraciones móviles (aplicaciones de Android e iOS)
+   * Aplicaciones personalizadas (SDK de Streamhub o directamente codificadas).
 
-1. Los clientes de servidor a servidor y HTTP móvil deben admitir TLS 1.2
-1. Cambiar los nombres de host `{*}.<network>.fyre.co` a `<network>.{*}.fyre.co`. Por ejemplo, el nombre de host `example.network.fyre.co` cambia a `network.`example. fyre. co «. Por ejemplo:
+1. Servidor a servidor y los clientes HTTP móviles deben admitir TLS 1.2
+1. Cambiar nombres de host de `{*}.<network>.fyre.co` a `<network>.{*}.fyre.co`. Por ejemplo, el nombre de host `example.network.fyre.co` cambia a `network.`example.fyre.co". Por ejemplo:
 
-   * `bootstrap.<network_name>.fyre.co` to `<network_name>.bootstrap.fyre.co`
+   * `bootstrap.<network_name>.fyre.co` a `<network_name>.bootstrap.fyre.co`
 
-   * `quill.<network_name>.fyre.co` to `<network_name>.quill.fyre.co`
+   * `quill.<network_name>.fyre.co` a `<network_name>.quill.fyre.co`
 
-   * `admin.<network_name>.fyre.co` to `<network_name>.admin.fyre.co`
+   * `admin.<network_name>.fyre.co` a `<network_name>.admin.fyre.co`
 
-## ¿Cómo sé si realizé los cambios? {#section_sqk_5d5_kcb}
+## ¿Cómo sé si hice los cambios? {#section_sqk_5d5_kcb}
 
-Ya puede utilizar HTTPS, pero Livefyre recomienda comprobar doble, especialmente si tiene:
+Puede que ya utilice HTTPS, pero Livefyre recomienda realizar una doble comprobación, especialmente si tiene:
 
-* Llamadas servidor a servidor desde CMS o CRM.
-* Código personalizado o utilice SDK para aplicaciones personalizadas en Javascript o Móvil.
-* Si la integración tiene más de un año,
+* Llamadas de servidor a servidor desde el CMS o CRM.
+* Código personalizado o utilice SDK para aplicaciones personalizadas en JavaScript o Mobile.
+* Si su integración tiene más de un año.
 * Si la tecnología de la pila es anterior a un año.
 
-Aunque ya utilice HTTPS, debe verificar que los clientes de API admitan TLS 1.2.
+Aunque ya utilice HTTPS, debe comprobar que sus clientes de API admiten TLS 1.2.
 
-## ¿Cómo puedo verificar que mis clientes de API admitan TLS 1.2? {#section_nd1_j25_kcb}
+## ¿Cómo puedo verificar que mis clientes API admitan TLS 1.2? {#section_nd1_j25_kcb}
 
-Una persona que trabaja en el desarrollo de su sitio puede:
+Una persona que trabaje en el desarrollo del sitio puede:
 
-* Identifique el software del cliente.
+* Identifique el software cliente.
 * Identifique la versión.
-* Lea documentación para asegurarse de que el cliente API admite TLS 1.2.
+* Lea la documentación para asegurarse de que el cliente de API admite TLS 1.2.
 * Active el modo de depuración, si es necesario.
 
-## Compatibilidad de Java para TLS 1.2 {#section_lwn_rwk_ycb}
+## Compatibilidad con Java para TLS 1.2 {#section_lwn_rwk_ycb}
 
-Los JVMS de Oracle y openjdk para Java 8 y versiones posteriores se configuran para utilizar de forma predeterminada TLS 1.2 para todas las conexiones SSL. No necesita realizar ninguna acción adicional si utiliza Java 8 o posterior.
+Las JVM de Oracle y OpenJDK para Java 8 y versiones posteriores están configuradas para utilizar TLS 1.2 de forma predeterminada para todas las conexiones SSL. No es necesario que realice ninguna acción adicional si utiliza Java 8 o posterior.
 
-Los usuarios de Java 7 o anteriores deben consultar documentación pública sobre cómo habilitar TLS 1.2.
+Los usuarios de Java 7 o versiones anteriores deben consultar la documentación pública sobre cómo habilitar TLS 1.2.
 
 ## ¿Por qué necesito cambiar mis nombres de host? {#section_d5q_p25_kcb}
 
-Livefyre no tiene certificados SSL en `{*}.<network>.fyre.co` los dominios. Si se cambia la URL a HTTPS, se interrumpe la aplicación.
+Livefyre no tiene certificados SSL en `{*}.<network>.fyre.co` los dominios. Al cambiar la dirección URL a HTTPS, se rompe la aplicación.
 
-## ¿Tengo que actualizar a la versión más reciente de los SDK de Livefyre? {#section_dw5_s25_kcb}
+## ¿Tengo que actualizar a la última versión de los SDK de Livefyre? {#section_dw5_s25_kcb}
 
-No. En su lugar, puede parche el código. Para filtrar el código, modifique algunas cadenas estáticas y vuelva a compilar el código. Si el cliente HTTP está obsoleto, tendrá que actualizarlo también o utilizar otro diferente.
+No. En su lugar, puede aplicar parches al código. Para parchear el código, modifique algunas cadenas estáticas y vuelva a compilar el código. Si el cliente HTTP no está actualizado, deberá actualizarlo también o usar otro.
 
 ## ¿Cuánto tiempo llevará esto? {#section_lgd_v25_kcb}
 
-La cantidad de tiempo que esto tarda depende de la configuración. Si tiene una implementación sencilla, debe tardar poco tiempo en confirmarse. Si tiene muchas personalizaciones, deberá probar e implementar el código actualizado en sus servidores o nuevas aplicaciones en tiendas de aplicaciones. Para obtener los mejores resultados, le recomendamos que realice una auditoría inicial del trabajo para que pueda planificar cualquier trabajo a más largo plazo.
+El tiempo que esto tarda depende de la configuración. Si tiene una implementación sencilla, la confirmación debería tardar poco tiempo. Si tiene muchas personalizaciones, deberá probar e implementar código actualizado en sus servidores o nuevas aplicaciones en App Store. Para obtener los mejores resultados, le recomendamos que realice una auditoría inicial del trabajo para que pueda planificar cualquier trabajo a largo plazo.
 
-## ¿Cuál es la cronología para completar este trabajo? {#section_kgk_w25_kcb}
+## ¿Cuál es el plazo para completar este trabajo? {#section_kgk_w25_kcb}
 
-Livefyre deshabilitará el puerto 80 (HTTP) a nuestros servicios finales de agosto de 2018 y solo admitirá conexiones a 443 (HTTPS). Los navegadores y otros clientes que intentan utilizar HTTP producirán errores.
+Livefyre desactivará el puerto 80 (HTTP) a nuestros servicios para finales de agosto de 2018 y solo admitirá conexiones a 443 (HTTPS). Los exploradores y otros clientes que intenten utilizar HTTP no funcionarán.
 
-## ¿Cuándo debo finalizar este trabajo? {#section_rvb_x25_kcb}
+## ¿Cuándo necesito terminar este trabajo? {#section_rvb_x25_kcb}
 
 Todos los clientes deben utilizar HTTPS para finales de julio de 2018. Si no puede cumplir este plazo, póngase en contacto con nuestro equipo en prioritysupport@livefyre.com.
