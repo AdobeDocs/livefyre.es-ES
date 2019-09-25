@@ -1,22 +1,22 @@
 ---
-description: Lista de exploradores y dispositivos admitidos por el grupo de aplicaciones de Livefyre.
-seo-description: Lista de exploradores y dispositivos admitidos por el grupo de aplicaciones de Livefyre.
+description: Lista de exploradores y dispositivos compatibles con el grupo de aplicaciones de Livefyre.
+seo-description: Lista de exploradores y dispositivos compatibles con el grupo de aplicaciones de Livefyre.
 seo-title: Compatibilidad con dispositivos y navegadores
 title: Compatibilidad con dispositivos y navegadores
-uuid: 338 f 78 b 2-051 d -4831-a 0 b 9-e 987 f 92660 ce
+uuid: 338f78b2-051d-4831-a0b9-e987f92660ce
 translation-type: tm+mt
-source-git-commit: 97ec4a7dcafdce7551a86f443d50be918daea3ce
+source-git-commit: 7d7af443eeffdbb09c2fa58006813c328785ad56
 
 ---
 
 
 # Compatibilidad con dispositivos y navegadores{#device-and-browser-support}
 
-Lista de exploradores y dispositivos admitidos por el grupo de aplicaciones de Livefyre.
+Lista de exploradores y dispositivos compatibles con el grupo de aplicaciones de Livefyre.
 
-Livefyre admite los siguientes dispositivos, sistemas operativos y exploradores.
+Livefyre admite los siguientes dispositivos, sistemas operativos y navegadores.
 
-|  | Aplicaciones principales | Storify 2 | Studio | Modq |
+|  | Aplicaciones principales | Storify 2 | Studio | ModQ |
 |---|---|---|---|---|
 | **Exploradores de escritorio** |  |  |  |  |
 | Chrome | ✓ | ✓ | ✓ | ✓ |
@@ -26,16 +26,16 @@ Livefyre admite los siguientes dispositivos, sistemas operativos y exploradores.
 | Safari | ✓ | ✓ | ✓ | ✓ |
 |  |  |  |  |  |
 | **Dispositivos** |  |  |  |  |
-| Android Browser 2.3 + | Limitado | Limitado | N/D | Limitado |
-| Google Chrome en Android 4.1 + | Limitado | Limitado | N/D | Limitado |
+| Android Browser 2.3+ | Limitado | Limitado | N/D | Limitado |
+| Google Chrome en Android 4.1+ | Limitado | Limitado | N/D | Limitado |
 | Versiones anteriores de iOS | Limitado | Limitado | N/D | Limitado |
 | Versión actual de iOS | Limitado | Limitado | N/D | Limitado |
 
 >[!NOTE]
 >
->Aunque Livefyre se esforzará por mantener las funciones existentes, es posible que los nuevos productos y características no sean totalmente compatibles con los navegadores que se muestran aquí con compatibilidad limitada.
+>Aunque Livefyre se esforzará por mantener la funcionalidad existente, es posible que los nuevos productos y características no sean totalmente compatibles con los navegadores que se enumeran aquí con compatibilidad limitada.
 
 >[!NOTE]
 >
->Debido al final de la compatibilidad de Microsoft, Livefyre no es compatible con las versiones de Internet Explorer anteriores a Internet Explorer 11.
+>Debido al fin de la compatibilidad con Microsoft, Livefyre no se admite en las versiones de Internet Explorer anteriores a Internet Explorer 11.
 
