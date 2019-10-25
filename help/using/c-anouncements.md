@@ -6,12 +6,18 @@ solution: Experience Manager
 title: Anuncios
 uuid: c05963db-4d96-494e-bdb3-da3570a14dfe
 translation-type: tm+mt
-source-git-commit: 087a40bf77c3b630acb661b58ffa8cfdedc0aec0
+source-git-commit: 82fde64518079ba1f08f4676449ec0e087ca1f36
 
 ---
 
 
 # Anuncios{#announcements}
+
+## 25 de octubre de 2019
+
+El 4 de septiembre de 2019, Facebook eliminó inesperadamente el acceso a determinados permisos y funciones del flujo de trabajo de Livefyre, lo que ha interrumpido la capacidad de buscar o transmitir contenido de Facebook. Si la aplicación necesita acceder a publish_pages, user_friend o al contenido público de la página, pídale a través del proceso de revisión de la aplicación existente. Hemos solicitado formalmente el acceso restaurado a estos permisos y estamos esperando la aprobación de Facebook. Le informaremos tan pronto como se haya concedido la aprobación y el contenido esté nuevamente disponible.
+
+El contenido que ya esté publicado en su(s) sitio(s) web no se verá afectado.
 
 ## 11 de junio de 2019
 
@@ -54,7 +60,7 @@ Ya están activas dos funciones adicionales que abordan las obsoletas de la API 
 
 * **Supervisión automática de las respuestas de solicitudes de derechos de uso para búsquedas basadas en cuentas comerciales**
 
-   Facebook also removed the ability for partners like Adobe to send rights request messages from Instagram on behalf of their customers, eliminating the ability to do fully automated rights management from Livefyre. En mayo, entregamos la funcionalidad manual, cortar y pegar para ofrecer a los clientes la posibilidad de reanudar el seguimiento de aprobaciones de derechos de uso y mantener registros para la auditoría. A partir de hoy (solo para búsquedas basadas en cuentas comerciales), está disponible la capacidad de monitorear automáticamente las respuestas a solicitudes de derechos y actualizar el historial de actividades en Livefyre.
+   Facebook también eliminó la capacidad de socios como Adobe para enviar mensajes de solicitud de derechos desde Instagram en nombre de sus clientes, eliminando así la capacidad de administrar derechos de forma totalmente automatizada desde Livefyre. En mayo, entregamos la funcionalidad manual, cortar y pegar para ofrecer a los clientes la posibilidad de reanudar el seguimiento de aprobaciones de derechos de uso y mantener registros para la auditoría. A partir de hoy (solo para búsquedas basadas en cuentas comerciales), está disponible la capacidad de monitorear automáticamente las respuestas a solicitudes de derechos y actualizar el historial de actividades en Livefyre.
 
 ## 22 de junio de 2018 {#section_k1t_vmv_g2b}
 
