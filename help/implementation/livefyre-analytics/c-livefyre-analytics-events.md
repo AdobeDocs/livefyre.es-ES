@@ -6,16 +6,16 @@ solution: Experience Manager
 title: Eventos de análisis de Livefyre
 uuid: 4eb5a196-ca33-40f8-a96d-ed46469223de
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 
 ---
 
 
 # Eventos de análisis de Livefyre {#livefyre-analytics-events}
 
-## Definición de objeto de evento {#section_dh1_yhn_pdb}
+## Definición de objeto de Evento {#section_dh1_yhn_pdb}
 
-El código siguiente define los campos del objeto de evento que recibe el controlador de análisis en una página.
+El código siguiente define los campos del objeto evento que recibe el controlador de análisis en una página.
 
 ```
 {
@@ -42,43 +42,43 @@ El código siguiente define los campos del objeto de evento que recibe el contro
 }
 ```
 
-## eVars y eventos de análisis de Livefyre {#section_u3k_tft_mcb}
+## Eventos y eVars de Livefyre Analytics {#section_u3k_tft_mcb}
 
-Los siguientes eventos de Livefyre que se asignarán a los eventos personalizados que se utilizarán en los informes mediante el Administrador del grupo de informes. Para obtener más información sobre los grupos de informes en Adobe Analytics, consulte Administrador [de grupos](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)de informes. Para obtener más información sobre cómo utilizar los eventos de Livefyre con el Administrador de grupos de informes, consulte [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
+Los siguientes eventos de Livefyre para asignar a eventos personalizados y utilizarlos en informes mediante el Administrador de grupos de informes. Para obtener más información sobre los grupos de informes en Adobe Analytics, consulte Administrador [de grupos](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)de informes. Para obtener más información sobre cómo usar eventos de Livefyre con el Administrador de grupos de informes, consulte [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
 
 ## Eventos de análisis de Livefyre
 
 | Evento | Descripción |
 |---|---|
 | Init | Cuando se carga una página que incluye al menos una aplicación de Livefyre |
-| Load | Cada vez que se carga una aplicación en una página independientemente de la vista del usuario |
+| Load | Cada vez que se carga una aplicación en una página, independientemente de la vista del usuario |
 | Ver | Cuando una aplicación entró en la ventanilla por primera vez. |
 | Anuncio | Cada vez que un usuario publica un comentario o un contenido que incluye: anuncios de nivel superior, respuestas, reseñas, cargas de muro de medios |
 | Publicado | Cuando una publicación se ha realizado correctamente. |
 | Twitter_Reply | Cada vez que un usuario respondió en Twitter |
-| Twitter_Like | Dónde se compartió el contenido: Retweet |
-| Livefyre_Like | Cada vez que se utiliza una función "Me gusta" en una aplicación |
+| Twitter_Like | Dónde se compartió el contenido a: Retweet |
+| Livefyre_Like | Cada vez que se utiliza una función &quot;Me gusta&quot; en una aplicación |
 | Livefyre_Different | Cada vez que a un usuario no le gusta una película |
 | ShareOnPost | Cada vez que un usuario publica contenido y utiliza la función Compartir en la publicación |
 | ShareButtonClick | Cada vez que un usuario hace clic en el botón Compartir de un comentario |
 | ShareTwitter | Cuando se hace clic en Compartir en Twitter |
 | ShareFacebook | Cuando se hace clic en Compartir en Facebook |
 | ShareURL | Cuando se selecciona o copia el área de texto Compartir con URL. |
-| ExpandirRespuestas | Cuando un usuario hace clic en el vínculo + o Expandir para ver todas las respuestas en un anuncio de nivel superior |
-| Contraer respuestas | Cuando un usuario hace clic en el vínculo - o Contraer para ver todas las respuestas en un anuncio de nivel superior |
+| ExpandirRespuestas | Cuando un usuario hace clic en el vínculo + o Expandir para vista de todas las respuestas en un anuncio de nivel superior |
+| Contraer respuestas | Cuando un usuario hace clic en el vínculo - o Contraer para vista todas las respuestas en un anuncio de nivel superior |
 | FlagClick | Cada vez que un usuario abre el Modelo de marca |
 | MarcarCorreoNoDeseado | Cuando un usuario marca contenido como correo no deseado |
 | FlagDisaccept | Cuando un usuario marca el contenido como no conforme |
 | Bandera ofensiva | Cuando un usuario marca el contenido como ofensivo |
-| FlagOffTopic | Cuando un usuario marca el contenido como tema no relacionado |
-| FlagCancel | Cada vez que un usuario hace clic en X o en "cancelar" al enviar un indicador |
-| FollowCollection | Cada vez que se sigue una conversación ("Estoy interesado" en críticas) |
+| FlagOffTopic | Cuando un usuario marca el contenido como tema fuera de tema |
+| FlagCancel | Cada vez que un usuario hace clic en X o en &quot;cancelar&quot; al enviar un indicador |
+| FollowCollection | Cada vez que se sigue una conversación (&quot;Estoy interesado&quot; en críticas) |
 | UnfollowCollection | Cuando se deja de seguir una conversación |
-| RequestMore | Cada vez que un usuario carga más contenido en una aplicación (debe ser a alta velocidad también) |
-| ModalView | Cada vez que un usuario hace clic para ver el contenido en un modal |
-| TwitterRetweetClick | Dónde se compartió el contenido: Retweet |
-| PostButtonClick | Cuando un usuario hace clic en la publicación ("¿Qué tiene en mente?") button |
-| Inicio de sesión | Cada vez que un usuario inicia sesión |
+| SolicitarMás | Cada vez que un usuario carga más contenido en una aplicación (debe ser a alta velocidad también) |
+| ModalView | Cada vez que un usuario hace clic para vista de contenido en un modal |
+| TwitterRetweetClick | Dónde se compartió el contenido a: Retweet |
+| PostButtonClick | Cuando un usuario hace clic en la publicación (&quot;¿Qué tiene en mente?&quot;) button |
+| Inicio de sesión | Cada vez que un usuario ha iniciado sesión |
 | Cerrar sesión | Cada vez que un usuario cierra la sesión |
 
 A continuación se muestra una lista de variables de conversión (eVars) que proporciona Livefyre.
@@ -97,7 +97,7 @@ A continuación se muestra una lista de variables de conversión (eVars) que pro
 
 Para obtener más información sobre los temas tratados en esta página, consulte:
 
-* [Report Suite](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)[ManagerDTM](https://marketing.adobe.com/resources/help/en_US/livefyre/c_filmstrip_app.html)
+* [Report Suite](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)[ManagerDTM](https://docs.adobe.com/content/help/en/livefyre/using/apps/filmstrip/c-filmstrip-app.html)
 
-* [Reglas](https://marketing.adobe.com/resources/help/en_US/dtm/rules.html)
+* [Reglas](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/create-rules.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)
