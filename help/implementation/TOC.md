@@ -1,14 +1,17 @@
 ---
 product: livefyre
-audience: usuario final
-user-guide-title: Guía de implementación de Experience Manager Livefyre
+audience: end-user
+user-guide-title: Guía de implementación de Livefyre
 translation-type: tm+mt
-source-git-commit: d2a3bad7f0009d04be0e17802d17409f16c1b779
+source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+workflow-type: tm+mt
+source-wordcount: '543'
+ht-degree: 4%
 
 ---
 
 
-# Guía de implementación de Experience Manager Livefyre {#implementation}
+# Guía de implementación de Livefyre {#implementation}
 
 + [Guía de implementación de Livefyre](home.md)
 + Introducción {#getting-started}
@@ -16,11 +19,11 @@ source-git-commit: d2a3bad7f0009d04be0e17802d17409f16c1b779
    + Proceso de implementación {#implementation-process}
       + [Proceso de implementación](c-getting-started/c-implementation-process/c-implementation-process.md)
       + [Tipos de integración de aplicaciones](c-getting-started/c-implementation-process/c-app-integration-types.md)
-      + [Implementación de aplicaciones](c-getting-started/designer-app-implementation.md)
+      + [Implementación de la aplicación](c-getting-started/designer-app-implementation.md)
       + [Implementar Livefyre con integración de terceros](c-app-integrations/implement-livefyre-3rd-party.md)
       + [Arquitectura](c-getting-started/c-implementation-process/c-architecture.md)
       + [Incrustar una aplicación](c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
-      + [Agregar autenticación a una aplicación mediante Livefyre.js](c-getting-started/c-implementation-process/c-add-authetication-to-an-app-using-livefyre.js.md)
+      + [Añadir autenticación en una aplicación mediante Livefyre.js](c-getting-started/c-implementation-process/c-add-authetication-to-an-app-using-livefyre.js.md)
       + [Generar tokens del lado del servidor](c-getting-started/c-implementation-process/c-build-server-side-tokens.md)
       + [CollectionMeta Token](c-getting-started/c-implementation-process/c-collectionmeta-tokent.md)
       + [Autentificador de usuario](c-getting-started/c-implementation-process/c-user-auth-token.md)
@@ -53,10 +56,10 @@ source-git-commit: d2a3bad7f0009d04be0e17802d17409f16c1b779
       + [Crear una aplicación de LinkedIn para usarla con la identidad de Livefyre](c-livefyre-identity-comp/t-create-a-linkedin-app-for-use-with-livefyre-identity.md)
       + [Creación de una aplicación de identidad de GitHub para su uso con la identidad de Livefyre](c-livefyre-identity-comp/c-create-a-github-identity.md)
       + [Uso de Studio para conectar las aplicaciones sociales a la implementación de Livefyre](c-livefyre-identity-comp/t-using-studio-to-connect-your-social-apps-to-your-livefyre-implementation.md)
-   + [Agregar Livefyre.js a la página](c-livefyre-identity-comp/t-add-livefyre.js-to-the-page.md)
+   + [Añadir Livefyre.js a la página](c-livefyre-identity-comp/t-add-livefyre.js-to-the-page.md)
    + [Inicializar la identidad de Livefyre](c-livefyre-identity-comp/t-initialize-livefyre-identity.md)
    + [Correos electrónicos para la identidad de Livefyre](c-livefyre-identity-comp/c-emails-for-livefyre-identity.md)
-   + [Captura de luz/plano posterior](c-livefyre-identity-comp/c-janrain-capture-backplane-comp.md)
+   + [Captura de Janrain/plano posterior](c-livefyre-identity-comp/c-janrain-capture-backplane-comp.md)
    + Instalación {#installation}
       + [Instalación de bibliotecas](c-installing-libraries/c-installing-libraries.md)
       + [Clases y métodos](c-installing-libraries/c-methods-livefyre.md)
@@ -65,7 +68,7 @@ source-git-commit: d2a3bad7f0009d04be0e17802d17409f16c1b779
       + [buildLivefyreToken Network (método)](c-installing-libraries/r-buildlivefyretoken-method.md)
       + [buildUserAuthToken (método de red)](c-installing-libraries/r-builduserauthtoken-method.md)
       + [validateLivefyreToken Network (método)](c-installing-libraries/c-validatelivefyretoken-network-method.md)
-      + [setUserSyncUrl, método de red](c-installing-libraries/r-setusersyncurl-method.md)
+      + [setUserSyncUrl (método de red)](c-installing-libraries/r-setusersyncurl-method.md)
       + [syncUser Network (método)](c-installing-libraries/r-syncuser-method.md)
       + [getUrn Network (método)](c-installing-libraries/r-geturn-method.md)
       + [getUrnForUser (método de red)](c-installing-libraries/r-geturnforuser-method.md)
@@ -103,8 +106,8 @@ source-git-commit: d2a3bad7f0009d04be0e17802d17409f16c1b779
    + [Reseñas](c-app-integrations/c-reviews-integration.md)
    + Notas de identidad {#sidenotes}
       + [Integración de Sidenotes](c-app-integrations/c-sidenotes-integration/r-sidenotes-integration.md)
-      + [Adición de notas a una página](c-app-integrations/c-sidenotes-integration/r-adding-sidenotes-to-a-page.md)
-      + [Identifica eventos de aplicación](c-app-integrations/c-sidenotes-integration/r-app-events.md)
+      + [Añadir notas a una página](c-app-integrations/c-sidenotes-integration/r-adding-sidenotes-to-a-page.md)
+      + [Eventos de la aplicación Sidenotes](c-app-integrations/c-sidenotes-integration/r-app-events.md)
       + [Muestra las opciones de configuración](c-app-integrations/c-sidenotes-integration/r-configuration-options.md)
       + [Identifica estilos personalizados](c-app-integrations/c-sidenotes-integration/r-custom-styles.md)
       + [Identifica cadenas personalizadas](c-app-integrations/c-sidenotes-integration/r-custom-strings.md)
@@ -136,15 +139,15 @@ source-git-commit: d2a3bad7f0009d04be0e17802d17409f16c1b779
    + [Contenido destacado agregado mediante las API destacadas](c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md)
    + Contenido de estilo {#style-content}
       + [Estilo del contenido del grupo de usuarios](c-app-customizations/c-style-user-group-content.md)
-      + [Adición de usuarios a grupos](c-app-customizations/c-adding-users-to-groups.md)
+      + [Añadir usuarios a grupos](c-app-customizations/c-adding-users-to-groups.md)
    + Aplicar estilos personalizados {#apply-custom-styles}
       + [Aplicación de estilos personalizados](c-app-customizations/c-applying-custom-styles-.md)
-      + [Agregar botones personalizados](c-app-customizations/t-add-custom-buttons.md)
+      + [Añadir botones personalizados](c-app-customizations/t-add-custom-buttons.md)
    + Eventos Javascript {#javascript-events}
-      + [Definiciones y ejemplos de eventos de JavaScript](c-app-customizations/c-javascript-events.md)
-      + [Eventos de Javascript para aplicaciones de visualización](c-app-customizations/c-javascript-events-for-visualization-apps.md)
-      + [Eventos de Javascript para Media Wall](c-app-customizations/c-javascript-events-media-wall.md)
-      + [Eventos de Javascript para aplicaciones de conversación](c-app-customizations/c-javascript-events-for-conversation-apps.md)
+      + [Definiciones y ejemplos de Eventos JavaScript](c-app-customizations/c-javascript-events.md)
+      + [Eventos Javascript para aplicaciones de visualización](c-app-customizations/c-javascript-events-for-visualization-apps.md)
+      + [Eventos Javascript para Media Wall](c-app-customizations/c-javascript-events-media-wall.md)
+      + [Eventos de JavaScript para aplicaciones de conversación](c-app-customizations/c-javascript-events-for-conversation-apps.md)
    + [Incrustar una aplicación de comentarios](c-app-customizations/c-embed-a-comments-app.md)
    + [Seguimiento de referencia](c-app-customizations/c-referral-tracking.md)
    + [Compatibilidad con dispositivos y navegadores](c-app-customizations/c-device-and-browser-support.md)
@@ -159,7 +162,7 @@ source-git-commit: d2a3bad7f0009d04be0e17802d17409f16c1b779
 + Temas avanzados {#advanced-topics}
    + [Mostrar recuento de comentarios](c-advanced-topics/t-display-comment-count.md)
    + [Activación del uso compartido en redes sociales](c-advanced-topics/c-enabling-social-sharing.md)
-   + [Flujo de actividad](c-advanced-topics/c-activity-stream.md)
+   + [Flujo de Actividad](c-advanced-topics/c-activity-stream.md)
    + [Bootstrap HTML](c-advanced-topics/c-bootstrap-html.md)
    + [Cambiar colección](c-advanced-topics/c-change-collection.md)
    + [Varias colecciones](c-advanced-topics/c-multiple-collections.md)
