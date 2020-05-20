@@ -1,19 +1,22 @@
 ---
 seo-title: Ayuda de Livefyre
 solution: Experience Manager
-title: Ayuda de implementación de Livefyre
+title: Ayuda para la implementación de Livefyre
 uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
 translation-type: tm+mt
-source-git-commit: bf49abcfe0d29a1fa332161179d37ea14e7efb09
+source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 6%
 
 ---
 
 
-# Guía de implementación de Experience Manager Livefyre {#livefyre-help}
+# Guía de implementación de Livefyre {#livefyre-help}
 
 Implemente Livefyre Studio y Livefyre Apps en su sitio web con herramientas de desarrollador para personalizar su experiencia.
 
-Para obtener información sobre cómo utilizar Livefyre Studio y Livefyre Apps dentro de Livefyre Studio, consulte la Guía del usuario de Livefyre de [*Adobe Experience Manager*](/help/using/home.md).
+Para obtener información sobre cómo utilizar Livefyre Studio y Livefyre Apps dentro de Livefyre Studio, consulte la Guía del usuario de Livefyre de [*Adobe Experience Manager *](/help/using/home.md).
 
 ## Temas populares
 
