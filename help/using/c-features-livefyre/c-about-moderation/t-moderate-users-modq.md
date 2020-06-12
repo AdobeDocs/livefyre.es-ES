@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Moderar usuarios
 uuid: b801cdfe-05ea-4c29-bb9b-0f6a33cb11d1
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +35,7 @@ Se muestra la siguiente información (si está disponible) para cada uno de los 
 * **[!UICONTROL Email]**:: su dirección de correo electrónico enumerada.
 * **[!UICONTROL IP Address]**:: su dirección IP, determinada por Livefyre.
 * **[!UICONTROL Bio]**:: descripción del usuario.
-* **[!UICONTROL Bans]**:: enumera los sitios para los que el usuario ha sido prohibido o Bozo’d.
-* **[!UICONTROL Whitelists]**:: enumera los sitios para los que el usuario ha sido incluido en la lista blanca.
+* **[!UICONTROL Bans]**:: Sitios de listas para los que el usuario ha sido prohibido o Bozo’d.
+* **[!UICONTROL Whitelists]**:: listas de sitios para los que se ha permitido la inclusión del usuario.
 
 Para obtener más información sobre cómo puede moderar usuarios en la ficha Contenido de la aplicación, consulte [Moderar con contenido](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content)de la aplicación.
