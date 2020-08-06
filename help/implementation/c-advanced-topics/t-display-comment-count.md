@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Mostrar recuento de comentarios
 uuid: 0f39b25e-11e0-4945-be71-55fb4798b6c7
 translation-type: tm+mt
-source-git-commit: c287e7a880f956f0444af746adee682571fe5a72
+source-git-commit: c2594f919f153d1230b3dc0370f31d64cb698146
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: c287e7a880f956f0444af746adee682571fe5a72
 
 Tome los recuentos de anuncios y comentarios de determinadas colecciones para mostrarlos en las páginas de índice.
 
-Livefyre `CommentCount.js` permite recuperar los recuentos de contenido de las colecciones de su sitio. Aunque las aplicaciones mostrarán el recuento de comentarios de la colección actual, puede resultar útil tener estos recuentos sindicados en el sitio. Esta función resulta especialmente útil si no se mantiene el contenido en la base de datos (o si la base de datos CMS no está sincronizada con Livefyre).
+Livefyre `CommentCount.js` permite recuperar los recuentos de contenido de las colecciones de su sitio. Aunque las aplicaciones mostrarán el recuento de comentarios de la colección actual, puede resultar útil tener estos recuentos sindicados en el sitio. Esta función resulta especialmente útil si no se mantiene el contenido en la base de datos (o si la base de datos de CMS no está sincronizada con Livefyre).
 
 1. Cargue el JavaScript.
 
@@ -41,7 +44,7 @@ Livefyre `CommentCount.js` permite recuperar los recuentos de contenido de las c
    </span>
    ```
 
-   >[!NOTE] {important="high"}
+   >[!NOTE]
    >
    >El `CommentCount.js` código comprueba si hay un valor numérico que actualizar con el recuento real. Asegúrese de incluir un valor numérico entre las etiquetas.
 
@@ -61,18 +64,18 @@ Livefyre `CommentCount.js` permite recuperar los recuentos de contenido de las c
 
 1. Configurar opciones.
 
-   Para obtener más control sobre cómo se reemplazan los recuentos de contenido, llame `LF.CommentCount()` y pase un objeto que contenga las opciones de configuración. Asegúrese de llamar a la función después de que todos los elementos que deben reemplazarse estén en el DOM. El mejor lugar para llamar a este método es en el pie de página, por lo que sucede cuando se carga el DOM, pero antes de los eventos preparados para documentos y ventanas.
+   Para obtener más control sobre cómo se reemplazan los recuentos de contenido, llame `LF.CommentCount()` y pase un objeto que contenga las opciones de configuración. Asegúrese de llamar a la función después de que todos los elementos que deben reemplazarse estén en el DOM. El mejor lugar para llamar a este método está en el pie de página, por lo que sucede cuando se carga el DOM, pero antes de los eventos listos para el documento y la ventana.
 
    Se permiten las siguientes opciones de configuración:
 
-* **** replacer: Función o Regex utilizados para reemplazar el texto de cada recuento de contenido.
+* **replacer:** Función o Regex utilizados para reemplazar el texto de cada recuento de contenido.
 
-* **** function: Se utiliza para reemplazar cada elemento. Los argumentos de la función son:
+* **function:** Se utiliza para reemplazar cada elemento. Los argumentos de la función son:
 
-   **** element: Elemento HTML que se está actualizando.
-   **** count: Recuento de contenido para este elemento.
+   **element:** Elemento HTML que se está actualizando.
+   **count:** Recuento de contenido para este elemento.
 
-* **** regex: Se utiliza para determinar qué parte del texto del elemento debe reemplazarse por el recuento.
+* **regex:** Se utiliza para determinar qué parte del texto del elemento debe reemplazarse por el recuento.
 
    **Ejemplo:**
 
