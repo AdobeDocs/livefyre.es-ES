@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Buscar contenido de Instagram
 uuid: 38a7185d-9936-4eaa-97e9-5b23b3566496
 translation-type: tm+mt
-source-git-commit: e60a58bf949e6e4f6f4f8d2fad1bd8985a593677
+source-git-commit: c2594f919f153d1230b3dc0370f31d64cb698146
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 0%
 
 ---
 
@@ -17,14 +20,14 @@ Utilice la búsqueda social para buscar contenido de Instagram para incluirlo en
 
 >[!NOTE]
 >
->Para poder realizar una búsqueda social en Instagram, debe agregar una cuenta comercial de Instagram a la **[!UICONTROL Social Accounts]** sección **[!UICONTROL Network Settings]** y autorizar a Livefyre a utilizar esa cuenta. Para obtener información sobre cómo configurar una cuenta comercial de Instagram en Adobe Livefyre Studio, consulte [](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+>Para poder realizar una búsqueda social en Instagram, debe agregar una cuenta comercial de Instagram a la **[!UICONTROL Social Accounts]** sección **[!UICONTROL Network Settings]** y autorizar a Livefyre a utilizar esa cuenta. Para obtener información sobre cómo configurar una cuenta de negocios de Instagram en Adobe Livefyre Studio, consulte [](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
-Puede guardar y reutilizar las búsquedas. Haga clic en la barra de búsqueda para ver una lista de las búsquedas recientes y guardadas.
+Puede guardar y reutilizar las búsquedas. Haga clic en la barra de búsqueda para ver una lista de las Búsquedas recientes y guardadas.
 
 Cuando agrega nuevos recursos a la biblioteca, los recursos que ya están incluidos en la biblioteca se marcan con una marca de verificación.
 
 1. Configure una cuenta comercial de Instagram.
-1. Vaya a **[!UICONTROL Library]** &gt; **[!UICONTROL Social Search]**.
+1. Vaya a **[!UICONTROL Library]** > **[!UICONTROL Social Search]**.
 1. Seleccione **[!UICONTROL Instagram]** para buscar contenido de Instagram.
 1. Introduzca los criterios de búsqueda y haga clic en **[!UICONTROL Show Filter]** para restringir la búsqueda.
 
@@ -38,5 +41,4 @@ Cuando agrega nuevos recursos a la biblioteca, los recursos que ya están inclui
 
    * **[!UICONTROL Recent Tags Search]**:: Busque las publicaciones más recientes con la etiqueta .
 
->Se muestran los elementos que coinciden con la búsqueda. Pase el cursor sobre un elemento para **[!UICONTROL View Details]** agregarlo a la biblioteca de recursos o **[!UICONTROL Publish]** a una aplicación.
-
+Se muestran los elementos que coinciden con la búsqueda. Pase el cursor sobre un elemento para **[!UICONTROL View Details]** agregarlo a la biblioteca de recursos o **[!UICONTROL Publish]** a una aplicación.
