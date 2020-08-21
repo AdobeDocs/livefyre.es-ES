@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Directrices de contenido de Instagram
 uuid: 4c5ba96b-a242-407f-aa36-3a4e431832b8
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: 6978f0f36b5698c9c599c1828edea67703423397
+workflow-type: tm+mt
+source-wordcount: '315'
+ht-degree: 0%
 
 ---
 
@@ -15,20 +18,20 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 Al depurar contenido de Instagram, debe seguir sus directrices y prácticas recomendadas.
 
-Debe configurar una cuenta *comercial de* Instagram para crear flujos de Instagram desde otra cuenta comercial de Instagram específica mediante el **[!UICONTROL By Author]** campo. La cuenta de usuario que identifique en el **[!UICONTROL By Author]** campo debe ser una cuenta comercial.
+Debe configurar una cuenta *empresarial de* Instagram para crear flujos de Instagram desde otra cuenta comercial de Instagram específica mediante el **[!UICONTROL By Author]** campo. La cuenta de usuario que identifique en el **[!UICONTROL By Author]** campo debe ser una cuenta comercial.
 
-Para obtener más información sobre cómo configurar una cuenta comercial de Instagram en Livefyre, consulte [Acerca de las cuentas](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)de Instagram.]
+Para obtener más información sobre cómo configurar una cuenta comercial de Instagram en Livefyre, consulte [Acerca de las cuentas](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)de Instagram.
 
 Instagram aplica las siguientes reglas para obtener contenido de su plataforma:
 
 * El contenido pertenece al usuario, que debe autorizar el uso del contenido
 * Busque hasta 30 etiquetas únicas por cuenta de negocios de Instagram cada 7 días.
 
-Livefyre recomienda seguir las siguientes pautas para maximizar la funcionalidad y eficacia de la búsqueda:
+Livefyre recomienda seguir las siguientes pautas para maximizar la funcionalidad y la eficacia de la búsqueda:
 
-* Promocione y seleccione hashtags exclusivos de su marca, de modo que los usuarios se unan "explícitamente" a la campaña.
-* Utilice una (1) etiqueta en lugar de varias para una campaña o promoción determinada, lo que le permite rastrear por un único filtro específico.
-* Utilice palabras específicas en lugar de genéricas en la búsqueda de hashtags. El uso de palabras genéricas puede generar resultados inesperados y puede incluir usuarios que no tenían intención de usar la foto en relación con la campaña.
+* Promocione y seleccione hashtags exclusivos de su marca, de modo que los usuarios se unan &quot;explícitamente&quot; a la campaña.
+* Utilice una (1) etiqueta en lugar de varias para una campaña o promoción determinada, lo que le permite rastrear mediante un único filtro específico.
+* Utilice palabras específicas en lugar de genéricas en la búsqueda de hashtags. El uso de palabras genéricas puede generar resultados inesperados y puede incluir usuarios que no pretendan que su foto se utilice en relación con su campaña.
 * Conecte varias cuentas comerciales para poder buscar etiquetas más únicas.
 * Evite utilizar cuentas comerciales en más de una red.
 * Asigne prioridad a los flujos activos y elimine los no utilizados para reducir el número de hashtags que utilice.
