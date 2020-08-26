@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Notas de la versión
 uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
-source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
+source-git-commit: efb031b58f01ec69c8297a808998d25a0015f102
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 7%
 
 ---
 
@@ -33,7 +36,7 @@ En la versión de producción de esta versión se lanzaron las siguientes nuevas
 
 Para obtener más información sobre cómo solicitar derechos para cuentas de Instagram, consulte [Enviar una solicitud de derechos de Instagram manualmente](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md) y [Enviar una solicitud](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)de derechos de Instagram parcialmente automatizada.
 
-* **Integración con Adobe Target.** Integración Añadida con Adobe Destinatario que permite compartir aplicaciones de Livefyre directamente en la biblioteca de Ofertas de Adobe Destinatario. Para obtener más información sobre el uso de Livefyre con Adobe Destinatario, consulte la documentación [de Destinatario](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html).
+* **Integración con Adobe Target.** Integración añadida con Adobe Target que permite compartir aplicaciones de Livefyre directamente en la biblioteca de Ofertas de Adobe Target. Para obtener más información sobre el uso de Livefyre con Adobe Target, consulte la documentación [de Destinatario](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html).
 
 ## Problemas {#section_ehw_ndt_wcb}
 
@@ -43,7 +46,7 @@ Los problemas de las tablas siguientes se resolvieron en esta versión.
 
 | Tipo de incidencia | Componente | Nota de la versión |
 |--- |--- |--- |
-| Problema | AppService: Identidad de Livefyre | Se corrigió un problema en el cual hacer clic en [! UICONTROL Restablecer como predeterminado] no restableció el logotipo en Modo de inicio de sesión en Estudio > Ajustes de integración > Identidad de Livefyre a la imagen predeterminada. |
+| Problema | AppService: Identidad de Livefyre | Se corrigió un problema en el cual al hacer clic en [!UICONTROL Reset to Default] no se restablecía el logotipo en Modo de inicio de sesión en Estudio > Ajustes de integración > Identidad de Livefyre a la imagen predeterminada. |
 | Problema | Biblioteca | Se corrigió un problema en el cual un vídeo cargado en la biblioteca y visualizado posteriormente con los detalles del recurso no se mostraba correctamente. |
 | Problema | Flujos | Se ha corregido un problema que impedía que los productos se mostraran en una regla de flujo. |
 | Problema | Flujos | Se corrigió un problema en el cual las etiquetas de producto no estaban disponibles para una regla de flujo. |
