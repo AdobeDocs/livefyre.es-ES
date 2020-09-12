@@ -1,9 +1,9 @@
 ---
 product: livefyre
 audience: end-user
-user-guide-title: Documentación de Livefyre
+user-guide-title: Guía de Livefyre
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: c8f274185f642c528ec684373c63b80cee8fab35
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 5%
@@ -11,7 +11,7 @@ ht-degree: 5%
 ---
 
 
-# Documentación de Livefyre {#using}
+# Guía de Livefyre {#using}
 
 + [Ayuda de Livefyre](home.md)
 + [Anuncios](c-anouncements.md)
@@ -32,7 +32,7 @@ ht-degree: 5%
    + Comentarios {#comments}
       + [Comentarios](c-about-apps/c-comments/c-comments.md)
       + [Características de comentarios](c-about-apps/c-comments/r-comments-features.md)
-      + [Personalizaciones de comentarios](c-about-apps/c-comments/r-comments-customizations.md)
+      + [Perfiles de comentarios](c-about-apps/c-comments/r-comments-customizations.md)
    + Tarjeta de función {#featurecard}
       + [Tarjeta de función](c-about-apps/c-feature-card-app/c-feature-card-app.md)
       + [Personalizaciones de tarjetas de características](c-about-apps/c-feature-card-app/r-feature-card-customizations.md)
@@ -85,7 +85,7 @@ ht-degree: 5%
       + [Utilizar flujos para Añadir contenido social en el artículo](c-about-apps/c-storify2/t-use-streams-to-add-social-content.md)
       + [Anclar un anuncio para Storify 2](c-about-apps/c-storify2/t-pin-posts-to-storify2.md)
       + Guía de navegación {#navigation-guide}
-         + [Guía de navegación](c-about-apps/c-storify2/c-navigation-guide.md)
+         + [Funciones de navegación](c-about-apps/c-storify2/c-navigation-guide.md)
          + [Añadir una guía de navegación a un Storify 2](c-about-apps/c-storify2/t-add-navigation-guide-to-storify2.md)
          + [Añadir un título a la Guía de navegación](c-about-apps/c-storify2/t-add-a-title-to-the-navigation-guide.md)
          + [Añadir publicaciones en la Guía de navegación](c-about-apps/c-storify2/t-add-posts-to-the-navigation-guide.md)
@@ -101,8 +101,8 @@ ht-degree: 5%
       + [Personalizaciones de botones de carga](c-about-apps/c-upload-button-app/r-upload-button-customizations.md)
       + [Cadenas de texto del botón de carga](c-about-apps/c-upload-button-app/c-upload-button-text-strings.md)
 + Funciones de la aplicación {#app-features}
-   + [Funciones de accesibilidad](c-features-livefyre/c-accessibility-features.md)
-   + [Funciones de autenticación](c-features-livefyre/c-authentication.md)
+   + [Personalidades de accesibilidad](c-features-livefyre/c-accessibility-features.md)
+   + [Se han añadido funciones de autenticación](c-features-livefyre/c-authentication.md)
    + [Botón Personalizar llamada a acción](c-features-livefyre/c-call-to-action-button.md)
    + Funciones de comportamiento del contenido {#content-behavior-features}
       + [Funciones de comportamiento del contenido](c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md)
@@ -125,7 +125,7 @@ ht-degree: 5%
       + [Incrustar HTML personalizado en los comentarios](c-features-livefyre/c-custom-html/t-embed-custom-html.md)
       + [Incrustar encuestas en comentarios](c-features-livefyre/c-custom-html/t-embed-polls-in-comments.md)
       + [Vista de comentarios HTML personalizados en Studio](c-features-livefyre/c-custom-html/t-view-custom-html-comments-in-studio.md)
-   + [Funciones de participación](c-features-livefyre/c-enagement-features.md)
+   + [Funciones de compromiso](c-features-livefyre/c-enagement-features.md)
    + [Recuento de escucha](c-features-livefyre/c-listener-count.md)
    + [Características diversas](c-features-livefyre/c-miscellaneous-features.md)
    + Moderación y filtrado {#moderation-filtering}
@@ -135,7 +135,7 @@ ht-degree: 5%
       + [Uso del filtro de obscenidad](c-features-livefyre/c-about-moderation/c-profanity-filter.md)
       + [Moderar usuarios](c-features-livefyre/c-about-moderation/t-moderate-users-modq.md)
       + [Moderar contenido con ModQ](c-features-livefyre/c-about-moderation/c-modq.md)
-      + [Volver a Añadir un elemento con seguimiento en una aplicación](c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md)
+      + [Volver a añadir un elemento con seguimiento en una aplicación](c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md)
       + [Métodos abreviados de teclado de ModQ](c-features-livefyre/c-about-moderation/r-modq-keyboard-shortcuts.md)
       + [Moderar contenido desde un flujo](c-features-livefyre/c-about-moderation/c-moderate-inline.md)
       + [Moderar contenido mediante el contenido de la aplicación](c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md)
@@ -148,7 +148,7 @@ ht-degree: 5%
    + [Seguimiento de referencia](c-features-livefyre/c-referral-tracking.md)
    + Etiquetas inteligentes {#smart-tags}
       + [Etiquetas inteligentes](c-features-livefyre/c-smart-tags/c-smart-tags.md)
-      + [Etiquetas inteligentes de Vista](c-features-livefyre/c-smart-tags/c-view-smart-tags.md)
+      + [Etiquetas inteligentes de vista](c-features-livefyre/c-smart-tags/c-view-smart-tags.md)
    + Uso compartido en medios sociales {#social-sharing}
       + [Uso compartido en medios sociales](c-features-livefyre/c-social-sharing/c-social-sharing.md)
       + [Configuración del uso compartido en redes sociales](c-features-livefyre/c-social-sharing/c-setting-up-social-sharing.md)
@@ -174,7 +174,7 @@ ht-degree: 5%
       + [Assets](c-library/c-assets/c-assets.md)
       + [Crear carpetas de recursos](c-library/c-assets/t-create-folders.md)
       + [Administrar carpetas de recursos](c-library/c-assets/t-manage-folders.md)
-      + [Detalles del recurso de Vista](c-library/c-assets/t-manage-assets.md)
+      + [Detalles del recurso de vista](c-library/c-assets/t-manage-assets.md)
       + [Publicar recursos en aplicaciones](c-library/c-assets/t-publish-assets-to-apps.md)
       + [Buscar recursos guardados en la biblioteca](c-library/c-assets/t-search-for-assets.md)
       + [Cargar fotos](c-features-livefyre/c-content-behavior-features/t-upload-photos.md)
@@ -182,21 +182,21 @@ ht-degree: 5%
    + [Buscar contenido de YouTube](c-library/t-search-for-youtube-content.md)
    + [Buscar contenido de Twitter](c-streams/c-youtube-rules/t-search-for-twitter-content.md)
    + [Buscar contenido de Instagram](c-library/t-search-for-content.md)
-   + [Detalles del contenido de Vista](c-library/c-view-content-details.md)
+   + [Detalles del contenido de vista](c-library/c-view-content-details.md)
    + [Guardar contenido en la biblioteca de recursos](c-library/t-save-content-to-asset-library.md)
    + [Asociación de productos con contenido mediante la biblioteca](c-library/t-associate-products-with-content-using-the-library.md)
    + [Publicar contenido](c-library/t-publish-content.md)
    + [Ficha Contenido de la aplicación](c-library/c-app-content.md)
    + [Uso de Adobe Experience Manager Livefyre con Hootsuite](c-library/c-hootsuite-livefyre.md)
    + [Uso de Adobe Experience Manager Livefyre con Adobe Target](c-library/livefyre-target.md)
-   + [Uso de Adobe Launch Livefyre Extension](c-library/launch-extension.md)
+   + [Usar Adobe Launch Livefyre Extension](c-library/launch-extension.md)
 + Flujos {#streams}
    + [Flujos](c-streams/c-streams.md)
    + [Crear un nuevo flujo](c-streams/t-create-a-new-stream.md)
    + [Añadir reglas para el flujo](c-streams/t-add-rules-for-your-stream.md)
    + [Opciones de regla de flujo para todas las reglas de flujo](c-streams/c-stream-rule-options-for-all-stream-rules.md)
    + [Reglas de página de Facebook](c-streams/c-facebook-page-rules.md)
-   + [Reglas de correo electrónico](c-streams/c-email-rules.md)
+   + [reglas de correo electrónico](c-streams/c-email-rules.md)
    + [Reglas de Instagram](c-streams/c-instagram-rules.md)
    + [Directrices de contenido de Instagram](c-streams/c-instagram-content-guidelines.md)
    + [Límite de la tasa de Instagram](c-streams/c-instagram-rate-limiting.md)
@@ -212,7 +212,7 @@ ht-degree: 5%
    + [Enviar una solicitud de derechos de Twitter](c-how-requesting-rights-works/t-send-a-rights-request-to-own-a-digital-asset.md)
    + [Envío de una solicitud de derechos de Instagram parcialmente automatizada](c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)
    + [Enviar la solicitud de derechos de Instagram manualmente](c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md)
-   + [Historial de Actividades de derechos de Vista](c-how-requesting-rights-works/c-view-rights-activity-history.md)
+   + [Historial de Actividades de derechos de vista](c-how-requesting-rights-works/c-view-rights-activity-history.md)
    + [Administrar contenido con solicitudes de derechos pendientes desde la biblioteca de recursos](c-how-requesting-rights-works/t-manage-content-with-pending-rights-request.md)
    + [Conceder o revocar manualmente derechos de un recurso de la biblioteca de recursos](c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md)
 + Usuarios: Administración de usuarios de la red de estudio y Livefyre {#users-managing}
@@ -220,7 +220,7 @@ ht-degree: 5%
    + [Buscar usuarios](c-users/t-search-for-users.md)
    + [Visualización de los detalles de la cuenta](c-users/c-viewing-account-details.md)
    + [Prohibir un usuario](c-users/t-ban-a-user.md)
-   + [Permitir la lista de un usuario](c-users/allow-list-a-user.md)
+   + [Permitir-incluir un usuario en la lista](c-users/allow-list-a-user.md)
    + [Vincular cuentas de usuario](c-users/t-link-user-accounts.md)
    + [Usuarios que cambian de red](c-users/c-users-switching-networks.md)
    + [Sincronización del usuario](c-users/t-set-up-user-sync.md)
