@@ -2,8 +2,9 @@
 product: livefyre
 audience: end-user
 user-guide-title: Guía de Livefyre
+user-guide-description: Use Livefyre Studio to create apps, gather user-generated content, and moderate content.
 translation-type: tm+mt
-source-git-commit: c8f274185f642c528ec684373c63b80cee8fab35
+source-git-commit: 9b568a6bbe638fae816c6992e33180f9349157f1
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 5%
@@ -32,7 +33,7 @@ ht-degree: 5%
    + Comentarios {#comments}
       + [Comentarios](c-about-apps/c-comments/c-comments.md)
       + [Características de comentarios](c-about-apps/c-comments/r-comments-features.md)
-      + [Perfiles de comentarios](c-about-apps/c-comments/r-comments-customizations.md)
+      + [Personalizaciones de comentarios](c-about-apps/c-comments/r-comments-customizations.md)
    + Tarjeta de función {#featurecard}
       + [Tarjeta de función](c-about-apps/c-feature-card-app/c-feature-card-app.md)
       + [Personalizaciones de tarjetas de características](c-about-apps/c-feature-card-app/r-feature-card-customizations.md)
@@ -85,7 +86,7 @@ ht-degree: 5%
       + [Utilizar flujos para Añadir contenido social en el artículo](c-about-apps/c-storify2/t-use-streams-to-add-social-content.md)
       + [Anclar un anuncio para Storify 2](c-about-apps/c-storify2/t-pin-posts-to-storify2.md)
       + Guía de navegación {#navigation-guide}
-         + [Funciones de navegación](c-about-apps/c-storify2/c-navigation-guide.md)
+         + [Guía de navegación](c-about-apps/c-storify2/c-navigation-guide.md)
          + [Añadir una guía de navegación a un Storify 2](c-about-apps/c-storify2/t-add-navigation-guide-to-storify2.md)
          + [Añadir un título a la Guía de navegación](c-about-apps/c-storify2/t-add-a-title-to-the-navigation-guide.md)
          + [Añadir publicaciones en la Guía de navegación](c-about-apps/c-storify2/t-add-posts-to-the-navigation-guide.md)
@@ -101,8 +102,8 @@ ht-degree: 5%
       + [Personalizaciones de botones de carga](c-about-apps/c-upload-button-app/r-upload-button-customizations.md)
       + [Cadenas de texto del botón de carga](c-about-apps/c-upload-button-app/c-upload-button-text-strings.md)
 + Funciones de la aplicación {#app-features}
-   + [Personalidades de accesibilidad](c-features-livefyre/c-accessibility-features.md)
-   + [Se han añadido funciones de autenticación](c-features-livefyre/c-authentication.md)
+   + [Funciones de accesibilidad](c-features-livefyre/c-accessibility-features.md)
+   + [Funciones de autenticación](c-features-livefyre/c-authentication.md)
    + [Botón Personalizar llamada a acción](c-features-livefyre/c-call-to-action-button.md)
    + Funciones de comportamiento del contenido {#content-behavior-features}
       + [Funciones de comportamiento del contenido](c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md)
@@ -215,8 +216,8 @@ ht-degree: 5%
    + [Historial de Actividades de derechos de vista](c-how-requesting-rights-works/c-view-rights-activity-history.md)
    + [Administrar contenido con solicitudes de derechos pendientes desde la biblioteca de recursos](c-how-requesting-rights-works/t-manage-content-with-pending-rights-request.md)
    + [Conceder o revocar manualmente derechos de un recurso de la biblioteca de recursos](c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md)
-+ Usuarios: Administración de usuarios de la red de estudio y Livefyre {#users-managing}
-   + [Usuarios: Administración de usuarios de la red de estudio y Livefyre](c-users/c-users.md)
++ ttes: Administración de usuarios de la red de estudio y Livefyre {#users-managing}
+   + [ttes: Administración de usuarios de la red de estudio y Livefyre](c-users/c-users.md)
    + [Buscar usuarios](c-users/t-search-for-users.md)
    + [Visualización de los detalles de la cuenta](c-users/c-viewing-account-details.md)
    + [Prohibir un usuario](c-users/t-ban-a-user.md)
