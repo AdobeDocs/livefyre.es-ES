@@ -6,7 +6,10 @@ solution: Experience Manager
 title: Integrar Livefyre en un CMS
 uuid: 5a3e18e8-8568-45bb-9070-d0fa43dd819b
 translation-type: tm+mt
-source-git-commit: 40cd8c2c89c17134bfcda510527dd6fff41400b5
+source-git-commit: 2436c389cbe14c7d64dd8c0392a3e0f031468836
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 40cd8c2c89c17134bfcda510527dd6fff41400b5
 
 Cree aplicaciones de Livefyre desde cero para crear experiencias personalizadas y visualizaciones de datos.
 
-Puede crear una aplicación de Livefyre desde cero consumiendo datos sociales y de Livefyre mediante la API de Bootstrap y Stream.
+Puede crear una aplicación de Livefyre desde cero consumiendo datos sociales y de Livefyre mediante el Bootstrap y la API de flujo.
 
 Para las aplicaciones de Livefyre que requieren autenticación, consulte Integración de identidad para obtener información sobre plataformas de autenticación de terceros admitidas.
 
@@ -37,7 +40,7 @@ b. Integre las aplicaciones de Livefyre en sitios mediante la estructura de cód
 
 1. Realice la integración de autenticación.
 a. Cree tokens de autenticación de usuario para pasar y almacenar datos de usuario en Livefyre.
-b. Integrar plataformas de autenticación y usuarios de terceros. Para obtener una lista de las plataformas admitidas, consulte Integración [de identidad](/help/implementation/t-about-identity-integration/t-about-identity-integration.md).
+b. Integrar plataformas de autenticación y usuarios de terceros. Para obtener una lista de las plataformas admitidas, consulte Integración [de identidades](/help/implementation/t-about-identity-integration/t-about-identity-integration.md).
 
 1. Realizar personalizaciones de la aplicación. Opciones de personalización de la aplicación para coincidir con la marca y el estilo y agregar funcionalidad personalizada.
 
@@ -55,9 +58,10 @@ b. Integre las aplicaciones de Livefyre en sitios mediante la estructura de cód
 
 1. Realice la integración de autenticación.
 a. Cree tokens de autenticación de usuario para pasar y almacenar datos de usuario en Livefyre.
-b. Integrar plataformas de autenticación y usuarios de terceros. Para obtener una lista de las plataformas admitidas, consulte Integración [de identidad](/help/implementation/t-about-identity-integration/t-about-identity-integration.md).
+b. Integrar plataformas de autenticación y usuarios de terceros. Para obtener una lista de las plataformas admitidas, consulte Integración [de identidades](/help/implementation/t-about-identity-integration/t-about-identity-integration.md).
 
 >[!NOTE]
 >
 >Livefyre no es compatible con Carrusel, Tira de película, Storify, Tarjeta de función, Mosaico y Aplicaciones de encuestas mediante Livefyre.js.
+
 Integre estas aplicaciones mediante el proceso [Crear una aplicación](/help/using/c-about-apps/c-create-an-app.md) .
