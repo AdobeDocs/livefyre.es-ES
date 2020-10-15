@@ -2,12 +2,12 @@
 product: livefyre
 audience: end-user
 user-guide-title: Guía de Livefyre
-user-guide-description: Use Livefyre Studio to create apps, gather user-generated content, and moderate content.
+user-guide-description: Utilice Livefyre Studio para crear aplicaciones, recopilar contenido generado por el usuario y moderar contenido.
 translation-type: tm+mt
 source-git-commit: 9b568a6bbe638fae816c6992e33180f9349157f1
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 5%
+source-wordcount: '855'
+ht-degree: 7%
 
 ---
 
@@ -216,8 +216,8 @@ ht-degree: 5%
    + [Historial de Actividades de derechos de vista](c-how-requesting-rights-works/c-view-rights-activity-history.md)
    + [Administrar contenido con solicitudes de derechos pendientes desde la biblioteca de recursos](c-how-requesting-rights-works/t-manage-content-with-pending-rights-request.md)
    + [Conceder o revocar manualmente derechos de un recurso de la biblioteca de recursos](c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md)
-+ ttes: Administración de usuarios de la red de estudio y Livefyre {#users-managing}
-   + [ttes: Administración de usuarios de la red de estudio y Livefyre](c-users/c-users.md)
++ Usuarios: Administración de usuarios de la red de estudio y Livefyre {#users-managing}
+   + [Usuarios: Administración de usuarios de la red de estudio y Livefyre](c-users/c-users.md)
    + [Buscar usuarios](c-users/t-search-for-users.md)
    + [Visualización de los detalles de la cuenta](c-users/c-viewing-account-details.md)
    + [Prohibir un usuario](c-users/t-ban-a-user.md)
