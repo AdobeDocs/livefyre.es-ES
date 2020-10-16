@@ -6,14 +6,17 @@ solution: Experience Manager
 title: Eventos de análisis de Livefyre
 uuid: 4eb5a196-ca33-40f8-a96d-ed46469223de
 translation-type: tm+mt
-source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
+source-git-commit: 5dc11c42a9f8bf3fa088f3245e21b6942d4865fe
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 4%
 
 ---
 
 
-# Eventos de análisis de Livefyre {#livefyre-analytics-events}
+# Eventos de análisis de Livefyre
 
-## Definición de objeto de Evento {#section_dh1_yhn_pdb}
+## Definición de objeto de evento {#section_dh1_yhn_pdb}
 
 El código siguiente define los campos del objeto evento que recibe el controlador de análisis en una página.
 
