@@ -7,11 +7,14 @@ title: buildUserAuthToken (método de red)
 uuid: 8828d356-c3c6-46a6-91bf-83bd59e35050
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 6%
 
 ---
 
 
-# buildUserAuthToken (método de red){#builduserauthtoken-network-method}
+# buildUserAuthToken Network (método){#builduserauthtoken-network-method}
 
 Devuelve un token autenticado de usuario cifrado para la red desde la que se llama.
 
