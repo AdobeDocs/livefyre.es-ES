@@ -7,6 +7,9 @@ title: Personalizaciones de mapas
 uuid: 3a3bffde-5d1b-41da-9aa8-d25b43d0df76
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ Las siguientes opciones están disponibles en la aplicación de mapa:
 
 * **[!UICONTROL Enable content modal]**
 
-   Permite a los usuarios hacer clic en un contenido para abrirlo en una ventana emergente.
+   Permite a los usuarios hacer clic en un fragmento de contenido para abrirlo en una ventana emergente.
 
 * **[!UICONTROL Enable clustering]**
 
@@ -45,15 +48,15 @@ Las siguientes opciones están disponibles en la aplicación de mapa:
 
    >[!NOTE]
    >
-   >Si los desarrolladores web han definido un **[!UICONTROL height]** para el mapa en la página, estos valores se anularán y el mapa seguirá las convenciones de tamaño de diseño adaptables. Si no han definido una altura, se utilizarán estos valores y el mapa se colocará en un tamaño definido (diseño no interactivo). Si estos campos se dejan en blanco, el valor predeterminado será de 600 px de ancho por 400 px de alto y el mapa no responderá.
+   >Si los desarrolladores web han definido un **[!UICONTROL height]** para el mapa en la página, estos valores se anularán y el mapa seguirá las convenciones de tamaño de diseño adaptables. Si no han definido una altura, se utilizarán estos valores y el mapa se colocará en un tamaño definido (diseño no adaptable). Si estos campos se dejan en blanco, el valor predeterminado será de 600 px de ancho por 400 px de alto y el mapa no responderá.
 
 * **[!UICONTROL Location]**
 
-   Introduzca la ubicación en la que desea centrar el mapa. Utilice el control deslizante situado debajo del mapa de vista previa para definir el zoom.
+   Introduzca la ubicación en la que desea centrar el mapa. Utilice el control deslizante situado debajo del mapa de previsualización para definir el zoom.
 
 Puede personalizar la aplicación de mapa mediante:
 
-* **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de la **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de la **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** y  **[!UICONTROL Config]** opciones para todas las aplicaciones de la  **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones en **[!UICONTROL App Designer]**.
 
 * Herramientas de integración. Consulte Asignación para obtener más información sobre cómo personalizar aplicaciones mediante las herramientas de integración.
 
