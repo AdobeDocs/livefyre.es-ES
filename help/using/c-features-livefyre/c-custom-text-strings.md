@@ -7,15 +7,18 @@ title: Traducción y cadenas de texto personalizadas
 uuid: 3c79b8ea-37a0-465d-8fb0-30e13e0cd7f7
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 10%
 
 ---
 
 
-# Traducción y cadenas de texto personalizadas{#translation-and-custom-text-strings}
+# Cadenas de traducción y texto personalizado{#translation-and-custom-text-strings}
 
 Personalice las cadenas de texto de la aplicación para la internacionalización o la marca.
 
-Para mejorar la experiencia de su comunidad, puede personalizar la cadena de texto para cualquier etiqueta de texto que coincida con el idioma o la marca del sitio. Por ejemplo, puede cambiar "Me gusta" por "Recomendar", o "Eliminar" por "Recomendar".
+Para mejorar la experiencia de su comunidad, puede personalizar la cadena de texto para cualquier etiqueta de texto que coincida con el idioma o la marca del sitio. Por ejemplo, puede cambiar &quot;Me gusta&quot; por &quot;Recomendar&quot;, o &quot;Eliminar&quot; por &quot;Recomendar&quot;.
 
 Para obtener más información, consulte [](../c-settings-other/c-translation-sets/c-translation-sets.md#c_translation_sets).
 
