@@ -1,22 +1,25 @@
 ---
-description: Descubra cómo usar Experience Manager Livefyre con Hootsuite, permitiéndole depurar, administrar y compartir contenido generado por el usuario directamente desde el panel Hootsuite.
-seo-description: Descubra cómo usar Experience Manager Livefyre con Hootsuite, permitiéndole depurar, administrar y compartir contenido generado por el usuario directamente desde el panel Hootsuite.
+description: Aprenda a utilizar Experience Manager Livefyre con Hootsuite, permitiéndole depurar, administrar y compartir contenido generado por el usuario directamente desde el panel Hootsuite.
+seo-description: Aprenda a utilizar Experience Manager Livefyre con Hootsuite, permitiéndole depurar, administrar y compartir contenido generado por el usuario directamente desde el panel Hootsuite.
 seo-title: Uso de Adobe Experience Manager Livefyre con Hootsuite
 title: Uso de Adobe Experience Manager Livefyre con Hootsuite
 uuid: ebf2ba17-1622-4bbe-a374-fb325357ef9f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '678'
+ht-degree: 1%
 
 ---
 
 
-# Uso de Adobe Experience Manager Livefyre con Hootsuite{#use-adobe-experience-manager-livefyre-with-hootsuite}
+# Usar Adobe Experience Manager Livefyre con Hootsuite{#use-adobe-experience-manager-livefyre-with-hootsuite}
 
-Descubra cómo usar Experience Manager Livefyre con Hootsuite, permitiéndole depurar, administrar y compartir contenido generado por el usuario directamente desde el panel Hootsuite.
+Aprenda a utilizar Experience Manager Livefyre con Hootsuite, permitiéndole depurar, administrar y compartir contenido generado por el usuario directamente desde el panel Hootsuite.
 
-## Uso de Adobe Experience Manager Livefyre con Hootsuite {#topic_FB6E613DBCF74F39ABD5045C501EA326}
+## Usar Adobe Experience Manager Livefyre con Hootsuite {#topic_FB6E613DBCF74F39ABD5045C501EA326}
 
-Descubra cómo usar Experience Manager Livefyre con Hootsuite, permitiéndole depurar, administrar y compartir contenido generado por el usuario directamente desde el panel Hootsuite.
+Aprenda a utilizar Experience Manager Livefyre con Hootsuite, permitiéndole depurar, administrar y compartir contenido generado por el usuario directamente desde el panel Hootsuite.
 
 ## Introducción {#task_22699BD901C24384AB2DC02D926D8F4A}
 
@@ -28,18 +31,18 @@ Contexto de tarea
 
    ![](assets/hootsuite-login.png)
 
-1. Inicie sesión en Experience Manager Livefyre con sus credenciales de Livefyre.
-1. Haga clic en **Autorizar** para otorgar permiso a Hootsuite para acceder a sus bibliotecas.
+1. Inicie sesión en el Experience Manager Livefyre con sus credenciales de Livefyre.
+1. Haga clic en **Autorizar** para otorgar a Hootsuite permiso para acceder a sus bibliotecas.
 
    ![](assets/hootsuite-authorize.png)
 
-   Una vez que haya concedido el permiso, volverá al tablero Hootsuite, donde podrá buscar recursos en sus bibliotecas de Livefyre de Experience Manager.
+   Una vez que haya concedido el permiso, volverá al panel Hootsuite, donde podrá buscar recursos en sus bibliotecas de Experience Manager Livefyre.
 
 ## Buscar recursos {#task_0B011B0C539E400BB72A6DF69FBF66C0}
 
 Contexto de tarea
 
-1. Haga clic en el icono de búsqueda de la barra de menús para buscar recursos en las bibliotecas de Livefyre de Experience Manager.
+1. Haga clic en el icono de búsqueda de la barra de menús para buscar recursos en las bibliotecas de Experience Manager Livefyre.
 
    ![](assets/hootsuite-search.png)
 
@@ -58,8 +61,8 @@ Las opciones de filtrado incluyen:
 
 | Sección | Descripción |
 |--- |--- |
-| Mostrar recursos de | Seleccione esta opción para ver los recursos de Todas las fuentes o de una fuente individual. Por ejemplo: Instagram, Twitter, Facebook, etc. |
-| Derechos | Seleccione esta opción para ver solo los recursos que tengan una configuración de derechos específica. |
+| Mostrar recursos de | Seleccione esta opción para la vista de recursos desde Todas las fuentes o desde un origen individual. Por ejemplo: Instagram, Twitter, Facebook, etc. |
+| Derechos | Seleccione para la vista solo los recursos que tengan una configuración de derechos específica. |
 | Palabras clave | Seleccione esta opción para filtrar los resultados por Palabras clave o Etiquetas. Al filtrar por palabras clave se buscará el contenido de texto de una publicación, así como el nombre para mostrar del autor y el nombre de usuario del autor. |
 | Etiquetas | Seleccione esta opción para filtrar los resultados por Palabras clave o Etiquetas. Al filtrar por palabras clave se buscará el contenido de texto de una publicación, así como el nombre para mostrar del autor y el nombre de usuario del autor. |
 
@@ -87,11 +90,11 @@ Haga clic en Configuración ![](assets/settings.png)
 
 le permitirá desconectar la cuenta actual de Experience Manager Livefyre y conectarse con otra.
 
-Hacer clic en el menú ![](assets/menu.png)
+Haga clic en el menú ![](assets/menu.png)
 
-mostrará los vínculos para este documento, soporte técnico y sitio web de Synaptive.
+mostrará los vínculos para este documento, soporte y sitio web de Synaptive.
 
-## Complemento de aplicaciones de Livefyre de Experience Manager {#task_33C8CEF4F5E44830B970BB3A7AAA2AA6}
+## Experience Manager Livefyre App Plugin {#task_33C8CEF4F5E44830B970BB3A7AAA2AA6}
 
 Además de poder mostrar las bibliotecas de recursos en un flujo de Hootsuite, también puede guardar elementos de los flujos de Instagram, Twitter, Facebook y YouTube en las bibliotecas de Experience Manager Livefyre.
 
@@ -106,11 +109,11 @@ Además de poder mostrar las bibliotecas de recursos en un flujo de Hootsuite, t
 
 1. Haga clic en **Guardar en la biblioteca** y el elemento se guardará en las bibliotecas seleccionadas.
 
-## Componente de la biblioteca de medios de Livefyre de Experience Manager {#task_9CA2D5D49F8E463F9EF475BC09C8ACC9}
+## Componente de biblioteca de medios de Livefyre de Experience Manager {#task_9CA2D5D49F8E463F9EF475BC09C8ACC9}
 
 Puede acceder a los recursos a través de los componentes multimedia del Compositor de Hootsuite.
 
-1. En el Compositor, haga clic en el vínculo **Abrir biblioteca** de medios en la sección **Medios** .
+1. En el Compositor, haga clic en el vínculo **Abrir biblioteca de medios** en la sección **medios**.
 
    ![](assets/hootsuite-open-media-library.png)
 
@@ -118,4 +121,4 @@ Puede acceder a los recursos a través de los componentes multimedia del Composi
 
    ![](assets/hootsuite-aem-files.png)
 
-1. Para agregar un recurso al anuncio actual que está escribiendo, haga clic en él. Para buscar un recurso específico, ingrese los términos de búsqueda en el cuadro **Buscar medios** y se mostrarán los resultados.
+1. Para agregar un recurso al anuncio actual que está escribiendo, haga clic en él. Para buscar un recurso específico, introduzca los términos de búsqueda en el cuadro **Buscar medios** y se mostrarán los resultados.
