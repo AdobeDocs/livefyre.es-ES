@@ -1,21 +1,24 @@
 ---
 description: Storify le permite añadir contenido en cualquier posición del artículo.
 seo-description: Storify le permite añadir contenido en cualquier posición del artículo.
-seo-title: Agregar texto
+seo-title: Añadir texto
 solution: Experience Manager
-title: Agregar texto
+title: Añadir texto
 uuid: 01dba567-daf9-4cfa-9671-b85f3d132ddc
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
 
 
-# Agregar texto{#add-text}
+# Añadir texto{#add-text}
 
 Storify le permite añadir contenido en cualquier posición del artículo.
 
-Utilice el panel Contenido del Editor para ver los borradores y buscar contenido para agregar contexto al artículo. Utilice la ficha Editor para crear una línea de historia, agregar contexto a los elementos del artículo y crear una narrativa para la página.
+Utilice el panel de contenido del editor para vista de los borradores y buscar contenido para añadir contexto a su artículo. Utilice la ficha Editor para crear una línea de historia, agregar contexto a los elementos del artículo y crear una narrativa para la página.
 
 Los elementos de contenido se pueden editar o cambiar de posición. El texto se puede diseñar con opciones de formato estándar, como negrita, cursiva, subrayado y tachado.
 
