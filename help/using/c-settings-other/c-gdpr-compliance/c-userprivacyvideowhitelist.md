@@ -1,6 +1,6 @@
 ---
-description: Puede permitir la lista del dominio de vídeo.
-seo-description: Puede permitir la lista del dominio de vídeo.
+description: Puede permitir y enumerar el dominio de vídeo.
+seo-description: Puede permitir y enumerar el dominio de vídeo.
 seo-title: userPrivacyVideoWhitelist
 solution: Experience Manager
 title: userPrivacyVideoWhitelist
@@ -16,16 +16,16 @@ ht-degree: 0%
 
 # userPrivacyVideoWhitelist{#userprivacyvideowhitelist}
 
-Si utiliza sus propios vídeos y reproductores personalizados como parte de los vídeos que se muestran en una aplicación de visualización de Livefyre, puede permitir la lista del dominio de vídeo. Al permitir que se muestre el dominio de vídeo, se elimina la máscara de vídeo de los vídeos y reproductores personalizados.
+Si utiliza sus propios vídeos y reproductores personalizados como parte de los vídeos que se muestran en una aplicación de visualización de Livefyre, puede permitir la lista de su dominio de vídeo. Al permitir que se muestre el dominio de vídeo, se elimina la máscara de vídeo de los vídeos y reproductores personalizados.
 
 >[!NOTE]
 >
->Utilice rutas específicas para asegurarse de que solo los vídeos seguros están permitidos. Si pone una ruta amplia (por ejemplo, samprometomain.com), puede permitir la lista de videos no seguros.
+>Utilice rutas específicas para asegurarse de que solo los vídeos seguros están permitidos. Si pone una ruta amplia (por ejemplo, samprometomain.com), puede permitir que se incluyan los vídeos no seguros.
 
-* Añadir `userPrivacyVideoWhitelist` después `userPrivacyOptOut`. Puede agregar todos los indicadores de privacidad de Livefyre a la vez como parte de un objeto de Livefyre.
+* Añada `userPrivacyVideoWhitelist` después de `userPrivacyOptOut`. Puede agregar todos los indicadores de privacidad de Livefyre a la vez como parte de un objeto de Livefyre.
 * `userPrivacyVideoWhitelist` solo se aplica al contenido que no está incrustado en los medios sociales.
 
-En el siguiente ejemplo, se permiten los vídeos que se muestran en Aplicaciones con la `sampledomain.com/cdn/videos` ruta:
+En el siguiente ejemplo, se permiten los vídeos que se muestran en Aplicaciones con la ruta `sampledomain.com/cdn/videos`:
 
 ```
 userPrivacyVideoWhitelist: ["sampledomain.com/cdn/videos"]
