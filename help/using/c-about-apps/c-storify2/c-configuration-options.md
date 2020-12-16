@@ -7,6 +7,9 @@ title: Opciones de configuración
 uuid: 4a7f03b3-6d97-46e9-8832-81e665f06d3a
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 0%
 
 ---
 
@@ -19,11 +22,11 @@ Elija las opciones de configuración Estilo, Visualización y Participación del
 
 * **[!UICONTROL Theme]**
 
-   Seleccione **Claro** u **Oscuro** para definir el color de fondo del contenido mostrado. Los cambios realizados en esta configuración se reflejarán inmediatamente en la vista previa a la derecha. Esta configuración controla el fondo, el texto del contenido, el control del usuario, la marca de tiempo, el botón de uso compartido y la selección de color del icono social para la aplicación.
+   Seleccione **Claro** o **Oscuro** para definir el color de fondo del contenido mostrado. Los cambios realizados en esta configuración se reflejarán inmediatamente en la previsualización a la derecha. Esta configuración controla el fondo, el texto del contenido, el control del usuario, la marca de tiempo, el botón de uso compartido y la selección de color del icono social para la aplicación.
 
 * **[!UICONTROL Brand color]**
 
-   Seleccione un color para la aplicación. Este color se utilizará para hashtags, direcciones URL, nombres de usuario, @mentions, gráficos de barras y otros componentes específicos de la aplicación, como se muestra en el panel de vista previa a la derecha.
+   Seleccione un color para la aplicación. Este color se utilizará para hashtags, direcciones URL, nombres de usuario, @mentions, gráficos de barras y otros componentes específicos de la aplicación, como se muestra en el panel de previsualización de la derecha.
 
 * **[!UICONTROL Font family]**
 
@@ -41,7 +44,7 @@ Elija las opciones de configuración Estilo, Visualización y Participación del
 
 * **[!UICONTROL Byline]**
 
-   Si está activado, puede seleccionar si desea enumerar el nombre del autor original o un nombre de equipo como la línea de texto del artículo.
+   Si está activado, puede seleccionar si desea lista del nombre del autor original o un nombre de equipo como la línea de texto del artículo.
 
    >[!NOTE]
    >
@@ -49,7 +52,7 @@ Elija las opciones de configuración Estilo, Visualización y Participación del
 
 * **[!UICONTROL Byline type]**
 
-   Si **[!UICONTROL Byline]** está activado, este menú desplegable le permite seleccionar el tipo de firma que se mostrará: por línea de equipo o por líneas individuales. Utilice el campo de abajo **[!UICONTROL Byline type]** para introducir el texto que desea mostrar como byline.
+   Si **[!UICONTROL Byline]** está habilitado, esta lista desplegable le permite seleccionar el tipo de firma que se mostrará: por línea de equipo o por líneas individuales. Utilice el campo siguiente **[!UICONTROL Byline type]** para introducir el texto que se mostrará como byline.
 
    >[!NOTE]
    >
@@ -67,7 +70,7 @@ Elija las opciones de configuración Estilo, Visualización y Participación del
 
 * **[!UICONTROL Users may share posts]**
 
-   Si está habilitado, los usuarios pueden compartir su historia en Twitter o Facebook. Para obtener más información sobre cómo habilitar el uso compartido, consulte Configuración &gt; Configuración de integración &gt; Compartir en redes sociales.
+   Si está habilitado, los usuarios pueden compartir su historia en Twitter o Facebook. Para obtener más información sobre cómo habilitar el uso compartido, consulte Configuración > Configuración de integración > Compartir en redes sociales.
 
 * **[!UICONTROL Users may add sidenotes]**
 
