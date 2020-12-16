@@ -6,6 +6,9 @@ title: Filtrar UGC por ID de producto
 uuid: 98108ddb-5710-4331-891b-7e1bbb106059
 translation-type: tm+mt
 source-git-commit: 76efa427b59a709009a3c2d3744ea65e0c959816
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 0%
 
 ---
 
@@ -16,23 +19,23 @@ El filtrado de UGC por ID de producto le permite incrustar exactamente la misma 
 
 Para filtrar UGC por ID de producto, siga estos pasos:
 
-1. En Livefyre Studio, vaya a la **[!UICONTROL Apps]** ficha.
+1. En Livefyre Studio, vaya a la ficha **[!UICONTROL Apps]**.
 
 1. Seleccione la aplicación que desee modificar.
 
 1. Seleccione la ficha Designer en el carril izquierdo.
 
-1. Enable **[!UICONTROL Filter UGC by Product ID]**.
+1. Activar **[!UICONTROL Filter UGC by Product ID]**.
 
 ![](assets/filter-ugc-product-id.png)
 
 1. Seleccione las carpetas de productos de nivel superior que contienen el producto o los productos por los que desea filtrar UGC.
 Utilice CTRL/Comando + clic para seleccionar varias carpetas.
 
-1. Disable **[!UICONTROL Show related content]**.
-Cuando está activado, el contenido filtrado mediante el `data-lf-attr-product` atributo se mostrará primero, seguido del resto del contenido de la aplicación.
+1. Deshabilitar **[!UICONTROL Show related content]**.
+Cuando se habilita, el contenido que se filtra con el atributo `data-lf-attr-product` se mostrará primero, seguido del resto del contenido de la aplicación.
 
-1. Haga clic en **[!UICONTROL Publish]**.
+1. Haga clic **[!UICONTROL Publish]**.
 
 1. Inserte los ID de producto que desee filtrar en el código resultante.
 
@@ -53,7 +56,7 @@ env="prod" data-lf-read-only="" data-lf-attr-product="<product
  {embed.el.onload(embed.getConfig());}});});</script>
 ```
 
-Para etiquetar un producto, reemplace `<product 1>` en el `data-lf-attr-product` atributo por el ID de producto deseado. Puede etiquetar un producto o más agregando ID de producto separados por comas adicionales. Los productos deben estar contenidos en la carpeta o carpetas de productos de nivel superior seleccionadas en el paso 5.
+Para etiquetar un producto, reemplace `<product 1>` en el atributo `data-lf-attr-product` por el ID de producto deseado. Puede etiquetar un producto o más agregando ID de producto separados por comas adicionales. Los productos deben estar contenidos en la carpeta o carpetas de productos de nivel superior seleccionadas en el paso 5.
 
 El segmento de código modificado aparecerá como:
 
