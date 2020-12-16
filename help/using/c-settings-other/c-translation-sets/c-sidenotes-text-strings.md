@@ -7,6 +7,9 @@ title: Identifica cadenas de texto
 uuid: a3735237-e55d-4bc0-b88d-8a323980ee09
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 12%
 
 ---
 
@@ -15,13 +18,20 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 Personalización de las cadenas de texto para Livefyre Sidenotes
 
-Esta página enumera y describe todas las cadenas disponibles para la personalización en las aplicaciones de Sidenotes. Para obtener información sobre las cadenas disponibles para las aplicaciones principales de Livefyre, consulte Personalizaciones de cadenas.
+Esta página lista y describe todas las cadenas disponibles para la personalización en las aplicaciones de Sidenotes. Para obtener información sobre las cadenas disponibles para las aplicaciones principales de Livefyre, consulte Personalizaciones de cadenas.
 
-ImplementationAuthStream InfoAuthor / Content InfoAcciones de usuario Funciones de anuncioInterfaz de moderadorErrores
+Implementación
+Auth
+Información de flujo
+Información de autor/contenido
+Acciones del usuario
+Funciones de anuncio
+Interfaz del moderador
+Errores
 
 ## Implementación {#section_wp2_ql4_xz}
 
-Para implementar esta función, pase una asignación de objetos 1-1 de las cadenas que desee reemplazar al objeto de configuración de Javascript. Si no proporciona un campo, se utilizará el texto predeterminado.
+Para implementar esta función, pase una asignación de objetos 1-1 de las cadenas que desee reemplazar al objeto de configuración de Javascript. Si no se proporciona un campo, se utilizará el texto predeterminado.
 
 Ejemplo:
 
@@ -75,8 +85,8 @@ Las cadenas están disponibles para la información de contenido individual y de
 |  | commentVoteCountSing | voto |
 |  | datetimeMinutePrefix | m |
 |  | datetimeMonths | Una matriz. Valor predeterminado =`[‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’]` |
-|  | questionExplanation | Ahora puede leer y escribir comentarios directamente sobre oraciones, párrafos, imágenes y comillas.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Resalte el texto</span> y haga clic en el <span class="&rdquo;fycon-write&rdquo;"></span> icono o haga clic en el <span class="&rdquo;fycon-action-view&rdquo;"></span> icono al final de cada párrafo. |
-|  | questionMockText | Lo que es "conocido familiar" no se conoce correctamente, sólo por la razón de que es "familiar". |
+|  | questionExplanation | Ahora puede leer y escribir comentarios directamente sobre oraciones, párrafos, imágenes y comillas.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Resalte </span> el texto y haga clic en el  <span class="&rdquo;fycon-write&rdquo;"></span> icono o en el  <span class="&rdquo;fycon-action-view&rdquo;"></span> icono al final de cada párrafo. |
+|  | questionMockText | Lo que es &quot;conocido familiar&quot; no se conoce correctamente, sólo por la razón de que es &quot;familiar&quot;. |
 |  | questionTitle | ¿Qué es un Sidenote? |
 
 ## Acciones del usuario {#section_qxd_fl4_xz}
@@ -95,7 +105,7 @@ Cadenas disponibles para acciones de usuario: marcar, compartir y indicar que gu
 |  | menuFlagOptionOffTopic | Desactivar tema |
 |  | menuFlagOptionSpam | Correo no deseado |
 |  | menuFlagTitle | Marcar como... |
-|  | facebookShareCaption | Identifica las notas en "{title}" |
+|  | facebookShareCaption | Identifica las notas en &quot;{title}&quot; |
 | Opciones de usuario móvil | sliderCommentTally | of |
 |  | sliderInviteRead | Leído |
 |  | sliderInviteWrite | Escritura |
