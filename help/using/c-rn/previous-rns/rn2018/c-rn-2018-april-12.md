@@ -7,11 +7,14 @@ title: 12 de abril de 2018
 uuid: f6c3f1f1-d716-4da3-9ba9-3f3623d8d9f5
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 5%
 
 ---
 
 
-# April 12, 2018{#april}
+# 12 de abril de 2018{#april}
 
 Notas de la versión de la versión del 12 de abril de 2018.
 
@@ -27,18 +30,18 @@ Los problemas de las tablas siguientes se resolvieron en esta versión.
 
 ### Versión de producción
 
-| Tipo de incidencia | Componente | Nota de versión |
+| Tipo de incidencia | Componente | Nota de la versión |
 |--- |--- |--- |
-| Mejora | Aplicaciones | Se ha mejorado la capacidad de desplazarse por el modo de vista previa en las aplicaciones de visualización con un teclado en Tira de película, Mosaico, Carrusel y Muro de medios. |
+| Mejora | Aplicaciones | Se ha mejorado la capacidad de desplazarse por el modo de previsualización en las aplicaciones de visualización con un teclado en tira de película, mosaico, carrusel y muro de medios. |
 | Error, | Aplicaciones, Studio | Se corrigió un problema en el cual los usuarios con permisos de administrador no podían eliminar aplicaciones. |
 | Mejora | Comentarios | Se corrigió un problema en el cual tres etiquetas de perfil apuntaban a un perfil de usuario, pero no se identificaban como que apuntaban al mismo perfil. |
 | Error, | Tarjeta de función | Se corrigió un problema en el cual la aplicación de tarjeta de características no se mostraba en el navegador Microsoft Edge. |
 | Error, | Tira de película | Se corrigió un problema en el cual las fuentes de tira de película mostraban un error. |
-| Error, | Tira de película | Se corrigió un problema en la tira de película en el que se podía hacer clic en el botón "Siguiente", aunque no hubiera más contenido para cargar. |
+| Error, | Tira de película | Se corrigió un problema en la tira de película en el que se podía hacer clic en el botón &quot;Siguiente&quot;, aunque no hubiera más contenido para cargar. |
 | Error, | Tira de película | Se corrigió un problema en el cual los tweets sin imágenes no se mostraban en la vista predeterminada de tira de película. |
 | Mejora | Tira de película | Se han corregido algunos problemas para que la tira de película sea más accesible. |
 | Mejora | Biblioteca, aplicaciones | Se corrigió un problema en el cual los vídeos de Instagram con más de tres meses de antigüedad no se representaban correctamente en la biblioteca y las aplicaciones. |
-| Mejora | Muro de los medios | Se ha mejorado la accesibilidad de Media Wall de las siguientes maneras: Al <br>abrir y cerrar los modales a través de los comandos de teclado ya no se desplazará el enfoque<br>de nuevo a la parte superior de la página. El enfoque permanece en el último elemento seleccionado antes de la ventana emergente modal.  <br>El botón Cargar más se puede activar con la tecla Intro del teclado. |
+| Mejora | Muro de los medios | Se ha mejorado la accesibilidad de Media Wall de las siguientes maneras: <br>La apertura y el cierre de los modales mediante comandos de teclado ya no desplazarán el enfoque<br>hacia la parte superior de la página. El enfoque permanece en el elemento seleccionado por última vez antes de la ventana emergente modal.  <br>El botón Cargar más se puede activar con la tecla Intro del teclado. |
 | Mejora | Muro de los medios | Se corrigió un problema en el cual al hacer clic en un icono de Twitter, Instagram o Facebook, se le llevaba a la página principal, pero se indicaba incorrectamente en los lectores de pantalla que el icono le llevaba al anuncio individual. Esto se ha corregido para identificar que el icono lo lleva a la página principal, no a la publicación. |
 | Error, | Mosaico | Se corrigió un problema en el cual una aplicación de mosaico no mostraba el color correcto desde App Designer. |
 | Error, | Rights Management | Se corrigió un problema en el cual las solicitudes de derechos no funcionaban para Recursos después de buscarlas en una búsqueda social. |
@@ -52,8 +55,8 @@ Los problemas de las tablas siguientes se resolvieron en esta versión.
 
 ### Versión de UAT
 
-| **Tipo de incidencia** | **Componente** | **Nota de versión** |
+| **Tipo de incidencia** | **Componente** | **Nota de la versión** |
 |---|---|---|
-| Mejora | UGC | Se corrigió un problema en el cual el indicador de comercio UGC se establecía en "desactivado" de forma predeterminada, en lugar de en "activado". |
+| Mejora | UGC | Se corrigió un problema en el cual el indicador de comercio UGC se establecía en &quot;desactivado&quot; de forma predeterminada, en lugar de en &quot;activado&quot;. |
 | Mejora | Flujos |  |
 
