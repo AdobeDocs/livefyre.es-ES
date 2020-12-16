@@ -7,11 +7,14 @@ title: 14 de junio de 2018
 uuid: f1bba3af-2020-4dfc-9938-05b1183c30ab
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 13%
 
 ---
 
 
-# June 14, 2018{#june}
+# 14 de junio de 2018{#june}
 
 Notas de la versión de la versión del 14 de junio de 2018.
 
@@ -43,7 +46,7 @@ Los problemas de las tablas siguientes se resolvieron en esta versión.
 
 ## Versión de producción
 
-| **Tipo de incidencia** | **Componente** | **Nota de versión** |
+| **Tipo de incidencia** | **Componente** | **Nota de la versión** |
 |---|---|---|
 | Error, | Biblioteca/Búsqueda | Se corrigió un problema en el cual los vídeos de Instagram no se mostraban correctamente en la búsqueda social o en el contenido de la aplicación. |
 | Error, | Etiquetas inteligentes | Se corrigió un problema en el cual las etiquetas inteligentes no se mostraban en el contenido recopilado de Instagram. |
