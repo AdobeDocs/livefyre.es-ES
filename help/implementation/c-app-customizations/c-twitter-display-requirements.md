@@ -7,6 +7,9 @@ title: Requisitos de visualización de Twitter
 uuid: 705c25b8-4a25-4640-9843-074f50ebae4f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Las redes de medios sociales a menudo requieren que su contenido se muestre para cumplir con los estándares de marca. Al utilizar la plataforma Livefyre para volver a presentar el contenido de Twitter, usted es responsable en todo momento de cumplir con sus condiciones de uso, incluidos sus requisitos de visualización. Asegúrese de leer y comprender sus términos y condiciones antes de mostrar su contenido en sus aplicaciones de Livefyre.
 
-Para obtener más información, consulte la documentación de requisitos [de visualización de](https://about.twitter.com/company/display-requirements) Twitter.
+Para obtener más información, consulte la documentación de [Requisitos de visualización de Twitter](https://about.twitter.com/company/display-requirements).
 
 Twitter exige los siguientes requisitos de presentación:
 
