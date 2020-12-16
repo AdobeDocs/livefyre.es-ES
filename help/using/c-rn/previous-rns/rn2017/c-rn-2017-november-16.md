@@ -7,17 +7,20 @@ title: 16 de noviembre de 2017
 uuid: e7d09640-d2c1-4d23-8fa6-ecc90d0b2daa
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '532'
+ht-degree: 8%
 
 ---
 
 
-# November 16, 2017{#november}
+# 16 de noviembre de 2017{#november}
 
 Notas de la versión de la versión del 16 de noviembre de 2017.
 
 ## Versión de producción
 
-| **Tipo de incidencia** | **Componente** | **Nota de versión** |
+| **Tipo de incidencia** | **Componente** | **Nota de la versión** |
 |---|---|---|
 | Error, | AEM, Biblioteca | Se ha corregido un error que no devolvía ningún resultado al utilizar la búsqueda de etiquetas y clasificación en la biblioteca. |
 | Error, | Aplicaciones | Se corrigió un problema en el cual la etiqueta de función no se mostraba en una aplicación de una sola tarjeta. |
@@ -31,19 +34,19 @@ Notas de la versión de la versión del 16 de noviembre de 2017.
 | Error, | Biblioteca | Se ha corregido un problema que hacía que la creación de carpetas fuera lenta. |
 | Error, | Biblioteca | Los usuarios ahora pueden publicar archivos .mov en colecciones. |
 | Error, | Biblioteca | Las imágenes con caracteres especiales en el título no se cargarían en la biblioteca, ya se ha corregido. |
-| Mejora | Biblioteca | Hemos actualizado nuestro algoritmo de clasificación de "relevancia" cuando un usuario busca etiquetas inteligentes, de modo que cuando un usuario activa la clasificación de "relevancia" en la búsqueda de biblioteca, se aplica el nuevo algoritmo de clasificación. Este nuevo algoritmo de clasificación tiene en cuenta las puntuaciones de precisión de etiquetas inteligentes, el número de estrellas asignadas por usuario y la edad del documento. El objetivo es que la experiencia de búsqueda de etiquetas sea más precisa para el usuario. |
-| Mejora | Biblioteca | Cuando un cliente guarda un recurso en la biblioteca, Livefyre emplea la tecnología de aprendizaje automático Adobe Sensei para añadir etiquetas que describan lo que se encuentra en la imagen del recurso automáticamente. Esto permite al usuario buscar esas etiquetas en el sistema. |
-| Mejora | Biblioteca | Cuando un cliente guarda un recurso basado en imágenes en la biblioteca, Livefyre lo etiquetará automáticamente mediante la tecnología Adobe AI, extrayendo funciones, categorías y propiedades estéticas del sistema. Esto permite al usuario buscar en la biblioteca por lo que hay dentro de las imágenes, no sólo por el texto. |
+| Mejora | Biblioteca | Hemos actualizado nuestro algoritmo de clasificación de &quot;relevancia&quot; cuando un usuario busca etiquetas inteligentes, de modo que cuando un usuario activa la clasificación de &quot;relevancia&quot; en la búsqueda de biblioteca, se aplica el nuevo algoritmo de clasificación. Este nuevo algoritmo de clasificación tiene en cuenta las puntuaciones de precisión de las etiquetas inteligentes, el número de estrellas asignadas por usuario y la edad del documento. El objetivo es que la experiencia de búsqueda de etiquetas sea más precisa para el usuario. |
+| Mejora | Biblioteca | Cuando un cliente guarda un recurso en la biblioteca, Livefyre emplea la tecnología de aprendizaje automático de Adobe Sensei para añadir etiquetas que describan lo que se encuentra en la imagen del recurso automáticamente. Esto permite al usuario buscar esas etiquetas en el sistema. |
+| Mejora | Biblioteca | Cuando un cliente guarda un recurso basado en imágenes en la biblioteca, Livefyre lo etiquetará automáticamente mediante la tecnología Adobe AI, la extracción de características, categorías y propiedades estéticas del sistema. Esto permite al usuario buscar en la biblioteca por lo que hay dentro de las imágenes, no sólo por el texto. |
 | Error, | Identidad de Livefyre | Los avatares no se cargaban correctamente para la implementación de Microsoft de la identidad LF, esto se ha corregido. |
-| Error, | ModQ | Se corrigió un problema en el cual la premoderación de flujos y ModQ no mostraban todo el contenido correctamente. |
-| Mejora | Configuración | Los clientes ahora pueden visitar nuestra política de privacidad y las condiciones de servicio de Adobe en un pie de página en Configuración. |
+| Error, | ModQ | Se corrigió un problema en el cual la premoderación de los flujos y ModQ no mostraban todo el contenido correctamente. |
+| Mejora | Configuración | Ahora los clientes pueden visitar las condiciones de servicio de nuestra política de privacidad y de nuestro Adobe en un pie de página de Configuración. |
 | Mejora | Flujos | Se ha corregido un error en la moderación previa de reglas de flujo basadas en correo electrónico. |
-| Mejora | Flujos | Se ha agregado la capacidad de filtrar el contenido del flujo por idioma. |
-| Mejora | Usuarios | Se ha agregado la capacidad de usar archivos .png para avatares del usuario. |
+| Mejora | Flujos | Se añadió la capacidad de filtrar el contenido del flujo por idioma. |
+| Mejora | Usuarios | Se añadió la capacidad de usar archivos .png para avatares de usuario. |
 
 ## Versión de UAT
 
-| **Tipo de incidencia** | **Componente** | **Nota de versión** |
+| **Tipo de incidencia** | **Componente** | **Nota de la versión** |
 |---|---|---|
 | Error, | Administrador de aplicaciones | Se ha corregido un problema con la búsqueda de etiquetas de aplicación en App Manager. |
 | Error, | Biblioteca | Se ha corregido un problema que impedía añadir estrellas para varios fragmentos de contenido a la vez en la biblioteca de recursos. |
