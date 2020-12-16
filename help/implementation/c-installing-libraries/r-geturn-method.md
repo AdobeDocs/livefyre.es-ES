@@ -7,11 +7,14 @@ title: getUrn Network (método)
 uuid: e525bc54-d4df-490f-bd6a-f524f7eff211
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
 
-# getUrn Network (método){#geturn-network-method}
+# getUrn Network Method{#geturn-network-method}
 
 Este método devuelve el URN de esta red.
 
