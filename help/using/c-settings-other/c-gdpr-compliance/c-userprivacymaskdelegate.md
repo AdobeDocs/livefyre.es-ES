@@ -7,6 +7,9 @@ title: userPrivacyMaskDelegate
 uuid: 8e5a2750-bf45-4e70-a5f9-37f5e7c61f8e
 translation-type: tm+mt
 source-git-commit: 9e01dd4515c01154e3566a39b367b8efa4ec082a
+workflow-type: tm+mt
+source-wordcount: '119'
+ht-degree: 0%
 
 ---
 
@@ -19,9 +22,9 @@ Este texto existe para cumplir con el Reglamento del RGPD. Si un origen no admit
 
 Si no utiliza `userPrivacyMaskDelegate`, se muestra el siguiente texto predeterminado:
 
-Agregar `userPrivacyMaskDelegate` después `userPrivacyOptOut`. Puede agregar todos los indicadores de privacidad de Livefyre a la vez como parte de un objeto de Livefyre.
+Añada `userPrivacyMaskDelegate` después de `userPrivacyOptOut`. Puede agregar todos los indicadores de privacidad de Livefyre a la vez como parte de un objeto de Livefyre.
 
-Este es un ejemplo de cómo usar `userPrivacyMaskDelegate`:
+A continuación se muestra un ejemplo de cómo utilizar `userPrivacyMaskDelegate`:
 
 ```
 userPrivacyMaskDelegate: function () { 
