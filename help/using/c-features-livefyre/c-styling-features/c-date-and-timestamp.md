@@ -6,6 +6,9 @@ title: Fecha y marca de hora
 uuid: 3022059f-cfdc-4e13-aa3d-7537875ef431
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +19,7 @@ Puede cambiar el formato de fecha y marca de hora para satisfacer sus necesidade
 
 De forma predeterminada, las aplicaciones de Livefyre muestran una marca de tiempo relativa para las publicaciones del flujo (hace 4 minutos, hace 5 horas, hace 8 días, hace 2 meses).
 
-Puede personalizar la marca de tiempo que se muestra mediante la personalización de fecha y hora, que le permite seleccionar entre una lista de formatos disponibles. Para obtener más información, consulte [Fecha y marca de hora](/help/using/c-features-livefyre/c-styling-features/c-date-and-timestamp.md)
+Puede personalizar la marca de tiempo que se muestra mediante la personalización de fecha y hora, que le permite seleccionar entre una lista de los formatos disponibles. Para obtener más información, consulte [Fecha y marca de hora](/help/using/c-features-livefyre/c-styling-features/c-date-and-timestamp.md)
 
 Aplicaciones que utilizan esta función:
 
