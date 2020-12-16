@@ -6,6 +6,9 @@ title: Moderar contenido desde un flujo
 uuid: 38faf651-c547-49b3-b3d1-1a1d65c0f81c
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ Modere el contenido procedente de un flujo mediante la biblioteca.
 
 Los moderadores pueden aprobar o rechazar comentarios pendientes directamente desde el flujo, mediante la biblioteca.
 
-Para moderar el contenido pendiente, simplemente pase el ratón sobre el **[!UICONTROL Pending]** botón.
+Para moderar el contenido pendiente, simplemente pase el ratón sobre el botón **[!UICONTROL Pending]**.
 
-El **[!UICONTROL Pending]** botón cambia y puede seleccionar si se va a denegar ( **[!UICONTROL x]**) o aprobar ( **[!UICONTROL ✓]**) el comentario.
+El botón **[!UICONTROL Pending]** cambia y puede seleccionar si denegar ( **[!UICONTROL x]**) o aprobar ( **[!UICONTROL ✓]**) el comentario.
 
 Pase el cursor sobre el espacio de comentarios y se mostrarán las siguientes opciones de moderación:
 
