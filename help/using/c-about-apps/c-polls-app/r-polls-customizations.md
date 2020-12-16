@@ -7,6 +7,9 @@ title: Personalizaciones de encuestas
 uuid: 788a4fa7-aafb-4508-b9c0-cd54e4cd9b86
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 0%
 
 ---
 
@@ -55,7 +58,7 @@ Cambie el tamaño, el ancho y las opciones de interacción de la aplicación Enc
 
 Puede personalizar las encuestas mediante:
 
-* **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de la **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de la **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** y  **[!UICONTROL Config]** opciones para todas las aplicaciones de la  **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones en **[!UICONTROL App Designer]**.
 
 * Herramientas de integración. Consulte Encuestas para obtener más información sobre cómo personalizar aplicaciones mediante las herramientas de integración.
 
