@@ -49,7 +49,7 @@ ht-degree: 7%
       + [Mapa](c-about-apps/c-map-app/c-map-app.md)
       + [Funciones de mapa](c-about-apps/c-map-app/r-map-features.md)
       + [Personalizaciones de mapas](c-about-apps/c-map-app/r-map-customizations.md)
-   + Muro de los medios {#mediawall}
+   + Muro de medios {#mediawall}
       + [Muro de los medios](c-about-apps/c-media-wall-app/c-media-wall-app.md)
       + [Funciones de Media Wall](c-about-apps/c-media-wall-app/r-media-wall-features.md)
       + [Personalizaciones de Muro de Medios](c-about-apps/c-media-wall-app/r-media-wall-customizations.md)
@@ -62,7 +62,7 @@ ht-degree: 7%
       + [Añadir una encuesta a un comentario o una aplicación de blog en directo](c-about-apps/c-polls-app/t-integrate-poll-site.md)
       + [Añadir imágenes a una encuesta](c-about-apps/c-polls-app/t-add-images-to-a-poll.md)
       + [Personalizaciones de encuestas](c-about-apps/c-polls-app/r-polls-customizations.md)
-   + Reseñas {#reviews}
+   + Revisiones {#reviews}
       + [Reseñas](c-about-apps/c-reviews-app/c-reviews-app.md)
       + [Creación de una aplicación de críticas](c-about-apps/c-reviews-app/c-creating-reviews.md)
       + [Anunciar una revisión](c-about-apps/c-reviews-app/t-using-reviews.md)
@@ -101,15 +101,15 @@ ht-degree: 7%
       + [Upload Button](c-about-apps/c-upload-button-app/c-upload-button-app.md)
       + [Personalizaciones de botones de carga](c-about-apps/c-upload-button-app/r-upload-button-customizations.md)
       + [Cadenas de texto del botón de carga](c-about-apps/c-upload-button-app/c-upload-button-text-strings.md)
-+ Funciones de la aplicación {#app-features}
++ Características de la aplicación {#app-features}
    + [Funciones de accesibilidad](c-features-livefyre/c-accessibility-features.md)
    + [Funciones de autenticación](c-features-livefyre/c-authentication.md)
    + [Botón Personalizar llamada a acción](c-features-livefyre/c-call-to-action-button.md)
-   + Funciones de comportamiento del contenido {#content-behavior-features}
+   + Características de comportamiento de contenido {#content-behavior-features}
       + [Funciones de comportamiento del contenido](c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md)
       + [Carga de foto](c-features-livefyre/c-content-behavior-features/c-photo-upload.md)
       + [Anuncios de usuario](c-features-livefyre/c-content-behavior-features/c-user-posts.md)
-   + Etiquetas de contenido y colección {#collection-content-tags}
+   + Etiquetas de colección y contenido {#collection-content-tags}
       + [Etiquetas de contenido y colección](c-features-livefyre/c-content-collection-tags/c-content-collection-tags.md)
       + [Cambiar colección](c-features-livefyre/c-content-collection-tags/c-change-collection.md)
       + [Filtrar la búsqueda por colección o etiqueta de contenido](c-features-livefyre/c-content-collection-tags/t-filter-search-by-tag.md)
@@ -153,11 +153,11 @@ ht-degree: 7%
    + Uso compartido en medios sociales {#social-sharing}
       + [Uso compartido en medios sociales](c-features-livefyre/c-social-sharing/c-social-sharing.md)
       + [Configuración del uso compartido en redes sociales](c-features-livefyre/c-social-sharing/c-setting-up-social-sharing.md)
-   + Ordenar funciones {#sort-features}
+   + Ordenar características {#sort-features}
       + [Ordenar funciones](c-features-livefyre/c-sort-features-composite/c-sort-features-composite.md)
       + [Comentarios principales](c-features-livefyre/c-sort-features-composite/c-top-comments.md)
       + [Subprocesos en caliente](c-features-livefyre/c-sort-features-composite/c-hot-threads.md)
-   + Funciones de estilo {#styling-features}
+   + Características de estilo {#styling-features}
       + [Funciones de estilo](c-features-livefyre/c-styling-features/c-styling-features.md)
       + [Estilo y personalización de CSS](c-features-livefyre/c-styling-features/c-css-styling-branding.md)
       + [Fecha y marca de hora](c-features-livefyre/c-styling-features/c-date-and-timestamp.md)
@@ -232,7 +232,7 @@ ht-degree: 7%
    + [Iniciar sesión en Studio](c-users-creating-accounts-with-studio-access/t-log-into-studio.md)
    + [Administrar permisos de estudio para usuarios](c-users-creating-accounts-with-studio-access/t-manage-studio-permissions-for-users.md)
    + [Funciones de usuario y permisos](c-users-creating-accounts-with-studio-access/c-user-types.md)
-   + Add a Social Account {#add-social-account}
+   + Añadir una cuenta de Social {#add-social-account}
       + [Añadir una cuenta de Social](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md)
       + [Acerca de las cuentas de Instagram](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)
       + [Actualizar un token para una cuenta de Social](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-refresh-a-token-for-a-social-account.md)
@@ -248,7 +248,7 @@ ht-degree: 7%
       + [Localizar cadenas](c-settings-other/c-translation-sets/c-localize-strings.md)
       + [Revisar cadenas de texto](c-settings-other/c-translation-sets/c-review-text-strings.md)
       + [Identifica cadenas de texto](c-settings-other/c-translation-sets/c-sidenotes-text-strings.md)
-   + Aplicación de SSL {#ssl-enforcement}
+   + Cumplimiento de SSL {#ssl-enforcement}
       + [Aplicación de SSL](c-settings-other/c-ssl-enforcement/c-ssl-enforcement.md)
       + [Lista de comprobación SSL](c-settings-other/c-ssl-enforcement/c-ssl-checklist.md)
    + Solicitudes de privacidad {#privacy-requests}
@@ -259,14 +259,14 @@ ht-degree: 7%
       + [userPrivacyOptOut](c-settings-other/c-gdpr-compliance/c-userprivacyoptout.md)
 + Notas de la versión {#release-notes}
    + [Notas de la versión más recientes](c-rn/c-rn.md)
-   + Release Notes 2019 {#rn2019}
+   + Notas de la versión 2019 {#rn2019}
       + [21 de marzo de 2019](c-rn/previous-rns/rn2019/c-rn-2019-march-21.md)
       + [14 de marzo de 2019](c-rn/previous-rns/rn2019/c-rn-2019-march-14.md)
       + [21 de febrero de 2019](c-rn/previous-rns/rn2019/c-rn-2019-february-21.md)
       + [7 de febrero de 2019](c-rn/previous-rns/rn2019/c-rn-2019-february-7.md)
       + [31 de enero de 2019](c-rn/previous-rns/rn2019/c-rn-2019-january-31.md)
       + [17 de enero de 2019](c-rn/previous-rns/rn2019/c-rn-2019-january-17.md)
-   + Release Notes 2018 {#rn2018}
+   + Notas de la versión 2018 {#rn2018}
       + [18 de diciembre de 2018](c-rn/previous-rns/rn2018/c-rn-2018-december-18.md)
       + [13 de diciembre de 2018](c-rn/previous-rns/rn2018/c-rn-2018-december-13.md)
       + [15 de noviembre de 2018](c-rn/previous-rns/rn2018/c-rn-2018-november-15.md)
@@ -287,7 +287,7 @@ ht-degree: 7%
       + [15 de febrero de 2018](c-rn/previous-rns/rn2018/c-rn-2018-february-15.md)
       + [1 de febrero de 2018](c-rn/previous-rns/rn2018/c-2018-february-1.md)
       + [18 de enero de 2018](c-rn/previous-rns/rn2018/c-rn-2018-january-18.md)
-   + Release Notes 2017 {#rn2017}
+   + Notas de la versión 2017 {#rn2017}
       + [16 de noviembre de 2017](c-rn/previous-rns/rn2017/c-rn-2017-november-16.md)
       + [2 de noviembre de 2017](c-rn/previous-rns/rn2017/c-rn-2017-november-2.md)
       + [19 de octubre de 2017](c-rn/previous-rns/rn2017/c-rn-2017-october-19.md)
