@@ -7,6 +7,9 @@ title: Notas de la versión de Livefyre, 13 de diciembre de 2018
 uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
 source-git-commit: 6d0f9feb17ca65391242e95651a89d734d297cb2
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 2%
 
 ---
 
