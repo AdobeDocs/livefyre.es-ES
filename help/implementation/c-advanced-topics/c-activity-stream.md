@@ -7,6 +7,9 @@ title: Flujo de actividad
 uuid: f40deec1-58ab-41c9-aac4-d2d8c9192bb9
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 1%
 
 ---
 
@@ -15,9 +18,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Descubra cómo monitorear y almacenar el contenido generado por el usuario que fluye a través del sistema Livefyre.
 
-Utilice la API de flujo de actividades para consumir los datos generados por el usuario que fluyen a través del sistema Livefyre en su red o sitio. Por ejemplo: utilice los datos de esta API para actualizar los índices de búsqueda en función de las clasificaciones o para administrar las insignias de los usuarios en un sistema de terceros en función de su actividad.
+Utilice la API de flujo de Actividad para consumir los datos generados por el usuario que fluyen a través del sistema Livefyre en su red o sitio. Por ejemplo: utilice los datos de esta API para actualizar los índices de búsqueda en función de las clasificaciones o para administrar las insignias de los usuarios en un sistema de terceros en función de su actividad.
 
-API de flujo de actividades:
+API de flujo de actividad:
 
 Para obtener una lista completa de los extremos disponibles, consulte la sección Referencia de la API de Livefyre.
 
@@ -39,20 +42,20 @@ GET https://bootstrap.livefyre.com/api/v3.1/activity/
 
 ### Parámetros
 
-* **** recurso: *string* Una URL del objeto para el que se solicitan datos de actividad.
+* **recurso:** ** cadenaURN del objeto para el que se solicitan datos de actividad.
 
-* **** desde: *integer* Entero de 64 bits que representa el ID del último evento que ha recibido. Especifique ‘0’ si no tiene datos anteriores.
+* **as:** ** integerEntero de 64 bits que representa el ID del último evento recibido. Especifique ‘0’ si no tiene datos anteriores.
 
-## cadenas URN {#section_skl_q4l_b1b}
+## Cadenas URN {#section_skl_q4l_b1b}
 
 Ejemplos:
 
-* **** urn:livefyre: `example.fyre.co` El flujo de actividades de `example.fyre.co`.
-* **** urn:livefyre: `example.fyre.co:site=54321` El flujo de actividades del sitio 54321 en la `example.fyre.co` red.
+* **urn:livefyre:** `example.fyre.co` El flujo de actividad de  `example.fyre.co`.
+* **urn:livefyre:** `example.fyre.co:site=54321` El flujo de actividad del sitio 54321 en la  `example.fyre.co` red.
 
 ## Directivas de token {#section_nwh_c5j_11b}
 
-La API de flujo de actividades utiliza un testigo del portador de OAuth para la autenticación. Los tokens de portador forman parte de la especificación OAuth 2.0 y se describen oficialmente [aquí](https://tools.ietf.org/html/rfc6750#section-1.2).
+La API de flujo de Actividad utiliza un testigo del portador de OAuth para la autenticación. Los tokens de portador forman parte de la especificación OAuth 2.0 y se describen oficialmente [aquí](https://tools.ietf.org/html/rfc6750#section-1.2).
 
 Un token contiene varias cosas:
 
@@ -68,7 +71,7 @@ Los pasos para crear un token de portador de OAuth incluyen:
 
 * Cree un mapa/diccionario que contenga el emisor, la audiencia, el asunto, la caducidad y el ámbito.
 * Utilice la biblioteca JWT, con su secreto, para codificar un token JWT.
-* Agregar "Autenticación: Portador" a su solicitud HTTP.
+* Añadir &quot;Autenticación: Portador&quot; a su solicitud HTTP.
 
 El ejemplo de código que se muestra a continuación muestra los pasos anteriores en Python:
 
@@ -97,9 +100,9 @@ Cuando las teclas del distintivo portador se definen de la siguiente manera:
 
 * **iss** *(Issuer)* Una entidad con autoridad para generar tokens. Puede ser Livefyre, un sitio o una red. (Para que una nota llegue tarde a la escuela, es su padre).
 * **aud** *(Audiencia)* La persona para la que se generó este token. Si está creando el token usted mismo, es el sitio o la red.
-* **sub** *(Asunto)* El sujeto para el que se van a conceder permisos. Por ejemplo, si está trabajando en una colección, el asunto debe ser el identificador de la colección. (En la nota del ejemplo de la escuela, es usted.)
+* **sub** *(Subject)* El asunto para el que se van a conceder permisos. Por ejemplo, si está trabajando en una colección, el asunto debe ser el identificador de la colección. (En la nota del ejemplo de la escuela, es usted.)
 * **exp** *(Caducidad)* Un punto en el tiempo en el que el token ya no es válido.
-* **ámbito** *(Ámbito)* Es una lista de los permisos concedidos en el asunto. Un ejemplo es "tarde para la escuela". El nombre de una API es otro ejemplo.
+* **scope** *(Scope)* Es una lista de los permisos concedidos en el asunto. Un ejemplo es &quot;tarde para la escuela&quot;. El nombre de una API es otro ejemplo.
 
 ## Ejemplo {#section_dhl_ytj_11b}
 
@@ -273,8 +276,8 @@ Una respuesta con datos nuevos desde la última solicitud:
 ## Notas {#section_hj3_crj_11b}
 
 * Una llamada correcta a la API generará un código de estado HTTP 200. Todos los demás códigos de estado deben considerarse errores.
-* Si no es nulo, utilice el valor de `data.meta.cursor.next` como `since` parámetro de la siguiente solicitud.
-* Si el valor de `data.meta.cursor.next` es nulo, significa que no hay datos nuevos que consumir. Debe volver a solicitar más tarde con el mismo `since` valor para ver si han llegado nuevos datos.
-* Como práctica, debe solicitar inmediatamente más datos si el `data.meta.cursor.next` valor no es nulo.
+* Si no es nulo, utilice el valor de `data.meta.cursor.next` como parámetro `since` de la siguiente solicitud.
+* Si el valor de `data.meta.cursor.next` es nulo, significa que no hay datos nuevos que consumir. Luego debe volver a solicitar con el mismo valor `since` para ver si han llegado nuevos datos.
+* Como práctica, debe solicitar inmediatamente más datos si el valor `data.meta.cursor.next` no es nulo.
 * Aproximadamente dos horas de datos recientes están disponibles a través de esta API en producción.
 * Debe configurar los procesos para sondear este extremo con frecuencia en cronjob a fin de evitar que falten datos. Un intervalo de cinco minutos debería ser perfectamente adecuado para la mayoría de las implementaciones.
