@@ -6,15 +6,18 @@ title: Avatares
 uuid: bf20f3bc-3dcc-4e16-a629-3380d1a7a3f2
 translation-type: tm+mt
 source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 1%
 
 ---
 
 
-# Avatares{#avatars}
+# Avatars{#avatars}
 
 Permite a los usuarios personalizar la imagen que se muestra con su contenido.
 
-Los avatares del usuario se muestran (de forma predeterminada) junto al contenido en todas las aplicaciones y se extraen del sistema de perfiles de identidad utilizado en la implementación. Estos avatares varían en tamaño, según la aplicación en la que se muestran.
+Los avatares del usuario se muestran (de forma predeterminada) junto al contenido en todas las aplicaciones y se extraen del sistema de perfil de identidad utilizado en la implementación. Estos avatares varían en tamaño, según la aplicación en la que se muestran.
 
 (Livefyre le permite desactivar los avatares si no desea mostrarlos en sus aplicaciones).
 
@@ -24,7 +27,7 @@ Los avatares del usuario se muestran (de forma predeterminada) junto al contenid
 
 ## Almacenamiento de avatar {#section_zbh_x1f_wy}
 
-Los avatares se cargan asincrónicamente en Livefyre. Cuando un usuario inicia sesión por primera vez en la aplicación o cambia su archivo de imagen de avatar asociado, su imagen de perfil se agrega a una cola de tareas. (Un avatar predeterminado se muestra temporalmente mientras el del usuario se carga en la ubicación de almacenamiento del avatar de Livefyre).
+Los avatares se cargan asincrónicamente en Livefyre. Cuando un usuario inicia sesión por primera vez en la aplicación o cambia su archivo de imagen de avatar asociado, su imagen de perfil se agrega a una cola de tareas. (Un avatar predeterminado se muestra temporalmente mientras el del usuario se carga en la ubicación del almacenamiento de avatar de Livefyre).
 
 ## Gravatars {#section_mqh_p1f_wy}
 
