@@ -7,6 +7,9 @@ title: createOrUpdate (método de recopilación)
 uuid: 1fff82d3-4b05-46a0-95ca-3eb4a6256cf8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 0%
 
 ---
 
