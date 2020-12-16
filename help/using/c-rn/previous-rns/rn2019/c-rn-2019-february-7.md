@@ -7,6 +7,9 @@ title: Notas de la versión
 uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
 source-git-commit: 46f00bccc617b5d5ddc2e205c912d52d3602a8a0
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 11%
 
 ---
 
@@ -21,4 +24,4 @@ source-git-commit: 46f00bccc617b5d5ddc2e205c912d52d3602a8a0
 
 ## Correcciones de errores
 
-* Se corrigió un problema en el cual el contenido marcado con Recomendaciones de moderación como *desechado* no se mostraba al intentar ver todo el contenido, incluido el contenido desechado.
+* Se corrigió un problema en el cual el contenido marcado por Moderación de Recommendations como *desechado* no se mostraba al intentar realizar la vista de todo el contenido, incluido el contenido desechado.
