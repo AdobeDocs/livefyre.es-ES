@@ -7,6 +7,9 @@ title: Tendencias
 uuid: 3031523d-b487-4eea-bba6-5d8f9971874f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 5%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Muestre las colecciones más activas del sitio o de la red.
 
-Utilice las tendencias para mostrar las colecciones con la actividad más reciente del sitio o la red.
+Utilice las tendencias para mostrar las colecciones con la actividad más reciente en su sitio o red.
 
 ## de CRM {#section_wtz_whb_c1b}
 
@@ -49,7 +52,7 @@ Livefyre.require([
 </script>
 ```
 
-Ahora tiene una aplicación de tendencias. Vea todo esto en acción en [este ejemplo](https://codepen.io/gobengo/pen/GijEy).
+Ahora tiene una aplicación de tendencias. Consulte todo esto en acción en [este ejemplo](https://codepen.io/gobengo/pen/GijEy).
 
 ## Configuración {#section_k5k_qhb_c1b}
 
