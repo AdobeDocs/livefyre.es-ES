@@ -1,25 +1,28 @@
 ---
 description: Los eventos disponibles para enlazar JavaScript para aplicaciones de conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
 seo-description: Los eventos disponibles para enlazar JavaScript para aplicaciones de conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
-seo-title: Eventos de Javascript para aplicaciones de conversación
+seo-title: Eventos de JavaScript para aplicaciones de conversación
 solution: Experience Manager
-title: Eventos de Javascript para aplicaciones de conversación
+title: Eventos de JavaScript para aplicaciones de conversación
 uuid: cce112b5-7c3a-4721-9854-fc8471f3d5d0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 73%
 
 ---
 
 
-# Eventos de Javascript para aplicaciones de conversación{#javascript-events-for-conversation-apps}
+# Eventos de JavaScript para aplicaciones de conversación{#javascript-events-for-conversation-apps}
 
 Los eventos disponibles para enlazar JavaScript para aplicaciones de conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
 
-## Matriz de aplicaciones y eventos de conversación {#section_y4j_x4m_ybb}
+## Matriz de aplicaciones y Eventos de conversación {#section_y4j_x4m_ybb}
 
-A continuación se muestra una matriz de los eventos disponibles para las aplicaciones de conversación. Una X indica que el evento está disponible para la aplicación, la N/D indica que el evento no se aplica a la aplicación y que la ausencia de marcas significa que el evento no está disponible para esa aplicación:
+A continuación se muestra una matriz de los eventos disponibles para las aplicaciones de conversación. Una X indica que el evento está disponible para la aplicación, la N/D indica que el evento no se aplica a la aplicación y que el evento no está disponible para la aplicación:
 
-### Eventos de aplicaciones de conversación
+### Eventos de la aplicación de conversación
 
 | Solicitud | Comentarios | Conversación | Liveblog | Reseñas | Notas de identidad | Encuestas | Tendencias |
 |---|---|---|---|---|---|---|---|
@@ -44,7 +47,7 @@ A continuación se muestra una matriz de los eventos disponibles para las aplica
 | Marcar cancelación | X | X | X | X | N.D. | N.D. | N.D. |
 | Seguir | X | N/D | X | X | N.D. | N.D. | N.D. |
 | No seguir | X | N/D | X | X | N.D. | N.D. | N.D. |
-| RequestMore | X | X | X | X | N.D. | N.D. | N.D. |
+| SolicitarMás | X | X | X | X | N.D. | N.D. | N.D. |
 | ModalView |  | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. |
 | Retweet de Twitter | X | X | X | N.D. | N.D. | N.D. | N.D. |
 | Clic en el botón Publicar | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. |
