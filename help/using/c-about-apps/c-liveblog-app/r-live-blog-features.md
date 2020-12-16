@@ -1,19 +1,22 @@
 ---
-description: La aplicación Live Blog ofrece las siguientes funciones para su sitio.
-seo-description: La aplicación Live Blog ofrece las siguientes funciones para su sitio.
+description: Live Blog App oferta las siguientes funciones para su sitio.
+seo-description: Live Blog App oferta las siguientes funciones para su sitio.
 seo-title: Funciones de Live Blog
 solution: Experience Manager
 title: Funciones de Live Blog
 uuid: 5a9fede3-e150-4655-b5e1-3ddaee9a6ba1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 0%
 
 ---
 
 
-# Funciones de Live Blog{#live-blog-features}
+# Live Blog Features{#live-blog-features}
 
-La aplicación Live Blog ofrece las siguientes funciones para su sitio.
+Live Blog App oferta las siguientes funciones para su sitio.
 
 
 
