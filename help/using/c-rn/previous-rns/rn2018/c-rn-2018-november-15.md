@@ -22,7 +22,7 @@ Notas de la versión de la versión del 15 de noviembre de 2018.
 
 En la versión de producción de esta versión se lanzaron las siguientes nuevas funciones:
 
-* **Actualizaciones de la búsqueda y el flujo de Instagram.** Puede usar una cuenta *comercial de* Instagram para:
+* **Actualizaciones de la búsqueda y el flujo de Instagram.** Puede usar una  *cuenta de negocios de Instagram* para:
 
    * Realice una búsqueda social en Instagram por usuario (el usuario también debe ser una cuenta comercial de Instagram).
 
@@ -30,13 +30,13 @@ En la versión de producción de esta versión se lanzaron las siguientes nuevas
 
    * Solicite derechos para los recursos desde Instagram mediante un flujo de trabajo parcialmente automatizado.
 
-   * Para obtener información sobre el tipo de cuentas de Instagram que necesita configurar y solicitar derechos de Instagram, consulte [Acerca de las cuentas](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)de Instagram.
+   * Para obtener información sobre el tipo de cuentas de Instagram que necesita configurar y solicitar derechos de Instagram, consulte [Acerca de las cuentas de Instagram](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md).
 
 * **Supervisión automática de las respuestas de solicitudes de derechos de uso para búsquedas basadas en cuentas comerciales.** Solo para búsquedas basadas en cuentas comerciales: está disponible la capacidad de supervisar automáticamente las respuestas a solicitudes de derechos y actualizar el historial de actividades en Livefyre.
 
-Para obtener más información sobre cómo solicitar derechos para cuentas de Instagram, consulte [Enviar una solicitud de derechos de Instagram manualmente](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md) y [Enviar una solicitud](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)de derechos de Instagram parcialmente automatizada.
+Para obtener más información sobre cómo solicitar derechos para cuentas de Instagram, consulte [Enviar la solicitud de derechos de Instagram manualmente](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md) y [Enviar una solicitud de derechos de Instagram parcialmente automatizada](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md).
 
-* **Integración con Adobe Target.** Integración añadida con Adobe Target que permite compartir aplicaciones de Livefyre directamente en la biblioteca de Ofertas de Adobe Target. Para obtener más información sobre el uso de Livefyre con Adobe Target, consulte la documentación [de Destinatario](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html).
+* **Integración con Adobe Target.** Integración añadida con Adobe Target que permite compartir aplicaciones de Livefyre directamente en la biblioteca de Ofertas de Adobe Target. Para obtener más información sobre el uso de Livefyre con Adobe Target, consulte la [documentación de Destinatario](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html).
 
 ## Problemas {#section_ehw_ndt_wcb}
 
@@ -46,7 +46,7 @@ Los problemas de las tablas siguientes se resolvieron en esta versión.
 
 | Tipo de incidencia | Componente | Nota de la versión |
 |--- |--- |--- |
-| Problema | AppService: Identidad de Livefyre | Se corrigió un problema en el cual al hacer clic en [!UICONTROL Reset to Default] no se restablecía el logotipo en Modo de inicio de sesión en Estudio > Ajustes de integración > Identidad de Livefyre a la imagen predeterminada. |
+| Problema | AppService: Identidad de Livefyre | Se corrigió un problema en el cual al hacer clic en [!UICONTROL Reset to Default] no se restablecía el logotipo en el modo de inicio de sesión en Studio > Ajustes de integración > Identidad de Livefyre a la imagen predeterminada. |
 | Problema | Biblioteca | Se corrigió un problema en el cual un vídeo cargado en la biblioteca y visualizado posteriormente con los detalles del recurso no se mostraba correctamente. |
 | Problema | Flujos | Se ha corregido un problema que impedía que los productos se mostraran en una regla de flujo. |
 | Problema | Flujos | Se corrigió un problema en el cual las etiquetas de producto no estaban disponibles para una regla de flujo. |
