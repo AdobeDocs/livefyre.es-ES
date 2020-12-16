@@ -6,6 +6,9 @@ title: Estilo y personalización de CSS
 uuid: 729a2780-f757-4c54-b446-ff832cecf620
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 2%
 
 ---
 
@@ -14,13 +17,13 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Utilice CSS para aplicar estilo a elementos de una aplicación Livefyre que se ajusten a su marca.
 
-Las aplicaciones de Livefyre ofrecen una amplia interfaz de estilo CSS, que le permite personalizar su experiencia de usuario para cumplir con los estándares de diseño actuales.
+Las aplicaciones de Livefyre oferta una extensa interfaz de estilo CSS, que le permite personalizar su experiencia de usuario para cumplir con los estándares de diseño actuales.
 
 Las opciones de estilo incluyen:
 
 * **[!UICONTROL Styling the Stream:]** Los flujos de Livefyre pueden tener un diseño y una personalización que se adapten a su marca y al resto del sitio. Para obtener más información, consulte Personalizaciones de CSS.
 * **[!UICONTROL Styling the Comment Editor:]** El editor de comentarios puede personalizarse cambiando el color, el tamaño y la familia de la fuente, o cambiando el color de fondo del cuadro de comentarios. Para obtener más información, consulte Editor de CSS.
-* **[!UICONTROL Moving the Livefyre Logo:]** Aunque la ubicación predeterminada para el logotipo de Livefyre está en la parte superior del flujo, esta imagen puede eliminarse y reemplazarse por un logotipo "Powered by Livefyre" más pequeño en la parte inferior del flujo. Para obtener más información, consulte Desplazamiento del logotipo de Livefyre.
+* **[!UICONTROL Moving the Livefyre Logo:]** Aunque la ubicación predeterminada para el logotipo de Livefyre está en la parte superior del flujo, esta imagen puede eliminarse y reemplazarse por un logotipo &quot;Powered by Livefyre&quot; más pequeño en la parte inferior del flujo. Para obtener más información, consulte Desplazamiento del logotipo de Livefyre.
 * **[!UICONTROL Hiding elements of the stream:]** Los elementos del flujo pueden ocultarse si no son relevantes para su comunidad. Los elementos que se pueden eliminar incluyen el botón de respuesta, el menú de edición de perfil, el menú de cierre de sesión, el notificador de comentarios y los avatares del usuario. Para obtener más información sobre la eliminación de estos elementos, consulte Ocultar elementos de aplicación.
 * **[!UICONTROL Customizing the Friend Tagging Logo:]** De forma predeterminada, el logotipo de Livefyre se muestra en la lista desplegable de etiquetado de amigos para todos los usuarios que hayan comentado en el flujo de la página. Para reemplazar esta imagen con su propio logotipo, consulte Marcas en Studio.
 
