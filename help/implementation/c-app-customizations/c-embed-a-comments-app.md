@@ -7,6 +7,9 @@ title: Incrustar una aplicación de comentarios
 uuid: e4982ad3-cab1-4805-a55c-594cca3b7203
 translation-type: tm+mt
 source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
 
 Incrustar la aplicación de comentarios sigue el proceso de incrustación de una aplicación principal.
 
-Incrustación de la aplicación de comentarios sigue el proceso de incrustación de una aplicación básica descrito en [Incrustar una aplicación](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+Incrustar la aplicación de comentarios sigue el proceso de incrustación de una aplicación principal descrito en [Incrustar una aplicación](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
 
 ## Ejemplo
 
