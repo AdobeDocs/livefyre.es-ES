@@ -7,6 +7,9 @@ title: Aplicación de estilos personalizados
 uuid: 0556aa2f-4fcd-4bde-abb5-479ec682f573
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 0%
 
 ---
 
@@ -19,10 +22,10 @@ Para cada etiqueta de usuario agregada mediante Studio o Ping para extracción, 
 
 Al convertir etiquetas de usuario en clases CSS:
 
-* Livefyre crea dos clases: fyre-author-tag-***&lt;your_group&gt;*** y fyre-tag-author-***&lt;your_group&gt;**. Ambos se pueden utilizar para aplicar estilo al contenido.
+* Livefyre crea dos clases: fyre-author-tag-***&lt;su_grupo>*** y fyre-tag-author-***&lt;su_grupo>***. Ambos se pueden utilizar para aplicar estilo al contenido.
 
-* Los espacios incluidos en la etiqueta se convertirán en caracteres de subrayado. Por ejemplo: "Usuario favorito" se convertirá en usuario_favorito.
-* Los caracteres Unicode incluidos en los nombres de grupo no se convertirán y aparecerán como Unicode en los nombres de clase. Por ejemplo: El grupo de usuarios "modérateur" será fyre-comment-author-tag-modérateur.
+* Los espacios incluidos en la etiqueta se convertirán en caracteres de subrayado. Por ejemplo: &quot;Usuario favorito&quot; se convertirá en usuario_favorito.
+* Los caracteres Unicode incluidos en los nombres de grupo no se convertirán y aparecerán como Unicode en los nombres de clase. Por ejemplo: El grupo de usuarios &quot;modérateur&quot; se convertirá en &quot;fyre-comment-author-tag-modérateur&quot;.
 
 Una vez creados los grupos de usuarios, utilice las clases CSS de Livefyre para aplicar estilo personalizado al contenido.
 
@@ -68,7 +71,7 @@ Cree una regla CSS para mostrar o aplicar estilo a un distintivo para el grupo:
 }
 ```
 
-Utilice la clase CSS fyre-author-tag-***&lt;your_group&gt;*** o fyre-tag-author-***&lt;your_group&gt;** para aplicar estilo a la fuente y al fondo de cada elemento publicado desde una cuenta asociada a la etiqueta seleccionada.
+Utilice la clase CSS fyre-author-tag-***&lt;your_group>*** o fyre-tag-author-***&lt;your_group>** para aplicar estilo a la fuente y al fondo de cada elemento publicado desde una cuenta asociada a la etiqueta seleccionada.
 
 ```
 .fyre-comment-author-tag-<your_group> .fyre-comment-author-tag { 
