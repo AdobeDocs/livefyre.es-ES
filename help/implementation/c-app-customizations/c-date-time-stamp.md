@@ -7,6 +7,9 @@ title: Personalización de la marca de fecha y hora
 uuid: 632ea405-56b7-4664-8d2b-0dd0a7611bd8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +26,8 @@ Las aplicaciones de Livefyre proporcionan el parámetro de opción, datetimeForm
 
 ## Terminología {#section_xsk_jn4_xz}
 
-* **Las Marcas de hora** absolutas se definen como horas exactas y específicas (por ejemplo: 1 de enero de 2012 a las 12:00 p.m.)
-* **Las marcas de hora** relativas se definen como horas generales y menos precisas (por ejemplo, hace 25 segundos, hace 14 minutos, hace un día, hace un año, etc.)
+* **Las** Marcas de hora absolutas se definen como horas exactas y específicas (por ejemplo: 1 de enero de 2012 a las 12:00 p.m.)
+* **Las** Marcas de hora relativas se definen como tiempos generales y menos precisos (por ejemplo, hace 25 segundos, hace 14 minutos, hace un día, hace un año, etc.)
 
 ## Formato {#section_ynx_gn4_xz}
 
@@ -83,9 +86,9 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-## Designación de símbolo {#section_inq_2n4_xz}
+## Designación de símbolos {#section_inq_2n4_xz}
 
-Funciones de formato de fecha y hora siguiendo la especificación de patrón definida en JDK, ICU y CLDR, con pequeñas modificaciones para uso típico en JS. Para obtener más información, consulte la documentación [de la biblioteca de cierre de](https://developers.google.com/closure/library/docs/overview)Google.
+Funciones de formato de fecha y hora siguiendo la especificación de patrón definida en JDK, ICU y CLDR, con pequeñas modificaciones para uso típico en JS. Para obtener más información, consulte la [Documentación de la biblioteca de cierre de Google](https://developers.google.com/closure/library/docs/overview).
 
 ```
   Symbol Meaning Presentation        Example 
@@ -125,8 +128,8 @@ Los elementos marcados con ‘#’ funcionan de forma distinta a Java.
 
 El recuento de letras de patrón determina el formato.
 
-* **** Texto: 4 o más, utilice el formulario completo. Menos de 4, utilice un formato corto o abreviado si existe. (Por ejemplo: "EEEE" produce "lunes", "EEE" produce "Mon").
-* **** Número: el número mínimo de dígitos. Los números más cortos se rellenan con cero a esta cantidad (por ejemplo: Si "m" produce "6", "mm" produce "06".). El año se manipula especialmente; es decir, si el recuento de ‘y’ es 2, el año se truncará a 2 dígitos. (Por ejemplo: si "aaaa" produce "1997", "yy" produce "97".) A diferencia de otros campos, los segundos de fracción se rellenan a la derecha con cero.
-* **** Texto y número: 3 o superior, utilice texto. Número de uso inferior a 3. (Por ejemplo: "M" produce "1", "MM" produce "01", "MMM" produce "Jan" y "MMMM" produce "January".)
+* **Texto:** 4 o más, utilice el formulario completo. Menos de 4, utilice un formato corto o abreviado si existe. (Por ejemplo: &quot;EEEE&quot; produce &quot;lunes&quot;, &quot;EEE&quot; produce &quot;Mon&quot;).
+* **Número:** el número mínimo de dígitos. Los números más cortos se rellenan con cero a esta cantidad (por ejemplo: Si &quot;m&quot; produce &quot;6&quot;, &quot;mm&quot; produce &quot;06&quot;.). El año se manipula especialmente; es decir, si el recuento de ‘y’ es 2, el año se truncará a 2 dígitos. (Por ejemplo: si &quot;aaaa&quot; produce &quot;1997&quot;, &quot;yy&quot; produce &quot;97&quot;.) A diferencia de otros campos, los segundos de fracción se rellenan a la derecha con cero.
+* **Texto y número:** 3 o superior, utilice texto. Número de uso inferior a 3. (Por ejemplo: &quot;M&quot; produce &quot;1&quot;, &quot;MM&quot; produce &quot;01&quot;, &quot;MMM&quot; produce &quot;Jan&quot; y &quot;MMMM&quot; produce &quot;January&quot;.)
 
-Cualquier carácter del patrón que no esté en los rangos de ["a"...".z’] y ["A".."Z’] se tratará como texto entre comillas. Por ejemplo, caracteres como ‘:’, ‘.’, ‘, ‘#’ y ‘@’ aparecerán en el texto de tiempo resultante aunque no se acepten entre comillas simples.
+Cualquier carácter del patrón que no esté en los rangos de [‘a’..’z’] y [‘A’..’Z’] se tratará como texto entre comillas. Por ejemplo, caracteres como ‘:’, ‘.’, ‘, ‘#’ y ‘@’ aparecerán en el texto de tiempo resultante aunque no se acepten entre comillas simples.
