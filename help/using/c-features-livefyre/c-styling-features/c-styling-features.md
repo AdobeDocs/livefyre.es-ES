@@ -1,18 +1,21 @@
 ---
-description: Puede diseñar sus aplicaciones de Livefyre para que se comporten de diversas maneras o cambiarlas para que tengan el aspecto y la sensación de que se parecen al resto de la campaña de marca.
-seo-description: Puede diseñar sus aplicaciones de Livefyre para que se comporten de diversas maneras o cambiarlas para que tengan el aspecto y la sensación de que se parecen al resto de la campaña de marca.
+description: Puede diseñar sus aplicaciones de Livefyre para que se comporten de diversas maneras o cambiarlas para que se vean y sientan como el resto de su campaña de marca.
+seo-description: Puede diseñar sus aplicaciones de Livefyre para que se comporten de diversas maneras o cambiarlas para que se vean y sientan como el resto de su campaña de marca.
 seo-title: Funciones de estilo
 title: Funciones de estilo
 uuid: 72a3843d-692a-43ff-b72b-6bd840de87d6
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 7%
 
 ---
 
 
-# Funciones de estilo{#styling-features}
+# Características de estilo{#styling-features}
 
-Puede diseñar sus aplicaciones de Livefyre para que se comporten de diversas maneras o cambiarlas para que tengan el aspecto y la sensación de que se parecen al resto de la campaña de marca.
+Puede diseñar sus aplicaciones de Livefyre para que se comporten de diversas maneras o cambiarlas para que se vean y sientan como el resto de su campaña de marca.
 
 ## Estilo predeterminado {#section_yjl_rfs_d1b}
 
