@@ -7,6 +7,9 @@ title: AuthDelegate (objeto)
 uuid: a6acc4ef-d442-4782-9bfa-bbe494547c2e
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ authDelegate.login = function (finishLogin) {
 };
 ```
 
-The simplest login delegate might ask the end-user for their Livefyre Authentication token.
+El delegado de inicio de sesión más sencillo puede solicitar al usuario final su autentificador de Livefyre.
 
 ```
 authDelegate.login = function contrivedLogin(finishLogin) { 
@@ -60,9 +63,9 @@ authDelegate.logout = function (finishLogout) {
 }
 ```
 
-## .viewProfile(usuario) {#section_kkv_dv2_gz}
+## .viewProfile(user) {#section_kkv_dv2_gz}
 
-Tome medidas para ver el perfil de un usuario.
+Realice acciones para la vista del perfil de un usuario.
 
 ```
 authDelegate.viewProfile = function (user) { 
@@ -70,7 +73,7 @@ authDelegate.viewProfile = function (user) {
 }
 ```
 
-## .editProfile(usuario) {#section_bkx_pq2_gz}
+## .editProfile(user) {#section_bkx_pq2_gz}
 
 Realice acciones para editar el perfil de un usuario.
 
