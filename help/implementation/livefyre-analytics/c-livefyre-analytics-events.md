@@ -45,9 +45,9 @@ El código siguiente define los campos del objeto evento que recibe el controlad
 }
 ```
 
-## Eventos y eVars de Livefyre Analytics {#section_u3k_tft_mcb}
+## Eventos y eVars de análisis de Livefyre {#section_u3k_tft_mcb}
 
-Los siguientes eventos de Livefyre para asignar a eventos personalizados y utilizarlos en informes mediante el Administrador de grupos de informes. Para obtener más información sobre los grupos de informes en Adobe Analytics, consulte Administrador [de grupos](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)de informes. Para obtener más información sobre cómo usar eventos de Livefyre con el Administrador de grupos de informes, consulte [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
+Los siguientes eventos de Livefyre para asignar a eventos personalizados y utilizarlos en informes mediante el Administrador de grupos de informes. Para obtener más información sobre los grupos de informes en Adobe Analytics, consulte [Administrador de grupos de informes](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html). Para obtener más información sobre cómo usar eventos de Livefyre con el Administrador de grupos de informes, consulte [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
 
 ## Eventos de análisis de Livefyre
 
@@ -100,7 +100,7 @@ A continuación se muestra una lista de variables de conversión (eVars) que pro
 
 Para obtener más información sobre los temas tratados en esta página, consulte:
 
-* [Report Suite](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)[ManagerDTM](https://docs.adobe.com/content/help/en/livefyre/using/apps/filmstrip/c-filmstrip-app.html)
+* [Report Suite ](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)[ManagerDTM](https://docs.adobe.com/content/help/en/livefyre/using/apps/filmstrip/c-filmstrip-app.html)
 
 * [Reglas](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/create-rules.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)
