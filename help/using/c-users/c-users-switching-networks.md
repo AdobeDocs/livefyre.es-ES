@@ -7,6 +7,9 @@ title: Usuarios que cambian de red
 uuid: 1f1f172b-6444-4161-9396-8f6b6d738593
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ Puede administrar varias redes desde una sola cuenta de Studio.
 >
 >Esto no es común.
 
-El menú **[!UICONTROL Account]** desplegable muestra todos los nombres de usuario asociados con la cuenta de Studio en la que ha iniciado sesión y las redes con las que están asociados. Utilice este menú desplegable para seleccionar la red que desee administrar.
+El menú desplegable **[!UICONTROL Account]** lista todos los nombres de usuario asociados con la cuenta de Studio en la que ha iniciado sesión y las redes con las que están asociados. Utilice este menú desplegable para seleccionar la red que desee administrar.
 
 >[!NOTE]
 >
