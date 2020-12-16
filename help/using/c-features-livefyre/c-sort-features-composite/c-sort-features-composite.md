@@ -1,19 +1,22 @@
 ---
-description: Puede elegir distintas opciones de clasificación en función de la aplicación y de lo que desee que puedan hacer los visitantes del sitio.
-seo-description: Puede elegir distintas opciones de clasificación en función de la aplicación y de lo que desee que puedan hacer los visitantes del sitio.
+description: Puede elegir varias opciones de clasificación en función de la aplicación y de lo que desee que puedan hacer los visitantes del sitio.
+seo-description: Puede elegir varias opciones de clasificación en función de la aplicación y de lo que desee que puedan hacer los visitantes del sitio.
 seo-title: Ordenar funciones
 solution: Experience Manager
 title: Ordenar funciones
 uuid: e40f5877-acdc-48c2-a2c3-8a8d253cdb93
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 0%
 
 ---
 
 
-# Ordenar funciones{#sort-features}
+# Ordenar características{#sort-features}
 
-Puede elegir distintas opciones de clasificación en función de la aplicación y de lo que desee que puedan hacer los visitantes del sitio.
+Puede elegir varias opciones de clasificación en función de la aplicación y de lo que desee que puedan hacer los visitantes del sitio.
 
 ## Ordenar por clasificación {#section_elc_hfs_d1b}
 
@@ -25,7 +28,7 @@ Aplicaciones que utilizan esta función:
 
 ## Ordenar por utilidad {#section_grr_hfs_d1b}
 
-Esta función solo está disponible para las revisiones. Ordene el contenido por el número de visitantes que encontraron útil un fragmento de contenido.
+Esta función solo está disponible para las revisiones. Ordene el contenido por el número de visitantes del sitio que encontraron útil un fragmento de contenido.
 
 Aplicaciones que utilizan esta función:
 
@@ -35,7 +38,7 @@ Aplicaciones que utilizan esta función:
 
 En la aplicación Comentarios, puede elegir permitir que los usuarios ordenen desde el contenido publicado más recientemente hasta el contenido publicado menos recientemente.
 
-En Storify 2, los visitantes del sitio pueden ordenar desde el primer anuncio hasta el último o desde el último hasta el primer anuncio. Storify 2 anuncios aparecen en el orden que decide un moderador, no en función del tiempo de publicación.
+En Storify 2, los visitantes del sitio pueden ordenar desde la primera publicación hasta la última o desde la última publicación hasta la primera. Storify 2 anuncios aparecen en el orden que decide un moderador, no en función del tiempo de publicación.
 
 Aplicaciones que utilizan esta función:
 
