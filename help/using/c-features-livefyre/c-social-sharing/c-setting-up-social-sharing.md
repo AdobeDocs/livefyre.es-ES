@@ -6,6 +6,9 @@ title: Configuración del uso compartido en redes sociales
 uuid: e1940e30-9fbb-41e8-b5bb-497a5b06643f
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 2%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 El panel Compartir en redes sociales le permite añadir las credenciales de la aplicación de red social.
 
-Livefyre utiliza esta información para conectarse a las redes sociales enumeradas en nombre de su aplicación social y para publicar contenido compartido para los usuarios en su nombre. Introduzca estos valores para activar la integración social. Pueden editarse en cualquier momento.
+Livefyre utiliza esta información para conectarse a las redes sociales enumeradas en nombre de su aplicación social y para publicar contenido compartido para sus usuarios en su nombre. Introduzca estos valores para activar la integración social. Pueden editarse en cualquier momento.
 
 La configuración disponible en esta página se actualizará para reflejar el sistema de uso compartido en redes sociales, tal como se define durante el proceso de integración de Livefyre. Los usuarios que se integran con sus propios sistemas de identidad de usuario personalizados deben proporcionar credenciales de red social para Facebook, LinkedIn y Twitter, si desean permitir que los usuarios finales compartan estas plataformas. Los clientes de Janrain Engage solo necesitan proporcionar sus credenciales de Janrain, y no Facebook, Twitter o LinkedIn.
 
@@ -57,7 +60,7 @@ Para compartir en LinkedIn, introduzca las credenciales siguientes para las soli
 
 Para activar los vínculos de permaltajes de bitly, introduzca la siguiente información para la integración de Bitly:
 
-* **[!UICONTROL Login:]** El nombre de usuario final proporcionado por Bitly se inicia sesión.
+* **[!UICONTROL Login:]** El nombre de usuario del usuario final proporcionado por Bitly se inicia sesión.
 * **[!UICONTROL API Key:]** La clave de API proporcionada por Bitly.
 
 
