@@ -7,6 +7,9 @@ title: Mapa
 uuid: 1c3e399d-a610-4b80-a3b2-a5502b31480d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 2%
 
 ---
 
@@ -15,11 +18,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Trazar el contenido del usuario a un mapa interactivo.
 
-El mapa le permite transmitir contenido geoetiquetado a un mapa mundial, lo que le permite localizar el rumor social en torno a noticias de última hora o un evento en directo. Se mostrará todo el contenido aplicable, incluyendo texto, comentarios, fotos y tweets.
+El mapa le permite transmitir contenido geoetiquetado a un mapa mundial, permitiéndole localizar el rumor social en torno a noticias de última hora o un evento en directo. Se mostrará todo el contenido aplicable, incluyendo texto, comentarios, fotos y tweets.
 
 >[!NOTE]
 >
->Los mapas son proporcionados por [©OpenStreetMap](https://www.openstreetmap.org/copyright), que proporciona los datos que Livefyre utiliza para procesar sus mapas.
+>Los mapas son proporcionados por [ ©OpenStreetMap](https://www.openstreetmap.org/copyright), que proporciona los datos que Livefyre utiliza para procesar sus mapas.
 
 ## de CRM {#section_w2m_db2_d1b}
 
@@ -37,7 +40,7 @@ A continuación, coloque el elemento en el que aparecerá la aplicación de mapa
 <div id="map" style="height: 500px;"></div>
 ```
 
-Por último, utilice Livefyre.required para construir el mapa y obtener una colección para canalizar a partir del eje central-sdk. Tenga en cuenta que Map solo puede mostrar contenido con metadatos geográficos. Twitter y la cuenta de Instagram admiten esta función. Para garantizar el mejor rendimiento, incluya un filtro de geolocalización en todas las reglas de depuración de la colección.
+Por último, utilice Livefyre.required para construir el mapa y obtener una colección para canalizar a partir del eje central-sdk. Tenga en cuenta que Mapa solo puede mostrar Contenido con metadatos geoetiquetados. Twitter y la cuenta de Instagram admiten esta función. Para garantizar el mejor rendimiento, incluya un filtro de geolocalización en todas las reglas de depuración de la colección.
 
 ```
 <script> 
@@ -56,7 +59,7 @@ function (Map, SDK) {
 </script>
 ```
 
-Consulte este ejemplo [](https://codepen.io/cheung31/pen/wkmbF)en directo.
+Consulte este [ejemplo activo](https://codepen.io/cheung31/pen/wkmbF).
 
 ## Configuración {#section_jc5_gxb_c1b}
 
@@ -73,7 +76,7 @@ var map = new Map({
 
 `leafletMapOptions`
 
-Opciones para pasar al mapa [del prospecto](https://leafletjs.com/) subyacente, que Mapa utiliza para el procesamiento. Utilice esta opción para definir las opciones [del mapa del](https://leafletjs.com/reference.html#map-options)prospecto, incluido el punto central inicial del mapa, y los niveles de zoom inicial y máximo. (Opcional.)
+Opciones para pasar al mapa de [Prospecto](https://leafletjs.com/) subyacente, que Mapa utiliza para el procesamiento. Utilice esta opción para establecer [Opciones de mapa de folletos](https://leafletjs.com/reference.html#map-options), incluido el punto central inicial del mapa, y los niveles de zoom inicial y máximo. (Opcional.)
 
 ```
 var map = new Map({ 
