@@ -7,6 +7,9 @@ title: Contenido destacado agregado mediante las API destacadas
 uuid: e9c9ff26-37b6-4328-af85-aa550e7ffdfd
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 1%
 
 ---
 
@@ -151,7 +154,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/featured
 }
 ```
 
-## Destacados (sitio) {#section_lq5_ymw_xz}
+## Destacado (sitio) {#section_lq5_ymw_xz}
 
 Devuelve los 50 fragmentos más recientes de contenido destacado (y sus autores) para el sitio de entrada. (Utilice la paginación para devolver todo el contenido, en lugar de solo los 50 más recientes).
 
