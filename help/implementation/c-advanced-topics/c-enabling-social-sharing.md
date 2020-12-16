@@ -7,11 +7,14 @@ title: Activación del uso compartido en redes sociales
 uuid: f584a0ae-46c7-48c1-aea4-36da9f1e259b
 translation-type: tm+mt
 source-git-commit: d77b633b9892e3ea4aaec860317887f1fdf66830
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 0%
 
 ---
 
 
-# Activación del uso compartido en redes sociales {#enabling-social-sharing}
+# Habilitación del uso compartido en redes sociales {#enabling-social-sharing}
 
 Configure credenciales que permitan a los usuarios compartir contenido en varias redes sociales.
 
@@ -29,36 +32,36 @@ Si utiliza un sistema de identidad de usuario personalizado, debe proporcionar s
 >
 >Los clientes que utilizan Janrain Engage solo deben proporcionar su clave de API de participación y dominio de participación.
 
-Utilice el panel Ajustes de integración de la Consola de administración para introducir o actualizar las credenciales sociales siguientes.
+Utilice el panel Ajustes de integración del Admin Console para introducir o actualizar las credenciales sociales siguientes.
 
 ### Credenciales requeridas:
 
-* **Redirección de proxy OAuth secreto de ID de cliente de Facebook**
-* **Secreto de API de clave de API de LinkedIn**
-* **Secreto de la API clave de la API de autentificador de acceso a autentificador de acceso a autentificador de Twitter**
+* **Redirección de proxy OAuth** secreta de ID de cliente de FacebookClient
+* **Secreto de la API de clave de** LinkedInAPI
+* **Secreto de la API de clave de la API del Token secreto de acceso de autentificador de** TwitterAccess
 
 ## Twitter {#section_qp5_1yl_b1b}
 
-Las credenciales de Twitter están disponibles en el panel de aplicaciones de Twitter. Para encontrar estas credenciales:
+Las credenciales de Twitter están disponibles en el Panel de aplicaciones de Twitter. Para encontrar estas credenciales:
 
-* Abra la página [de desarrollo de aplicaciones de](https://dev.twitter.com/apps) Twitter como propietario de la aplicación, busque la aplicación y haga clic en el título.
-* Desplácese hacia abajo hasta "Su autentificador de acceso" y tome los valores de "Testigo de acceso" y "Clave de acceso secreta".
+* Abra [Página de desarrollo de aplicaciones de Twitter](https://dev.twitter.com/apps) como propietario de la aplicación, busque la aplicación y haga clic en el título.
+* Desplácese hacia abajo hasta &quot;Su token de acceso&quot; y tome los valores de &quot;Token de acceso&quot; y &quot;Token secreto de acceso&quot;.
 
 Debe:
 
 * Introduzca un valor para el campo URL de llamada de retorno en la aplicación de Twitter. Aunque este campo puede ser un marcador de posición simple, no se puede dejar en blanco.
-* Configure el tipo de aplicación para que tenga acceso de **lectura** y **escritura** .
+* Configure el tipo de aplicación para que tenga acceso **read** y **write**.
 * Confirme que la URL del sitio web de la aplicación de Twitter se encuentra en el mismo dominio de host que la aplicación principal de Livefyre.
 
 >[!NOTE]
 >
->Todas las aplicaciones que muestran contenido de Twitter deben cumplir los requisitos de visualización. Para obtener más información, consulte las Directrices [de visualización de](https://dev.twitter.com/terms/display-requirements) Twitter.
+>Todas las aplicaciones que muestran contenido de Twitter deben cumplir los requisitos de visualización. Consulte las [Directrices para la visualización de Twitter](https://dev.twitter.com/terms/display-requirements) para obtener más información.
 
 ## LinkedIn {#section_lfz_zxl_b1b}
 
 Las credenciales de LinkedIn están disponibles en la sección Claves de OAuth de las claves de API de la aplicación LinkedIn.
 
-* Inicie sesión en su cuenta desde la página de desarrolladores de LinkedIn [https://developer.linkedin.com/](https://developer.linkedin.com/).
+* Inicie sesión en su cuenta desde la página Desarrolladores de LinkedIn [https://developer.linkedin.com/](https://developer.linkedin.com/).
 * Pase el ratón sobre su nombre en la parte superior derecha y seleccione Claves de API en el menú desplegable.
 * Haga clic en el título de la aplicación.
 * Tome los valores de Clave de API y Clave secreta de la sección Claves de OAuth
@@ -67,10 +70,10 @@ Las credenciales de LinkedIn están disponibles en la sección Claves de OAuth d
 
 Las credenciales de Facebook están disponibles en la página Aplicaciones para desarrolladores.
 
-* Abra la página [de aplicaciones para desarrolladores de](https://developers.facebook.com/apps) Facebook como propietario de la aplicación, busque la aplicación y haga clic en el título.
+* Abra [Página de aplicaciones para desarrolladores de Facebook](https://developers.facebook.com/apps) como propietario de la aplicación, busque la aplicación y haga clic en el título.
 * Tome los valores de ID de aplicación y Secreto de aplicación. Para el secreto de la aplicación, es posible que tenga que hacer clic en el botón Mostrar para mostrarlo.
 
-Para compartir con Facebook es necesario configurar una página de redireccionamiento para que realice solicitudes de Facebook y cumpla las prácticas de dominio requeridas por [Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/). La página debe alojarse en su dominio para que Facebook pueda verificar que la solicitud proviene de un origen legítimo.
+Compartir en Facebook requiere que configure una página de redireccionamiento para aceptar solicitudes de Facebook y cumplir con las prácticas de dominio requeridas por [Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/). La página debe alojarse en su dominio para que Facebook pueda verificar que la solicitud proviene de un origen legítimo.
 
 ### Redirección de Facebook
 
@@ -329,9 +332,9 @@ if (isset($_GET['lfoauth'])) {
 ?>
 ```
 
-## Configuración de proveedores de "Publicar en" {#section_rdk_dpl_b1b}
+## Configuración de proveedores de &quot;Anuncio a&quot; {#section_rdk_dpl_b1b}
 
-De forma predeterminada, los botones "Publicar en" de Facebook, LinkedIn y Twitter se muestran en las aplicaciones de Livefyre Core. Utilice el parámetro postToButtons para configurar qué proveedores aparecerán al incrustar la aplicación Livefyre.
+De forma predeterminada, los botones &quot;Publicar en&quot; de Facebook, LinkedIn y Twitter se muestran en las aplicaciones de Livefyre Core. Utilice el parámetro postToButtons para configurar qué proveedores aparecerán al incrustar la aplicación Livefyre.
 
 ```
 var convConfig = {}; // Ignoring other options for this example 
