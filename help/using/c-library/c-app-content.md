@@ -7,6 +7,9 @@ title: Ficha Contenido de la aplicación
 uuid: 65b23085-2b79-4a6f-96c9-44b421805312
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '1118'
+ht-degree: 0%
 
 ---
 
@@ -15,12 +18,12 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 Administración de contenido en la red de Livefyre.
 
-La ficha Contenido de la aplicación de la biblioteca le permite buscar y moderar contenido publicado en las aplicaciones. La **[!UICONTROL App Content]** ficha habilita varios filtros de búsqueda con búsqueda comodín, para permitirle definir más rápida y fácilmente los parámetros de búsqueda.
+La ficha Contenido de la aplicación de la biblioteca le permite buscar y moderar contenido publicado en las aplicaciones. La ficha **[!UICONTROL App Content]** permite varios filtros de búsqueda con búsqueda comodín, para permitirle definir más rápida y fácilmente los parámetros de búsqueda.
 
 Utilice la ficha Contenido de la aplicación para:
 
 * Buscar contenido
-* Ver historial de contenido
+* Historial de contenido de vista
 * Moderar contenido
 * Agregar una etiqueta
 * Contenido de las funciones
@@ -45,43 +48,43 @@ El panel Contenido de la aplicación le permite limitar la búsqueda mediante va
 
 ![](assets/PublishedState-1024x367.png)
 
-Utilice el **[!UICONTROL Quick Filters]** menú desplegable para reducir el contenido devuelto a **[!UICONTROL All Content]**, **[!UICONTROL All Sidenotes]**, **[!UICONTROL Approved]**, **[!UICONTROL Approved & Flagged]**, **[!UICONTROL Pending]** o **[!UICONTROL Rights Requests]** estado. A continuación, seleccione una **[!UICONTROL Filter by]** opción y utilice las casillas de verificación o los campos de entrada disponibles para limitar la búsqueda.
+Utilice la conversión desplegable **[!UICONTROL Quick Filters]** para reducir el contenido devuelto al estado **[!UICONTROL All Content]**, **[!UICONTROL All Sidenotes]**, **[!UICONTROL Approved]**, **[!UICONTROL Approved & Flagged]**, **[!UICONTROL Pending]** o **[!UICONTROL Rights Requests]**. A continuación, seleccione una opción **[!UICONTROL Filter by]** y utilice las casillas de verificación o los campos de entrada disponibles para limitar la búsqueda.
 
-Utilice el menú desplegable para ordenar el contenido de la lista por **[!UICONTROL Newest]**, **[!UICONTROL Oldest]**, **[!UICONTROL Recently updated]** o **[!UICONTROL Most flags]** por **[!UICONTROL Most liked]**.
+Utilice el menú desplegable para ordenar el contenido de la lista por **[!UICONTROL Newest]**, **[!UICONTROL Oldest]**, **[!UICONTROL Recently updated]**, **[!UICONTROL Most flags]** o **[!UICONTROL Most liked]**.
 
 ## Filtrar por opciones {#section_aqn_xqm_zz}
 
-Utilice la **[!UICONTROL Filter by]** barra para filtrar según las siguientes opciones:
+Utilice la barra **[!UICONTROL Filter by]** para filtrar por las siguientes opciones:
 
-* **Estado** Le permite filtrar por el estado de moderación actual del contenido:** [!UICONTROL All Content]*, **[!UICONTROL Approved]**, **[!UICONTROL Pending]** o **[!UICONTROL Bozo]**.
+* **** EstadoLe permite filtrar por el estado de moderación actual del contenido:**  [!UICONTROL All Content]*,  **[!UICONTROL Approved]**,  **[!UICONTROL Pending]** o  **[!UICONTROL Bozo]**.
 
-* **Fuente** Le permite filtrar por la fuente del contenido. Seleccione **[!UICONTROL Livefyre]** para mostrar el contenido generado por el usuario publicado directamente en el flujo. Seleccione **[!UICONTROL Facebook]** o **[!UICONTROL Twitter]** incluya **[!UICONTROL RSS]** contenido extraído de las aplicaciones desde esos orígenes.
+* **** OrigenLe permite filtrar por la fuente del contenido. Seleccione **[!UICONTROL Livefyre]** para lista el contenido generado por el usuario publicado directamente en el flujo. Seleccione **[!UICONTROL Facebook]**, **[!UICONTROL Twitter]** o **[!UICONTROL RSS]** para incluir el contenido extraído en las aplicaciones de esas fuentes.
 
-* **Los indicadores** que seleccionan los indicadores le permiten filtrar por **[!UICONTROL User Flags]** (correo no deseado, fuera de tema, ofensivo o en desacuerdo), **[!UICONTROL System Flags]** aplicado por SAFE (lenguaje vulgar, correo no deseado o moderado mágicamente) o **[!UICONTROL Moderation Recommendations]**. ![](assets/appcontentfilter.png)
+* **** IndicadoresSeleccionar indicadores permite filtrar por  **[!UICONTROL User Flags]** (correo no deseado, fuera de tema, ofensivo o en desacuerdo),  **[!UICONTROL System Flags]** aplicado por SAFE (lenguaje vulgar, correo no deseado o moderado mágicamente) o  **[!UICONTROL Moderation Recommendations]**.  ![](assets/appcontentfilter.png)
 
-* **Fecha y hora** Le permite filtrar por el momento en que el contenido se introdujo originalmente **[!UICONTROL Created]** (o se insertó en la aplicación a través de SocialSync o un flujo), o por el último **[!UICONTROL Modified]** (editado, marcado o modificado el estado).
+* **Fecha y** horaLe permite filtrar por el momento en que el contenido se introdujo originalmente  **[!UICONTROL Created]** (o se insertó en la aplicación a través de SocialSync o un flujo), o por último  **[!UICONTROL Modified]** (editado, marcado o modificado el estado).
 
-* **Autor** Le permite filtrar por la **[!UICONTROL IP]** dirección del autor, **[!UICONTROL Display Name]** (que se encuentra en el panel Usuarios o desde encima del contenido publicado por el autor) o **[!UICONTROL User ID]**(que se encuentra en el panel Usuarios).
+* **** AutorLe permite filtrar por la  **[!UICONTROL IP]** dirección del autor  **[!UICONTROL Display Name]** (que se encuentra en el panel Usuarios o por encima del contenido publicado por el autor) o  **[!UICONTROL User ID]**(que se encuentra en el panel Usuarios).
 
-* **Contiene** Permite filtrar por **[!UICONTROL Keyword]** o **[!UICONTROL Content Tag]** los últimos 90 días de contenido. Seleccione la **[!UICONTROL Media]** casilla de verificación para devolver solo el contenido que contenga medios. (Para buscar todo el contenido, desplácese hacia abajo por todo el contenido de la lista y haga clic en **[!UICONTROL Search full data]**).
+* **** ContieneLe permite filtrar los últimos 90 días de contenido por  **[!UICONTROL Keyword]** o  **[!UICONTROL Content Tag]**. Seleccione la casilla **[!UICONTROL Media]** para devolver solo el contenido que contenga medios. (Para buscar todo el contenido, desplácese hacia abajo por todo el contenido de la lista y haga clic en **[!UICONTROL Search full data]**).
 
-   **** Nota: No se admite la búsqueda de varias palabras clave y etiquetas de contenido. Si se introducen varias palabras clave o etiquetas, se utilizará la última palabra para la búsqueda.
+   **Nota:No se admite la búsqueda de** varias palabras clave y etiquetas de contenido. Si se introducen varias palabras clave o etiquetas, se utilizará la última palabra para la búsqueda.
 
-   Al buscar por etiqueta de contenido, las etiquetas sugeridas se rellenarán automáticamente al escribir en el campo de búsqueda. Los resultados de la búsqueda devolverán todo el contenido al que se le haya asignado la etiqueta. (Utilice este campo para buscar contenido destacado o haga clic en la etiqueta de cualquier contenido destacado de Studio). **[!UICONTROL Featured]**
+   Al buscar por etiqueta de contenido, las etiquetas sugeridas se rellenarán automáticamente al escribir en el campo de búsqueda. Los resultados de la búsqueda devolverán todo el contenido al que se le haya asignado la etiqueta. (Utilice este campo para buscar contenido destacado o haga clic en la etiqueta **[!UICONTROL Featured]** de cualquier contenido destacado de Studio).
 
-   **** Nota: Utilice un signo menos (-) antes del nombre de una etiqueta para buscar contenido que no incluya esa etiqueta. Por ejemplo: Busque ‘-Miley’ para buscar todo el contenido que no incluya la etiqueta ‘Miley’.
+   **Nota:** Utilice un signo menos (-) antes del nombre de una etiqueta para buscar contenido que no incluya esa etiqueta. Por ejemplo: Busque ‘-Miley’ para buscar todo el contenido que no incluya la etiqueta ‘Miley’.
 
-* **Aplicación** Le permite filtrar por **[!UICONTROL Collection ID]**, **[!UICONTROL App Tag]** o por ID **** principal. El filtrado por ID principal devuelve todo el contenido que responde a la ID de contenido de entrada. (Filtre por varias etiquetas introduciendo etiquetas separadas por una coma).
+* **** AplicaciónLe permite filtrar por  **[!UICONTROL Collection ID]**,  **[!UICONTROL App Tag]** o por ID **** principal. El filtrado por ID principal devuelve todo el contenido que responde a la ID de contenido de entrada. (Filtre por varias etiquetas introduciendo etiquetas separadas por una coma).
 
-* **Derechos** Le permite filtrar por estado de solicitudes de derechos:** [!UICONTROL Requested]*, **[!UICONTROL Granted]**, **[!UICONTROL Replied]** o **[!UICONTROL Expired]**.
+* **** DerechosLe permite filtrar por estado de solicitudes de derechos:**  [!UICONTROL Requested]*,  **[!UICONTROL Granted]**,  **[!UICONTROL Replied]** o  **[!UICONTROL Expired]**.
 
-## Contenido de Bozo {#section_afl_vqm_zz}
+## Contenido Bozo {#section_afl_vqm_zz}
 
-En las aplicaciones, el contenido solo se muestra **[!UICONTROL Bozo]** al autor del contenido. Esto permite al usuario creer que el contenido ha sido aprobado, ocultándolo a todos los demás usuarios y moderadores.
+En Aplicaciones, el contenido **[!UICONTROL Bozo]** solo se muestra al autor del contenido. Esto permite al usuario creer que el contenido ha sido aprobado, ocultándolo a todos los demás usuarios y moderadores.
 
 >[!NOTE]
 >
->El contenido social que se origina en SocialSync o Streams **[!UICONTROL cannot]** se establece en Bozo.
+>El contenido social que se origina en SocialSync o en los flujos **[!UICONTROL cannot]** se debe establecer en Bozo.
 
 Puede usar contenido de Bozo por los siguientes motivos:
 
@@ -90,24 +93,24 @@ Puede usar contenido de Bozo por los siguientes motivos:
 * El contenido puede marcarse como Bozo desde Studio.
 * Los moderadores pueden incluir contenido Bozo directamente en el flujo.
 
-## Ver historial de contenido {#section_ayz_tqm_zz}
+## Historial de contenido de vista {#section_ayz_tqm_zz}
 
 El panel de contenido le permite revisar el historial de todo el contenido de la lista, incluida la moderación previa, el filtrado de contenido no deseado, la fecha de la publicación y los indicadores o notas de usuario asignados al elemento.
 
-Utilice las fichas de la parte inferior del panel de contenido para ver su historial.
+Utilice las fichas de la parte inferior del panel de contenido para vista de su historial.
 
-* **[!UICONTROL More Info:]** enumera todas las actividades de este contenido, incluidos el envío, la edición, la comprobación de spam, el cambio de estado y las notas. La ID de contenido de Livefyre y la dirección IP del usuario también se muestran en esta sección.
-* **[!UICONTROL Replies:]** contiene un máximo de 6 respuestas. Haga clic en **[!UICONTROL Show all replies]** para mostrar todas las respuestas a la publicación.
+* **[!UICONTROL More Info:]** lista toda la actividad sobre este contenido, incluido el envío, la edición, la comprobación de spam, el cambio de estado y las notas. La ID de contenido de Livefyre y la dirección IP del usuario también se muestran en esta sección.
+* **[!UICONTROL Replies:]** lista un máximo de 6 respuestas. Haga clic en **[!UICONTROL Show all replies]** para mostrar todas las respuestas a la publicación.
 
-* **[!UICONTROL Flags & Reports:]** enumera todos los indicadores de usuario, con el avatar del usuario que marcó el contenido y cualquier informe (notas que el usuario agregó al marcar el contenido).
+* **[!UICONTROL Flags & Reports:]** lista todos los indicadores de usuario, con el avatar del usuario que marcó el contenido y cualquier informe (notas que el usuario agregó al marcar el contenido).
 * **[!UICONTROL Add a note:]** permite agregar una nota, visible para otros administradores o moderadores.
-* **[!UICONTROL Request Rights:]** abre el **[!UICONTROL New Rights Request]** cuadro de diálogo, desde el cual se puede emitir una solicitud de derechos.
+* **[!UICONTROL Request Rights:]** abre el  **[!UICONTROL New Rights Request]** cuadro de diálogo, desde el cual se puede emitir una solicitud de derechos.
 
-* **[!UICONTROL Save as Asset:]**abre el **[!UICONTROL Advanced Options]** cuadro de diálogo, que le permite guardar el elemento seleccionado en la biblioteca de recursos, publicarlo en una aplicación o solicitar derechos de reutilización a su autor.
+* **[!UICONTROL Save as Asset:]**abre el cuadro de diálogo **[!UICONTROL Advanced Options]**, que le permite guardar el elemento seleccionado en la biblioteca de recursos, publicarlo en una aplicación o solicitar derechos de reutilización a su autor.
 
 ![](assets/PublishedMoreInfo-1024x462.png)
 
-## Agregar una etiqueta al contenido {#section_xb4_mxr_rdb}
+## Añadir una etiqueta a contenido {#section_xb4_mxr_rdb}
 
 El etiquetado de contenido permite categorizar y organizar el contenido para facilitar la recuperación y la personalización de estilo, o marcar el contenido como destacado.
 
@@ -123,19 +126,19 @@ En la biblioteca, en Todos los recursos, puede buscar las imágenes existentes h
 
 * Introducción de texto para buscar en el campo de búsqueda
 * Clasificación por relevancia
-* Introducción de texto en el **[!UICONTROL Tags]** campo para buscar por etiquetas inteligentes. El algoritmo de clasificación de etiquetas inteligentes filtra el contenido mediante una puntuación de confianza de etiquetas inteligentes, la novedad del contenido y la cantidad de estrellas que un usuario ha dado al contenido.
+* Introducción de texto en el campo **[!UICONTROL Tags]** para buscar por Etiquetas inteligentes. El algoritmo de clasificación de etiquetas inteligentes filtros el contenido mediante una puntuación de confianza de etiquetas inteligentes, la novedad del contenido y la cantidad de estrellas que un usuario ha dado al contenido.
 
 ## Contenido destacado {#section_emb_kqm_zz}
 
-Seleccione la **[!UICONTROL Featured]** etiqueta predeterminada para marcar el contenido como destacado y resaltarlo como importante para los usuarios. Una vez etiquetados, utilice las opciones de estilo personalizadas para personalizar el contenido destacado en las aplicaciones.
+Seleccione la etiqueta predeterminada **[!UICONTROL Featured]** para marcar el contenido como destacado y resaltarlo como importante para los usuarios. Una vez etiquetados, utilice las opciones de estilo personalizadas para personalizar el contenido destacado en las aplicaciones.
 
-## Función o eliminación de contenido {#section_ojx_3qm_zz}
+## Para destacar o anular la función de contenido {#section_ojx_3qm_zz}
 
-* En Studio, haga clic en el **[!UICONTROL +]** signo situado junto a un contenido, seleccione la **[!UICONTROL Featured]** etiqueta en la lista desplegable y haga clic en **[!UICONTROL Enter]** Función contenido. La etiqueta se guardará y se mostrará al lado del contenido.
+* En Studio, haga clic en el signo **[!UICONTROL +]** situado junto a un fragmento de contenido, seleccione la etiqueta **[!UICONTROL Featured]** en la lista desplegable y haga clic en **[!UICONTROL Enter]** para mostrar el contenido de la función. La etiqueta se guardará y se mostrará al lado del contenido.
 
-* Para anular la función, haga clic en la **[!UICONTROL x]** etiqueta de la **[!UICONTROL Featured]** etiqueta que se muestra en el contenido.
+* Para cancelar la función, haga clic en la **[!UICONTROL x]** en la etiqueta **[!UICONTROL Featured]** que se muestra en el contenido.
 
-* Desde la aplicación Comentarios, Live Blog o Reseñas, pase el ratón sobre el contenido que desee destacar y haga clic en **[!UICONTROL Feature]**. Para desactivar la función, simplemente coloque el puntero sobre el contenido y haga clic en **[!UICONTROL Unfeature]**.
+* Desde la aplicación Comentarios, Live Blog o Reseñas, pase el ratón por encima del contenido que desee destacar y haga clic en **[!UICONTROL Feature]**. Para desactivar la función, simplemente coloque el puntero sobre el contenido y haga clic en **[!UICONTROL Unfeature]**.
 
 >[!NOTE]
 >
