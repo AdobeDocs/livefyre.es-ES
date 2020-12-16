@@ -7,6 +7,9 @@ title: Revisar cadenas de texto
 uuid: 86251e49-bc73-4eec-9f9b-b4b0a5b42099
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 5%
 
 ---
 
@@ -15,9 +18,15 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 Personalización de las cadenas de texto para Livefyre Reviews.
 
-Esta página enumera y describe las cadenas disponibles para la personalización en las aplicaciones de revisión. Las cadenas que se muestran aquí se suman a las cadenas predeterminadas de las aplicaciones principales de Livefyre y se anulan, enumeradas en Personalizaciones de cadenas. En los casos en que se muestran duplicados, las cadenas que aparecen en estas tablas son las predeterminadas para las aplicaciones de críticas.
+Esta página lista y describe las cadenas disponibles para la personalización en las aplicaciones de revisión. Las cadenas que se muestran aquí se suman a las cadenas predeterminadas de las aplicaciones principales de Livefyre y se anulan, enumeradas en Personalizaciones de cadenas. Donde se muestran los duplicados, las cadenas que aparecen en estas tablas son las predeterminadas para las aplicaciones de críticas.
 
-ImplementaciónRevisar / Interfaz de clasificaciónInformación de flujoAutor / Información de contenido Acciones de usuario Funciones de anuncioErrores
+Implementación
+Interfaz de revisión y clasificación
+Información de flujo
+Información de autor/contenido
+Acciones del usuario
+Funciones de anuncio
+Errores
 
 ## Implementación {#section-vsy-1k4-xz}
 
@@ -36,7 +45,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## Interfaz de revisión y clasificación {#section_iyv_zj4_xz}
+## Interfaz de clasificación/revisión {#section_iyv_zj4_xz}
 
 Cadenas disponibles para la interfaz de usuario Revisar y clasificar.
 
@@ -65,7 +74,7 @@ Cadenas disponibles para la información y visualización del flujo de contenido
 
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
-| Clasificación |  sortBy | En blanco de forma predeterminada. |
+| Clasificación | sortBy | En blanco de forma predeterminada. |
 |  | sortHighestRated | [Clasificación más alta](https://d.pr/i/huTd) |
 |  | sortLowestRated | [Clasificación más baja](https://d.pr/i/huTd) |
 |  | sortMostHelpful | [Más útil](https://d.pr/i/huTd) |
@@ -146,12 +155,12 @@ Cadenas disponibles para mensajes de error generales.
 |  | errorFieldRating | clasificación por estrellas |
 |  | errorFieldReview | revisión |
 |  | errorFieldTitle | title |
-|  | errorMaxChars | Lo sentimos, tu revisión es demasiado larga. Edite e inténtelo nuevamente. |
+|  | errorMaxChars | Lo sentimos, tu revisión es demasiado larga. Edite e inténtelo de nuevo. |
 |  | errorMissingFields | Escriba un |
 |  | errorRatingEmpty | No se puede enviar una clasificación vacía |
 |  | errorRatingNotSet | Todas las clasificaciones deben configurarse |
 |  | errorRatingNotvalid | La clasificación debe ser un objeto |
-|  | errorShowMore | Error al cargar más revisiones. |
-|  | errorTitleMaxChars | Lo siento, tu título es demasiado largo. Edite e inténtelo nuevamente. |
+|  | errorShowMore | Se produjo un error al cargar más revisiones. |
+|  | errorTitleMaxChars | Lo siento, tu título es demasiado largo. Edite e inténtelo de nuevo. |
 |  | errorVoteOwnComment | No puede votar por su propia revisión |
 
