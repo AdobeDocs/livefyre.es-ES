@@ -7,6 +7,9 @@ title: Reglas RSS
 uuid: 3c9e2069-bb85-41dc-8b35-6237642a538a
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 0%
 
 ---
 
@@ -37,4 +40,4 @@ Livefyre analiza las fuentes RSS basándose en las siguientes especificaciones R
 
 Livefyre no lee las fuentes que no se adhieren a estas especificaciones y su contenido no se extrae en el flujo. Utilice el servicio de validación de fuentes WC3 para comprobar la sintaxis de su fuente RSS y asegurarse de que es válida.
 
-Para obtener opciones de regla de flujo adicionales para todas las reglas de flujo, consulte Opciones de regla [de flujo para todas las reglas](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)de flujo.
+Para obtener opciones de regla de flujo adicionales para todas las reglas de flujo, consulte [Opciones de regla de flujo para todas las reglas de flujo](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
