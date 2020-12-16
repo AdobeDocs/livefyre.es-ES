@@ -7,15 +7,18 @@ title: Personalización de un carrusel con Studio
 uuid: 24f080fc-37bf-40d4-8c1a-a502ee8ac978
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 0%
 
 ---
 
 
-# Personalización de un carrusel con Studio{#customize-a-carousel-using-studio}
+# Personalizar un carrusel con Studio{#customize-a-carousel-using-studio}
 
 Cambie el tamaño, el ancho y las opciones de interacción de la aplicación Carrusel.
 
-Todas las aplicaciones utilizan **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones del **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de la **[!UICONTROL App Designer]**.
+Todas las aplicaciones utilizan las opciones **[!UICONTROL Style]** y **[!UICONTROL Config]** de **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones en **[!UICONTROL App Designer]**.
 
 Puede personalizar un carrusel con las siguientes opciones adicionales en App Designer:
 
@@ -35,21 +38,23 @@ Puede personalizar un carrusel con las siguientes opciones adicionales en App De
 
    * **[!UICONTROL Call-to-action button]** Cambie el conmutador a activado para mostrar el botón de llamada a acción.
    * **[!UICONTROL Require rights to display products]** Cambie el conmutador a activado para requerir que el propietario del contenido haya concedido derechos para el contenido antes de que aparezca un botón de llamada a acción para el contenido.
+
    >[!NOTE]
    >
    >El contenido se muestra aunque no se hayan concedido derechos para el contenido, pero el botón de llamada a acción no se mostrará con el contenido a menos que se concedan derechos para el contenido.
 
    * **[!UICONTROL Show call-to-action in tile]**. Elija si desea mostrar el botón de llamada a acción en un mosaico en lugar de mostrar el botón de llamada a acción solo cuando el visitante del sitio hace clic en una tarjeta y abre el contenido en una ventana más grande.
    * **[!UICONTROL Call-to-action indication text]** Texto que se muestra para pedir al usuario que haga clic en la tarjeta para abrir el modal de llamada a acción.
-   * **[!UICONTROL Call-to-action header text]** Palabras que se mostrarán en el encabezado encima del botón Llamada a acción en el modal de contenido. El texto predeterminado es "Comprar estos productos:".
-   * **[!UICONTROL Call-to-action button text]** Palabras que se mostrarán en el botón Llamada a acción en el modal de contenido. El texto predeterminado es "Comprar ahora:".
-   * **[!UICONTROL Product display options]** Elija si desea mostrar el **[!UICONTROL Photo]** y el **[!UICONTROL Product name]** con el botón Llamada a acción.
+   * **[!UICONTROL Call-to-action header text]** Palabras que se mostrarán en el encabezado encima del botón Llamada a acción en el modal de contenido. El texto predeterminado es &quot;Comprar estos productos:&quot;.
+   * **[!UICONTROL Call-to-action button text]** Palabras que se mostrarán en el botón Llamada a acción en el modal de contenido. El texto predeterminado es &quot;Comprar ahora:&quot;.
+   * **[!UICONTROL Product display options]** Elija si desea mostrar  **[!UICONTROL Photo]** y  **[!UICONTROL Product name]** con el botón Llamada a acción.
+
    >[!NOTE]
    >
    >Los botones Foto y Nombre del producto resaltan el azul cuando están activados.
 
    * **[!UICONTROL Product URL referral tracking]** Cambie el conmutador a activado para rastrear las referencias de esta aplicación a la página de producto asociada.
-   * **[!UICONTROL Referral tracking key-value pairs]** Agregue parámetros para especificar aún más el seguimiento de referencia desde el contenido de la aplicación a la página del producto asociada.
+   * **[!UICONTROL Referral tracking key-value pairs]** Añada los parámetros para especificar aún más el seguimiento de referencia desde el contenido de la aplicación a la página del producto asociada.
 
 
 
