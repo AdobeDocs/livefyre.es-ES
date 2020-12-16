@@ -7,6 +7,9 @@ title: Storify CSS Clases
 uuid: 168a0db0-a209-417a-ba91-a33b4d411c8d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 2%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Clases CSS disponibles para las aplicaciones de Storify.
 
-Utilice CSS para personalizar las aplicaciones de Storify para una integración más completa con la página, simplemente anulando la CSS predeterminada con su propia hoja de estilo. Esta sección describe las personalizaciones de CSS disponibles.
+Utilice CSS para personalizar las aplicaciones de Storify para una integración más completa con la página, simplemente anulando la CSS predeterminada con su propia hoja de estilo. En esta sección se describen las personalizaciones de CSS disponibles.
 
 ## Elementos de creación {#section_tdy_hsh_xz}
 
@@ -41,13 +44,13 @@ Permite personalizar la sección del encabezado para la página del artículo.
 | .super-header | Encabezado principal |
 | .external-header | Fila de encabezado principal 1 |
 | .s-count | Temporizador de cuenta regresiva de fila de encabezado principal 1 |
-| .s-lival | Estado "Activo" de la fila de encabezado principal 1 |
+| .s-lival | Estado &quot;Activo&quot; de la fila de encabezado principal 1 |
 | .base-header | Fila de encabezado principal 2 |
-| .s-desplegable | Fila de encabezado principal 2 Activador desplegable Ordenar. |
+| .s-desplegable | Fila de encabezado principal 2 Desencadenador desplegable Ordenar. |
 | .s-menú desplegable | Fila de encabezado principal 2 Menú desplegable Ordenar. |
-| .s-dropdown-triangle | Fila principal de encabezado 2 Orden del menú desplegable. |
+| .s-dropdown-triangle | Fila de encabezado principal 2 Orden del acento circunflejo del menú desplegable. |
 | .s-dropdown-option | Fila de encabezado principal 2 Elemento del menú desplegable Ordenar. |
-| .s-views | Número de vistas de la fila principal 2 de encabezado. |
+| .s-vistas | Número de vistas de la fila 2 del encabezado principal. |
 | Botón .s-share | Fila de encabezado principal 2 Botón Compartir. |
 | .s-share-menu | Fila de encabezado principal 2 Menú Compartir. |
 
@@ -59,15 +62,15 @@ Permite personalizar el estilo de los elementos del artículo de la publicación
 
 | **Clase** | **Descripción** |
 |---|---|
-| .s-liveblog | Contenedor de todo el elemento Artículo |
-| .s-post | El contenedor de anuncio |
-| .s-modal-content | Contenedor modal posterior |
+| .s-liveblog | Contenedor para todo el elemento Story |
+| .s-post | El contenedor de la publicación |
+| .s-modal-content | Contenedor postmodal |
 | .s-element-content | Todos los elementos de contenido dentro de una publicación |
 | .s-element-text ul | Elemento Texto |
 | .s-element-text h2 | Encabezado del elemento de texto |
 | .s-element-text p | Párrafo del elemento de texto |
-| .s-element-text ul | Lista sin ordenar de elementos de texto |
-| .s-element-text ol | Lista ordenada de elementos de texto |
+| .s-element-text ul | Lista desordenada del elemento de texto |
+| .s-element-text ol | Lista ordenada del elemento de texto |
 | .s-element-text li | Elementos de lista de elementos de texto |
 | .s-element-text, taquilla de bloqueo | Blockquote |
 | .s-element-text, comilla de bloqueo:before | Icono para el comienzo de una comilla de bloqueo |
@@ -80,7 +83,7 @@ Permite personalizar el estilo de los elementos del artículo de la publicación
 | .s-element-quote | Elemento Cita (por ejemplo: Tweet solo con texto) |
 | .s-element-quote-image | Cita con elemento de imagen (por ejemplo: Tweet con imagen) |
 | .s-element-quote-video | Cita con elemento de vídeo (por ejemplo: Tweet con video) |
-| .s-link-body | Vista previa del vínculo dentro de una cita (por ejemplo: Tweet con vista previa del vínculo) |
+| .s-link-body | Previsualización de vínculo dentro de una cita (por ejemplo: Tweet con previsualización de vínculo) |
 
 ## Elementos de pie de página {#section_ozc_zrh_xz}
 
@@ -92,4 +95,4 @@ Permite personalizar la sección de pie de página para cada anuncio individual.
 |---|---|
 | .s-post-pie de página | Pie de página del anuncio. |
 | .s-sidenotes a | Botón Notas del pie de página del anuncio. |
-| .s-like | Botón "Me gusta" en el pie de página del anuncio. |
+| .s-like | Botón &quot;Me gusta&quot; en el pie de página del anuncio. |
