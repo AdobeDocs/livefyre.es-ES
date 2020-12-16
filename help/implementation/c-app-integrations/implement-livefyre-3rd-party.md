@@ -34,13 +34,13 @@ b. Integre las aplicaciones de Livefyre en sitios mediante la estructura de cód
 
    * Para obtener información sobre cómo integrar la aplicación de chat, consulte [Chat](/help/using/c-about-apps/c-chat-app/c-chat-app.md).
 
-   * Para obtener información sobre cómo integrar la aplicación de blogs en vivo, consulte [Live Blog](/help/using/c-about-apps/c-liveblog-app/c-liveblog-app.md).
+   * Para obtener información sobre cómo integrar la aplicación de blogs en vivo, consulte [Blog en directo](/help/using/c-about-apps/c-liveblog-app/c-liveblog-app.md).
 
-   * Para obtener información sobre cómo integrar la aplicación Sidenotes, consulte [Notas](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md)de identidad.
+   * Para obtener información sobre cómo integrar la aplicación Sidenotes, consulte [Sidenotes](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md).
 
 1. Realice la integración de autenticación.
 a. Cree tokens de autenticación de usuario para pasar y almacenar datos de usuario en Livefyre.
-b. Integrar plataformas de autenticación y usuarios de terceros. Para obtener una lista de las plataformas admitidas, consulte Integración [de identidades](/help/implementation/t-about-identity-integration/t-about-identity-integration.md).
+b. Integrar plataformas de autenticación y usuarios de terceros. Para obtener una lista de las plataformas admitidas, consulte [Identity Integration](/help/implementation/t-about-identity-integration/t-about-identity-integration.md).
 
 1. Realizar personalizaciones de la aplicación. Opciones de personalización de la aplicación para coincidir con la marca y el estilo y agregar funcionalidad personalizada.
 
@@ -50,7 +50,7 @@ Para crear una aplicación de visualización (Mapa, Muro de los medios, Tendenci
 a. Cree una colección con el token CollectionMeta.
 b. Integre las aplicaciones de Livefyre en sitios mediante la estructura de código incrustado de Livefyre.js. Para obtener más información sobre cómo utilizar la estructura de código incrustado de Livefyre.js, consulte [Incrustar una aplicación](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md).
 
-   * Para obtener información sobre cómo integrar la aplicación de mapa, consulte [Mapa](/help/using/c-about-apps/c-map-app/c-map-app.md).
+   * Para obtener información sobre cómo integrar la aplicación de mapa, consulte [Map](/help/using/c-about-apps/c-map-app/c-map-app.md).
 
    * Para obtener información sobre cómo integrar la aplicación Media Wall, consulte [Media Wall](/help/using/c-about-apps/c-media-wall-app/c-media-wall-app.md).
 
@@ -58,10 +58,10 @@ b. Integre las aplicaciones de Livefyre en sitios mediante la estructura de cód
 
 1. Realice la integración de autenticación.
 a. Cree tokens de autenticación de usuario para pasar y almacenar datos de usuario en Livefyre.
-b. Integrar plataformas de autenticación y usuarios de terceros. Para obtener una lista de las plataformas admitidas, consulte Integración [de identidades](/help/implementation/t-about-identity-integration/t-about-identity-integration.md).
+b. Integrar plataformas de autenticación y usuarios de terceros. Para obtener una lista de las plataformas admitidas, consulte [Identity Integration](/help/implementation/t-about-identity-integration/t-about-identity-integration.md).
 
 >[!NOTE]
 >
 >Livefyre no es compatible con Carrusel, Tira de película, Storify, Tarjeta de función, Mosaico y Aplicaciones de encuestas mediante Livefyre.js.
 
-Integre estas aplicaciones mediante el proceso [Crear una aplicación](/help/using/c-about-apps/c-create-an-app.md) .
+Integre estas aplicaciones mediante el proceso [Crear una aplicación](/help/using/c-about-apps/c-create-an-app.md).
