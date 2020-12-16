@@ -7,11 +7,14 @@ title: getNetworkName (método de red)
 uuid: 3523e5a4-11f4-458d-91e7-a149d3afe5e9
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 0%
 
 ---
 
 
-# getNetworkName (método de red){#getnetworkname-network-method}
+# Método de red getNetworkName{#getnetworkname-network-method}
 
 Este método devuelve el nombre de la red sin el archivo fyre.co.
 
@@ -57,7 +60,7 @@ Salida de muestra:
 network.network_name; 
 ```
 
-Sample output:
+Salida de muestra:
 
 ```
 "example" 
