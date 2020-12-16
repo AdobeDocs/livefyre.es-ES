@@ -7,11 +7,14 @@ title: getUrn (método de recopilación)
 uuid: 2f4d7796-2ae5-4b74-a958-40825c6bff16
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 0%
 
 ---
 
 
-# getUrn (método de recopilación){#geturn-collection-method}
+# getUrn Collection Method{#geturn-collection-method}
 
 Este método devuelve el URN de esta colección. Debe ejecutar createOrUpdate() antes de ejecutar este método.
 
