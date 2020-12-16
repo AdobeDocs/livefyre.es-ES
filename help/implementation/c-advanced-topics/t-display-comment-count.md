@@ -18,11 +18,11 @@ ht-degree: 0%
 
 Tome los recuentos de anuncios y comentarios de determinadas colecciones para mostrarlos en las páginas de índice.
 
-Livefyre `CommentCount.js` permite recuperar los recuentos de contenido de las colecciones de su sitio. Aunque las aplicaciones mostrarán el recuento de comentarios de la colección actual, puede resultar útil tener estos recuentos sindicados en el sitio. Esta función resulta especialmente útil si no se mantiene el contenido en la base de datos (o si la base de datos de CMS no está sincronizada con Livefyre).
+El `CommentCount.js` de Livefyre le permite recuperar los recuentos de contenido de las colecciones de su sitio. Aunque las aplicaciones mostrarán el recuento de comentarios de la colección actual, puede resultar útil tener estos recuentos sindicados en el sitio. Esta función resulta especialmente útil si no se mantiene el contenido en la base de datos (o si la base de datos de CMS no está sincronizada con Livefyre).
 
 1. Cargue el JavaScript.
 
-   Para utilizarlo `CommentCount.js`, primero incruste el archivo JavaScript en la `<head>` sección de la página o plantilla donde desee utilizarlo.
+   Para utilizar `CommentCount.js`, primero incruste el archivo JavaScript en la sección `<head>` de la página o plantilla donde desee utilizarlo.
 
    ```
    <script 
@@ -34,7 +34,7 @@ Livefyre `CommentCount.js` permite recuperar los recuentos de contenido de las c
 
 1. Enlace el elemento HTML.
 
-   Una vez cargada la secuencia de comandos, intentará encontrar otros elementos en la página con un nombre de clase de `livefyre-commentcount`. Para cada uno de estos elementos, la secuencia de comandos buscará atributos `data-lf-site-id` y `data-lf-article-id` HTML, y los usará para recuperar contenido de Livefyre y actualizar cada elemento con el valor más reciente.
+   Una vez cargado el script, intentará encontrar otros elementos en la página con un nombre de clase `livefyre-commentcount`. Para cada uno de estos elementos, la secuencia de comandos buscará atributos HTML `data-lf-site-id` y `data-lf-article-id`, y los usará para recuperar contenido de Livefyre y actualizar cada elemento con el valor más reciente.
 
    Por ejemplo, se actualizaría el siguiente elemento:
 
@@ -46,7 +46,7 @@ Livefyre `CommentCount.js` permite recuperar los recuentos de contenido de las c
 
    >[!NOTE]
    >
-   >El `CommentCount.js` código comprueba si hay un valor numérico que actualizar con el recuento real. Asegúrese de incluir un valor numérico entre las etiquetas.
+   >El código `CommentCount.js` comprueba si hay un valor numérico que actualizar con el recuento real. Asegúrese de incluir un valor numérico entre las etiquetas.
 
    **Ejemplo 1** (Uso de la URL como ID del artículo):
 
@@ -64,18 +64,18 @@ Livefyre `CommentCount.js` permite recuperar los recuentos de contenido de las c
 
 1. Configurar opciones.
 
-   Para obtener más control sobre cómo se reemplazan los recuentos de contenido, llame `LF.CommentCount()` y pase un objeto que contenga las opciones de configuración. Asegúrese de llamar a la función después de que todos los elementos que deben reemplazarse estén en el DOM. El mejor lugar para llamar a este método está en el pie de página, por lo que sucede cuando se carga el DOM, pero antes de los eventos listos para el documento y la ventana.
+   Para obtener más control sobre cómo se reemplazan los recuentos de contenido, llame a `LF.CommentCount()` y pase un objeto que contenga las opciones de configuración. Asegúrese de llamar a la función después de que todos los elementos que deben reemplazarse estén en el DOM. El mejor lugar para llamar a este método está en el pie de página, por lo que sucede cuando se carga el DOM, pero antes de los eventos listos para el documento y la ventana.
 
    Se permiten las siguientes opciones de configuración:
 
 * **replacer:** Función o Regex utilizados para reemplazar el texto de cada recuento de contenido.
 
-* **function:** Se utiliza para reemplazar cada elemento. Los argumentos de la función son:
+* **función:** se utiliza para reemplazar cada elemento. Los argumentos de la función son:
 
-   **element:** Elemento HTML que se está actualizando.
-   **count:** Recuento de contenido para este elemento.
+   **elemento:** El elemento HTML que se está actualizando.
+   **count:** El recuento de contenido de este elemento.
 
-* **regex:** Se utiliza para determinar qué parte del texto del elemento debe reemplazarse por el recuento.
+* **regex:** se utiliza para determinar qué parte del texto del elemento debe reemplazarse por el recuento.
 
    **Ejemplo:**
 
