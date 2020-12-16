@@ -14,7 +14,7 @@ ht-degree: 0%
 ---
 
 
-# Configuración de la moderación{#setting-up-moderation}
+# Configuración de moderación{#setting-up-moderation}
 
 Utilice la ficha Moderación para establecer reglas de premoderación para el contenido entrante, incluidas listas de profanidad, reglas de marca y direcciones IP prohibidas.
 
@@ -32,15 +32,15 @@ El contenido se puede premoderar automáticamente de las siguientes maneras:
 * Configure reglas para marcar automáticamente determinados tipos de contenido:
 
    * Configure las reglas de marca para el contenido marcado por el indicador de visitantes del sitio mediante **[!UICONTROL Settings > Moderation > Rules]**
-   * Configurar reglas SAFE mediante **[!UICONTROL Settings > Moderation > Rules]**
-   * Prohibir el uso de usuarios específicos de Twitter **[!UICONTROL Settings > Streams]**
+   * Configure reglas SAFE mediante **[!UICONTROL Settings > Moderation > Rules]**
+   * Prohibir usuarios específicos de Twitter mediante **[!UICONTROL Settings > Streams]**
    * Prohibir direcciones IP mediante **[!UICONTROL Settings > Bans]**
    * Prohibir regiones IP por código de país mediante solicitud. El contenido prohibido se marcará como SPAM.
 
 * Cree una lista de palabras que considere profanas en la Lista de Profanidad en **[!UICONTROL Settings > Moderation > Rules]** para su red o sitio.
-* Permitir la lista de usuarios (siempre permite que se muestre el contenido de estos usuarios) mediante el uso o la desactivación de filtros para flujos, sitios o redes específicos.
+* Permitir la visualización de contenido de estos usuarios mediante la utilización o desactivación de filtros para flujos, sitios o redes específicos.
 
-Después de configurar sus listas de blasfemias, filtros SAFE y reglas, puede elegir si premoderar el contenido y aplicar los filtros SAFE en los flujos. Para obtener más información, consulte Opciones [de regla de flujo para todas las reglas](/help/using/c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)de flujo.
+Después de configurar sus listas de blasfemias, filtros SAFE y reglas, puede elegir si premoderar el contenido y aplicar los filtros SAFE en los flujos. Para obtener más información, consulte [Opciones de regla de flujo para todas las reglas de flujo](/help/using/c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
 
 Livefyre marca el contenido como **[!UICONTROL Approved]**, **[!UICONTROL Pending]**, **[!UICONTROL Junk]**, etc. en función de la procedencia del contenido, de dónde se publicará y de las reglas que haya configurado en el sistema. En la tabla siguiente se describen detalladamente las acciones que Livefyre realiza, en función de estos factores.
 
@@ -102,33 +102,33 @@ Acciones disponibles:
 
 * **[!UICONTROL Trash it:]**envía el comentario marcado a la papelera.
 * **[!UICONTROL Bozo it:]** oculta el comentario marcado de todos los usuarios, excepto de su autor, a quienes permanece visible.
-* **[!UICONTROL Pending:]** establece el contenido como pendiente. Si establece Premoderación en Activado en **[!UICONTROL Settings > ModQ]**, entonces estará en ModQ. De lo contrario, solo estará en el contenido de la aplicación.
+* **[!UICONTROL Pending:]** establece el contenido como pendiente. Si establece Premoderación en ON en **[!UICONTROL Settings > ModQ]**, entonces estará en ModQ. De lo contrario, solo estará en el contenido de la aplicación.
 
 >[!NOTE]
 >
 >Livefyre recomienda crear reglas para los comentarios de Bozo que cinco usuarios marcan como correo no deseado u ofensivo.
 
-## Recomendaciones de moderación {#section_ec3_vr3_2cb}
+## Moderación de Recommendations {#section_ec3_vr3_2cb}
 
-Puede utilizar las recomendaciones de moderación para ayudarle a determinar cómo moderar el contenido publicado por los visitantes del sitio en las aplicaciones de Livefyre. El indicador de recomendación de moderación recomienda cuándo es probable que se elimine un fragmento de contenido, en función de las acciones realizadas anteriormente en contenido similar. Para utilizar Recomendaciones de moderación:
+Puede utilizar las recomendaciones de moderación para ayudarle a determinar cómo moderar el contenido publicado por los visitantes del sitio en las aplicaciones de Livefyre. El indicador de recomendación de moderación recomienda cuándo es probable que se elimine un fragmento de contenido, en función de las acciones realizadas anteriormente en contenido similar. Para usar Moderación de Recommendations:
 
-1. Active la funcionalidad Recomendaciones de moderación poniéndose en contacto con el profesional de soporte técnico de Adobe Livefyre.
+1. Active la funcionalidad Moderación de Recommendations poniéndose en contacto con el profesional de soporte técnico de Adobe Livefyre.
 1. Configure las recomendaciones de moderación en Configuración de red.
 
-   Configure las recomendaciones de moderación usando la **[!UICONTROL Livefyre Recommends Trash]** configuración de **[!UICONTROL Network Settings]**.
+   Configure las recomendaciones de moderación usando la configuración **[!UICONTROL Livefyre Recommends Trash]** en **[!UICONTROL Network Settings]**.
 
    ![](assets/image_mod_reco_trash.png)
 
-1. Configure una regla de SAFE para indicar a Livefyre qué hacer con el contenido que la recomendación de moderación identifica como contenido que es probable que se elimine. Para obtener más información sobre cómo configurar una regla SAFE para la **[!UICONTROL Livefyre Recommends Trash]** opción, consulte [Moderación](/help/using/c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation).
+1. Configure una regla de SAFE para indicar a Livefyre qué hacer con el contenido que la recomendación de moderación identifica como contenido que es probable que se elimine. Para obtener más información sobre cómo configurar una regla SAFE para la opción **[!UICONTROL Livefyre Recommends Trash]**, consulte [Moderación](/help/using/c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation).
 
    ![](assets/modreco4.png)
 
-1. Use la **[!UICONTROL Moderation Recommendation Indicator]** en ModQ o en Contenido de la aplicación para filtrar el contenido que la recomendación de moderación identifica como probable que se elimine.
+1. Use **[!UICONTROL Moderation Recommendation Indicator]** en ModQ o en Contenido de la aplicación para filtrar el contenido que la recomendación de moderación identifica como probable que se elimine.
 
    En ModQ, el indicador tiene este aspecto:  ![](assets/mod_reco1.png)
 
-   Para obtener más información sobre cómo utilizar las recomendaciones de moderación para moderar contenido en ModQ, consulte [ModQ](/help/using/c-features-livefyre/c-about-moderation/c-modq.md#c_modq).
+   Para obtener más información sobre cómo usar Moderación de Recommendations para moderar contenido en ModQ, consulte [ModQ](/help/using/c-features-livefyre/c-about-moderation/c-modq.md#c_modq).
 
    En Contenido de la aplicación, las recomendaciones de moderación tienen este aspecto:  ![](assets/modreco3.png)
 
-   Para obtener más información sobre cómo utilizar las recomendaciones de moderación en el contenido de la aplicación, consulte [Moderar contenido usando contenido](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content)de la aplicación.
+   Para obtener más información sobre cómo usar Moderación de Recommendations en el contenido de la aplicación, consulte [Moderar contenido usando contenido de la aplicación](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content).
