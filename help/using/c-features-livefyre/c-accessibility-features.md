@@ -7,11 +7,14 @@ title: Funciones de accesibilidad
 uuid: e04970d5-f45d-40e0-807e-ae88a9386ef7
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 1%
 
 ---
 
 
-# Funciones de accesibilidad{#accessibility-features}
+# Características de accesibilidad{#accessibility-features}
 
 La identidad y las aplicaciones de Livefyre contienen funciones de accesibilidad que permiten a todos los visitantes del sitio interactuar con el contenido, incluidos aquellos que pueden utilizar lectores de pantalla y otros dispositivos de asistencia.
 
@@ -37,10 +40,10 @@ Livefyre hace hincapié en las siguientes áreas para asegurarse de que los visi
 
 Para probar que una aplicación funciona con funciones de accesibilidad, puede:
 
-* Active un lector de pantalla (por ejemplo, [Voicover](https://www.apple.com/accessibility/mac/vision/) en un dispositivo Mac o Apple o un [Narrador](https://www.microsoft.com/en-us/accessibility/windows) en un equipo) para leer en voz alta la página que contiene la aplicación. El uso de un lector de pantalla comprueba que el contenido está disponible
+* Active un lector de pantalla (por ejemplo, [Voicover](https://www.apple.com/accessibility/mac/vision/) en un dispositivo Mac o Apple o [Narrador](https://www.microsoft.com/en-us/accessibility/windows) en un equipo) para leer la página que contiene la aplicación en voz alta. El uso de un lector de pantalla comprueba que el contenido está disponible
 
 * Pase el tabulador por una aplicación e intente utilizarla utilizando solo el teclado para comprobar que puede acceder a cada botón o vínculo de forma lógica.
-* Cambie el nivel de zoom y las relaciones de contraste para ver si el contenido se procesa de forma legible y fácil de ver.
+* Cambie el nivel de zoom y las relaciones de contraste para ver si el contenido se procesa de forma legible y fácil de vista.
 
 Funciones de aplicaciones y Livefyre accesibles:
 
