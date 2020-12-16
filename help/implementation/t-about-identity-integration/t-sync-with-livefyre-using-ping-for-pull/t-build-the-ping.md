@@ -7,19 +7,22 @@ title: Construir el ping
 uuid: cb8cc043-9ea5-407c-b70f-3f1e37accdae
 translation-type: tm+mt
 source-git-commit: f76dcd31e58b94856bf551009c2ac50c3233e516
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 0%
 
 ---
 
 
-# Construir el ping{#build-the-ping}
+# Genere el ping{#build-the-ping}
 
 Cree el ping para que la página ping Livefyre cuando los usuarios actualicen su perfil.
 
-Cuando Livefyre reciba una notificación de actualización con el `networkName` y `user_id`, el sistema enviará una solicitud de extracción a su Ping para URL de extracción.
+Cuando Livefyre recibe una notificación de actualización con las `networkName` y `user_id`, el sistema enviará una solicitud de extracción a la dirección URL de extracción de Ping.
 
 >[!NOTE]
 >
->403/No autorizado en respuesta a su ping indica que se ha agregado un valor no válido `lftoken` a la solicitud de ping. Asegúrese de que `lftoken` es para un usuario `user_id` con privilegios de propietario de red o del sistema. Si utiliza bibliotecas de Livefyre, utilice el `buildLivefyreToken` método para generar un token de sistema válido para la solicitud.
+>403/No autorizado en respuesta a su ping indica un `lftoken` no válido anexado a la solicitud de ping. Asegúrese de que `lftoken` es para `user_id` con privilegios de propietario de red o para el usuario del sistema. Si utiliza bibliotecas de Livefyre, utilice el método `buildLivefyreToken` para generar un token de sistema válido para la solicitud.
 
 1. Añada código a la página que llame a Livefyre cuando los usuarios actualicen su perfil. Construya la dirección URL de esta manera:
 
