@@ -7,6 +7,9 @@ title: Integración de Sidenotes
 uuid: 4aa14ada-402a-482d-b43e-96f37afa6c53
 translation-type: tm+mt
 source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 1%
 
 ---
 
@@ -15,13 +18,13 @@ source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
 
 Integre una aplicación Sidenotes siguiendo un proceso similar al de las aplicaciones principales.
 
-Como regla general, si se completa la integración de la aplicación principal, el código escrito para generar el `collectionMeta` objeto puede reutilizarse para Sidenotes.
+Como regla general, si se completa la integración de la aplicación principal, el código escrito para generar el objeto `collectionMeta` puede reutilizarse para Sidenotes.
 
-También puede reutilizar los delegados existentes `auth` suministrando un `auth` delegado creado con `fyre.conv` Sidenotes en el campo (opcional) `authDelegate` .
+También puede reutilizar los `auth` delegados existentes suministrando un `auth` delegado creado con `fyre.conv` a Sidenotes en el campo (opcional) `authDelegate`.
 
 >[!NOTE]
 >
->Sidenotes permite incluir `network`, `siteId`y `articleId` en un único objeto, en lugar de pasarlos por separado en otras partes del constructor.
+>Sidenotes permite incluir `network`, `siteId` y `articleId` en un único objeto, en lugar de pasarlos por separado en otras partes del constructor.
 
 ```
 <!DOCTYPE html> 
@@ -53,7 +56,7 @@ Livefyre.require(['sidenotes#1', 'auth'], function (Sidenotes, Auth) {
 </html>
 ```
 
-Como se indica en la sección Generación `collectionMeta` , `collectionMeta` es un objeto JSON codificado. En el ejemplo anterior, el objeto JSON toma el siguiente formato antes de codificarse en JWT.
+Como se indica en la sección Generación `collectionMeta`, `collectionMeta` es un objeto JSON codificado. En el ejemplo anterior, el objeto JSON toma el siguiente formato antes de codificarse en JWT.
 
 ```
 { 
@@ -65,7 +68,7 @@ Como se indica en la sección Generación `collectionMeta` , `collectionMeta` es
 }
 ```
 
-Para obtener más información, consulte el `collectionMeta` token.
+Para obtener más información, consulte el token `collectionMeta`.
 
 ## Configuración móvil
 
