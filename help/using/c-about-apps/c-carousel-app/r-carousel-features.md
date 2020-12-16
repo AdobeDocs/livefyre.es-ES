@@ -1,19 +1,22 @@
 ---
-description: La aplicación Carrusel ofrece estas funciones para su sitio.
-seo-description: La aplicación Carrusel ofrece estas funciones para su sitio.
+description: La aplicación Carrusel oferta estas funciones para su sitio.
+seo-description: La aplicación Carrusel oferta estas funciones para su sitio.
 seo-title: Funciones de carrusel
 solution: Experience Manager
 title: Funciones de carrusel
 uuid: c5c95675-d7ca-4677-b293-16de5ccf0022
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 3%
 
 ---
 
 
-# Funciones de carrusel {#carousel-features}
+# Características del carrusel {#carousel-features}
 
-La aplicación Carrusel ofrece estas funciones para su sitio.
+La aplicación Carrusel oferta estas funciones para su sitio.
 
 Las siguientes funciones están disponibles en un carrusel:
 
