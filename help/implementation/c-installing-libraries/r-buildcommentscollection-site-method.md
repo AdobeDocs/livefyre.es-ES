@@ -7,11 +7,14 @@ title: buildCommentsCollection (método de sitio)
 uuid: 0e5c062e-960d-4ab0-ba32-0965731a1571
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 7%
 
 ---
 
 
-# buildCommentsCollection (método de sitio){#buildcommentscollection-site-method}
+# buildCommentsCollection (método del sitio){#buildcommentscollection-site-method}
 
 Devuelve un objeto Collection creado como un tipo Comments. Ejecute createOrUpdate() desde el objeto Collection para completar el proceso de compilación.
 
