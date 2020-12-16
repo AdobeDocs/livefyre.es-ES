@@ -7,6 +7,9 @@ title: Estructura de solicitud de extracción
 uuid: bf6b9e45-d08a-48e6-acc6-e4fa56428d25
 translation-type: tm+mt
 source-git-commit: cf447db2cb3498fcb01b511848faeee4d1e48481
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 0%
 
 ---
 
@@ -29,14 +32,14 @@ la solicitud de extracción de Livefyre a este extremo será:
 https://example.yoursite.com/some_path/?id={id}&lftoken={UserAuthToken}
 ```
 
-donde `lftoken` es un token web JSON firmado con la clave de red y **[!UICONTROL {userAuthToken}]** es el autentificador del usuario generado por Livefyre.
+donde `lftoken` es un testigo Web JSON firmado con su clave de red y **[!UICONTROL {userAuthToken}]** es el autentificador del usuario generado por Livefyre.
 
-1. Utilice `lftoken` para validar que las solicitudes a la URL de extracción de Ping las envió Livefyre y no un agente malicioso.
+1. Utilice `lftoken` para validar que las solicitudes de URL de extracción a su Ping fueron enviadas por Livefyre y no por un agente malicioso.
 1. Para todas las solicitudes entrantes:
 
-   * Asegúrese de que la cadena de `lftoken` consulta está presente en la solicitud.
-   * Utilice el `validateLivefyreToken` método de las bibliotecas de Livefyre para asegurarse de que `lftoken` se ha firmado con la clave de red.
+   * Asegúrese de que la cadena de consulta `lftoken` está presente en la solicitud.
+   * Utilice el método `validateLivefyreToken` de las bibliotecas de Livefyre para asegurarse de que `lftoken` se haya firmado con la clave de red.
 
-   * Si no `lftoken` está presente o no se supera la validación, no permita que el punto final responda con la información del perfil. En su lugar, responda con un código de estado 403 (prohibido) y sin cuerpo de respuesta.
+   * Si `lftoken` no está presente o falla en la validación, no permita que el punto final responda con información de perfil. En su lugar, responda con un código de estado 403 (prohibido) y sin cuerpo de respuesta.
 
-1. `userAuthToken` se genera mediante el `buildUserAuthToken` método Livefyre para el usuario, con el identificador de usuario "system". Este usuario es el primer usuario creado para cada nueva red.
+1. `userAuthToken` se genera mediante el  `buildUserAuthToken` método Livefyre para el usuario, con el identificador de usuario &quot;system&quot;. Este usuario es el primer usuario creado para cada nueva red.
