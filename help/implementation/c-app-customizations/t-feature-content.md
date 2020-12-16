@@ -7,11 +7,14 @@ title: Contenido de las funciones
 uuid: c45f594b-69de-4db4-820b-465015d74825
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 2%
 
 ---
 
 
-# Contenido de las funciones{#feature-content}
+# Contenido de la función{#feature-content}
 
 Utilice el estilo personalizado para resaltar el contenido destacado.
 
@@ -31,9 +34,9 @@ La presentación de contenido le permite llamar la atención sobre anuncios de u
    * [Función](#c_feature_apis/section_jpw_nqw_xz)
    * [Desfunción](#c_feature_apis/section_knh_mqw_xz)
 
-1. Agregar contenido destacado. Consulte [](../c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md#c_aggregated_featured_content_using_the_featured_apis).
+1. Contenido destacado acumulado. Consulte [](../c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md#c_aggregated_featured_content_using_the_featured_apis).
 
-   * [Destacado (red)](#c_aggregated_featured_content_using_the_featured_apis/section_cgm_1nw_xz)
+   * [Funciones destacadas (red)](#c_aggregated_featured_content_using_the_featured_apis/section_cgm_1nw_xz)
    * [Destacados (sitio)](#c_aggregated_featured_content_using_the_featured_apis/section_lq5_ymw_xz)
    * [Destacada (colección)](#c_aggregated_featured_content_using_the_featured_apis/section_kgc_xmw_xz)
    * [Destacado (Head)](#c_aggregated_featured_content_using_the_featured_apis/section_n4b_lmw_xz)
