@@ -7,11 +7,14 @@ title: Reseñas
 uuid: 5386fc74-7a3b-4b2a-91fd-cfe5300e602d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 0%
 
 ---
 
 
-# Reseñas{#reviews}
+# Revisiones{#reviews}
 
 Valore y revise cualquier parte del contenido de su sitio web, en tiempo real.
 
@@ -21,18 +24,18 @@ Cada revisión publicada en una aplicación de críticas consta de una línea de
 
 La aplicación de revisiones predeterminada consiste en una colección de revisiones y una sección de resumen que muestra el desglose de clasificación y clasificación promedio del usuario para la colección. Los usuarios pueden leer e interactuar con las revisiones en tiempo real.
 
-Allure utiliza las críticas para invitar a sus usuarios a contribuir con clasificaciones y opiniones sobre los productos que presentan. Con las críticas, Allure puede captar comentarios personales y valiosos de sus visitantes.
+Allure utiliza las críticas para invitar a sus usuarios a contribuir con clasificaciones y opiniones sobre los productos que presentan. Con Reviews, Allure puede captar comentarios personales y valiosos de los usuarios desde su audiencia.
 
 ![](assets/ReviewsAllure.png)
 
-## Funciones de análisis {#section_awq_xph_21b}
+## Características de la revisión {#section_awq_xph_21b}
 
-Reviews ofrece varias funciones específicas de esta aplicación.
+Revisa las ofertas de varias funciones específicas de esta aplicación.
 
 * Representación visual rápida de las tendencias (clasificaciones con estrellas y resumen de clasificación promedio) por encima del flujo.
-* Interfaz de clasificación personalizable, incluido el número de estrellas y su imagen, subpartes de clasificación (como Pro y Cons) y múltiples categorías de clasificación.
+* Interfaz de clasificación personalizable, incluido el número de estrellas y su imagen, subpartes de clasificación (como Pro y Cons) y varias categorías de clasificación.
 * Resuma las revisiones mediante una visualización gráfica de la Clasificación promedio de usuarios y el Desglose de clasificación de la colección de revisiones.
-* Revisiones de cola para mostrar, mientras que la revisión del usuario se mantiene en la parte superior de la lista para su visualización.
+* Revisiones de cola para visualización, mientras se mantiene la Revisión del usuario en la parte superior de la lista para su vista.
 * Permita que los usuarios voten sobre la utilidad de las críticas y luego ordenen por la Clasificación más útil y/o la Clasificación más alta.
 * Interfaz compatible con dispositivos móviles.
 
