@@ -14,7 +14,7 @@ ht-degree: 2%
 ---
 
 
-# CollectionMeta Token{#collectionmeta-token}
+# Token de CollectionMeta{#collectionmeta-token}
 
 Cree un token único en el servidor que identifique cada colección que cree.
 
@@ -29,9 +29,9 @@ Livefyre asigna un identificador único a cada colección que cree. Livefyre asi
 | siteId | Cadena (opcional) | ID del sitio (disponible en [!UICONTROL Studio > Settings > Integration Settings > Credentials] ). Opcional cuando se utiliza la biblioteca para crear un token collectionMeta. |
 | siteKey | Cadena (opcional) | Clave secreta del sitio (disponible en [!UICONTROL Studio > Settings > Integration Settings > Credentials] ). |
 | articleId | Cadena (opcional) | Un ID exclusivo para la colección. |
-| title | Cadena (opcional) | Título que desea aplicar a la colección. Normalmente, esto corresponde al título de la página que muestra la aplicación. <br>Por ejemplo: &quot;¡La integración es tan divertida!&quot; <br>Nota:  La longitud máxima de caracteres del título es de 255 caracteres. El campo de título no admite entidades HTML. Codifique caracteres especiales con UTF-8. |
-| url | Cadena (opcional) | Dirección URL absoluta canónica que desea adjuntar a esta colección. Esta URL se utilizará para generar vínculos de regreso a la aplicación a partir de contenido compartido en Facebook y Twitter, notificaciones por correo electrónico y Livefyre Studio. <br>Nota:  Si realiza pruebas localmente, utilice un dominio de URL base válido (por ejemplo: válido: `https://customer.com`; no válido: `https://localhost:5995`). |
-| etiquetas | Cadena (opcional) | Lista separada por comas de palabras clave o frases únicas. Buscar colecciones por etiquetas mediante Studio.  </br>Nota:  Las etiquetas no pueden contener espacios. Utilice caracteres de subrayado si desea que aparezca un espacio en la interfaz de usuario. |
+| title | Cadena (opcional) | Título que desea aplicar a la colección. Normalmente, esto corresponde al título de la página que muestra la aplicación. <br>Por ejemplo: &quot;¡La integración es tan divertida!&quot; <br>Nota: La longitud máxima de caracteres del título es de 255 caracteres. El campo de título no admite entidades HTML. Codifique caracteres especiales con UTF-8. |
+| url | Cadena (opcional) | Dirección URL absoluta canónica que desea adjuntar a esta colección. Esta URL se utilizará para generar vínculos de regreso a la aplicación a partir de contenido compartido en Facebook y Twitter, notificaciones por correo electrónico y Livefyre Studio. <br>Nota: Si realiza pruebas localmente, utilice un dominio de URL base válido (por ejemplo: válido:  `https://customer.com`; no válido:  `https://localhost:5995`). |
+| etiquetas | Cadena (opcional) | Lista separada por comas de palabras clave o frases únicas. Buscar colecciones por etiquetas mediante Studio.  </br>Nota: Las etiquetas no pueden contener espacios. Utilice caracteres de subrayado si desea que aparezca un espacio en la interfaz de usuario. |
 | extensiones | JSON (opcional) | Conjunto de parámetros con formato JSON para pasarlos a la colección. |
 
 ## Java {#section_orz_m4n_sz}
