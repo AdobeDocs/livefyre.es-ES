@@ -7,6 +7,9 @@ title: Permalinks
 uuid: 40ef30ec-dc3e-47fe-87a9-f9073cd4c4ff
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
@@ -21,13 +24,13 @@ Los enlaces permanentes le permiten vincular a comentarios archivados o contenid
 
 Si los usuarios hacen clic en un vínculo permanente desde una red social a una aplicación de contenido de Livefyre, se les dirigirá al flujo de contenido de Livefyre. El contenido se mostrará en una vista de grupo de trabajo del flujo, justo debajo del editor, y se mostrará el contexto completo. Debajo del avatar se mostrará una línea azul para el contenido con hipervínculo permanente. (Esta línea azul desaparecerá después de unos segundos).
 
-(Si se elimina el contenido con permisos, en la vista de grupo de trabajo se mostrará un mensaje a ese efecto).
+(Si se elimina el contenido con permisos, en la vista de grupo de trabajo se mostrará un mensaje con ese fin).
 
-## Vínculos de permisos personalizados {#section_uyn_5wg_wy}
+## Vínculos personalizados de permisos {#section_uyn_5wg_wy}
 
 Si desea crear vínculos de permisos personalizados para comentarios al compartir conversaciones, puede usar su cuenta de Bitly en lugar de la URL abreviada de Livefyre estándar (fyre.it). El uso de su cuenta de Bitly ayudará a recordar a los usuarios que visitarán el contenido del sitio al hacer clic en un vínculo permanente.
 
-Para implementar esta función, vaya a **[!UICONTROL Studio > Settings > Integration Settings > Social Sharing]** y escriba su clave de API de Bitly y su nombre de usuario.
+Para implementar esta función, vaya a **[!UICONTROL Studio > Settings > Integration Settings > Social Sharing]** e introduzca su clave de API de Bitly y su nombre de usuario.
 
 >[!NOTE]
 >
