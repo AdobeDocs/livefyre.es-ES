@@ -1,17 +1,20 @@
 ---
-description: Utilice Bootstrap y Stream API con Livefyre Apps.
-seo-description: Utilice Bootstrap y Stream API con Livefyre Apps.
-seo-title: Uso de Bootstrap y Stream API con aplicaciones de Livefyre
+description: Utilice la API de flujo y Bootstrap con las aplicaciones de Livefyre.
+seo-description: Utilice la API de flujo y Bootstrap con las aplicaciones de Livefyre.
+seo-title: Uso de la API de flujo y Bootstrap con las aplicaciones de Livefyre
 solution: Experience Manager
 title: Visualización de los detalles de la cuenta
 uuid: bace558f-ade8-49d6-abda-9ee754ce4ac0
 translation-type: tm+mt
 source-git-commit: d615705ccf5e4511cc735ce91d95c3e15d0c0160
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 0%
 
 ---
 
 
-# Uso de Bootstrap y Stream API con aplicaciones de Livefyre {#bootstrap-stream-api}
+# Usar la API de flujo y Bootstrap con las aplicaciones de Livefyre {#bootstrap-stream-api}
 
 ## API de Bootstrap {#bootstrap-api}
 
@@ -23,21 +26,21 @@ Bootstrap es todo contenido de una aplicación de Livefyre. Son los datos almace
 
 [Solicitud de ejemplo](https://data.livefyre.com/bs3/v3.1/dharam.fyre.co/384931/NTU1NQ==/init)
 
-La solicitud de ejemplo anterior carga la `init` página que contiene la configuración de la colección y el único conjunto inicial de ~50 fragmentos de contenido más reciente. Para sondear el contenido anterior, debe cargar las páginas de arranque subsiguientes con `N` el número de página:
+La solicitud de ejemplo anterior carga la página `init` que contiene la configuración de la colección y el único conjunto inicial de ~50 fragmentos de contenido más reciente. Para sondear contenido antiguo, debe cargar las páginas de arranque subsiguientes con `N` como número de página:
 
 Solicitud: `https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/{b64articleId}/N.json`
 
-Por ejemplo, una aplicación de ejemplo tiene 120 fragmentos de contenido. El contenido "1" es el contenido más antiguo y el contenido "70" es el contenido más reciente.
+Por ejemplo, una aplicación de ejemplo tiene 120 fragmentos de contenido. El contenido &quot;1&quot; es el contenido más antiguo y el contenido &quot;70&quot; es el contenido más reciente.
 
-* `Init` cargará ~120-70 fragmentos de contenido en orden descendente: [https://data.livefyre.com/bs3/v3.1/dharam.fyre.co/384931/NTU1NQ==/init](https://data.livefyre.com/bs3/v3.1/dharam.fyre.co/384931/NTU1NQ==/init)
+* `Init` cargará ~120-70 fragmentos de contenido en orden descendente:  [https://data.livefyre.com/bs3/v3.1/dharam.fyre.co/384931/NTU1NQ==/init](https://data.livefyre.com/bs3/v3.1/dharam.fyre.co/384931/NTU1NQ==/init)
 
-* `O.json` cargará ~ 1-50 fragmentos de contenido en orden ascendente: [https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/0.json](https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/0.json)
+* `O.json` cargará ~ 1-50 fragmentos de contenido en orden ascendente:  [https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/0.json](https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/0.json)
 
-* `1.json` cargará entre 51 y 100 fragmentos de contenido en orden ascendente: [https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/1.json](https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/1.json)
+* `1.json` cargará entre 51 y 100 fragmentos de contenido en orden ascendente:  [https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/1.json](https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/1.json)
 
 * `2.json` cargará ~101-120 fragmentos de contenido en orden ascendente:[https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/2.json](https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/2.json)
 
-[Haga clic aquí para ver el diagrama de flujo de encuesta de Bootstrap.](https://marketing-resource-help.s3.amazonaws.com/resources/help/en_US/livefyre/bootstrap-poll-flowchart.pdf)
+[Haga clic aquí para ver el diagrama de flujo de la encuesta Bootstrap.](https://marketing-resource-help.s3.amazonaws.com/resources/help/en_US/livefyre/bootstrap-poll-flowchart.pdf)
 
 ## API de flujo {#stream-api}
 
@@ -54,20 +57,20 @@ Ejemplo de solicitud:
 
 `{"timeout":true,"parked":true,"h":"ct245.dsr.livefyre.com"}`
 
-Tenga en cuenta: La `maxEventId` respuesta de una API de flujo es el ID de evento más alto de las actualizaciones en esta respuesta. Utilice este valor como parámetro de `lastEventId` ruta al crear la URL de la siguiente solicitud de API de flujo para obtener actualizaciones que se produzcan después de todas las actualizaciones de esta respuesta.
+Tenga en cuenta: La `maxEventId` en una respuesta de API de flujo es el ID de Evento más alto de las actualizaciones en esta respuesta. Utilice este valor como parámetro de ruta `lastEventId` al generar la dirección URL de la siguiente solicitud de API de flujo para obtener actualizaciones que se produzcan después de todas las actualizaciones de esta respuesta.
 
 El ejemplo siguiente se basa en una aplicación de comentarios:
 
-El comentario "Primer comentario" se publicó primero. "Segundo comentario" se publicó después.
+El comentario &quot;Primer comentario&quot; se publicó primero. &quot;Segundo comentario&quot; se publicó después.
 
 Primera respuesta de API de flujo de comentarios:
 
 `{"timeout":true,"parked":true,"h":"ct239.dsr.livefyre.com"}`
 
-La `maxEventId` en la respuesta es "1520289700953369", que se utilizará `lastEventId` para sondear el punto final para obtener actualizaciones (es decir, segundo comentario) después de todas las actualizaciones en esta respuesta.
+El `maxEventId` de la respuesta es &quot;1520289700953369&quot;, que se utilizará como `lastEventId` para sondear el extremo y obtener actualizaciones (es decir, segundo comentario) después de todas las actualizaciones de esta respuesta.
 
 Segunda respuesta de API de flujo de comentarios:
 
 `{"timeout":true,"parked":true,"h":"ct239.dsr.livefyre.com"}`
 
-El `maxEventID` "1520289700953369" de la respuesta debe utilizarse a su vez como `lastEventID` para generar la respuesta de API de flujo para la siguiente actualización.
+El `maxEventID` &quot;1520289700953369&quot; de la respuesta debe utilizarse como `lastEventID` para generar la respuesta de la API de flujo para la siguiente actualización.
