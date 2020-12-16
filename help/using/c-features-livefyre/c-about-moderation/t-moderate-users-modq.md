@@ -38,4 +38,4 @@ Se muestra la siguiente información (si está disponible) para cada uno de los 
 * **[!UICONTROL Bans]**:: Sitios de listas para los que el usuario ha sido prohibido o Bozo’d.
 * **[!UICONTROL Whitelists]**:: listas de sitios para los que se ha permitido la inclusión del usuario.
 
-Para obtener más información sobre cómo puede moderar usuarios en la ficha Contenido de la aplicación, consulte [Moderar con contenido](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content)de la aplicación.
+Para obtener más información sobre cómo puede moderar usuarios en la ficha Contenido de la aplicación, consulte [Moderar con contenido de la aplicación](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content).
