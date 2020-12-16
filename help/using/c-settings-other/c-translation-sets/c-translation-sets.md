@@ -7,6 +7,9 @@ title: Conjuntos de traducción
 uuid: 88b705e5-57c8-4065-8a41-a73546bd929a
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '1347'
+ht-degree: 7%
 
 ---
 
@@ -25,16 +28,23 @@ Especifique un conjunto de traducción para una red, sitio, aplicación o median
 
 Los conjuntos de traducción en diferentes niveles se anulan entre sí siguiendo este patrón:
 
-El conjunto de traducción de API anula todos los conjuntos de traducción a cualquier nivel (aplicación, red y sitio)El conjunto de traducción de aplicaciones anula los conjuntos de traducción a nivel de red y de sitio.
+El conjunto de traducción de API anula todos los conjuntos de traducción en cualquier nivel (aplicación, red y sitio)
+El conjunto de traducción de aplicaciones anula los conjuntos de traducción a nivel de red y de sitio.
 Los conjuntos de traducción a nivel de sitio anulan los conjuntos de traducción a nivel de red.
 
 ## Revisar cadenas de texto {#c_review_text_strings}
 
 Personalización de las cadenas de texto para Livefyre Reviews.
 
-Esta página enumera y describe las cadenas disponibles para la personalización en las aplicaciones de revisión. Las cadenas que se muestran aquí se suman a las cadenas predeterminadas de las aplicaciones principales de Livefyre y se anulan, enumeradas en Personalizaciones de cadenas. En los casos en que se muestran duplicados, las cadenas que aparecen en estas tablas son las predeterminadas para las aplicaciones de críticas.
+Esta página lista y describe las cadenas disponibles para la personalización en las aplicaciones de revisión. Las cadenas que se muestran aquí se suman a las cadenas predeterminadas de las aplicaciones principales de Livefyre y se anulan, enumeradas en Personalizaciones de cadenas. Donde se muestran los duplicados, las cadenas que aparecen en estas tablas son las predeterminadas para las aplicaciones de críticas.
 
-ImplementaciónRevisar / Interfaz de clasificaciónInformación de flujoAutor / Información de contenido Acciones de usuario Funciones de anuncioErrores
+Implementación
+Interfaz de revisión y clasificación
+Información de flujo
+Información de autor/contenido
+Acciones del usuario
+Funciones de anuncio
+Errores
 
 ## Implementación {#section-vsy-1k4-xz}
 
@@ -53,7 +63,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## Interfaz de revisión y clasificación {#section_iyv_zj4_xz}
+## Interfaz de clasificación/revisión {#section_iyv_zj4_xz}
 
 Cadenas disponibles para la interfaz de usuario Revisar y clasificar.
 
@@ -82,7 +92,7 @@ Cadenas disponibles para la información y visualización del flujo de contenido
 
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
-| Clasificación |  sortBy | *En blanco de forma predeterminada.* |
+| Clasificación | sortBy | *En blanco de forma predeterminada.* |
 |  | sortHighestRated | [Clasificación más alta](https://d.pr/i/huTd) |
 |  | sortLowestRated | [Clasificación más baja](https://d.pr/i/huTd) |
 |  | sortMostHelpful | [Más útil](https://d.pr/i/huTd) |
@@ -163,26 +173,33 @@ Cadenas disponibles para mensajes de error generales.
 |  | errorFieldRating | clasificación por estrellas |
 |  | errorFieldReview | revisión |
 |  | errorFieldTitle | title |
-|  | errorMaxChars | Lo sentimos, tu revisión es demasiado larga. Edite e inténtelo nuevamente. |
+|  | errorMaxChars | Lo sentimos, tu revisión es demasiado larga. Edite e inténtelo de nuevo. |
 |  | errorMissingFields | Escriba un |
 |  | errorRatingEmpty | No se puede enviar una clasificación vacía |
 |  | errorRatingNotSet | Todas las clasificaciones deben configurarse |
 |  | errorRatingNotvalid | La clasificación debe ser un objeto |
-|  | errorShowMore | Error al cargar más revisiones. |
-|  | errorTitleMaxChars | Lo siento, tu título es demasiado largo. Edite e inténtelo nuevamente. |
+|  | errorShowMore | Se produjo un error al cargar más revisiones. |
+|  | errorTitleMaxChars | Lo siento, tu título es demasiado largo. Edite e inténtelo de nuevo. |
 |  | errorVoteOwnComment | No puede votar por su propia revisión |
 
 ## Identifica cadenas de texto {#c_sidenotes_text_strings}
 
 Personalización de las cadenas de texto para Livefyre Sidenotes
 
-Esta página enumera y describe todas las cadenas disponibles para la personalización en las aplicaciones de Sidenotes. Para obtener información sobre las cadenas disponibles para las aplicaciones principales de Livefyre, consulte Personalizaciones de cadenas.
+Esta página lista y describe todas las cadenas disponibles para la personalización en las aplicaciones de Sidenotes. Para obtener información sobre las cadenas disponibles para las aplicaciones principales de Livefyre, consulte Personalizaciones de cadenas.
 
-ImplementationAuthStream InfoAuthor / Content InfoAcciones de usuario Funciones de anuncioInterfaz de moderadorErrores
+Implementación
+Auth
+Información de flujo
+Información de autor/contenido
+Acciones del usuario
+Funciones de anuncio
+Interfaz del moderador
+Errores
 
 ## Implementación {#section_wp2_ql4_xz}
 
-Para implementar esta función, pase una asignación de objetos 1-1 de las cadenas que desee reemplazar al objeto de configuración de Javascript. Si no proporciona un campo, se utilizará el texto predeterminado.
+Para implementar esta función, pase una asignación de objetos 1-1 de las cadenas que desee reemplazar al objeto de configuración de Javascript. Si no se proporciona un campo, se utilizará el texto predeterminado.
 
 Ejemplo:
 
@@ -235,9 +252,9 @@ Las cadenas están disponibles para la información de contenido individual y de
 |  | commentVoteCount | votes |
 |  | commentVoteCountSing | voto |
 |  | datetimeMinutePrefix | m |
-|  | datetimeMonths | Una matriz. Default =[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ] |
-|  | questionExplanation | Ahora puede leer y escribir comentarios directamente sobre oraciones, párrafos, imágenes y comillas.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Resalte el texto</span> y haga clic en el <span class="&rdquo;fycon-write&rdquo;"></span> icono o haga clic en el <span class="&rdquo;fycon-action-view&rdquo;"></span> icono al final de cada párrafo. |
-|  | questionMockText | Lo que es "conocido familiar" no se conoce correctamente, sólo por la razón de que es "familiar". |
+|  | datetimeMonths | Una matriz. Predeterminado =[ ‘enero’, ‘febrero’, ‘marzo’, ‘abril’, ‘mayo’, ‘junio’, ‘julio’, ‘agosto’, ‘septiembre’, ‘octubre’, ‘noviembre’, ‘diciembre’ ] |
+|  | questionExplanation | Ahora puede leer y escribir comentarios directamente sobre oraciones, párrafos, imágenes y comillas.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Resalte </span> el texto y haga clic en el  <span class="&rdquo;fycon-write&rdquo;"></span> icono o en el  <span class="&rdquo;fycon-action-view&rdquo;"></span> icono al final de cada párrafo. |
+|  | questionMockText | Lo que es &quot;conocido familiar&quot; no se conoce correctamente, sólo por la razón de que es &quot;familiar&quot;. |
 |  | questionTitle | ¿Qué es un Sidenote? |
 
 ## Acciones del usuario {#section_qxd_fl4_xz}
@@ -256,7 +273,7 @@ Cadenas disponibles para acciones de usuario: marcar, compartir y indicar que gu
 |  | menuFlagOptionOffTopic | Desactivar tema |
 |  | menuFlagOptionSpam | Correo no deseado |
 |  | menuFlagTitle | Marcar como... |
-|  | facebookShareCaption | Identifica las notas en "{title}" |
+|  | facebookShareCaption | Identifica las notas en &quot;{title}&quot; |
 | Opciones de usuario móvil | sliderCommentTally | of |
 |  | sliderInviteRead | Leído |
 |  | sliderInviteWrite | Escritura |
