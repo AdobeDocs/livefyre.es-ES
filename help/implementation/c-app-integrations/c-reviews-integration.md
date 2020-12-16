@@ -1,19 +1,22 @@
 ---
-description: Permite a los clientes clasificar y revisar las ofertas de productos.
-seo-description: Permite a los clientes clasificar y revisar las ofertas de productos.
+description: Permite a los clientes valorar y revisar las ofertas de productos.
+seo-description: Permite a los clientes valorar y revisar las ofertas de productos.
 seo-title: Reseñas
 solution: Experience Manager
 title: Reseñas
 uuid: b740ee28-f6f9-4ae7-9fe7-61a5cde97bbb
 translation-type: tm+mt
 source-git-commit: 987e682f9c7cd94543fd269f386fd2a971ee9934
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 0%
 
 ---
 
 
-# Reseñas {#reviews}
+# Revisiones {#reviews}
 
-Permite a los clientes clasificar y revisar las ofertas de productos.
+Permite a los clientes valorar y revisar las ofertas de productos.
 
 Las críticas permiten a los miembros de su comunidad contribuir con clasificaciones de estrella y revisiones cualitativas de cualquier producto o servicio.
 
@@ -48,7 +51,7 @@ Livefyre.require(['fyre.conv#3'], function (Review) {
 });
 ```
 
-Como se indica en la sección Generación `CollectionMeta` , `CollectionMeta` es un objeto JSON codificado. En el ejemplo anterior, el objeto JSON adopta el siguiente formato antes de codificarse en JWT:
+Como se indica en la sección Generación `CollectionMeta`, `CollectionMeta` es un objeto JSON codificado. En el ejemplo anterior, el objeto JSON adopta el siguiente formato antes de codificarse en JWT:
 
 ```
 { 
@@ -62,42 +65,42 @@ Como se indica en la sección Generación `CollectionMeta` , `CollectionMeta` es
 
 ## convConfig (objeto) {#section_pzv_ytb_c1b}
 
-Si ya ha completado la sección Introducción, debe estar familiarizado con el objeto convConfig. Para habilitar las revisiones, actualice la convConfig con los campos siguientes:
+Si ya ha completado la sección Introducción, debe estar familiarizado con el objeto convConfig. Para habilitar las revisiones, actualice la variable convConfig con los campos siguientes:
 
-* **alwaysShowEditor** booleano *opcional* : De forma predeterminada, el editor de revisiones solo aparece después de que el usuario pulse el botón "escribir revisión". Establezca este parámetro en true para mostrar siempre el editor.
+* **** ** alwaysShowEditoroptionalboolean: De forma predeterminada, el editor de revisiones solo aparece después de que el usuario pulse el botón &quot;escribir revisión&quot;. Establezca este parámetro en true para mostrar siempre el editor.
 
-* **cadena** necesaria *para la aplicación* : El nombre de la aplicación que se va a usar para las revisiones. Debe ser "revisiones".
+* **** ** apprequiredstring: El nombre de la aplicación que se va a usar para las revisiones. Debe ser &quot;revisiones&quot;.
 
-* **defaultSort** , cadena *opcional* : Permite seleccionar la opción de ordenación predeterminada para las revisiones. Los valores posibles son: mostHelpful, highRated, lowRated, newest y older.
+* **** ** defaultSortoptionalstring: Permite seleccionar la opción de ordenación predeterminada para las revisiones. Los valores posibles son: mostHelpful, highRated, lowRated, newest y older.
 
-* **disableTitle** booleano *opcional* : Deshabilita y oculta el campo de título en el editor de revisiones, que es obligatorio y visible de forma predeterminada. El valor predeterminado es true.
+* **** ** disableTitleoptionalboolean: Deshabilita y oculta el campo de título en el editor de revisiones, que es obligatorio y visible de forma predeterminada. El valor predeterminado es true.
 
-* **enableHalfRating** booleano *opcional* : Se utiliza para habilitar las clasificaciones medias en el módulo de selección de estrella predeterminado. El valor predeterminado es true.
+* **** ** enableHalfRatingoptionalboolean: Se utiliza para habilitar las clasificaciones medias en el módulo de selección de estrella predeterminado. El valor predeterminado es true.
 
-* **hideShowReviewButton** booleano *opcional* : Controla si se mostrará el [!UICONTROL Show My Review] botón. Establezca en true para permitir a los usuarios seleccionar si mostrar o mostrar sus propias revisiones.
+* **** ** hideShowReviewButtonoptionalboolean: Controla si se mostrará el  [!UICONTROL Show My Review] botón. Establezca en true para permitir que los usuarios seleccionen si mostrar o mostrar sus propias revisiones.
 
-* **maxRating** entero *opcional* Se utiliza para establecer el número de estrellas que se muestran en el módulo de selección de estrella predeterminado. El valor predeterminado es 5. Se puede configurar hasta 100.
+* **** ** maxRatingoptionalinteger Se utiliza para establecer el número de estrellas que se muestran en el módulo de selección de estrella predeterminado. El valor predeterminado es 5. Se puede configurar hasta 100.
 
-* **ratingSummaryEnabled** booleano *opcional* : Se utiliza para mostrar la vista de resumen de clasificación sobre la aplicación de críticas. Debe habilitarse para utilizar ratingSummaryDelegate. El valor predeterminado es true.
+* **** ** ratingSummaryEnabled optionalboolean: Se utiliza para mostrar la vista de resumen de clasificación sobre la aplicación de críticas. Debe habilitarse para utilizar ratingSummaryDelegate. El valor predeterminado es true.
 
 ## Revisar metadatos de colección {#section_k1s_sqb_c1b}
 
-* **** type: cadena *requerida* : Define el tipo de colección. Debe ser `reviews`.
+* **type:** ** required string: Define el tipo de colección. Debe ser `reviews`.
 
-* **array** opcional *ratingDimensions* : Matriz de cadenas para cada tipo de dimensión que usará esta colección. Si no se especifica, solo se permitirá 1 dimensión.
+* **** ** ratingDimensionsoptionalarray: Matriz de cadenas para cada tipo de dimensión que usará esta colección. Si no se especifica esto, solo se permitirá 1 dimensión.
 
    Por ejemplo, para permitir que los usuarios califiquen su producto en ‘diseño’, ‘características’ y ‘rendimiento’, establezca la matriz en: `ratingDimensions: [‘design’, ‘features’, ‘performance’]`
 
-* **ratingSubparts** entero *opcional* : Número de particiones que se mostrarán en el cuadro de texto de la revisión. Las etiquetas de subparte se pasan con el parámetro como se ilustra a continuación.
+* **** ** ratingSubpartsoptionalinteger: Número de particiones que se mostrarán en el cuadro de texto de la revisión. Las etiquetas de subparte se pasan con el parámetro como se ilustra a continuación.
 
    >[!NOTE]
    >Debe definir etiquetas para cada subparte.
 
-* **ratingSubpartsIds** matriz *opcional* : Permite definir un ID para cada subparte de la colección Clasificaciones, que se puede utilizar para dirigirse a estos elementos de subparte en su CSS y JavaScript. Cuando los usuarios publican revisiones, cada uno `ratingSubpart` tendrá el atributo " `data-lf-subpart-id`", rellenado con este ID.
+* **** ** clasificaciónSubpartesMatriz opcional: Permite definir un ID para cada subparte de la colección Clasificaciones, que se puede utilizar para el destinatario de estos elementos de subparte en el CSS y JavaScript. Cuando los usuarios publican revisiones, cada `ratingSubpart` tendrá el atributo &quot;`data-lf-subpart-id`&quot;, rellenado con este ID.
 
 >[!NOTE]
 >
->Para utilizarlo `ratingSubpartsIds`, también se debe definir el `ratingSubparts` parámetro y la longitud de las dos matrices debe coincidir.
+>Para utilizar `ratingSubpartsIds`, también se debe definir el parámetro `ratingSubparts` y debe coincidir la longitud de las dos matrices.
 
 ```
 networkConfig["strings"] = { 
@@ -115,26 +118,26 @@ fyre.conv.load(networkConfig, [{
 
 >[!NOTE]
 >
->Si está utilizando `ratingDimensions`, DEBE utilizar el `ratingSelectionDelegate`, `ratingDisplayDelegate`y `ratingSummaryDelegate` (si desea mostrar el resumen de clasificación).
+>Si está utilizando `ratingDimensions`, DEBE utilizar `ratingSelectionDelegate`, `ratingDisplayDelegate` y `ratingSummaryDelegate` (si desea mostrar el resumen de clasificación).
 
-## Personalización de revisiones {#section_khz_xmb_c1b}
+## Revisa la personalización {#section_khz_xmb_c1b}
 
 ### Configurar imágenes de estrella
 
-Para cambiar la imagen de estrellas completas, la clase es `goog-ratings-star`. Cambie la imagen de fondo a la imagen que desee. De forma predeterminada, las estrellas son 28 x 28 píxeles.
+Para cambiar la imagen de las estrellas completas, la clase es `goog-ratings-star`. Cambie la imagen de fondo a la imagen que desee. De forma predeterminada, las estrellas son 28 x 28 píxeles.
 
 ### Configurar imágenes de estrella con medias estrellas
 
-Con media estrella, hay dos clases, una para cada lado de la estrella. El lado izquierdo de la media estrella es `fyre-rating-half-odd` y el derecho es `fyre-rating-half-even`. De forma predeterminada, las estrellas medias son 28 x 14 píxeles.
+Con media estrella, hay dos clases, una para cada lado de la estrella. El lado izquierdo de la media estrella es `fyre-rating-half-odd` y el lado derecho es `fyre-rating-half-even`. De forma predeterminada, las estrellas medias son de 28 x 14 píxeles.
 
 ### Configuración de los valores de información de objeto para las estrellas
 
-Para configurar los valores de información de objeto para las estrellas, siga el texto personalizado descrito en Personalizaciones de cadena. Una vez configurada, utilice la clave `ratingValues` y el valor de una matriz que contenga las cadenas de información sobre herramientas. Si tiene desactivadas las dos estrellas, el número de elementos de la matriz debe ser el mismo que `maxRating` (arriba). Si tiene las mitad de estrellas activadas, el número de elementos debe ser 2x `maxRating`. El primer elemento de la matriz corresponde al elemento de estrella (o media estrella) situado más a la izquierda y continúa de izquierda a derecha.
+Para configurar los valores de información de objeto para las estrellas, siga el texto personalizado descrito en Personalizaciones de cadena. Una vez configurada la configuración, utilice la clave `ratingValues` y el valor de una matriz que contenga las cadenas de información sobre herramientas. Si tiene desactivadas las dos estrellas, el número de elementos en la matriz debe ser el mismo que `maxRating` (arriba). Si tiene habilitadas las medias estrellas, el número de elementos debe ser 2x `maxRating`. El primer elemento de la matriz corresponde al elemento de estrella (o media estrella) situado más a la izquierda y continúa de izquierda a derecha.
 
-### Alternar la opción 'Mostrar mi revisión'
+### Alternar la opción &#39;Mostrar mi revisión&#39;
 
-Para activar o desactivar la [!UICONTROL Show My Review] opción, establezca como objetivo el `hideShowReviewButton` parámetro en la configuración de la aplicación.
+Para activar o desactivar la opción [!UICONTROL Show My Review], destinatario el parámetro `hideShowReviewButton` en la configuración de la aplicación.
 
 ### Mostrar el Editor de texto de forma predeterminada
 
-El editor de revisiones solo aparece después de que el usuario presione el [!UICONTROL write review] botón. Para mostrar este formulario de forma predeterminada, dirija el `alwaysShowEditor` parámetro en la configuración de la aplicación.
+El editor de revisiones solo aparece después de que el usuario presione el botón [!UICONTROL write review]. Para mostrar este formulario de forma predeterminada, destinatario el parámetro `alwaysShowEditor` en la configuración de la aplicación.
