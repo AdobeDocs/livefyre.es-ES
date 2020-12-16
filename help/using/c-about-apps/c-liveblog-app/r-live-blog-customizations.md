@@ -7,11 +7,14 @@ title: Personalizaciones de blogs en directo
 uuid: f07d4c33-4aef-4d69-b9dd-3fd3c27ffd6d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 0%
 
 ---
 
 
-# Personalizaciones de blogs en directo{#live-blog-customizations}
+# Personalizaciones del blog en directo{#live-blog-customizations}
 
 Personalice el estilo y la forma en que se muestran los comentarios en su blog en directo.
 
@@ -25,7 +28,7 @@ Utilice Live Blog para publicar actualizaciones en tiempo real de historias en c
 
 * **[!UICONTROL Comments appear in cards]**
 
-   Si está activada, las publicaciones se mostrarán con un cuadro que las rodea y con el color de fondo que dicta la selección de **tema** aplicada.
+   Si está habilitada, las publicaciones se mostrarán con un cuadro que las rodea y se aplicará el color de fondo que dicta la selección **Tema**.
 
 * **[!UICONTROL Nest levels for replies]**
 
@@ -57,11 +60,11 @@ Utilice Live Blog para publicar actualizaciones en tiempo real de historias en c
 
 * **[!UICONTROL Users may share comments]**
 
-   Si está habilitado, los usuarios pueden compartir contenido publicado en Twitter, Facebook o LinkedIn. Para obtener más información sobre cómo habilitar el uso compartido, consulte Configuración &gt; Configuración de integración &gt; Compartir en redes sociales.
+   Si está habilitado, los usuarios pueden compartir contenido publicado en Twitter, Facebook o LinkedIn. Para obtener más información sobre cómo habilitar el uso compartido, consulte Configuración > Configuración de integración > Compartir en redes sociales.
 
 Puede personalizar Live Blog mediante:
 
-* **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de la **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de la **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** y  **[!UICONTROL Config]** opciones para todas las aplicaciones de la  **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones en **[!UICONTROL App Designer]**.
 
 * Herramientas de integración. Consulte Live Blog para obtener más información sobre cómo personalizar aplicaciones mediante las herramientas de integración.
 
