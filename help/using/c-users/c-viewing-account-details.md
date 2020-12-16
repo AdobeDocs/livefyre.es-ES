@@ -32,7 +32,7 @@ La página Perfil proporciona información de la cuenta de usuario, incluida la 
 
 Añada las etiquetas de usuario en cuentas para buscar más fácilmente usuarios etiquetados y para diferenciar de forma estilística el contenido de los usuarios etiquetados de los de otros usuarios del sitio.
 
-Para obtener más información sobre el uso de etiquetas de usuario para aplicar un estilo diferente al contenido del usuario que a otro contenido del sitio, consulte **[!UICONTROL App Customizations > Style User Group Content]**.
+Para obtener más información sobre el uso de etiquetas de usuario para aplicar un estilo al contenido del usuario distinto al de otro contenido del sitio, consulte **[!UICONTROL App Customizations > Style User Group Content]**.
 
 >[!NOTE]
 >
@@ -44,11 +44,11 @@ La sección Estado lista cualquier prohibición o lista blanca asociada con la c
 
 ## Prohibir usuarios {#section_l5b_5gr_vdb}
 
-Si un usuario publica comentarios inapropiados o no deseados en un artículo o en todo el sitio, puede optar por prohibir al usuario en la red. Una vez prohibido, todo el contenido publicado por el usuario se establecerá automáticamente en el estado de ***Bozo*** y solo será visible para el usuario que lo publica. Los usuarios prohibidos pueden iniciar sesión en el flujo, publicar comentarios y realizar vistas de su contenido en la aplicación. Los usuarios prohibidos creerán que siguen siendo parte de la conversación. Sin embargo, ningún otro usuario del sitio podrá ver este contenido.
+Si un usuario publica comentarios inapropiados o no deseados en un artículo o en todo el sitio, puede elegir prohibir el acceso del usuario a la red. Una vez prohibido, todo el contenido publicado por el usuario se establecerá automáticamente en el estado ***Bozo*** y solo será visible para el usuario que lo publica. Los usuarios prohibidos pueden iniciar sesión en el flujo, publicar comentarios y realizar vistas de su contenido en la aplicación. Los usuarios prohibidos creerán que siguen siendo parte de la conversación. Sin embargo, ningún otro usuario del sitio podrá ver este contenido.
 
 Debido a que su contenido es ahora Bozo’d, los usuarios prohibidos pueden seguir publicando contenido inapropiado, pero ya no será visible para el resto de su comunidad.
 
-For more information, please see **[!UICONTROL Studio > App Content > Bozo Content]**.
+Para obtener más información, consulte **[!UICONTROL Studio > App Content > Bozo Content]**.
 
 ## Permitir nombres de usuarios {#section_kr4_ptp_vz}
 
