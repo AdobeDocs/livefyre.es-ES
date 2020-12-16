@@ -7,13 +7,16 @@ title: Contador social
 uuid: fa9aa1a8-6a04-4bc1-9bfe-e42c1250fd48
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 10%
 
 ---
 
 
 # Contador social{#social-counter}
 
-Cuenta el número de elementos sociales seleccionados. Para obtener una lista completa de los extremos disponibles, consulte la sección Referencia [de la](https://api.livefyre.com/docs) API de Livefyre.
+Cuenta el número de elementos sociales seleccionados. Para obtener una lista completa de los extremos disponibles, consulte la sección Livefyre [API Reference](https://api.livefyre.com/docs).
 
 La API de contador social devuelve recuentos de reglas de depuración coincidentes en una colección determinada para intervalos a lo largo de un período de tiempo.
 
@@ -33,18 +36,18 @@ API de contador social:
 GET https://{networkName}.bootstrap.fyre.co/api/v3.0/stats.collections.curate/{query}.json
 ```
 
-* **** networkName:El nombre de red proporcionado por Livefyre. Por ejemplo: *laboratorios* en `labs.fyre.co`.
-* **** consulta: El hash codificado de base64 seguro para url de todo el sitio, ID del artículo, tuplas de tipo de regla para las que se debe recuperar información de recuento (precodificado)
+* **networkName:** su nombre de red proporcionado por Livefyre. Por ejemplo: *labs* en `labs.fyre.co`.
+* **consulta:** el hash codificado base64 seguro para url de todo el sitio, ID del artículo, tupollas de tipo regla para las que se debe recuperar información de recuento (precodificado)
 
    ```
    {site ID}:{article ID};{rule-type},  {article ID};{rule-type}|{site ID}:{article ID};{rule-type}
    ```
 
    >[!NOTE]
-   >La consulta está limitada a 10 tutoriales de tipo regla, ID de artículo, sitio y sitio. (El ejemplo anterior contendría 3 tuplas).
+   >La consulta está limitada a 10 tuplas de tipo de regla, ID de artículo, sitio y sitio. (El ejemplo anterior contendría 3 tuplas).
 
-* **from** `(optional)` especifica el período de tiempo relativo o absoluto para el gráfico; from especifica el comienzo y el valor predeterminado es 24 horas atrás, si se omite.
-* **hasta** que `(optional)` especifique el período de tiempo relativo o absoluto para el gráfico; hasta especifica el principio y el valor predeterminado es la hora actual (ahora), si se omite.
+* **** `(optional)` form especifica el período de tiempo relativo o absoluto que se va a graficar; from especifica el comienzo y el valor predeterminado es 24 horas atrás, si se omite.
+* **** `(optional)` hasta la fecha especifica el período de tiempo relativo o absoluto que se va a graficar; hasta especifica el principio y el valor predeterminado es la hora actual (ahora), si se omite.
 
 ### Tiempo relativo
 
@@ -64,7 +67,7 @@ Ejemplo:
 https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2OnNvbWUtYXJ0aWNsZS1pZDsy.json&from=-7d&until=-6d
 ```
 
-## Hora absoluta {#section_xqr_jgc_11b}
+## Tiempo absoluto {#section_xqr_jgc_11b}
 
 FORMATO: HH:MM_YYYMMDD
 
@@ -90,7 +93,7 @@ https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2On
 
 Ejemplo:
 
-Para obtener recuentos a lo largo del último minuto para la ID del sitio `123456` y del artículo `some-article-id` y el tipo de regla `2`, por ejemplo: `123456:some-article-id;2:`
+Para obtener recuentos a lo largo del último minuto para el sitio `123456` y el ID de artículo `some-article-id` y el tipo de regla `2`, por ejemplo: `123456:some-article-id;2:`
 
 ```
 curl -XGET "https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2OnNvbWUtYXJ0aWNsZS1pZDsy.json&from=-1min" 
