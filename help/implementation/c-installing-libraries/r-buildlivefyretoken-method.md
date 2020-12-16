@@ -7,6 +7,9 @@ title: buildLivefyreToken Network (método)
 uuid: 7c72a05f-669b-4df3-8117-aa4af2f7a179
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ Devuelve un token de Livefyre válido cifrado que puede utilizarse para interact
 
 Devuelve un token de Livefyre válido cifrado que puede utilizarse para interactuar con otras API de Livefyre para la red desde la que se llama.
 
-De forma predeterminada, este token caduca en 24 horas desde el momento de su creación.
+De forma predeterminada, este token está configurado para caducar en 24 horas desde el momento de su creación.
 
 ## Ejemplo de Java {#section_nyl_ycs_rz}
 
