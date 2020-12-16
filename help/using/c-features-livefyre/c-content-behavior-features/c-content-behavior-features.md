@@ -1,19 +1,22 @@
 ---
-description: Livefyre ofrece funciones en las aplicaciones que le permiten elegir cómo ven el contenido de la aplicación los visitantes del sitio.
-seo-description: Livefyre ofrece funciones en las aplicaciones que le permiten elegir cómo ven el contenido de la aplicación los visitantes del sitio.
+description: Las ofertas de Livefyre incluyen funciones en las aplicaciones que le permiten elegir el modo en que el sitio visitante el contenido de la aplicación de vista.
+seo-description: Las ofertas de Livefyre incluyen funciones en las aplicaciones que le permiten elegir el modo en que el sitio visitante el contenido de la aplicación de vista.
 seo-title: Funciones de comportamiento del contenido
 solution: Experience Manager
 title: Funciones de comportamiento del contenido
 uuid: 4a1c6d6e-8785-49e8-aaf5-6fa4576d7232
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '472'
+ht-degree: 2%
 
 ---
 
 
-# Funciones de comportamiento del contenido{#content-behavior-features}
+# Características del comportamiento del contenido{#content-behavior-features}
 
-Livefyre ofrece funciones en las aplicaciones que le permiten elegir cómo ven el contenido de la aplicación los visitantes del sitio.
+Las ofertas de Livefyre incluyen funciones en las aplicaciones que le permiten elegir el modo en que el sitio visitante el contenido de la aplicación de vista.
 
 ## Transmisión en tiempo real {#section_emd_syl_d1b}
 
@@ -33,7 +36,7 @@ Aplicaciones que utilizan esta función:
 
 ## Paginación {#section_mb5_lzl_d1b}
 
-Selección del número de fragmentos de contenido que se mostrarán en la aplicación. En algunas aplicaciones, puede elegir si desea utilizar el botón "mostrar más" o permitir el desplazamiento continuo por el contenido.
+Selección del número de fragmentos de contenido que se van a mostrar en la aplicación. En algunas aplicaciones, puede elegir si desea utilizar el botón &quot;mostrar más&quot; o permitir el desplazamiento continuo por el contenido.
 
 Aplicaciones que utilizan esta función:
 
@@ -43,7 +46,7 @@ Aplicaciones que utilizan esta función:
 * [Reseñas](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Notas de identidad](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 
-## Elementos que cargar {#section_q5w_mzl_d1b}
+## Elementos para cargar {#section_q5w_mzl_d1b}
 
 La capacidad de establecer el número inicial de elementos que se van a cargar al visualizar la aplicación.
 
@@ -71,12 +74,12 @@ Aplicaciones que utilizan esta función:
 
 Acelere el contenido mediante reglas inteligentes para controlar las conversaciones de alta velocidad.
 
-Utilice el contenido de aceleración para controlar los chats de alta velocidad, cuando la naturaleza en tiempo real del contenido sea importante. Cuando está activado, el contenido de aceleración reduce los flujos de contenido de alta velocidad y muestra solo el contenido que el sistema considera más "inteligente".
+Utilice el contenido de aceleración para controlar los chats de alta velocidad, cuando la naturaleza en tiempo real del contenido sea importante. Cuando está activado, el contenido de aceleración reduce los flujos de contenido de alta velocidad y muestra solo el contenido que el sistema considera más &quot;inteligente&quot;.
 
 Cuando esta función está habilitada:
 
-* Los usuarios ven su propio flujo de contenido en la página, ya que se considerará "contenido inteligente" para ese usuario.
-* Los usuarios pueden ver todo el contenido anterior al cargar o actualizar la página.
+* Los usuarios ven su propio flujo de contenido en la página, ya que se considerará &quot;contenido inteligente&quot; para ese usuario.
+* Los usuarios pueden realizar la vista de todo el contenido anterior al cargar o actualizar la página.
 * Los moderadores no experimentarán un flujo acelerado; ven toda la secuencia de contenido en.
 * Dado que el contenido generado por moderador se considera inteligente, siempre se transmitirá a la colección para todos los usuarios.
 
