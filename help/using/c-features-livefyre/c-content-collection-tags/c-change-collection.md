@@ -7,6 +7,9 @@ title: Cambiar colección
 uuid: 69bafcc7-c55e-47d6-bc79-b0db80fdf138
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ Utilice el Delegado de la colección de cambios para cambiar la colección que s
 
 Por ejemplo, al hacer clic en un vídeo o una fotografía de una galería se cargará una colección específica de esa selección, mientras que la dirección URL de la página no cambiará.
 
-Para cargar una de las tres colecciones desde una sola página de recuento [de](/help/implementation/c-advanced-topics/t-display-comment-count.md) comentarios:
+Para cargar una de las tres colecciones desde una sola página [recuento de comentarios](/help/implementation/c-advanced-topics/t-display-comment-count.md):
 
 ```
 <html> 
