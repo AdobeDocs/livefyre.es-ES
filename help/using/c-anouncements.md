@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Queremos proporcionarle una actualización sobre la dinámica cambiante del contenido generado por el usuario (UGC) y el impacto que esto está teniendo en el contenido de Facebook y Twitter del producto.
 
-El año pasado, Facebook dejó de utilizar la API de fuente pública. Hemos estado en conversaciones para tratar de encontrar un camino hacia adelante. Se nos ha pedido que eliminemos los datos de Facebook del producto Livefyre. Estamos cumpliendo con la solicitud de Facebook y Adobe está trabajando con rapidez para garantizar la protección de nuestros clientes.
+El año pasado, Facebook dejó de utilizar la API de fuente pública. Hemos estado en conversaciones para tratar de encontrar un camino hacia adelante. Se nos ha pedido que eliminemos los datos de Facebook del producto Livefyre. Estamos cumpliendo con la solicitud de Facebook y Adobe está trabajando rápidamente para garantizar que estamos protegiendo a nuestros clientes.
 
 Tenga en cuenta que el acceso al contenido nuevo y guardado de Facebook se eliminará durante las próximas semanas.
 
@@ -32,7 +32,7 @@ Este cambio no afecta al contenido de Instagram que seguirá siendo accesible en
 
 También queremos compartir que debido a la limitada demanda de los clientes de contenido en Twitter, el acceso a Twitter será eliminado de Livefyre el próximo 3 de mayo de 2012. Seguirá teniendo acceso completo al contenido de Twitter nuevo y guardado hasta esta fecha.
 
-Más allá de esto, todas las otras características, incluyendo Clasificaciones y críticas, Comentarios, Notas de identidad y Blogueo en vivo, seguirán estando disponibles. Adobe también seguirá proporcionando asistencia para la corrección de errores y actualizaciones de SO y seguridad.
+Más allá de esto, todas las otras características, incluyendo Clasificaciones y críticas, Comentarios, Notas de identidad y Blogueo en vivo, seguirán estando disponibles. Adobe también seguirá proporcionando soporte continuo para correcciones de errores y actualizaciones de SO y seguridad.
 
 ## 25 de octubre de 2019
 
@@ -48,7 +48,7 @@ Agradecemos mucho su paciencia durante este inesperado apagón.
 
 ## 7 de junio de 2019
 
-Nos complace informar que los flujos de Instagram y la búsqueda han sido restaurados en Livefyre. Puede reanudar la búsqueda social con contenido de Instagram y reanudar la transmisión de contenido de Instagram a carpetas y aplicaciones. Para volver a inicio del contenido de flujo continuo, deberá realizar los siguientes pasos:
+Nos complace informar que los flujos de Instagram y la búsqueda han sido restaurados en Livefyre. Puede reanudar la búsqueda social con contenido de Instagram y reanudar la transmisión de contenido de Instagram a carpetas y aplicaciones. Para volver a crear inicios en el contenido de flujo continuo, deberá realizar los siguientes pasos:
 * Iniciar sesión en Livefyre
 * Visite Configuración para volver a autorizar y actualizar los tokenes de acceso vinculados a su cuenta de negocios de Instagram
 * Espere de una a dos horas para que el contenido vuelva a transmitirse en inicio
@@ -81,36 +81,36 @@ Ya están activas dos funciones adicionales que abordan las obsoletas de la API 
 
 * **Supervisión automática de las respuestas de solicitudes de derechos de uso para búsquedas basadas en cuentas comerciales**
 
-   Facebook también eliminó la capacidad de socios como Adobe para enviar mensajes de solicitud de derechos desde Instagram en nombre de sus clientes, eliminando así la capacidad de administrar derechos de forma totalmente automatizada desde Livefyre. En mayo, entregamos la funcionalidad manual, cortar y pegar para ofrecer a los clientes la posibilidad de reanudar el seguimiento de aprobaciones de derechos de uso y mantener registros para la auditoría. A partir de hoy (solo para búsquedas basadas en cuentas comerciales), está disponible la capacidad de monitorear automáticamente las respuestas a solicitudes de derechos y actualizar el historial de actividades en Livefyre.
+   Facebook también eliminó la capacidad de socios como Adobe para enviar mensajes de solicitud de derechos desde Instagram en nombre de sus clientes, eliminando así la capacidad de administrar derechos completamente automatizados desde Livefyre. En mayo, entregamos la funcionalidad manual, cortar y pegar para ofrecer a los clientes la posibilidad de reanudar el seguimiento de aprobaciones de derechos de uso y mantener registros para la auditoría. A partir de hoy (solo para búsquedas basadas en cuentas comerciales), está disponible la capacidad de monitorear automáticamente las respuestas a solicitudes de derechos y actualizar el historial de actividades en Livefyre.
 
 ## 22 de junio de 2018 {#section_k1t_vmv_g2b}
 
 Nos complace anunciar que se ha restablecido la capacidad de buscar contenido de video en Instagram.
 
-## June 14, 2018 {#section_kk5_qpz_d2b}
+## 14 de junio de 2018 {#section_kk5_qpz_d2b}
 
 Lea las últimas actualizaciones sobre el estado de la funcionalidad relacionada con las desaprobaciones de la API de Instagram:
 
 * **Buscar y transmitir contenido desde cuentas comerciales**
 
-   Como se anunció a principios de mayo, la desaprobación de la API eliminó la capacidad de buscar cuentas personales de Instagram. Como alternativa, el equipo de Livefyre ha creado una funcionalidad que le permite buscar y transmitir contenido desde cuentas comerciales. Aunque el equipo de Livefyre ha completado este trabajo, su lanzamiento está pendiente de aprobación por parte de Facebook. Como tal, prevemos que esta funcionalidad estará disponible más adelante este verano y se lo notificaremos en cuanto esté activa.
+   Como se anunció a principios de mayo, la desaprobación de la API eliminó la capacidad de buscar cuentas personales de Instagram. Como alternativa, el equipo de Livefyre ha creado una funcionalidad que le permite buscar y transmitir contenido desde cuentas comerciales. Aunque el equipo de Livefyre ha completado este trabajo, su lanzamiento está pendiente de aprobación por parte de Facebook. Por lo tanto, prevemos que esta funcionalidad estará disponible a finales de este verano y se lo notificaremos en cuanto esté activa.
 
 * **Flujo de trabajo de solicitud de derechos de uso**
 
    El 24 de mayo, entregamos una solución manual en el flujo de trabajo de solicitud de derechos de uso para el contenido de Instagram. Seguimos trabajando en restaurar la funcionalidad que monitorea automáticamente la respuesta a su solicitud de derechos y actualiza el historial de actividades. Prevemos que esta funcionalidad estará disponible a finales de este verano y se lo notificaremos en cuanto esté activa.
 
-## May 24, 2018 {#section_xbk_wvd_ydb}
+## 24 de mayo de 2018 {#section_xbk_wvd_ydb}
 
 Ya está disponible la primera parte de dos actualizaciones del flujo de trabajo de solicitud de derechos de uso para el contenido de Instagram. Desde Contenido de la aplicación y la biblioteca, ahora puede copiar el mensaje de derechos de solicitud de Livefyre Studio y pegarlo en la publicación exacta de Instagram que desea utilizar. La capacidad de hacerlo en ModQ se entregará en una versión futura. Para el 14 de junio de 2018, restauraremos la funcionalidad que monitorea automáticamente la respuesta a su solicitud de derechos y actualiza el historial de actividades.
 
-Lea las notas [de la versión del 24](/help/using/c-rn/previous-rns/rn2018/c-rn-2018-may-24.md#c_rn) de mayo de 2018 para obtener más información e instrucciones sobre cómo utilizar esta capacidad.
+Lea las [notas de la versión](/help/using/c-rn/previous-rns/rn2018/c-rn-2018-may-24.md#c_rn) del 24 de mayo de 2018 para obtener más información e instrucciones sobre cómo utilizar esta capacidad.
 
-## May 17, 2018 {#section_hwb_1qz_wdb}
+## 17 de mayo de 2018 {#section_hwb_1qz_wdb}
 
 Nos complace informarle de que la capacidad de ejecutar las siguientes funciones de Instagram en Livefyre está disponible una vez más:
 
 * Publicar y guardar contenido de Instagram en carpetas y aplicaciones en la búsqueda social
-* Detalles de Vista de cada fragmento de contenido
+* Detalles de vista de cada fragmento de contenido
 * Realizar acciones de moderación en el nuevo contenido de Instagram en ModQ
 
 ## 7 mayo de 2018 {#section_dms_ypz_wdb}
@@ -127,7 +127,7 @@ Después de una análisis completa del sistema, aquí están las capacidades afe
 
 **Las siguientes funciones no están disponibles actualmente y se espera que estén disponibles para el 17 de mayo de 2018:**
 
-* Detalles de la Vista, guarde y publique contenido de Instagram en carpetas y aplicaciones en Social Search.
+* Detalles de la vista, guarde y publique contenido de Instagram en carpetas y aplicaciones en Social Search.
 * Realice acciones en el contenido de Instagram en ModQ.
 
 **Se espera que las fechas que se muestran a continuación ofrezcan soluciones alternativas para la siguiente funcionalidad:**
