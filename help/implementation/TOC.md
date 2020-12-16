@@ -128,7 +128,7 @@ ht-degree: 4%
    + [Cambiar el icono @mention](c-app-customizations/c-change-mention-icon.md)
    + [Resaltar contenido](c-app-customizations/c-highlight-content.md)
    + [Personalización de la marca de fecha y hora](c-app-customizations/c-date-time-stamp.md)
-   + Contenido de las funciones {#feature-content}
+   + Contenido de la función {#feature-content}
       + [Contenido de las funciones](c-app-customizations/t-feature-content.md)
       + [Activar contenido de presentación en Studio](c-app-customizations/t-enable-featuring-content-in-studio.md)
       + [Seleccione el contenido para la función desde una aplicación](c-app-customizations/t-select-content-to-feature.md)
@@ -162,8 +162,8 @@ ht-degree: 4%
 + Temas avanzados {#advanced-topics}
    + [Mostrar recuento de comentarios](c-advanced-topics/t-display-comment-count.md)
    + [Activación del uso compartido en redes sociales](c-advanced-topics/c-enabling-social-sharing.md)
-   + [Flujo de Actividad](c-advanced-topics/c-activity-stream.md)
-   + [Bootstrap HTML](c-advanced-topics/c-bootstrap-html.md)
+   + [Flujo de actividad](c-advanced-topics/c-activity-stream.md)
+   + [HTML Bootstrap](c-advanced-topics/c-bootstrap-html.md)
    + [Cambiar colección](c-advanced-topics/c-change-collection.md)
    + [Varias colecciones](c-advanced-topics/c-multiple-collections.md)
    + [Cambiar tipos de aplicaciones principales](c-advanced-topics/c-switch-core-app-types.md)
