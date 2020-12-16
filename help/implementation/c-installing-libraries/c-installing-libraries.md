@@ -1,12 +1,15 @@
 ---
-description: Instalación de bibliotecas para tareas del servidor de Livefyre
-seo-description: Instalación de bibliotecas para tareas del servidor de Livefyre
+description: Instalación de las bibliotecas para tareas del lado del servidor de Livefyre
+seo-description: Instalación de las bibliotecas para tareas del lado del servidor de Livefyre
 seo-title: Instalación
 solution: Experience Manager
 title: Instalación
 uuid: f60b4cc7-178f-4a16-ba75-f1d0d171c52f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 1%
 
 ---
 
@@ -92,7 +95,7 @@ A continuación, instale con:
 composer.phar install 
 ```
 
-Si **no utiliza** Composer, obtenga la versión más reciente de la biblioteca mediante:
+Si **no** utiliza Composer, obtenga la versión más reciente de la biblioteca mediante:
 
 ```
 git clone https://github.com/Livefyre/livefyre-php-utils 
@@ -132,7 +135,7 @@ enum34 == 1.0
 ordereddict == 1.1 if sys.version_info[:2] < 2.7 
 ```
 
-Para obtener más información, lea los documentos de Python o consulte la fuente en [GitHub](https://github.com/Livefyre/livefyre-python-utils).
+Para obtener más información, lea los documentos Python o consulte la fuente en [GitHub](https://github.com/Livefyre/livefyre-python-utils).
 
 Vínculos: [PyJWT](https://github.com/progrium/pyjwt), [Solicitudes](https://github.com/kennethreitz/requests), [Python-Dateutil](https://pypi.python.org/pypi/python-dateutil), [Enum34](https://pypi.python.org/pypi/enum34), [OrderedDict](https://pypi.python.org/pypi/ordereddict)
 
@@ -144,7 +147,7 @@ Para instalar la biblioteca Ruby, agregue esta línea al archivo de secuencias d
 gem 'livefyre' 
 ```
 
-O instálelo usted mismo:
+O instálela usted mismo:
 
 `$ gem install livefyre`
 
@@ -158,4 +161,4 @@ La biblioteca Ruby depende de los siguientes módulos:
 
 Para obtener más información, lea los documentos de Ruby o consulte la fuente en [GitHub](https://github.com/Livefyre/livefyre-ruby-utils).
 
-Vínculos: [Ruby JWT](https://github.com/firebase/php-jwt/tree/v2.0.0), cliente [](https://github.com/rest-client/rest-client/)REST, [direccionable](https://github.com/sporkmonger/addressable)
+Vínculos: [Ruby JWT](https://github.com/firebase/php-jwt/tree/v2.0.0), [Cliente REST](https://github.com/rest-client/rest-client/), [Accesible](https://github.com/sporkmonger/addressable)
