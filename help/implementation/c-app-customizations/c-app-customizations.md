@@ -4,9 +4,12 @@ seo-description: Personalice las opciones de visualización de la aplicación pa
 seo-title: Personalizaciones de la aplicación
 solution: Experience Manager
 title: Personalizaciones de la aplicación
-uuid: 6f27654d-c2b4-45b5-ae7-6fbf312fb829
+uuid: 6f27654d-c2b4-45b5-aae7-6fbf312fb829
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ Personalice las opciones de visualización de la aplicación para que coincidan 
 
 Disponible para chat, comentarios, Live Blog, críticas y notas de identidad.
 
-Livefyre ofrece varios medios mediante los cuales puede cambiar la interacción de las aplicaciones y las opciones de visualización para adaptarse a su estilo y captar a su audiencia.
+Livefyre oferta varios medios mediante los cuales puede cambiar la interacción de las aplicaciones y las opciones de visualización para adaptarse a su estilo y captar la audiencia.
 
 >[!NOTE]
 >
@@ -31,11 +34,11 @@ Livefyre ofrece varios medios mediante los cuales puede cambiar la interacción 
 
    Utilice el estilo para destacar y promocionar contenido seleccionado o grupos de usuarios.
 
-* **Agregar botones personalizados**
+* **Añadir botones personalizados**
 
-   Activar acciones personalizadas cuando los usuarios interactúan con la aplicación Livefyre.
+   Activar acciones personalizadas cuando los usuarios interactúan con su aplicación de Livefyre.
 
-* **Escuchar eventos de aplicación**
+* **Escuchar Eventos de la aplicación**
 
    Utilice los eventos de JavaScript disponibles para personalizar y rastrear aún más la experiencia del usuario.
 
