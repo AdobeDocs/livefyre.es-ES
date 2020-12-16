@@ -1,19 +1,22 @@
 ---
-description: Agregue Livefyre a sus aplicaciones móviles nativas.
-seo-description: Agregue Livefyre a sus aplicaciones móviles nativas.
+description: Añada Livefyre a sus aplicaciones móviles nativas.
+seo-description: Añada Livefyre a sus aplicaciones móviles nativas.
 seo-title: SDK para móvil
 solution: Experience Manager
 title: SDK para móvil
 uuid: 84c7ca1c-3401-492a-bfa5-62b996947a44
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 5%
 
 ---
 
 
 # SDK para móvil{#mobile-sdks}
 
-Agregue Livefyre a sus aplicaciones móviles nativas.
+Añada Livefyre a sus aplicaciones móviles nativas.
 
 Existen varias opciones disponibles para implementaciones móviles, según el grado de personalización que tenga pensado realizar:
 
@@ -48,9 +51,9 @@ En Aplicaciones web móviles, al hacer clic en el nombre de un autor se abre la 
 
 ## Livefyre Android SDK o iOS SDK {#section_zdz_spb_11b}
 
-Livefyre también proporciona dos SDK para móviles: un SDK para iOS y un SDK para Android. Estos SDK son envolventes alrededor de nuestros extremos HTTP, creados para proporcionar un método más sencillo de enviar y recibir datos. No se proporciona ninguna interfaz con estos SDK, lo que permite una mayor flexibilidad en la forma en que se muestra y se utiliza el contenido en la aplicación móvil.
+Livefyre también proporciona dos SDK para móviles: un SDK para iOS y un SDK para Android. Estos SDK son envolventes alrededor de nuestros extremos HTTP, creados para proporcionar un método más sencillo de enviar y recibir datos. No se proporciona ninguna interfaz con estos SDK, lo que permite una buena flexibilidad en la forma en que se muestra y se utiliza el contenido en la aplicación móvil.
 
-Los SDK para Android e iOS admiten las siguientes funciones para Comentarios, Blog en directo y Chat:
+Los SDK para Android e iOS admiten las siguientes funciones para Comentarios, Blogs en vivo y Chat:
 
 | Funciones de iOS: | Funciones de Android: |
 |--- |--- |
@@ -58,9 +61,9 @@ Los SDK para Android e iOS admiten las siguientes funciones para Comentarios, Bl
 
 ## API HTTP {#section_yqb_qpb_11b}
 
-Las API HTTP son el grupo de extremos que le permite crear conversaciones y contenido en la plataforma Livefyre. También alimenta a todos los Livefyre de los flujos de caja. Aunque esta solución requiere más tiempo de desarrollo por parte de su equipo de ingeniería, proporciona mayor flexibilidad al utilizar el grupo de productos Livefyre y permite la integración nativa con dispositivos móviles.
+Las API HTTP son el grupo de extremos que le permite crear conversaciones y contenido en la plataforma Livefyre. También alimenta a todos los Livefyre de los flujos de caja. Aunque esta solución requiere más tiempo de desarrollo por parte de su equipo de ingeniería, ofrece buena flexibilidad al utilizar el grupo de productos Livefyre y permite la integración nativa con dispositivos móviles.
 
 >[!IMPORTANT]
 >
->**No cree** tokens de autenticación de usuarios en el cliente móvil, ya que esto requeriría que exponga la clave de red secreta de Livefyre en una aplicación no segura. Para obtener una solución más sólida y segura, consulte la sección Tokens de autenticación de usuario.
+>**No** cree tokens de autenticación de usuarios en el cliente móvil, ya que esto requeriría que exponga la clave de red secreta de Livefyre en una aplicación no segura. Para obtener una solución más sólida y segura, consulte la sección Tokens de autenticación de usuario.
 
