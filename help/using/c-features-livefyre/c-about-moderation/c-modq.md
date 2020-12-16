@@ -13,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# Moderar contenido con ModQ{#moderate-content-using-modq}
+# Moderar contenido usando ModQ{#moderate-content-using-modq}
 
 Modere el contenido desde una sola interfaz inteligente.
 
@@ -24,7 +24,7 @@ Una vez que haya definido la configuración de ModQ, se agregará a la cola el n
 ModQ le permite:
 
 * Modere en contexto, vista subprocesos completos y apruebe, papelera o bozo, ya sea fragmentos individuales de contenido o subprocesos completos con un solo clic.
-* Aumente la velocidad y la eficacia del flujo de trabajo.
+* Aumente la velocidad y eficacia del flujo de trabajo.
 * Responda al contenido y aumente su participación en su comunidad.
 * Permitir que varios moderadores trabajen a través del contenido, sin duplicar el trabajo de los demás.
 
@@ -38,9 +38,9 @@ El contenido que no se muestra en ModQ incluye:
 
 * Contenido con seguimiento.
 * Contenido aprobado por un moderador.
-* Contenido publicado por un usuario prohibido, o marcas de usuario aplicadas por un usuario prohibido.
+* Contenido publicado por un usuario prohibido o marcas de usuario aplicadas por un usuario prohibido.
 
-## Navegación en ModQ {#section_uv4_db2_yy}
+## Navegación de ModQ {#section_uv4_db2_yy}
 
 ModQ se divide en dos paneles con fichas:
 
@@ -50,8 +50,8 @@ ModQ se divide en dos paneles con fichas:
 Ambas fichas oferta muchos de los mismos filtros y herramientas de moderación.
 
 * **[!UICONTROL Item Count]** El número de elementos que quedan en la cola se muestra en la esquina superior izquierda de ModQ.
-* **[!UICONTROL Filter]** Haga clic en **[!UICONTROL Filter]** para definir los parámetros según los cuales se enumerará el contenido en el panel.
-* **[!UICONTROL History]** Haga clic en el **[!UICONTROL History]** botón en la parte superior derecha de la pantalla para abrir una lista de contenido moderado recientemente, lo que le permitirá revisar su trabajo o cambiar una acción de moderación reciente. Vuelva a hacer clic en el botón para volver al contenido en cola. Solo se mostrarán las 100 acciones más recientes. **La historia** no lista las acciones realizadas por otro moderador.
+* **[!UICONTROL Filter]** Haga clic  **[!UICONTROL Filter]** para definir los parámetros según los cuales se enumerará el contenido en el panel.
+* **[!UICONTROL History]** Haga clic en el  **[!UICONTROL History]** botón en la parte superior derecha de la pantalla para abrir una lista de contenido moderado recientemente, lo que le permitirá revisar su trabajo o cambiar una acción de moderación reciente. Vuelva a hacer clic en el botón para volver al contenido en cola. Solo se mostrarán las 100 acciones más recientes. **** Histórico no lista las acciones realizadas por otro moderador.
 
 * **[!UICONTROL User Pane]** Haga clic en los botones para expandir o contraer situados en la parte superior derecha de la página para abrir o cerrar el panel Usuario.
 
@@ -85,17 +85,17 @@ Al seleccionar un elemento, se muestra la siguiente información:
 
 Haga clic **[!UICONTROL Filter]** en la parte superior izquierda de la ventana de ModQ para abrir un panel con opciones de filtro disponibles para el contenido de la lista. A medida que seleccione las opciones, ModQ se actualizará automáticamente a la lista únicamente el contenido filtrado. Haga clic en **[!UICONTROL Clear filters]** para borrar todas las opciones seleccionadas y vuelva a cargar la lista completa de los elementos.
 
-Hay diferentes opciones de filtro disponibles para las fichas **[!UICONTROL Items]** y **[!UICONTROL Streams Premoderation]** .
+Hay diferentes opciones de filtro disponibles para las fichas **[!UICONTROL Items]** y **[!UICONTROL Streams Premoderation]**.
 
 Las siguientes opciones están disponibles para ModQ en **[!UICONTROL Items]** y **[!UICONTROL Streams Premoderation]**:
 
 * **[!UICONTROL App]**. Utilice el campo Buscar aplicaciones para filtrar los resultados por aplicación. Se pueden seleccionar varias aplicaciones.
 * **[!UICONTROL System Flags]**. Filtre el contenido por reglas como Correo no deseado, Profanidad, SAFE y Premoderación.
 
-   * La selección **[!UICONTROL Spam]** lista todo el contenido etiquetado como correo no deseado por SAFE.
-   * Si selecciona **[!UICONTROL Profanity]** se lista todo el contenido etiquetado con Prospecane según la Lista de Provocación de la red o del sitio.
-   * Si selecciona **[!UICONTROL SAFE]** se lista todo el contenido que ingrese a ModQ como resultado de las reglas de SAFE.
-   * Si selecciona **[!UICONTROL Premoderation]** se lista todo el contenido etiquetado para la premoderación según la configuración de red, flujo o aplicación.
+   * Al seleccionar **[!UICONTROL Spam]** se lista todo el contenido etiquetado como correo no deseado por SAFE.
+   * Al seleccionar **[!UICONTROL Profanity]** se lista todo el contenido etiquetado con Prospecane por su Lista de Provocación de la red o del sitio.
+   * Al seleccionar **[!UICONTROL SAFE]** se lista todo el contenido que ingrese a ModQ como resultado de las reglas de SAFE.
+   * Al seleccionar **[!UICONTROL Premoderation]** se lista todo el contenido etiquetado para la premoderación por la configuración de red, flujo o aplicación.
 
 * **[!UICONTROL User Flags]** Filtre el contenido por indicadores de usuario. Las opciones incluyen Offensive, Spam, Off-topic y Dispuestas.
 * **[!UICONTROL Rights Requests.]** Para mostrar solo el contenido con derechos concedidos, haga clic en la casilla de verificación.
@@ -103,13 +103,13 @@ Las siguientes opciones están disponibles para ModQ en **[!UICONTROL Items]** y
 
 Las siguientes opciones están disponibles para ModQ en **[!UICONTROL Streams Premoderation]**:
 
-* **[!UICONTROL Social Source]** Filtre el contenido según la fuente social de la que se originó el contenido. Por ejemplo, las opciones de fuentes sociales incluyen Twitter, Instagram, Facebook y RSS.
+* **[!UICONTROL Social Source]** Filtre el contenido según la fuente social desde la que se originó el contenido. Por ejemplo, las opciones de fuentes sociales incluyen Twitter, Instagram, Facebook y RSS.
 
 La siguiente opción está disponible para ModQ en **[!UICONTROL Items]**:
 
 **[!UICONTROL Moderation Recommendations]**. Filtre el contenido según la recomendación proporcionada por la recomendación de moderación automatizada.
 
-Las siguientes imágenes muestran el aspecto de las recomendaciones de moderación en ModQ:  ![](assets/mod_reco1.png)
+Las siguientes imágenes muestran el aspecto de Moderación de Recommendations en ModQ:  ![](assets/mod_reco1.png)
 
 La recomendación de moderación se proporciona para el contenido cuando se configura en **[!UICONTROL Network Settings > Moderation]** y **[!UICONTROL Network Settings > ModQ]**.
 
@@ -119,8 +119,8 @@ Puede decidir qué hacer con cada fragmento de contenido en ModQ.
 
 Seleccione una de las siguientes opciones:
 
-* El **[!UICONTROL Checkbox]** icono para aprobar el contenido
-* El **[!UICONTROL Trash can]** icono para enviar el contenido a la papelera
+* El icono **[!UICONTROL Checkbox]** para aprobar el contenido
+* El icono **[!UICONTROL Trash can]** para enviar el contenido a la papelera
 * **[!UICONTROL Request Rights]** para solicitar los derechos del propietario del contenido al contenido.
 
    >[!NOTE]
@@ -133,7 +133,7 @@ Seleccione una de las siguientes opciones:
 
 >[!NOTE]
 >
->Una vez que se deshace un fragmento de contenido, el fragmento de contenido y todas las respuestas al fragmento de contenido se eliminan de ModQ de forma permanente. Para colocar un fragmento de contenido desechado en una aplicación, consulte [Añadir un elemento con seguimiento en una aplicación](/help/using/c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md#t_add_trashed_item_back_into_app).
+>Una vez que se deshace un fragmento de contenido, el fragmento de contenido y todas las respuestas al fragmento de contenido se eliminan de ModQ de forma permanente. Para colocar un fragmento de contenido en la papelera en una aplicación, consulte [Añadir un elemento en la papelera de nuevo en una aplicación](/help/using/c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md#t_add_trashed_item_back_into_app).
 
 Si el contenido ya se encuentra en el estado deseado, al elegir Papelera, Bozo o Aprobar se confirmará el estado y se eliminará el elemento de la lista. Moderar un fragmento de contenido lo eliminará inmediatamente de la cola y lo desactivará en las colas de otros moderadores.
 
@@ -141,25 +141,25 @@ Si el contenido ya se encuentra en el estado deseado, al elegir Papelera, Bozo o
 >
 >Es posible que el contenido del flujo no sea Bozo&#39;d. El contenido del flujo de seguimiento lo eliminará del flujo de forma permanente y no se podrá deshacer.
 
-Una vez moderado el contenido, se eliminará del ModQ del moderador y su autor ya no podrá editarlo desde el flujo. Si un moderador rechaza un elemento o si un usuario elimina su comentario, aparecerá atenuado en las colas de otros moderadores en tiempo real. Cuando el contenido se ha atenuado, el **[!UICONTROL Clear Moderated]** botón se muestra en la página, lo que permite a los moderadores eliminarlo de sus listas y mantener su lugar en la página independientemente de la otra actividad de moderador.
+Una vez moderado el contenido, se eliminará del ModQ del moderador y su autor ya no podrá editarlo desde el flujo. Si un moderador rechaza un elemento o si un usuario elimina su comentario, aparecerá atenuado en las colas de otros moderadores en tiempo real. Cuando el contenido se ha atenuado, el botón **[!UICONTROL Clear Moderated]** se muestra en la página, lo que permite a los moderadores eliminarlo de sus listas y mantener su lugar en la página independientemente de la actividad de otros moderadores.
 
 ## Uso de la función Papelera en ModQ {#section_tpx_qgz_y1b}
 
 Utilice la sección de configuración para seleccionar las opciones disponibles cuando el contenido se marca como Con seguimiento.
 
-* ****[!UICONTROL Confirm Trash]**** Active esta opción para requerir que los moderadores confirmen su acción al configurar el contenido en Papelera. Cuando se habilita, al seleccionar **[!UICONTROL Trash]** para el contenido se muestra un cuadro de diálogo en el que se solicita un **[!UICONTROL Reason for Moderation]** campo y se oferta un campo en el que se puede **[!UICONTROL Note]** introducir un campo.
+* ****[!UICONTROL Confirm Trash]**** Active esta opción para requerir que los moderadores confirmen su acción al configurar el contenido en Papelera. Cuando se habilita, al seleccionar **[!UICONTROL Trash]** para el contenido se muestra un cuadro de diálogo en el que se solicita un **[!UICONTROL Reason for Moderation]** y se oferta un campo en el que se puede introducir un **[!UICONTROL Note]**.
 
-   (Esta configuración está disponible **[!UICONTROL only]** en el nivel de red y se aplicará a todos los sitios de la red).
+   (Esta configuración está disponible **[!UICONTROL only]** a nivel de red y se aplicará a todos los sitios de la red).
 
 * ****[!UICONTROL Hide Replies]**** Active esta opción para que las respuestas se descarguen automáticamente cuando un comentario principal se deseche o se borre Bozo’d.
 
 ## Cambiar el estado del usuario en ModQ {#section_tmw_lg1_z1b}
 
-Haga clic en el **[!UICONTROL User actions]** botón del panel Resumen del usuario para silenciar, prohibir o permitir la lista del usuario.
+Haga clic en el botón **[!UICONTROL User actions]** del panel Resumen del usuario para silenciar, prohibir o permitir la lista del usuario.
 
 * **[!UICONTROL Mute:]** le permite silenciar los indicadores del usuario que marcó el contenido de la lista. Utilice esta opción para excluir los indicadores del usuario de los filtros de premoderación. El contenido que marquen no entrará en ModQ como resultado del indicador y sus indicadores no se incluirán en las reglas de marca.
 * **[!UICONTROL Ban:]** le permite prohibir el acceso del usuario de la lista a su sitio o red. (Solo los administradores de estudios o los administradores de usuarios pueden prohibir un usuario en la red).
-* **[!UICONTROL Whitelist:]** le permite permitir la lista del usuario de la lista para su sitio o red. (Solo los administradores de estudios o los administradores de usuarios pueden permitir la lista en red de un usuario).
+* **[!UICONTROL Whitelist:]** le permite permitir-enumerar al usuario de su sitio o red. (Solo los administradores de estudios o los administradores de usuarios pueden permitir la lista de usuarios en red).
 
 
 
