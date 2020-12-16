@@ -1,12 +1,15 @@
 ---
 description: No todos los tweets que coinciden con una regla aparecen en un flujo.
 seo-description: No todos los tweets que coinciden con una regla aparecen en un flujo.
-seo-title: Ritmo y frecuencia de los tweets
+seo-title: Throttling y frecuencia de los tweets
 solution: Experience Manager
-title: Ritmo y frecuencia de los tweets
+title: Throttling y frecuencia de los tweets
 uuid: b9edfb1e-e6cf-4a48-8756-05f5f18d8799
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ La limitación de reglas de Twitter y las interrupciones de fuentes de Twitter p
 
 >[!NOTE]
 >
->Para garantizar que se incluyan tweets específicos en el flujo, utilice la opción Cargar recurso de la página Todos los recursos.
+>Para garantizar que los tweets específicos se incluyen en el flujo, utilice la opción Cargar recurso de la página Todos los recursos.
 
 * Las reglas de Twitter reducen el contenido, obteniendo 1 tweet por regla cada 5 segundos. Esto permite que el contenido que aparece en las aplicaciones de Livefyre sea más equilibrado y no se vea abrumado por los tweets. Limitar los tweets entrantes de esta manera también ayuda a evitar que el flujo se inunde o se pueda leer durante períodos de mucho tráfico.
 
