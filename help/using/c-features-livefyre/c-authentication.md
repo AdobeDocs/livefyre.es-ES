@@ -1,21 +1,24 @@
 ---
-description: Puede elegir si los visitantes del sitio deben iniciar sesión en sus aplicaciones y cómo hacerlo.
-seo-description: Puede elegir si los visitantes del sitio deben iniciar sesión en sus aplicaciones y cómo hacerlo.
+description: Puede elegir si el sitio tiene visitantes para iniciar sesión en sus aplicaciones y cómo.
+seo-description: Puede elegir si el sitio tiene visitantes para iniciar sesión en sus aplicaciones y cómo.
 seo-title: Funciones de autenticación
 solution: Experience Manager
 title: Funciones de autenticación
 uuid: 6f1236a0-7766-47c6-b6b5-1e6b8f1c0781
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 5%
 
 ---
 
 
-# Funciones de autenticación{#authentication-features}
+# Características de autenticación{#authentication-features}
 
-Puede elegir si los visitantes del sitio deben iniciar sesión en sus aplicaciones y cómo hacerlo.
+Puede elegir si el sitio tiene visitantes para iniciar sesión en sus aplicaciones y cómo.
 
-Configure la autenticación mediante livefyre.js. Para obtener más información, consulte [Agregar autenticación a una aplicación mediante Livefyre.js](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+Configure la autenticación mediante livefyre.js. Para obtener más información, consulte [Añadir autenticación en una aplicación mediante Livefyre.js](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
 
 Aplicaciones que utilizan esta función:
 
