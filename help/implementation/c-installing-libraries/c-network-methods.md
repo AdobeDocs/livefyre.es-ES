@@ -7,6 +7,9 @@ title: Métodos de red
 uuid: f237fead-36b5-4ea1-bfdd-55194d3306e1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +24,7 @@ Los siguientes métodos están disponibles para el objeto Network:
 * [buildLivefyreToken Network (método)](#r_buildlivefyretoken_method)
 * [buildUserAuthToken (método de red)](#r_builduserauthtoken_method)
 * [validateLivefyreToken Network (método)](#validatelivefyretoken_method)
-* [setUserSyncUrl, método de red](#r_setusersyncurl_method)
+* [setUserSyncUrl (método de red)](#r_setusersyncurl_method)
 * [syncUser Network (método)](#r_syncuser_method)
 * [getUrn Network (método)](#r_geturn_method)
 * [getUrnForUser (método de red)](#r_geturnforuser_method)
