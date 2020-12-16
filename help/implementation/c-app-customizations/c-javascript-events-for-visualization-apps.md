@@ -1,21 +1,24 @@
 ---
 description: Los eventos disponibles para enlazar JavaScript para aplicaciones de visualización (por ejemplo, su muro de redes sociales).
 seo-description: Los eventos disponibles para enlazar JavaScript para aplicaciones de visualización (por ejemplo, su muro de redes sociales).
-seo-title: Eventos de Javascript para aplicaciones de visualización
+seo-title: Eventos Javascript para aplicaciones de visualización
 solution: Experience Manager
-title: Eventos de Javascript para aplicaciones de visualización
+title: Eventos Javascript para aplicaciones de visualización
 uuid: 0797c384-7e8e-44fc-9738-a10a48d490cc
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 74%
 
 ---
 
 
-# Eventos de Javascript para aplicaciones de visualización{#javascript-events-for-visualization-apps}
+# Eventos Javascript para aplicaciones de visualización{#javascript-events-for-visualization-apps}
 
 Los eventos disponibles para enlazar JavaScript para aplicaciones de visualización (por ejemplo, su muro de redes sociales).
 
-La siguiente tabla muestra los eventos de aplicación para aplicaciones de visualización. Una X indica que el evento está disponible para la aplicación, la N/D indica que el evento no se aplica a la aplicación y que no hay ninguna marca que indique que el evento no está disponible para esa aplicación:
+La siguiente tabla muestra los eventos de aplicaciones para aplicaciones de visualización. Una X indica que el evento está disponible para la aplicación, la N/D indica que el evento no se aplica a la aplicación y que el evento no está disponible para la aplicación:
 
 ## Eventos de aplicaciones de visualización
 
@@ -42,7 +45,7 @@ La siguiente tabla muestra los eventos de aplicación para aplicaciones de visua
 | Marcar cancelación | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. |
 | Seguir | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. |
 | No seguir | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. |
-| RequestMore | X | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. |
+| SolicitarMás | X | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. |
 | ModalView | X | X |  | X | X | N/D | X |
 | Retweet de Twitter | X |  |  | X | X | N/D | X |
 | Clic en el botón Publicar | X | N.D. | N.D. | N.D. | N.D. | X | N/D |
