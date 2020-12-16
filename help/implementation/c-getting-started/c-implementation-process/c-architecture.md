@@ -7,6 +7,9 @@ title: Arquitectura
 uuid: 94358e6c-954a-4a52-9bb2-d800b2933130
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Conozca las convenciones de Livefyre y cómo organiza el contenido Livefyre.
 
-Esta sección proporciona información general sobre la Arquitectura de red de Livefyre.
+Esta sección proporciona una visión general de la Arquitectura de red de Livefyre.
 
 ## Información general de redes y sitios
 
@@ -33,7 +36,7 @@ La configuración se puede aplicar a sitios, redes y colecciones (lo que se cono
 
 ## Explicación de los sitios {#section_vjw_nm4_xz}
 
-Un sitio es una agrupación arbitraria de artículos. La agrupación resulta útil ya que permite asignar diferentes moderadores a diferentes grupos de contenido. Los moderadores y propietarios pueden configurarse para moderar el contenido y configurar la configuración de administración a nivel de red o de sitio. Si desea que algunos moderadores solo vean ciertas colecciones, estas colecciones pueden configurarse como un sitio de Livefyre independiente.
+Un sitio es una agrupación arbitraria de artículos. La agrupación resulta útil, ya que permite asignar diferentes moderadores a diferentes grupos de contenido. Los moderadores y propietarios pueden configurarse para moderar el contenido y configurar la configuración de administración a nivel de red o de sitio. Si desea que algunos moderadores solo vean ciertas colecciones, estas colecciones pueden configurarse como un sitio de Livefyre independiente.
 
 >[!NOTE]
 >
@@ -46,15 +49,15 @@ Tanto si desea implementar una función personalizada con los extremos proporcio
 ![](assets/appsequencediagram.png)
 
 1. Cuando el cliente visite su sitio web, cree una instancia de la aplicación Livefyre con el ID del sitio y el ID del artículo.
-1. Si desea autenticar al usuario (valioso para la evaluación del tráfico, así como para la protección del sitio), envíe a Livefyre la información del sitio y el token de perfil de usuario.
+1. Si desea autenticar al usuario (valioso para la evaluación del tráfico, así como para la protección del sitio), envíe a Livefyre la información del sitio y el token de Perfil del usuario.
 1. Envíe Livefyre el ID del sitio y el ID del artículo para inicializar la aplicación.
 
    Livefyre devuelve el contenido inicial.
 
    Envíe este contenido a la página y muestre la aplicación.
 
-1. Para actualizar el contenido que se muestra en la página, envíe a Livefyre el ID de evento más reciente de la página. Si hay contenido nuevo disponible, se devolverá.
+1. Para actualizar el contenido mostrado en la página, envíe a Livefyre el ID de Evento más reciente de la página. Si hay contenido nuevo disponible, se devolverá.
 
    Vuelva a cargar la página con nuevo contenido y repita el proceso indefinidamente.
 
-1. Si permite que los usuarios publiquen contenido nuevo, desencadene un evento cuando se publique contenido nuevo en el sitio para publicarlo en Livefyre. Livefyre devolverá un flujo actualizado, que puede utilizar para actualizar el sitio.
+1. Si permite que los usuarios publiquen contenido nuevo, active un evento cuando se publique contenido nuevo en el sitio para publicarlo en Livefyre. Livefyre devolverá un flujo actualizado, que puede utilizar para actualizar el sitio.
