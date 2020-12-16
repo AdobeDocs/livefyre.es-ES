@@ -1,19 +1,22 @@
 ---
-description: Este método devuelve la URL de este sitio.
-seo-description: Este método devuelve la URL de este sitio.
+description: Este método devuelve el URN de este sitio.
+seo-description: Este método devuelve el URN de este sitio.
 seo-title: getUrn Site (método)
 solution: Experience Manager
 title: getUrn Site (método)
 uuid: 231c915c-6288-43e6-86e0-b8d09a08c4d3
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 1%
 
 ---
 
 
-# getUrn Site (método){#geturn-site-method}
+# getUrn Site Method{#geturn-site-method}
 
-Este método devuelve la URL de este sitio.
+Este método devuelve el URN de este sitio.
 
 ## Ejemplo de Java {#section_nyl_ycs_rz}
 
