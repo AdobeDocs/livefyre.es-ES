@@ -1,19 +1,22 @@
 ---
-description: Personalice las aplicaciones de chat para mostrar contenido como flujo continuo de chat sin subprocesos, lo que permite a su audiencia participar en conversaciones en tiempo real sobre eventos o anuncios en directo.
-seo-description: Personalice las aplicaciones de chat para mostrar contenido como flujo continuo de chat sin subprocesos, lo que permite a su audiencia participar en conversaciones en tiempo real sobre eventos o anuncios en directo.
+description: Personalice las aplicaciones de chat para mostrar contenido como flujo continuo de chat sin subprocesos, lo que permite a su audiencia entablar una conversación en tiempo real sobre eventos o anuncios en directo.
+seo-description: Personalice las aplicaciones de chat para mostrar contenido como flujo continuo de chat sin subprocesos, lo que permite a su audiencia entablar una conversación en tiempo real sobre eventos o anuncios en directo.
 seo-title: Personalizaciones de chat
 solution: Experience Manager
 title: Personalizaciones de chat
 uuid: eac7be2f-2dcd-4a6b-ac84-e5e650af82e0
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 0%
 
 ---
 
 
 # Personalizaciones de chat{#chat-customizations}
 
-Personalice las aplicaciones de chat para mostrar contenido como flujo continuo de chat sin subprocesos, lo que permite a su audiencia participar en conversaciones en tiempo real sobre eventos o anuncios en directo.
+Personalice las aplicaciones de chat para mostrar contenido como flujo continuo de chat sin subprocesos, lo que permite a su audiencia entablar una conversación en tiempo real sobre eventos o anuncios en directo.
 
 
 
@@ -21,11 +24,11 @@ Estas opciones están disponibles en la aplicación de chat:
 
 * **[!UICONTROL Number of posts to load]**
 
-   Introduzca el número de anuncios que se mostrarán al cargar por primera vez. Puede introducir entre 1 y 50.
+   Escriba el número de anuncios que se mostrarán al cargar por primera vez. Puede introducir entre 1 y 50.
 
 * **[!UICONTROL Posts appear in cards]**
 
-   Si está activada, las publicaciones se mostrarán con un cuadro que las rodea y con el color de fondo que dicta la selección de **tema** aplicada.
+   Si está habilitada, las publicaciones se mostrarán con un cuadro que las rodea y se aplicará el color de fondo que dicta la selección **Tema**.
 
 * **[!UICONTROL Preview media]**
 
@@ -45,15 +48,15 @@ Estas opciones están disponibles en la aplicación de chat:
 
 * **[!UICONTROL Users may share comments]**
 
-   Si está habilitada, los usuarios pueden compartir comentarios publicados en Twitter, Facebook o LinkedIn. Para obtener más información sobre cómo habilitar el uso compartido, consulte Configuración &gt; Configuración de integración &gt; Compartir en redes sociales.
+   Si está habilitada, los usuarios pueden compartir comentarios publicados en Twitter, Facebook o LinkedIn. Para obtener más información sobre cómo habilitar el uso compartido, consulte Configuración > Configuración de integración > Compartir en redes sociales.
 
 * **[!UICONTROL Additional sort option]**
 
-   Le permite ofrecer opciones de ordenación para los usuarios finales:** [!UICONTROL Most liked]* o **[!UICONTROL Most active]**.
+   Le permite asignar ofertas a las opciones de ordenación para los usuarios finales:** [!UICONTROL Most liked]** o **[!UICONTROL Most active]**.
 
 Puede personalizar la conversación mediante:
 
-* **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de la **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de la **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** y  **[!UICONTROL Config]** opciones para todas las aplicaciones de la  **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones en **[!UICONTROL App Designer]**.
 
 * Herramientas de integración. Consulte Chat para obtener más información sobre cómo personalizar la conversación mediante las herramientas de integración.
 
