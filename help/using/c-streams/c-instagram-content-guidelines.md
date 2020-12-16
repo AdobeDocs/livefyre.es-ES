@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Al depurar contenido de Instagram, debe seguir sus directrices y prácticas recomendadas.
 
-Debe configurar una cuenta *empresarial de* Instagram para crear flujos de Instagram desde otra cuenta comercial de Instagram específica mediante el **[!UICONTROL By Author]** campo. La cuenta de usuario que identifique en el **[!UICONTROL By Author]** campo debe ser una cuenta comercial.
+Debe configurar una *cuenta comercial de Instagram* para crear flujos de Instagram desde otra cuenta comercial de Instagram específica mediante el campo **[!UICONTROL By Author]**. La cuenta de usuario que identifique en el campo **[!UICONTROL By Author]** debe ser una cuenta comercial.
 
-Para obtener más información sobre cómo configurar una cuenta comercial de Instagram en Livefyre, consulte [Acerca de las cuentas](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)de Instagram.
+Para obtener más información sobre cómo configurar una cuenta comercial de Instagram en Livefyre, consulte [Acerca de las cuentas de Instagram](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
 Instagram aplica las siguientes reglas para obtener contenido de su plataforma:
 
@@ -41,4 +41,4 @@ Instagram, al igual que otras marcas, también tiene requisitos para utilizar su
 * Proporcione una atribución a Instagram y al propietario del contenido.
 * Estar claramente diferenciados de otros contenidos de medios sociales si se muestran junto con los medios de otras redes.
 
-Para obtener más información, consulte el documento de Instagram: [Uso de los recursos](https://help.instagram.com/304689166306603)de marca de Instagram.
+Para obtener más información, consulte el documento de Instagram: [Uso de Recursos de marca de Instagram](https://help.instagram.com/304689166306603).
