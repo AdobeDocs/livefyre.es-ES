@@ -1,19 +1,22 @@
 ---
-description: Muchas funciones vienen con la aplicación Comentarios para integrar conversaciones en tiempo real en el sitio.
-seo-description: Muchas funciones vienen con la aplicación Comentarios para integrar conversaciones en tiempo real en el sitio.
+description: Muchas funciones vienen con la aplicación Comentarios para incrustar conversaciones en tiempo real en el sitio.
+seo-description: Muchas funciones vienen con la aplicación Comentarios para incrustar conversaciones en tiempo real en el sitio.
 seo-title: Características de comentarios
 solution: Experience Manager
 title: Características de comentarios
 uuid: ec00fcc9-1b5e-4d0b-b1da-95f9f26b4cc1
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 7%
 
 ---
 
 
 # Características de comentarios{#comments-features}
 
-Muchas funciones vienen con la aplicación Comentarios para integrar conversaciones en tiempo real en el sitio.
+Muchas funciones vienen con la aplicación Comentarios para incrustar conversaciones en tiempo real en el sitio.
 
 * [Autenticación](/help/using/c-features-livefyre/c-authentication.md#c_authentication)
 * [Avatares](/help/using/c-features-livefyre/c-styling-features/c-avatars.md#c_avatars)
@@ -25,7 +28,7 @@ Muchas funciones vienen con la aplicación Comentarios para integrar conversacio
 * [Cadenas de texto personalizadas](/help/using/c-features-livefyre/c-custom-text-strings.md#c_custom_text_strings)
 * [Fecha y marca de hora](/help/using/c-features-livefyre/c-styling-features/c-date-and-timestamp.md#c_date_and_timestamp)
 * [Notificaciones de correo electrónico](/help/using/c-features-livefyre/c-notifications-features/c-email-notifications.md#c_email_notifications)
-* [Integración con Embedly](/help/using/c-features-livefyre/c-content-collection-tags/c-embedly-integration.md#c_embedly_integration)
+* [Integración con Embedly ](/help/using/c-features-livefyre/c-content-collection-tags/c-embedly-integration.md#c_embedly_integration)
 * [Contenido destacado](/help/using/c-features-livefyre/c-content-collection-tags/c-featured-content.md#c_featured_content)
 * [Menciones de amigo](/help/using/c-features-livefyre/c-enagement-features.md#section_yw5_fdm_d1b)
 * [Seguir conversación](/help/using/c-features-livefyre/c-enagement-features.md#section_bw3_ndm_d1b)
@@ -51,6 +54,6 @@ Muchas funciones vienen con la aplicación Comentarios para integrar conversacio
 * [Comentarios principales](/help/using/c-features-livefyre/c-sort-features-composite/c-top-comments.md#c_top_comments)
 * [Conjuntos de traducción](/help/using/c-settings-other/c-translation-sets/c-translation-sets.md#c_translation_sets)
 * [Botones de acción de Twitter](/help/using/c-features-livefyre/c-enagement-features.md#section_uzm_ldm_d1b)
-* [Distintivos de usuario](/help/using/c-features-livefyre/c-styling-features/c-user-badges.md#c_user_badges)
+* [Insignias de usuario](/help/using/c-features-livefyre/c-styling-features/c-user-badges.md#c_user_badges)
 * [Anuncios de usuario](/help/using/c-features-livefyre/c-content-behavior-features/c-user-posts.md#c_user_posts)
 
