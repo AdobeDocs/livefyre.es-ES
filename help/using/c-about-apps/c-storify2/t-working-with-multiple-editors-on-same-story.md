@@ -7,6 +7,9 @@ title: Uso de varios editores en el mismo artículo
 uuid: c9b8bf70-84c3-4e58-bbd0-f3d0ea74fc68
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 0%
 
 ---
 
@@ -25,5 +28,5 @@ Todos los editores tienen todos los derechos y privilegios para editar su artíc
 * Publicación de contenido nuevo o cambios
 * Eliminar contenido
 * Editar bloques de texto.
-* Agregar encabezados.
+* Añadir titulares.
 
