@@ -1,21 +1,24 @@
 ---
-description: Para autenticar a un usuario con Livefyre mediante un flujo no activado por una aplicación de Livefyre, Livefyre recomienda implementar el método forEachAuthentication en el objeto AuthDelegate.
-seo-description: Para autenticar a un usuario con Livefyre mediante un flujo no activado por una aplicación de Livefyre, Livefyre recomienda implementar el método forEachAuthentication en el objeto AuthDelegate.
+description: Para autenticar a un usuario con Livefyre a través de un flujo no activado por una aplicación de Livefyre, Livefyre recomienda implementar el método forEachAuthentication en el objeto AuthDelegate.
+seo-description: Para autenticar a un usuario con Livefyre a través de un flujo no activado por una aplicación de Livefyre, Livefyre recomienda implementar el método forEachAuthentication en el objeto AuthDelegate.
 seo-title: Implementación de SSO
 solution: Experience Manager
 title: Implementación de SSO
 uuid: c96d456c-b1ac-40e0-8d18-224652b9697f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 0%
 
 ---
 
 
 # Implementación de SSO{#implementing-sso}
 
-Para autenticar a un usuario con Livefyre mediante un flujo no activado por una aplicación de Livefyre, Livefyre recomienda implementar el método forEachAuthentication en el objeto AuthDelegate.
+Para autenticar a un usuario con Livefyre a través de un flujo no activado por una aplicación de Livefyre, Livefyre recomienda implementar el método forEachAuthentication en el objeto AuthDelegate.
 
-Esto se invocará cuando se pase el `authDelegate` a `auth.delegate`, y se pasará una función de autenticación que se puede pasar varias veces. Este método proporciona una inversión del control para los eventos de autenticación, de modo que `AuthDelegateobject` puede ser independiente sin requerir una referencia global a la autenticación.
+Esto se invocará cuando el `authDelegate` se pase a `auth.delegate` y se pasará una función de autenticación que se puede pasar varias veces. Este método proporciona una inversión del control para eventos de autenticación, de modo que su `AuthDelegateobject` puede ser independiente sin requerir una referencia global a la autenticación.
 
 ```
 authDelegate.forEachAuthentication = function (authenticate) { 
