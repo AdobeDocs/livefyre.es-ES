@@ -7,6 +7,9 @@ title: Localizar cadenas
 uuid: c0ab352d-5d3a-45d7-bbd0-aed165835646
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '1996'
+ht-degree: 8%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Personalización de las cadenas de las aplicaciones de Livefyre.
 
-Las cadenas de texto de la mayoría de los elementos HTML de cualquier aplicación de Livefyre pueden personalizarse. Esto proporciona flexibilidad para cambiar el texto de los elementos HTML procesados, como el botón "Publicar como", el texto "Recuento de comentarios" o el botón "Iniciar sesión", a cualquier cadena UTF-8 válida. Utilice esta función para añadir personalidad a la implementación del flujo o para localizar el idioma en la aplicación para su base de usuarios.
+Las cadenas de texto de la mayoría de los elementos HTML de cualquier aplicación de Livefyre pueden personalizarse. Esto proporciona flexibilidad para cambiar el texto de los elementos HTML procesados, como el botón &quot;Publicar como&quot;, el texto &quot;Recuento de comentarios&quot; o el botón &quot;Iniciar sesión&quot;, a cualquier cadena UTF-8 válida. Utilice esta función para añadir personalidad a la implementación del flujo o para localizar el idioma en la aplicación para su base de usuarios.
 
 * Comentarios, chat y blog en directo
 
@@ -44,7 +47,7 @@ Las cadenas de texto de la mayoría de los elementos HTML de cualquier aplicaci�
 
 ## Implementación {#section_im4_224_xz}
 
-Para implementar esta función, pase una asignación de objeto 1-1 de las cadenas que desee reemplazar al objeto de configuración de JavaScript. Si no proporciona un campo, se utilizará el texto predeterminado.
+Para implementar esta función, pase una asignación de objeto 1-1 de las cadenas que desee reemplazar al objeto de configuración de JavaScript. Si no se proporciona un campo, se utilizará el texto predeterminado.
 
 Ejemplo:
 
@@ -60,7 +63,7 @@ var customStrings = {
 );
 ```
 
-Esta página enumera todas las cadenas de texto que pueden personalizarse para las aplicaciones principales de Livefyre.
+Esta página lista todas las cadenas de texto que se pueden personalizar para las aplicaciones principales de Livefyre.
 
 ## Acceso a la cuenta {#section_cm3_d24_xz}
 
@@ -73,12 +76,12 @@ Cadenas disponibles para el proceso de autenticación y en los menús de usuario
 |  | displayName | %s |
 |  | editProfile | Editar perfil |
 |  | notificationSettings | Configuración de notificaciones |
-|  | siteAdmin | Consola de administración (vínculos a Studio) |
+|  | siteAdmin | Admin Console (vínculos a Studio) |
 |  | signOut | Cerrar sesión |
 
 ## Información de flujo {#section_wx1_c24_xz}
 
-Cadenas disponibles para la información y visualización del flujo de contenido. Enumera el número de personas que escuchan, el número de publicaciones en la aplicación y permite a los usuarios iniciar sesión o acceder a la información de su cuenta.
+Cadenas disponibles para la información y visualización del flujo de contenido. Lista el número de personas que escuchan, el número de publicaciones en la aplicación y permite a los usuarios iniciar sesión o acceder a la información de su cuenta.
 
 | Clave | Texto predeterminado | Datos de flujo |
 |---|---|---|
@@ -112,8 +115,8 @@ Permite a los usuarios ordenar el contenido devuelto por edad o popularidad.
 |  | sortHotThwords | Subprocesos en caliente |
 |  | sortSeparator |  |  |
 |  | streamSorting | Cargando |
-|  | topCommentsContentNotFoundMsg | Todavía no hay suficientes "Me gusta". |
-|  | hotThwordsContentNotFoundMsg | Todavía no hay suficientes subprocesos. |
+|  | topCommentsContentNotFoundMsg | Todavía no hay suficientes &quot;Me gusta&quot;. |
+|  | hotThwordsContentNotFoundMsg | Todavía no hay suficientes hilos. |
 |  | streamRefreshMsg | Ver las novedades. |
 | Opciones de pie de página | archiveHeaderTitle | Desde el archivo |
 |  | archiveShowMore | Mostrar más |
@@ -122,16 +125,16 @@ Permite a los usuarios ordenar el contenido devuelto por edad o popularidad.
 
 ![](assets/strings_threadend-150x47.png)
 
-## Información del contenido {#section_llv_yd4_xz}
+## Información de contenido {#section_llv_yd4_xz}
 
-Enumera la información del anuncio: nombre de usuario, etiquetas de usuario aplicadas y hora de publicación.
+Información del anuncio de listas: nombre de usuario, etiquetas de usuario aplicadas y hora de publicación.
 
 ![](assets/strings_authorinfo-150x52.png)  ![](assets/strings_posttime-150x45.png)
 
 | Clave | Texto predeterminado | Autor |
 |---|---|---|
 |  | moderador | moderador |
-|  | hovercardViewProfile | Ver perfil completo |
+|  | hovercardViewProfile | Perfil completo de vista |
 | Información del anuncio | timeJustNow | ahora |
 |  | timeMinutesAgo | Hace minuto |
 |  | timeMinutesAgoPlural | minutos atrás |
@@ -139,11 +142,11 @@ Enumera la información del anuncio: nombre de usuario, etiquetas de usuario apl
 |  | timeHoursAgoPlural | horas atrás |
 |  | timeDaysAgo | día anterior |
 |  | timeDaysAgoPlural | días atrás |
-|  | likePlural | Cantidad de "Me gusta" |
+|  | likePlural | Cantidad de &quot;Me gusta&quot; |
 |  | likeSingular | Me gusta |
 |  | moderatorEditTimestamp | Editado por un moderador |
 |  | commentTombstone | Este comentario se ha eliminado |
-|  | permalinkNotFoundMsg | Este comentario ya no es visible. |
+|  | permalinkNotFoundMsg | Este comentario ya no está visible. |
 |  | quickProfileTooltip | Perfil rápido |
 
 ## Contenido destacado {#section_gmw_vd4_xz}
@@ -168,7 +171,7 @@ De forma predeterminada, está disponible en la parte superior de la página par
 |  | unseguir | - No seguir |
 |  | liveblogFollow | Seguir blog en directo |
 |  | liveblogUnfollow | Dejar de seguir el blog en vivo |
-|  | postButton(Disponible para usuarios que iniciaron sesión). | Publicar comentario |
+|  | postButton(Disponible para los usuarios que iniciaron sesión). | Publicar comentario |
 |  | postAsButton(Disponible para usuarios no autenticados). | Publicar comentario como... |
 |  | postEditButton | Editar comentario |
 |  | postEditAsButton | Editar comentario como... |
@@ -223,7 +226,7 @@ A menos que se indique lo contrario, estará disponible para todos los usuarios 
 |  | flagEmail | Correo electrónico |
 |  | flagEmailPlaceholder | you@example.com |
 |  | flagNotes | Notas |
-|  | flagNotesPlaceholder | Empieza a escribir aquí... |
+|  | flagNotesPlaceholder | Inicio escribiendo aquí... |
 |  | flagConfirmButton | OK |
 |  | flagCancelButton | Cancelar |
 |  | flagConfirmationMessage | ¿Marcar el comentario de %s como %s? |
@@ -259,11 +262,11 @@ A menos que se indique lo contrario, estará disponible para todos los usuarios 
 | Twitter @menmodal | unciaTítulo | Compartir mención |
 |  | saySubtitleTwitter | Compartir tweet en: |
 |  | sayDefaultText | ¡Te mencioné en un comentario de Livefyre! |
-|  | signConfirmButton | OK |
+|  | signConfirmButton | Aceptar |
 |  | sayCancelButton | Cancelar |
 |  | unciaErrorGeneral | ¡Vaya! ¡Algo salió mal! Livefyre ha sido alertado. |
 |  | unciaErrorNingunoSeleccionado | Debe tener al menos una mención habilitada. |
-|  | MenúsTítulo | Para ver y mencionar a tus amigos |
+|  | MenoscarMenúTítulo | Para ver y mencionar a tus amigos |
 |  | sayTwitterConnect | Conectar a Twitter |
 |  | sayTwitterFetching | Buscando amigos... |
 |  | unciaÉxitoMsg | Las menciones se han enviado correctamente. |
@@ -273,8 +276,8 @@ A menos que se indique lo contrario, estará disponible para todos los usuarios 
 | Clave | Texto predeterminado |  |
 |---|---|---|
 | Editar modelo | Disponible para administradores de estudios, administradores de usuarios o moderadores |  |
-| @(@uncia). | &lt;/&gt;(Abre la ventana HTML personalizada). |  |
-|  | customHtmlDialogTitle(Aparece como encabezado para el modal). | Agregar HTML personalizado |
+| @(@uncia). | &lt;/>(Abre la ventana HTML personalizada). |  |
+|  | customHtmlDialogTitle(Aparece como encabezado para el modal). | Añadir HTML personalizado |
 
 ![](assets/strings_moderatoreditmodal-150x49.png)
 
@@ -298,7 +301,7 @@ A menos que se indique lo contrario, estará disponible para todos los usuarios 
 | Prohibir modo de usuario | Disponible para administradores de estudios, administradores de usuarios o moderadores. |  |
 | banTitle | Prohibir usuario |  |
 |  | banConfirmation | ¿Realmente desea prohibir este usuario? |
-|  | banConfirmButton | OK |
+|  | banConfirmButton | Aceptar |
 |  | banCancelButton | Cancelar |
 
 ## Notificador de comentarios {#section_qqt_pd4_xz}
@@ -335,7 +338,7 @@ Cadenas disponibles para mensajes de error personalizables.
 | errorInvalidChar | Parece que está intentando publicar un carácter no válido. |
 | errorLikeOwnComment | No te gusta tu propio comentario |
 | errorMalform | Parece que está intentando publicar contenido con formato incorrecto. |
-| errorMaxChars | Lo siento, tu comentario es demasiado largo. Edite e inténtelo nuevamente. |
+| errorMaxChars | Lo siento, tu comentario es demasiado largo. Edite e inténtelo de nuevo. |
 | errorMediaNotAvailable | Los medios ya no están visibles. |
 | errorShowMore | Error al cargar más comentarios. |
 | MultipleMediaNotAllowedError | Los permisos solo le otorgan un archivo adjunto de medios a la vez. |
@@ -358,7 +361,7 @@ Traduzca y personalice cómo aparecen las fechas en las tarjetas de contenido de
 | secondsAgo | {number}s |
 | secondsAgoSingular | {number}s |
 
-## Muro de los medios {#section_vwt_d5n_xz}
+## Muro de medios {#section_vwt_d5n_xz}
 
 Cadenas disponibles para la aplicación Media Wall.
 
@@ -387,7 +390,7 @@ Cadenas disponibles para los mapas.
 
 ## Mosaico {#section_e2s_b5n_xz}
 
-Cadenas disponibles para mosaicos.
+Cadenas disponibles para los mosaicos.
 
 | Clave | Texto predeterminado |
 |---|---|
@@ -428,7 +431,7 @@ Cadenas disponibles para la aplicación de carga.
 | postModalConfirmationButton | Finalizado |
 | title |  |
 | message |  |
-| editorErrorAttachmentsRequired | Se requiere un adjunto |
+| editorErrorAttachmentsRequired | Se requiere un archivo adjunto |
 | editorErrorBody | Agregue un mensaje |
 | editorErrorDuplicate | Por mucho que le guste la nota, no puede publicarla dos veces |
 | editorErrorGeneric | Ha ocurrido un error |
@@ -436,7 +439,7 @@ Cadenas disponibles para la aplicación de carga.
 
 ## Encuesta {#section_pdg_fwh_xz}
 
-Cadenas disponibles para encuestas.
+Cadenas disponibles para las encuestas.
 
 | Clave | Texto predeterminado |
 |---|---|
@@ -477,7 +480,7 @@ Cadenas disponibles para la identidad de Livefyre.
 | labelConfirmNewPassword | Confirmar nueva contraseña |
 | labelConfirmPassword | Confirmar contraseña |
 | labelEmail | Email Address |
-| labelLike | Cantidad de "Me gusta" |
+| labelLike | Cantidad de &quot;Me gusta&quot; |
 | labelLoading | Cargando |
 | labelNewPassword | Nueva contraseña |
 | labelNotification | Notificaciones |
@@ -488,7 +491,7 @@ Cadenas disponibles para la identidad de Livefyre.
 | lastName | Apellido |
 | livefyreAccount | Cuenta de Livefyre |
 | ubicación | Ubicación |
-| loadingProfile | Cargando perfil |
+| loadingProfile | Cargando Perfil |
 | newPassword | Nueva contraseña |
 | oldPassword | Contraseña anterior |
 | on | on |
@@ -521,9 +524,9 @@ Cadenas disponibles para la identidad de Livefyre.
 | campo disrequerido | El campo sólo acepta un entero |
 | fieldonlyaceptsavalidemail | El campo solo acepta un correo electrónico válido |
 | fieldonlyacepts | El campo solo acepta letras |
-| filesizemustbelessthanMB | El tamaño del archivo debe ser inferior a {#}MB |
+| filesizemustbelessthanMB | El tamaño del archivo debe ser menor que {#}MB |
 | invalidusernameorpassword | Nombre de usuario o contraseña no válidos |
-| minimumlongthofcaracteres | Longitud mínima de los {#} caracteres |
+| minimumlongthofcaracteres | Longitud mínima de {#} caracteres |
 | maximumlongthofcaracteres | Longitud máxima de {#} caracteres |
 | therewasanerror | Ha ocurrido un error |
 | thisfieldisrequired | Este campo es obligatorio. |
