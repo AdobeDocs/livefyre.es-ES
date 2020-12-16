@@ -7,6 +7,9 @@ title: Reglas de página de Facebook
 uuid: 2be63476-1a92-409d-a22f-e1ec66b6dcc8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 1%
 
 ---
 
@@ -21,12 +24,12 @@ Para crear reglas de página de Facebook a fin de extraer contenido de páginas 
 
 * **[!UICONTROL Facebook Page]**
 
-   * Introduzca el valor **[!UICONTROL Name]** de la página. Escriba sólo el texto final de la dirección URL. **** Por ejemplo: Para agregar contenido desde `https://facebook.com/KellysSuperFunFanPage`, escriba *KellysSuperFunFanPage* en el **[!UICONTROL Name]** campo.
+   * Escriba el **[!UICONTROL Name]** para la página. Escriba sólo el texto final de la dirección URL. **Por ejemplo:** para agregar contenido desde  `https://facebook.com/KellysSuperFunFanPage`, escriba  ** KellysSuperFunFanPagin en el  **[!UICONTROL Name]** campo.
 
-   * Active esta opción **[!UICONTROL Include Facebook Comments for each post]** si desea incluir comentarios de usuario en las publicaciones de la página.
-   * Active esta opción **[!UICONTROL Only Show Author Posts]** si desea excluir publicaciones de otros usuarios.
+   * Active **[!UICONTROL Include Facebook Comments for each post]** si desea incluir comentarios de usuario en las publicaciones de la página.
+   * Active **[!UICONTROL Only Show Author Posts]** si desea excluir publicaciones de otros usuarios.
 
-Para obtener opciones de regla de flujo adicionales para todas las reglas de flujo, consulte Opciones de regla [de flujo para todas las reglas](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)de flujo.
+Para obtener opciones de regla de flujo adicionales para todas las reglas de flujo, consulte [Opciones de regla de flujo para todas las reglas de flujo](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
 
 >[!NOTE]
 >
