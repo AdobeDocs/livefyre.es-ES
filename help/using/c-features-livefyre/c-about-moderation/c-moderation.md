@@ -6,11 +6,14 @@ title: Reglas SEGURAS
 uuid: 2f91d0d4-dffe-4651-88af-79bbb96c1b5c
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '885'
+ht-degree: 0%
 
 ---
 
 
-# Reglas SEGURAS{#safe-rules}
+# Reglas SAFE{#safe-rules}
 
 El motor de filtrado de correo no deseado y abuso de Livefyre (SAFE) es un proceso en segundo plano que analiza todo el contenido entrante y está habilitado para todos los clientes de Livefyre.
 
@@ -28,7 +31,7 @@ Los indicadores aplicados por SAFE se pueden utilizar con los siguientes compone
 
 * Reglas
 
-   Puede definir las reglas de SAFE para marcar automáticamente el contenido y definir cómo se debe gestionar el contenido marcado en el **[!UICONTROL Network Settings]**.
+   Puede definir reglas SAFE para marcar automáticamente el contenido y definir cómo debe manejarse el contenido marcado en **[!UICONTROL Network Settings]**.
 
    Por ejemplo, un sitio puede establecer una tolerancia muy baja para la Profanidad y definir reglas SAFE que establezcan que todo el contenido marcado como Profane sea Bozo’d. Otros sitios pueden definir reglas que establecen que el contenido de Promedio se moderará previamente antes de entrar en el flujo.
 
@@ -38,9 +41,9 @@ Los indicadores aplicados por SAFE se pueden utilizar con los siguientes compone
 
 * Contenido de la aplicación en la biblioteca
 
-   El contenido marcado por SAFE aparece en la lista Contenido de la aplicación de la **[!UICONTROL Library]** ficha. Puede filtrar el contenido por indicadores para moderar el contenido.
+   El contenido marcado por SAFE aparece en la lista Contenido de la aplicación de la ficha **[!UICONTROL Library]**. Puede filtrar el contenido por indicadores para moderar el contenido.
 
-## Opciones de filtro SEGURO {#section_pg5_ttx_vy}
+## Opciones de filtro SAFE {#section_pg5_ttx_vy}
 
 SAFE aplica los siguientes indicadores al contenido filtrado y puede utilizarse para crear reglas y moderar contenido desde Livefyre Studio.
 
@@ -50,20 +53,20 @@ SAFE aplica los siguientes indicadores al contenido filtrado y puede utilizarse 
 
    >[!NOTE]
    >
-   >Livefyre también proporciona un segundo filtro de lista de ganancias, que puede personalizar tanto en el nivel de sitio como en el de red. Las reglas creadas con la Lista de ganancias obtenidas tendrán prioridad sobre las reglas automatizadas derivadas del filtro de PROBABILIDAD SEGURA. Para obtener más información, consulte la sección Lista de palabras clave en la documentación Configuración.
+   >Livefyre también proporciona un segundo filtro de Lista de la vulnerabilidad, que puede personalizar tanto en el nivel de sitio como en el de red. Las reglas creadas con la Lista Profanidad tendrán prioridad sobre las reglas automatizadas que se deriven del filtro PROBABILIDAD SEGURA. Para obtener más información, consulte la sección Lista de la rentabilidad en la documentación de Configuración.
 
 * **[!UICONTROL Mild Profanity]**:: Las palabras y frases generalmente no son aceptables en conversaciones corteses, pero generalmente son aceptables en conversaciones casuales. Generalmente, estas palabras y frases están permitidas en la televisión de red.
 * **[!UICONTROL Strong Profanity]**:: Lenguaje muy fuerte, como los improperios y frases no permitidos en la televisión en red y usados con moderación en películas clasificadas como R y programas maduros de televisión por cable. Por lo general, estas palabras no se utilizan en una conversación educada o casual y se dicen en una conversación descortés con la intención de dañar al oyente.
 * **[!UICONTROL SPAM]**:: Contenido no solicitado, generalmente comercial. Utiliza un modelo estadístico que se basa en una variedad de funciones (incluyendo contenido de comentarios y direcciones URL) para marcar un fragmento de contenido como SPAM. Puede ajustar los umbrales de correo no deseado para personalizar las tasas de etiquetado de SPAM para su red o sitio, mediante solicitud.
 * **[!UICONTROL Mild Insult]**:: Contenido insultante, tal como se define en una lista de palabras clave y patrones de frase.
 * **[!UICONTROL Strong Insult]**:: Contenido insultante, tal como se define en una lista de palabras clave y patrones de frase.
-* **[!UICONTROL Hate Speech]**:: Un insulto basado en la etnicidad o la religión, especialmente cuando la afiliación del grupo objetivo es una minoría o está protegida.
+* **[!UICONTROL Hate Speech]**:: Un insulto basado en la etnia o la religión, especialmente cuando la afiliación de grupo destinatario es minoritaria o está protegida.
 * **[!UICONTROL ALL CAPS]**:: Texto presentado en todas las letras mayúsculas (se lee gritando).
 * **[!UICONTROL Mild Threat]**:: Una amenaza o insulto que normalmente incluye algún tipo de blasfemia dirigida a otra persona. Esta opción marca las posibles amenazas con más frecuencia, pero también tiene una tasa de falsos positivos más alta que **[!UICONTROL Strong Threat]**.
 
-* **[!UICONTROL Strong Threat]**:: Una amenaza o insulto grave que menciona daños corporales procesables a una o más personas, a menudo con una gran blasfemia. Esta opción marca las posibles amenazas con menos frecuencia, pero también tiene una tasa de falsos positivos menor que **[!UICONTROL Mild Threat]**.
+* **[!UICONTROL Strong Threat]**:: Una amenaza o insulto grave que menciona daños corporales procesables a una o más personas, a menudo con una gran blasfemia. Esta opción marca las posibles amenazas con menor frecuencia, pero también tiene una tasa de falsos positivos menor que **[!UICONTROL Mild Threat]**.
 
-* **[!UICONTROL Probable Nudity]**:: Imagen que puede tener desnudos. Esta opción marca la desnudez con menos frecuencia, pero también tiene una tasa de falsos positivos menor que **[!UICONTROL Possible Nudity]**.
+* **[!UICONTROL Probable Nudity]**:: Imagen que puede tener desnudos. Esta opción marca la desnudez con menos frecuencia, pero también tiene una tasa de falsos positivos más baja que **[!UICONTROL Possible Nudity]**.
 
 * **[!UICONTROL Possible Nudity]**:: Imagen que puede tener desnudos. Esta opción marca la desnudez con más frecuencia, pero también tiene una tasa de falsos positivos más alta que **[!UICONTROL Probable Nudity]**.
 
@@ -72,16 +75,16 @@ SAFE aplica los siguientes indicadores al contenido filtrado y puede utilizarse 
 
    >[!NOTE]
    >
-   >Para activar Recomendaciones de moderación, póngase en contacto con el profesional de soporte técnico de Adobe Livefyre.
+   >Para activar Moderación de Recommendations, póngase en contacto con el profesional de soporte técnico de Adobe Livefyre.
 
-## Gestión de contenido no capturado por SAFE {#section_pjy_5tx_vy}
+## Administración de contenido no capturado por SAFE {#section_pjy_5tx_vy}
 
 Existen varios medios disponibles para gestionar eficazmente el contenido no capturado por este filtro. Las opciones siguientes se enumeran en el orden de proceso recomendado.
 
 1. Como moderador, elimine el contenido del flujo.
 1. Cree una regla de marca que indique si cinco usuarios marcan un contenido como correo no deseado u ofensivo, configúrelo en Bozo.
-1. Prohibir al usuario que publica contenido no deseado, de modo que todo su contenido irá directamente al estado Bozo.
-1. Agregue palabras específicas que siempre deben filtrarse a su lista de blasfemias.
+1. Prohibir al usuario que publica contenido no deseado, de modo que todo su contenido irá directamente al estado de Bozo.
+1. Añada palabras específicas que siempre deben filtrarse a su lista de blasfemias.
 
 >[!NOTE]
 >
