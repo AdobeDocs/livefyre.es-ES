@@ -6,6 +6,9 @@ title: Identifica cadenas personalizadas
 uuid: 73745273-d3fb-4569-8910-d149fb37a7b4
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 11%
 
 ---
 
@@ -46,7 +49,7 @@ new Livefyre.Sidenotes({
 | errorDuplicate | También nos gusta tu nota, pero no puedes publicarla dos veces. |
 | errorGeneral | Se ha producido un error. Inténtelo de nuevo. |
 | errorServer | Algo salió mal con nuestro servidor. ¿Intenta eso otra vez? |
-| facebookShareCaption | Notas al margen de "{title}" |
+| facebookShareCaption | Notas al margen de &quot;{title}&quot; |
 | menuAuthSignedInMsg | Debe iniciar sesión en {action} |
 | menuAuthSignInBtn | Iniciar sesión |
 | menuBackBtn | Atrás |
@@ -81,8 +84,8 @@ new Livefyre.Sidenotes({
 | notificationFlagged | Marcado |
 | permalinkBackBtn | Todas |
 | permalinkTitle | Permalink |
-| questionExplanation | Ahora puede leer y escribir comentarios directamente sobre oraciones, párrafos, imágenes y comillas.<br><br>Resalte el texto y haga clic en el icono "Fycon-write" o en el icono "Fycon-action-view" al final de cada párrafo. |
-| questionMockText | Lo que es "conocido familiar" no se conoce correctamente, sólo por la razón de que es "familiar". |
+| questionExplanation | Ahora puede leer y escribir comentarios directamente sobre oraciones, párrafos, imágenes y comillas.<br><br>Resalte el texto y haga clic en el icono &quot;Fycon-write&quot; o haga clic en el icono &quot;Fycon-action-vista&quot; al final de cada párrafo. |
+| questionMockText | Lo que es &quot;conocido familiar&quot; no se conoce correctamente, sólo por la razón de que es &quot;familiar&quot;. |
 | questionTitle | ¿Qué es un Sidenote? |
 | queuedCommentsPlural | {number} nuevas notas |
 | queuedCommentsSingular | 1 Nuevo Sidenote |
