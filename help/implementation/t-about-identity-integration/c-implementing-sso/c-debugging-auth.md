@@ -7,15 +7,18 @@ title: Delegado de autenticación de depuración
 uuid: fb0c7396-190e-4dc9-bf26-23dde9efd45d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 0%
 
 ---
 
 
-# Delegado de autenticación de depuración{#debugging-auth-delegate}
+# Depuración del delegado de autenticación{#debugging-auth-delegate}
 
 Puede iniciar sesión a través de la consola durante la integración y la prueba para depurar la autorización.
 
-Inicie sesión en la consola con el siguiente `auth.authenticate` (token) y pase un token de usuario de Livefyre para autenticar a los usuarios de la página.
+Inicie sesión en la consola con el `auth.authenticate` (token) siguiente y pase un token de usuario de Livefyre para autenticar a los usuarios de la página.
 
 También puede modificar el ejemplo que se muestra arriba y agregar el siguiente fragmento en línea en su JavaScript para iniciar sesión rápidamente en Livefyre (requiere una referencia a auth).
 
