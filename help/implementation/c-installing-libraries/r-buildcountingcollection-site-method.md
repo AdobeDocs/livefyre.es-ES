@@ -6,11 +6,14 @@ title: buildCountingCollection (método de sitio)
 uuid: e293d66a-0025-4230-997e-295ce4625713
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '119'
+ht-degree: 6%
 
 ---
 
 
-# buildCountingCollection (método de sitio){#buildcountingcollection-site-method}
+# buildCountingCollection (método del sitio){#buildcountingcollection-site-method}
 
 Devuelve un objeto Collection creado como un tipo Recuento. Ejecute create_or_update() desde el objeto Collection para completar el proceso de compilación.
 
