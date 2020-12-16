@@ -30,6 +30,6 @@ Para agregar estilo personalizado para grupos de usuarios específicos:
 
 ## Crear grupos de usuarios {#section_sjf_2zw_2cb}
 
-Los grupos de usuarios y las etiquetas de usuario son equivalentes en Studio. Al Añadir un usuario a un grupo de usuarios se agrega una etiqueta de usuario a su cuenta, a la que se puede aplicar estilo mediante las personalizaciones de CSS de Livefyre.
+Los grupos de usuarios y las etiquetas de usuario son equivalentes en Studio. Al añadir un usuario a un grupo de usuarios se agrega una etiqueta de usuario a su cuenta, a la que se puede aplicar estilo mediante las personalizaciones de CSS de Livefyre.
 
 Todos los usuarios que hayan publicado contenido en una colección pueden agregarse a uno o varios grupos de usuarios a través de Studio. Esto incluye tanto a los usuarios prohibidos como a los incluidos en la lista de usuarios permitidos, como al contenido que se origina en SocialSync y Curate.
