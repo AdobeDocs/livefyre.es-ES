@@ -1,25 +1,28 @@
 ---
-description: Aplique a los visitantes del sitio funciones que les permitan regresar al sitio cuando descubran el contenido.
-seo-description: Aplique a los visitantes del sitio funciones que les permitan regresar al sitio cuando descubran el contenido.
+description: Comprometa a los visitantes del sitio con las funciones que les permiten volver al sitio cuando descubren el contenido.
+seo-description: Comprometa a los visitantes del sitio con las funciones que les permiten volver al sitio cuando descubren el contenido.
 seo-title: Funciones de compromiso
 solution: Experience Manager
 title: Funciones de compromiso
 uuid: 5841a183-62c0-40ae-9cef-884bffb7c39b
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 2%
 
 ---
 
 
-# Funciones de compromiso{#enagement-features}
+# Características de participación{#enagement-features}
 
-Aplique a los visitantes del sitio funciones que les permitan regresar al sitio cuando descubran el contenido.
+Comprometa a los visitantes del sitio con las funciones que les permiten volver al sitio cuando descubren el contenido.
 
 ## Botones personalizados {#section_jdv_vcm_d1b}
 
 Los botones de acción personalizados y la acción asociada se pueden agregar a cualquier usuario o parte de contenido de cualquier aplicación de Livefyre, junto con los botones Marcar, Compartir y Eliminar existentes. Algunos ejemplos pueden ser permitir que un usuario oculte contenido de otro usuario o que siga a un usuario.
 
-Para obtener información técnica sobre cómo agregar botones de acción personalizados, consulte Adición de botones personalizados.
+Para obtener información técnica sobre cómo agregar botones de acción personalizados, consulte Añadir botones personalizados.
 
 Aplicaciones que utilizan esta función:
 
@@ -29,7 +32,7 @@ Aplicaciones que utilizan esta función:
 
 ## Me gusta {#section_q4j_ycm_d1b}
 
-Agregue la capacidad de "me gusta" un comentario o una respuesta.
+Añada la capacidad de &quot;me gusta&quot; un comentario o una respuesta.
 
 Aplicaciones que utilizan esta función:
 
@@ -42,9 +45,9 @@ Aplicaciones que utilizan esta función:
 * [Notas de identidad](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](../c-about-apps/c-storify2/c-storify2.md#c_storify2)
 
-## Ampliación de medios {#section_pmq_ycm_d1b}
+## Expansión de medios {#section_pmq_ycm_d1b}
 
-La capacidad de ver un elemento de medios en una ventana modal más grande.
+La capacidad de vista de un papel en una ventana modal más grande.
 
 Aplicaciones que utilizan esta función:
 
@@ -63,7 +66,7 @@ Aplicaciones que utilizan esta función:
 
 @mencione a un usuario o a alguien que ya haya publicado contenido en la colección.
 
-Para mencionar a alguien que ha publicado contenido en la colección, los usuarios pueden hacer clic en el botón **[!UICONTROL @]** de mención o escribir @ en el editor para mostrar una lista de personas disponibles para su mención. La lista incluirá todos los usuarios que estén siguiendo la conversación. (Comience a escribir un nombre para limitar la lista a coincidencias para el texto de entrada).
+Para mencionar a alguien que ha publicado contenido en la colección, los usuarios pueden hacer clic en el botón de mención **[!UICONTROL @]** o escribir @ en el editor para mostrar una lista de personas disponibles para su mención. La lista incluirá a todos los usuarios que estén siguiendo la conversación. (Inicio escribiendo un nombre para limitar la lista a coincidencias para el texto de entrada).
 
 >[!NOTE]
 >
@@ -87,9 +90,9 @@ Los botones de acción personalizados y la acción asociada se pueden agregar a 
 
 Permite a los usuarios recibir notificaciones por correo electrónico cuando se cambian las conversaciones que siguen.
 
-Seguir una conversación permite a los usuarios recibir notificaciones por correo electrónico en función de la actividad de la conversación. Los usuarios hacen clic en el botón **[!UICONTROL Follow]** / **[!UICONTROL Unfollow]** para establecer las preferencias específicas de la conversación o utilizan su **[!UICONTROL Profile Settings]** página para establecer una preferencia en todo el sitio para seguir las conversaciones.
+Si sigue una conversación, los usuarios pueden recibir notificaciones por correo electrónico en función de la actividad de la conversación. Los usuarios hacen clic en el botón **[!UICONTROL Follow]** / **[!UICONTROL Unfollow]** para establecer las preferencias específicas de la conversación o utilizan su página **[!UICONTROL Profile Settings]** para establecer una preferencia en todo el sitio para seguir las conversaciones.
 
-(La **[!UICONTROL Follow]** función no está disponible en dispositivos móviles).
+(La función **[!UICONTROL Follow]** no está disponible en móvil).
 
 >[!NOTE]
 >
