@@ -7,15 +7,18 @@ title: Implementación de Sidenotes
 uuid: aa13852e-e2b0-4a86-97cd-d08ab5e2cfab
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 28%
 
 ---
 
 
-# Implementación de Sidenotes{#sidenotes-implementation}
+# Identifica la implementación{#sidenotes-implementation}
 
 ## Implementar notas utilizando .js
 
-Para implementar esta función, pase una asignación de objetos 1-1 de las cadenas que desee reemplazar al objeto de configuración de Javascript. Si no proporciona un campo, se utilizará el texto predeterminado.
+Para implementar esta función, pase una asignación de objetos 1-1 de las cadenas que desee reemplazar al objeto de configuración de Javascript. Si no se proporciona un campo, se utilizará el texto predeterminado.
 
 ### Ejemplo
 
