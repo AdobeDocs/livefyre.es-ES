@@ -7,11 +7,14 @@ title: buildReviewsCollection (método de sitio)
 uuid: 88af4c68-57de-4ae9-9394-550c94ede48f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '119'
+ht-degree: 6%
 
 ---
 
 
-# buildReviewsCollection (método de sitio){#buildreviewscollection-site-method}
+# buildReviewsCollection (método del sitio){#buildreviewscollection-site-method}
 
 Devuelve un objeto Collection creado como un tipo de revisión. Ejecute create_or_update() desde el objeto Collection para completar el proceso de compilación.
 
