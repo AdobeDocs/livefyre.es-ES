@@ -7,6 +7,9 @@ title: Seguimiento de referencia
 uuid: 7daf615d-0c07-49d1-adb2-1ac67ea563e7
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +28,7 @@ El tráfico de referencia de Livefyre desde las redes sociales y los correos ele
 
 ## Ejemplo de implementación {#section_xvs_x44_xz}
 
-Si el tráfico procedía de una notificación basada en StreamHub, habrá un parámetro de cadena de consulta hubRefSrc con un valor de correo electrónico, facebook, twitter, linkedin o permalink. El equipo de entrega de Livefyre puede configurar el nombre del parámetro hubRefSrc a nivel de red.
+Si el tráfico procedía de una notificación basada en StreamHub, habrá un parámetro de cadena de consulta hubRefSrc con un valor de correo electrónico, facebook, twitter, linkedin o permalink. El equipo de envío de Livefyre puede configurar el nombre del parámetro hubRefSrc a nivel de red.
 
 Para integrarla con una plataforma de análisis, la página debe buscar hubRefSrc durante la carga y registrar el tráfico si está presente.
 
