@@ -7,13 +7,16 @@ title: Integración con Embedly
 uuid: 1f27e32c-c2c3-4f7c-93de-c9c7bf783d6a
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 14%
 
 ---
 
 
-# Integración con Embedly{#embedly-integration}
+# Integración con Embedly {#embedly-integration}
 
-Use `embed.ly` to display multiple media formats, directly in the App.
+Utilice `embed.ly` para mostrar varios formatos de medios, directamente en la aplicación.
 
 Para habilitar mejor el contenido de medios incrustados de una variedad de fuentes, incluidos Google Maps, YouTube, Flickr, Facebook, Instagram, Spotify y Tumblr, Livefyre Apps usa Embedere como proveedor de terceros para la expansión de URL. Si un usuario o moderador incluye un vínculo admitido en una publicación, los medios incluidos en el vínculo se expandirán cuando se publiquen en la colección.
 
@@ -21,9 +24,9 @@ Esto proporciona a las aplicaciones de Livefyre acceso a las más de 250 opcione
 
 >[!NOTE]
 >
->Livefyre solo expande un subconjunto de la lista completa de proveedores de Embeds. Las imágenes incrustadas se expandirán en páginas HTTPS solamente si el proveedor es Twitter, YouTube, Imgur, Vine, Wikipedia o SoundCloud. Comuníquese con el administrador técnico de cuentas para cualquier otra pregunta sobre la expansión o las fuentes de los vínculos.
+>Livefyre sólo expande un subconjunto de la lista completa del proveedor de Embeds. Las imágenes incrustadas se expandirán en páginas HTTPS solamente si el proveedor es Twitter, YouTube, Imgur, Vine, Wikipedia o SoundCloud. Comuníquese con el administrador técnico de cuentas para cualquier otra pregunta sobre la expansión o las fuentes de los vínculos.
 
-Esta página enumera ejemplos de algunos tipos de medios incrustados populares y sus patrones de URL aceptables. `Embed.ly` agrega continuamente nuevas fuentes. Para obtener una lista completa de proveedores, vaya a `https://embed.ly/embed/features/providers`.
+Esta página lista ejemplos de algunos tipos de medios incrustados populares y sus patrones de URL aceptables. `Embed.ly` agrega continuamente nuevas fuentes. Para obtener una lista completa de los proveedores, vaya a `https://embed.ly/embed/features/providers`.
 
 >[!NOTE]
 >
@@ -35,7 +38,7 @@ Solo se puede incrustar contenido visible públicamente. Si intenta incrustar un
 
 | Tipo | Proveedor | Direcciones URL |
 |--- |--- |--- |
-| Mapas | Google Maps | <ul><li>`https://maps.google.com/maps?*`</li><li>`https://maps.google.com/?*`</li><li>`https://maps.google.com/maps/ms?*`</li></ul><br>**Nota**: La dirección URL debe comenzar por `http` y no `https.` |
+| Mapas | Google Maps | <ul><li>`https://maps.google.com/maps?*`</li><li>`https://maps.google.com/?*`</li><li>`https://maps.google.com/maps/ms?*`</li></ul><br>**Nota**: La dirección URL debe comenzar por  `http` y no  `https.` |
 | Redes sociales | Google Plus | <ul><li>`https://plus.google.com/*`</li><li>`https://www.google.com/profiles/*`</li><li> `https://plus.google.com/*`</li><li>`https://google.com/profiles/*`</li></ul> |
 | Vídeo | YouTube | <ul><li>`https://*youtube.com/watch*`</li><li> `https://*.youtube.com/v/*`</li><li>`https://*youtube.com/watch*` </li><li>`https://*.youtube.com/v/*`</li><li>`https://youtu.be/*`</li><li>`https://*.youtube.com/user/*` </li><li>`https://*.youtube.com/*#*/*`</li><li>`https://m.youtube.com/watch*`</li><li>`https://m.youtube.com/index*`</li><li>`https://*.youtube.com/profile*`</li><li>`https://*.youtube.com/view_play_list*`</li><li>`https://*.youtube.com/playlist*`</li></ul> |
 | Fotos | Flickr | `https://www.flickr.com/photos/*`<br>`https://flic.kr/*` |
