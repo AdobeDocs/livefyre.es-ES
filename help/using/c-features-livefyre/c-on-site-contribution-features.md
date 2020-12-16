@@ -1,19 +1,22 @@
 ---
-description: Elija cómo interactúan los visitantes con las aplicaciones y de qué manera pueden interactuar con el contenido.
-seo-description: Elija cómo interactúan los visitantes con las aplicaciones y de qué manera pueden interactuar con el contenido.
+description: Elija cómo interactúan los visitantes del sitio con las aplicaciones y de qué manera pueden interactuar con el contenido.
+seo-description: Elija cómo interactúan los visitantes del sitio con las aplicaciones y de qué manera pueden interactuar con el contenido.
 seo-title: Funciones de contribución in situ
 solution: Experience Manager
 title: Funciones de contribución in situ
 uuid: 1f441490-28eb-4fc4-9fe8-0879c62c4b4a
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '302'
+ht-degree: 3%
 
 ---
 
 
-# Funciones de contribución in situ{#on-site-contribution-features}
+# Características de contribución in situ{#on-site-contribution-features}
 
-Elija cómo interactúan los visitantes con las aplicaciones y de qué manera pueden interactuar con el contenido.
+Elija cómo interactúan los visitantes del sitio con las aplicaciones y de qué manera pueden interactuar con el contenido.
 
 ## Contribución de encuesta {#section_tdg_zsr_d1b}
 
@@ -43,13 +46,13 @@ Aplicaciones que utilizan esta función:
 
 ## Carga de vídeo {#section_mlm_42s_d1b}
 
-Los visitantes del sitio pueden contribuir a la aplicación cargando vídeos. Esto se puede hacer con aplicaciones de conversación o con el "botón de carga" para aplicaciones de visualización. Consulte la documentación de aplicaciones individuales para obtener más información sobre si una aplicación admite esta función. requiere autenticación
+Los visitantes del sitio pueden contribuir a la aplicación cargando vídeos. Esto se puede hacer con aplicaciones de conversación o con el &quot;botón de carga&quot; para aplicaciones de visualización. Consulte la documentación de aplicaciones individuales para obtener más información sobre si una aplicación admite esta función. requiere autenticación
 
 Debe configurar la autenticación para utilizar esta función.
 
 Aplicaciones que utilizan esta función:
 
-* [Upload Button](../c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
+* [Botón de carga](../c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
 
 ## Botón de carga compatible {#section_vzs_t2s_d1b}
 
@@ -72,7 +75,7 @@ Aplicaciones que utilizan esta función:
 
 ## Resultados del usuario {#section_azw_dx4_h1b}
 
-Ver el número de veces que un usuario seleccionó cada respuesta en una encuesta.
+Vista el número de veces que un usuario seleccionó cada respuesta en una encuesta.
 
 Aplicaciones que utilizan esta función:
 
