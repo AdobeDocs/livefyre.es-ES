@@ -7,6 +7,9 @@ title: Personalizaciones de botones de carga
 uuid: d820bbec-8c76-4864-9e70-55394010c35d
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 8%
 
 ---
 
@@ -28,14 +31,14 @@ Active el botón de carga con un código incrustado.
 
    * **[!UICONTROL Allow User Posts.]** Elija si los usuarios finales pueden utilizar el botón de carga para publicar texto, fotos o vídeos. Si un usuario final no está autenticado, no podrá utilizar el botón Cargar.
    * **[!UICONTROL Include Title.]** Permite a los usuarios finales introducir un título con el contenido que cargan. De forma predeterminada, los usuarios finales pueden realizar comentarios. Al habilitar esto, se crea un título y un comentario como parte del contenido que carga el usuario final.
-   * **[!UICONTROL Require Media.]** Requiere que los usuarios finales carguen una foto o un vídeo para publicar contenido mediante el botón Cargar.
+   * **[!UICONTROL Require Media.]** Requerir que los usuarios finales carguen una foto o un vídeo para publicar contenido mediante el botón Cargar.
 
 * **[!UICONTROL Text Configuration]**
 
    * **[!UICONTROL Upload Button Text.]** Configure el texto que se muestra en el botón Cargar.
    * **[!UICONTROL Comment Modal Title.]** Título de la ventana que se muestra cuando el usuario final hace clic en el botón Cargar.
    * **[!UICONTROL Comment Modal Button.]** Texto que se muestra en la ventana en la que el usuario final carga contenido después de hacer clic en el botón Cargar.
-   * **[!UICONTROL Comment Modal Title Input.]** Permite al usuario final introducir un título con la carga. Puede modificar el contenido que se muestra aquí si seleccionó "Incluir título".
+   * **[!UICONTROL Comment Modal Title Input.]** Permita que el usuario final introduzca un título con la carga. Puede modificar el contenido que se muestra aquí si seleccionó &quot;Incluir título&quot;.
    * **[!UICONTROL Comment Modal Message Input.]** Permita que el usuario final introduzca un mensaje con la carga.
    * **[!UICONTROL Confirmation Modal Title Text.]** Título de la ventana que confirma al usuario final que cargó el contenido correctamente.
    * **[!UICONTROL Confirmation Modal Description Text.]** Texto que se muestra en la ventana que confirma al usuario final que cargó el contenido correctamente.
@@ -46,7 +49,7 @@ Active el botón de carga con un código incrustado.
 
 Puede personalizar el botón Cargar mediante:
 
-* **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de la **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** las opciones de todas las aplicaciones en la sección **[!UICONTROL App Designer]**
+* **[!UICONTROL Style]** y  **[!UICONTROL Config]** opciones para todas las aplicaciones de la  **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones en el **[!UICONTROL App Designer]**
 
 * Herramientas de integración. Consulte Integraciones de aplicaciones para obtener más información sobre cómo personalizar aplicaciones mediante las herramientas de integración.
 
