@@ -6,6 +6,9 @@ title: Hovercards
 uuid: a7336a4d-b92f-4b3b-a3de-713aa388b58a
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 Habilite o deshabilite las tarjetas verticales de usuario en el sitio.
 
-El Hovercard de Livefyre es una ventana emergente que muestra una instantánea rápida de la información del usuario, incluyendo el nombre para mostrar, la biografía, las redes sociales, los "Me gusta" del usuario, la URL de la página de perfil y un vínculo para ver su perfil completo. Las tarjetas sobredimensionadas están disponibles para todos los flujos de Livefyre, incluidos Comentarios, Blogs en vivo y Chat.
+La tarjeta de sobrevuelo de Livefyre es una ventana emergente que muestra una instantánea rápida de la información del usuario, incluyendo el nombre para mostrar, la biografía, las redes sociales, los &quot;Me gusta&quot; del usuario, la dirección URL de la página de perfil y un vínculo para vista de su perfil completo. Las tarjetas sobredimensionadas están disponibles para todos los flujos de Livefyre, incluidos Comentarios, Blogs en vivo y Chat.
 
 >[!NOTE]
 >
@@ -24,11 +27,11 @@ El Hovercard de Livefyre es una ventana emergente que muestra una instantánea r
 
 Al pasar el ratón sobre el avatar de un usuario en Comentarios, Blogs en vivo o Chat, aparecerá su Hovercard.
 
-Al hacer clic **[!UICONTROL View Full Profile]** se llevará al usuario a la página de perfil completa para ese usuario.
+Al hacer clic **[!UICONTROL View Full Profile]**, el usuario pasará a la página de perfil completa para ese usuario.
 
 >[!NOTE]
 >
->Las tarjetas sobrepasadas muestran la información incluida en el sistema de perfiles de usuario. Los campos que no estén incluidos en ese sistema no se mostrarán en las tarjetas de desplazamiento. Si no tiene páginas de perfil público, no se mostrará ninguna página. Si desea deshabilitar las tarjetas sobrepasadas para su red personalizada, comuníquese con el administrador técnico de cuentas.
+>Las tarjetas sobrepasadas muestran la información incluida en el sistema de Perfil de usuarios. Los campos que no estén incluidos en ese sistema no se mostrarán en las tarjetas de desplazamiento. Si no tiene páginas de perfil públicas, no se mostrará ninguna página. Si desea deshabilitar las tarjetas sobrepasadas para su red personalizada, comuníquese con el administrador técnico de cuentas.
 
 
 
