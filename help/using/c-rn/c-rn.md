@@ -5,6 +5,9 @@ seo-title: Últimas notas de la versión de Adobe Livefyre
 title: Últimas notas de la versión de Livefyre
 translation-type: tm+mt
 source-git-commit: 0efc365d4496bd44142ad1513f51163f24676084
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 3%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 0efc365d4496bd44142ad1513f51163f24676084
 
 ## Correcciones de errores
 
-* Se corrigió un problema en el cual el usuario encontraba un error "401 no autorizado" al buscar contenido de Instagram más allá del límite de 30 búsquedas de hashtags por 7 días.
-* Se corrigió un problema en el cual 'Cargar más' en los muros de medios con contenido filtrado por productos coloca el contenido en la parte superior en lugar de por debajo del contenido existente como se esperaba.
+* Se corrigió un problema en el cual el usuario encontraba un error &quot;401 no autorizado&quot; al buscar contenido de Instagram más allá del límite de 30 búsquedas de hashtags por 7 días.
+* Se corrigió un problema en el cual &#39;Cargar más&#39; en los muros de medios con contenido filtrado por productos coloca el contenido en la parte superior en lugar de por debajo del contenido existente como se esperaba.
 * Se corrigió un problema en el cual las publicaciones de Instagram se eliminaban debido a vínculos CDN caducados.
 * Se corrigió un problema en el cual la aplicación de encuestas mostraba las opciones de pregunta y respuesta de encuesta utilizando un formato incorrecto.
 * Se ha eliminado la documentación para la importación de contenido de Facebook, que ya no se admite.
