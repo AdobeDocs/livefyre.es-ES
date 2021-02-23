@@ -1,14 +1,14 @@
 ---
-description: La tira de película es una aplicación de visualización que muestra contenido generado por el usuario en una tira de fotos dinámica única y horizontal, similar a una tira de película de una cámara.
+description: 'Obtenga información sobre la aplicación Filmstris con nuestra completa guía. La aplicación de visualización muestra las imágenes en una tira de película de cámara retro. Mátalo con nuestros consejos. '
 seo-description: La tira de película es una aplicación de visualización que muestra contenido generado por el usuario en una tira de fotos dinámica única y horizontal, similar a una tira de película de una cámara.
 seo-title: Tira de película
 solution: Experience Manager
-title: Tira de película
+title: Guía de la aplicación de tira de película
 uuid: 2e3cb6f4-15db-4509-8a5b-a651511cdbd6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 2584041dd080c08ee769bd897e55157ec05ce8b6
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '821'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 La tira de película es una aplicación de visualización que muestra contenido generado por el usuario en una tira de fotos dinámica única y horizontal, similar a una tira de película de una cámara.
 
-## Acerca de Tira de película {#section_tng_slj_yy}
+## Obtenga información sobre cómo utilizar la tira de película {#section_tng_slj_yy}
 
 Puede utilizar Tira de película con UGC en escenarios de comercio electrónico, como páginas de productos o sitios web transaccionales. Los usuarios finales pueden navegar por la tira de película haciendo clic en las flechas laterales para desplazarse por el contenido disponible de izquierda a derecha. El nuevo contenido se muestra a la izquierda cuando entra en la aplicación. Puede elegir si la UGC recién transmitida tendrá una etiqueta en ella que diga: *Nuevo* para ayudar a los visitantes del sitio a identificar rápidamente el nuevo contenido.
 
