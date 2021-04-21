@@ -1,28 +1,24 @@
 ---
-description: Obtenga información sobre cómo cambiar de una conversación a otro tipo de aplicación.
-seo-description: Obtenga información sobre cómo cambiar de una conversación a otro tipo de aplicación.
-seo-title: Cambiar tipos de aplicaciones principales
-solution: Experience Manager
+description: Aprenda a cambiar de un tipo de aplicación de conversación a otro.
 title: Cambiar tipos de aplicaciones principales
-uuid: 442a517c-3809-46c5-bb5f-8668a29dc3e8
+exl-id: f18c97e8-8f39-4831-b907-afd438097e9e
 translation-type: tm+mt
-source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '141'
 ht-degree: 1%
 
 ---
 
-
 # Cambiar tipos de aplicaciones principales{#switch-core-app-types}
 
-Obtenga información sobre cómo cambiar de una conversación a otro tipo de aplicación.
+Aprenda a cambiar de un tipo de aplicación de conversación a otro.
 
-Lifefyre le permite cambiar las colecciones de un tipo de aplicación principal de Livefyre a otro (Comentarios, Blog en vivo o Chat) simplemente cambiando algunas configuraciones en sus `collectionMeta` datos.
+Lifefyre le permite cambiar colecciones de un tipo de aplicación principal de Livefyre a otro (Comentarios, Blogs en Directo o Chat) simplemente cambiando algunos ajustes en sus datos `collectionMeta` .
 
-Para implementar un tipo específico de aplicación, agregue un nuevo campo al objeto `collectionMeta`. Comentarios es el valor predeterminado, por lo que no tendrá que realizar estas actualizaciones si es su aplicación deseada. Para cambiar a una aplicación diferente después de crear una colección, pase un valor de suma de comprobación durante la inicialización de la aplicación. Obtenga más información sobre la creación de un valor de suma de comprobación en nuestra documentación de testigos `collectionMeta`.
+Para implementar un tipo específico de aplicación, agregue un nuevo campo al objeto `collectionMeta` . Comentarios es el valor predeterminado, por lo que no tendrá que realizar estas actualizaciones si esa es su aplicación deseada. Para cambiar a una aplicación diferente después de crear una colección, pase un valor de suma de comprobación durante la inicialización de la aplicación. Obtenga más información sobre la creación de un valor de suma de comprobación en nuestra documentación del token `collectionMeta` .
 
-## Blog en vivo {#section_kvj_3jj_11b}
+## Blog en directo {#section_kvj_3jj_11b}
 
 ### Ejemplo de PHP
 
@@ -113,7 +109,7 @@ conv_config = {
 }
 ```
 
-## Blog en vivo {#section_bqt_cjj_11b}
+## Blog en directo {#section_bqt_cjj_11b}
 
 ### Ejemplo de PHP
 
