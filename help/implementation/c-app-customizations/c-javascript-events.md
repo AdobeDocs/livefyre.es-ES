@@ -1,28 +1,24 @@
 ---
 description: Los eventos disponibles para enlazar JavaScript para aplicaciones de conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
-seo-description: Los eventos disponibles para enlazar JavaScript para aplicaciones de conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
-seo-title: Definiciones y ejemplos de Eventos JavaScript
-solution: Experience Manager
-title: Definiciones y ejemplos de Eventos JavaScript
-uuid: 61da2e2e-8fcd-482d-93df-c946f0475277
+title: Definiciones y ejemplos de eventos de JavaScript
+exl-id: 5b865974-69aa-4d51-ac26-60f1d8a114fc
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 15%
+source-wordcount: '375'
+ht-degree: 11%
 
 ---
 
-
-# Definiciones y ejemplos de Eventos de JavaScript{#javascript-events-definitions-and-examples}
+# Definiciones y ejemplos de eventos de JavaScript{#javascript-events-definitions-and-examples}
 
 Los eventos disponibles para enlazar JavaScript para aplicaciones de conversación (por ejemplo, chats, blogs en directo, reseñas y notas).
 
-Livefyre proporciona eventos de JavaScript para rastrear la actividad de los usuarios en sus aplicaciones de Livefyre. Por ejemplo, puede que desee actualizar la página cuando los usuarios quieran o compartan contenido en Twitter o Facebook, o cuando se publique nuevo contenido.
+Livefyre proporciona eventos de JavaScript para rastrear la actividad de los usuarios en sus aplicaciones de Livefyre. Por ejemplo, puede que desee actualizar la página cuando los usuarios quieran o compartan contenido en Twitter o Facebook, o cuando se publique contenido nuevo.
 
-Livefyre también le permite agregar eventos a integraciones de análisis de terceros (Adobe Analytics JS, Google Analytics, administración dinámica de etiquetas, etc.) para rastrear eventos de aplicaciones. Para obtener más información, trabaje con el administrador de integración de terceros para proporcionar los eventos correctos.
+Livefyre también le permite agregar eventos a integraciones de análisis de terceros (Adobe Analytics JS, Google Analytics, Dynamic Tag Management, etc.) para rastrear eventos de aplicaciones. Para obtener más información, colabore con su administrador de integración de terceros para proporcionar los eventos correctos.
 
-Para enlazar a estos eventos, agregue el siguiente código a la página cuando cree una instancia de la aplicación en una página. Sustituya el nombre del evento por `{eventName}`:
+Para enlazar a estos eventos, añada el siguiente código a la página al crear una instancia de la aplicación en una página. Sustituya el nombre del evento por `{eventName}`:
 
 ```
 Livefyre.require(['fyre.conv#3'], function(Conv) { 
@@ -36,15 +32,15 @@ Livefyre.require(['fyre.conv#3'], function(Conv) {
 
 >[!NOTE]
 >
->Los objetos de datos se proporcionan para todos los controladores de evento. Los objetos de datos de ejemplo siguen cada evento.
+>Los objetos de datos se proporcionan para todos los controladores de eventos. Los objetos de datos de ejemplo siguen cada evento.
 
 ## commentPosted {#section_qfr_51p_xz}
 
 Un usuario publicó un comentario.
 
-* Un elemento principal de null es un comentario nuevo.
-* El elemento principal Ninguno es un comentario que se ha editado.
-* Un número para parent es el ID principal de la respuesta.
+* Un elemento principal nulo es un comentario nuevo.
+* El comentario principal de Ninguno es un comentario que se ha editado.
+* Un número para el elemento principal es el ID principal de la respuesta.
 
 ```
 data = { 
@@ -73,7 +69,7 @@ data = {
 
 ## commentLiked {#section_vc1_r1p_xz}
 
-A un usuario le gustó un comentario.
+A un usuario le gustaba un comentario.
 
 ```
 data = { 
@@ -85,7 +81,7 @@ data = {
 
 ## commentShared {#section_nqb_31p_xz}
 
-Un usuario compartió un comentario del flujo. (Este evento no se activa cuando los usuarios comparten desde el editor de comentarios). Este evento se activa cuando se hace clic en el botón Compartir.
+Un usuario compartió un comentario del flujo. (Este evento no se activa cuando los usuarios comparten desde el editor de comentarios). Este evento se activa cuando se hace clic en el botón Compartir .
 
 ```
 data = { 
@@ -97,7 +93,7 @@ data = {
 
 ## commentCountUpdated {#section_qdq_f1p_xz}
 
-El número total de comentarios visibles en esta conversación ha cambiado (ya sea incrementado o disminuido).
+El número total de comentarios visibles en esta conversación ha cambiado (ya sea incrementado o reducido).
 
 ```
 data: 34 // The total number of visible comments in the conversation (integer). 
@@ -121,11 +117,11 @@ data = {
 
 Un usuario ha cerrado la sesión.
 
-data is undefined.
+Los datos no están definidos.
 
 ## socialMention {#section_a1w_tz4_xz}
 
-Un usuario incluyó un comentario de @uncia. Devuelve una matriz de lo siguiente:
+Un usuario incluyó un @mention en un comentario. Devuelve una matriz de lo siguiente:
 
 ```
 data = { 
@@ -137,7 +133,7 @@ data = {
 } 
 ```
 
-## commentFeatured
+## commentFeedback
 
 Un usuario moderador presentó un comentario. Devuelve una matriz de lo siguiente:
 
@@ -153,17 +149,17 @@ data = {
 
 El flujo de comentarios se ha cargado y el conjunto inicial de contenido se ha recuperado del servidor y se ha mostrado al usuario.
 
-data is undefined.
+Los datos no están definidos.
 
 ## showMore {#section_pqg_nz4_xz}
 
 Un usuario hizo clic en el botón **[!UICONTROL Show More]**.
 
-data is undefined.
+Los datos no están definidos.
 
 ## userFollowed {#section_xxw_jz4_xz}
 
-Devuelve true cuando un usuario hace clic en el botón **[!UICONTROL Follow]** y false cuando se anuncia contenido en la secuencia.
+Devuelve true cuando un usuario hace clic en el botón **[!UICONTROL Follow]** y false cuando se anuncia el contenido en la emisión.
 
 ```
 data = { 
@@ -174,7 +170,7 @@ data = {
 
 ## userUnFollow {#section_wm1_gz4_xz}
 
-Devuelve true cuando un usuario hace clic en el botón **Dejar de seguir** y false cuando el contenido se anuncia en el flujo.
+Devuelve el valor verdadero cuando un usuario hace clic en el botón **Dejar de seguir** y falso cuando el contenido se anuncia en la emisión.
 
 ```
 data = { 
@@ -182,4 +178,3 @@ data = {
    optOut: true 
 }
 ```
-
