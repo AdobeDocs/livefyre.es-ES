@@ -1,26 +1,22 @@
 ---
-description: Permite a los usuarios hacer clic en Colecciones desde una única dirección URL y un diseño de página.
-seo-description: Permite a los usuarios hacer clic en Colecciones desde una única dirección URL y un diseño de página.
-seo-title: Cambiar colección
-solution: Experience Manager
+description: Permita a los usuarios hacer clic en Colecciones desde un único diseño de página y dirección URL.
 title: Cambiar colección
-uuid: 69bafcc7-c55e-47d6-bc79-b0db80fdf138
+exl-id: 5cfae2c6-e328-4d2c-b08b-709be94e4c54
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
-
 # Cambiar colección{#change-collection}
 
-Permite a los usuarios hacer clic en Colecciones desde una única dirección URL y un diseño de página.
+Permita a los usuarios hacer clic en Colecciones desde un único diseño de página y dirección URL.
 
-Utilice el Delegado de la colección de cambios para cambiar la colección que se muestra en una página, sin cambiar la URL, mientras que una aplicación de Livefyre ya está cargada. Utilice esta función para mostrar las galerías de fotos o vídeos, u otras aplicaciones en las que la colección mostrada debería cambiar tras una acción del usuario.
+Utilice Cambiar Delegado de Recopilación para cambiar la Colección que se muestra en una página, sin cambiar la URL, mientras que una Aplicación Livefyre ya está cargada. Utilice esta función para mostrar galerías de fotos o vídeos, u otras aplicaciones en las que la colección mostrada debería cambiar después de una acción del usuario.
 
-Por ejemplo, al hacer clic en un vídeo o una fotografía de una galería se cargará una colección específica de esa selección, mientras que la dirección URL de la página no cambiará.
+Por ejemplo, al hacer clic en un vídeo o una foto de una galería, se cargará una colección específica de esa selección, mientras que la dirección URL de la página no cambiará.
 
 Para cargar una de las tres colecciones desde una sola página [recuento de comentarios](/help/implementation/c-advanced-topics/t-display-comment-count.md):
 
@@ -64,4 +60,3 @@ Livefyre.require(['fyre.conv#prod'],function(Conv) {
 </body> 
 </html>
 ```
-
