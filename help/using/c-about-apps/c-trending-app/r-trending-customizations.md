@@ -1,35 +1,30 @@
 ---
-description: Cambie el tamaño, el ancho y las opciones de interacción de la aplicación de mapa.
-seo-description: Cambie el tamaño, el ancho y las opciones de interacción de la aplicación de mapa.
-seo-title: Tendencias de personalizaciones
-solution: Experience Manager
+description: Cambie el tamaño, la anchura y las opciones de interacción de la aplicación de mapa.
 title: Tendencias de personalizaciones
-uuid: 4dc58d90-8924-4c89-8f2a-650ac6e0538a
+exl-id: 224fc481-0c71-4d56-b73b-adf53451e968
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
-
 # Tendencias de personalizaciones{#trending-customizations}
 
-Cambie el tamaño, el ancho y las opciones de interacción de la aplicación de mapa.
+Cambie el tamaño, la anchura y las opciones de interacción de la aplicación de mapa.
 
-| Sitio | Escriba el sitio desde el cual se seleccionarán las aplicaciones de tendencias. |
+| Sitio | Introduzca el sitio desde el que se seleccionarán las aplicaciones de tendencias. |
 |---|---|
-| Filtrar por etiqueta de aplicación | Escriba un **[!UICONTROL App Tag]** por el cual se filtrarán las tendencias, si lo desea. Utilice las etiquetas de la aplicación para definir las aplicaciones específicas que desee incluir en las tendencias. En este campo solo puede introducir una etiqueta. |
-| Recuento de aplicaciones | Introduzca el número de aplicaciones (más activas) que se van a mostrar. |
-| Incluir gráfico de barras | Si está activada, la aplicación mostrará los gráficos de barras con la lista Aplicaciones. |
-| Vínculos permanentes de la aplicación | Si está activada, al hacer clic en el título de una aplicación se abrirá en una nueva ficha. |
+| Filtrar por etiqueta de aplicación | Introduzca un **[!UICONTROL App Tag]** por el que se filtrarán las tendencias, si lo desea. Use Etiquetas de aplicaciones para definir aplicaciones específicas que desee incluir en Tendencias. Solo puede introducir una etiqueta en este campo. |
+| Recuento de aplicaciones | Introduzca el número de aplicaciones (más activas) que se mostrarán. |
+| Incluir gráfico de barras | Si está habilitada, la aplicación mostrará gráficos de barras con la lista Aplicaciones . |
+| Permallos de la aplicación | Si se habilita, al hacer clic en el título de una aplicación se abrirá en una nueva pestaña. |
 
-Las aplicaciones de tendencias permiten mostrar las aplicaciones más activas de un sitio determinado mostrando las principales aplicaciones de la mayoría a la menos activas, con un gráfico de barras que muestra la popularidad relativa de cada aplicación.
+Las aplicaciones de tendencias le permiten mostrar las aplicaciones más activas de un sitio determinado mediante la visualización de las principales aplicaciones de la más activa a la menos activa, con un gráfico de barras que muestra la popularidad relativa de cada aplicación mostrada.
 
-Puede personalizar los comentarios mediante:
+Puede personalizar Comentarios mediante:
 
-* **[!UICONTROL Style]** y  **[!UICONTROL Config]** opciones para todas las aplicaciones de la  **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones en **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** y  **[!UICONTROL Config]** para todas las aplicaciones de  **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de **[!UICONTROL App Designer]**.
 
 * Herramientas de integración. Consulte Tendencias para obtener más información sobre cómo personalizar aplicaciones mediante las herramientas de integración.
-
