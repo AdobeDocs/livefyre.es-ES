@@ -1,26 +1,22 @@
 ---
 description: Consulte los comentarios agregados por HTML personalizado mediante este procedimiento.
-seo-description: Consulte los comentarios agregados por HTML personalizado mediante este procedimiento.
-seo-title: Vista de comentarios HTML personalizados en Studio
-solution: Experience Manager
-title: Vista de comentarios HTML personalizados en Studio
-uuid: 56df319c-6be7-448c-9562-48c67db27557
+title: Ver comentarios HTML personalizados en Studio
+exl-id: bddcf589-b611-448c-92aa-d975d1542ee6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
 
-
-# Comentarios HTML personalizados de vista en Studio{#view-custom-html-comments-in-studio}
+# Ver comentarios HTML personalizados en Studio{#view-custom-html-comments-in-studio}
 
 Consulte los comentarios agregados por HTML personalizado mediante este procedimiento.
 
 >[!NOTE]
 >
->No es posible editar comentarios que contengan código HTML o agregar archivos adjuntos HTML personalizados mediante Studio.
+>No es posible editar comentarios que contengan código HTML o añadir archivos adjuntos HTML personalizados con Studio.
 
-1. Studio muestra una miniatura de previsualización para HTML personalizado con un comentario.
-1. Haga clic en la miniatura para mostrar el archivo adjunto completo.
+1. Studio muestra una vista previa en miniatura del HTML personalizado que se muestra con un comentario.
+1. Haga clic en la miniatura para mostrar el adjunto completo.
