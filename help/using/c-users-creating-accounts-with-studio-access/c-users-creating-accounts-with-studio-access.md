@@ -1,18 +1,14 @@
 ---
 description: Las cuentas de Studio le permiten acceder a todos los componentes de Studio para los que tiene permisos, incluida la creación de aplicaciones, la moderación de contenido y la administración de usuarios.
-seo-description: Las cuentas de Studio le permiten acceder a todos los componentes de Studio para los que tiene permisos, incluida la creación de aplicaciones, la moderación de contenido y la administración de usuarios.
-seo-title: Usuarios que crean cuentas de usuario
-solution: Experience Manager
 title: Usuarios que crean cuentas de usuario
-uuid: f8eed23d-40d4-4aee-8ee0-f1790e119961
+exl-id: d45362f5-e0ba-4141-9d35-7999380d94cd
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
-
 
 # Usuarios: Creación de cuentas de usuario{#users-creating-user-accounts}
 
@@ -20,4 +16,4 @@ Las cuentas de Studio le permiten acceder a todos los componentes de Studio para
 
 Los usuarios de Studio con acceso a varias redes podrán administrar estas redes desde una sola cuenta.
 
-Las cuentas de estudio permiten el acceso a Livefyre Studio y difieren de las cuentas de usuario utilizadas para interactuar con las aplicaciones de Livefyre.
+Las cuentas de estudio permiten acceder a Livefyre Studio y difieren de las cuentas de usuario utilizadas para interactuar con las aplicaciones de Livefyre.
