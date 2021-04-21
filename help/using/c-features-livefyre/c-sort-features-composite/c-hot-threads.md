@@ -1,56 +1,51 @@
 ---
 description: Muestra los 25 subprocesos más populares dentro de la aplicación, ordenados por popularidad.
-seo-description: Muestra los 25 subprocesos más populares dentro de la aplicación, ordenados por popularidad.
-seo-title: Subprocesos en caliente
-solution: Experience Manager
 title: Subprocesos en caliente
-uuid: 0011f769-6712-48e9-bb10-a43610fef595
+exl-id: a7d4efef-6f25-4eaf-9a1e-b0ff3c033d5d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
-
-# Subprocesos en caliente{#hot-threads}
+# Subprocesos activos{#hot-threads}
 
 Muestra los 25 subprocesos más populares dentro de la aplicación, ordenados por popularidad.
 
-La vista Subprocesos interactivos muestra los 25 subprocesos más populares dentro de la aplicación, ordenados por popularidad. Esto incluye todo el contenido de la aplicación, incluidas las publicaciones manuales, el contenido de SocialSync y el contenido de los flujos.
+La vista Subprocesos activos muestra los 25 subprocesos más populares dentro de la aplicación, ordenados por popularidad. Esto incluye todo el contenido de la aplicación, incluidas las publicaciones manuales, el contenido de SocialSync y el contenido de Transmisiones.
 
 >[!NOTE]
 >
->Los hilos interactivos están disponibles en Comentarios, pero no en Blogs en vivo ni en Chat.
+>Subprocesos activos está disponible en Comentarios, pero no en Blogs en Vivo o Chat.
 
-Para obtener más información sobre cómo activar la vista de subprocesos interactivos, consulte Estudio > Ajustes de red.
+Para obtener más información sobre la activación de la vista Subprocesos activos, consulte Estudio > Configuración de red.
 
-## Previsualizaciones {#section_xhh_2dl_wy}
+## Vistas previas {#section_xhh_2dl_wy}
 
-Al hacer clic **[!UICONTROL Hot Threads]** en la parte superior del flujo, se reemplaza el contenido de la aplicación con previsualizaciones de hasta 25 subprocesos con las &quot;puntuaciones de popularidad&quot; más altas de la aplicación. Se calcula una puntuación de popularidad para cada subproceso utilizando el algoritmo propietario y en evolución de Livefyre. La previsualización muestra un comentario de nivel superior y hasta 5 de las respuestas más populares, así como el elemento principal directo de cada una de estas 5 respuestas principales.
+Al hacer clic en **[!UICONTROL Hot Threads]** en la parte superior del flujo, se reemplaza el contenido de la aplicación con vistas previas de hasta 25 subprocesos con las &quot;puntuaciones de popularidad&quot; más altas de la aplicación. Se calcula una puntuación de popularidad para cada subproceso utilizando el algoritmo propietario y en evolución de Livefyre. La vista previa muestra un comentario de nivel superior y hasta 5 de las respuestas más populares, así como el principal directo de cada una de estas 5 respuestas principales.
 
-Si no hay subprocesos en el flujo con una puntuación de popularidad, no se mostrarán comentarios y los usuarios verán el mensaje **[!UICONTROL There are not enough threads yet]** y un vínculo a **[!UICONTROL See what’s new]**.
+Si no hay subprocesos en el flujo con una puntuación de popularidad, no se mostrarán comentarios y los usuarios verán el mensaje **[!UICONTROL There are not enough threads yet]** y un enlace a **[!UICONTROL See what’s new]**.
 
-La lista Subprocesos interactivos no se actualiza en tiempo real y solo se actualiza cuando se actualiza la página o se selecciona otra vista (**[!UICONTROL Newest]** o **[!UICONTROL Oldest]**). (Si un comentario se modera y Bozo’d o se elimina, se eliminará inmediatamente de la lista).
+La lista Subprocesos activos no es en tiempo real y solo se actualizará cuando la página se actualice o cuando se seleccione otra vista (**[!UICONTROL Newest]** o **[!UICONTROL Oldest]**). (Si un comentario está moderado y Bozo&#39;d o es enviado a la papelera, se eliminará de la lista inmediatamente).
 
-## Vista de grupo de trabajo {#section_zmf_ddl_wy}
+## Vista de desglose {#section_zmf_ddl_wy}
 
-En la previsualización, haga clic en **[!UICONTROL Show entire Thread]** para reemplazar la vista Subprocesos interactivos por una vista de grupo de trabajo del subproceso en contexto, incluyendo todas las respuestas dentro de ese subproceso. (No se muestran otros subprocesos en la vista de grupo de trabajo). Haga clic en **[!UICONTROL Hot Threads]** para volver a la vista de subprocesos interactivos.
+En la vista previa, haga clic en **[!UICONTROL Show entire Thread]** para reemplazar la vista Subprocesos activos con una vista de desglose del subproceso en contexto, incluidas todas las respuestas dentro de ese subproceso. (No se muestran otros subprocesos en la vista de desglose). Haga clic en **[!UICONTROL Hot Threads]** para volver a la vista Subprocesos activos.
 
-Los moderadores pueden vista todo el contenido pendiente en la vista de grupo de trabajo y la moderación en línea está disponible. Las acciones de &quot;Me gusta&quot;, respuestas, ediciones y moderación seguirán apareciendo en tiempo real en la vista de grupo de trabajo.
+Los moderadores pueden ver todo el contenido pendiente en la vista de desglose y la moderación en línea está disponible. Las acciones de &quot;Me gusta&quot;, respuestas, ediciones y moderación seguirán reproduciéndose en tiempo real en la vista de desglose.
 
-## Publicación desde la Vista Hot Thread {#section_bmv_bdl_wy}
+## Publicación desde la vista Subprocesos activos {#section_bmv_bdl_wy}
 
-Si se publica un comentario desde el cuadro de comentarios superior de la vista Subprocesos interactivos, los usuarios volverán a la vista más reciente.
+Si se publica un comentario en el cuadro de comentarios superior de la vista Subprocesos activos, los usuarios volverán a la vista Más reciente.
 
-Las respuestas o los &quot;Me gusta&quot; anunciados en la vista Subprocesos interactivos aparecerán en el flujo sin cambiar las vistas. Las opciones de ordenación y el notificador de comentarios no están disponibles en la vista Subprocesos interactivos.
+Las respuestas o &quot;Me gusta&quot; anunciadas en la vista Subprocesos activos aparecerán en el flujo sin cambiar las vistas. Las opciones de ordenación y el notificador de comentarios no están disponibles en la vista Subprocesos activos .
 
-Para optimizar el rendimiento, Livefyre almacena en caché los datos durante un máximo de 2 minutos. Puede haber un ligero retraso en los hilos calientes más recientes que aparecen.
+Para optimizar el rendimiento, Livefyre almacena en caché los datos durante un máximo de 2 minutos. Puede haber un ligero retraso en los subprocesos activos más recientes que aparecen.
 
 
 
-Aplicaciones que utilizan esta función:
+Aplicaciones que usan esta función:
 
 * [Comentarios](/help/using/c-about-apps/c-comments/c-comments.md)
-
