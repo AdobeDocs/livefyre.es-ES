@@ -1,33 +1,28 @@
 ---
-description: Chat oferta varias funciones para fomentar un diálogo rápido y atractivo.
-seo-description: Chat oferta varias funciones para fomentar un diálogo rápido y atractivo.
-seo-title: Funciones de chat
-solution: Experience Manager
+description: Chat ofrece varias funciones para fomentar un diálogo rápido y atractivo.
 title: Funciones de chat
-uuid: 8773a8f9-96cd-41db-80dd-261af749e4b1
+exl-id: 38812de7-ee3f-411f-afac-7a1d5b672292
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
+# Funciones de chat{#chat-features}
 
-# Características de chat{#chat-features}
-
-Chat oferta varias funciones para fomentar un diálogo rápido y atractivo.
+Chat ofrece varias funciones para fomentar un diálogo rápido y atractivo.
 
 
 
 Para fomentar un diálogo rápido y atractivo, Chat difiere de otras aplicaciones de Livefyre de las siguientes maneras:
 
-* El Editor de comentarios se rellena previamente con el texto &quot;Pulse Comando+Intro para anunciar&quot;.
-* Los usuarios responden al chat como un todo, en lugar de a un comentario específico, por lo tanto no hay un botón de respuesta y no hay subprocesos en los comentarios.
-* A los usuarios no se les ofrece la opción de seguir Chats y el Notificador de comentarios está deshabilitado.
-* Las notificaciones por correo electrónico se establecen automáticamente en OFF.
+* El Editor de comentarios se rellena previamente con el texto &quot;Pulse comando+entrar para anunciar&quot;.
+* Los usuarios responden al Chat en su conjunto, en lugar de a un Comentario específico, por lo tanto no hay botón Responder y no hay subprocesos en los Comentarios.
+* A los usuarios no se les ofrece la opción de seguir Chats, y el notificador de comentarios está deshabilitado.
+* Las notificaciones por correo electrónico se configuran automáticamente como desactivado.
 * Los avatares del usuario son más pequeños que los utilizados con Comentarios.
-* El botón &quot;Me gusta&quot; solo aparece al pasar el ratón sobre un comentario.
+* El botón &quot;Me gusta&quot; aparece únicamente al pasar el ratón por encima de un comentario.
 * Los &quot;Me gusta&quot; de un comentario aparecen sin avatares, solo el número de &quot;Me gusta&quot;.
-* El ancho del flujo se puede reducir a 250 píxeles.
-
+* El ancho de la emisión se puede reducir a 250 píxeles.
