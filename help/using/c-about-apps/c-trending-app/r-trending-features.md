@@ -1,25 +1,20 @@
 ---
-description: La aplicación de tendencias oferta estas funciones para su sitio.
-seo-description: La aplicación de tendencias oferta estas funciones para su sitio.
-seo-title: Características de tendencia
-solution: Experience Manager
-title: Características de tendencia
-uuid: 7e7b1d05-2154-43d8-92e7-63152934c785
+description: La aplicación de tendencias ofrece estas funciones para su sitio.
+title: Tendencias de funciones
+exl-id: f8bd1cc9-716a-41d5-aa69-a3f1abae453c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '40'
 ht-degree: 0%
 
 ---
 
+# Tendencias de características{#trending-features}
 
-# Características de tendencia{#trending-features}
-
-La aplicación de tendencias oferta estas funciones para su sitio.
+La aplicación de tendencias ofrece estas funciones para su sitio.
 
 
 
 * Las tendencias muestran información en tiempo real sobre las colecciones más activas.
-* Las conversaciones se enumeran de más a menos populares.
-
+* Las conversaciones se enumeran de las más a las menos populares.
