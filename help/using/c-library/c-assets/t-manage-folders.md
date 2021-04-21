@@ -1,36 +1,32 @@
 ---
-description: Studio oferta varias opciones para administrar las carpetas.
-seo-description: Studio oferta varias opciones para administrar las carpetas.
-seo-title: Administrar carpetas de recursos
-solution: Experience Manager
+description: Studio ofrece varias opciones para administrar las carpetas.
 title: Administrar carpetas de recursos
-uuid: 9ce510df-4f7a-4178-b2c4-7d59e4868add
+exl-id: a7f434aa-463c-4646-a498-b8be9767019a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
-
 # Administrar carpetas de recursos{#manage-asset-folders}
 
-Studio oferta varias opciones para administrar las carpetas.
+Studio ofrece varias opciones para administrar las carpetas.
 
 Las siguientes opciones están disponibles para administrar carpetas y recursos:
 
-* **[!UICONTROL Favorite:]** Haga clic en el icono de estrella situado junto al nombre de una carpeta en la parte superior de la página para etiquetar la carpeta y agregarla a la  **[!UICONTROL Favorites]** lista.
+* **[!UICONTROL Favorite:]** Haga clic en el icono de estrella que aparece junto al nombre de una carpeta en la parte superior de la página para etiquetar la carpeta y agregarla a la  **[!UICONTROL Favorites]** lista.
 
-* **[!UICONTROL Upload Asset:]** Abre una ventana de Filepicker, desde la cual puede buscar y cargar contenido desde su escritorio, Flickr, URL u otras ubicaciones, para agregarlo a la biblioteca de recursos.
-* **[!UICONTROL Create New Subfolder:]** Permite crear una subcarpeta dentro de la carpeta seleccionada. Las subcarpetas heredan los derechos de acceso de su carpeta principal y su acceso no se puede administrar de forma individual.
+* **[!UICONTROL Upload Asset:]** Abre una ventana de Filepicker, desde la cual puede buscar y cargar contenido desde su escritorio, Flickr, URL u otras ubicaciones, para agregarlo a su biblioteca de recursos.
+* **[!UICONTROL Create New Subfolder:]** Permite crear una subcarpeta dentro de la carpeta seleccionada actualmente. Las subcarpetas heredan los derechos de acceso de su carpeta principal y su acceso no se puede administrar de forma individual.
 * **[!UICONTROL Trash Folder:]** Quita la carpeta y su contenido de la biblioteca de recursos.
 
    >[!NOTE]
    >
-   >Solo los propietarios de carpetas pueden Papelera las carpetas.
+   >Solo los propietarios de carpetas pueden Enviar a la papelera las carpetas.
 
-* **[!UICONTROL Manage Access:]** Permite controlar el acceso a la carpeta:**  [!UICONTROL Open]** o  **[!UICONTROL Restricted]**. Seleccione **[!UICONTROL Open]** para permitir que todos los usuarios de Studio de la red tengan acceso a la carpeta y a su contenido. Seleccione **[!UICONTROL Restricted]** para restringir el acceso a un grupo seleccionado de usuarios.
+* **[!UICONTROL Manage Access:]** Permite controlar el acceso a la carpeta:**  [!UICONTROL Open]** o  **[!UICONTROL Restricted]**. Seleccione **[!UICONTROL Open]** para permitir que todos los usuarios de Studio de la red accedan a la carpeta y a su contenido. Seleccione **[!UICONTROL Restricted]** para restringir el acceso a un grupo selecto de usuarios.
 
    >[!NOTE]
    >
