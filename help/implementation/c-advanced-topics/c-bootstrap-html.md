@@ -1,46 +1,42 @@
 ---
-description: Ponga el contenido de la comunidad a disposición de los rastreadores de motores de búsqueda.
-seo-description: Ponga el contenido de la comunidad a disposición de los rastreadores de motores de búsqueda.
-seo-title: HTML Bootstrap
-solution: Experience Manager
-title: HTML Bootstrap
-uuid: 137e4382-4e7b-4124-9d35-1d872a497bc7
+description: Poner el contenido de la comunidad a disposición de los rastreadores de motores de búsqueda.
+title: HTML de Bootstrap
+exl-id: 22ab4f2d-f433-4805-b0dd-16d4531e425d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
 
+# HTML de Bootstrap
 
-# HTML Bootstrap
+Poner el contenido de la comunidad a disposición de los rastreadores de motores de búsqueda.
 
-Ponga el contenido de la comunidad a disposición de los rastreadores de motores de búsqueda.
+Para obtener una lista completa de los puntos finales disponibles, consulte la sección [Referencia de API](https://api.livefyre.com/docs) de Livefyre.
 
-Para obtener una lista completa de los extremos disponibles, consulte la sección Livefyre [API Reference](https://api.livefyre.com/docs).
-
-Las aplicaciones de Livefyre requieren que ejecute JavaScript en la página para mostrar el contenido de las colecciones. Debido a que la mayoría de los rastreadores de motores de búsqueda no pueden ejecutar JavaScript, no pueden ver el contenido que anuncia su comunidad. Utilice la API HTML de Bootstrap para agregar fragmentos de este contenido en los que se puede buscar a la respuesta HTTP inicial de la página, lo que permite que el contenido y las palabras clave mejoren la optimización del motor de búsqueda.
+Las aplicaciones de Livefyre requieren que ejecute JavaScript en la página para mostrar contenido para sus colecciones. Debido a que la mayoría de los rastreadores de motores de búsqueda no pueden ejecutar JavaScript, no pueden ver el contenido que publica su comunidad. Utilice la API HTML de Bootstrap para añadir fragmentos de este contenido que se puedan buscar a la respuesta HTTP inicial de la página, lo que permite que el contenido y las palabras clave mejoren la optimización de los motores de búsqueda.
 
 >[!NOTE]
 >
->Esta API solo está disponible para los tipos Comentarios y Live Blog Collection.
+>Esta API solo está disponible para los tipos Comentarios y Colección de blogs en directo.
 
 ## Integración
 
-La API HTML Bootstrap de Livefyre devolverá un fragmento HTML del contenido del usuario, que puede incluirse en la respuesta HTTP de la página. Los rastreadores de motores de búsqueda podrán leer esta respuesta sin ejecutar ningún JavaScript. Una vez que la página esté activa en el navegador del usuario, el fragmento HTML se reemplazará por la utilidad completa e interactiva y el usuario podrá publicar contenido.
+La API HTML Bootstrap de Livefyre devolverá un fragmento HTML del contenido del usuario, que puede incluirse en la respuesta HTTP de la página. Los rastreadores de motores de búsqueda podrán leer esta respuesta sin ejecutar JavaScript. Una vez que la página está activa en el explorador de un usuario, el fragmento HTML se sustituye por el widget completo e interactivo y el usuario puede publicar contenido.
 
-Para implementar la API HTML de Bootstrap:
+Para implementar la API HTML del Bootstrap:
 
-1. Realice una solicitud de API de servidor a servidor en el extremo HTML Bootstrap documentado a continuación.
+1. Realice una solicitud de API de servidor a servidor al extremo HTML del Bootstrap documentado a continuación.
 
    >[!NOTE]
    >
-   >Si intenta capturar el HTML Bootstrap para una conversación que aún no existe (es decir, si todavía no ha incrustado la aplicación o creado la colección), recibirá un 200, pero con contenido que tiene un aspecto similar al siguiente: `<!- HTTP 404 example.fyre.co/000000/MTEwMTo2NDEyOD1RS/bootstrap.html ->`
+   >Si está intentando obtener el HTML Bootstrap para una conversación que aún no existe (es decir, si todavía tiene que incrustar la aplicación o crear la colección), recibirá un 200, pero con contenido que tiene un aspecto similar al siguiente: `<!- HTTP 404 example.fyre.co/000000/MTEwMTo2NDEyOD1RS/bootstrap.html ->`
 
-1. Si su devolución no incluye contenido con un &quot;404&quot;, guárdelo en una cadena. Puede almacenar en caché esta respuesta para usarla posteriormente a fin de evitar solicitar la API HTML Bootstrap en cada carga de página.
+1. Si la devolución no incluye contenido con un &quot;404&quot; en él, guárdelo en una cadena. Puede almacenar en caché esta respuesta para usarla más adelante a fin de evitar solicitar la API HTML de Bootstrap en cada carga de página.
 1. Inserte la cadena HTML Bootstrap en la página web donde desee que aparezca el contenido.
-1. Proporcione la página web al explorador (o al buscador del motor de búsqueda).
+1. Entregue la página web al navegador (o al buscador del motor de búsqueda).
 
 ## Recurso
 
@@ -50,9 +46,9 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/{networkName}.fyre.co/{siteId}/{
 
 ## Parámetros
 
-* **** networkNameNombre de red proporcionado por Livefyre. Por ejemplo: *labs* en `labs.fyre.co`.
-* **** siteId El ID del sitio de la colección.
-* **b64** articleId El ID del artículo de la colección que utiliza la codificación base64url.
+* **** networkNameSu Livefyre proporcionó un nombre de red. Por ejemplo: *labs* en `labs.fyre.co`.
+* **** siteIdEl ID del sitio de la colección.
+* **b64** articleId El ID del artículo de la colección utilizando la codificación base64url.
 
 ## Ejemplo
 
