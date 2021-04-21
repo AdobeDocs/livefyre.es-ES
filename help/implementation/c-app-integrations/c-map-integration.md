@@ -1,32 +1,28 @@
 ---
 description: Trazar el contenido del usuario a un mapa interactivo.
-seo-description: Trazar el contenido del usuario a un mapa interactivo.
-seo-title: Mapa
-solution: Experience Manager
 title: Mapa
-uuid: 1c3e399d-a610-4b80-a3b2-a5502b31480d
+exl-id: 836b475e-0ec6-49f8-b89f-3af3209cf1f2
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '244'
 ht-degree: 2%
 
 ---
-
 
 # Mapa{#map}
 
 Trazar el contenido del usuario a un mapa interactivo.
 
-El mapa le permite transmitir contenido geoetiquetado a un mapa mundial, permitiéndole localizar el rumor social en torno a noticias de última hora o un evento en directo. Se mostrará todo el contenido aplicable, incluyendo texto, comentarios, fotos y tweets.
+El mapa le permite transmitir contenido con geolocalización a un mapa mundial, lo que le permite localizar el zumbido social alrededor de las noticias de última hora o un evento en vivo. Se mostrará todo el contenido aplicable, incluyendo texto, comentarios, fotos y tweets.
 
 >[!NOTE]
 >
->Los mapas son proporcionados por [ ©OpenStreetMap](https://www.openstreetmap.org/copyright), que proporciona los datos que Livefyre utiliza para procesar sus mapas.
+>Los mapas utilizan [ ©OpenStreetMap](https://www.openstreetmap.org/copyright), que proporciona los datos que Livefyre utiliza para procesar sus mapas.
 
 ## de CRM {#section_w2m_db2_d1b}
 
-La forma más rápida de utilizar Map es utilizar la versión compilada alojada en la CDN de Livefyre.
+La forma más rápida de usar Map es usar la versión compilada alojada en la CDN de Livefyre.
 
 Primero, agregue [Livefyre.js](https://github.com/Livefyre/Livefyre.js) a su página.
 
@@ -40,7 +36,7 @@ A continuación, coloque el elemento en el que aparecerá la aplicación de mapa
 <div id="map" style="height: 500px;"></div>
 ```
 
-Por último, utilice Livefyre.required para construir el mapa y obtener una colección para canalizar a partir del eje central-sdk. Tenga en cuenta que Mapa solo puede mostrar Contenido con metadatos geoetiquetados. Twitter y la cuenta de Instagram admiten esta función. Para garantizar el mejor rendimiento, incluya un filtro de geolocalización en todas las reglas de depuración de la colección.
+Finalmente, use Livefyre.required para construir el mapa, y obtener una colección para canalizar desde streamhub-sdk. Tenga en cuenta que Mapa solo puede mostrar Contenido con metadatos geoetiquetados. Twitter y Instagram Deate admiten esta función. Para garantizar el mejor rendimiento, incluya un filtro de geolocalización en todas las reglas de depuración de la colección.
 
 ```
 <script> 
@@ -65,7 +61,7 @@ Consulte este [ejemplo activo](https://codepen.io/cheung31/pen/wkmbF).
 
 `initial`
 
-El número inicial de elementos que se van a cargar desde la colección y se mostrarán en el mapa. Después de cargar este número, los usuarios pueden hacer clic en un botón para mostrar más. (Opcional. El valor predeterminado es 50.)
+El número inicial de elementos que se van a cargar desde la colección y se muestran en el mapa. Una vez cargado este número, los usuarios pueden hacer clic en un botón para mostrar más. (Opcional. El valor predeterminado es 50).
 
 ```
 var map = new Map({ 
@@ -76,7 +72,7 @@ var map = new Map({
 
 `leafletMapOptions`
 
-Opciones para pasar al mapa de [Prospecto](https://leafletjs.com/) subyacente, que Mapa utiliza para el procesamiento. Utilice esta opción para establecer [Opciones de mapa de folletos](https://leafletjs.com/reference.html#map-options), incluido el punto central inicial del mapa, y los niveles de zoom inicial y máximo. (Opcional.)
+Opciones para pasar al mapa de [Prospecto](https://leafletjs.com/) subyacente que Mapa utiliza para el procesamiento. Utilice esta opción para establecer las [Opciones del mapa de prospecto](https://leafletjs.com/reference.html#map-options), incluido el punto central inicial del mapa, y los niveles de zoom inicial y máximo. (Opcional.)
 
 ```
 var map = new Map({ 
@@ -87,4 +83,3 @@ var map = new Map({
     } 
 });
 ```
-
