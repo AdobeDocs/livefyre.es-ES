@@ -1,24 +1,20 @@
 ---
 description: Implementar notas utilizando .js.
-seo-description: Implementar notas utilizando .js.
-seo-title: Implementación de Sidenotes
-solution: Experience Manager
-title: Implementación de Sidenotes
-uuid: aa13852e-e2b0-4a86-97cd-d08ab5e2cfab
+title: Implementación de notas
+exl-id: 07a68677-c67e-4128-8cb7-c5fb9e0ecc60
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 28%
+source-wordcount: '49'
+ht-degree: 22%
 
 ---
 
-
-# Identifica la implementación{#sidenotes-implementation}
+# Implementación de notas{#sidenotes-implementation}
 
 ## Implementar notas utilizando .js
 
-Para implementar esta función, pase una asignación de objetos 1-1 de las cadenas que desee reemplazar al objeto de configuración de Javascript. Si no se proporciona un campo, se utilizará el texto predeterminado.
+Para implementar esta función, pase una asignación de objeto 1-1 de las cadenas que desee reemplazar al objeto de configuración de Javascript. Si no proporciona un campo, se utilizará el texto predeterminado.
 
 ### Ejemplo
 
