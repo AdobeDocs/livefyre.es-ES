@@ -1,31 +1,26 @@
 ---
-description: La aplicación Sidenotes oferta estas funciones para su sitio.
-seo-description: La aplicación Sidenotes oferta estas funciones para su sitio.
-seo-title: Características de Sidenotes
-solution: Experience Manager
-title: Características de Sidenotes
-uuid: f175c1a7-2ccb-43f9-bc21-cc418dbbeb48
+description: La aplicación Sidenotes ofrece estas funciones para su sitio.
+title: Funciones de Sidenotes
+exl-id: 94830b1a-0faa-43f4-aec4-17c44adf0d0f
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
 
+# Funciones de notas{#sidenotes-features}
 
-# Características de Sidenotes{#sidenotes-features}
-
-La aplicación Sidenotes oferta estas funciones para su sitio.
-
+La aplicación Sidenotes ofrece estas funciones para su sitio.
 
 
-* Responda a cualquier parte de un párrafo, resaltando el texto en el que desea realizar un comentario y, a continuación, haciendo clic en el icono del lápiz para escribir su Sidenote.
-* Añada Sidenotes en un párrafo, haciendo clic en el icono Sidenotes que aparece al final del párrafo y agregando su comentario.
-* Para comentar una imagen, haga clic en el icono Sidenotes en la esquina de la imagen y agregue su comentario.
-* Comparta texto en Facebook o Twitter, seleccionando texto y luego haciendo clic en el icono Compartir en Facebook o Compartir en Twitter. El uso compartido de contenido resaltado permite a los usuarios editar el texto que se compartirá y envía un vínculo al contenido original con el recurso compartido.
-* Lea los comentarios de otros, haciendo clic en la burbuja de pensamiento de Livefyre que muestra el número de comentarios incluidos para cualquier parte de la página.
-* Responder a Sidenotes existentes.
-* Vote sobre la utilidad de las notas y, por lo tanto, envíe notas más útiles a la parte superior de la lista de anotaciones.
-* Para compartir notas específicas en Facebook o Twitter, haga clic en las elipses que aparecen al pasar el ratón por encima de la nota.
 
+* Responda a cualquier parte de un párrafo, resaltando el texto en el que desee comentar y luego haciendo clic en el icono de lápiz para escribir su Sidenote.
+* Agregue Notas a un párrafo haciendo clic en el icono Notas que aparece al final del párrafo y agregando su comentario.
+* Para comentar una imagen, haga clic en el icono Notas en la esquina de la imagen y agregue su comentario.
+* Comparta texto en Facebook o Twitter seleccionando texto y luego haciendo clic en el icono Compartir en Facebook o Compartir en Twitter . Compartir contenido resaltado permite a los usuarios editar el texto que se compartirá y envía un vínculo al contenido original con el recurso compartido.
+* Lea los comentarios de otros, haciendo clic en la burbuja pensada en Livefyre que muestra el número de comentarios incluidos para cualquier parte de la página.
+* Responder a notas existentes.
+* Vote la utilidad de las notas y, por lo tanto, coloque las notas más útiles en la parte superior de la lista de anotaciones.
+* Comparta notas específicas en Facebook o Twitter haciendo clic en los puntos suspensivos que aparecen al pasar el ratón por encima de la nota.
