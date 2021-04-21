@@ -1,40 +1,36 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Uso del filtro de obscenidad
-solution: Experience Manager
-title: Uso del filtro de obscenidad
-uuid: b0b1fbae-c88c-403c-9b91-df6620675f39
+title: Uso del filtro de propensión
+description: Uso del filtro de propensión
+exl-id: 6ea7d913-f562-42a5-a6ea-241aa4e1089a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 1%
+source-wordcount: '689'
+ht-degree: 0%
 
 ---
 
+# Uso del filtro de propensión{#using-the-profanity-filter}
 
-# Uso del filtro de obscenidad{#using-the-profanity-filter}
-
-Todo el contenido publicado en una aplicación de Livefyre se comprueba en busca de blasfemias. Si una palabra incluida en la lista de blasfemias se encuentra en el contenido o en el nombre para mostrar de un usuario, ese contenido se marcará como &quot;Profanidad&quot;, permitiéndole filtrar por Premoderación, Reglas, ModQ o búsquedas generales en Contenido de la aplicación.
-
->[!NOTE]
->
->El contenido de los administradores y administradores de estudios no está sujeto a la comprobación de reglas de lenguaje obsceno y el contenido publicado por un moderador no se marcará.
-
-Livefyre proporciona una lista de blasfemias predeterminada. Puede optar por aplicar esta lista a nivel de red, proporcionar su propia lista o utilizar un acumulado de los dos. Los sitios individuales dentro de la red pueden heredar la Lista de la rentabilidad de la red o utilizar una lista personalizada para ser específica del sitio.
-
-Para proporcionar su propia lista personalizada de blasfemia como predeterminada de la red, envíela a su administrador de cuentas de Livefyre.
-
-## Activación del filtro de rentabilidad {#section_yqc_qsk_f1b}
-
-Habilite y configure el filtro de obscenidad tanto a nivel de red como de sitio. Deshabilite el filtro de profanidad a nivel de red para deshabilitar automáticamente el filtro de profanidad para todos los sitios que heredan de la red.
+Todo el contenido publicado en una aplicación de Livefyre se comprueba por profanidad. Si una palabra incluida en la lista de profanidad se encuentra en el contenido o en el nombre para mostrar de un usuario, ese contenido se marcará como &quot;Profundidad&quot;, lo que le permitirá filtrarlo para Premoderación, Reglas, ModQ o búsquedas generales en Contenido de aplicación.
 
 >[!NOTE]
 >
->Todo el contenido que pasa por Livefyre se comprueba en busca de blasfemias. Si se encuentra contenido que incluye palabras contenidas en la lista de blasfemia SAFE predeterminada o en la lista de blasfemias personalizada, se marca como &quot;Profanidad&quot;. Para configurar Livefyre para que realice acciones automáticamente en estos elementos, gire **[!UICONTROL Enable Profanity Checking]** a **[!UICONTROL ON]**.
+>El contenido de los administradores y administradores de Studio no está sujeto a la comprobación de reglas de perfil y el contenido publicado por un moderador no estará marcado.
 
-## Habilitar el filtro de rentabilidad para una red {#section_twd_ssk_f1b}
+Livefyre proporciona una lista de profanidad predeterminada. Puede elegir aplicar esta lista a nivel de red, proporcionar su propia lista o utilizar un agregado de los dos. Los sitios individuales dentro de la red pueden heredar la Lista de profanidad de la red o utilizar una lista personalizada para que sea específica del sitio.
+
+Para proporcionar su propia lista de profanidad personalizada como predeterminada de red, envíela a su gestor de cuentas de Livefyre.
+
+## Habilitar el filtrado de profecías {#section_yqc_qsk_f1b}
+
+Habilite y configure el filtro de profanidad tanto a nivel de red como de sitio. Deshabilite el filtro de profanidad a nivel de red para deshabilitar automáticamente el filtro de profanidad para todos los sitios que heredan de la red.
+
+>[!NOTE]
+>
+>Se comprueba si todo el contenido que pasa por Livefyre es profano. Si se encuentra contenido que incluye palabras incluidas en la lista predeterminada de blasfemias SAFE o en la lista personalizada de profecía, se marca &quot;Profundidad&quot;. Para configurar Livefyre para que realice acciones automáticamente en estos elementos, active **[!UICONTROL Enable Profanity Checking]** en **[!UICONTROL ON]**.
+
+## Habilitar el filtro de propensión para una red {#section_twd_ssk_f1b}
 
 1. Seleccione **[!UICONTROL Network]** en el menú desplegable de red.
 1. Ir a **[!UICONTROL Settings > Network Settings > Moderation]**.
@@ -44,9 +40,9 @@ Habilite y configure el filtro de obscenidad tanto a nivel de red como de sitio.
 
 >[!NOTE]
 >
->La edición de la Lista de privacidad a nivel de red no afectará a ninguna Lista a nivel de sitio que ya esté en vigor. Para asegurarse de que se realizan cambios desde la red al sitio, seleccione **[!UICONTROL Restore Network List]** para el sitio después de que se hayan realizado los cambios.
+>La edición de la Lista de profecía a nivel de red no afectará a ninguna Lista a nivel de sitio que ya esté en su lugar. Para asegurarse de que se realizan cambios desde la red al sitio, seleccione **[!UICONTROL Restore Network List]** para el sitio después de realizar los cambios.
 
-## Habilitar el filtro de ganancias para un sitio {#section_fld_wsk_f1b}
+## Habilitar el filtro de propensión para un sitio {#section_fld_wsk_f1b}
 
 1. Seleccione el sitio en el menú desplegable de red.
 1. Ir a **[!UICONTROL Settings > Site Settings > Moderation]**.
@@ -54,40 +50,39 @@ Habilite y configure el filtro de obscenidad tanto a nivel de red como de sitio.
 
 1. Elija una de las siguientes opciones:
 
-   * Para heredar la Lista Profanity de la red (esto no es común), establezca **[!UICONTROL Use Site Profanity List]** en **[!UICONTROL OFF]**.
+   * Para heredar la Lista de profecías de la red (esto no es común), establezca **[!UICONTROL Use Site Profanity List]** en **[!UICONTROL OFF]**.
 
-   * Para editar la Lista de rentabilidad específicamente para el sitio, establezca **[!UICONTROL Use Site Profanity List]** en **[!UICONTROL On]** para abrir el campo **[!UICONTROL Update Profanity List]**, donde puede editar la lista:
+   * Para editar la Lista de perfiles específicamente para el sitio, establezca **[!UICONTROL Use Site Profanity List]** en **[!UICONTROL On]** para abrir el campo **[!UICONTROL Update Profanity List]**, donde puede editar la lista:
 
-      * Para eliminar una palabra, haga clic en ella.
+      * Para eliminar una palabra, haga clic en la palabra.
       * Para agregar una palabra, escriba la palabra en el cuadro **[!UICONTROL Add new word]** y pulse **[!UICONTROL Return]**.
 
       * Para ver si una palabra está incluida en la lista, escriba la palabra en el cuadro **[!UICONTROL Test profanity filter]**.
-   * Para volver a importar la Lista de la rentabilidad de la red y aplicarla al sitio, haga clic en **[!UICONTROL Restore Network List]**.
-   * Para borrar todo el contenido de la lista y el inicio desde cero, haga clic en **[!UICONTROL Clear List]**.
+   * Para volver a importar la Lista de profecía de red y aplicarla al sitio, haga clic en **[!UICONTROL Restore Network List]**.
+   * Para borrar todo el contenido de la lista y empezar desde cero, haga clic en **[!UICONTROL Clear List]**.
 
 
-## Uso de contenido que contiene lenguaje obsceno {#section_epy_dtk_f1b}
+## Trabajo con contenido que contiene obscenidad {#section_epy_dtk_f1b}
 
-Utilice la Lista de grosor para filtrar las búsquedas de contenido y crear reglas de premoderación para ModQ.
+Utilice la Lista de profecía para filtrar las búsquedas de contenido y crear reglas de premoderación para ModQ.
 
-Para buscar contenido que contenga blasfemias, vaya a **[!UICONTROL Library > App Content]**, **[!UICONTROL Filter by Flags]** y marque la casilla **[!UICONTROL Profanity]**. Se mostrará todo el contenido capturado por el filtro de ganancias para el sitio o la red seleccionada. Esta lista incluirá el contenido extraído en la aplicación mediante SocialSync y Streams.
+Para buscar contenido que contenga obscenidades, vaya a **[!UICONTROL Library > App Content]**, **[!UICONTROL Filter by Flags]** y marque la casilla de verificación **[!UICONTROL Profanity]**. Se mostrará todo el contenido que haya sido capturado por el filtro de destreza para el sitio o la red seleccionados. Esta lista incluirá el contenido extraído en la aplicación mediante SocialSync y Streams.
 
-Para crear reglas de premoderación, seleccione **[!UICONTROL Settings > Network Settings > Moderation]** en Estudio. Una vez activado el filtro de obscenidad, aparecerá una nueva regla que le permitirá marcar o premoderar contenido que contenga obscenidades. De forma predeterminada, esta regla habilita automáticamente **[!UICONTROL Premoderate]** para el contenido profano, que puede cambiarse a **[!UICONTROL Trash it]** o **[!UICONTROL Bozo it]**.
+Para crear reglas de premoderación, en Studio, seleccione **[!UICONTROL Settings > Network Settings > Moderation]**. Una vez habilitado el filtro de profanidad, aparecerá una nueva regla que le permitirá marcar o premoderar contenido que contenga profanidad. De forma predeterminada, esta regla habilita automáticamente **[!UICONTROL Premoderate]** para el contenido profano, que puede cambiarse a **[!UICONTROL Trash it]** o **[!UICONTROL Bozo it]**.
 
 >[!NOTE]
 >
->Si un solo fragmento de contenido está sujeto a varios tipos de reglas (como las reglas SAFE y Flag), se aplicará la más estricta. Por ejemplo: Si la regla de premoderación indica que se debe premoderar un fragmento de contenido, pero una regla de seguridad indica que se debe truncarlo, se lo ocultará.
+>Si un solo fragmento de contenido está sujeto a varios tipos de reglas (como las reglas SAFE y Flag), se aplicará la más estricta. Por ejemplo: Si la regla de premoderación indica a Premoderar un fragmento de contenido, pero una regla SEGURA dice que lo convierta en papelera, se le enviará a la papelera.
 
-## Vista y actualización de la Lista de rentabilidad para una red {#section_qdb_btk_f1b}
+## Ver y actualizar la lista de profecía de una red {#section_qdb_btk_f1b}
 
 1. Ir a **[!UICONTROL Settings > Network Settings > Moderation]**.
 1. Desplácese hacia abajo hasta la sección **[!UICONTROL Profanity List]**.
-1. Establezca **[!UICONTROL Enable Profanity Checking]** en **[!UICONTROL On]** para mostrar la Lista habilitada para la red (valor predeterminado de Livefyre o la lista personalizada cargada) y editarla. Puede editar la lista de las siguientes formas:
-   * Para eliminar una palabra, haga clic en ella.
+1. Configure **[!UICONTROL Enable Profanity Checking]** en **[!UICONTROL On]** para mostrar la Lista habilitada para su red (Livefyre predeterminado o la lista personalizada cargada) y edítela. Puede editar la lista de las siguientes maneras:
+   * Para eliminar una palabra, haga clic en la palabra.
    * Para agregar una palabra, escriba la palabra en el cuadro **[!UICONTROL Add new word]** y pulse **[!UICONTROL Return]**.
    * Para ver si una palabra está incluida en la lista, escriba la palabra en el cuadro **[!UICONTROL Test profanity filter]**.
 
 >[!NOTE]
 >
->Solo los administradores y moderadores de Studio pueden editar Listas de privacidad.
-
+>Solo los administradores y moderadores de Studio pueden editar listas de perfiles.
