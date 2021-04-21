@@ -1,21 +1,18 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Identifica cadenas personalizadas
-title: Identifica cadenas personalizadas
-uuid: 73745273-d3fb-4569-8910-d149fb37a7b4
+title: Notas de cadena personalizadas
+description: Notas de cadena personalizadas
+exl-id: b5e2c18b-5b98-45ff-aa89-dd92a02949a9
 translation-type: tm+mt
-source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 11%
+source-wordcount: '339'
+ht-degree: 10%
 
 ---
 
+# Muestra las cadenas personalizadas{#sidenotes-custom-strings}
 
-# Identifica cadenas personalizadas{#sidenotes-custom-strings}
-
-Las cadenas personalizadas se aplican a través de un objeto insertado en el constructor Sidenotes y anulan las cadenas predeterminadas utilizadas en la aplicación. Estos pueden utilizarse para personalizar cualquier parte del idioma de acuerdo con las especificaciones del estilo o idioma. Las cadenas se combinarán automáticamente con valores predeterminados.
+Las cadenas personalizadas se aplican a través de un objeto insertado en el constructor Sidenotes y anulan las cadenas predeterminadas utilizadas a través de la aplicación. Pueden utilizarse para personalizar cualquier parte del idioma para adaptarlo a sus especificaciones de estilo o idioma. Las cadenas se fusionarán automáticamente con los valores predeterminados.
 
 ```
 var customStrings = { 
@@ -28,28 +25,28 @@ new Livefyre.Sidenotes({
 
 | Clave | Valor predeterminado |
 |---|---|
-| appName | Notas de identidad |
+| appName | Notas |
 | commentModeratorTag | Mod |
-| commentpendingTag | Pendiente |
+| commentPendingTag | Pendiente |
 | commentReadMoreLink | Más información... |
 | commentReplyLink | Ver {número} respuestas |
-| commentReplyLinkSing | Consulte la respuesta |
-| commentVoteCount | votes |
+| commentReplyLinkSing | Consulte respuesta |
+| commentVoteCount | vote |
 | commentVoteCountSing | voto |
-| editorMarcadorDePosición | ¿Qué piensas? |
+| editorMarcador de posición | ¿Qué piensas? |
 | editorPostBtn | Publicar Sidenote |
 | editorPostBtnMobile | Anuncio |
 | editorPosting | Colocar un anuncio… |
-| editorResponderBtn | Anunciar respuesta |
+| editorReplyBtn | Anunciar respuesta |
 | editorReplyTitle | Escribir respuesta |
-| editorTítulo | Escribir nota |
-| emptyImageBlockTxt | ¿Qué piensas? |
-| emptyTextBlockTxt | + |
-| errorConnection | Oh-oh. No parece que tenga una buena conexión. |
+| editorTitle | Escribir nota |
+| emptyImageBlockText | ¿Qué piensas? |
+| emptyTextBlockText | + |
+| errorConnection | Oh-oh. Parece que no tiene una buena conexión. |
 | errorDuplicate | También nos gusta tu nota, pero no puedes publicarla dos veces. |
 | errorGeneral | Se ha producido un error. Inténtelo de nuevo. |
 | errorServer | Algo salió mal con nuestro servidor. ¿Intenta eso otra vez? |
-| facebookShareCaption | Notas al margen de &quot;{title}&quot; |
+| facebookShareCaption | Notas laterales sobre &quot;{title}&quot; |
 | menuAuthSignedInMsg | Debe iniciar sesión en {action} |
 | menuAuthSignInBtn | Iniciar sesión |
 | menuBackBtn | Atrás |
@@ -61,9 +58,9 @@ new Livefyre.Sidenotes({
 | menuEtcOptionEdit | Editar  |
 | menuEtcOptionFlag | Marcar |
 | menuEtcOptionShare | Compartir |
-| menuEtcPostedAt | Publicado el {date} |
+| menuEtcPostedAt | Publicado el {fecha} |
 | menuEtcTitle | Más |
-| menuFlagOptionDisact | Rechazar |
+| menuFlagOptionDisaccept | Desacuerdo |
 | menuFlagOptionOffensive | Ofensivo |
 | menuFlagOptionOffTopic | Desactivar tema |
 | menuFlagOptionSpam | Correo no deseado |
@@ -76,7 +73,7 @@ new Livefyre.Sidenotes({
 | menuShareOptionFacebook | Facebook |
 | menuShareOptionLink | Copiar vínculo permanente |
 | menuShareOptionLinkComplete | Copiado |
-| menuShareOptionLinkFailed | Error al copiar |
+| menuShareOptionLinkFailed | Error en la copia |
 | menuShareOptionTwitter | Twitter |
 | menuShareTitle | Compartir |
 | notificationApproved | Aprobado |
@@ -84,15 +81,15 @@ new Livefyre.Sidenotes({
 | notificationFlagged | Marcado |
 | permalinkBackBtn | Todas |
 | permalinkTitle | Permalink |
-| questionExplanation | Ahora puede leer y escribir comentarios directamente sobre oraciones, párrafos, imágenes y comillas.<br><br>Resalte el texto y haga clic en el icono &quot;Fycon-write&quot; o haga clic en el icono &quot;Fycon-action-vista&quot; al final de cada párrafo. |
-| questionMockText | Lo que es &quot;conocido familiar&quot; no se conoce correctamente, sólo por la razón de que es &quot;familiar&quot;. |
+| questionExplanation | Ahora puede leer y escribir comentarios directamente sobre oraciones, párrafos, imágenes y comillas.<br><br>Resalte el texto y haga clic en el icono &quot;Fycon-write&quot; o haga clic en el icono &quot;Fycon-action-view&quot; al final de cada párrafo. |
+| questionMockText | Lo que es &quot;conocido&quot; no se conoce adecuadamente, simplemente por ser &quot;familiar&quot;. |
 | questionTitle | ¿Qué es un Sidenote? |
-| queuedCommentsPlural | {number} nuevas notas |
-| queuedCommentsSingular | 1 Nuevo Sidenote |
-| queuedReplyPlural | {number} nuevas respuestas |
+| queuedCommentsPlural | {número} nuevas notas |
+| queuedCommentsSingular | 1 Nuevo guión |
+| queuedReplyPlural | {número} nuevas respuestas |
 | queuedReplySingular | 1 Nueva respuesta |
-| responseBtn | Responder |
-| signInToPost | Iniciar sesión para escribir una nota de opinión |
+| replyBtn | Responder |
+| signInToPost | Iniciar sesión para escribir una nota secundaria |
 | sliderCommentTally | of |
 | sliderInviteRead | Leído |
 | sliderInviteWrite | Escritura |
