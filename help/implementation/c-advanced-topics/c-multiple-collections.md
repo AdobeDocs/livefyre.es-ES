@@ -1,24 +1,20 @@
 ---
 description: Muestra varias colecciones en una sola página.
-seo-description: Muestra varias colecciones en una sola página.
-seo-title: Varias colecciones
-solution: Experience Manager
 title: Varias colecciones
-uuid: 9675ffd7-1a59-42a1-b3ba-40af1744cfd1
+exl-id: 748b6ca6-635e-4bae-9b95-cfbd4651751f
 translation-type: tm+mt
-source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '108'
 ht-degree: 1%
 
 ---
 
-
-# Colecciones múltiples {#multiple-collections}
+# Varias colecciones {#multiple-collections}
 
 Muestra varias colecciones en una sola página.
 
-Puede incluir varias colecciones en una sola página del sitio. Por ejemplo, para publicar un evento, puede tener un blog en directo o una discusión de chat durante el evento, con una aplicación independiente en la parte lateral de la página, que muestre contenido depurado relacionado de toda la web social. O bien, puede incluir una aplicación de comentarios debajo de un artículo, con un chat a un lado.
+Puede incluir varias colecciones en una sola página del sitio. Por ejemplo, para publicar un evento, es posible que tenga un Blog en vivo o una conversación en chat durante el evento, con una aplicación separada en el lateral de la página, que muestre el Contenido depurado relacionado desde la Web social. O puede incluir una aplicación de comentarios debajo de un artículo, con un Chat a un lado.
 
 Para obtener varias conversaciones en una página, agregue una o más configuraciones en una matriz y pase la matriz a la llamada de carga. Por ejemplo.
 
