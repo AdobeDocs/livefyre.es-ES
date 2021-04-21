@@ -1,22 +1,20 @@
 ---
-seo-title: Guía del usuario de Livefyre
-solution: Experience Manager
 title: Guía del usuario de Livefyre
-uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
+description: Guía del usuario de Livefyre
+exl-id: 1b106519-9165-4cce-bddf-c0980424f54d
 translation-type: tm+mt
-source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 4%
 
 ---
 
-
 # Guía del usuario de Livefyre {#livefyre-help}
 
 Utilice Livefyre Studio para crear aplicaciones, recopilar contenido generado por el usuario y moderar contenido.
 
-Para obtener información sobre cómo implementar y personalizar las aplicaciones de Livefyre en el sitio mediante herramientas de desarrollo, consulte la [*Guía de implementación de Livefyre de Adobe Experience Manager*](/help/implementation/home.md).
+Para obtener información sobre cómo implementar y personalizar las aplicaciones de Livefyre en el sitio mediante herramientas para desarrolladores, consulte la [*Guía de implementación de Livefyre de Adobe Experience Manager*](/help/implementation/home.md).
 
 ## Temas populares
 
@@ -26,7 +24,7 @@ Para obtener información sobre cómo implementar y personalizar las aplicacione
 
    Utilice Livefyre Studio para administrar aplicaciones, usuarios y contenido.
 
-* [Uso de las aplicaciones](c-about-apps/c-about-apps.md#c_about_apps)
+* [Uso de aplicaciones](c-about-apps/c-about-apps.md#c_about_apps)
 
    Cree y publique aplicaciones de Livefyre (incluidos comentarios).
 
@@ -35,7 +33,6 @@ Para obtener información sobre cómo implementar y personalizar las aplicacione
 
 * [Uso de Livefyre con Adobe Target](/help/using/c-library/livefyre-target.md)
 
-* [Uso de Livefyre con Adobe Launch Livefyre Extension](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)
+* [Uso de Livefyre con la extensión Launch Livefyre de Adobe](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)
 
 * [Notas de la versión](c-rn/c-rn.md#c_rn)
-
