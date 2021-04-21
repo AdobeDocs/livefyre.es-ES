@@ -1,42 +1,38 @@
 ---
 description: Personalice el estilo y la forma en que se muestran los comentarios en su blog en directo.
-seo-description: Personalice el estilo y la forma en que se muestran los comentarios en su blog en directo.
-seo-title: Personalizaciones de blogs en directo
-solution: Experience Manager
 title: Personalizaciones de blogs en directo
-uuid: f07d4c33-4aef-4d69-b9dd-3fd3c27ffd6d
+exl-id: 388b700b-c7bc-47ef-a0f3-dac0b01fcb2b
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
 
-
-# Personalizaciones del blog en directo{#live-blog-customizations}
+# Personalizaciones de blogs en directo{#live-blog-customizations}
 
 Personalice el estilo y la forma en que se muestran los comentarios en su blog en directo.
 
 
 
-Utilice Live Blog para publicar actualizaciones en tiempo real de historias en curso, transformando su sitio en una atractiva fuente de noticias en directo.
+Use Live Blog para publicar actualizaciones en tiempo real de historias en curso, transformando su sitio en una atractiva fuente de noticias en vivo.
 
 * **[!UICONTROL Number of comments to load]**
 
-   Escriba el número de comentarios que se mostrarán al cargar la versión inicial. Puede introducir entre 1 y 50.
+   Introduzca el número de comentarios que se mostrarán tras la carga inicial. Puede introducir entre 1 y 50.
 
 * **[!UICONTROL Comments appear in cards]**
 
-   Si está habilitada, las publicaciones se mostrarán con un cuadro que las rodea y se aplicará el color de fondo que dicta la selección **Tema**.
+   Si está habilitado, los anuncios se mostrarán con un cuadro circundante y el color de fondo dictado por la selección **Tema** aplicada.
 
 * **[!UICONTROL Nest levels for replies]**
 
-   Define el número de niveles de anidación que se muestran para las respuestas (2 o 3).
+   Define el número de niveles de anidamiento mostrados para las respuestas (2 o 3).
 
 * **[!UICONTROL Expand media]**
 
-   Si está activada, los archivos adjuntos de medios se mostrarán como medios completamente expandidos en línea en el flujo. Si está desactivado, los medios se muestran únicamente como vínculos.
+   Si está activado, los archivos adjuntos de los medios se mostrarán como medios en línea completamente expandidos en el flujo. Si está desactivado, el contenido se muestra solo como vínculos.
 
 * **[!UICONTROL Number of listeners]**
 
@@ -44,7 +40,7 @@ Utilice Live Blog para publicar actualizaciones en tiempo real de historias en c
 
 * **[!UICONTROL User tags]**
 
-   Si está activada, las etiquetas de usuario se mostrarán con el contenido publicado.
+   Si se habilita, las etiquetas de usuario se mostrarán con el contenido publicado.
 
 * **[!UICONTROL User avatars]**
 
@@ -52,19 +48,18 @@ Utilice Live Blog para publicar actualizaciones en tiempo real de historias en c
 
 * **[!UICONTROL Users can reply to posts]**
 
-   Si está activada, los usuarios pueden responder a las publicaciones de Live Blog.
+   Si está habilitado, los usuarios pueden responder a las publicaciones de blogs en directo.
 
 * **[!UICONTROL Users may upload photos]**
 
-   Si está activado, los usuarios pueden cargar fotos.
+   Si está habilitado, los usuarios pueden cargar fotos.
 
 * **[!UICONTROL Users may share comments]**
 
-   Si está habilitado, los usuarios pueden compartir contenido publicado en Twitter, Facebook o LinkedIn. Para obtener más información sobre cómo habilitar el uso compartido, consulte Configuración > Configuración de integración > Compartir en redes sociales.
+   Si está habilitado, los usuarios pueden compartir contenido publicado en Twitter, Facebook o LinkedIn. Para obtener más información sobre cómo habilitar el uso compartido, consulte Configuración > Configuración de integración > Uso compartido en medios sociales.
 
 Puede personalizar Live Blog mediante:
 
-* **[!UICONTROL Style]** y  **[!UICONTROL Config]** opciones para todas las aplicaciones de la  **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones en **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** y  **[!UICONTROL Config]** para todas las aplicaciones de  **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de **[!UICONTROL App Designer]**.
 
-* Herramientas de integración. Consulte Live Blog para obtener más información sobre cómo personalizar aplicaciones mediante las herramientas de integración.
-
+* Herramientas de integración. Consulte Blog en directo para obtener más información sobre cómo personalizar aplicaciones mediante las herramientas de integración.
