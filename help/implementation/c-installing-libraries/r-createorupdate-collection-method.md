@@ -1,20 +1,16 @@
 ---
 description: Intenta crear o actualizar esta colección con Livefyre. Devuelve este objeto Collection.
-seo-description: Intenta crear o actualizar esta colección con Livefyre. Devuelve este objeto Collection.
-seo-title: createOrUpdate (método de recopilación)
-solution: Experience Manager
-title: createOrUpdate (método de recopilación)
-uuid: 1fff82d3-4b05-46a0-95ca-3eb4a6256cf8
+title: createOrUpdate (método de colección)
+exl-id: 1a1fdeb5-1194-4e43-b2df-282a7ca09e3c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
 
-
-# createOrUpdate (método de recopilación){#createorupdate-collection-method}
+# createOrUpdate Collection Method{#createorupdate-collection-method}
 
 Intenta crear o actualizar esta colección con Livefyre. Devuelve este objeto Collection.
 
@@ -47,4 +43,3 @@ collection.create_or_update()
 ```
 collection.create_or_update 
 ```
-
