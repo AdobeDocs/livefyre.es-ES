@@ -1,22 +1,18 @@
 ---
-description: Algunos ejemplos de uso de las bibliotecas.
-seo-description: Algunos ejemplos de uso de las bibliotecas.
-seo-title: Ejemplos
-solution: Experience Manager
+description: Algunos ejemplos sobre el uso de las bibliotecas.
 title: Ejemplos
-uuid: 94e38dab-6234-43a2-a840-13a87f0237f1
+exl-id: 73b17607-0374-4037-8b0a-77e6d4b94691
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 9%
+source-wordcount: '24'
+ht-degree: 8%
 
 ---
 
-
 # Ejemplos{#examples}
 
-Algunos ejemplos de uso de las bibliotecas.
+Algunos ejemplos sobre el uso de las bibliotecas.
 
 ## Ejemplo de Java {#section_nyl_ycs_rz}
 
@@ -442,4 +438,3 @@ class LivefyreExample
    end 
 end
 ```
-
