@@ -1,17 +1,14 @@
 ---
 description: Notas de la versión de la versión del 9 de febrero de 2017.
-seo-description: Notas de la versión de la versión del 9 de febrero de 2017.
-seo-title: 9 de febrero de 2017
 title: 9 de febrero de 2017
-uuid: cbbf10f3-d8ca-4c10-849e-fa7208f987be
+exl-id: 155f8a43-17e5-40b2-ada0-32691f8a34e5
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '550'
 ht-degree: 5%
 
 ---
-
 
 # 9 de febrero de 2017{#february}
 
@@ -19,7 +16,7 @@ Notas de la versión de la versión del 9 de febrero de 2017.
 
 ## SocialSync para Twitter {#section_nv4_yry_wy}
 
-SocialSync para Twitter ha sido parte de nuestra funcionalidad principal durante varios años. Sin embargo, a medida que nuestro producto se ha desarrollado y crecido con el tiempo, SocialSync para Twitter se ha convertido en una característica de menor valor que actualmente usa una porción muy pequeña de nuestra base de clientes. Para mejorar la experiencia general de Livefyre para nuestros clientes y enfocar los recursos de desarrollo en áreas de valor bueno, dejaremos de utilizar la función SocialSync para Twitter el 24 de febrero. SocialSync para Facebook no se verá afectado por esta actualización. Si tiene alguna pregunta o inquietud sobre esta actualización, póngase en contacto con su CSM de Livefyre.
+SocialSync para Twitter ha formado parte de nuestra funcionalidad principal durante varios años. Sin embargo, a medida que nuestro producto se ha desarrollado y crecido con el tiempo, SocialSync para Twitter se ha convertido en una función de menor valor que actualmente utiliza una porción muy pequeña de nuestra base de clientes. Para mejorar la experiencia general de Livefyre para nuestros clientes y enfocar los recursos de desarrollo en áreas de valor bueno, suspenderemos la función SocialSync para Twitter el 24 de febrero. SocialSync para Facebook no se verá afectado por esta actualización. Si tiene alguna pregunta o preocupación sobre esta actualización, póngase en contacto con su CSM de Livefyre.
 
 ## Versión de producción {#section_r24_1m2_wy}
 
@@ -27,29 +24,28 @@ SocialSync para Twitter ha sido parte de nuestra funcionalidad principal durante
 |--- |--- |--- |
 | Error, | Muro de los medios | Se ha corregido un error que permitía que los vídeos de Facebook se reprodujeran correctamente. |
 | Error, | ModQ | Se ha corregido un error que impedía que los sujetos de correo electrónico no se mostraran en el contenido del flujo de correo electrónico. |
-| Error, | Mosaico | Se ha añadido la compatibilidad de accesibilidad adicional a Mosaic para permitir a los usuarios cambiar la ficha entre las tarjetas de contenido. |
+| Error, | Mosaic | Se ha agregado compatibilidad de accesibilidad adicional a Mosaic para permitir a los usuarios cambiar la pestaña entre las tarjetas de contenido. |
 | Error, | Reseñas | Se ha corregido un error que impedía que las ediciones de clasificación aparecieran correctamente. |
-| Error, | Búsqueda social | Se corrigió un error que ocasionaba que el botón Mostrar más se cortara en los resultados de Búsqueda de Listas de Twitter. |
-| Mejora | Storify 2 | Se ha mejorado Storify 2 para admitir la búsqueda de contenido copywrite Free. Copywrite Free busca en Flickr, Noun Project, Kuler, Pixabay y Unsplash para copiar imágenes sin escribir. |
-| Error, | Flujos | Se ha corregido un error que impedía guardar las reglas de flujo de Tumblr. |
-| Error, | Flujos | Se ha corregido un error que producía identificadores de generador incorrectos en el JSON de recopilación para fuentes RSS. |
-| Mejora | Flujos | Se ha realizado un ajuste en la configuración de la opción &quot;Solo cuentas verificadas&quot; para deshabilitarla de forma predeterminada. |
-| Mejora | Flujos | Se ha añadido una nueva función para permitir que las categorías de contenido (mediante una regla de flujo) se puedan incluir en la lista y omitir la moderación. |
-| Error, | Flujos | Se ha corregido un error que provocaba que la configuración &quot;Premoderado&quot; y &quot;Media Premoderado&quot; se transfiriera a una regla de flujo recién creada. |
+| Error, | Búsqueda social | Se ha corregido un error que hacía que el botón Mostrar más se cortara en los resultados de Búsqueda de lista de Twitter. |
+| Mejora | Storify 2 | Storify 2 mejorado para admitir la búsqueda de contenido de escritura libre. Copywrite Free busca en Flickr, Noun Project, Kuler, Pixabay y Unsplash para copiar imágenes libres. |
+| Error, | Transmisiones | Se ha corregido un error que impedía guardar las reglas de flujo de Tumblr. |
+| Error, | Transmisiones | Se ha corregido un error que producía ID de generador incorrectos en el JSON de recopilación para fuentes RSS. |
+| Mejora | Transmisiones | Se ha realizado un ajuste en la configuración de la opción &quot;Solo cuentas verificadas&quot; para que se deshabilite de forma predeterminada. |
+| Mejora | Transmisiones | Se ha agregado una nueva función para permitir que las categorías de contenido (a través de una regla de flujo) se incluyan en la lista de permitidos y eviten la moderación. |
+| Error, | Transmisiones | Se ha corregido un error que provocaba que los ajustes &quot;Premoderar&quot; y &quot;Premoderar de medios&quot; se transfirieran a una regla de flujo recién creada. |
 
-## Versión de UAT {#section_dyx_yl2_wy}
+## Versión UAT {#section_dyx_yl2_wy}
 
 | Tipo de incidencia | Componente | Nota de la versión |
 |--- |--- |--- |
-| Error, | Aplicaciones de conversación | Las aplicaciones de conversación mejoradas siempre se vinculan a perfiles de usuario, incluso sin una integración de autenticación completa. |
-| Error, | Mosaico | Se ha corregido un error que ahora proporciona todas las imágenes de Twitter mediante HTTPS. |
-| Error, | Búsqueda social | Se ha corregido un error que provocaba que la marca de verificación verde &quot;guardada&quot; no apareciera al guardar recursos en Búsqueda social y ver recursos en la biblioteca. |
+| Error, | Aplicaciones de conversación | Aplicaciones de conversación mejoradas para vincular siempre a perfiles de usuario, incluso sin una integración de autenticación completa. |
+| Error, | Mosaic | Se ha corregido un error que ahora proporciona todas las imágenes de Twitter a través de HTTPS. |
+| Error, | Búsqueda social | Se ha corregido un error que hacía que la marca de verificación &quot;guardada&quot; verde no apareciera al guardar recursos en Búsqueda social y ver recursos en la biblioteca. |
 | Error, | Búsqueda social | Se ha corregido un error que impedía que la opción &quot;Ocultar imágenes explícitas&quot; funcionara correctamente. |
-| Mejora | Storify 2 | Se ha mejorado Storify 2 para permitir que los vínculos permanentes abran un modal (anteriormente la aplicación se desplazaba a la ubicación de la publicación en la página). En el Diseñador de Storify 2, hemos agregado una configuración para alternar entre el comportamiento de vínculo permanente de desplazamiento y de desplazamiento. El comportamiento de vínculo permanente modal será el comportamiento predeterminado. |
+| Mejora | Storify 2 | Se ha mejorado Storify 2 para permitir que los vínculos permanentes abran un modal (anteriormente, la aplicación se desplazaba a la ubicación de la publicación en la página). En el Diseñador de Storify 2, se ha añadido una configuración para alternar entre el comportamiento del vínculo permanente de desplazamiento y modal. El comportamiento del vínculo permanente modal será el comportamiento predeterminado. |
 | Mejora | Storify 2 | Se ha mejorado la integración de Google AMP de Storify 2 para producir un archivo CSS más pequeño. |
-| Error, | Flujos | Se ha mejorado el contenido (imágenes y vídeos) de las reglas de flujo de correo electrónico para que esté disponible mediante HTTPS. |
-| Error, | Flujos | Se añadió una etiqueta para el valor de radio móvil en los mapas en las reglas de flujo de Twitter. |
-| Error, | Flujos | Se ha corregido un error con las reglas de flujo de página de Facebook y Facebook para extraer publicaciones con varios archivos adjuntos de medios correctamente. |
-| Error, | Studio | Se ha corregido un error que provocaba que varios &amp; se anexaran a la URL al usar filtros en Studio. |
-| Error, | Studio | Se ha corregido un error que impedía que determinadas casillas de verificación de los filtros de estudio se activaran sin marcar. |
-
+| Error, | Transmisiones | Se ha mejorado el contenido (imágenes y vídeos) de las reglas de flujo de correo electrónico para que esté disponible mediante HTTPS. |
+| Error, | Transmisiones | Se ha añadido una etiqueta para el valor de radio móvil en los mapas de las reglas de flujo de Twitter. |
+| Error, | Transmisiones | Se ha corregido un error con las reglas de flujo de página de Facebook y Facebook para extraer publicaciones con varios archivos adjuntos de medios correctamente. |
+| Error, | Studio | Se ha corregido un error que provocaba que se adjuntaran varios y a la URL al usar filtros en Studio. |
+| Error, | Studio | Se ha corregido un error que impedía que ciertas casillas de verificación de los filtros de estudio no estuvieran seleccionadas. |
