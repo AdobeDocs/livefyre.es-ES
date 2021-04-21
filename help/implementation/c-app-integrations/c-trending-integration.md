@@ -1,28 +1,24 @@
 ---
-description: Muestre las colecciones más activas del sitio o de la red.
-seo-description: Muestre las colecciones más activas del sitio o de la red.
-seo-title: Tendencias
-solution: Experience Manager
+description: Muestre las colecciones más activas de su sitio o red.
 title: Tendencias
-uuid: 3031523d-b487-4eea-bba6-5d8f9971874f
+exl-id: a3129e95-90e7-4107-bfd9-ed3b0dce20aa
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '140'
 ht-degree: 5%
 
 ---
 
-
 # Tendencias{#trending}
 
-Muestre las colecciones más activas del sitio o de la red.
+Muestre las colecciones más activas de su sitio o red.
 
-Utilice las tendencias para mostrar las colecciones con la actividad más reciente en su sitio o red.
+Utilice Tendencias para mostrar las Colecciones con la actividad más reciente de su Sitio o Red.
 
 ## de CRM {#section_wtz_whb_c1b}
 
-La forma más rápida de integrarse con Trending es utilizar la versión compilada alojada en la CDN de Livefyre.
+La forma más rápida de integrarse con Trending es utilizar la versión creada alojada en la CDN de Livefyre.
 
 Primero, agregue [Livefyre.js](https://github.com/Livefyre/Livefyre.js) a su página.
 
@@ -52,13 +48,13 @@ Livefyre.require([
 </script>
 ```
 
-Ahora tiene una aplicación de tendencias. Consulte todo esto en acción en [este ejemplo](https://codepen.io/gobengo/pen/GijEy).
+¡Ahora tiene una aplicación de tendencias! Vea todo esto en acción en [este ejemplo](https://codepen.io/gobengo/pen/GijEy).
 
 ## Configuración {#section_k5k_qhb_c1b}
 
 `network`
 
-Red de la que se extraerán las colecciones. (Requerido.)
+La red de la que se extraerán las colecciones. (Requerido.)
 
 ```
 var trending = new Trending({ 
@@ -69,7 +65,7 @@ var trending = new Trending({
 
 `siteId`
 
-Proporcione la ID del sitio para mostrar las colecciones solamente desde un solo sitio dentro de la red. (Opcional.)
+Proporcione el ID del sitio para mostrar las colecciones únicamente de un solo sitio dentro de la red. (Opcional.)
 
 ```
 var trending = new Trending({ 
@@ -81,7 +77,7 @@ var trending = new Trending({
 
 `tag`
 
-Proporcione una única etiqueta de colección para mostrar solo las colecciones con esa etiqueta. (Opcional.)
+Proporcione una sola etiqueta de colección para mostrar solo las colecciones con esa etiqueta. (Opcional.)
 
 ```
 var trending = new Trending({ 
@@ -91,4 +87,3 @@ var trending = new Trending({
    tag: 'basketball' 
 });
 ```
-
