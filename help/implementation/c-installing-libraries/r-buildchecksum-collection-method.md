@@ -1,20 +1,16 @@
 ---
 description: Devuelve la suma de comprobación de esta colección.
-seo-description: Devuelve la suma de comprobación de esta colección.
-seo-title: buildChecksum (método de recopilación)
-solution: Experience Manager
-title: buildChecksum (método de recopilación)
-uuid: 692e8e13-6218-4e38-abc8-7cf49bebde9c
+title: Método de colección buildChecksum
+exl-id: 91b2911e-bcca-4a61-9c59-4df084e0d778
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---
 
-
-# buildChecksum (método de recopilación){#buildchecksum-collection-method}
+# Método de colección buildChecksum{#buildchecksum-collection-method}
 
 Devuelve la suma de comprobación de esta colección.
 
@@ -24,7 +20,7 @@ Devuelve la suma de comprobación de esta colección.
 collection.buildChecksum(); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 6e2e4faf7b95f896260fe695eafb34ba 
@@ -36,7 +32,7 @@ Salida de muestra:
 collection.buildChecksum(); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 6e2e4faf7b95f896260fe695eafb34ba 
@@ -48,7 +44,7 @@ Salida de muestra:
 $collection->buildChecksum(); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 6e2e4faf7b95f896260fe695eafb34ba 
@@ -60,7 +56,7 @@ Salida de muestra:
 collection.build_checksum() 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 6e2e4faf7b95f896260fe695eafb34ba 
@@ -72,9 +68,8 @@ Salida de muestra:
 collection.build_checksum
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 6e2e4faf7b95f896260fe695eafb34ba 
 ```
-
