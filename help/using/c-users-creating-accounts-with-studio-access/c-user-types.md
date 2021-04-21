@@ -1,59 +1,55 @@
 ---
-description: Livefyre proporciona varios tipos de usuarios con distintos niveles de permisos.
-seo-description: Livefyre proporciona varios tipos de usuarios con distintos niveles de permisos.
-seo-title: Funciones de usuario y permisos
-solution: Experience Manager
-title: Funciones de usuario y permisos
-uuid: d9261cfd-ae60-40d8-9816-25aef541506f
+description: Livefyre proporciona varios tipos de usuarios con diferentes niveles de permisos.
+title: Roles y permisos de usuario
+exl-id: 0e590857-74c5-4fdc-82a9-1673909d5eb7
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
+# Roles y permisos de usuario{#user-roles-and-permissions}
 
-# Funciones y permisos de usuario{#user-roles-and-permissions}
-
-Livefyre proporciona varios tipos de usuarios con distintos niveles de permisos.
+Livefyre proporciona varios tipos de usuarios con diferentes niveles de permisos.
 
 Las siguientes funciones de usuario y los privilegios de acceso enumerados están disponibles en Studio:
 
 >[!NOTE]
 >
->Para todas las funciones, excepto para el administrador, los usuarios solo pueden acceder a las carpetas o sitios que sean públicos o que se hayan compartido con ellos.
+>Para todas las funciones excepto el administrador, los usuarios solo pueden acceder a las carpetas o sitios que sean públicos o que se hayan compartido con ellos.
 
-* **Administrador de estudios**
+* **Administrador de Studio**
    * Acceso a todos los derechos y permisos en Studio
-   * Administrar rollover de usuario
-   * Vista y edición de la configuración de integración
-   * Vista y edición de todas las carpetas, aplicaciones y flujos públicos y privados
+   * Administrar Rodajes De Usuario
+   * Ver y editar la configuración de integración
+   * Ver y editar todas las carpetas, aplicaciones y flujos públicos y privados
 
-* **Administrador de estudios**
+* **Studio Manager**
    * Crear nuevos sitios
-   * Invitar a usuarios a Studio
-   * Vista y edición de funciones de usuario
+   * Invitar usuarios a Studio
+   * Ver y editar funciones de usuario
    * Prohibir exploradores y direcciones IP
 
 * **Administrador de recursos**
-   * Añadir recursos a la biblioteca mediante la búsqueda social
+   * Agregar recursos a la biblioteca mediante la búsqueda social
    * Crear y editar flujos que se dirigen a carpetas compartidas
-   * Crear y editar carpetas compartidas y los recursos en carpetas compartidas
+   * Crear y editar carpetas compartidas y Recursos en carpetas compartidas
 
 * **Administrador de usuarios**
-   * Vista y edición de los detalles de la cuenta del usuario final
-   * Prohibir o permitir la lista de usuarios finales
+   * Ver y editar los detalles de la cuenta del usuario final
+   * Prohibir o incluir en la lista de permitidos a usuarios finales
 
-* **Administrador de datos:** concede acceso para utilizar el panel de análisis de Livefyre.
+* **Administrador de datos:** otorga acceso para utilizar el panel de análisis de Livefyre.
 * **Administrador de aplicaciones**
    * Crear y editar aplicaciones
-   * Crear y editar flujos que apuntan a aplicaciones
-   * Añadir recursos directamente en las aplicaciones mediante la búsqueda social
+   * Crear y editar flujos que apunten a aplicaciones
+   * Agregar recursos directamente a las aplicaciones mediante la búsqueda social
 
 * **Administrador de contenido:**
-   * Vista y moderación del contenido mediante la página Contenido de la aplicación
-   * Añadir y editar etiquetas, indicadores, notas y solicitudes de derechos para el contenido
+   * Ver y moderar contenido mediante la página Contenido de aplicación
+   * Agregar y editar etiquetas, indicadores, notas y solicitudes de derechos para el contenido
 
 * **Moderador:**
    * Acceso a ModQ
@@ -61,4 +57,4 @@ Las siguientes funciones de usuario y los privilegios de acceso enumerados está
 
 >[!NOTE]
 >
->Las funciones de usuario de nivel de sitio otorgan permiso solamente al sitio seleccionado. Las funciones otorgadas en este nivel no tendrán acceso a otros sitios o redes.
+>Las funciones de usuario de nivel de sitio solo otorgan permiso al sitio seleccionado. Las funciones otorgadas a este nivel no tendrán acceso a otros sitios o redes.
