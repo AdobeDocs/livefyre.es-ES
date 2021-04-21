@@ -1,24 +1,20 @@
 ---
-description: Añada las reglas en los flujos para permitir que el contenido rellene automáticamente una aplicación o una carpeta en función de estas reglas.
-seo-description: Añada las reglas en los flujos para permitir que el contenido rellene automáticamente una aplicación o una carpeta en función de estas reglas.
-seo-title: Añadir reglas para el flujo
-solution: Experience Manager
-title: Añadir reglas para el flujo
-uuid: 7a3fb400-95e4-49f9-ae39-90654df14665
+description: Agregue reglas en flujos para permitir que el contenido rellene automáticamente una aplicación o carpeta en función de estas reglas.
+title: Agregar reglas para la emisión
+exl-id: e3fe5785-ddb3-4a6c-ac58-0ec988dda8bf
 translation-type: tm+mt
-source-git-commit: 8bdb537b38d78dba033d6671b710c2a61934d6b2
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 10%
+source-wordcount: '140'
+ht-degree: 12%
 
 ---
 
+# Agregar reglas para el flujo{#add-rules-for-your-stream}
 
-# Añadir reglas para el flujo{#add-rules-for-your-stream}
+Agregue reglas en flujos para permitir que el contenido rellene automáticamente una aplicación o carpeta en función de estas reglas.
 
-Añada las reglas en los flujos para permitir que el contenido rellene automáticamente una aplicación o una carpeta en función de estas reglas.
-
-Añada las reglas de flujo al flujo desde una o más de las siguientes redes sociales o tipos de contenido:
+Agregue reglas de flujo al flujo desde una o más de las siguientes redes sociales o tipos de contenido:
 
 * Facebook
 * Páginas de Facebook
@@ -30,9 +26,9 @@ Añada las reglas de flujo al flujo desde una o más de las siguientes redes soc
 * RSS
 
 1. Cree o abra un flujo.
-1. Añada una nueva regla.
+1. Agregue una regla nueva.
 1. Seleccione el tipo de regla.
-1. Rellene la información. El tipo de información que complete dependerá del sitio Web o método desde el cual extraiga el contenido. Para obtener más información sobre las opciones de reglas de flujo, consulte [Opciones de regla de flujo para todas las reglas de flujo](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)y la documentación de cada red individual.
+1. Rellene la información. El tipo de información que complete depende del sitio web o método desde el que extraiga el contenido. Para obtener más información sobre las opciones de reglas de flujo, consulte [Opciones de reglas de flujo para todas las reglas de flujo](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)y la documentación de cada red individual.
 
    * [Páginas de Facebook](../c-streams/c-facebook-page-rules.md#c_facebook_page_rules)
    * [Correo electrónico](../c-streams/c-email-rules.md#c_email_rules)
