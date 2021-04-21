@@ -1,37 +1,33 @@
 ---
-description: Puede utilizar la Identidad de Livefyre con Yahoo! para permitir que los usuarios utilicen su inicios de sesión para interactuar con las aplicaciones del sitio.
-seo-description: Puede utilizar la Identidad de Livefyre con Yahoo! para permitir que los usuarios utilicen su inicios de sesión para interactuar con las aplicaciones del sitio.
-seo-title: Crear un Yahoo! Aplicación para usar con la identidad de Livefyre
-solution: Experience Manager
+description: Puede utilizar la identidad de Livefyre con Yahoo! para permitir a los usuarios utilizar su Yahoo! inicios de sesión para interactuar con las aplicaciones del sitio.
 title: Crear un Yahoo! Aplicación para usar con la identidad de Livefyre
-uuid: 6863cd2e-eb0d-465b-b706-88ecaccf41bc
+exl-id: 6b4c6ea9-1cb0-4496-aabe-70811f464a3d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
-
 # Crear un Yahoo! Aplicación para usar con la identidad de Livefyre{#create-a-yahoo-app-for-use-with-livefyre-identity}
 
-Puede utilizar la Identidad de Livefyre con Yahoo! para permitir que los usuarios utilicen su inicios de sesión para interactuar con las aplicaciones del sitio.
+Puede utilizar la identidad de Livefyre con Yahoo! para permitir a los usuarios utilizar su Yahoo! inicios de sesión para interactuar con las aplicaciones del sitio.
 
-Para permitir que los usuarios inicien sesión con sus credenciales de Yahoo, Livefyre requiere la siguiente información de la aplicación para Yahoo:
+Para permitir que los usuarios inicien sesión con sus credenciales de Yahoo, Livefyre requiere la siguiente información de la aplicación Yahoo:
 
-* ID del cliente (Clave del cliente)
-* Secreto del cliente (Secreto de cliente)
+* ID de cliente (clave de consumidor)
+* Secreto del cliente (Secreto del consumidor)
 
-Para crear un aplicación para usar con Livefyre Identity:
+Para crear un aplicación para uso con la identidad de Livefyre:
 
-1. Vaya a [https://developer.yahoo.com/apps/](https://developer.yahoo.com/apps/) e inicie sesión en su para crear una aplicación nueva o seleccionar una existente para utilizarla con la identidad de Livefyre.
+1. Vaya a [https://developer.yahoo.com/apps/](https://developer.yahoo.com/apps/) e inicie sesión en Yahoo! para crear una aplicación nueva o seleccionar una existente para usarla con la identidad de Livefyre.
 1. Select **[!UICONTROL Application Type: Web Application]**.
 1. Entrar **[!UICONTROL Callback Domain:]** `https://identity.livefyre.com`
 1. Seleccione **[!UICONTROL API Permissions: Profiles (Social Directory)]** y **[!UICONTROL Read Public]**.
 
-   Una vez completada, la página de detalles de la aplicación de Yahoo lista el ID de cliente (Clave del cliente) y el Secreto de cliente (Secreto de cliente) de la aplicación para utilizarlos en la página Ajustes de integración de Studio.
+   Cuando se complete, la página de detalles de la aplicación de Yahoo enumerará el ID de cliente (clave de consumidor) y el Secreto de cliente (secreto de consumidor) de la aplicación para su uso en la página Configuración de integración de Studio.
 
    >[!NOTE]
    >
-   >Si habilita Yahoo! iniciar sesión sin crear un y si deja los campos ID de cliente y Secreto de cliente en Studio en blanco, Livefyre utilizará OpenID para registrar a estos usuarios en sus aplicaciones de Livefyre. OAuth y la marca personalizada no estarán disponibles en este caso.
+   >Si habilita Yahoo! iniciar sesión sin crear un y si deja los campos Client ID y Client Secret en Studio en blanco, Livefyre utilizará OpenID para iniciar sesión en las aplicaciones de Livefyre. En este caso, OAuth y la personalización de marca no estarán disponibles.
