@@ -1,18 +1,14 @@
 ---
 description: Notas de la versión de la versión del 15 de febrero de 2018.
-seo-description: Notas de la versión de la versión del 15 de febrero de 2018.
-seo-title: 15 de febrero de 2018
-solution: Experience Manager
 title: 15 de febrero de 2018
-uuid: ee46f088-9fb7-49e2-a42c-e0d4b2f24a32
+exl-id: 7276de37-c8cd-4e85-bc92-90c272e5bf94
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '294'
 ht-degree: 5%
 
 ---
-
 
 # 15 de febrero de 2018{#february}
 
@@ -25,15 +21,15 @@ Las siguientes funciones son nuevas en la versión de producción de esta versi�
 * **Etiquetas inteligentes.**
 
    Livefyre utiliza la tecnología de reconocimiento de imágenes de Adobe Sensei para etiquetar automáticamente las imágenes guardadas en la biblioteca.
-Con las etiquetas inteligentes puede ahorrar una cantidad considerable de tiempo en la búsqueda y moderación del contenido. Con las etiquetas inteligentes, puede:
+Con las etiquetas inteligentes, puede ahorrar una gran cantidad de tiempo buscando y moderando contenido. Con las etiquetas inteligentes, puede:
 
    * Buscar imágenes guardadas para contenido preciso basado en el contenido de la imagen, en lugar de solo texto
    * Recopilar contenido en flujos en función de términos de búsqueda precisos que analicen la imagen, en lugar de solo texto
 
    Para obtener más información sobre las etiquetas inteligentes, consulte [Etiquetas inteligentes](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags).
 
-* **Mensajes en el producto.** Ahora, cuando inicia sesión en Livefyre Studio, aparece una ventana de anuncios para mostrar las actualizaciones sobre las nuevas funciones.
-* **UGC para Carrusel.** Ahora puede usar todas las funciones de comercio UGC en la aplicación de carrusel de Livefyre. Puede crear un botón de llamada a acción y conectar el catálogo de productos a la aplicación para crear una experiencia de ventas a partir de Carrusel.
+* **Mensajes en el producto.** Ahora, cuando inicia sesión en Livefyre Studio, aparece una ventana de anuncios para mostrar actualizaciones sobre las nuevas funciones.
+* **UGC para Carrusel.** Ahora puede utilizar todas las funciones de UGC Commerce en la aplicación Livefyre Carousel. Puede crear un botón de llamada a acción y conectar el catálogo de productos a la aplicación para crear una experiencia de ventas a partir de Carrusel.
 
 ## Problemas {#section_ehw_ndt_wcb}
 
@@ -43,15 +39,14 @@ Los problemas de las tablas siguientes se resolvieron en esta versión.
 
 | **Tipo de incidencia** | **Componente** | **Nota de la versión** |
 |---|---|---|
-| Problema | ModQ | Se corrigió un problema en el cual las publicaciones de Instagram marcadas como aprobadas o desechadas volvían a entrar en la cola. |
-| Mejora | Rights Management | Se añadió una mejora para mostrar una advertencia al intentar usar cuentas de Instagram caducadas al realizar solicitudes de derechos. |
-| Problema | Tendencias | Se ha corregido un problema por el que la aplicación de tendencias aún permitía HTTP en ocasiones, en lugar de HTTPS. |
+| Problema | ModQ | Se ha corregido un problema por el cual los anuncios de Instagram marcados como aprobados o enviados a la papelera volvían a entrar en la cola. |
+| Mejora | Rights Management | Se ha añadido una mejora para mostrar una advertencia al intentar utilizar cuentas de Instagram caducadas al realizar solicitudes de derechos. |
+| Problema | Tendencias | Se ha corregido un problema por el que la aplicación de tendencias seguía permitiendo HTTP en ocasiones, en lugar de HTTPS. |
 
 ## Versión de UAT
 
 | **Tipo de incidencia** | **Componente** | **Nota de la versión** |
 |---|---|---|
-| Mejora | Aplicaciones | Se añadió la capacidad de eliminar aplicaciones de Livefyre. |
-| Problema | Encuestas | Se han cambiado las encuestas para usar HTTPS exclusivamente. Anteriormente, aún se permitía el uso de encuestas con HTTP. |
-| Problema | UGC | Se corrigió un problema en el cual UGC en una aplicación de visualización no filtraba por ID de producto como se esperaba. |
-
+| Mejora | Aplicaciones | Se ha agregado la capacidad de eliminar aplicaciones de Livefyre. |
+| Problema | Encuestas | Se han cambiado Encuestas para usar HTTPS exclusivamente. Anteriormente, se permitía el uso de Encuestas con HTTP. |
+| Problema | UGC | Se ha corregido un problema por el cual UGC en una aplicación de visualización no filtraba por ID de producto como se esperaba. |
