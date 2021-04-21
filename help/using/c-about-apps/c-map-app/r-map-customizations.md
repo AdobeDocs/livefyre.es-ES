@@ -1,30 +1,26 @@
 ---
-description: Cambie el tamaño, el ancho y las opciones de interacción de la aplicación de mapa.
-seo-description: Cambie el tamaño, el ancho y las opciones de interacción de la aplicación de mapa.
-seo-title: Personalizaciones de mapas
-solution: Experience Manager
-title: Personalizaciones de mapas
-uuid: 3a3bffde-5d1b-41da-9aa8-d25b43d0df76
+description: Cambie el tamaño, la anchura y las opciones de interacción de la aplicación de mapa.
+title: Personalizaciones de Mapa
+exl-id: 71d3bb65-cd10-48c6-bf6b-8442b0fdb891
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
 
-
 # Personalizaciones de mapas{#map-customizations}
 
-Cambie el tamaño, el ancho y las opciones de interacción de la aplicación de mapa.
+Cambie el tamaño, la anchura y las opciones de interacción de la aplicación de mapa.
 
 
 
-Las siguientes opciones están disponibles en la aplicación de mapa:
+Las siguientes opciones están disponibles en la aplicación de mapas:
 
 * **[!UICONTROL Cluster number]**
 
-   Define el color de los números que aparecen encima de cada clúster de contenido en la aplicación.
+   Establece el color de los números enumerados encima de cada clúster de contenido en la aplicación.
 
 * **[!UICONTROL Show zoom controls]**
 
@@ -32,7 +28,7 @@ Las siguientes opciones están disponibles en la aplicación de mapa:
 
 * **[!UICONTROL Allow panning]**
 
-   Habilita la panorámica para el mapa, permitiendo a los usuarios arrastrar y cambiar la posición del mapa.
+   Habilita la planificación para el mapa, lo que permite a los usuarios arrastrar y volver a colocar el mapa.
 
 * **[!UICONTROL Enable content modal]**
 
@@ -40,23 +36,22 @@ Las siguientes opciones están disponibles en la aplicación de mapa:
 
 * **[!UICONTROL Enable clustering]**
 
-   Crea grupos de contenido en los que se puede hacer clic, escalados para aplicar zoom al usuario.
+   Crea grupos de contenido en los que se puede hacer clic, escalados al zoom del usuario.
 
 * **[!UICONTROL Embedded height / Embedded width]**
 
-   Le permite establecer el tamaño de píxel en el que se insertará el mapa en el sitio. (Opcional.)
+   Permite configurar el tamaño de píxeles en el que se incrustará el mapa en el sitio. (Opcional.)
 
    >[!NOTE]
    >
-   >Si los desarrolladores web han definido un **[!UICONTROL height]** para el mapa en la página, estos valores se anularán y el mapa seguirá las convenciones de tamaño de diseño adaptables. Si no han definido una altura, se utilizarán estos valores y el mapa se colocará en un tamaño definido (diseño no adaptable). Si estos campos se dejan en blanco, el valor predeterminado será de 600 px de ancho por 400 px de alto y el mapa no responderá.
+   >Si los desarrolladores web han definido un **[!UICONTROL height]** para el mapa en la página, estos valores se anularán y el mapa seguirá las convenciones de tamaño de diseño interactivo. Si no han definido una altura, se utilizarán estos valores y el mapa se colocará a un tamaño definido (diseño no interactivo). Si estos campos se dejan en blanco, el valor predeterminado será de 600 píxeles de ancho por 400 píxeles de alto y el mapa no responderá.
 
 * **[!UICONTROL Location]**
 
-   Introduzca la ubicación en la que desea centrar el mapa. Utilice el control deslizante situado debajo del mapa de previsualización para definir el zoom.
+   Introduzca la ubicación en la que desea centrar el mapa. Utilice el control deslizante situado debajo del mapa de vista previa para definir el zoom.
 
 Puede personalizar la aplicación de mapa mediante:
 
-* **[!UICONTROL Style]** y  **[!UICONTROL Config]** opciones para todas las aplicaciones de la  **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones en **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** y  **[!UICONTROL Config]** para todas las aplicaciones de  **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de **[!UICONTROL App Designer]**.
 
-* Herramientas de integración. Consulte Asignación para obtener más información sobre cómo personalizar aplicaciones mediante las herramientas de integración.
-
+* Herramientas de integración. Consulte Mapa para obtener más información sobre cómo personalizar aplicaciones mediante las herramientas de integración.
