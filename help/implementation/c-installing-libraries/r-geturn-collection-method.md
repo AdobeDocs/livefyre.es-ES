@@ -1,22 +1,18 @@
 ---
-description: Este método devuelve el URN de esta colección. Debe ejecutar createOrUpdate() antes de ejecutar este método.
-seo-description: Este método devuelve el URN de esta colección. Debe ejecutar createOrUpdate() antes de ejecutar este método.
-seo-title: getUrn (método de recopilación)
-solution: Experience Manager
+description: Este método devuelve la URL de esta colección. Debe ejecutar createOrUpdate() antes de ejecutar este método.
 title: getUrn (método de recopilación)
-uuid: 2f4d7796-2ae5-4b74-a958-40825c6bff16
+exl-id: bea04805-8f02-4c06-9a1a-6b057de831ab
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
 
-
 # getUrn Collection Method{#geturn-collection-method}
 
-Este método devuelve el URN de esta colección. Debe ejecutar createOrUpdate() antes de ejecutar este método.
+Este método devuelve la URL de esta colección. Debe ejecutar createOrUpdate() antes de ejecutar este método.
 
 ## Ejemplo de Java {#section_nyl_ycs_rz}
 
@@ -24,7 +20,7 @@ Este método devuelve el URN de esta colección. Debe ejecutar createOrUpdate() 
 collection.getUrn(); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 "urn:livefyre:network=`example.fyre.co`:site=1:collection=1" 
@@ -36,7 +32,7 @@ Salida de muestra:
 collection.getUrn(); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 <span class="str">"urn:livefyre:network=`example.fyre.co`:site=1:collection=1"</span>
@@ -48,7 +44,7 @@ Salida de muestra:
 $collection->getUrn(); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 "urn:livefyre:network=`example.fyre.co`:site=1:collection=1" 
@@ -60,7 +56,7 @@ Salida de muestra:
 collection.urn() 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 "urn:livefyre:network=`example.fyre.co`:site=1:collection=1" 
@@ -72,9 +68,8 @@ Salida de muestra:
 collection.urn
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 "urn:livefyre:network=`example.fyre.co`:site=1:collection=1" 
 ```
-
