@@ -1,28 +1,24 @@
 ---
-description: Devuelve un objeto Collection creado como un tipo de blog. Ejecute create_or_update() desde el objeto Collection para completar el proceso de compilación.
-seo-description: Devuelve un objeto Collection creado como un tipo de blog. Ejecute create_or_update() desde el objeto Collection para completar el proceso de compilación.
-seo-title: buildBlogCollection (método del sitio)
-solution: Experience Manager
-title: buildBlogCollection (método del sitio)
-uuid: 6a5ec6b9-bc32-467a-abe6-a57c6defe067
+description: Devuelve un objeto Collection creado como instancia de tipo Blog. Ejecute create_or_update() desde el objeto Collection para completar el proceso de compilación.
+title: Método del sitio buildBlogCollection
+exl-id: 93565eff-dc4e-4868-9d75-50f16ddb4fa4
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 6%
+source-wordcount: '94'
+ht-degree: 8%
 
 ---
 
+# Método del sitio buildBlogCollection{#buildblogcollection-site-method}
 
-# buildBlogCollection (método del sitio){#buildblogcollection-site-method}
-
-Devuelve un objeto Collection creado como un tipo de blog. Ejecute create_or_update() desde el objeto Collection para completar el proceso de compilación.
+Devuelve un objeto Collection creado como instancia de tipo Blog. Ejecute create_or_update() desde el objeto Collection para completar el proceso de compilación.
 
 | Variable | Tipo | Descripción |
 |--- |--- |--- |
 | title | Cadena | Título de la colección. |
-| articleId | Cadena | ID única del artículo que eligió para identificar una colección dentro del sitio. |
-| url | Cadena | Dirección URL absoluta canónica de esta colección. |
+| articleId | Cadena | ID de artículo único que eligió para identificar una colección dentro del sitio. |
+| url | Cadena | La URL absoluta canónica de esta colección. |
 
 ## Ejemplo de Java {#section_nyl_ycs_rz}
 
@@ -53,4 +49,3 @@ collection = site.build_blog_collection(title, articleId, url)
 ```
 collection = site.build_blog_collection(title, articleId, url) 
 ```
-
