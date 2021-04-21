@@ -1,27 +1,23 @@
 ---
-description: Conozca las reglas y requisitos de Instagram que son diferentes a otras cuentas sociales.
-seo-description: Conozca las reglas y requisitos de Instagram que son diferentes a otras cuentas sociales.
-seo-title: Acerca de las cuentas de Instagram
-solution: Experience Manager
+description: Conozca las reglas y los requisitos de Instagram que son diferentes a otras cuentas sociales.
 title: Acerca de las cuentas de Instagram
-uuid: 1fa2b4ca-264c-42c8-8dcb-57f7543ed2f7
+exl-id: 6b337c5f-c0b2-4f27-947f-a3e72b65d8de
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
-
 # Acerca de las cuentas de Instagram{#about-instagram-accounts}
 
-Conozca las reglas y requisitos de Instagram que son diferentes a otras cuentas sociales.
+Conozca las reglas y los requisitos de Instagram que son diferentes a otras cuentas sociales.
 
-Debe configurar una *cuenta comercial de Instagram* para:
+Debe configurar una *cuenta empresarial de Instagram* para:
 
-* Realice una búsqueda social en Instagram por usuario (el usuario debe ser una cuenta comercial de Instagram).
-* Cree flujos de Instagram desde una cuenta de usuario de Instagram específica (la cuenta debe ser una cuenta de negocios).
-* Solicitar derechos para recursos desde Instagram mediante un flujo de trabajo parcialmente automatizado
+* Realice una búsqueda social de Instagram por usuario (el usuario debe ser una cuenta comercial de Instagram).
+* Cree emisiones de Instagram a partir de una cuenta de usuario específica de Instagram (la cuenta debe ser una cuenta comercial).
+* Solicitar derechos para recursos de Instagram mediante un flujo de trabajo parcialmente automatizado
 
-Para obtener información sobre cómo crear una cuenta comercial de Instagram o convertir una cuenta personal de Instagram en una cuenta comercial, consulte [Cómo configuro un perfil empresarial en Instagram?](https://www.facebook.com/help/502981923235522)
+Para obtener información sobre cómo crear una cuenta comercial de Instagram o convertir una cuenta personal de Instagram en una cuenta comercial, consulte [¿Cómo configuro un perfil comercial en Instagram?](https://www.facebook.com/help/502981923235522)
