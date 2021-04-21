@@ -1,44 +1,40 @@
 ---
-description: Al depurar contenido de Instagram, debe seguir sus directrices y prácticas recomendadas.
-seo-description: Al depurar contenido de Instagram, debe seguir sus directrices y prácticas recomendadas.
-seo-title: Directrices de contenido de Instagram
-solution: Experience Manager
-title: Directrices de contenido de Instagram
-uuid: 4c5ba96b-a242-407f-aa36-3a4e431832b8
+description: Al depurar contenido desde Instagram, debe seguir sus directrices y prácticas recomendadas.
+title: Directrices de contenido de instagram
+exl-id: 74ef8556-8f65-4406-871c-5b9f1887ec9c
 translation-type: tm+mt
-source-git-commit: 6978f0f36b5698c9c599c1828edea67703423397
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
+# Directrices de contenido de instagram{#instagram-content-guidelines}
 
-# Directrices de contenido de Instagram{#instagram-content-guidelines}
+Al depurar contenido desde Instagram, debe seguir sus directrices y prácticas recomendadas.
 
-Al depurar contenido de Instagram, debe seguir sus directrices y prácticas recomendadas.
-
-Debe configurar una *cuenta comercial de Instagram* para crear flujos de Instagram desde otra cuenta comercial de Instagram específica mediante el campo **[!UICONTROL By Author]**. La cuenta de usuario que identifique en el campo **[!UICONTROL By Author]** debe ser una cuenta comercial.
+Debe configurar una *cuenta comercial de Instagram* para crear flujos de Instagram a partir de otra cuenta comercial específica de Instagram mediante el campo **[!UICONTROL By Author]**. La cuenta de usuario que identifique en el campo **[!UICONTROL By Author]** debe ser una cuenta comercial.
 
 Para obtener más información sobre cómo configurar una cuenta comercial de Instagram en Livefyre, consulte [Acerca de las cuentas de Instagram](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
 Instagram aplica las siguientes reglas para obtener contenido de su plataforma:
 
-* El contenido pertenece al usuario, que debe autorizar el uso del contenido
-* Busque hasta 30 etiquetas únicas por cuenta de negocios de Instagram cada 7 días.
+* El contenido pertenece al usuario, que debe dar permiso para que se utilice su contenido
+* Busque hasta 30 hashtags únicos por cuenta comercial de Instagram cada 7 días.
 
-Livefyre recomienda seguir las siguientes pautas para maximizar la funcionalidad y la eficacia de la búsqueda:
+Livefyre recomienda seguir las siguientes directrices para maximizar la funcionalidad y eficacia de la búsqueda:
 
-* Promocione y seleccione hashtags exclusivos de su marca, de modo que los usuarios se unan &quot;explícitamente&quot; a la campaña.
+* Promocione y seleccione hashtags que sean exclusivos de su marca, de modo que los usuarios se unan &quot;explícitamente&quot; a la campaña.
 * Utilice una (1) etiqueta en lugar de varias para una campaña o promoción determinada, lo que le permite rastrear mediante un único filtro específico.
-* Utilice palabras específicas en lugar de genéricas en la búsqueda de hashtags. El uso de palabras genéricas puede generar resultados inesperados y puede incluir usuarios que no pretendan que su foto se utilice en relación con su campaña.
-* Conecte varias cuentas comerciales para poder buscar etiquetas más únicas.
+* Utilice palabras específicas en lugar de palabras genéricas en la búsqueda de hashtags. El uso de palabras genéricas puede arrojar resultados inesperados y puede incluir usuarios que no tenían la intención de usar su foto en relación con la campaña.
+* Conecte varias cuentas comerciales para poder buscar más etiquetas únicas.
 * Evite utilizar cuentas comerciales en más de una red.
-* Asigne prioridad a los flujos activos y elimine los no utilizados para reducir el número de hashtags que utilice.
+* Priorice las emisiones activas y elimine las que no se utilicen para reducir el número de hashtags que utilice.
 
-Instagram, al igual que otras marcas, también tiene requisitos para utilizar sus activos de marca. Por ejemplo, las fotografías deben:
+Instagram, al igual que otras marcas, también tiene requisitos para utilizar sus recursos de marca. Por ejemplo, las fotos deben:
 
-* Proporcione una atribución a Instagram y al propietario del contenido.
-* Estar claramente diferenciados de otros contenidos de medios sociales si se muestran junto con los medios de otras redes.
+* Proporcione atribución a Instagram y al propietario del contenido.
+* Se debe diferenciar claramente del contenido de otros medios sociales si se muestra junto con los medios de otras redes.
 
-Para obtener más información, consulte el documento de Instagram: [Uso de Recursos de marca de Instagram](https://help.instagram.com/304689166306603).
+Para obtener más información, consulte el documento de Instagram: [Uso de Instagram Brand Assets](https://help.instagram.com/304689166306603).
