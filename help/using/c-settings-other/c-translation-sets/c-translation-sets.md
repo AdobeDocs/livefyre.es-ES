@@ -1,54 +1,50 @@
 ---
-description: Los conjuntos de traducción permiten especificar un idioma alternativo para las aplicaciones.
-seo-description: Los conjuntos de traducción permiten especificar un idioma alternativo para las aplicaciones.
-seo-title: Conjuntos de traducción
-solution: Experience Manager
+description: Los conjuntos de traducciones permiten especificar un idioma alternativo para las aplicaciones.
 title: Conjuntos de traducción
-uuid: 88b705e5-57c8-4065-8a41-a73546bd929a
+exl-id: 1de99602-b97e-42e9-8450-39abd4ba2f9b
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1335'
 ht-degree: 7%
 
 ---
 
+# Conjuntos de traducciones{#translation-sets}
 
-# Conjuntos de traducción{#translation-sets}
+Los conjuntos de traducciones permiten especificar un idioma alternativo para las aplicaciones.
 
-Los conjuntos de traducción permiten especificar un idioma alternativo para las aplicaciones.
+Utilice la configuración de traducción para localizar aplicaciones en varios idiomas o para especificar texto alternativo para varias aplicaciones desde una ubicación en Studio. Por ejemplo, puede asegurarse de que todos los sitios en español utilicen español para todos los campos de la aplicación. También puede modificar el texto para que todos los campos coincidan con la voz y la presentación de su sitio o red.
 
-Utilice la configuración de traducción para localizar aplicaciones en varios idiomas o para especificar texto alternativo para varias aplicaciones desde una ubicación en Studio. Por ejemplo, puede asegurarse de que todos los sitios en español utilicen el idioma español para todos los campos de la aplicación. También puede modificar el texto para que todos los campos coincidan con la voz y la presentación de su sitio o red.
+Puede especificar la configuración de traducción para todas las aplicaciones, excepto Storify 2. Para obtener más información sobre los campos que puede localizar, consulte [Localize Strings](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md#c-localize-strings).
 
-Puede especificar la configuración de traducción para todas las aplicaciones, excepto Storify 2. Para obtener más información sobre los campos que puede localizar, consulte [Localizar cadenas](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md#c-localize-strings).
-
-Comentarios, Live Blog y Chat comparten el mismo conjunto de cadenas dentro de un conjunto de traducciones.
+Comentarios, blogs en directo y chat comparten el mismo conjunto de cadenas dentro de un conjunto de traducciones.
 
 Especifique un conjunto de traducción para una red, sitio, aplicación o mediante una API.
 
 Los conjuntos de traducción en diferentes niveles se anulan entre sí siguiendo este patrón:
 
-El conjunto de traducción de API anula todos los conjuntos de traducción en cualquier nivel (aplicación, red y sitio)
-El conjunto de traducción de aplicaciones anula los conjuntos de traducción a nivel de red y de sitio.
+El conjunto de traducción de API anula todos los conjuntos de traducción a cualquier nivel (aplicación, red y sitio)
+El conjunto de traducción de aplicaciones anula los conjuntos de traducción a nivel de red y a nivel de sitio.
 Los conjuntos de traducción a nivel de sitio anulan los conjuntos de traducción a nivel de red.
 
 ## Revisar cadenas de texto {#c_review_text_strings}
 
-Personalización de las cadenas de texto para Livefyre Reviews.
+Personalización de las cadenas de texto para revisiones de Livefyre.
 
-Esta página lista y describe las cadenas disponibles para la personalización en las aplicaciones de revisión. Las cadenas que se muestran aquí se suman a las cadenas predeterminadas de las aplicaciones principales de Livefyre y se anulan, enumeradas en Personalizaciones de cadenas. Donde se muestran los duplicados, las cadenas que aparecen en estas tablas son las predeterminadas para las aplicaciones de críticas.
+Esta página enumera y describe las cadenas disponibles para la personalización en las aplicaciones de revisión. Las cadenas enumeradas aquí se suman a y anulan para las cadenas predeterminadas de las aplicaciones principales de Livefyre, que se enumeran en Personalizaciones de cadenas. Cuando se muestran duplicados, las cadenas enumeradas en estas tablas son las predeterminadas para las aplicaciones de Reseñas.
 
 Implementación
-Interfaz de revisión y clasificación
+Interfaz de revisión/clasificación
 Información de flujo
 Información de autor/contenido
 Acciones del usuario
-Funciones de anuncio
+Funciones de publicación
 Errores
 
 ## Implementación {#section-vsy-1k4-xz}
 
-Para implementar esta función, pase una asignación de objetos 1-1 de las cadenas que desee reemplazar al objeto de configuración de Javascript. Si no se proporciona un campo, se utilizará el texto predeterminado.
+Para implementar esta función, pase una asignación de objeto 1-1 de las cadenas que desee reemplazar al objeto de configuración de Javascript. Si no proporciona un campo, se utilizará el texto predeterminado.
 
 Ejemplo:
 
@@ -63,32 +59,32 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## Interfaz de clasificación/revisión {#section_iyv_zj4_xz}
+## Revisar / Interfaz de Clasificación {#section_iyv_zj4_xz}
 
-Cadenas disponibles para la interfaz de usuario Revisar y clasificar.
+Cadenas disponibles para la interfaz de usuario de Revisión y Clasificación.
 
 | Elemento | Clave | Texto predeterminado |
 |--- |--- |--- |
 | Botones | editReviewBtn | Editar revisión |
 |  | reviewBtn | Escribir revisión |
-|  | reseñasCerradas | Reseñas cerradas |
+|  | reviewClosed | Reseñas cerradas |
 |  | showReviewBtn | Mostrar revisión |
-|  | seguir | Me interesa |
+|  | seguir | Estoy interesado |
 |  | shareText | Acabo de escribir una reseña. ¡Echa un vistazo! |
-| Sugerencias de herramientas de clasificación | ratingValues | Una matriz. Predeterminado = `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`; <br>Nota: Los valores de la matriz deben duplicarse para asignar el mismo nombre a la mitad izquierda y a la derecha de cada estrella. |
+| Sugerencias de herramientas de clasificación | ratingValues | Una matriz. Default = `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`; <br>Nota: Los valores de la matriz deben duplicarse para asignar el mismo nombre tanto a la izquierda como a la derecha de cada estrella. |
 | Subpartes de clasificación | ratingSubpartPlaceholder | Una matriz. Valor predeterminado = [] |
 |  | ratingSubpartTitles | Una matriz. Valor predeterminado = [] |
-|  | reviewStreamTitle | En blanco de forma predeterminada. Título de la sección de resumen del examen. |
-| Misc | averageRating | Clasificación promedio de usuarios |
+|  | reviewStreamTitle | En blanco de forma predeterminada. Título de la sección resumen del examen. |
+| Misc | averageRating | Puntuación media del usuario |
 |  | breakHeader | Desglose de clasificación |
-|  | útil | %s de %s encontró útil |
-|  | helpPlural | %s de %s encontró útil |
+|  | útil | %s de %s encontrado útil |
+|  | helpPlural | %s de %s encontrado útil |
 |  | outOf | / |
 |  | ratingType | star |
 
-## Información de flujo {#section_wmv_yj4_xz}
+## Información de emisión {#section_wmv_yj4_xz}
 
-Cadenas disponibles para la información y visualización del flujo de contenido.
+Cadenas disponibles para la visualización e información del flujo de contenido.
 
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
@@ -96,49 +92,49 @@ Cadenas disponibles para la información y visualización del flujo de contenido
 |  | sortHighestRated | [Clasificación más alta](https://d.pr/i/huTd) |
 |  | sortLowestRated | [Clasificación más baja](https://d.pr/i/huTd) |
 |  | sortMostHelpful | [Más útil](https://d.pr/i/huTd) |
-| Misc de flujo. | showMore | Mostrar más |
-| Velocidad de flujo alta | newComment | Nueva revisión |
+| Flujo misc. | showMore | Mostrar más |
+| Flujo a gran velocidad | newComment | Nueva revisión |
 |  | newComments | Nuevas revisiones |
-| Recuentos de escucha | listenerCount | persona que escucha |
+| Recuentos de oyentes | listenerCount | escucha de persona |
 |  | listenerCountPlural | personas escuchando |
 | Recuentos de comentarios | commentCountLabel | LiveReviews<strong> | </strong>%s |
 |  | commentCountLabelPlural | LiveReviews<strong> | </strong>%s |
-| Recuentos de notificaciones de comentarios | commentNotifier | Nueva revisión |
+| Recuentos del notificador de comentarios | commentNotifier | Nueva revisión |
 |  | commentNotifierPlural | Nuevas revisiones |
 
 ## Información de autor/contenido {#section_osx_xj4_xz}
 
-Las cadenas están disponibles para la información de contenido individual y de autor.
+Cadenas disponibles para la información de contenido individual y de autor.
 
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
-| Grupo de trabajo de subprocesos | reviewContentNotFoundMsg | [Esta revisión ya no está visible](https://d.pr/i/svXs) |
+| Desglose de subprocesos | reviewContentNotFoundMsg | [Esta revisión ya no es visible](https://d.pr/i/svXs) |
 |  | backToComments | Volver a las revisiones |
 
 ## Acciones del usuario {#section_tlx_wj4_xz}
 
-Cadenas disponibles para acciones de usuario: marcar, compartir y marcar el contenido existente como útil.
+Cadenas disponibles para acciones del usuario: marcar, compartir y marcar el contenido existente como útil.
 
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
 | Pie de comentario | wasReviewHelpful | [¿Útil?](https://d.pr/i/Q0mA) |
 |  | wasReviewHelpfulMobile | ¿Útil? |
-|  | ownWasReviewHelpful | [Encontrado útil.](https://d.pr/i/Q0mA) |
-|  | reviewWasHelpful | [Sí](https://d.pr/i/Q0mA) |
+|  | ownDidReviewHelpful | [Encontré útil.](https://d.pr/i/Q0mA) |
+|  | reviewDidHelpful | [Sí](https://d.pr/i/Q0mA) |
 |  | helpDivider | [&amp;vert;](https://d.pr/i/Q0mA) |
-|  | reviewWasNotHelpful | [No ](https://d.pr/i/Q0mA) |
+|  | reviewDidNotHelpful | [No ](https://d.pr/i/Q0mA) |
 | Modo de voto | voteTitle | ¿Fue útil esta revisión? |
 |  | voteDownvote | No |
 |  | voteReplyTitle | ¿Fue útil esta respuesta? |
-|  | voteTitle | ¿Este comentario fue útil? |
+|  | voteTitle | ¿Fue útil este comentario? |
 |  | voteUpvote | Sí |
-| Indicador modal | flagTitle | Marcar la revisión de %s |
-|  | flagSuccessMsg | Se ha marcado la revisión. |
-| Marcar móvil | flagConfirmationMessage | ¿Marcar la revisión de %s como %s? |
-| Mención modal | sayDefaultText | ¡Te mencioné en una reseña de Livefyre! |
+| Modo de marca | flagTitle | Marcar la revisión de %s |
+|  | flagSuccessMsg | La revisión se ha marcado. |
+| Marcar como móvil | flagConfirmationMessage | ¿Marcar la revisión de %s como %s? |
+| Modo de mención | mentionDefaultText | ¡Te mencioné en una reseña de Livefyre! |
 | Compartir modal | shareTitle | Compartir revisión |
 
-## Funciones de anuncio {#section_yl1_wj4_xz}
+## Funciones de publicación {#section_yl1_wj4_xz}
 
 Cadenas disponibles para los usuarios que publican revisiones.
 
@@ -147,7 +143,7 @@ Cadenas disponibles para los usuarios que publican revisiones.
 | Editor | bodyPlaceholder | Escribir revisión... |
 |  | postEditButton | Editar  |
 |  | postEditCancelButton | Cancelar |
-|  | postAsButton | Anunciar revisión como... |
+|  | postAsButton | Revisión posterior como... |
 |  | postButton | Revisión posterior |
 |  | postReplyAsButton | Publicar como... |
 |  | postReplyButton | Anuncio |
@@ -161,45 +157,45 @@ Cadenas disponibles para mensajes de error generales.
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
 | Errores | errorAlreadyPosted | Solo puede publicar una revisión. |
-|  | errorAuthError | No está autorizado para publicar una revisión de esta conversación |
+|  | errorAuthError | No está autorizado a publicar una revisión en esta conversación |
 |  | errorCommentsNotAllowed | Las revisiones no se pueden publicar en este momento |
 |  | errorDislikeOwnComment | No puede desagradar su propia revisión |
-|  | errorDuplicate | Por mucho que le guste la revisión, no se le permite publicarla dos veces. |
+|  | errorDuplicate | Por más que le guste su reseña, no se le permite publicarla dos veces. |
 |  | errorEditDuplicate | Debe cambiar el cuerpo de la revisión cuando la edite. |
-|  | errorEditNotAllowed | No tiene permiso para editar reseñas de esta conversación. |
-|  | errorEditTimeExceeded | El período de edición de la revisión ha caducado. |
+|  | errorEditNotAllowed | No se le permite editar revisiones en esta conversación. |
+|  | errorEditTimeExceeded | Lo sentimos, el período de edición de la revisión ha expirado. |
 |  | errorEmpty | Parece que está intentando publicar una revisión vacía. |
 |  | errorEmptyTitle | Parece que está intentando publicar un título vacío |
 |  | errorFieldRating | clasificación por estrellas |
-|  | errorFieldReview | revisión |
+|  | errorFieldReview | review |
 |  | errorFieldTitle | title |
-|  | errorMaxChars | Lo sentimos, tu revisión es demasiado larga. Edite e inténtelo de nuevo. |
+|  | errorMaxChars | Lo siento, tu revisión es demasiado larga. Edite e inténtelo de nuevo. |
 |  | errorMissingFields | Escriba un |
 |  | errorRatingEmpty | No se puede enviar una clasificación vacía |
-|  | errorRatingNotSet | Todas las clasificaciones deben configurarse |
-|  | errorRatingNotvalid | La clasificación debe ser un objeto |
-|  | errorShowMore | Se produjo un error al cargar más revisiones. |
+|  | errorRatingNotSet | Todas las clasificaciones deben estar configuradas |
+|  | errorRatingNotValid | La clasificación debe ser un objeto |
+|  | errorShowMore | Error al cargar más revisiones. |
 |  | errorTitleMaxChars | Lo siento, tu título es demasiado largo. Edite e inténtelo de nuevo. |
 |  | errorVoteOwnComment | No puede votar por su propia revisión |
 
-## Identifica cadenas de texto {#c_sidenotes_text_strings}
+## Muestra las cadenas de texto {#c_sidenotes_text_strings}
 
-Personalización de las cadenas de texto para Livefyre Sidenotes
+Personalización de las cadenas de texto para notas de Livefyre
 
-Esta página lista y describe todas las cadenas disponibles para la personalización en las aplicaciones de Sidenotes. Para obtener información sobre las cadenas disponibles para las aplicaciones principales de Livefyre, consulte Personalizaciones de cadenas.
+Esta página enumera y describe todas las cadenas disponibles para la personalización en las aplicaciones de Notas . Para obtener información sobre las cadenas disponibles para las aplicaciones principales de Livefyre, consulte Personalizaciones de cadenas.
 
 Implementación
 Auth
 Información de flujo
 Información de autor/contenido
 Acciones del usuario
-Funciones de anuncio
+Funciones de publicación
 Interfaz del moderador
 Errores
 
 ## Implementación {#section_wp2_ql4_xz}
 
-Para implementar esta función, pase una asignación de objetos 1-1 de las cadenas que desee reemplazar al objeto de configuración de Javascript. Si no se proporciona un campo, se utilizará el texto predeterminado.
+Para implementar esta función, pase una asignación de objeto 1-1 de las cadenas que desee reemplazar al objeto de configuración de Javascript. Si no proporciona un campo, se utilizará el texto predeterminado.
 
 Ejemplo:
 
@@ -228,9 +224,9 @@ Cadenas disponibles para el proceso de autenticación y en los menús de usuario
 |  | menuUserLogout | Cerrar sesión |
 |  | menuUserBackBtn | Todas |
 
-## Información de flujo {#section_wpy_gl4_xz}
+## Información de emisión {#section_wpy_gl4_xz}
 
-Cadenas disponibles para la información y visualización del flujo de contenido.
+Cadenas disponibles para la visualización e información del flujo de contenido.
 
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
@@ -240,26 +236,26 @@ Cadenas disponibles para la información y visualización del flujo de contenido
 
 ## Información de autor/contenido {#section_dhb_gl4_xz}
 
-Las cadenas están disponibles para la información de contenido individual y de autor.
+Cadenas disponibles para la información de contenido individual y de autor.
 
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
 |  | commentModeratorTag | Mod |
-|  | commentpendingTag | Pendiente |
+|  | commentPendingTag | Pendiente |
 |  | commentReadMoreLink | Más información... |
 |  | commentReplyLink | Ver {número} respuestas |
-|  | commentReplyLinkSing | Consulte la respuesta |
-|  | commentVoteCount | votes |
+|  | commentReplyLinkSing | Consulte respuesta |
+|  | commentVoteCount | vote |
 |  | commentVoteCountSing | voto |
 |  | datetimeMinutePrefix | m |
-|  | datetimeMonths | Una matriz. Predeterminado =[ ‘enero’, ‘febrero’, ‘marzo’, ‘abril’, ‘mayo’, ‘junio’, ‘julio’, ‘agosto’, ‘septiembre’, ‘octubre’, ‘noviembre’, ‘diciembre’ ] |
-|  | questionExplanation | Ahora puede leer y escribir comentarios directamente sobre oraciones, párrafos, imágenes y comillas.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Resalte </span> el texto y haga clic en el  <span class="&rdquo;fycon-write&rdquo;"></span> icono o en el  <span class="&rdquo;fycon-action-view&rdquo;"></span> icono al final de cada párrafo. |
-|  | questionMockText | Lo que es &quot;conocido familiar&quot; no se conoce correctamente, sólo por la razón de que es &quot;familiar&quot;. |
+|  | datetimeMonths | Una matriz. Predeterminado =[ &quot;Enero&quot;, &quot;Febrero&quot;, &quot;Marzo&quot;, &quot;Abril&quot;, &quot;Mayo&quot;, &quot;Junio&quot;, &quot;Julio&quot;, &quot;Agosto&quot;, &quot;Septiembre&quot;, &quot;Octubre&quot;, &quot;Noviembre&quot;, &quot;Diciembre&quot; ] |
+|  | questionExplanation | Ahora puede leer y escribir comentarios directamente sobre oraciones, párrafos, imágenes y comillas.<br><br><span class="&rdquo;lf-highlight-text&rdquo;">Resalte el </span> texto y haga clic en el  <span class="&rdquo;fycon-write&rdquo;"></span> icono o haga clic en el  <span class="&rdquo;fycon-action-view&rdquo;"></span> icono situado al final de cada párrafo. |
+|  | questionMockText | Lo que es &quot;conocido&quot; no se conoce adecuadamente, simplemente por ser &quot;familiar&quot;. |
 |  | questionTitle | ¿Qué es un Sidenote? |
 
 ## Acciones del usuario {#section_qxd_fl4_xz}
 
-Cadenas disponibles para acciones de usuario: marcar, compartir y indicar que gusta el contenido existente.
+Cadenas disponibles para acciones del usuario: marcar, compartir y indicar que gusta el contenido existente.
 
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
@@ -268,19 +264,19 @@ Cadenas disponibles para acciones de usuario: marcar, compartir y indicar que gu
 | Opciones de menú Compartir | menuShareOptionFacebook | Facebook |
 |  | menuShareOptionTwitter | Twitter |
 |  | menuShareTitle | Compartir |
-| Opciones del menú Indicador | menuFlagOptionDisact | Rechazar |
+| Opciones del menú Indicador | menuFlagOptionDisaccept | Desacuerdo |
 |  | menuFlagOptionOffensive | Ofensivo |
 |  | menuFlagOptionOffTopic | Desactivar tema |
 |  | menuFlagOptionSpam | Correo no deseado |
 |  | menuFlagTitle | Marcar como... |
-|  | facebookShareCaption | Identifica las notas en &quot;{title}&quot; |
-| Opciones de usuario móvil | sliderCommentTally | of |
+|  | facebookShareCaption | Notas sobre &quot;{title}&quot; |
+| Opciones de usuario móviles | sliderCommentTally | of |
 |  | sliderInviteRead | Leído |
 |  | sliderInviteWrite | Escritura |
 |  | sliderLoading | Cargando… |
 |  | sliderWriteText | ¿Qué piensas? Toque para escribir. |
 
-## Funciones de anuncio {#section_xzf_2l4_xz}
+## Funciones de publicación {#section_xzf_2l4_xz}
 
 Cadenas disponibles para los usuarios que publican contenido.
 
@@ -289,17 +285,17 @@ Cadenas disponibles para los usuarios que publican contenido.
 |  | editorEditBtn | Guardar |
 |  | editorEditPosting | Guardando... |
 |  | editorEditReplyTitle | Editar respuesta |
-|  | editorEditTitle | Editar Sidenote |
-|  | editorMarcadorDePosición | ¿Qué piensas? |
+|  | editorEditTitle | Editar nota |
+|  | editorMarcador de posición | ¿Qué piensas? |
 |  | editorPostBtn | Publicar Sidenote |
 |  | editorPostBtnMobile | Anuncio |
 |  | editorPosting | Colocar un anuncio… |
-|  | editorResponderBtn | Anunciar respuesta |
+|  | editorReplyBtn | Anunciar respuesta |
 |  | editorReplyTitle | Escribir respuesta |
-|  | editorTítulo | Escribir Sidenote |
-|  | emptyImageBlockTxt | ¿Qué piensas? |
-|  | emptyTextBlockTxt | + |
-|  | responseBtn | Responder |
+|  | editorTitle | Escribir Sidenote |
+|  | emptyImageBlockText | ¿Qué piensas? |
+|  | emptyTextBlockText | + |
+|  | replyBtn | Responder |
 |  | threadReplyBtn | Responder a conversación |
 | Opciones del menú Eliminar | menuConfirmAccept | Sí, {action} |
 |  | menuConfirmCancel | Cancelar |
@@ -309,12 +305,12 @@ Cadenas disponibles para los usuarios que publican contenido.
 |  | menuEtcOptionEdit | Editar  |
 |  | menuEtcOptionFlag | Marcar |
 |  | menuEtcOptionShare | Compartir |
-|  | menuEtcPostedAt | Publicado el {date} |
+|  | menuEtcPostedAt | Publicado el {fecha} |
 |  | menuEtcTitle | Más |
 
-## Interfaz del moderador {#section_o5f_dl4_xz}
+## Interfaz de moderador {#section_o5f_dl4_xz}
 
-Cadenas disponibles para la interfaz del moderador autenticado por el usuario.
+Cadenas disponibles para la interfaz de moderador autenticada por el usuario.
 
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
@@ -328,8 +324,7 @@ Cadenas disponibles para mensajes de error generales.
 
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
-|  | errorConnection | Oh-oh. No parece que tenga una buena conexión. |
+|  | errorConnection | Oh-oh. Parece que no tiene una buena conexión. |
 |  | errorDuplicate | También nos gusta tu nota, pero no puedes publicarla dos veces. |
 |  | errorGeneral | Se ha producido un error. Inténtelo de nuevo. |
 |  | errorServer | Algo salió mal con nuestro servidor. ¿Intenta eso otra vez? |
-
