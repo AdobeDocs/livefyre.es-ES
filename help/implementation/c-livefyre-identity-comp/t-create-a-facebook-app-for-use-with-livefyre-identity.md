@@ -1,33 +1,29 @@
 ---
-description: Puede utilizar la Identidad de Livefyre con Facebook para permitir que los usuarios utilicen sus inicios de sesión de Facebook para interactuar con las aplicaciones de su sitio.
-seo-description: Puede utilizar la Identidad de Livefyre con Facebook para permitir que los usuarios utilicen sus inicios de sesión de Facebook para interactuar con las aplicaciones de su sitio.
-seo-title: Crear una aplicación de Facebook para usar con la identidad de Livefyre
-solution: Experience Manager
-title: Crear una aplicación de Facebook para usar con la identidad de Livefyre
-uuid: a7f7be4e-8986-4e79-831a-0bb0ae555599
+description: Puede utilizar la identidad de Livefyre con Facebook para permitir que los usuarios utilicen sus inicios de sesión de Facebook para interactuar con las aplicaciones del sitio.
+title: Crear una aplicación de Facebook para usarla con la identidad de Livefyre
+exl-id: ec320865-6ea3-4f6f-a5f6-31f3d5cbdc93
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 0%
+source-wordcount: '190'
+ht-degree: 1%
 
 ---
 
+# Crear una aplicación de Facebook para usarla con la identidad de Livefyre{#create-a-facebook-app-for-use-with-livefyre-identity}
 
-# Crear una aplicación de Facebook para usar con la identidad de Livefyre{#create-a-facebook-app-for-use-with-livefyre-identity}
-
-Puede utilizar la Identidad de Livefyre con Facebook para permitir que los usuarios utilicen sus inicios de sesión de Facebook para interactuar con las aplicaciones de su sitio.
+Puede utilizar la identidad de Livefyre con Facebook para permitir que los usuarios utilicen sus inicios de sesión de Facebook para interactuar con las aplicaciones del sitio.
 
 Para permitir que los usuarios inicien sesión con sus credenciales de Facebook, Livefyre requiere la siguiente información de la aplicación de Facebook:
 
 * ID de la aplicación
 * Secreto de la aplicación
 
-Para crear una aplicación de Facebook para usar con la identidad de Livefyre:
+Para crear una aplicación de Facebook para usarla con la identidad de Livefyre:
 
 1. Vaya a [https://developers.facebook.com/apps](https://developers.facebook.com/apps).
 1. Inicie sesión en su cuenta de desarrollador de Facebook.
-1. Haga clic en **[!UICONTROL Add New App]** o seleccione una aplicación existente para utilizarla con la identidad de Livefyre.
+1. Haga clic en **[!UICONTROL Add New App]** o seleccione una aplicación existente para usarla con la identidad de Livefyre.
 1. Haga clic en **[!UICONTROL Settings]** y luego en **[!UICONTROL Basic]**. Introduzca una dirección **[!UICONTROL Contact Email]**, **[!UICONTROL Display Name]**, **[!UICONTROL Privacy Policy URL]** y **[!UICONTROL Terms of Service URL]**.
 1. Haga clic en el signo más ( **[!UICONTROL +]**) junto a **[!UICONTROL Products]**.
 1. Haga clic en **[!UICONTROL Set Up]** en **[!UICONTROL Facebook Login]**.
@@ -37,11 +33,11 @@ Para crear una aplicación de Facebook para usar con la identidad de Livefyre:
    * Establezca **[!UICONTROL Web OAuth Login]** en **[!UICONTROL Yes]**.
    * Establezca **[!UICONTROL Use Strict Mode for Redirect URIs]** en **[!UICONTROL Yes]**.
    * Establezca **[!UICONTROL Enforce HTTPS for Web OAuth Login]** en **[!UICONTROL Yes]**.
-   * En **[!UICONTROL Valid OAuth redirect URLs]**, agregue la dirección URL `https://identity.livefyre.com/{networkName}/api/v1.0/public/profile/social/complete/facebook_fyre` (donde `{networkName}` es el nombre de red proporcionado por Livefyre).
+   * En **[!UICONTROL Valid OAuth redirect URLs]**, añada la URL `https://identity.livefyre.com/{networkName}/api/v1.0/public/profile/social/complete/facebook_fyre` (donde `{networkName}` es su nombre de red proporcionado por Livefyre).
 
 1. En **[!UICONTROL App Review]**:
 
-   * Hacer pública la aplicación.
+   * Hacer que la aplicación sea pública.
    * Asegúrese de que **[!UICONTROL Approved Items]** para **[!UICONTROL Login Permissions]** incluye `email`, `public_profile` y `user_friends`.
 
-Una vez completada, la página de Panel del desarrollador de Facebook lista el ID de la aplicación y el secreto de la aplicación para utilizarlos en la configuración de integración de Studio.
+Cuando se complete, la página Tablero del desarrollador de Facebook enumerará su ID de aplicación y Secreto de aplicación para usarlos en la Configuración de integración de Studio.
