@@ -1,28 +1,24 @@
 ---
-description: Limite el tipo de medio que entra en el flujo de la aplicación.
-seo-description: Limite el tipo de medio que entra en el flujo de la aplicación.
-seo-title: Restringir medios
-solution: Experience Manager
-title: Restringir medios
-uuid: c470c985-d221-4f39-8bd4-4e44ec14db95
+description: Limite el tipo de contenido que entra en el flujo de la aplicación.
+title: Restringir contenido multimedia
+exl-id: ae09a058-41de-4b63-8654-cc82f5abad14
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
 
-
 # Restringir medios{#restrict-media}
 
-Limite el tipo de medio que entra en el flujo de la aplicación.
+Limite el tipo de contenido que entra en el flujo de la aplicación.
 
-De forma predeterminada, todos los archivos adjuntos de medios se pueden incrustar en las aplicaciones. Livefyre le permite cambiar esta opción para evitar que los usuarios publiquen tipos de datos adjuntos seleccionados en sus aplicaciones.
+De forma predeterminada, todos los archivos adjuntos de contenidos se pueden incrustar en aplicaciones. Livefyre le permite cambiar esta opción para evitar que los usuarios anuncien los tipos de datos adjuntos seleccionados en sus aplicaciones.
 
 >[!NOTE]
 >
->Livefyre se asocia con Embedere para la integración de medios. Para obtener más información, consulte Integración de contenido > Integración indirecta. Póngase en contacto con el administrador técnico de cuentas para obtener información sobre la expansión o las fuentes de los vínculos.
+>Livefyre se asocia con Embedly para la integración de medios. Para obtener más información, consulte Integración de contenido > Integración con Embedly . Póngase en contacto con su administrador técnico de cuentas para obtener más información sobre la expansión o las fuentes de los vínculos.
 
 Este ejemplo bloquea las incrustaciones de YouTube y Vimeo del flujo de comentarios:
 
@@ -44,4 +40,3 @@ Al cargar la conversación:
 networkConfig["attachmentDelegate"] = attachmentDelegate; 
 fyre.conv.load(networkConfig, [convConfig]);
 ```
-
