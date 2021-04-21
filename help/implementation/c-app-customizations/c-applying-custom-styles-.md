@@ -1,30 +1,26 @@
 ---
-description: Para personalizar el contenido de estilo para los grupos de usuarios, primero debe agregar una etiqueta de usuario a la cuenta y después aplicar estilo al contenido mediante CSS.
-seo-description: Para personalizar el contenido de estilo para los grupos de usuarios, primero debe agregar una etiqueta de usuario a la cuenta y después aplicar estilo al contenido mediante CSS.
-seo-title: Aplicación de estilos personalizados
-solution: Experience Manager
+description: Para el contenido de estilo personalizado de los grupos de usuarios, primero debe agregar una etiqueta de usuario a la cuenta y después aplicar un estilo al contenido mediante CSS.
 title: Aplicación de estilos personalizados
-uuid: 0556aa2f-4fcd-4bde-abb5-479ec682f573
+exl-id: 54692525-32ce-487a-b3c3-da1261b58da1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
+# Aplicar estilos personalizados{#applying-custom-styles}
 
-# Aplicación de estilos personalizados{#applying-custom-styles}
+Para el contenido de estilo personalizado de los grupos de usuarios, primero debe agregar una etiqueta de usuario a la cuenta y después aplicar un estilo al contenido mediante CSS.
 
-Para personalizar el contenido de estilo para los grupos de usuarios, primero debe agregar una etiqueta de usuario a la cuenta y después aplicar estilo al contenido mediante CSS.
+Para cada etiqueta de usuario agregada a través de Studio o Ping para extracción, Livefyre creará dos clases CSS, las cuales pueden utilizarse para aplicar estilo al contenido del grupo.
 
-Para cada etiqueta de usuario agregada mediante Studio o Ping para extracción, Livefyre creará dos clases CSS, ambas que se pueden utilizar para aplicar estilo al contenido del grupo.
+Al convertir Etiquetas de usuario en clases CSS:
 
-Al convertir etiquetas de usuario en clases CSS:
+* Livefyre crea dos clases: fyre-author-tag-***&lt;your_group>*** y fyre-tag-author-***&lt;your_group>***. Ambos pueden utilizarse para aplicar estilo al contenido.
 
-* Livefyre crea dos clases: fyre-author-tag-***&lt;su_grupo>*** y fyre-tag-author-***&lt;su_grupo>***. Ambos se pueden utilizar para aplicar estilo al contenido.
-
-* Los espacios incluidos en la etiqueta se convertirán en caracteres de subrayado. Por ejemplo: &quot;Usuario favorito&quot; se convertirá en usuario_favorito.
+* Los espacios incluidos en la etiqueta se convertirán en guiones bajos. Por ejemplo: &quot;Usuario favorito&quot; se convertirá en usuario_favorito.
 * Los caracteres Unicode incluidos en los nombres de grupo no se convertirán y aparecerán como Unicode en los nombres de clase. Por ejemplo: El grupo de usuarios &quot;modérateur&quot; se convertirá en &quot;fyre-comment-author-tag-modérateur&quot;.
 
 Una vez creados los grupos de usuarios, utilice las clases CSS de Livefyre para aplicar estilo personalizado al contenido.
@@ -35,9 +31,9 @@ Una vez creados los grupos de usuarios, utilice las clases CSS de Livefyre para 
 
    >[!NOTE]
    >
-   >Los propietarios, como también son moderadores, tendrán esta clase aplicada también a su contenido en el flujo.
+   >Los propietarios, como también son moderadores, tendrán esta clase aplicada a su contenido en el flujo también.
 
-* Cree una regla CSS para mostrar o aplicar estilo a un distintivo para el grupo:
+* Cree una regla CSS para mostrar o aplicar estilo a un distintivo del grupo:
 
    ```
    .fyre-moderator { 
@@ -51,7 +47,7 @@ Una vez creados los grupos de usuarios, utilice las clases CSS de Livefyre para 
 
 ## Contenido de estilo para grupos de usuarios {#section_ghn_s1v_xz}
 
-Cree una regla CSS para mostrar o aplicar estilo a un distintivo para el grupo:
+Cree una regla CSS para mostrar o aplicar estilo a un distintivo del grupo:
 
 ```
 <span class="fyre-comment-author-tag fyre-comment-author-tag-writer fyre-comment-plus" data-fyre-author-tag="staff">Staff Writer</span>
@@ -71,7 +67,7 @@ Cree una regla CSS para mostrar o aplicar estilo a un distintivo para el grupo:
 }
 ```
 
-Utilice la clase CSS fyre-author-tag-***&lt;your_group>*** o fyre-tag-author-***&lt;your_group>** para aplicar estilo a la fuente y al fondo de cada elemento publicado desde una cuenta asociada a la etiqueta seleccionada.
+Utilice la clase CSS fyre-author-tag-***&lt;your_group>*** o fyre-tag-author-****&lt;your_group>** para aplicar estilo a la fuente y el fondo de cada elemento publicado desde una cuenta asociada a la etiqueta seleccionada.
 
 ```
 .fyre-comment-author-tag-<your_group> .fyre-comment-author-tag { 
@@ -82,4 +78,3 @@ Utilice la clase CSS fyre-author-tag-***&lt;your_group>*** o fyre-tag-author-***
     padding-top: 4px; 
 }
 ```
-
