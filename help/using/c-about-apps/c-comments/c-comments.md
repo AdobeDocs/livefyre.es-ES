@@ -1,26 +1,22 @@
 ---
 description: Incruste comentarios en tiempo real en la aplicación.
-seo-description: Incruste comentarios en tiempo real en la aplicación.
-seo-title: Comentarios
-solution: Experience Manager
 title: Comentarios
-uuid: f409d04a-2ecc-42fd-9d45-c723aafad116
+exl-id: 938be5c6-d39f-4b10-b46f-fd7ce11d7e66
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 3%
+source-wordcount: '82'
+ht-degree: 2%
 
 ---
-
 
 # Comentarios{#comments}
 
 Incruste comentarios en tiempo real en la aplicación.
 
-Los comentarios sustituyen los comentarios predeterminados por conversaciones en tiempo real. Nuestras funciones de integración social facilitan la captación de todas las conversaciones que tienen lugar sobre sus publicaciones a través de Twitter y Facebook, así como la participación de los amigos de los usuarios en la conversación.
+Comentarios reemplaza sus comentarios predeterminados por conversaciones en tiempo real. Nuestras funciones de integración social facilitan la captación de todas las conversaciones que tienen lugar sobre sus publicaciones en Twitter y Facebook, así como la participación de los amigos de los usuarios en la conversación.
 
-Mashable utiliza Comentarios para aumentar la participación del usuario en sus discusiones. Las funciones, como la carga de medios enriquecidos, el uso compartido en redes sociales, el recuento de oyentes y el inicio de sesión único, ayudan a que la contribución a la conversación sea fácil y divertida.
+Mashable utiliza Comentarios para aumentar la participación del usuario en sus discusiones. Las funciones incluyen carga de medios enriquecidos, uso compartido en medios sociales, recuento de oyentes y ayuda para el inicio de sesión único a fin de que la contribución a la conversación sea fácil y divertida.
 
 ![](assets/CommentsMashable.png)
 
@@ -29,4 +25,3 @@ Mashable utiliza Comentarios para aumentar la participación del usuario en sus 
 c_comments_app.dita
 
  -->
-
