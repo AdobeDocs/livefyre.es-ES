@@ -1,41 +1,36 @@
 ---
-description: Valore y revise cualquier parte del contenido de su sitio web, en tiempo real.
-seo-description: Valore y revise cualquier parte del contenido de su sitio web, en tiempo real.
-seo-title: Reseñas
-solution: Experience Manager
+description: Valore y revise cualquier contenido del sitio web en tiempo real.
 title: Reseñas
-uuid: 5386fc74-7a3b-4b2a-91fd-cfe5300e602d
+exl-id: e065319b-5ee6-40c4-8d04-56a06e0c92fa
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
 
-
 # Revisiones{#reviews}
 
-Valore y revise cualquier parte del contenido de su sitio web, en tiempo real.
+Valore y revise cualquier contenido del sitio web en tiempo real.
 
-Las revisiones permiten a los usuarios clasificar y revisar fácilmente productos, servicios, artículos o cualquier parte del contenido del sitio web, en tiempo real.
+Las revisiones permiten a los usuarios clasificar y revisar fácilmente en tiempo real productos, servicios, artículos o cualquier parte de contenido de su sitio web.
 
-Cada revisión publicada en una aplicación de críticas consta de una línea de Título de revisión, un cuerpo y una clasificación numérica. Al incluir un título y una clasificación, la aplicación de críticas cuantifica la opinión del usuario y proporciona un resumen de la experiencia del usuario con ese producto o servicio.
+Cada revisión publicada en una aplicación de revisiones consiste en una línea de Título de revisión, un cuerpo y una clasificación numérica. Al incluir un título y una clasificación, la aplicación de revisiones cuantifica la opinión de un usuario y proporciona un resumen de la experiencia del usuario con ese producto o servicio.
 
-La aplicación de revisiones predeterminada consiste en una colección de revisiones y una sección de resumen que muestra el desglose de clasificación y clasificación promedio del usuario para la colección. Los usuarios pueden leer e interactuar con las revisiones en tiempo real.
+La aplicación de revisiones predeterminada consiste en una colección de revisiones y una sección de resumen que muestra la clasificación y el desglose de clasificación promedio del usuario para la colección. Los usuarios pueden leer e interactuar con las revisiones en tiempo real.
 
-Allure utiliza las críticas para invitar a sus usuarios a contribuir con clasificaciones y opiniones sobre los productos que presentan. Con Reviews, Allure puede captar comentarios personales y valiosos de los usuarios desde su audiencia.
+Allure utiliza las reseñas para invitar a sus usuarios a contribuir con clasificaciones y opiniones sobre los productos que presentan. Con Reviews, Allure es capaz de capturar comentarios valiosos y personales de los usuarios de su audiencia.
 
 ![](assets/ReviewsAllure.png)
 
-## Características de la revisión {#section_awq_xph_21b}
+## Revisa las funciones {#section_awq_xph_21b}
 
-Revisa las ofertas de varias funciones específicas de esta aplicación.
+Reseñas ofrece varias funciones que son específicas de esta aplicación.
 
-* Representación visual rápida de las tendencias (clasificaciones con estrellas y resumen de clasificación promedio) por encima del flujo.
-* Interfaz de clasificación personalizable, incluido el número de estrellas y su imagen, subpartes de clasificación (como Pro y Cons) y varias categorías de clasificación.
-* Resuma las revisiones mediante una visualización gráfica de la Clasificación promedio de usuarios y el Desglose de clasificación de la colección de revisiones.
-* Revisiones de cola para visualización, mientras se mantiene la Revisión del usuario en la parte superior de la lista para su vista.
-* Permita que los usuarios voten sobre la utilidad de las críticas y luego ordenen por la Clasificación más útil y/o la Clasificación más alta.
+* Representación visual rápida de las tendencias (clasificación por estrellas y resumen de clasificación promedio) por encima del flujo.
+* Interfaz de clasificación personalizable, incluyendo el número de estrellas y su imagen, subpartes de clasificación (como Ventajas y Desventajas) y múltiples categorías de clasificación.
+* Resuma las revisiones utilizando una visualización gráfica de la clasificación promedio de usuarios y el desglose de clasificación de la colección de revisiones.
+* Reseñas de cola para mostrar, mientras mantiene la Revisión del usuario en la parte superior de la lista para su visualización.
+* Permita que los usuarios voten sobre la utilidad de las revisiones y luego ordenarlas por Más útil y/o Clasificación más alta.
 * Interfaz compatible con dispositivos móviles.
-
