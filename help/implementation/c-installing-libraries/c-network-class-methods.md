@@ -1,31 +1,27 @@
 ---
-description: Cree un objeto Network.
-seo-description: Cree un objeto Network.
-seo-title: Métodos de clase de red
-solution: Experience Manager
+description: Cree un objeto Network .
 title: Métodos de clase de red
-uuid: 4130beda-dd09-49ae-aafb-f6b956e30b51
+exl-id: 5a011120-05d0-4768-9038-6a312e8c5dd1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 13%
+source-wordcount: '61'
+ht-degree: 14%
 
 ---
 
-
 # Métodos de clase de red{#network-class-methods}
 
-Cree un objeto Network.
+Cree un objeto Network .
 
-Una vez creado un objeto de red, el resto de la página supondrá que tiene un objeto de red con instancias en la sesión.
+Una vez creado un objeto de red, el resto de la página supondrá que tiene un objeto de red creado como instancia en la sesión.
 
 ## Objeto de red
 
 | Parámetro | Tipo | Descripción |
 |---|---|---|
-| *`network`* | Cadena | Tu red Livefyre. Por ejemplo: “`labs.fyre.co`”. |
-| *`networkKey`* | Cadena | Clave secreta proporcionada por Livefyre para la red. |
+| *`network`* | Cadena | Su red Livefyre. Por ejemplo: “`labs.fyre.co`”. |
+| *`networkKey`* | Cadena | La clave secreta proporcionada por Livefyre para la red. |
 
 ## Java {#section_myk_dzs_kbb}
 
