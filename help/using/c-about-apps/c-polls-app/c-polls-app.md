@@ -1,26 +1,21 @@
 ---
 description: Permita que sus clientes expresen sus opiniones en tiempo real.
-seo-description: Permita que sus clientes expresen sus opiniones en tiempo real.
-seo-title: Encuestas
-solution: Experience Manager
 title: Encuestas
-uuid: 19264eb2-53f8-4a66-a265-38efb634a207
+exl-id: 1292a7bf-7105-4ef5-a55c-90359301264c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
-
 
 # Encuestas{#polls}
 
 Permita que sus clientes expresen sus opiniones en tiempo real.
 
-Las encuestas permiten crear y publicar encuestas rápidas de una sola pregunta en el sitio. Utilice las encuestas para fomentar la participación de los lectores, recopilar comentarios, opiniones y solicitudes de los visitantes del sitio.
+Las encuestas permiten crear y publicar encuestas rápidas de una sola pregunta en el sitio. Use Encuestas para fomentar la participación de los lectores, recopilar comentarios, opiniones y solicitudes de los visitantes del sitio.
 
 >[!NOTE]
 >
 >Las encuestas no se vinculan a un flujo.
-
