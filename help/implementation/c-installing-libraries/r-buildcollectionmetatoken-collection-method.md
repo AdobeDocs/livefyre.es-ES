@@ -1,20 +1,16 @@
 ---
 description: Devuelve el token collectionMeta cifrado para esta colección.
-seo-description: Devuelve el token collectionMeta cifrado para esta colección.
-seo-title: buildCollectionMetaToken (método de recopilación)
-solution: Experience Manager
-title: buildCollectionMetaToken (método de recopilación)
-uuid: 533c68c3-c014-4fc3-8114-a57af0e44d85
+title: Método de colección buildCollectionMetaToken
+exl-id: 3b95f877-d064-4885-9a73-866cc859ab82
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
 
-
-# buildCollectionMetaToken (método de recopilación){#buildcollectionmetatoken-collection-method}
+# Método de colección buildCollectionMetaToken{#buildcollectionmetatoken-collection-method}
 
 Devuelve el token collectionMeta cifrado para esta colección.
 
@@ -24,7 +20,7 @@ Devuelve el token collectionMeta cifrado para esta colección.
 collection.buildCollectionMetaToken(); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6InRlc3QiLCJ1cmwiOiJodHRwOi8vd3d3LnRlc3QuY29tIiwidGFncyI6InRlc3RUYWdzIiwiYXJ0aWNsZUlkIjoidGVzdElkIiwidHlwZSI6InJldmlld3MifQ.QB5SnOTVrVXo5RhzJeExEHpCZdxSoxnF7D4QIVQCWsA 
@@ -36,7 +32,7 @@ eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6InRlc3QiLCJ1cmwiOiJodHRwOi8vd3d3LnRlc3QuY29tIiw
 collection.buildCollectionMetaToken();
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6InRlc3QiLCJ1cmwiOiJodHRwOi8vd3d3LnRlc3QuY29tIiwidGFncyI6InRlc3RUYWdzIiwiYXJ0aWNsZUlkIjoidGVzdElkIiwidHlwZSI6InJldmlld3MifQ.QB5SnOTVrVXo5RhzJeExEHpCZdxSoxnF7D4QIVQCWsA 
@@ -48,7 +44,7 @@ eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6InRlc3QiLCJ1cmwiOiJodHRwOi8vd3d3LnRlc3QuY29tIiw
 $collection->buildCollectionMetaToken(); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6InRlc3QiLCJ1cmwiOiJodHRwOi8vd3d3LnRlc3QuY29tIiwidGFncyI6InRlc3RUYWdzIiwiYXJ0aWNsZUlkIjoidGVzdElkIiwidHlwZSI6InJldmlld3MifQ.QB5SnOTVrVXo5RhzJeExEHpCZdxSoxnF7D4QIVQCWsA
@@ -60,7 +56,7 @@ eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6InRlc3QiLCJ1cmwiOiJodHRwOi8vd3d3LnRlc3QuY29tIiw
 collection.build_collection_meta_token() 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6InRlc3QiLCJ1cmwiOiJodHRwOi8vd3d3LnRlc3QuY29tIiwidGFncyI6InRlc3RUYWdzIiwiYXJ0aWNsZUlkIjoidGVzdElkIiwidHlwZSI6InJldmlld3MifQ.QB5SnOTVrVXo5RhzJeExEHpCZdxSoxnF7D4QIVQCWsA
@@ -72,9 +68,8 @@ eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6InRlc3QiLCJ1cmwiOiJodHRwOi8vd3d3LnRlc3QuY29tIiw
 collection.build_collection_meta_token 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6InRlc3QiLCJ1cmwiOiJodHRwOi8vd3d3LnRlc3QuY29tIiwidGFncyI6InRlc3RUYWdzIiwiYXJ0aWNsZUlkIjoidGVzdElkIiwidHlwZSI6InJldmlld3MifQ.QB5SnOTVrVXo5RhzJeExEHpCZdxSoxnF7D4QIVQCWsA
 ```
-
