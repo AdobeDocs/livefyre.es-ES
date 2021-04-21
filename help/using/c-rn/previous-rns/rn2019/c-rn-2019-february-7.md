@@ -1,18 +1,14 @@
 ---
 description: Notas de la versión de Livefyre 7 de febrero de 2019.
-seo-description: Notas de la versión de Livefyre 7 de febrero de 2019.
-seo-title: Notas de la versión
-solution: Experience Manager
 title: Notas de la versión
-uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
+exl-id: b04ded96-ebeb-4385-8fcf-a870044fbd85
 translation-type: tm+mt
-source-git-commit: 46f00bccc617b5d5ddc2e205c912d52d3602a8a0
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 11%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
-
 
 # Notas de la versión - 7 de febrero de 2019 {#rn020719}
 
@@ -20,8 +16,8 @@ ht-degree: 11%
 
 ## Mejora
 
-* Elimine la opción de regla de flujo de Facebook de la interfaz de usuario.
+* Eliminar la opción de regla de flujo de Facebook de la interfaz de usuario.
 
 ## Correcciones de errores
 
-* Se corrigió un problema en el cual el contenido marcado por Moderación de Recommendations como *desechado* no se mostraba al intentar realizar la vista de todo el contenido, incluido el contenido desechado.
+* Se ha corregido un problema por el cual el contenido marcado por Moderation Recommendations como *enviado a la papelera* no se mostraba al intentar ver todo el contenido, incluido el contenido enviado a la papelera.
