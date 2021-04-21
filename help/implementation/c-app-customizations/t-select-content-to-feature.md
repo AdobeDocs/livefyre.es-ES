@@ -1,22 +1,18 @@
 ---
-description: Función o desfunción del contenido directamente desde una aplicación.
-seo-description: Función o desfunción del contenido directamente desde una aplicación.
-seo-title: Seleccione el contenido para la función desde una aplicación
-solution: Experience Manager
+description: Función o desactivación del contenido directamente desde una aplicación.
 title: Seleccione el contenido para la función desde una aplicación
-uuid: b3c2aa2b-98a0-4548-944b-a1f36326eea0
+exl-id: 09482724-eb9e-4d02-a07c-ea718cef8909
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
 
+# Seleccione Contenido para la función de una aplicación{#select-content-to-feature-from-an-app}
 
-# Seleccione el contenido para la función desde una aplicación{#select-content-to-feature-from-an-app}
+Función o desactivación del contenido directamente desde una aplicación.
 
-Función o desfunción del contenido directamente desde una aplicación.
-
-1. Desde una aplicación, pase el ratón por encima del contenido que desee mostrar.
-1. Haga clic **[!UICONTROL Feature]** para mostrar el contenido o **[!UICONTROL Unfeature]** para dejar de presentar ese contenido.
+1. Desde una aplicación, pase el ratón sobre el contenido que desea mostrar.
+1. Haga clic en **[!UICONTROL Feature]** para mostrar el contenido o en **[!UICONTROL Unfeature]** para dejar de mostrar esa parte de contenido.
