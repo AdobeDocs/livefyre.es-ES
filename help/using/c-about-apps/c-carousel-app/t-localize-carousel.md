@@ -1,24 +1,19 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Localización de un carrusel
-solution: Experience Manager
 title: Localización de un carrusel
-uuid: 168b061d-dc60-4a4a-b6f7-154a3f81dc00
+description: Localización de un carrusel
+exl-id: 9ebe390c-be72-4381-b7b9-8c8fb5afe1c9
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 8%
+source-wordcount: '46'
+ht-degree: 4%
 
 ---
 
-
 # Localizar un carrusel{#localize-a-carousel}
 
-* Localización disponible para un Carrusel. Puede:
+* La localización está disponible para un carrusel. Puede:
    * [Cambiar cadenas disponibles para un carrusel](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md#section_l2z_hkn_xz)
-   * [Creación y modificación de un conjunto de traducciones para un carrusel](/help/using/c-settings-other/c-translation-sets/t-create-modify-translation-sets.md)
-   * [Aplicar un conjunto de traducciones a un sitio](/help/using/c-settings-other/c-translation-sets/t-apply-a-translation-set-to-a-site.md)
-   * [Aplicar un conjunto de traducción a una red](/help/using/c-settings-other/c-translation-sets/t-apply-a-translation-set-to-a-network.md)
-
+   * [Crear y modificar un conjunto de traducciones para un carrusel](/help/using/c-settings-other/c-translation-sets/t-create-modify-translation-sets.md)
+   * [Aplicación de un conjunto de traducciones a un sitio](/help/using/c-settings-other/c-translation-sets/t-apply-a-translation-set-to-a-site.md)
+   * [Aplicación de un conjunto de traducciones a una red](/help/using/c-settings-other/c-translation-sets/t-apply-a-translation-set-to-a-network.md)
