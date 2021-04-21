@@ -1,16 +1,14 @@
 ---
-description: Últimas notas de la versión de Adobe Livefyre.
-seo-description: Últimas notas de la versión de Adobe Livefyre.
-seo-title: Últimas notas de la versión de Adobe Livefyre
-title: Últimas notas de la versión de Livefyre
+description: Últimas notas de la versión del Adobe Livefyre.
+title: Últimas notas de la versión para Livefyre
+exl-id: 4ee61509-8e9e-4697-bcd9-a566ea6873aa
 translation-type: tm+mt
-source-git-commit: 0efc365d4496bd44142ad1513f51163f24676084
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 3%
+source-wordcount: '144'
+ht-degree: 4%
 
 ---
-
 
 # Notas de la versión actual {#current-release-notes}
 
@@ -18,14 +16,14 @@ ht-degree: 3%
 
 ## Mejoras
 
-* Se ha actualizado el modelo Autotagger de v7 a v7.1.
+* Se ha actualizado el modelo Autotagger de la versión 7 a la versión 7.1.
 
 ## Correcciones de errores
 
-* Se corrigió un problema en el cual el usuario encontraba un error &quot;401 no autorizado&quot; al buscar contenido de Instagram más allá del límite de 30 búsquedas de hashtags por 7 días.
-* Se corrigió un problema en el cual &#39;Cargar más&#39; en los muros de medios con contenido filtrado por productos coloca el contenido en la parte superior en lugar de por debajo del contenido existente como se esperaba.
-* Se corrigió un problema en el cual las publicaciones de Instagram se eliminaban debido a vínculos CDN caducados.
-* Se corrigió un problema en el cual la aplicación de encuestas mostraba las opciones de pregunta y respuesta de encuesta utilizando un formato incorrecto.
-* Se ha eliminado la documentación para la importación de contenido de Facebook, que ya no se admite.
-* Se corrigió un problema en el cual los usuarios no podían aprobar contenido premod de flujos de Twitter.
-* Se corrigió un problema en el cual los vídeos cargados mediante la API de carga de medios se convertían de .mp4 a .undefined.
+* Se ha corregido un problema en el cual el usuario encontraba un error &quot;401 no autorizado&quot; al buscar contenido de Instagram que superaba el límite de 30 búsquedas de hashtags por 7 días.
+* Se ha corregido un problema por el cual &quot;Cargar más&quot; en paredes multimedia con contenido filtrado por productos coloca el contenido en la parte superior en lugar de debajo del contenido existente como se esperaba.
+* Se ha corregido un problema por el cual las publicaciones de Instagram se eliminaban debido a vínculos CDN caducados.
+* Se ha corregido un problema por el cual la aplicación de encuestas mostraba opciones de pregunta y respuesta de encuesta empleando un formato incorrecto.
+* Se ha eliminado la documentación para la importación de contenido de Facebook, que ya no es compatible.
+* Se ha corregido un problema en el cual los usuarios no podían aprobar las emisiones de Twitter de contenido preconfigurado.
+* Se ha corregido un problema por el cual los vídeos cargados a través de la API de carga de medios se convertían de .mp4 a .undefined.
