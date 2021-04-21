@@ -1,20 +1,16 @@
 ---
 description: Comprueba si un token de Livefyre sigue siendo válido para esta red. Devuelve un valor Boolean.
-seo-description: Comprueba si un token de Livefyre sigue siendo válido para esta red. Devuelve un valor Boolean.
-seo-title: validateLivefyreToken Network (método)
-solution: Experience Manager
-title: validateLivefyreToken Network (método)
-uuid: 2bac11de-d6c4-419f-9c7b-92cfb541d07e
+title: validateLivefyreToken Network (método de red)
+exl-id: c311005d-65fa-4f82-b482-8d173d6275cd
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 4%
+source-wordcount: '67'
+ht-degree: 5%
 
 ---
 
-
-# validateLivefyreToken Network (método){#validatelivefyretoken-network-method}
+# validateLivefyreToken Network Method{#validatelivefyretoken-network-method}
 
 Comprueba si un token de Livefyre sigue siendo válido para esta red. Devuelve un valor Boolean.
 
@@ -28,7 +24,7 @@ Comprueba si un token de Livefyre sigue siendo válido para esta red. Devuelve u
 network.validateLivefyreToken(lfToken); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 true 
@@ -40,7 +36,7 @@ true
 network.validateLivefyreToken(lfToken); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 true 
@@ -52,7 +48,7 @@ true
 $network->validateLivefyreToken(lfToken); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 true 
@@ -64,7 +60,7 @@ true
 network.validate_livefyre_token(lfToken) 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 true 
@@ -76,9 +72,8 @@ true
 network.validate_livefyre_token(lfToken) 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 true 
 ```
-
