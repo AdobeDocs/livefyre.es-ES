@@ -1,30 +1,26 @@
 ---
-description: Cambie el tamaño, el ancho y las opciones de interacción de la aplicación Encuestas.
-seo-description: Cambie el tamaño, el ancho y las opciones de interacción de la aplicación Encuestas.
-seo-title: Personalizaciones de encuestas
-solution: Experience Manager
+description: Cambie el tamaño, la anchura y las opciones de interacción de la aplicación Encuestas .
 title: Personalizaciones de encuestas
-uuid: 788a4fa7-aafb-4508-b9c0-cd54e4cd9b86
+exl-id: f82dce69-8ad0-48bd-a293-e5501374d5d6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
-
 # Personalizaciones de encuestas{#polls-customizations}
 
-Cambie el tamaño, el ancho y las opciones de interacción de la aplicación Encuestas.
+Cambie el tamaño, la anchura y las opciones de interacción de la aplicación Encuestas .
 
 
 
 * **[!UICONTROL Type]**
 
-   Seleccione el tipo de encuesta que desee crear. **[!UICONTROL Single image]** permite agregar una imagen para la pregunta de la encuesta. **[!UICONTROL Multiple image]** permite agregar una imagen para las respuestas de la encuesta. **[!UICONTROL Text only]** crea una encuesta sin imágenes.
+   Seleccione el tipo de Encuesta que desea crear. **[!UICONTROL Single image]** le permite agregar una imagen para la pregunta de la encuesta. **[!UICONTROL Multiple image]** le permite añadir una imagen para las respuestas de la encuesta. **[!UICONTROL Text only]** crea una encuesta sin imágenes.
 
-* **[!UICONTROL Question]**  *requerido*
+* **[!UICONTROL Question]**  *obligatorio*
 
    Escriba la pregunta que se mostrará para la encuesta.
 
@@ -38,11 +34,11 @@ Cambie el tamaño, el ancho y las opciones de interacción de la aplicación Enc
 
 * **[!UICONTROL Users may share poll]**
 
-   Si está habilitada, la encuesta incluirá un vínculo que los usuarios pueden compartir.
+   Si se habilita, la encuesta incluirá un vínculo que los usuarios pueden compartir.
 
 * **[!UICONTROL Link]** *opcional*
 
-   Vínculo para mostrar en la encuesta.
+   Vínculo que se mostrará en la encuesta.
 
 * **[!UICONTROL Link title]**
 
@@ -50,15 +46,14 @@ Cambie el tamaño, el ancho y las opciones de interacción de la aplicación Enc
 
 * **[!UICONTROL Show poll results]**
 
-   Si está activado, los visores podrán ver los resultados de la encuesta. Si se deshabilita, los votantes solo verán una pantalla de agradecimiento después de completar la encuesta.
+   Si se habilita, los espectadores podrán ver los resultados de la encuesta. Si se deshabilita, los votantes solo verán una pantalla de &quot;Gracias&quot; después de completar la encuesta.
 
 * **[!UICONTROL Disclaimer]** *opcional*
 
-   Una renuncia de responsabilidad opcional que se mostrará con la encuesta.
+   Una renuncia de responsabilidad opcional que se mostrará con su Encuesta.
 
-Puede personalizar las encuestas mediante:
+Puede personalizar Encuestas mediante:
 
-* **[!UICONTROL Style]** y  **[!UICONTROL Config]** opciones para todas las aplicaciones de la  **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones en **[!UICONTROL App Designer]**.
+* **[!UICONTROL Style]** y  **[!UICONTROL Config]** para todas las aplicaciones de  **[!UICONTROL App Designer]**. Consulte Personalización de aplicaciones para obtener más información sobre las opciones estándar **[!UICONTROL Style]** y **[!UICONTROL Config]** para todas las aplicaciones de **[!UICONTROL App Designer]**.
 
 * Herramientas de integración. Consulte Encuestas para obtener más información sobre cómo personalizar aplicaciones mediante las herramientas de integración.
-
