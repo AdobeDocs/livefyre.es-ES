@@ -1,26 +1,22 @@
 ---
 description: Ajuste la configuración de Storify 2 artículos, como etiquetas, moderación y contenido permitido.
-seo-description: Ajuste la configuración de Storify 2 artículos, como etiquetas, moderación y contenido permitido.
-seo-title: Configuración de Storify
-solution: Experience Manager
 title: Configuración de Storify
-uuid: 030936fb-7c8b-487e-b468-7128b641c8ed
+exl-id: 11eed2ef-5e6d-4a7c-b6bb-b195b89fc79d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
-
-# Storify Settings{#storify-settings}
+# Configuración de Storify{#storify-settings}
 
 Ajuste la configuración de Storify 2 artículos, como etiquetas, moderación y contenido permitido.
 
 >[!NOTE]
 >
->La mayoría de las opciones de control de las aplicaciones de Storify 2 para Sidenotes, si están activadas.
+>La mayoría de las opciones de control de Storify 2 Apps para Sidenotes, si están activadas.
 
 * **[!UICONTROL Tags]**
 
@@ -28,15 +24,15 @@ Ajuste la configuración de Storify 2 artículos, como etiquetas, moderación y 
 
 * **[!UICONTROL Allow New Content]**
 
-   Permite añadir nuevas notas de identidad a tu artículo.
+   Permite añadir nuevas notas a tu artículo.
 
 * **[!UICONTROL Article URL]**
 
-   La dirección URL que se va a usar para SocialSync y los vínculos permanentes.
+   La dirección URL que se usará para SocialSync y los vínculos de tiempo.
 
 * **[!UICONTROL Premoderate Content]**
 
-   Requerir la aprobación del moderador antes de que se hagan públicas las notas de identidad.
+   Requiere la aprobación del moderador antes de que las notas se hagan públicas.
 
 * **[!UICONTROL Display Media]**
 
@@ -44,17 +40,16 @@ Ajuste la configuración de Storify 2 artículos, como etiquetas, moderación y 
 
 * **[!UICONTROL Premoderate Media]**
 
-   Requerir la aprobación del moderador antes de que se haga público el contenido multimedia de Sidenotes.
+   Requiere la aprobación del moderador antes de que el contenido de medios de Sidenotes se haga público.
 
 * **[!UICONTROL Queue New Content]**
 
-   Deshabilite el flujo continuo en directo y la cola de nuevo contenido y respuestas.
+   Deshabilite la transmisión en vivo y la cola de contenido nuevo y respuestas.
 
 * **[!UICONTROL Throttle Content]**
 
-   Reduzca de forma inteligente el número de anuncios de Sidenotes que se muestran en un volumen elevado.
+   Reduzca de forma inteligente el número de anuncios Sidenotes mostrados en gran volumen.
 
 * **[!UICONTROL Allow Bulk Content]**
 
    Permitir varios anuncios que incluyan texto coincidente.
-
