@@ -1,33 +1,28 @@
 ---
-description: Utilice las clases CSS disponibles para aplicar un estilo diferente al contenido destacado que al resto del contenido de la aplicación.
-seo-description: Utilice las clases CSS disponibles para aplicar un estilo diferente al contenido destacado que al resto del contenido de la aplicación.
-seo-title: Utilizar CSS para aplicar estilo al contenido destacado
-solution: Experience Manager
+description: Utilice las clases CSS disponibles para aplicar un estilo al contenido destacado de forma diferente a otro contenido de la aplicación.
 title: Utilizar CSS para aplicar estilo al contenido destacado
-uuid: c4ab648c-d81f-41b9-9773-ef919649cc46
+exl-id: 6829c1b3-407c-45c1-9bed-c78ab8f5b985
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '105'
 ht-degree: 1%
 
 ---
 
+# Utilizar CSS para aplicar estilo al contenido destacado{#use-css-to-style-featured-content}
 
-# Utilice CSS para aplicar estilo al contenido destacado{#use-css-to-style-featured-content}
+Utilice las clases CSS disponibles para aplicar un estilo al contenido destacado de forma diferente a otro contenido de la aplicación.
 
-Utilice las clases CSS disponibles para aplicar un estilo diferente al contenido destacado que al resto del contenido de la aplicación.
+Todas las clases de comentarios CSS también se pueden aplicar a contenido destacado.
 
-Todas las clases CSS de comentarios también se pueden aplicar al contenido destacado.
-
-Las siguientes clases están disponibles para su uso con el contenido destacado.
+Las siguientes clases están disponibles para su uso con contenido destacado.
 
 | Clase | Descripción |
 |---|---|
-| .fyre-feature-content-wrapper | El contenedor div para el lector. |
-| .fyre-feature-header | Barra de título inicial. |
-| .fyre-feature-header-icon | Icono de la secuencia del encabezado. |
-| .fyre-feature-title | Texto del encabezado. |
-| .fyre-feature-body | El div contenedor del contenido destacado en el lector. |
-| .fyre-feature-quote | Icono de comillas que comienza cada elemento de contenido. |
-
+| .fyre-featured-content-wrapper | El div contenedor para el lector. |
+| .fyre-featured | La barra de título inicial. |
+| .fyre-featured-header-icon | El icono de la canilla del encabezado. |
+| .fyre-featured-title | Texto del encabezado. |
+| .fyre-featured-body | El div contenedor para contenido destacado en el lector. |
+| .fyre-featured-entrecomillar | Icono de comillas que inicia cada elemento de contenido. |
