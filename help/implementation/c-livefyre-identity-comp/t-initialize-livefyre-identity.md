@@ -1,25 +1,22 @@
 ---
-description: El paquete de autenticación Livefyre.js garantiza que todos los componentes sociales de la página puedan descubrir una única integración de autenticación.
-seo-description: El paquete de autenticación Livefyre.js garantiza que todos los componentes sociales de la página puedan descubrir una única integración de autenticación.
-seo-title: Inicializar la identidad de Livefyre
+description: El paquete de autenticación de Livefyre.js garantiza que todos los componentes sociales de la página puedan descubrir una sola integración de autenticación.
 title: Inicializar la identidad de Livefyre
-uuid: 9365d827-2734-4a84-bfe7-9be573b2b03e
+exl-id: 9990d284-a21e-49fb-932c-62906b41484a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
-
 # Inicializar la identidad de Livefyre{#initialize-livefyre-identity}
 
-El paquete de autenticación Livefyre.js garantiza que todos los componentes sociales de la página puedan descubrir una única integración de autenticación.
+El paquete de autenticación de Livefyre.js garantiza que todos los componentes sociales de la página puedan descubrir una sola integración de autenticación.
 
-Livefyre proporciona un paquete `lfep-auth-delegate` que le hará un delegado de autenticación adecuado. Se debe proporcionar a la autenticación un objeto AuthDelegate que sepa cómo realizar acciones de autenticación, como el inicio de sesión y el cierre de sesión.
+Livefyre proporciona un paquete `lfep-auth-delegate` que hará que usted sea el delegado de autenticación adecuado. Se debe proporcionar a la autenticación un objeto AuthDelegate que sepa cómo realizar acciones de autenticación, como el inicio de sesión y el cierre de sesión.
 
-1. Añada Livefyre.js a su página web.
+1. Agregue Livefyre.js a su página web.
 1. Para indicar a Auth que delegue estas acciones a la identidad de Livefyre, agregue lo siguiente:
 
    ```
