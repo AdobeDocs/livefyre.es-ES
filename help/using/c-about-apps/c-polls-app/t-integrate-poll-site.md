@@ -1,22 +1,18 @@
 ---
-description: Utilice la función HTML personalizado de Livefyre para añadir encuestas a sus comentarios o a las aplicaciones de blog en directo.
-seo-description: Utilice la función HTML personalizado de Livefyre para añadir encuestas a sus comentarios o a las aplicaciones de blog en directo.
-seo-title: Añadir una encuesta a un comentario o una aplicación de blog en directo
-solution: Experience Manager
-title: Añadir una encuesta a un comentario o una aplicación de blog en directo
-uuid: eedb63c1-7d31-40d9-ab3e-b15765cbe804
+description: Utilice la función HTML personalizada de Livefyre para agregar Encuestas a sus Comentarios o Live Blog Apps.
+title: Agregar una encuesta a un comentario o una aplicación de blog en directo
+exl-id: a889392c-8fef-4006-829a-adfe1c3cd126
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
 
+# Agregar una encuesta a un comentario o una aplicación de blog en directo{#add-a-poll-to-a-comments-or-live-blog-app}
 
-# Añadir una encuesta a un comentario o una aplicación de blog en directo{#add-a-poll-to-a-comments-or-live-blog-app}
-
-Utilice la función HTML personalizado de Livefyre para añadir encuestas a sus comentarios o a las aplicaciones de blog en directo.
+Utilice la función HTML personalizada de Livefyre para agregar Encuestas a sus Comentarios o Live Blog Apps.
 
 1. Copie el código incrustado de una encuesta publicada desde la página Administrador de aplicaciones o desde el cuadro de diálogo que se muestra al hacer clic en **[!UICONTROL Publish]**.
-1. Pegue el código incrustado en el campo **[!UICONTROL Custom HTML]** de sus comentarios o aplicación de blog en directo.
+1. Pegue el código incrustado en el campo **[!UICONTROL Custom HTML]** de Comentarios o Live Blog App.
