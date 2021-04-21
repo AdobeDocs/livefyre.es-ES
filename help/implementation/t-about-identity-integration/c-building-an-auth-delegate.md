@@ -1,30 +1,26 @@
 ---
-description: El objeto AuthDelegate implementa el comportamiento deseado para realizar acciones y eventos de autenticación, de modo que puede personalizar la integración con el sistema de autenticación existente del sitio.
-seo-description: El objeto AuthDelegate implementa el comportamiento deseado para realizar acciones y eventos de autenticación, de modo que puede personalizar la integración con el sistema de autenticación existente del sitio.
-seo-title: AuthDelegate (objeto)
-solution: Experience Manager
-title: AuthDelegate (objeto)
-uuid: a6acc4ef-d442-4782-9bfa-bbe494547c2e
+description: El objeto AuthDelegate implementa el comportamiento deseado para realizar acciones y eventos de autenticación de modo que pueda personalizar la integración con el sistema de autenticación existente en el sitio.
+title: Objeto AuthDelegate
+exl-id: 7c669138-627e-476e-a177-c71346f730df
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
-
 # AuthDelegate (objeto){#authdelegate-object}
 
-El objeto AuthDelegate implementa el comportamiento deseado para realizar acciones y eventos de autenticación, de modo que puede personalizar la integración con el sistema de autenticación existente del sitio.
+El objeto AuthDelegate implementa el comportamiento deseado para realizar acciones y eventos de autenticación de modo que pueda personalizar la integración con el sistema de autenticación existente en el sitio.
 
 ## Creación de un delegado de autenticación {#section_wmn_tv2_gz}
 
 El paquete de autenticación debe proporcionarse con un delegado de autenticación para poder realizar una acción. Un delegado de autenticación es cualquier objeto JavaScript que implementa uno de los métodos de este tema.
 
-## .login(FinishLogin) {#section_mpk_lv2_gz}
+## .login(finishLogin) {#section_mpk_lv2_gz}
 
-Inicie sesión en un usuario válido e invoque la función FinishLogin con un objeto Error si se produce un error o con las credenciales de Livefyre del usuario. Las implementaciones comunes de este método redirigen al usuario a una página de inicio de sesión o abren una nueva ventana o modal.
+Inicie sesión en un usuario válido e invoque la función finishLogin con un objeto Error si se ha producido un error o con las credenciales de Livefyre del usuario. Las implementaciones comunes de este método redirigen al usuario a una página de inicio de sesión o abren una nueva ventana o modal.
 
 En este ejemplo se notifica automáticamente a la autenticación de un usuario de Livefyre con el token de autenticación, token:
 
@@ -36,7 +32,7 @@ authDelegate.login = function (finishLogin) {
 };
 ```
 
-El delegado de inicio de sesión más sencillo puede solicitar al usuario final su autentificador de Livefyre.
+El delegado de inicio de sesión más sencillo puede preguntar al usuario final su token de autenticación de Livefyre.
 
 ```
 authDelegate.login = function contrivedLogin(finishLogin) { 
@@ -50,9 +46,9 @@ authDelegate.login = function contrivedLogin(finishLogin) {
 };
 ```
 
-## .logout(FinishLogout) {#section_uqz_2v2_gz}
+## .logout(finishLogout) {#section_uqz_2v2_gz}
 
-Cierre la sesión de un usuario e invoque la función endLogout con un objeto Error si se produjo un error o nulo para notificar a la autenticación que el cierre de sesión se realizó correctamente.
+Cierre la sesión de un usuario e invoque la función finishLogout con un objeto Error si se ha producido un error o nulo para notificar a la autenticación que el cierre de sesión se ha realizado correctamente.
 
 Por ejemplo:
 
@@ -65,7 +61,7 @@ authDelegate.logout = function (finishLogout) {
 
 ## .viewProfile(user) {#section_kkv_dv2_gz}
 
-Realice acciones para la vista del perfil de un usuario.
+Realice una acción para ver el perfil de un usuario.
 
 ```
 authDelegate.viewProfile = function (user) { 
@@ -83,7 +79,7 @@ authDelegate.editProfile = function (user) {
 }
 ```
 
-Al implementar todos los métodos enumerados anteriormente, la autenticación se puede configurar con un delegado de autenticación personalizado. Una vez construido un delegado, se puede proporcionar a auth mediante el método delegate.
+Al implementar todos los métodos enumerados anteriormente, la autenticación se puede configurar con un delegado de autenticación personalizado. Una vez construido un delegado, se puede proporcionar a auth mediante el método delegado.
 
 ```
 var authDelegate = { 
@@ -96,4 +92,3 @@ var authDelegate = {
   
 auth.delegate(authDelegate);
 ```
-
