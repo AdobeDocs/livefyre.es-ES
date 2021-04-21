@@ -1,24 +1,20 @@
 ---
-description: Para autenticar a un usuario con Livefyre a través de un flujo no activado por una aplicación de Livefyre, Livefyre recomienda implementar el método forEachAuthentication en el objeto AuthDelegate.
-seo-description: Para autenticar a un usuario con Livefyre a través de un flujo no activado por una aplicación de Livefyre, Livefyre recomienda implementar el método forEachAuthentication en el objeto AuthDelegate.
-seo-title: Implementación de SSO
-solution: Experience Manager
+description: Para autenticar a un usuario con Livefyre a través de un flujo que no se active mediante una aplicación Livefyre, Livefyre recomienda implementar el método foreachAuthentication en el objeto AuthDelegate .
 title: Implementación de SSO
-uuid: c96d456c-b1ac-40e0-8d18-224652b9697f
+exl-id: 9af75b8a-9d2a-446e-8cce-2de8645038f2
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
 
-
 # Implementación de SSO{#implementing-sso}
 
-Para autenticar a un usuario con Livefyre a través de un flujo no activado por una aplicación de Livefyre, Livefyre recomienda implementar el método forEachAuthentication en el objeto AuthDelegate.
+Para autenticar a un usuario con Livefyre a través de un flujo que no se active mediante una aplicación Livefyre, Livefyre recomienda implementar el método foreachAuthentication en el objeto AuthDelegate .
 
-Esto se invocará cuando el `authDelegate` se pase a `auth.delegate` y se pasará una función de autenticación que se puede pasar varias veces. Este método proporciona una inversión del control para eventos de autenticación, de modo que su `AuthDelegateobject` puede ser independiente sin requerir una referencia global a la autenticación.
+Esto se invocará cuando el `authDelegate` se pase a `auth.delegate` y se pasará una función de autenticación que se puede pasar varias veces. Este método proporciona una inversión del control para los eventos de autenticación, de modo que su `AuthDelegateobject` puede ser independiente sin requerir una referencia global a auth.
 
 ```
 authDelegate.forEachAuthentication = function (authenticate) { 
@@ -28,9 +24,8 @@ authDelegate.forEachAuthentication = function (authenticate) {
 }
 ```
 
-Livefyre depende de tokens de usuario para coordinar la autenticación. Como resultado, su servicio de identidad debe devolver este token para autenticar a un usuario con Livefyre. Para obtener información sobre cómo crear un token de usuario de Livefyre, consulte Creación de un autentificador de usuario.
+Livefyre depende de tokens de usuario para coordinar la autenticación. Como resultado, el servicio de identidad debe devolver este token para autenticar a un usuario con Livefyre. Para obtener información sobre cómo crear un token de usuario de Livefyre, consulte Creación de un token de autenticación de usuario.
 
 >[!NOTE]
 >
->Después de iniciar sesión correctamente, auth creará una sesión para el usuario e intentará cargar la sesión de un usuario tras actualizar y volver a cargar la página. `auth.logout()` borrará esta sesión. Esto significa que no es necesario administrar la sesión de un usuario independientemente de la autorización.
-
+>Después de un inicio de sesión correcto, auth creará una sesión para el usuario e intentará cargar una sesión del usuario tras actualizar y volver a cargar la página. `auth.logout()` borrará esta sesión. Esto significa que no es necesario administrar la sesión de un usuario independientemente de la autorización.
