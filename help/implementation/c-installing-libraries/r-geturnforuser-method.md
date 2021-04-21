@@ -1,26 +1,22 @@
 ---
-description: Este método devuelve el URN del usuario de esta red.
-seo-description: Este método devuelve el URN del usuario de esta red.
-seo-title: getUrnForUser (método de red)
-solution: Experience Manager
-title: getUrnForUser (método de red)
-uuid: b70b8b0f-2b3a-4a1d-90d0-93a97a137ad4
+description: Este método devuelve el URN para el usuario de esta red.
+title: getUrnForUser Network (método de red getUrnForUser)
+exl-id: 272e724e-d09d-4d7d-9967-a229707ff47f
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 7%
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
+# getUrnForUser Network Method{#geturnforuser-network-method}
 
-# getUrnForUser (método de red){#geturnforuser-network-method}
-
-Este método devuelve el URN del usuario de esta red.
+Este método devuelve el URN para el usuario de esta red.
 
 | Variable | Tipo | Descripción |
 |--- |--- |--- |
-| userID | Cadena | UserId que se usará en la URN. |
+| userID | Cadena | El userId que se va a usar en el URN. |
 
 ## Ejemplo de Java {#section_nyl_ycs_rz}
 
@@ -28,7 +24,7 @@ Este método devuelve el URN del usuario de esta red.
 network.getUrnForUser(userId);
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 "urn:livefyre:network=`example.fyre.co`:user=tester" 
@@ -40,7 +36,7 @@ Salida de muestra:
 network.getUrnForUser(userId);
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 "urn:livefyre:network=`example.fyre.co`:user=tester" 
@@ -52,7 +48,7 @@ Salida de muestra:
 $network->getUrnForUser(userId); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 "urn:livefyre:network=`example.fyre.co`:user=tester" 
@@ -64,7 +60,7 @@ Salida de muestra:
 network.get_urn_for_user(userId) 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 "urn:livefyre:network=`example.fyre.co`:user=tester" 
@@ -76,7 +72,7 @@ Salida de muestra:
 network.get_urn_for_user(userId) 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 "urn:livefyre:network=`example.fyre.co`:user=tester" 
