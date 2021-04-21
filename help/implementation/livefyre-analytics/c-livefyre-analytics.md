@@ -1,30 +1,26 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Uso de Livefyre con otras herramientas de Analytics
-solution: Experience Manager
-title: Uso de Livefyre con otras herramientas de Analytics
-uuid: 26c835f6-aced-41f7-aabe-418afce8a829
+title: Usar Livefyre con otra herramienta de análisis
+description: Usar Livefyre con otra herramienta de análisis
+exl-id: da29e281-5095-4e99-a248-19390f2059a2
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
+# Usar Livefyre con otra herramienta de análisis{#use-livefyre-with-other-analytics-tool}
 
-# Usar Livefyre con otras herramientas de Analytics{#use-livefyre-with-other-analytics-tool}
-
-Puede utilizar las herramientas de análisis para recopilar datos sobre las interacciones de los usuarios con las aplicaciones de Livefyre. Puede usar Adobe Analytics o una herramienta de su elección.
+Puede utilizar las herramientas de análisis para recopilar datos sobre las interacciones del usuario con las aplicaciones de Livefyre. Puede utilizar Adobe Analytics o una herramienta de su elección.
 
 Para utilizar Livefyre con una herramienta de su elección (no Adobe Analytics), siga el procedimiento descrito en esta página.
 
-## Paso 1: Configurar el controlador de evento {#section_ngm_gzl_pdb}
+## Paso 1: Configuración del controlador de eventos {#section_ngm_gzl_pdb}
 
-Configure un controlador de evento en las páginas en las que utilice aplicaciones de Livefyre. Esto le permite recopilar datos de las aplicaciones de esa página que puede utilizar para el análisis.
+Configure un controlador de eventos en páginas donde use aplicaciones de Livefyre. Esto le permite recopilar datos de las aplicaciones de esa página que puede usar para análisis.
 
-Añada Livefyre.js en una página para configurar el controlador de evento. Livefyre.js se carga de forma asíncrona. Para reducir el tamaño del archivo y mejorar el rendimiento de la carga, los análisis no están disponibles inmediatamente. Debe sondear el objeto analytics hasta que los datos estén disponibles. Coloque esta secuencia de comandos en cualquier lugar de la página o inclúyala dentro de sus propios scripts compilados.
+Agregue Livefyre.js a una página para configurar el controlador de eventos. Livefyre.js se carga asincrónicamente. Para reducir el tamaño de los archivos y mejorar el rendimiento de carga, los análisis no están disponibles inmediatamente. Debe sondear el objeto de análisis hasta que los datos estén disponibles. Coloque esta secuencia de comandos en cualquier lugar de la página o aúnarla con sus propios scripts compilados.
 
 ```
 /** 
@@ -54,11 +50,10 @@ function pollForAnalytics() {
 pollForAnalytics(); 
 ```
 
-## Paso 2: Implementar la función de controlador
+## Paso 2: Implementación de la función del controlador
 
-Una vez que la funcionalidad Livefyre.analytics esté disponible en la página, implemente la función analyticsHandler para enviar las eventos recibidas al proveedor de análisis de su elección.
+Una vez que la funcionalidad Livefyre.analytics esté disponible en la página, implemente la función analyticsHandler para enviar los eventos recibidos al proveedor de análisis que elija.
 
-1. El controlador de Analytics recibe una matriz de eventos que se deben iterar y enviar de forma individual o por lotes, si el proveedor lo admite.
+1. El controlador de Analytics recibe una matriz de eventos que se deben iterar y enviar individualmente o como un lote, si el proveedor lo admite.
 1. Asigne los datos de evento recibidos por el controlador a un formato que el proveedor de análisis necesite.
-1. Envíe los datos a su proveedor de análisis.
-
+1. Envíe los datos al proveedor de análisis.
