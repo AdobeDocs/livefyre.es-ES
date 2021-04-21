@@ -1,26 +1,22 @@
 ---
-description: Habilite el paquete de Identidad de Livefyre para permitir que los usuarios inicien sesión en las aplicaciones de Livefyre mediante un correo electrónico, Twitter, Facebook, Yahoo! o Google.
-seo-description: Habilite el paquete de Identidad de Livefyre para permitir que los usuarios inicien sesión en las aplicaciones de Livefyre mediante un correo electrónico, Twitter, Facebook, Yahoo! o Google.
-seo-title: Habilitar la identidad de Livefyre
-solution: Experience Manager
+description: Habilite el paquete de identidad de Livefyre para permitir que sus usuarios inicien sesión en sus aplicaciones de Livefyre mediante un correo electrónico, Twitter, Facebook, Yahoo! o inicio de sesión en Google.
 title: Habilitar la identidad de Livefyre
-uuid: 9bb5e168-4596-42a7-9105-e09c65c5e3ae
+exl-id: 5eda2be7-26fd-4730-a1ad-95421c773cbe
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 3%
+source-wordcount: '88'
+ht-degree: 4%
 
 ---
 
-
 # Habilitar la identidad de Livefyre{#enable-livefyre-identity}
 
-Habilite el paquete de Identidad de Livefyre para permitir que los usuarios inicien sesión en las aplicaciones de Livefyre mediante un correo electrónico, Twitter, Facebook, Yahoo! o Google.
+Habilite el paquete de identidad de Livefyre para permitir que sus usuarios inicien sesión en sus aplicaciones de Livefyre mediante un correo electrónico, Twitter, Facebook, Yahoo! o inicio de sesión en Google.
 
 Para habilitar esta función:
 
 1. Cree las aplicaciones de medios sociales necesarias.
 1. Utilice Studio para agregar claves a la implementación de Livefyre.
-1. Añada el paquete a la página con Livefyre.js y Livefyre.requirements.
-1. Configure las traducciones de la identidad de Livefyre.
+1. Añada el paquete a la página utilizando Livefyre.js y Livefyre.requirements.
+1. Configure las traducciones de identidad de Livefyre.
