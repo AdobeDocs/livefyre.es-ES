@@ -1,18 +1,14 @@
 ---
 description: Notas de la versión de la versión del 15 de noviembre de 2018.
-seo-description: Notas de la versión de la versión del 15 de noviembre de 2018.
-seo-title: Notas de la versión
-solution: Experience Manager
 title: Notas de la versión
-uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
+exl-id: 3f904022-b770-4f35-a3b0-790e15748763
 translation-type: tm+mt
-source-git-commit: efb031b58f01ec69c8297a808998d25a0015f102
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 7%
+source-wordcount: '363'
+ht-degree: 6%
 
 ---
-
 
 # Notas de la versión{#release-notes}
 
@@ -20,23 +16,23 @@ Notas de la versión de la versión del 15 de noviembre de 2018.
 
 ## Nuevas funciones {#section_syx_mdt_wcb}
 
-En la versión de producción de esta versión se lanzaron las siguientes nuevas funciones:
+En la versión de producción de esta versión se lanzaron las siguientes funciones nuevas:
 
-* **Actualizaciones de la búsqueda y el flujo de Instagram.** Puede usar una  *cuenta de negocios de Instagram* para:
+* **Actualizaciones de la búsqueda y el flujo de Instagram.** Puede utilizar una cuenta comercial de  *Instagram* para:
 
-   * Realice una búsqueda social en Instagram por usuario (el usuario también debe ser una cuenta comercial de Instagram).
+   * Realice una búsqueda social de Instagram por usuario (el usuario debe ser también una cuenta comercial de Instagram).
 
-   * Cree flujos de Instagram a partir de una cuenta de usuario de Instagram específica (la cuenta también debe ser una cuenta comercial), incluida la suya propia.
+   * Cree emisiones de Instagram a partir de una cuenta de usuario específica de Instagram (la cuenta también debe ser una cuenta comercial), incluida la suya propia.
 
    * Solicite derechos para los recursos desde Instagram mediante un flujo de trabajo parcialmente automatizado.
 
-   * Para obtener información sobre el tipo de cuentas de Instagram que necesita configurar y solicitar derechos de Instagram, consulte [Acerca de las cuentas de Instagram](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md).
+   * Para obtener información sobre el tipo de cuentas de Instagram que debe configurar y solicitar derechos de Instagram, consulte [Acerca de las cuentas de Instagram](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md).
 
-* **Supervisión automática de las respuestas de solicitudes de derechos de uso para búsquedas basadas en cuentas comerciales.** Solo para búsquedas basadas en cuentas comerciales: está disponible la capacidad de supervisar automáticamente las respuestas a solicitudes de derechos y actualizar el historial de actividades en Livefyre.
+* **Supervisión automática de las respuestas de solicitudes de derechos de uso para búsquedas basadas en cuentas comerciales.** Solo para búsquedas basadas en cuentas empresariales: está disponible la capacidad de supervisar automáticamente las respuestas a solicitudes de derechos y actualizar el historial de actividades en Livefyre.
 
-Para obtener más información sobre cómo solicitar derechos para cuentas de Instagram, consulte [Enviar la solicitud de derechos de Instagram manualmente](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md) y [Enviar una solicitud de derechos de Instagram parcialmente automatizada](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md).
+Para obtener más información sobre cómo solicitar derechos para cuentas de Instagram, consulte [Enviar solicitud de derechos de Instagram manualmente](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md) y [Enviar una solicitud de derechos de Instagram parcialmente automatizada](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md).
 
-* **Integración con Adobe Target.** Integración añadida con Adobe Target que permite compartir aplicaciones de Livefyre directamente en la biblioteca de Ofertas de Adobe Target. Para obtener más información sobre el uso de Livefyre con Adobe Target, consulte la [documentación de Destinatario](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html).
+* **Integración con Adobe Target.** Se ha agregado integración con Adobe Target que le permite compartir aplicaciones de Livefyre directamente con la biblioteca de ofertas de Adobe Target. Para obtener más información sobre el uso de Livefyre con Adobe Target, consulte [Documentación de Target](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html).
 
 ## Problemas {#section_ehw_ndt_wcb}
 
@@ -46,15 +42,15 @@ Los problemas de las tablas siguientes se resolvieron en esta versión.
 
 | Tipo de incidencia | Componente | Nota de la versión |
 |--- |--- |--- |
-| Problema | AppService: Identidad de Livefyre | Se corrigió un problema en el cual al hacer clic en [!UICONTROL Reset to Default] no se restablecía el logotipo en el modo de inicio de sesión en Studio > Ajustes de integración > Identidad de Livefyre a la imagen predeterminada. |
-| Problema | Biblioteca | Se corrigió un problema en el cual un vídeo cargado en la biblioteca y visualizado posteriormente con los detalles del recurso no se mostraba correctamente. |
-| Problema | Flujos | Se ha corregido un problema que impedía que los productos se mostraran en una regla de flujo. |
-| Problema | Flujos | Se corrigió un problema en el cual las etiquetas de producto no estaban disponibles para una regla de flujo. |
-| Mejora | Studio | Se corrigió un problema en el cual el ID de producto no se mostraba en Livefyre Studio. |
-| Problema | Estudio: ModQ | Se corrigió un problema en el cual el contenido eliminado seguía mostrándose en ModQ después de eliminarse. |
+| Problema | AppService: Identidad de Livefyre | Se ha corregido un problema en el cual al hacer clic en [!UICONTROL Reset to Default] no se restablecía el logotipo en el modo de inicio de sesión en Studio > Configuración de integración > Identidad de Livefyre a la imagen predeterminada. |
+| Problema | Biblioteca | Se ha corregido un problema por el cual un vídeo cargado en la biblioteca y luego visualizado en detalle de recursos no se mostraba correctamente. |
+| Problema | Transmisiones | Se ha corregido un problema que impedía que los productos se mostraran en una regla de flujo. |
+| Problema | Transmisiones | Se ha corregido un problema en el cual las etiquetas de producto no estaban disponibles para una regla de flujo. |
+| Mejora | Studio | Se ha corregido un problema por el cual el ID del producto no se mostraba en Livefyre Studio. |
+| Problema | Estudio: ModQ | Se ha corregido un problema por el cual el contenido eliminado seguía mostrándose en ModQ después de eliminarse. |
 
 ### Versión de UAT
 
 | **Tipo de incidencia** | **Componente** | **Nota de la versión** |
 |---|---|---|
-| Problema | Componente social: Carrusel | Se corrigió un problema en el cual el vínculo Compartir no respondía y copiaba la URL como se esperaba en IE11 y Mozilla Firefox. |
+| Problema | Componente social: Carrusel | Se ha corregido un problema en el cual el vínculo Compartir no respondía y copiaba la URL como se esperaba en IE11 y Mozilla Firefox. |
