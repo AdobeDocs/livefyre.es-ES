@@ -1,28 +1,23 @@
 ---
-description: Utilice Sidenotes para permitir que los lectores comenten directamente en línea con el contenido.
-seo-description: Utilice Sidenotes para permitir que los lectores comenten directamente en línea con el contenido.
-seo-title: Notas de identidad
-solution: Experience Manager
-title: Notas de identidad
-uuid: 306294e9-1b4e-44cb-b619-a97840609f6b
+description: Use Notas para permitir que sus lectores comenten directamente en línea con el contenido.
+title: Notas
+exl-id: 94cee3e6-b8f8-4714-84cb-64434ff33a67
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
+# Notas{#sidenotes}
 
-# Notas de identidad{#sidenotes}
+Use Notas para permitir que sus lectores comenten directamente en línea con el contenido.
 
-Utilice Sidenotes para permitir que los lectores comenten directamente en línea con el contenido.
+Las notas permiten a los usuarios resaltar y anotar pasajes, directamente en línea con el contenido, creando una discusión atractiva y colaborativa dirigida a su sitio. Los Reader pueden escribir cualquier parte de un artículo, desde palabras individuales hasta párrafos e imágenes. Las notas se pueden compartir con Twitter y Facebook como medio para incluir a amigos, seguidores y expertos en la conversación. Los usuarios también pueden agregar notas para que el contenido más útil aparezca en la parte superior de la lista. (Sidenotes ordena el contenido por votos de los usuarios, presentando notas con los votos superiores más altos menos votos negativos en total en la parte superior de la lista).
 
-Las notas al pie de página permiten a los usuarios resaltar y anotar pasajes, directamente en línea con el contenido, creando una discusión atractiva y colaborativa dirigida a su sitio. Los Reader pueden además notar cualquier parte de un artículo, desde palabras individuales hasta párrafos e imágenes. Las notas de identidad se pueden compartir en Twitter y Facebook como medio para llevar a amigos, seguidores y expertos a la conversación. Los usuarios también pueden aprobar Sidenotes para llevar el contenido más útil a la parte superior de la lista. (Sidenotes ordena el contenido por votos de los usuarios, presentando las notas con los votos superiores más altos menos los votos negativos en total en la parte superior de la lista).
-
-Para crear una nota secundaria, haga clic en el icono que aparece al final de los párrafos y las imágenes, o resalte cualquier parte de un párrafo y haga clic en el icono &quot;lápiz&quot; que aparece. Cuando se resalta una sección del artículo, también se puede compartir en Facebook y Twitter.
+Para tomar nota, haga clic en el icono que aparece al final de párrafos e imágenes, o resalte cualquier parte de un párrafo y haga clic en el icono de &quot;lápiz&quot; que aparece. Al resaltar una sección del artículo, también puede compartirla en Facebook y Twitter.
 
 >[!NOTE]
 >
->En los dispositivos móviles, el modo horizontal no es compatible y las notas de identidad solo se pueden escribir para párrafos y no para fragmentos de texto individuales.
-
+>En dispositivos móviles, no se admite el modo horizontal y las notas solo se pueden escribir para párrafos, y no para fragmentos de texto individuales.
