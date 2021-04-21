@@ -1,25 +1,22 @@
 ---
-description: El filtrado de UGC por ID de producto le permite incrustar exactamente la misma aplicación en varias páginas y, al mismo tiempo, mostrar distintos UGC específicos del producto para cada página.
-seo-description: El filtrado de UGC por ID de producto le permite incrustar exactamente la misma aplicación en varias páginas y, al mismo tiempo, mostrar distintos UGC específicos del producto para cada página.
-seo-title: Filtrar UGC por ID de producto
+description: El filtrado de UGC por ID de producto le permite incrustar exactamente la misma aplicación en varias páginas, al mismo tiempo que muestra UGC específicas de cada producto para cada página.
 title: Filtrar UGC por ID de producto
-uuid: 98108ddb-5710-4331-891b-7e1bbb106059
+exl-id: c98ee899-fcac-45dd-a26a-f678814776fd
 translation-type: tm+mt
-source-git-commit: 76efa427b59a709009a3c2d3744ea65e0c959816
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-
 # Filtrar UGC por ID de producto {#filter-ugc-product-id}
 
-El filtrado de UGC por ID de producto le permite incrustar exactamente la misma aplicación en varias páginas y, al mismo tiempo, mostrar distintos UGC específicos del producto para cada página.
+El filtrado de UGC por ID de producto le permite incrustar exactamente la misma aplicación en varias páginas, al mismo tiempo que muestra UGC específicas de cada producto para cada página.
 
 Para filtrar UGC por ID de producto, siga estos pasos:
 
-1. En Livefyre Studio, vaya a la ficha **[!UICONTROL Apps]**.
+1. En Livefyre Studio, vaya a la pestaña **[!UICONTROL Apps]**.
 
 1. Seleccione la aplicación que desee modificar.
 
@@ -29,11 +26,11 @@ Para filtrar UGC por ID de producto, siga estos pasos:
 
 ![](assets/filter-ugc-product-id.png)
 
-1. Seleccione las carpetas de productos de nivel superior que contienen el producto o los productos por los que desea filtrar UGC.
-Utilice CTRL/Comando + clic para seleccionar varias carpetas.
+1. Seleccione las carpetas de producto de nivel superior que contienen el producto o los productos por los que desea filtrar UGC.
+Use CTRL/Comando + clic para seleccionar varias carpetas.
 
-1. Deshabilitar **[!UICONTROL Show related content]**.
-Cuando se habilita, el contenido que se filtra con el atributo `data-lf-attr-product` se mostrará primero, seguido del resto del contenido de la aplicación.
+1. Deshabilite **[!UICONTROL Show related content]**.
+Cuando está habilitado, el contenido que se filtra con el atributo `data-lf-attr-product` se muestra primero, seguido del resto del contenido de la aplicación.
 
 1. Haga clic **[!UICONTROL Publish]**.
 
@@ -41,9 +38,9 @@ Cuando se habilita, el contenido que se filtra con el atributo `data-lf-attr-pro
 
 >[!NOTE]
 >
->Para localizar los ID de producto, vaya a **[!UICONTROL Settings > Products]**. Busque el producto deseado, selecciónelo y se muestra el ID.
+>Para localizar los ID de producto, vaya a **[!UICONTROL Settings > Products]**. Busque el producto deseado, selecciónelo y se mostrará el ID.
 
-Por ejemplo, se genera el siguiente código para una aplicación de Media Wall:
+Por ejemplo, se genera el siguiente código para una aplicación de muro de medios:
 
 ```
 <script type="text/javascript" src="https://cdn.livefyre.com/
@@ -56,7 +53,7 @@ env="prod" data-lf-read-only="" data-lf-attr-product="<product
  {embed.el.onload(embed.getConfig());}});});</script>
 ```
 
-Para etiquetar un producto, reemplace `<product 1>` en el atributo `data-lf-attr-product` por el ID de producto deseado. Puede etiquetar un producto o más agregando ID de producto separados por comas adicionales. Los productos deben estar contenidos en la carpeta o carpetas de productos de nivel superior seleccionadas en el paso 5.
+Para etiquetar un producto, reemplace `<product 1>` en el atributo `data-lf-attr-product` por el ID de producto deseado. Puede etiquetar un producto o más agregando ID de producto separados por coma adicionales. Los productos deben estar contenidos en la carpeta de productos de nivel superior o en las carpetas seleccionadas en el paso 5.
 
 El segmento de código modificado aparecerá como:
 
@@ -71,4 +68,4 @@ Livefyre.js"></script><div class="lf-app-embed" data-lfapp="
  {embed.el.onload(embed.getConfig());}});});</script>
 ```
 
-La aplicación solo mostrará los ID de producto etiquetados.
+La aplicación ahora solo mostrará los ID de producto etiquetados.
