@@ -1,30 +1,26 @@
 ---
-description: Cuenta el número de elementos sociales seleccionados.
-seo-description: Cuenta el número de elementos sociales seleccionados.
-seo-title: Contador social
-solution: Experience Manager
+description: Cuente el número de elementos sociales depurados.
 title: Contador social
-uuid: fa9aa1a8-6a04-4bc1-9bfe-e42c1250fd48
+exl-id: def7fba4-1c2e-4c7b-84f7-f9ede592d675
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '233'
 ht-degree: 10%
 
 ---
 
-
 # Contador social{#social-counter}
 
-Cuenta el número de elementos sociales seleccionados. Para obtener una lista completa de los extremos disponibles, consulte la sección Livefyre [API Reference](https://api.livefyre.com/docs).
+Cuente el número de elementos sociales depurados. Para obtener una lista completa de los puntos finales disponibles, consulte la sección [Referencia de API](https://api.livefyre.com/docs) de Livefyre.
 
-La API de contador social devuelve recuentos de reglas de depuración coincidentes en una colección determinada para intervalos a lo largo de un período de tiempo.
+La API del contador de Social devuelve recuentos de reglas de depuración coincidentes en una colección determinada para intervalos a lo largo de un período de tiempo.
 
 >[!NOTE]
 >
 >Esta API solo está disponible para hashtags de Twitter.
 
-API de contador social:
+API del contador social:
 
 * Recurso
 * Tipos de reglas
@@ -37,17 +33,17 @@ GET https://{networkName}.bootstrap.fyre.co/api/v3.0/stats.collections.curate/{q
 ```
 
 * **networkName:** su nombre de red proporcionado por Livefyre. Por ejemplo: *labs* en `labs.fyre.co`.
-* **consulta:** el hash codificado base64 seguro para url de todo el sitio, ID del artículo, tupollas de tipo regla para las que se debe recuperar información de recuento (precodificado)
+* **consulta:** hash codificado base64 seguro para url de todo el sitio, ID de artículo, tupoles de tipo regla para los que se debe recuperar información de recuento (precodificado)
 
    ```
    {site ID}:{article ID};{rule-type},  {article ID};{rule-type}|{site ID}:{article ID};{rule-type}
    ```
 
    >[!NOTE]
-   >La consulta está limitada a 10 tuplas de tipo de regla, ID de artículo, sitio y sitio. (El ejemplo anterior contendría 3 tuplas).
+   >La consulta está limitada a 10 sitios, ID de artículo y tupoles de tipo regla. (El ejemplo anterior contendría 3 tuplas).
 
-* **** `(optional)` form especifica el período de tiempo relativo o absoluto que se va a graficar; from especifica el comienzo y el valor predeterminado es 24 horas atrás, si se omite.
-* **** `(optional)` hasta la fecha especifica el período de tiempo relativo o absoluto que se va a graficar; hasta especifica el principio y el valor predeterminado es la hora actual (ahora), si se omite.
+* **** `(optional)` especifica el período de tiempo relativo o absoluto para el gráfico; from especifica el inicio y el valor predeterminado es 24 horas atrás, si se omite.
+* **** `(optional)` hasta especifica el período de tiempo relativo o absoluto para el gráfico; hasta especifica el principio y el valor predeterminado es la hora actual (ahora), si se omite.
 
 ### Tiempo relativo
 
@@ -59,7 +55,7 @@ GET https://{networkName}.bootstrap.fyre.co/api/v3.0/stats.collections.curate/{q
 | d | Días |
 | w | semanas |
 | mon | 30 días (mes) |
-| y | 365 días (año) |
+| y | 365 Días (Año) |
 
 Ejemplo:
 
