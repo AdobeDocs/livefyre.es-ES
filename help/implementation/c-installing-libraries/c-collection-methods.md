@@ -1,28 +1,24 @@
 ---
-description: Para actualizar los datos de la colección, modifique el contenido de los métodos del objeto de clase Collection.
-seo-description: Para actualizar los datos de la colección, modifique el contenido de los métodos del objeto de clase Collection.
-seo-title: Métodos de clase de colección
-solution: Experience Manager
+description: Para actualizar los datos de la colección, modifique el contenido de los métodos del objeto Collection class .
 title: Métodos de clase de colección
-uuid: fd3163c6-981f-44b3-a7ba-6b4e85b0830d
+exl-id: e54fe99d-381a-433e-b42f-8be609864ca8
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
 
-
 # Métodos de clase de colección{#collection-class-methods}
 
-Para actualizar los datos de la colección, modifique el contenido de los métodos del objeto de clase Collection.
+Para actualizar los datos de la colección, modifique el contenido de los métodos del objeto Collection class .
 
-Consulte los métodos de la clase Site para obtener instrucciones sobre cómo crear un objeto Collection. El resto de la página supondrá que tiene un objeto Collection creado mediante una instancia en la sesión.
+Consulte los métodos de la clase Site para obtener instrucciones sobre la creación de un objeto Collection. El resto de la página supondrá que tiene un objeto Collection creado como instancia en la sesión.
 
-* [createOrUpdate (método de recopilación)](#r_createorupdate_collection_method)
-* [buildCollectionMetaToken (método de recopilación)](#r_buildcollectionmetatoken_collection_method)
-* [buildChecksum (método de recopilación)](#r_buildchecksum_collection_method)
+* [createOrUpdate (método de colección)](#r_createorupdate_collection_method)
+* [Método de colección buildCollectionMetaToken](#r_buildcollectionmetatoken_collection_method)
+* [Método de colección buildChecksum](#r_buildchecksum_collection_method)
 * [getCollectionContent (método de recopilación)](#t_getcollectioncontent_collection_method)
 * [getUrn (método de recopilación)](#r_geturn_collection_method)
 
@@ -33,4 +29,3 @@ Cada uno de estos métodos está disponible para los siguientes tipos de código
 * PHP
 * Python
 * Ruby
-
