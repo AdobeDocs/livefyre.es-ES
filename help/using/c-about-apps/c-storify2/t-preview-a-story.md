@@ -1,37 +1,33 @@
 ---
-description: App Designer permite la previsualización de la aplicación en varios formatos de envío y con los datos propios o de ejemplo que se muestran.
-seo-description: App Designer permite la previsualización de la aplicación en varios formatos de envío y con los datos propios o de ejemplo que se muestran.
-seo-title: Previsualización de un artículo
-solution: Experience Manager
-title: Previsualización de un artículo
-uuid: 3b5321c3-1fab-4439-86ab-efa2ffc24f41
+description: El Diseñador de aplicaciones permite obtener una vista previa de la aplicación en varios formatos de envío y con los datos propios o de ejemplo mostrados.
+title: Vista previa de un artículo
+exl-id: b86798dc-2b03-456a-9179-7474fd2f19c3
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
+# Vista previa de un artículo{#preview-a-story}
 
-# Previsualización de un artículo{#preview-a-story}
-
-App Designer permite la previsualización de la aplicación en varios formatos de envío y con los datos propios o de ejemplo que se muestran.
-
->[!NOTE]
->
->El modo de previsualización no es completamente interactivo. Los usuarios pueden realizar la vista de la previsualización y ver todo el contenido publicado en el artículo. No podrán utilizar Sidenotes ni otras funciones de comentarios en el modo de Previsualización.
-
-El modo de previsualización oferta las siguientes opciones:
-
-* **[!UICONTROL Preview Options]**:: Utilice el menú desplegable para seleccionar un formato de previsualización (móvil, tablet o escritorio) y si desea mostrar los datos de muestra o los datos de flujo de la aplicación.
-* **[!UICONTROL Share]**:: Abre la aplicación en una nueva ficha de explorador y genera una URL, que puede utilizarse para permitir que amigos, colegas o usuarios que no sean de Studio revisen la aplicación y la prueben en distintos exploradores y dispositivos.
-* **[!UICONTROL Exit Preview]**:: Devuelve al modo de edición.
+El Diseñador de aplicaciones permite obtener una vista previa de la aplicación en varios formatos de envío y con los datos propios o de ejemplo mostrados.
 
 >[!NOTE]
 >
->Si Datos de muestra no está seleccionada, la previsualización mostrará los anuncios que haya publicado desde el editor.
+>El modo de vista previa no es totalmente interactivo. Los usuarios pueden ver la vista previa y ver todo el contenido publicado en el artículo. No podrán utilizar notas u otras funciones de comentarios en el modo de vista previa.
 
-1. Haga clic en **[!UICONTROL Preview Mode]** para seleccionar el formato móvil, de tablet o de escritorio y si desea o no mostrar los datos de muestra.
-1. Haga clic **[!UICONTROL Preview Mode]** para expandir la previsualización y llenar la ventana de Studio.
+El modo de vista previa ofrece las siguientes opciones:
+
+* **[!UICONTROL Preview Options]**: Utilice el menú desplegable para seleccionar un formato de vista previa (móvil, tableta o escritorio) y para mostrar los datos de ejemplo o los datos de flujo de la aplicación.
+* **[!UICONTROL Share]**: Abre la aplicación en una nueva ficha del explorador y genera una URL, que puede usarse para permitir que amigos, compañeros o usuarios que no sean de Studio revisen la aplicación y probarla en distintos navegadores y dispositivos.
+* **[!UICONTROL Exit Preview]**: Devuelve al modo de edición.
+
+>[!NOTE]
+>
+>Si se anula la selección de Datos de ejemplo, la vista previa mostrará los anuncios que haya publicado desde el editor.
+
+1. Haga clic en **[!UICONTROL Preview Mode]** para seleccionar el formato móvil, la tableta o el escritorio, y si se mostrarán o no los datos de ejemplo.
+1. Haga clic en **[!UICONTROL Preview Mode]** para expandir la vista previa y rellenar la ventana de Studio.
 1. Haga clic en **[!UICONTROL Exit Preview]** para volver al modo de diseño.
