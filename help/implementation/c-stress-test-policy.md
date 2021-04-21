@@ -1,52 +1,48 @@
 ---
-description: Ejecute pruebas de resistencia contra la plataforma Livefyre.
-seo-description: Ejecute pruebas de resistencia contra la plataforma Livefyre.
-seo-title: Directiva de prueba de esfuerzo
-solution: Experience Manager
-title: Directiva de prueba de esfuerzo
-uuid: f2d49b55-f4fc-485f-9aea-a17ce64813ee
+description: Ejecute pruebas de estrés contra la plataforma Livefyre.
+title: Política de prueba de estrés
+exl-id: cb87b6ca-4107-46fc-9b1e-dc9399ec6d3a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
 
-
 # Directiva de prueba de estrés{#stress-test-policy}
 
-Ejecute pruebas de resistencia contra la plataforma Livefyre.
+Ejecute pruebas de estrés contra la plataforma Livefyre.
 
-Este documento proporciona directrices sobre la ejecución de pruebas de resistencia contra la plataforma Livefyre. Las pruebas ad hoc realizadas por clientes sin notificación están estrictamente prohibidas. Para obtener más información sobre [actividades prohibidas y permitidas](#c_stress_test_policy/section_mhs_bfz_vdb).
+Este documento proporciona instrucciones sobre la ejecución de pruebas de estrés contra la plataforma Livefyre. Las pruebas ad hoc por clientes sin notificación están estrictamente prohibidas. Para obtener más información sobre [actividades prohibidas y permitidas](#c_stress_test_policy/section_mhs_bfz_vdb).
 
 >[!NOTE]
 >
->Las pruebas de estrés son opcionales. No es necesario o se espera que realice una prueba de estrés. Adobe Livefyre realiza pruebas de resistencia y validaciones periódicas como parte del proceso de liberación. Si decide ejecutar pruebas, este documento describe los requisitos y las limitaciones para realizar pruebas de resistencia.
+>Las pruebas de estrés son opcionales. No es necesario o no se espera que realice una prueba de estrés. Adobe Livefyre realiza pruebas de resistencia y validaciones regulares como parte del proceso de liberación. Si decide ejecutar pruebas, este documento describe los requisitos y restricciones para realizar pruebas de estrés.
 
 ## Notificación {#section_ihs_bfz_vdb}
 
-Debe notificar a su especialista en éxito del cliente de Livefyre y al consultor técnico del Adobe acerca de las pruebas planificadas con tres o más semanas de anticipación de cuándo planea realizar el inicio.
+Debe notificar a su especialista en el éxito del cliente de Livefyre y al consultor técnico del Adobe de sus pruebas planificadas tres o más semanas antes de su inicio.
 
-Para notificar a Livefyre, envíe la siguiente información a su especialista en éxito de clientes de Livefyre y al consultor técnico de Adobe:
+Para notificar a Livefyre, envíe la siguiente información a su especialista en éxito de los clientes de Livefyre y al consultor técnico de Adobe:
 
-* Finalidad y descripción del ensayo
-* Caso de uso con el que está probando
-* Lista de cualquier API de Livefyre que planee utilizar en la prueba
+* Finalidad y descripción de la prueba
+* El caso de uso con el que está probando
+* Lista de cualquier API de Livefyre que planee usar en la prueba
 * Fecha, hora y duración de la prueba
-* Direcciones IP desde las cuales se iniciarán las pruebas
+* Direcciones IP desde las que se iniciarán las pruebas
 
 ## Requisitos {#section_khs_bfz_vdb}
 
-Sólo puede realizar pruebas si cumplen los siguientes requisitos:
+Solo puede realizar pruebas si cumplen los siguientes requisitos:
 
 * Debe recibir la aprobación explícita y por escrito de un consultor técnico de Adobe 3 semanas o más antes de comenzar la prueba.
 * **Sólo puede realizar pruebas en la red UAT.**
-* Debe realizar pruebas con escenarios realistas. Por ejemplo: no puede suponer que su propiedad vaya a atender *millones* de solicitudes de anuncios todos los días, porque no es un escenario realista. Si necesita ayuda para determinar si su escenario es realista o no, pregunte a su especialista en éxito para el cliente de Livefyre o al consultor técnico de Adobe.
-* Las pruebas deben realizarse durante el horario laboral del huso horario estándar del Pacífico \(UTC -7\).
-* Es posible que necesite producir datos y sus motivos para la prueba.
+* Debe realizar pruebas con escenarios realistas. Por ejemplo, puede no suponer que su propiedad vaya a atender *millones* de solicitudes de publicación todos los días, porque este no es un escenario realista. Si necesita ayuda para determinar si su escenario es realista o no, pregunte a su especialista en éxito del cliente de Livefyre o a su consultor técnico de Adobe.
+* Las pruebas deben realizarse durante el horario laboral para el huso horario estándar del Pacífico \(UTC -7\).
+* Es posible que necesite producir datos y su razonamiento para la prueba.
 
-## Gobierno {#section_mhs_bfz_vdb}
+## Administración {#section_mhs_bfz_vdb}
 
 Livefyre se reserva el derecho de finalizar una prueba en cualquier momento si realiza una prueba:
 
