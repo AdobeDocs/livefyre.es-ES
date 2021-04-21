@@ -1,26 +1,22 @@
 ---
-description: Informa a Livefyre de que actualice la URL de sincronización de usuarios de la red a la proporcionada. Devuelve un valor Boolean.
-seo-description: Informa a Livefyre de que actualice la URL de sincronización de usuarios de la red a la proporcionada. Devuelve un valor Boolean.
-seo-title: setUserSyncUrl (método de red)
-solution: Experience Manager
-title: setUserSyncUrl (método de red)
-uuid: cd067e90-a2da-4e3d-8e60-7eabfd86fc7f
+description: Informa a Livefyre de que actualice la URL de sincronización de usuarios de la red a la que se proporciona. Devuelve un valor Boolean.
+title: Método de red setUserSyncUrl
+exl-id: 8124ac0f-013f-4943-a33c-6cf8fe696f95
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 3%
+source-wordcount: '82'
+ht-degree: 4%
 
 ---
 
-
 # setUserSyncUrl (método de red){#setusersyncurl-network-method}
 
-Informa a Livefyre de que actualice la URL de sincronización de usuarios de la red a la proporcionada. Devuelve un valor Boolean.
+Informa a Livefyre de que actualice la URL de sincronización de usuarios de la red a la que se proporciona. Devuelve un valor Boolean.
 
 | Variable | Tipo | Descripción |
 |--- |--- |--- |
-| urlTemplate | Cadena | La URL para registrarse en Livefyre y sincronizar los ID de usuario. Requiere que &quot;`{id}`&quot; forme parte de la cadena URL proporcionada. |
+| urlTemplate | Cadena | La URL para registrarse en Livefyre y sincronizar los ID de usuario. Requiere que &quot;`{id}`&quot; forme parte de la cadena de URL proporcionada. |
 
 ## Ejemplo de Java {#section_nyl_ycs_rz}
 
@@ -28,7 +24,7 @@ Informa a Livefyre de que actualice la URL de sincronización de usuarios de la 
 network.setUserSyncUrl(urlTemplate); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 true
@@ -40,7 +36,7 @@ true
 network.setUserSyncUrl(urlTemplate); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 true
@@ -52,7 +48,7 @@ true
 $network->setUserSyncUrl(urlTemplate); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 true
@@ -64,7 +60,7 @@ true
 network.set_user_sync_url(urlTemplate) 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 True
@@ -76,7 +72,7 @@ True
 network.set_user_sync_url(urlTemplate) 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 True
