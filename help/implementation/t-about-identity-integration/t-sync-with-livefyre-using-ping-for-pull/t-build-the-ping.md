@@ -1,37 +1,33 @@
 ---
-description: Cree el ping para que la página ping Livefyre cuando los usuarios actualicen su perfil.
-seo-description: Cree el ping para que la página ping Livefyre cuando los usuarios actualicen su perfil.
-seo-title: Construir el ping
-solution: Experience Manager
-title: Construir el ping
-uuid: cb8cc043-9ea5-407c-b70f-3f1e37accdae
+description: Cree el ping para que su página pings Livefyre cuando los usuarios actualicen su perfil.
+title: Construya el ping
+exl-id: 626c200b-eaff-483f-b1eb-7d8993fe5e7c
 translation-type: tm+mt
-source-git-commit: f76dcd31e58b94856bf551009c2ac50c3233e516
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
 
+# Generar el Ping{#build-the-ping}
 
-# Genere el ping{#build-the-ping}
+Cree el ping para que su página pings Livefyre cuando los usuarios actualicen su perfil.
 
-Cree el ping para que la página ping Livefyre cuando los usuarios actualicen su perfil.
-
-Cuando Livefyre recibe una notificación de actualización con las `networkName` y `user_id`, el sistema enviará una solicitud de extracción a la dirección URL de extracción de Ping.
+Cuando Livefyre recibe una notificación de actualización con `networkName` y `user_id`, el sistema enviará una solicitud de extracción a su Ping para obtener la URL de extracción.
 
 >[!NOTE]
 >
->403/No autorizado en respuesta a su ping indica un `lftoken` no válido anexado a la solicitud de ping. Asegúrese de que `lftoken` es para `user_id` con privilegios de propietario de red o para el usuario del sistema. Si utiliza bibliotecas de Livefyre, utilice el método `buildLivefyreToken` para generar un token de sistema válido para la solicitud.
+>403/No autorizado en respuesta a su Ping indica un `lftoken` no válido anexado a la solicitud Ping. Asegúrese de que `lftoken` es para un `user_id` con privilegios de propietario de red o para el usuario del sistema. Si utiliza bibliotecas de Livefyre, utilice el método `buildLivefyreToken` para generar un token de sistema válido para la solicitud.
 
-1. Añada código a la página que llame a Livefyre cuando los usuarios actualicen su perfil. Construya la dirección URL de esta manera:
+1. Agregue código a la página que pings Livefyre cuando los usuarios actualicen su perfil. Construya la URL de esta manera:
 
    ```
    POSThttps://{networkName}.quill.fyre.co/api/v3.0/user/{user_id}/refresh?lftoken={token}
    ```
 
-   * **[!UICONTROL networkName:]** El nombre de red proporcionado por Livefyre.
-   * **[!UICONTROL user_id:]** ID del usuario.
-   * **[!UICONTROL token:]** Distintivo válido del sistema.
+   * **[!UICONTROL networkName:]** Su Livefyre ha proporcionado el nombre de red.
+   * **[!UICONTROL user_id:]** El ID de su usuario.
+   * **[!UICONTROL token:]** Token válido del sistema.
 
 1. Extraiga la estructura de la solicitud.
