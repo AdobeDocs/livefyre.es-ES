@@ -1,27 +1,23 @@
 ---
-description: Genere el punto final de extracción para recibir y responder a las solicitudes de acceso al sistema de identidad de usuario.
-seo-description: Genere el punto final de extracción para recibir y responder a las solicitudes de acceso al sistema de identidad de usuario.
-seo-title: Generar el extremo de extracción
-solution: Experience Manager
+description: Cree el punto final de extracción para recibir y responder a las solicitudes de acceso a su sistema de identidad de usuario.
 title: Generar el extremo de extracción
-uuid: 1703152f-aaa7-4a88-aa33-d9f8957ad42b
+exl-id: cc66365b-0d5f-4a0b-954f-ee014e75d4a2
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
 
+# Generar el extremo de extracción{#build-the-pull-endpoint}
 
-# Genere el extremo de extracción{#build-the-pull-endpoint}
-
-Genere el punto final de extracción para recibir y responder a las solicitudes de acceso al sistema de identidad de usuario.
+Cree el punto final de extracción para recibir y responder a las solicitudes de acceso a su sistema de identidad de usuario.
 
 1. Cree un extremo HTTPS que reciba solicitudes de Livefyre y responda con un objeto JSON que contenga los datos de usuario más recientes.
 
    >[!NOTE]
    >
-   >Este extremo debe ser accesible. También se recomienda encarecidamente que tanto las solicitudes como las respuestas se envíen a través del protocolo HTTPS.
+   >Se debe poder acceder a este extremo. También se recomienda encarecidamente que tanto las solicitudes como las respuestas se envíen a través del protocolo HTTPS.
 
-1. Registre el Extremo con Studio.
+1. Registre el extremo con Studio.
