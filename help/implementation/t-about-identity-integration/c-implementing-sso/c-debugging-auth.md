@@ -1,26 +1,22 @@
 ---
-description: Puede iniciar sesión a través de la consola durante la integración y la prueba para depurar la autorización.
-seo-description: Puede iniciar sesión a través de la consola durante la integración y la prueba para depurar la autorización.
-seo-title: Delegado de autenticación de depuración
-solution: Experience Manager
-title: Delegado de autenticación de depuración
-uuid: fb0c7396-190e-4dc9-bf26-23dde9efd45d
+description: Puede iniciar sesión de un usuario a través de la consola durante la integración y la prueba para depurar la autorización.
+title: Depuración del delegado de autenticación
+exl-id: fa1c17fa-5aba-4f4c-9217-5823af30af61
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
 
-
 # Depuración del delegado de autenticación{#debugging-auth-delegate}
 
-Puede iniciar sesión a través de la consola durante la integración y la prueba para depurar la autorización.
+Puede iniciar sesión de un usuario a través de la consola durante la integración y la prueba para depurar la autorización.
 
-Inicie sesión en la consola con el `auth.authenticate` (token) siguiente y pase un token de usuario de Livefyre para autenticar a los usuarios de la página.
+Inicie sesión de un usuario a través de la consola utilizando el siguiente `auth.authenticate` (token) y pase un token de usuario de Livefyre para autenticar a los usuarios en la página.
 
-También puede modificar el ejemplo que se muestra arriba y agregar el siguiente fragmento en línea en su JavaScript para iniciar sesión rápidamente en Livefyre (requiere una referencia a auth).
+También puede modificar el ejemplo mostrado arriba y agregar el siguiente fragmento en línea en su JavaScript para iniciar sesión rápidamente en Livefyre (requiere una referencia a auth).
 
 ```
 window.addEventListener('userAuthenticated', function(data) { 
@@ -29,4 +25,3 @@ window.addEventListener('userAuthenticated', function(data) {
  }); 
 });
 ```
-
