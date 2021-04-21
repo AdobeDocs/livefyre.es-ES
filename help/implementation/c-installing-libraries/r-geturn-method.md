@@ -1,22 +1,18 @@
 ---
-description: Este método devuelve el URN de esta red.
-seo-description: Este método devuelve el URN de esta red.
-seo-title: getUrn Network (método)
-solution: Experience Manager
-title: getUrn Network (método)
-uuid: e525bc54-d4df-490f-bd6a-f524f7eff211
+description: Este método devuelve el URN para esta red.
+title: getUrn Network (método de red)
+exl-id: 2bab5b2a-cf5b-46bb-8163-8ea65ec44bd7
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
 
-
 # getUrn Network Method{#geturn-network-method}
 
-Este método devuelve el URN de esta red.
+Este método devuelve el URN para esta red.
 
 ## Ejemplo de Java {#section_nyl_ycs_rz}
 
@@ -24,7 +20,7 @@ Este método devuelve el URN de esta red.
 network.getUrn(); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 "urn:livefyre:network=`example.fyre.co`" 
@@ -36,7 +32,7 @@ Salida de muestra:
 network.getUrn(); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 "urn:livefyre:network=`example.fyre.co`" 
@@ -48,7 +44,7 @@ Salida de muestra:
 $network->getUrn(); 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 "urn:livefyre:network=`example.fyre.co`" 
@@ -60,7 +56,7 @@ Salida de muestra:
 network.urn 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 "urn:livefyre:network=`example.fyre.co`" 
@@ -72,9 +68,8 @@ Salida de muestra:
 network.urn 
 ```
 
-Salida de muestra:
+Salida de ejemplo:
 
 ```
 "urn:livefyre:network=`example.fyre.co`" 
 ```
-
