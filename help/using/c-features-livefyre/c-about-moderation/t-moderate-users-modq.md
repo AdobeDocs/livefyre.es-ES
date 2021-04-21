@@ -1,41 +1,37 @@
 ---
-description: El panel Resumen del usuario proporciona información del usuario para facilitar la moderación.
-seo-description: El panel Resumen del usuario proporciona información del usuario para facilitar la moderación.
-seo-title: Moderar usuarios
-solution: Experience Manager
+description: El panel Resumen de usuarios proporciona información del usuario para ayudar en la moderación.
 title: Moderar usuarios
-uuid: b801cdfe-05ea-4c29-bb9b-0f6a33cb11d1
+exl-id: 6165ae9e-b210-46b8-87e6-6e7af3430b82
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
-
 # Moderar usuarios{#moderate-users}
 
-El panel Resumen del usuario proporciona información del usuario para facilitar la moderación.
+El panel Resumen de usuarios proporciona información del usuario para ayudar en la moderación.
 
-De forma predeterminada, muestra información para el autor del contenido seleccionado. Haga clic en el nombre de usuario de un indicador para ver su información.
+De forma predeterminada, muestra información para el autor del contenido seleccionado. Haga clic en el nombre de usuario de un marcador para ver su información.
 
 >[!NOTE]
 >
->El contenido transmitido solo muestra el origen del contenido y el nombre de usuario y el avatar del autor (si están disponibles). La moderación del usuario no está disponible para los autores de contenido de flujo.
+>El contenido transmitido solo muestra la fuente del contenido, el nombre de usuario y el avatar del autor (si están disponibles). La moderación del usuario no está disponible para los autores de contenido de Stream.
 
-Se muestra la siguiente información (si está disponible) para cada uno de los usuarios registrados de Livefyre:
+La siguiente información se muestra (si está disponible) para cada uno de los usuarios registrados de Livefyre:
 
-* **[!UICONTROL Username]**:: su nombre de usuario para la red.
-* **[!UICONTROL Display name]**:: su nombre para mostrar para la red.
-* **[!UICONTROL Avatar]**:: su avatar para su red.
-* **[!UICONTROL Total number of posts]** por el autor a través de la red: vínculos a una lista de contenido de ese usuario en Studio. El total se muestra por el número de piezas Aprobadas, Pendientes, Bozo’d o Rastreadas.
-* **[!UICONTROL Total #Flags]**:: el número total de indicadores aplicados a las publicaciones de este autor.
-* **[!UICONTROL Join date]**:: la fecha en que crearon una cuenta de usuario en la red.
-* **[!UICONTROL Email]**:: su dirección de correo electrónico enumerada.
-* **[!UICONTROL IP Address]**:: su dirección IP, determinada por Livefyre.
-* **[!UICONTROL Bio]**:: descripción del usuario.
-* **[!UICONTROL Bans]**:: Sitios de listas para los que el usuario ha sido prohibido o Bozo’d.
-* **[!UICONTROL Whitelists]**:: listas de sitios para los que se ha permitido la inclusión del usuario.
+* **[!UICONTROL Username]**: su nombre de usuario para su red.
+* **[!UICONTROL Display name]**: su nombre para mostrar para la red.
+* **[!UICONTROL Avatar]**: su avatar para su red.
+* **[!UICONTROL Total number of posts]** por el autor a través de la red: vincula a una lista de contenido de ese usuario en Studio. El total se muestra por el número de piezas Aprobadas, Pendientes, Bozo&#39;d o Pegadas.
+* **[!UICONTROL Total #Flags]**: el número total de indicadores aplicados a las publicaciones de este autor.
+* **[!UICONTROL Join date]**: la fecha en la que crearon una cuenta de usuario en la red.
+* **[!UICONTROL Email]**: su dirección de correo electrónico enumerada.
+* **[!UICONTROL IP Address]**: su dirección IP, tal como determine Livefyre.
+* **[!UICONTROL Bio]**: descripción del usuario.
+* **[!UICONTROL Bans]**: enumera los sitios para los que el usuario ha sido prohibido o Bozo&#39;d.
+* **[!UICONTROL Whitelists]**: enumera los sitios para los que se ha permitido al usuario.
 
-Para obtener más información sobre cómo puede moderar usuarios en la ficha Contenido de la aplicación, consulte [Moderar con contenido de la aplicación](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content).
+Para obtener más información sobre cómo moderar a los usuarios en la ficha Contenido de la aplicación , consulte [Moderar usando contenido de la aplicación](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content).
