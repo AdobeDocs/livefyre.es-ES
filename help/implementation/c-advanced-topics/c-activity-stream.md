@@ -1,28 +1,24 @@
 ---
-description: Descubra cómo monitorear y almacenar el contenido generado por el usuario que fluye a través del sistema Livefyre.
-seo-description: Descubra cómo monitorear y almacenar el contenido generado por el usuario que fluye a través del sistema Livefyre.
-seo-title: Flujo de actividad
-solution: Experience Manager
+description: Descubra cómo monitorizar y almacenar el contenido generado por el usuario que fluye a través del sistema Livefyre.
 title: Flujo de actividad
-uuid: f40deec1-58ab-41c9-aac4-d2d8c9192bb9
+exl-id: 4a552034-96e4-4f1c-9965-3495992005f1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '559'
 ht-degree: 1%
 
 ---
 
-
 # Flujo de actividad {#activity-stream}
 
-Descubra cómo monitorear y almacenar el contenido generado por el usuario que fluye a través del sistema Livefyre.
+Descubra cómo monitorizar y almacenar el contenido generado por el usuario que fluye a través del sistema Livefyre.
 
-Utilice la API de flujo de Actividad para consumir los datos generados por el usuario que fluyen a través del sistema Livefyre en su red o sitio. Por ejemplo: utilice los datos de esta API para actualizar los índices de búsqueda en función de las clasificaciones o para administrar las insignias de los usuarios en un sistema de terceros en función de su actividad.
+Utilice la API de flujo de actividad para consumir los datos generados por el usuario que fluyen a través del sistema Livefyre de su red o sitio. Por ejemplo: utilice los datos de esta API para actualizar los índices de búsqueda según las clasificaciones o para administrar los distintivos de los usuarios en un sistema de terceros basado en su actividad.
 
 API de flujo de actividad:
 
-Para obtener una lista completa de los extremos disponibles, consulte la sección Referencia de la API de Livefyre.
+Para obtener una lista completa de los extremos disponibles, consulte la sección Referencia de la API de Livefyre .
 
 ## Recursos {#section_aql_n4l_b1b}
 
@@ -42,28 +38,28 @@ GET https://bootstrap.livefyre.com/api/v3.1/activity/
 
 ### Parámetros
 
-* **recurso:** ** cadenaURN del objeto para el que se solicitan datos de actividad.
+* **recurso:** ** cadenaUna dirección URL del objeto para el que solicita datos de actividad.
 
-* **as:** ** integerEntero de 64 bits que representa el ID del último evento recibido. Especifique ‘0’ si no tiene datos anteriores.
+* **since:** ** integerUn entero de 64 bits que representa el ID del último evento que recibió. Especifique &quot;0&quot; si no tiene datos anteriores.
 
 ## Cadenas URN {#section_skl_q4l_b1b}
 
 Ejemplos:
 
-* **urn:livefyre:** `example.fyre.co` El flujo de actividad de  `example.fyre.co`.
-* **urn:livefyre:** `example.fyre.co:site=54321` El flujo de actividad del sitio 54321 en la  `example.fyre.co` red.
+* **urn:livefyre:** `example.fyre.co` el flujo de actividad de  `example.fyre.co`.
+* **urn:livefyre:** `example.fyre.co:site=54321` flujo de actividad del sitio 54321 bajo la  `example.fyre.co` red.
 
 ## Directivas de token {#section_nwh_c5j_11b}
 
-La API de flujo de Actividad utiliza un testigo del portador de OAuth para la autenticación. Los tokens de portador forman parte de la especificación OAuth 2.0 y se describen oficialmente [aquí](https://tools.ietf.org/html/rfc6750#section-1.2).
+La API de flujo de actividad utiliza un token del portador de OAuth para la autenticación. Los tokens del portador forman parte de la especificación OAuth 2.0 y se describen oficialmente [aquí](https://tools.ietf.org/html/rfc6750#section-1.2).
 
 Un token contiene varias cosas:
 
 * Quién creó el token.
 * A quién se le dio un token.
-* Hora a la que ya no es válida.
+* Momento en el que ya no es válido.
 * Lo que estamos operando.
-* Lista de permisos que se han concedido.
+* Una lista de permisos que se han concedido.
 
 ### Pasos
 
@@ -71,9 +67,9 @@ Los pasos para crear un token de portador de OAuth incluyen:
 
 * Cree un mapa/diccionario que contenga el emisor, la audiencia, el asunto, la caducidad y el ámbito.
 * Utilice la biblioteca JWT, con su secreto, para codificar un token JWT.
-* Añadir &quot;Autenticación: Portador&quot; a su solicitud HTTP.
+* Añadir &quot;Autenticación: Portador&quot; a su petición HTTP.
 
-El ejemplo de código que se muestra a continuación muestra los pasos anteriores en Python:
+El siguiente ejemplo de código muestra los pasos anteriores en Python:
 
 ```
 import time 
@@ -96,13 +92,13 @@ data = dict(iss=network_urn, aud=network_urn, sub=network_urn, scope=api_urn, ex
 token = jwt.encode(data, key=network_secret)
 ```
 
-Cuando las teclas del distintivo portador se definen de la siguiente manera:
+Donde las claves del token al portador se definen de la siguiente manera:
 
-* **iss** *(Issuer)* Una entidad con autoridad para generar tokens. Puede ser Livefyre, un sitio o una red. (Para que una nota llegue tarde a la escuela, es su padre).
-* **aud** *(Audiencia)* La persona para la que se generó este token. Si está creando el token usted mismo, es el sitio o la red.
-* **sub** *(Subject)* El asunto para el que se van a conceder permisos. Por ejemplo, si está trabajando en una colección, el asunto debe ser el identificador de la colección. (En la nota del ejemplo de la escuela, es usted.)
+* **iss** *(Emitido)*  Una entidad con la autoridad para generar tokens. Puede ser Livefyre, un sitio o una red. (Para que una nota llegue tarde a la escuela, es su padre).
+* **aud** *(Audiencia)* Persona para la que se generó este token. Si está creando el token usted mismo, es el sitio o la red.
+* **** *(Asunto)* El asunto para el que se deben conceder permisos. Por ejemplo, si está operando en una colección, el asunto debe ser el identificador de la colección. (En la nota del ejemplo escolar, eres tú.)
 * **exp** *(Caducidad)* Un punto en el tiempo en el que el token ya no es válido.
-* **scope** *(Scope)* Es una lista de los permisos concedidos en el asunto. Un ejemplo es &quot;tarde para la escuela&quot;. El nombre de una API es otro ejemplo.
+* **ámbito** *(Ámbito)* Es una lista de los permisos otorgados en el asunto. Un ejemplo es &quot;tarde para la escuela&quot;. El nombre de una API es otro ejemplo.
 
 ## Ejemplo {#section_dhl_ytj_11b}
 
@@ -249,7 +245,7 @@ curl -H "Authorization: Bearer <BEARER TOKEN>" https://bootstrap.livefyre.com/ap
 } 
 ```
 
-Una respuesta con datos nuevos desde la última solicitud:
+Una respuesta con nuevos datos desde la última solicitud:
 
 ```
 { 
@@ -275,9 +271,9 @@ Una respuesta con datos nuevos desde la última solicitud:
 
 ## Notas {#section_hj3_crj_11b}
 
-* Una llamada correcta a la API generará un código de estado HTTP 200. Todos los demás códigos de estado deben considerarse errores.
-* Si no es nulo, utilice el valor de `data.meta.cursor.next` como parámetro `since` de la siguiente solicitud.
-* Si el valor de `data.meta.cursor.next` es nulo, significa que no hay datos nuevos que consumir. Luego debe volver a solicitar con el mismo valor `since` para ver si han llegado nuevos datos.
+* Una llamada correcta a la API devolverá un código de estado HTTP 200. Todos los demás códigos de estado deben considerarse errores.
+* Si no es nulo, use el valor de `data.meta.cursor.next` como parámetro `since` de la siguiente solicitud.
+* Si el valor de `data.meta.cursor.next` es nulo, significa que no hay datos nuevos que consumir. Debe volver a solicitar más adelante con el mismo valor `since` para ver si han llegado nuevos datos.
 * Como práctica, debe solicitar inmediatamente más datos si el valor `data.meta.cursor.next` no es nulo.
 * Aproximadamente dos horas de datos recientes están disponibles a través de esta API en producción.
-* Debe configurar los procesos para sondear este extremo con frecuencia en cronjob a fin de evitar que falten datos. Un intervalo de cinco minutos debería ser perfectamente adecuado para la mayoría de las implementaciones.
+* Debe configurar sus procesos para sondear este extremo con frecuencia en cronjob para evitar que falten datos. Un intervalo de cinco minutos debería ser perfectamente adecuado para la mayoría de las implementaciones.
