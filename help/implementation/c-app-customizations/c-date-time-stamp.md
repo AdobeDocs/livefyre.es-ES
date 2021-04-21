@@ -1,20 +1,16 @@
 ---
 description: Personalice las marcas de fecha y hora con Livefyre.js.
-seo-description: Personalice las marcas de fecha y hora con Livefyre.js.
-seo-title: Personalización de la marca de fecha y hora
-solution: Experience Manager
-title: Personalización de la marca de fecha y hora
-uuid: 632ea405-56b7-4664-8d2b-0dd0a7611bd8
+title: Personalizar la marca de fecha y hora
+exl-id: 77130793-00ba-4a5c-8318-4221d971da6c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
 
-
-# Personalización de la marca de fecha y hora{#customize-the-date-and-time-stamp}
+# Personalizar la marca de fecha y hora{#customize-the-date-and-time-stamp}
 
 Personalice las marcas de fecha y hora con Livefyre.js.
 
@@ -22,21 +18,21 @@ Las aplicaciones de Livefyre proporcionan el parámetro de opción, datetimeForm
 
 * [Terminología](#c_date_time_stamp/section_xsk_jn4_xz)
 * [Formato](#c_date_time_stamp/section_ynx_gn4_xz)
-* [Designación de símbolo](#c_date_time_stamp/section_inq_2n4_xz)
+* [Designación de símbolos](#c_date_time_stamp/section_inq_2n4_xz)
 
 ## Terminología {#section_xsk_jn4_xz}
 
-* **Las** Marcas de hora absolutas se definen como horas exactas y específicas (por ejemplo: 1 de enero de 2012 a las 12:00 p.m.)
-* **Las** Marcas de hora relativas se definen como tiempos generales y menos precisos (por ejemplo, hace 25 segundos, hace 14 minutos, hace un día, hace un año, etc.)
+* **Las** Marcas de hora absolutas se definen como horas exactas y específicas (por ejemplo, 1 de enero de 2012 a las 12:00 h)
+* **Las** marcas de tiempo relativas se definen como tiempos generales y menos precisos (por ejemplo, hace 25 segundos, hace 14 minutos, hace 1 día, hace 1 año, etc.)
 
 ## Formato {#section_ynx_gn4_xz}
 
 El parámetro datetimeFormat tiene el siguiente comportamiento predeterminado cuando no se proporciona ningún argumento:
 
-* Formato de fecha y hora de: MMMM d aaaa (para el 8 de enero de 2012)
-* 20160 minutos (14 días) hasta el tiempo absoluto (14 días hasta que las marcas de hora relativas se conviertan en marcas de hora absolutas)
+* Formato de fecha y hora: MMMM d aaaa (para el 8 de enero de 2012)
+* 20160 Minutos (14 días) hasta el tiempo absoluto (14 días hasta que las marcas de tiempo relativas se conviertan en marcas de tiempo absolutas)
 
-El parámetro datetimeFormat acepta tres tipos de argumento posibles: datetime, format y string.
+El parámetro datetimeFormat acepta tres tipos de argumento posibles: fecha, hora, formato y cadena.
 
 ```
 // Example 1 (Datetime format string)  
@@ -51,7 +47,7 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-Objeto que especifica AbsoluteFormat y/o minutesUntilAbsoluteTime. Un valor de minutosHastaAbsoluteTime con un valor de -1 hará que el tiempo sea absoluto de forma inmediata.
+Un objeto que especifica AbsoluteFormat y/o minutesUntilAbsoluteTime. Un minutesUntilAbsoluteTime con un valor de -1 hará que el tiempo sea absoluto inmediato.
 
 ```
 // Example 2 (Object)  
@@ -69,7 +65,7 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-Una función que toma como argumento un objeto Date y devuelve una cadena datetime para que se muestre
+Una función que toma como argumento un objeto Date y devuelve una cadena datetime que se va a mostrar
 
 ```
 // Example 3 (Function accepting a Date object, returning a datetime string to display) 
@@ -122,14 +118,14 @@ Funciones de formato de fecha y hora siguiendo la especificación de patrón def
   ''       single quote            (Literal)           'o''clock'
 ```
 
-Los elementos marcados con ‘*’ todavía no son compatibles.
+Los elementos marcados con &quot;*&quot; aún no son compatibles.
 
-Los elementos marcados con ‘#’ funcionan de forma distinta a Java.
+Los elementos marcados con &quot;#&quot; funcionan de forma diferente a Java.
 
 El recuento de letras de patrón determina el formato.
 
-* **Texto:** 4 o más, utilice el formulario completo. Menos de 4, utilice un formato corto o abreviado si existe. (Por ejemplo: &quot;EEEE&quot; produce &quot;lunes&quot;, &quot;EEE&quot; produce &quot;Mon&quot;).
-* **Número:** el número mínimo de dígitos. Los números más cortos se rellenan con cero a esta cantidad (por ejemplo: Si &quot;m&quot; produce &quot;6&quot;, &quot;mm&quot; produce &quot;06&quot;.). El año se manipula especialmente; es decir, si el recuento de ‘y’ es 2, el año se truncará a 2 dígitos. (Por ejemplo: si &quot;aaaa&quot; produce &quot;1997&quot;, &quot;yy&quot; produce &quot;97&quot;.) A diferencia de otros campos, los segundos de fracción se rellenan a la derecha con cero.
-* **Texto y número:** 3 o superior, utilice texto. Número de uso inferior a 3. (Por ejemplo: &quot;M&quot; produce &quot;1&quot;, &quot;MM&quot; produce &quot;01&quot;, &quot;MMM&quot; produce &quot;Jan&quot; y &quot;MMMM&quot; produce &quot;January&quot;.)
+* **Texto:** 4 o más, utilice el formulario completo. Menos de 4, utilice un formulario corto o abreviado si existe. (Por ejemplo: &quot;EEEE&quot; produce &quot;lunes&quot;, &quot;EEE&quot; produce &quot;Mon&quot;.)
+* **Número:** el número mínimo de dígitos. Los números más cortos se añaden con cero a esta cantidad (por ejemplo: Si &quot;m&quot; produce &quot;6&quot;, &quot;mm&quot; produce &quot;06&quot;.). El año se manipula especialmente; es decir, si el recuento de &quot;y&quot; es 2, el año se truncará a 2 dígitos. (Por ejemplo: si &quot;yyyy&quot; produce &quot;1997&quot;, &quot;yy&quot; produce &quot;97&quot;.) A diferencia de otros campos, los segundos fraccionarios se añaden a la derecha con cero.
+* **Texto y número:** 3 o más, use texto. Menor que 3, utilice número. (Por ejemplo: &quot;M&quot; produce &quot;1&quot;, &quot;MM&quot; produce &quot;01&quot;, &quot;MMM&quot; produce &quot;Jan&quot; y &quot;MMMM&quot; produce &quot;Enero&quot;.)
 
-Cualquier carácter del patrón que no esté en los rangos de [‘a’..’z’] y [‘A’..’Z’] se tratará como texto entre comillas. Por ejemplo, caracteres como ‘:’, ‘.’, ‘, ‘#’ y ‘@’ aparecerán en el texto de tiempo resultante aunque no se acepten entre comillas simples.
+Cualquier carácter del patrón que no esté en los rangos de [‘a’..’z’] y [‘A’.&quot;Z’] se tratará como texto citado. Por ejemplo, en el texto temporal resultante aparecerán caracteres como ‘:’, ‘.’, ‘, ‘#’ y ‘@’, aunque no se acepten entre comillas simples.
