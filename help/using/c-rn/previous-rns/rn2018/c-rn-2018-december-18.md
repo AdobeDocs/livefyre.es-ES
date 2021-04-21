@@ -1,18 +1,14 @@
 ---
 description: Notas de la versión de la versión del 18 de diciembre de 2018.
-seo-description: Notas de la versión de la versión del 18 de diciembre de 2018.
-seo-title: Notas de la versión
-solution: Experience Manager
-title: Notas de la versión de Livefyre, 18 de diciembre de 2018
-uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
+title: 'Notas de la versión de Livefyre: 18 de diciembre de 2018'
+exl-id: a8efbc26-043e-4c0f-8d60-2d894d03f67a
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 5%
+source-wordcount: '81'
+ht-degree: 3%
 
 ---
-
 
 # Notas de la versión - 18 de diciembre de 2018
 
@@ -20,11 +16,11 @@ ht-degree: 5%
 
 ## Mejora
 
-* Se ha implementado un ajuste que habilita la configuración de la cuenta empresarial de Instagram de forma predeterminada.
+* Se ha implementado una configuración que habilita la configuración de cuenta de Instagram Business de forma predeterminada.
 
 ## Correcciones de errores
 
-* Se corrigió un problema en el cual la búsqueda social con la regla de Instagram no siempre funcionaba.
-* Se corrigió un problema en el cual la búsqueda de URL parecía incoherente al devolver el resultado.
-* Se corrigió un problema en el cual los flujos con caracteres coreanos no extraen contenido.
-* Se corrigió un problema en el cual el flujo con la regla de Instagram no podía recoger anuncios nuevos.
+* Se ha corregido un problema por el cual la búsqueda social con la regla Instagram no siempre funcionaba.
+* Se ha corregido un problema en el cual la búsqueda de URL parecía incoherente al devolver el resultado.
+* Se ha corregido un problema en el cual las transmisiones con caracteres coreanos no extraen contenido.
+* Se ha corregido un problema por el cual el flujo con la regla de Instagram no podía recoger anuncios nuevos.
