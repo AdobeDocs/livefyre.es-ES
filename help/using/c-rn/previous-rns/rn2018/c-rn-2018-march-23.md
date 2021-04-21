@@ -1,18 +1,14 @@
 ---
 description: Notas de la versión de la versión del 23 de marzo de 2018.
-seo-description: Notas de la versión de la versión del 23 de marzo de 2018.
-seo-title: 23 de marzo de 2018
-solution: Experience Manager
 title: 23 de marzo de 2018
-uuid: b69b8715-ace4-48e0-8f54-ce4e12170ef3
+exl-id: 85fd6f79-7fa8-425e-b4c7-2e1635d6ef17
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '202'
 ht-degree: 7%
 
 ---
-
 
 # 23 de marzo de 2018{#march}
 
@@ -22,14 +18,14 @@ Notas de la versión de la versión del 23 de marzo de 2018.
 
 Las siguientes funciones son nuevas en la versión de producción de esta versión:
 
-* **Nuevo en producción:** Facebook creó una actualización de seguridad para el inicio de sesión en Facebook que causará que el inicio de sesión en Facebook de un cliente no funcione correctamente. Para solucionar este problema, debe:
+* **Novedades en Producción:** Facebook creó una actualización de seguridad del inicio de sesión de Facebook que hará que el inicio de sesión de Facebook de un cliente no funcione correctamente. Para solucionar este problema, debe:
 
-   1. Añada la siguiente dirección URL al campo **[!UICONTROL Valid OAuth redirect URIs]** en Configuración de OAuth de cliente. Reemplace `<networkname>` con el nombre de red correcto:
+   1. Agregue la siguiente URL al campo **[!UICONTROL Valid OAuth redirect URIs]** en Configuración de OAuth de cliente. Sustituya `<networkname>` por su nombre de red correcto:
       `https://identity.livefyre.com/<networkname>/api/v1.0/public/profile/social/complete/facebook_fyre`
 
    1. Cambie **[!UICONTROL Use Strict Mode for Redirect URI]** a **[!UICONTROL Yes]**.
 
-* **Nuevo en UAT: ahora** puede elegir el umbral de confianza para las etiquetas inteligentes en los flujos. La definición de la puntuación de precisión (0-100) para las etiquetas permite controlar la precisión de los recursos que se están recuperando.
+* **Novedades en UAT:**  ahora puede elegir el umbral de confianza para las etiquetas inteligentes en los flujos. La configuración de la puntuación de precisión (0-100) para las etiquetas permite controlar la precisión de los recursos que se recuperan.
 
 ## Problemas {#section_ehw_ndt_wcb}
 
@@ -39,14 +35,13 @@ Los problemas de las tablas siguientes se resolvieron en esta versión.
 
 | **Tipo de incidencia** | **Componente** | **Nota de la versión** |
 |---|---|---|
-| Error, | Muro de los medios | Se corrigió un problema en el Muro de medios en el cual no se podía hacer clic en las etiquetas cuando se agregaba una publicación de Instagram desde una regla de flujo. |
+| Error, | Muro de los medios | Se ha corregido un problema en el muro de medios en el cual no se podía hacer clic en las etiquetas cuando se agregaba una publicación de Instagram desde una regla de flujo. |
 | Error, | ModQ | Se ha corregido un problema con ModQ que no se cargaba correctamente. |
-| Error, | ModQ | Se corrigió un problema en el cual la incrustación de audio causaba que ModQ dejara de funcionar. |
+| Error, | ModQ | Se ha corregido un problema por el cual la incrustación de audio provocaba que ModQ dejara de funcionar. |
 
 ## Versión de UAT
 
 | **Tipo de incidencia** | **Componente** | **Nota de la versión** |
 |---|---|---|
 | Mejora | Tira de película | Se han corregido algunos problemas para que la tira de película sea más accesible. |
-| Mejora | Studio | Ahora puede iniciar sesión en Livefyre mediante un inicio de sesión en IMS. |
-
+| Mejora | Studio | Ahora puede iniciar sesión en Livefyre utilizando un inicio de sesión de IMS. |
