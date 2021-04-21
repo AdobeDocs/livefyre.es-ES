@@ -1,25 +1,21 @@
 ---
-description: Instalación de las bibliotecas para tareas del lado del servidor de Livefyre
-seo-description: Instalación de las bibliotecas para tareas del lado del servidor de Livefyre
-seo-title: Instalación
-solution: Experience Manager
+description: Instalación de bibliotecas para tareas del lado del servidor de Livefyre
 title: Instalación
-uuid: f60b4cc7-178f-4a16-ba75-f1d0d171c52f
+exl-id: d74f85be-14c0-4f6d-8f16-b688282c0eb0
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
-
 
 # Instalación{#installation}
 
 
 ## Java {#section_yd3_3zk_rz}
 
-Para instalar la biblioteca Java, agregue esta dependencia al POM del proyecto:
+Para instalar la biblioteca Java, agregue esta dependencia al POM de su proyecto:
 
 ```
 <dependency> 
@@ -75,13 +71,13 @@ La biblioteca NodeJS depende de los siguientes módulos:
 "jsonwebtoken": ">=5.0.0" 
 ```
 
-Para obtener más información, lea los documentos NodeJs o consulte la fuente en [GitHub](https://github.com/Livefyre/livefyre-nodejs-utils).
+Para obtener más información, lea los documentos de NodeJs o vea la fuente en [GitHub](https://github.com/Livefyre/livefyre-nodejs-utils).
 
 Vínculos: [Restler](https://github.com/danwrong/restler), [Validator](https://www.npmjs.org/package/validator), [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken).
 
 ## PHP {#section_txj_xwq_rz}
 
-Para instalar la biblioteca PHP con Composer, agregue esto a su composer.json:
+Para instalar la biblioteca PHP con Composer, añádala a su composer.json:
 
 ```
 "require": { 
@@ -89,19 +85,19 @@ Para instalar la biblioteca PHP con Composer, agregue esto a su composer.json:
 }
 ```
 
-A continuación, instale con:
+A continuación, instale utilizando:
 
 ```
 composer.phar install 
 ```
 
-Si **no** utiliza Composer, obtenga la versión más reciente de la biblioteca mediante:
+Si **no** utiliza el Compositor, obtenga la versión más reciente de la biblioteca utilizando:
 
 ```
 git clone https://github.com/Livefyre/livefyre-php-utils 
 ```
 
-Para utilizar la biblioteca, agregue lo siguiente a su script PHP:
+Para usar la biblioteca, agregue lo siguiente a su script PHP:
 
 ```
 require_once("/path/to/livefyre-php-utils/src/Livefyre.php"); 
@@ -115,7 +111,7 @@ La biblioteca PHP tiene dependencias en los siguientes módulos:
 "firebase/php-jwt": ">=2.0" 
 ```
 
-Para obtener más información, lea los documentos PHP o consulte la fuente en [GitHub](https://github.com/Livefyre/livefyre-php-utils).
+Para obtener más información, lea los documentos PHP o vea la fuente en [GitHub](https://github.com/Livefyre/livefyre-php-utils).
 
 Vínculos: [ext-json](https://php.net/manual/en/book.json.php), [Solicitudes](https://github.com/rmccue/Requests/), [PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
 
@@ -135,23 +131,23 @@ enum34 == 1.0
 ordereddict == 1.1 if sys.version_info[:2] < 2.7 
 ```
 
-Para obtener más información, lea los documentos Python o consulte la fuente en [GitHub](https://github.com/Livefyre/livefyre-python-utils).
+Para obtener más información, lea los documentos de Python o vea la fuente en [GitHub](https://github.com/Livefyre/livefyre-python-utils).
 
 Vínculos: [PyJWT](https://github.com/progrium/pyjwt), [Solicitudes](https://github.com/kennethreitz/requests), [Python-Dateutil](https://pypi.python.org/pypi/python-dateutil), [Enum34](https://pypi.python.org/pypi/enum34), [OrderedDict](https://pypi.python.org/pypi/ordereddict)
 
 ## Ruby {#section_fv2_tzq_rz}
 
-Para instalar la biblioteca Ruby, agregue esta línea al archivo de secuencias de comandos de la aplicación:
+Para instalar la biblioteca Ruby, añada esta línea al Gemfile de su aplicación:
 
 ```
 gem 'livefyre' 
 ```
 
-O instálela usted mismo:
+O instálelo usted mismo:
 
 `$ gem install livefyre`
 
-La biblioteca Ruby depende de los siguientes módulos:
+La biblioteca Ruby tiene dependencias en los siguientes módulos:
 
 ```
 "jwt", '~> 1.4', ">= 1.4.1"  
@@ -161,4 +157,4 @@ La biblioteca Ruby depende de los siguientes módulos:
 
 Para obtener más información, lea los documentos de Ruby o consulte la fuente en [GitHub](https://github.com/Livefyre/livefyre-ruby-utils).
 
-Vínculos: [Ruby JWT](https://github.com/firebase/php-jwt/tree/v2.0.0), [Cliente REST](https://github.com/rest-client/rest-client/), [Accesible](https://github.com/sporkmonger/addressable)
+Vínculos: [Ruby JWT](https://github.com/firebase/php-jwt/tree/v2.0.0), [REST Client](https://github.com/rest-client/rest-client/), [Direccionable](https://github.com/sporkmonger/addressable)
