@@ -1,27 +1,23 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: buildCollection (método de sitio)
-solution: Experience Manager
-title: buildCollection (método de sitio)
-uuid: 52abc42a-9506-4492-b219-f2e05eb79c5f
+title: Método del sitio buildCollection
+description: Método del sitio buildCollection
+exl-id: d5c9a2fb-2d30-44f4-8ebf-24b0ec7babee
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 17%
+source-wordcount: '60'
+ht-degree: 15%
 
 ---
 
-
-# buildCollection Site Method{#buildcollection-site-method}
+# Método del sitio buildCollection{#buildcollection-site-method}
 
 | Variable | Tipo | Descripción |
 |--- |--- |--- |
 | type | CollectionType | Tipo de colección. |
 | title | Cadena | Título de la colección. |
-| articleId | Cadena | ID única del artículo que eligió para identificar una colección dentro del sitio. |
-| url | Cadena | Dirección URL absoluta canónica de esta colección. |
+| articleId | Cadena | ID de artículo único que eligió para identificar una colección dentro del sitio. |
+| url | Cadena | La URL absoluta canónica de esta colección. |
 
 ## Ejemplo de Java {#section_nyl_ycs_rz}
 
