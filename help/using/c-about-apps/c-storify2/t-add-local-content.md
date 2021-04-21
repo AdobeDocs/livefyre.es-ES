@@ -1,26 +1,22 @@
 ---
-description: Storify le permite añadir contenido en cualquier posición del artículo.
-seo-description: Storify le permite añadir contenido en cualquier posición del artículo.
-seo-title: Añadir texto
-solution: Experience Manager
-title: Añadir texto
-uuid: 01dba567-daf9-4cfa-9671-b85f3d132ddc
+description: Storify le permite añadir contenido en cualquier posición de su artículo.
+title: Agregar texto
+exl-id: 627eb641-e911-49c5-b060-d0d8f2599394
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
+# Agregar texto{#add-text}
 
-# Añadir texto{#add-text}
+Storify le permite añadir contenido en cualquier posición de su artículo.
 
-Storify le permite añadir contenido en cualquier posición del artículo.
-
-Utilice el panel de contenido del editor para vista de los borradores y buscar contenido para añadir contexto a su artículo. Utilice la ficha Editor para crear una línea de historia, agregar contexto a los elementos del artículo y crear una narrativa para la página.
+Utilice el panel de contenido del editor para ver los borradores y encontrar fragmentos de contenido para agregar contexto al artículo. Utilice la ficha Editor para crear una línea de historias, añadir contexto a los elementos de la historia y crear una narrativa para la página.
 
 Los elementos de contenido se pueden editar o cambiar de posición. El texto se puede diseñar con opciones de formato estándar, como negrita, cursiva, subrayado y tachado.
 
-1. Haga clic en la página para crear un nuevo elemento de texto, que luego se podrá arrastrar para volver a colocarlo en cualquier lugar dentro de la línea de historia.
-1. Haga clic en el texto existente y, a continuación, utilice la barra de menús de formato que se abre para cambiarle el estilo. Las opciones disponibles incluyen titulares, comillas, listas ordenadas y sin ordenar, negrita, tachado, subrayado y cursiva.
+1. Haga clic en la página para crear un nuevo elemento de texto, que luego se puede arrastrar para colocarlo de nuevo en cualquier lugar dentro de la línea de artículo.
+1. Haga clic en el texto existente y, a continuación, utilice la barra de menú de formato que se abre para restaurarlo. Las opciones disponibles son titulares, comillas, listas ordenadas y sin ordenar, negrita, tachado, subrayado y cursiva.
