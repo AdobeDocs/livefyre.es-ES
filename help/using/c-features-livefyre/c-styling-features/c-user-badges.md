@@ -1,28 +1,24 @@
 ---
-description: Utilice CSS con etiquetas de usuario para crear distintivos de usuario para los miembros de su comunidad.
-seo-description: Utilice CSS con etiquetas de usuario para crear distintivos de usuario para los miembros de su comunidad.
-seo-title: Insignias de usuario
-title: Insignias de usuario
-uuid: ff1451e1-7eb3-45dc-8c5a-1a6d1313e344
+description: Use CSS con etiquetas de usuario para crear distintivos de usuario para los miembros de su comunidad.
+title: Distintivos de usuario
+exl-id: ae51ee10-4536-43d9-abf2-8a724924a45f
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 1%
+source-wordcount: '91'
+ht-degree: 2%
 
 ---
 
+# Distintivos de usuario{#user-badges}
 
-# Insignias de usuario{#user-badges}
+Use CSS con etiquetas de usuario para crear distintivos de usuario para los miembros de su comunidad.
 
-Utilice CSS con etiquetas de usuario para crear distintivos de usuario para los miembros de su comunidad.
+Los distintivos de usuario son funciones de estilo personalizadas que le permiten aplicar estilo al contenido de Livefyre publicado por tipos de usuarios específicos (como moderadores, editores o cualquier otro grupo de usuarios que desee definir) en Livefyre Chat, Comentarios, Reseñas o Aplicaciones de blog en directo. Esto le permite resaltar este contenido para sus usuarios.
 
-Los distintivos de usuario son funciones de estilo personalizadas que le permiten aplicar estilo al contenido de Livefyre publicado por tipos de usuarios específicos (como moderadores, editores o cualquier otro grupo de usuarios que desee definir) en Livefyre Chat, Comments, Reviews o Live Blog Apps. Esto le permite resaltar este contenido para los usuarios.
-
-Aplicaciones que utilizan esta función:
+Aplicaciones que usan esta función:
 
 * [Conversación](../../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [Comentarios](/help/using/c-about-apps/c-comments/c-comments.md)
 * [Reseñas](../../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [Notas de identidad](../../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
-
+* [Notas](../../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
