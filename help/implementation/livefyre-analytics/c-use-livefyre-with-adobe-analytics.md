@@ -1,10 +1,10 @@
 ---
 description: Configure Adobe Analytics y Dynamic Tag Manager (DTM) para recopilar datos para aplicaciones de Livefyre.
+title: Uso de Livefyre con Adobe Analytics y Dynamic Tag Manager (DTM)
 exl-id: a866782d-fca6-48bf-9fb8-5080e396919b
-translation-type: tm+mt
-source-git-commit: 24d016fbb2771487f8105b2ca0bb0d03dd60cfc1
+source-git-commit: cbe23e8c253f1531418f18424e180d1adc16e426
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1027'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 Configure Adobe Analytics y Dynamic Tag Manager (DTM) para recopilar datos para aplicaciones de Livefyre.
 
-## Paso 1: Configurar eventos en Adobe Analytics {#section_iks_kgd_4cb}
+## Paso 1: Configuración de eventos en Adobe Analytics {#section_iks_kgd_4cb}
 
 Asigne eventos de Livefyre a uno o más eventos de éxito personalizados en el Administrador de grupos de informes de Adobe Analytics.
 
@@ -52,7 +52,7 @@ Establezca los siguientes parámetros para la herramienta:
    * Activar **[!UICONTROL Authenticate via Marketing Cloud]**.
 1. Agregue o confirme el nombre del grupo de informes con eventos de Livefyre al campo **[!UICONTROL Report Suites]**.
 
-## Paso 4: Configure una regla de carga de página para configurar la administración de Analytics {#section_jfj_j3d_4cb}
+## Paso 4: Configurar una regla de carga de página para configurar la administración de Analytics {#section_jfj_j3d_4cb}
 
 Configure una regla de carga de página para extraer todos los datos. La regla de carga de página permite colocar el código javascript personalizado en la regla que registra el evento cuando se carga la página.
 
