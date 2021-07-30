@@ -2,8 +2,7 @@
 description: Para agregar una aplicación al sitio, primero debe crear una aplicación en Livefyre Studio.
 title: Crear una aplicación
 exl-id: 1d87ae99-3529-497c-b533-13f212abeacd
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 64596886ff960b34cee08b2a91cba5390a593089
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -85,11 +84,9 @@ El modo de vista previa ofrece las siguientes opciones:
 
 * **[!UICONTROL Preview Options]**: Utilice el menú desplegable para seleccionar un formato de vista previa (móvil, tableta o escritorio) y si desea mostrar  **[!UICONTROL Sample Data]** o los datos de flujo de la aplicación.
 
-* 
-
->[!NOTE]
->
->Si anula la selección de **[!UICONTROL Sample Data]** y no hay ningún flujo habilitado para la aplicación, no se muestra ningún contenido en el modo de vista previa.
+   >[!NOTE]
+   >
+   >Si anula la selección de **[!UICONTROL Sample Data]** y no hay ningún flujo habilitado para la aplicación, no se muestra ningún contenido en el modo de vista previa.
 
 * **[!UICONTROL Share]**: Abre la aplicación en una nueva ficha del explorador y genera una URL, que puede usarse para permitir que amigos, compañeros o usuarios que no sean de Studio revisen la aplicación y probarla en distintos navegadores y dispositivos.
 
@@ -111,7 +108,7 @@ App Designer guarda automáticamente la aplicación después de realizar un camb
 >
 >Al hacer clic en **[!UICONTROL Publish]** se genera un código incrustado para la aplicación y se actualizan todas las instancias existentes de la aplicación si se han publicado previamente.
 
-## Revisar el historial de aplicaciones {#section_jsk_vmt_bbb}
+## Revisar historial de aplicaciones {#section_jsk_vmt_bbb}
 
 App Designer guarda automáticamente la aplicación después de realizar un cambio y genera una nueva versión para cada cambio. Puede utilizar **[!UICONTROL History]** para abrir un panel que enumere todas las versiones de la aplicación. Las versiones mostradas mostrarán el editor de cada versión y su edad.
 
