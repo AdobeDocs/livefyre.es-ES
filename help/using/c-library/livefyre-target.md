@@ -2,21 +2,20 @@
 description: La integración de Livefyre con Adobe Target le permite compartir aplicaciones de Livefyre directamente con la biblioteca de ofertas de Target.
 title: Uso de Adobe Experience Manager Livefyre con Adobe Target
 exl-id: 0110fb81-9051-4f8c-9195-dff1a5eed029
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 53aead87db517e6f68266a66115889509287a287
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
 
 ---
 
-# Usar Adobe Experience Manager Livefyre con Adobe Target {#livefyre-target}
+# Uso de Adobe Experience Manager Livefyre con Adobe Target {#livefyre-target}
 
 La integración de Livefyre con Adobe Target le permite compartir aplicaciones de Livefyre directamente con la biblioteca de ofertas de Target.
 
 ## Conectar una instancia de Livefyre con Target {#connect-livefyre-target}
 
-Para conectar una instancia de Livefyre con Adobe Target, vincule la cuenta IMS de Adobe en la configuración del usuario.
+Para conectar una instancia de Livefyre con Adobe Target, vincule su cuenta de Adobe IMS en la configuración del usuario.
 
 1. En Livefyre Studio, haga clic en la pestaña **[!UICONTROL Users]**.
 
@@ -26,7 +25,7 @@ Para conectar una instancia de Livefyre con Adobe Target, vincule la cuenta IMS 
 
 1. Introduzca sus credenciales de IMS.
 
-Las instancias de producto en las que la cuenta de IMS de Adobe tiene acceso para mostrarse en la ventana Integración de IMS de Adobe.
+Las instancias de producto en las que la cuenta de Adobe IMS tiene acceso para mostrarse en la ventana Adobe IMS Integration .
 
 ![](assets/livefyre-target-connect.png)
 
@@ -52,4 +51,4 @@ Aparece una lista de instancias de Target.
 
 1. Haga clic  **[!UICONTROL Publish]**.
 
-La aplicación Livefyre ya está disponible para usar en la biblioteca de ofertas de Target. Para obtener más información sobre la publicación de aplicaciones, consulte [Publicar contenido](/help/using/c-library/t-publish-content.md) y [Ofertas](https://docs.adobe.com/content/help/en/target/using/experiences/offers/manage-content.html) en la documentación de Target.
+La aplicación Livefyre ya está disponible para usar en la biblioteca de ofertas de Target. Para obtener más información sobre la publicación de aplicaciones, consulte [Publicar contenido](/help/using/c-library/t-publish-content.md) y [Ofertas](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=en) en la documentación de Target.

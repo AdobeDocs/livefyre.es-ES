@@ -2,8 +2,7 @@
 title: Eventos de análisis de Livefyre
 description: Eventos de análisis de Livefyre
 exl-id: ec32414c-0580-44dc-ae5b-6df0b42c0ec3
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 53aead87db517e6f68266a66115889509287a287
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 4%
@@ -41,9 +40,9 @@ El siguiente código define los campos del objeto de evento que recibe el contro
 }
 ```
 
-## Eventos y eVars de Livefyre Analytics {#section_u3k_tft_mcb}
+## eVars y eventos de análisis de Livefyre {#section_u3k_tft_mcb}
 
-Los siguientes eventos de Livefyre para asignarlos a eventos personalizados y utilizarlos en informes mediante el Administrador del grupo de informes. Para obtener más información sobre los grupos de informes en Adobe Analytics, consulte [Administrador del grupo de informes](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html). Para obtener más información sobre cómo usar eventos de Livefyre con el Administrador de grupos de informes, consulte [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
+Los siguientes eventos de Livefyre para asignarlos a eventos personalizados y utilizarlos en informes mediante el Administrador del grupo de informes. Para obtener más información sobre los grupos de informes en Adobe Analytics, consulte [Administrador del grupo de informes](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=en). Para obtener más información sobre cómo usar eventos de Livefyre con el Administrador de grupos de informes, consulte [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
 
 ## Eventos de análisis de Livefyre
 
@@ -96,7 +95,7 @@ La siguiente es una lista de variables de conversión (eVars) que proporciona Li
 
 Para obtener más información sobre los temas tratados en esta página, consulte:
 
-* [Administrador del grupo ](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)[de informesDTM](https://docs.adobe.com/content/help/en/livefyre/using/apps/filmstrip/c-filmstrip-app.html)
+* [Administrador del grupo ](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=en)[de informesDTM](https://experienceleague.adobe.com/docs/livefyre/using/apps/filmstrip/c-filmstrip-app.html?lang=en)
 
-* [Reglas](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/create-rules.html)
+* [Reglas](https://experienceleague.adobe.com/docs/dtm/using/resources/rules/create-rules.html?lang=en)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)
