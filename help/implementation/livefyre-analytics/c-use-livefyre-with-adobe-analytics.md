@@ -2,9 +2,9 @@
 description: Configure Adobe Analytics y Dynamic Tag Manager (DTM) para recopilar datos para aplicaciones de Livefyre.
 title: Uso de Livefyre con Adobe Analytics y Dynamic Tag Manager (DTM)
 exl-id: a866782d-fca6-48bf-9fb8-5080e396919b
-source-git-commit: 53aead87db517e6f68266a66115889509287a287
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1009'
 ht-degree: 1%
 
 ---
@@ -31,14 +31,16 @@ Asigne variables de conversión de Livefyre (eVars) a variables de conversión e
 
 1. En el Administrador del grupo de informes, haga clic en **[!UICONTROL Edit Settings > Conversion > Conversion Variables]**.
 1. Elija las variables de conversión personalizadas (eVars) que desee usar y asígnelas a las variables de conversión de Livefyre. Para asignar una variable de conversión de Livefyre a una variable de conversión personalizada:
-* Habilitar la variable de conversión
-* Asigne un nombre a la variable de conversión.
-* Asigne un tipo a la variable de conversión
+
+   * Habilitar la variable de conversión
+   * Asigne un nombre a la variable de conversión.
+   * Asigne un tipo a la variable de conversión
+
 1. Guarde las variables de conversión personalizadas.
 
 ## Paso 3: Usar DTM para agregar su grupo de informes con eventos de Livefyre {#section_t15_2hd_4cb}
 
-Agregue Adobe Analytics a DTM para que Analytics funcione. Para ello, cree una nueva propiedad y herramienta y añada el nuevo grupo de informes con eventos de Livefyre a la propiedad . Para obtener más información sobre DTM, consulte [DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en).
+Utilice etiquetas para integrar Analytics con eventos de Livefyre. Para ello, cree una nueva propiedad y herramienta y añada el nuevo grupo de informes con eventos de Livefyre a la propiedad . Para obtener más información, consulte [Información general sobre etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 
 No es necesario realizar este paso si ya tiene una propiedad o herramienta configurada para el grupo de informes configurado con eventos de Livefyre.
 
@@ -65,7 +67,7 @@ Configure una regla de carga de página para extraer todos los datos. La regla d
 1. Haga clic en el botón **[!UICONTROL Create New Rule]**.
 1. Abra la sección **[!UICONTROL Conditions]** haciendo clic en el botón **[!UICONTROL Plus]**.
 1. Déclencheur la regla. Elija los tipos de déclencheur **[!UICONTROL DOM Ready]** o **[!UICONTROL Onload]** si desea retrasar o implementar la regla de forma asíncrona.
-1. (Opcional) Añada parámetros adicionales para limitar las páginas que muestran aplicaciones de Livefyre. Para obtener más información sobre las opciones de configuración adicionales, consulte [DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en).
+1. (Opcional) Añada parámetros adicionales para limitar las páginas que muestran aplicaciones de Livefyre. Para obtener más información sobre las opciones de configuración adicionales, consulte [Información general sobre etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 1. En **[!UICONTROL Javascript/ Third Party Tags]**, haga clic en la pestaña **[!UICONTROL Non-sequential]** y, a continuación, haga clic en **[!UICONTROL Add New Script]**.
 1. Seleccione **[!UICONTROL Sequential HTML]** como tipo de script.
 1. Agregue la siguiente secuencia de comandos al editor de código y haga clic en **[!UICONTROL Save Code]**.
@@ -306,6 +308,5 @@ function addAnalyticsHandler() {
 Para obtener más información sobre los temas tratados en esta página, consulte:
 
 * [Administrador del grupo de informes](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=en)
-* [DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en)
-* [Reglas](https://experienceleague.adobe.com/docs/dtm/using/resources/rules/create-rules.html?lang=en)
+* [Información general sobre etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)

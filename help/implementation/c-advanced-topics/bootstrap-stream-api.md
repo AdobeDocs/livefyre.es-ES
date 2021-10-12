@@ -2,17 +2,16 @@
 description: Use la API de Bootstrap y flujo con aplicaciones de Livefyre.
 title: Visualización de los detalles de la cuenta
 exl-id: b8458954-3727-4c4d-93dd-d21a4328e069
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
 
-# Usar la API de Bootstrap y flujo con las aplicaciones de Livefyre {#bootstrap-stream-api}
+# Uso de la API de Bootstrap y flujo con aplicaciones de Livefyre {#bootstrap-stream-api}
 
-## API del Bootstrap {#bootstrap-api}
+## API de Bootstrap {#bootstrap-api}
 
 ### ¿Cómo puedo recuperar contenido anterior a las 50 piezas más recientes? {#howcontentolder}
 
@@ -30,11 +29,9 @@ Por ejemplo, una aplicación de ejemplo tiene 120 fragmentos de contenido. El co
 
 * `Init` cargará ~120-70 fragmentos de contenido en orden descendente:  [https://data.livefyre.com/bs3/v3.1/dharam.fyre.co/384931/NTU1NQ==/init](https://data.livefyre.com/bs3/v3.1/dharam.fyre.co/384931/NTU1NQ==/init)
 
-* `O.json` cargará ~ 1-50 fragmentos de contenido en orden ascendente:  [https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/0.json](https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/0.json)
-
-* `1.json` cargará ~ 51-100 fragmentos de contenido en orden ascendente:  [https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/1.json](https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/1.json)
-
-* `2.json` cargará ~101-120 fragmentos de contenido en orden ascendente: [https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/2.json](https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/2.json)
+* `O.json` cargará ~ 1-50 fragmentos de contenido en orden ascendente:  `https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/0.json`
+* `1.json` cargará ~ 51-100 fragmentos de contenido en orden ascendente:  `https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/1.json`
+* `2.json` cargará ~101-120 fragmentos de contenido en orden ascendente:`https://data.livefyre.com/bs3/v3.1//dharam.fyre.co/384931/NTU1NQ==/2.json`
 
 [Haga clic aquí para ver el diagrama de flujo de la encuesta del Bootstrap.](https://marketing-resource-help.s3.amazonaws.com/resources/help/en_US/livefyre/bootstrap-poll-flowchart.pdf)
 
@@ -47,7 +44,7 @@ Este extremo de sondeo prolongado transmite contenido nuevo (por ejemplo, un usu
 
 La solicitud a la API de flujo debe ser de ~30 segundos (sondeo largo) con el tiempo de espera esperado después de 30 segundos cuando no se transmita ningún contenido nuevo.
 
-Referencia de API: [https://api.livefyre.com/docs/apis/by-category/collections#operation=urn:livefyre:apis:stream1:operations:v3.1:collection:updates:method=get](https://api.livefyre.com/docs/apis/by-category/collections#operation=urn:livefyre:apis:stream1:operations:v3.1:collection:updates:method=get)
+Referencia de API: [https://api.livefyre.com/docs/apis/by-category/collections#operation=urn:livefyre:apis:stream1:operaciones:v3.1:collection:actualizaciones:method=get](https://api.livefyre.com/docs/apis/by-category/collections#operation=urn:livefyre:apis:stream1:operations:v3.1:collection:updates:method=get)
 
 Solicitud de ejemplo:
 

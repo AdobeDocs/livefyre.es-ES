@@ -2,8 +2,7 @@
 description: Instalación de bibliotecas para tareas del lado del servidor de Livefyre
 title: Instalación
 exl-id: d74f85be-14c0-4f6d-8f16-b688282c0eb0
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -113,7 +112,7 @@ La biblioteca PHP tiene dependencias en los siguientes módulos:
 
 Para obtener más información, lea los documentos PHP o vea la fuente en [GitHub](https://github.com/Livefyre/livefyre-php-utils).
 
-Vínculos: [ext-json](https://php.net/manual/en/book.json.php), [Solicitudes](https://github.com/rmccue/Requests/), [PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
+Vínculos: [ext-json](https://www.php.net/manual/en/book.json.php), [Solicitudes](https://github.com/rmccue/Requests/), [PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
 
 ## Python {#section_irk_fxq_rz}
 

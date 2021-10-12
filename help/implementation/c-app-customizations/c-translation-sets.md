@@ -2,21 +2,16 @@
 description: Los conjuntos de traducciones permiten especificar un idioma alternativo para las aplicaciones.
 title: Conjuntos de traducción
 exl-id: 688138bf-f8e9-4fe5-99e2-2451deefd217
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1302'
 ht-degree: 7%
 
 ---
 
-# Conjuntos de traducciones {#translation-sets}
+# Conjuntos de traducción {#translation-sets}
 
 Los conjuntos de traducciones permiten especificar un idioma alternativo para las aplicaciones.
-
-<!-- 
-c_translation_sets.dita
--->
 
 Utilice la configuración de traducción para localizar aplicaciones en varios idiomas o para especificar texto alternativo para varias aplicaciones desde una ubicación en Studio. Por ejemplo, puede asegurarse de que todos los sitios en español utilicen español para todos los campos de la aplicación. También puede modificar el texto para que todos los campos coincidan con la voz y la presentación de su sitio o red.
 
@@ -63,7 +58,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## Revisar / Interfaz de Clasificación {#section_iyv_zj4_xz}
+## Interfaz de revisión/clasificación {#section_iyv_zj4_xz}
 
 Cadenas disponibles para la interfaz de usuario de Revisión y Clasificación.
 
@@ -91,7 +86,7 @@ Cadenas disponibles para la interfaz de usuario de Revisión y Clasificación.
 |  | outOf | / |
 |  | ratingType | star |
 
-## Información de emisión {#section_wmv_yj4_xz}
+## Información de flujo {#section_wmv_yj4_xz}
 
 Cadenas disponibles para la visualización e información del flujo de contenido.
 
@@ -99,9 +94,9 @@ Cadenas disponibles para la visualización e información del flujo de contenido
 |---|---|---|
 | *Clasificación* |  |  |
 |  | sortBy | *En blanco de forma predeterminada.* |
-|  | sortHighestRated | [Clasificación más alta](https://d.pr/i/huTd) |
-|  | sortLowestRated | [Clasificación más baja](https://d.pr/i/huTd) |
-|  | sortMostHelpful | [Más útil](https://d.pr/i/huTd) |
+|  | sortHighestRated | Clasificación más alta |
+|  | sortLowestRated | Clasificación más baja |
+|  | sortMostHelpful | Más útil |
 | *Flujo misc.* |  |  |
 |  | showMore | Mostrar más |
 | *Flujo a gran velocidad* |  |  |
@@ -124,7 +119,7 @@ Cadenas disponibles para la información de contenido individual y de autor.
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
 | *Desglose de subprocesos* |  |  |
-|  | reviewContentNotFoundMsg | [Esta revisión ya no es visible](https://d.pr/i/svXs) |
+|  | reviewContentNotFoundMsg | Esta revisión ya no es visible |
 |  | backToComments | Volver a las revisiones |
 
 ## Acciones del usuario {#section_tlx_wj4_xz}
@@ -134,12 +129,12 @@ Cadenas disponibles para acciones del usuario: marcar, compartir y marcar el con
 | Elemento | Clave | Texto predeterminado |
 |---|---|---|
 | *Pie de comentario* |  |  |
-|  | wasReviewHelpful | [¿Útil?](https://d.pr/i/Q0mA) |
+|  | wasReviewHelpful | ¿Útil? |
 |  | wasReviewHelpfulMobile | ¿Útil? |
-|  | ownDidReviewHelpful | [Encontré útil.](https://d.pr/i/Q0mA) |
-|  | reviewDidHelpful | [Sí](https://d.pr/i/Q0mA) |
-|  | helpDivider | [&amp;vert;](https://d.pr/i/Q0mA) |
-|  | reviewDidNotHelpful | [No ](https://d.pr/i/Q0mA) |
+|  | ownDidReviewHelpful | Encontré útil. |
+|  | reviewDidHelpful | Sí |
+|  | helpDivider | &amp;vert; |
+|  | reviewDidNotHelpful | No |
 | *Modo de voto* |  |  |
 |  | voteTitle | ¿Fue útil esta revisión? |
 |  | voteDownvote | No |
@@ -202,7 +197,7 @@ Cadenas disponibles para mensajes de error generales.
 |  | errorTitleMaxChars | Lo siento, tu título es demasiado largo. Edite e inténtelo de nuevo. |
 |  | errorVoteOwnComment | No puede votar por su propia revisión |
 
-## Muestra las cadenas de texto {#c_sidenotes_text_strings}
+## Notas de cadena de texto {#c_sidenotes_text_strings}
 
 Personalización de las cadenas de texto para notas de Livefyre
 
@@ -255,7 +250,7 @@ Cadenas disponibles para el proceso de autenticación y en los menús de usuario
 |  | menuUserLogout | Cerrar sesión |
 |  | menuUserBackBtn | Todas |
 
-## Información de emisión {#section_wpy_gl4_xz}
+## Información de flujo {#section_wpy_gl4_xz}
 
 Cadenas disponibles para la visualización e información del flujo de contenido.
 
@@ -346,7 +341,7 @@ Cadenas disponibles para los usuarios que publican contenido.
 |  | menuEtcPostedAt | Publicado el {fecha} |
 |  | menuEtcTitle | Más |
 
-## Interfaz de moderador {#section_o5f_dl4_xz}
+## Interfaz del moderador {#section_o5f_dl4_xz}
 
 Cadenas disponibles para la interfaz de moderador autenticada por el usuario.
 
