@@ -2,8 +2,7 @@
 description: El panel Uso compartido en medios sociales le permite agregar sus credenciales de aplicación de red de medios sociales.
 title: Configuración del uso compartido en medios sociales
 exl-id: aa940263-4cec-4ca3-aa74-84749e4cf2d0
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: b1177a52f3c4eb20b684dbf26bf699912937b988
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 2%
@@ -60,9 +59,8 @@ Para habilitar los vínculos de intervalo de bits, introduzca la siguiente infor
 * **[!UICONTROL Login:]** El nombre de usuario final proporcionado por Bitly inicia sesión.
 * **[!UICONTROL API Key:]** La clave de API proporcionada por Bitly.
 
-
-
 Aplicaciones que usan esta función:
+
 * [Carrusel](/help/using/c-about-apps/c-carousel-app/c-carousel-app.md#c_carousel_app)
 * [Conversación](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [Comentarios](/help/using/c-about-apps/c-comments/c-comments.md)
