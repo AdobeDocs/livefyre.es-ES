@@ -2,10 +2,9 @@
 description: Analice la actividad de usuario, contenido y moderador del sitio.
 title: Analytics
 exl-id: dc0545ec-2294-44ab-87c4-67eb30c3f787
-translation-type: tm+mt
-source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
+source-git-commit: 9cd6617c4204b2c09787ea294227f640018928ce
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '677'
 ht-degree: 1%
 
 ---
@@ -24,16 +23,16 @@ Los tableros se pueden filtrar por sitio, fecha y actividad. Utilice el menú de
 
 Esta página describe:
 
-* Selección de un [intervalo de fechas](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#DateRange) para el tablero
-* [Mostrar u ocultar las actividades disponibles](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#ShowHideActivities)
-* [Exportación de datos del panel](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#ExportDashboardData)
-* [El panel Colecciones](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#CollectionsDashboard)
-* [Panel de moderación](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#ModerationDashboard)
-* [El panel Usuarios](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#UsersDashboard)
+* Selección de un intervalo de fechas para el tablero
+* Mostrar/ocultar actividades disponibles
+* Exportación de datos del panel
+* El panel Colecciones
+* Panel de moderación
+* El panel Usuarios
 
 >[!NOTE]
 >
->Actualmente, Analytics admite actividades que se originan en las aplicaciones principales y la moderación de Livefyre. La mayoría de las actividades incluidas en estos paneles también están disponibles a través de [Eventos JavaScript de Livefyre](https://answers.livefyre.com/developers/reference/app-customizations/javascript-events/), que pueden utilizarse para impulsar su propia herramienta de análisis personalizada o de terceros.
+>Actualmente, Analytics admite actividades que se originan en las aplicaciones principales y la moderación de Livefyre. La mayoría de las actividades incluidas en estos paneles también están disponibles a través de Eventos JavaScript de Livefyre, que pueden utilizarse para impulsar su propia herramienta de análisis personalizada o de terceros.
 
 ## Intervalo de fechas {#concept_798C438120E643B6BE262C9997DC87C4}
 
@@ -43,18 +42,18 @@ Haga clic en el menú desplegable de fechas para seleccionar un intervalo que mo
 
 Fechas rápidas:
 
-* **Hoy:** muestra datos desde la medianoche de la mañana del día actual hasta la última hora completa antes de este momento.
-* **Ayer:** muestra los datos de las 24 horas anteriores.
-* **7 días:** muestra los datos de los 7 días anteriores, sin incluir el día actual.
-* **30 días:** muestra los datos de los 30 días anteriores, sin incluir el día actual.
-* **Esta semana:** muestra datos desde la medianoche del domingo pasado por la mañana hasta la última hora completa antes de este momento.
-* **Este mes:** muestra datos desde la medianoche de la mañana del primer día del mes actual hasta la última hora completa antes de este momento.
-* **Última semana:** muestra los datos de la semana pasada.
-* **Último mes:** muestra los datos del mes pasado.
+* **Hoy:** Muestra datos desde la medianoche de la mañana del día actual hasta la última hora completa antes de este momento.
+* **Ayer:** Muestra los datos de las 24 horas anteriores.
+* **7 días:** Muestra los datos de los 7 días anteriores, sin incluir el día actual.
+* **30 días:** Muestra los datos de los 30 días anteriores, sin incluir el día actual.
+* **Esta semana:** Muestra datos desde la medianoche del domingo pasado, hasta la última hora completa antes de este momento.
+* **Este mes:** Muestra datos desde la medianoche del primer día del mes actual hasta la última hora completa antes de este momento.
+* **La semana pasada:** Muestra los datos de la semana pasada.
+* **Último mes:** Muestra los datos del mes pasado.
 
 ## Mostrar/ocultar actividades {#concept_022D9851CBCE4A2FB80D0AE52A23744D}
 
-Las actividades son acciones que los usuarios realizan en el sitio, como comentar, marcar, compartir y moderar. Utilice el menú desplegable **Show/Hide Activities** para seleccionar las actividades que desea incluir en el panel.
+Las actividades son acciones que los usuarios realizan en el sitio, como comentar, marcar, compartir y moderar. Utilice la variable **Mostrar/ocultar actividades** para seleccionar las actividades que desea incluir en el panel.
 
 >[!NOTE]
 >
@@ -64,22 +63,22 @@ Las actividades son acciones que los usuarios realizan en el sitio, como comenta
 
 Las actividades disponibles varían según el tipo de panel y la exportación, y pueden incluir:
 
-* **Anuncios:** muestra datos desde la medianoche de la mañana del día actual hasta la última hora completa antes de este momento.
-* **Respuestas:** muestra los datos de las 24 horas anteriores.
-* **Cantidad de &quot;Me gusta&quot;:** muestra los datos de los 7 días anteriores, sin incluir el día actual.
-* **Cantidad de &quot;No me gusta&quot;:** muestra los datos de los 30 días anteriores, sin incluir el día actual.
-* **Contiene contenidos:** muestra datos desde la medianoche del domingo pasado, hasta la última hora completa antes de este momento.
-* **Publicación con carga de foto:** muestra datos desde la medianoche del primer día del mes actual hasta la última hora completa antes de este momento.
-* **El anuncio tiene vínculo:** muestra los datos de la semana pasada.
-* **La publicación tiene @mentions:** muestra los datos del mes pasado.
-* **Aprobado:** muestra los datos del mes pasado.
-* **Bozo&#39;d:** muestra los datos del mes pasado.
-* **Enviar a la papelera:** muestra los datos del mes pasado.
-* **Total de moderación:** muestra los datos del mes pasado.
+* **Anuncios:** Muestra datos desde la medianoche de la mañana del día actual hasta la última hora completa antes de este momento.
+* **Respuestas:** Muestra los datos de las 24 horas anteriores.
+* **Cantidad de &quot;Me gusta&quot;:** Muestra los datos de los 7 días anteriores, sin incluir el día actual.
+* **No me gusta:** Muestra los datos de los 30 días anteriores, sin incluir el día actual.
+* **Contiene medios:** Muestra datos desde la medianoche del domingo pasado, hasta la última hora completa antes de este momento.
+* **El anuncio tiene carga de foto:** Muestra datos desde la medianoche del primer día del mes actual hasta la última hora completa antes de este momento.
+* **El anuncio tiene un vínculo:** Muestra los datos de la semana pasada.
+* **La publicación tiene @mentions:** Muestra los datos del mes pasado.
+* **Aprobado:** Muestra los datos del mes pasado.
+* **Bozo&#39;d:** Muestra los datos del mes pasado.
+* **Destruido:** Muestra los datos del mes pasado.
+* **Total de moderación:** Muestra los datos del mes pasado.
 
-## Exportación de datos de panel {#concept_730DB61A9F894BE6BFB34E0E2A421ED3}
+## Exportación de datos del panel {#concept_730DB61A9F894BE6BFB34E0E2A421ED3}
 
-Utilice el menú desplegable **Export** para exportar los datos del tablero como un archivo CSV.
+Utilice la variable **Exportar** menú desplegable para exportar los datos del tablero como un archivo CSV.
 
 * Resumen diario (solo colecciones): exporta los recuentos diarios de la última semana completa para cada colección.
 * Datos de tabla: exporta todos los datos resumidos de Colecciones (todas las columnas y todas las filas del informe actual).
